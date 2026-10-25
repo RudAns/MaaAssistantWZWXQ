@@ -1,0 +1,1772 @@
+{
+ "三三得三": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "一个响指": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -9.31,
+  "impl": true
+ },
+ "5阶英雄": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -1.13,
+  "impl": true
+ },
+ "一起发财": {
+  "diff": 3,
+  "n": 6,
+  "mean_dev": 1.07,
+  "impl": true
+ },
+ "一身是胆": {
+  "diff": 5,
+  "n": 6,
+  "mean_dev": 1.5,
+  "impl": true
+ },
+ "一分钱一分货": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -11.37,
+  "impl": true
+ },
+ "三分增援": {
+  "diff": 3,
+  "n": 6,
+  "mean_dev": -0.8,
+  "impl": true
+ },
+ "三人游": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -0.91,
+  "impl": true
+ },
+ "三分来客": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 0.01,
+  "impl": true
+ },
+ "三分新援": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 0.07,
+  "impl": true
+ },
+ "三分征召令": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -4.4,
+  "impl": true
+ },
+ "三分精兵": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 0.47,
+  "impl": true
+ },
+ "三十而立": {
+  "diff": 1,
+  "n": 6,
+  "mean_dev": -0.12,
+  "impl": true
+ },
+ "三分领袖": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "中坚力量": {
+  "diff": 5,
+  "n": 6,
+  "mean_dev": 1.12,
+  "impl": true
+ },
+ "三十而达": {
+  "diff": 1,
+  "n": 6,
+  "mean_dev": -0.12,
+  "impl": true
+ },
+ "丝绸之路": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "专注射击": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "中流砥柱": {
+  "diff": 5,
+  "n": 6,
+  "mean_dev": 1.27,
+  "impl": true
+ },
+ "乐善好施": {
+  "diff": 1,
+  "n": 6,
+  "mean_dev": 0.14,
+  "impl": true
+ },
+ "临时增幅": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -1.82,
+  "impl": true
+ },
+ "乘胜追击": {
+  "diff": 1,
+  "n": 6,
+  "mean_dev": 0.02,
+  "impl": true
+ },
+ "买橘子去": {
+  "diff": 5,
+  "n": 6,
+  "mean_dev": 3.89,
+  "impl": true
+ },
+ "二象性": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -9.73,
+  "impl": true
+ },
+ "人才市场": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -8.97,
+  "impl": true
+ },
+ "人才济济": {
+  "diff": 4,
+  "n": 6,
+  "mean_dev": -0.34,
+  "impl": true
+ },
+ "令行如流": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 1.16,
+  "impl": true
+ },
+ "五福临门": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -9.06,
+  "impl": true
+ },
+ "体面离场": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "传家宝": {
+  "diff": 1,
+  "n": 6,
+  "mean_dev": 0.5,
+  "impl": true
+ },
+ "伤害转化器": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -0.53,
+  "impl": true
+ },
+ "保持进步": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 4.86,
+  "impl": true
+ },
+ "兄妹": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 1.63,
+  "impl": true
+ },
+ "光棱塔": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "先苦后甜": {
+  "diff": 1,
+  "n": 6,
+  "mean_dev": -0.12,
+  "impl": true
+ },
+ "全副武装": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -0.98,
+  "impl": true
+ },
+ "光辉圣铠": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "全军列阵": {
+  "diff": 4,
+  "n": 6,
+  "mean_dev": -0.6,
+  "impl": true
+ },
+ "全域共鸣": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 0.16,
+  "impl": true
+ },
+ "兵行诡招": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "兽觉": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -0.69,
+  "impl": true
+ },
+ "前线堡垒": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "刻舟减蓝": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "加速成长": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 7.31,
+  "impl": true
+ },
+ "前浪的荣光": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -2.48,
+  "impl": true
+ },
+ "分身镜": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "动能灌注": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "凯旋征召": {
+  "diff": 4,
+  "n": 6,
+  "mean_dev": 6.11,
+  "impl": true
+ },
+ "化为熊灵": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "千金换酒": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -3.45,
+  "impl": true
+ },
+ "千里相聚": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "升值": {
+  "diff": 4,
+  "n": 6,
+  "mean_dev": 2.05,
+  "impl": true
+ },
+ "升格": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "协同一致": {
+  "diff": 5,
+  "n": 6,
+  "mean_dev": 3.83,
+  "impl": true
+ },
+ "卧薪尝胆": {
+  "diff": 1,
+  "n": 6,
+  "mean_dev": -0.12,
+  "impl": true
+ },
+ "卧龙威势": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -0.04,
+  "impl": true
+ },
+ "厉兵秣马": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -0.98,
+  "impl": true
+ },
+ "双人游": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -3.36,
+  "impl": true
+ },
+ "双生突袭": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "双重分配": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "双生相": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "古币契约": {
+  "diff": 3,
+  "n": 6,
+  "mean_dev": 2.38,
+  "impl": true
+ },
+ "危险数字": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 4.57,
+  "impl": true
+ },
+ "古币翻新": {
+  "diff": 4,
+  "n": 6,
+  "mean_dev": 5.02,
+  "impl": true
+ },
+ "同心协力": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "古币机": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "同路人": {
+  "diff": 1,
+  "n": 6,
+  "mean_dev": 0.95,
+  "impl": true
+ },
+ "命运图腾": {
+  "diff": 1,
+  "n": 6,
+  "mean_dev": 0.72,
+  "impl": true
+ },
+ "命运馈赠": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": false
+ },
+ "噬神之书": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "呼朋唤友": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "唤鹰骨笛": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "四人同行": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -2.21,
+  "impl": true
+ },
+ "四海来援": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "因缘际会": {
+  "diff": 5,
+  "n": 6,
+  "mean_dev": 4.17,
+  "impl": true
+ },
+ "场外供能": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "四重奏": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "图腾启灵": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 5.28,
+  "impl": true
+ },
+ "复现": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "坚不可摧": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "复印机": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 11.16,
+  "impl": true
+ },
+ "多彩古币": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -13.53,
+  "impl": true
+ },
+ "大河来客": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -0.08,
+  "impl": true
+ },
+ "大河增援": {
+  "diff": 5,
+  "n": 6,
+  "mean_dev": 3.72,
+  "impl": true
+ },
+ "大河新援": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -10.75,
+  "impl": true
+ },
+ "大河精兵": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -2.01,
+  "impl": true
+ },
+ "大明星": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 7.56,
+  "impl": true
+ },
+ "大河强援": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -3.59,
+  "impl": true
+ },
+ "夺取之术": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "天兵": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 3.48,
+  "impl": true
+ },
+ "如法炮制": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -0.98,
+  "impl": true
+ },
+ "好聚好散": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -6.98,
+  "impl": true
+ },
+ "存款利息": {
+  "diff": 5,
+  "n": 6,
+  "mean_dev": -0.17,
+  "impl": true
+ },
+ "学识宝石": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "守护灵": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "学霸": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -2.49,
+  "impl": true
+ },
+ "始祖熊灵": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -2.06,
+  "impl": true
+ },
+ "定向传输": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "小小的助力": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "小咖秀": {
+  "diff": 3,
+  "n": 6,
+  "mean_dev": -2.19,
+  "impl": true
+ },
+ "富贵险中求": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -9.28,
+  "impl": true
+ },
+ "宝盒": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 7.41,
+  "impl": true
+ },
+ "小电池包": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -2.49,
+  "impl": true
+ },
+ "小身体大能量": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "巨像": {
+  "diff": 5,
+  "n": 6,
+  "mean_dev": -3.55,
+  "impl": true
+ },
+ "崛起": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 0.75,
+  "impl": true
+ },
+ "开局狂飙": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "常胜将军": {
+  "diff": 3,
+  "n": 6,
+  "mean_dev": 0.03,
+  "impl": true
+ },
+ "幸运硬币": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "延迟满足": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 24.11,
+  "impl": true
+ },
+ "强力小弟": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "弦音": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "强者自强": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "强者恒强": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "微弱优势": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "征服之剑": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "慕名而来": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "怒涛": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "意外之财": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "怒神项链": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "战前叫阵": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "成年礼": {
+  "diff": 2,
+  "n": 6,
+  "mean_dev": -5.74,
+  "impl": true
+ },
+ "战争头牌": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -13.66,
+  "impl": true
+ },
+ "战术模组": {
+  "diff": 4,
+  "n": 6,
+  "mean_dev": -4.52,
+  "impl": true
+ },
+ "扩编名额": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "扩编高峰": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "战略中枢": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 1.63,
+  "impl": true
+ },
+ "拾荒者": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "护命灵珠": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "拍卖专家": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "抢攻": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -0.98,
+  "impl": true
+ },
+ "技高一筹": {
+  "diff": 3,
+  "n": 6,
+  "mean_dev": 0.01,
+  "impl": true
+ },
+ "捕能手套": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "挂帅上阵": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "控制感应": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "控能达人": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 2.16,
+  "impl": true
+ },
+ "援军": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -1.25,
+  "impl": true
+ },
+ "控魂": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "摄人心魄": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "搏战": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "搏命": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 6.0,
+  "impl": true
+ },
+ "擂台猛虎": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "整装待发": {
+  "diff": 4,
+  "n": 6,
+  "mean_dev": 0.79,
+  "impl": true
+ },
+ "新生力量": {
+  "diff": 4,
+  "n": 6,
+  "mean_dev": -4.52,
+  "impl": true
+ },
+ "旋刃": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -10.17,
+  "impl": true
+ },
+ "断念": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "无影手": {
+  "diff": 3,
+  "n": 6,
+  "mean_dev": 0.43,
+  "impl": true
+ },
+ "日落海增援": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 2.58,
+  "impl": true
+ },
+ "无限进步": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 2.84,
+  "impl": true
+ },
+ "日落海精兵": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -4.42,
+  "impl": true
+ },
+ "星源装甲": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "日落海新援": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -9.37,
+  "impl": true
+ },
+ "日落海强援": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 1.14,
+  "impl": true
+ },
+ "星源合金盾": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "日落海来客": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 0.32,
+  "impl": true
+ },
+ "智能装甲": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -9.19,
+  "impl": true
+ },
+ "春风化雨": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 0.22,
+  "impl": true
+ },
+ "最终守卫": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "暴君归来": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "望梅止渴": {
+  "diff": 2,
+  "n": 6,
+  "mean_dev": 1.16,
+  "impl": true
+ },
+ "有叶新生": {
+  "diff": 1,
+  "n": 6,
+  "mean_dev": 3.4,
+  "impl": true
+ },
+ "有舍有得": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 1.25,
+  "impl": true
+ },
+ "末世": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "枫之洪流": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "机器头": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "极限操作": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 2.45,
+  "impl": true
+ },
+ "核心裂痕": {
+  "diff": 1,
+  "n": 6,
+  "mean_dev": 0.97,
+  "impl": true
+ },
+ "梦魇之牙": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "水晶穹顶": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "永不独行": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -8.22,
+  "impl": true
+ },
+ "求贤": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "沙海甘泉": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 0.92,
+  "impl": true
+ },
+ "河洛增援": {
+  "diff": 5,
+  "n": 6,
+  "mean_dev": -0.28,
+  "impl": true
+ },
+ "河洛征召令": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -4.59,
+  "impl": true
+ },
+ "河洛强援": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 0.23,
+  "impl": true
+ },
+ "河洛新援": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -12.15,
+  "impl": true
+ },
+ "河洛来客": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 0.94,
+  "impl": true
+ },
+ "泉水": {
+  "diff": 4,
+  "n": 6,
+  "mean_dev": -2.03,
+  "impl": true
+ },
+ "河洛精兵": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -0.2,
+  "impl": true
+ },
+ "法潮灵杖": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "消费返利": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 7.85,
+  "impl": true
+ },
+ "混沌次元": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -37.92,
+  "impl": true
+ },
+ "演武": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "灵泉法杖": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "灵祭升华": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "灵泉项链": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "点兵点将": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 11.16,
+  "impl": true
+ },
+ "照影": {
+  "diff": 4,
+  "n": 6,
+  "mean_dev": 4.39,
+  "impl": true
+ },
+ "熊魂附甲": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "狂野帷幕": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "猪猪": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "狂铁": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "狂铁·强化": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "王牌认证": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "献祭之赐": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -2.51,
+  "impl": true
+ },
+ "班叔的遗留物": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "王牌部队": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "生命绽放": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -8.92,
+  "impl": true
+ },
+ "瓶中人": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "电磁弹簧强化": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "生生不息": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "百锻刀": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "电池包": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 0.04,
+  "impl": true
+ },
+ "盗火": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "盛华": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "瞬步无影": {
+  "diff": 1,
+  "n": 6,
+  "mean_dev": 3.4,
+  "impl": true
+ },
+ "瞬影连斩": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "破格": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "破妄之刃": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "破败神威": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "破败之力": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "破阵战芒": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "磐石之心": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "碰碰运气": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "祝你好运": {
+  "diff": 4,
+  "n": 6,
+  "mean_dev": 7.03,
+  "impl": true
+ },
+ "神明庇佑": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "神秘英雄": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -2.74,
+  "impl": true
+ },
+ "积少成多": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "神鹰锻匠": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 0.27,
+  "impl": true
+ },
+ "穷兵黩武": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "积极整备": {
+  "diff": 1,
+  "n": 6,
+  "mean_dev": 0.02,
+  "impl": true
+ },
+ "站这别动": {
+  "diff": 4,
+  "n": 6,
+  "mean_dev": 3.25,
+  "impl": true
+ },
+ "箭雨": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -12.63,
+  "impl": true
+ },
+ "紧急救援": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -5.06,
+  "impl": true
+ },
+ "紧急行动": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -2.46,
+  "impl": true
+ },
+ "红豆之托": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -2.07,
+  "impl": true
+ },
+ "结伴": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 1.86,
+  "impl": true
+ },
+ "绝对领域": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "绝境逆袭": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "终极复印机": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 11.59,
+  "impl": true
+ },
+ "罡气护体": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "群星璀璨": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -1.56,
+  "impl": true
+ },
+ "翩跹馈赠": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "群英荟萃": {
+  "diff": 2,
+  "n": 6,
+  "mean_dev": 0.8,
+  "impl": true
+ },
+ "能源置换": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "能量改造": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "胜之不武": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "聚灵法杖": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "能量汲取": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "膨化生命": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "节能商店": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "荆棘牢笼": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "自适应武装": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 5.79,
+  "impl": true
+ },
+ "自我奉献": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "虚妄转生": {
+  "diff": 5,
+  "n": 6,
+  "mean_dev": 2.89,
+  "impl": true
+ },
+ "落英汲取": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "蔚蓝神兽": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "虚构武装": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "虚构装备": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "补给线：整备": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -1.99,
+  "impl": true
+ },
+ "贷款协议": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "补给线：牺牲": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 4.95,
+  "impl": true
+ },
+ "补给线：开团": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -3.13,
+  "impl": true
+ },
+ "贤士登门": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -0.63,
+  "impl": true
+ },
+ "装备箱": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -4.05,
+  "impl": true
+ },
+ "补给线：登场": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 1.19,
+  "impl": true
+ },
+ "资深猎头": {
+  "diff": 4,
+  "n": 6,
+  "mean_dev": 3.05,
+  "impl": true
+ },
+ "起舞": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 7.42,
+  "impl": true
+ },
+ "超专注射击": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "超速成长": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 10.81,
+  "impl": true
+ },
+ "超级蓄能": {
+  "diff": 5,
+  "n": 6,
+  "mean_dev": 4.38,
+  "impl": true
+ },
+ "身外身": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -8.03,
+  "impl": true
+ },
+ "透支": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "逐星": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -2.06,
+  "impl": true
+ },
+ "逆袭之路": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "逐鹿新援": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -12.7,
+  "impl": true
+ },
+ "逐鹿增援": {
+  "diff": 5,
+  "n": 6,
+  "mean_dev": -2.25,
+  "impl": true
+ },
+ "逐鹿精兵": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -1.42,
+  "impl": true
+ },
+ "遗志": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "逐鹿来客": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 6.39,
+  "impl": true
+ },
+ "重装上阵": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "重大里程碑": {
+  "diff": 2,
+  "n": 6,
+  "mean_dev": -7.35,
+  "impl": true
+ },
+ "里程碑": {
+  "diff": 2,
+  "n": 6,
+  "mean_dev": -2.14,
+  "impl": true
+ },
+ "金算盘": {
+  "diff": 2,
+  "n": 6,
+  "mean_dev": 0.72,
+  "impl": true
+ },
+ "钱生战力": {
+  "diff": 3,
+  "n": 6,
+  "mean_dev": 2.07,
+  "impl": true
+ },
+ "银算盘": {
+  "diff": 2,
+  "n": 6,
+  "mean_dev": 0.56,
+  "impl": true
+ },
+ "锦囊妙计": {
+  "diff": 1,
+  "n": 6,
+  "mean_dev": 1.5,
+  "impl": true
+ },
+ "镜像": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": false
+ },
+ "防御领域": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "镜像迷离": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": false
+ },
+ "阿科米亚之子": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "限制性进化": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 0.6,
+  "impl": true
+ },
+ "随机强化": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 6.32,
+  "impl": true
+ },
+ "随机成长": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -0.64,
+  "impl": true
+ },
+ "随机进化": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": 1.4,
+  "impl": true
+ },
+ "青莲剑谱": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "零钱兑换": {
+  "diff": 2,
+  "n": 6,
+  "mean_dev": -2.89,
+  "impl": true
+ },
+ "静谧之铃": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "预言家": {
+  "diff": 6,
+  "n": 6,
+  "mean_dev": -0.85,
+  "impl": true
+ },
+ "驱雷": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "魂祭绝刃": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "魂灭灵冠": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "鼓舞之戒": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "鬼神降临": {
+  "diff": 0,
+  "n": 6,
+  "mean_dev": 0.0,
+  "impl": true
+ },
+ "鲸吞": {
+  "diff": 5,
+  "n": 6,
+  "mean_dev": -1.01,
+  "impl": true
+ }
+}

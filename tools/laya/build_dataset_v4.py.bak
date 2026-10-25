@@ -1,0 +1,317 @@
+"""从历史对局日志抽取**决策点**（局面 + 候选项），供 Claude 标注、Laya 训练。
+
+路线（用户 2026-09-23 修正）：**不以规则引擎为老师**（规则并不完美，与它的一致率不能当验证依据）；
+老师 = Claude（Opus 5.5）按标注规范（docs/laya-report/labeling-guide.md）给出的软分布 + 理由。
+规则引擎当时的选择只作为参考字段 `rule_choice` 保留（用于对照分析，不参与训练/验证）。
+
+输入：data/logs/live_*/states.jsonl（逐帧：state + 规则引擎给出的 actions + 是否 executed）
+      data/logs/live_*/ledger.jsonl（账本：上场/卖出/换主C…，用来还原场上阵容和主C）
+      data/logs/live_*/phase_settle_final_*.png（结算页，认名次）
+输出：data/laya/datasets/<ver>/points.jsonl（全部决策点）+ split.json（按对局切分）+ stats.json
+
+四类决策（都是 Laya 的 choice 题）：
+  card_pick   卡牌 N 选 1（3~5 个候选）
+  talent      天赋三选一（+ 可选"刷新"）
+  lord_boost  棋手特性三选一
+  shop        商店行动：买某张 / 刷新 / 升级 / 不买了
+
+用法：.venv/Scripts/python.exe -X utf8 tools/laya/build_dataset.py --ver v1
+"""
+from __future__ import annotations
+
+import argparse
+import collections
+import glob
+import hashlib
+import json
+import os
+import random
+import re
+import sys
+import time
+from pathlib import Path
+
+PROJECT_DIR = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(PROJECT_DIR))
+sys.path.insert(0, str(PROJECT_DIR / "tools" / "laya"))
+
+import features as F  # noqa: E402
+
+AUCTION_ROUNDS = (4, 8, 11)
+
+
+def auction_in(rnd: int):
+    nxt = [r for r in AUCTION_ROUNDS if r >= rnd]
+    return (nxt[0] - rnd) if nxt else None
+
+
+def load_ledger(run_dir: Path) -> list[dict]:
+    f = run_dir / "ledger.jsonl"
+    out = []
+    if f.exists():
+        for line in f.read_text(encoding="utf-8").splitlines():
+            try:
+                out.append(json.loads(line))
+            except ValueError:
+                pass
+    return out
+
+
+def board_from_ledger(ledger: list[dict], upto_round: int) -> tuple[dict, str]:
+    """用账本近似还原"第 upto_round 回合开始时"的场上阵容和主C（账本事件没有时间戳，同回合内先后还原不了）。"""
+    field: dict = {}
+    carry = ""
+    last_round = 0
+    for e in ledger:
+        r = e.get("round")
+        if r is None:
+            r = last_round
+        else:
+            last_round = r
+        ev = e.get("event")
+        if ev == "换主C" and r <= upto_round:
+            carry = e.get("新") or carry
+        if r >= upto_round:
+            continue
+        name = e.get("英雄") or e.get("牌")
+        if ev == "上场" and name:
+            field[name] = {}
+        elif ev in ("卖出", "判定觉醒回手", "推断离场") and name:
+            field.pop(name, None)
+        elif ev == "落点修正" and e.get("英雄"):
+            field.setdefault(e["英雄"], {})
+    return field, carry
+
+
+def _standing(s: dict, hp) -> tuple:
+    """六人血条 → (名次, 存活人数)。自己那行按 state.hp 算（players 里的"我"那行偶有误读）。"""
+    others = [p.get("hp") for p in (s.get("players") or []) if p.get("name") != "我"]
+    others = [h for h in others if isinstance(h, int) and 0 < h <= 60]
+    if not isinstance(hp, int) or not others:
+        return None, None
+    return 1 + sum(1 for h in others if h > hp), len(others) + 1
+
+
+def ctx_from_state(s: dict, prev: dict) -> dict:
+    ctx = dict(prev)
+    hp = s.get("hp")
+    hp = hp if isinstance(hp, int) and 0 < hp <= 60 else prev.get("hp")    # f3：>60 必是误读（上限 60）
+    rank, alive = _standing(s, hp)
+    ctx.update({
+        "round": s.get("round_no") or prev.get("round"),
+        "hp": hp,
+        "rank": rank or prev.get("rank"), "alive": alive or prev.get("alive"),
+        "xp": s.get("xp"), "xp_needed": s.get("xp_needed"),
+        "units_seen": len(s.get("unit_anchors") or {}) if s.get("board_seen") or s.get("unit_anchors") else None,
+        "gold": s.get("gold"),
+        "level": s.get("level"),
+        "level_cost": s.get("level_cost"),
+        "pop": s.get("population") if s.get("population_valid") else prev.get("pop", "?"),
+        "pop_cap": s.get("population_cap") if s.get("population_valid") else prev.get("pop_cap", "?"),
+        "banned": s.get("banned_faction") or prev.get("banned", ""),
+        "hand": [h["name"] for h in (s.get("hand_slots") or [])] or s.get("hand") or [],
+        "unit_levels": sorted((s.get("unit_levels") or {}).values(), reverse=True)[:8],
+        "free_refresh": s.get("free_refresh") or 0,
+    })
+    ctx["auction_in"] = auction_in(ctx["round"] or 0)
+    return ctx
+
+
+CTX_KEYS = ("round", "hp", "gold", "level", "level_cost", "pop", "pop_cap", "banned", "hand", "carry",
+            "auction_in", "auction_done", "rank", "alive", "xp", "xp_needed", "free_refresh", "units_seen",
+            "unit_levels", "level_fixed", "level_raw", "shop_max_tier")
+
+
+def make_point(kind, qdef, rule_key, ctx, meta, extra_cards=None, raw=None):
+    keys = list(qdef["criteria"].keys())
+    if len(keys) < 2:
+        return None                       # 只有一个选项不是决策
+    return {"kind": kind, "question": qdef, "state": F.state_text(ctx, extra_cards=extra_cards),
+            "options": keys, "n_opt": len(keys),
+            "rule_choice": rule_key if rule_key in keys else None,
+            "raw": raw or {}, "ctx": {k: ctx.get(k) for k in CTX_KEYS},
+            "field": list((ctx.get("field") or {}).keys()), **meta}
+
+
+def extract_run(run_dir: Path) -> list[dict]:
+    f = run_dir / "states.jsonl"
+    if not f.exists():
+        return []
+    ledger = load_ledger(run_dir)
+    out = []
+    ctx: dict = {}
+    auction_round = -1
+    for line in f.read_text(encoding="utf-8").splitlines():
+        try:
+            x = json.loads(line)
+        except ValueError:
+            continue
+        s = x.get("state") or {}
+        ph = s.get("phase")
+        if ph == "prepare":
+            ctx = ctx_from_state(s, ctx)
+        if ph == "auction":
+            auction_round = s.get("round_no") or ctx.get("round") or 0
+        if not x.get("executed") or not x.get("actions"):
+            continue
+        a = x["actions"][0]
+        t = a.get("type")
+        rnd = s.get("round_no") or ctx.get("round") or 0
+        field, carry = board_from_ledger(ledger, rnd)
+        c = dict(ctx, field=field, carry=carry, round=rnd, auction_done=(auction_round == rnd))
+        meta = {"run": run_dir.name, "ts": x.get("ts"), "round": rnd}
+        p = None
+        if t == "card_pick" and ph == "card_pick" and s.get("card_options"):
+            opts = [F.clean_name(o["name"]) for o in s["card_options"]]
+            if len(set(opts)) == len(opts):
+                key = f"opt{opts.index(a['piece'])}" if a.get("piece") in opts else None
+                p = make_point("card_pick", F.q_card_pick(opts, c), key, c, meta, extra_cards=opts,
+                               raw={"cards": opts})
+        elif t in ("talent_pick", "talent_refresh") and ph == "talent" and s.get("talents"):
+            opts = [(F.clean_name(tt["name"]), tt.get("desc", "")) for tt in s["talents"]]
+            can_ref = bool(s.get("talent_can_refresh")) or t == "talent_refresh"
+            key = "refresh" if t == "talent_refresh" else f"opt{a.get('index', -1)}"
+            p = make_point("talent", F.q_talent(opts, c, can_ref), key, c, meta,
+                           extra_cards=opts, raw={"talents": opts})
+        elif t == "lord_boost_pick" and ph == "lord_boost" and s.get("talents"):
+            opts = [(F.clean_name(tt["name"]), tt.get("desc", "")) for tt in s["talents"]]
+            p = make_point("lord_boost", F.q_lord_boost(opts, c), f"opt{a.get('index', -1)}", c, meta,
+                           extra_cards=opts, raw={"boosts": opts})
+        elif ph == "prepare" and s.get("shop_open") and t in ("buy_piece", "refresh_shop", "buy_xp", "toggle_shop"):
+            if t == "toggle_shop" and a.get("intent") != "close":
+                continue
+            gold = s.get("gold") or 0
+            shop = [(sl["index"], F.clean_name(sl["piece"]), sl.get("cost") or 3) for sl in s.get("shop") or []
+                    if sl.get("piece") and not sl.get("sold") and (sl.get("cost") or 3) <= gold]
+            can_ref = gold >= 2 or (s.get("free_refresh") or 0) > 0
+            lc = s.get("level_cost") or -1
+            # f3：升级费没读出来也给"升级"选项（老师：等级明显落后却没有 levelup 可选）；按钮由执行层 OCR 定位
+            can_lv = not s.get("lord_maxed") and (c.get("level") or 0) < 6 and                 ((lc > 0 and gold >= lc) or (lc <= 0 and gold >= 4))
+            # f3：等级读数与商店品阶矛盾时，按"这个品阶最早几级出现"修正（3 级商店出 4 阶牌 → 至少 4 级）
+            try:
+                from agent.decision.meta import min_level_for
+                need = max([min_level_for(F.card_tier(n)) for _, n, _ in shop
+                            if F.card_tier(n) and F.card_category(n) == "hero"] or [0])
+            except Exception:                                   # noqa: BLE001
+                need = 0
+            if need and (c.get("level") or 0) < need:
+                # 老师视图仍显示修正后的等级（与 v3 标注一致）；学生视图（f4）显示原始读数 + 商店最高品阶
+                c = dict(c, level_raw=c.get("level"), level=need, level_fixed=True, shop_max_tier=need)
+            key = {"buy_piece": f"buy{a.get('slot')}", "refresh_shop": "refresh", "buy_xp": "levelup",
+                   "toggle_shop": "stop"}[t]
+            if t == "buy_piece":        # 同名牌合并后，规则买的那一格映射到保留的那一格
+                name = next((n for sl, n, _ in shop if sl == a.get("slot")), None)
+                kept = next((sl for sl, n, _ in F.dedupe_shop(shop) if n == name), None)
+                if kept is not None:
+                    key = f"buy{kept}"
+            p = make_point("shop", F.q_shop(shop, c, can_ref, can_lv), key, c, meta,
+                           extra_cards=[n for _, n, _ in F.dedupe_shop(shop)], raw={"shop": shop})
+        if p:
+            out.append(p)
+    return out
+
+
+def group_matches(points: list[dict]) -> list[dict]:
+    """按时间排序，回合号往回跳（下降超过 1）或间隔超过 30 分钟 = 新的一局。"""
+    points.sort(key=lambda s: (s["ts"] or 0))
+    mid, last_r, last_ts = 0, 0, 0
+    for s in points:
+        r = s["round"] or 0
+        if (r and r < last_r - 1) or (s["ts"] and last_ts and s["ts"] - last_ts > 1800):
+            mid += 1
+        s["match"] = mid
+        if r:
+            last_r = r
+        last_ts = s["ts"] or last_ts
+    return points
+
+
+def ranks_for_matches(points: list[dict]) -> dict:
+    """每局的名次：这一局用到的目录里、最后一个决策点之后 15 分钟内的结算页截图，认绿色名字那一行。"""
+    try:
+        import cv2
+        from agent.perception.extractors import _imread
+        sys.path.insert(0, str(PROJECT_DIR / "tools"))
+        from live_match_agent import read_my_rank
+    except Exception as e:                                    # noqa: BLE001
+        print("认名次的依赖加载失败，名次留空：", e)
+        return {}
+    by_match = collections.defaultdict(lambda: {"dirs": set(), "t1": 0})
+    for s in points:
+        m = by_match[s["match"]]
+        m["dirs"].add(s["run"])
+        m["t1"] = max(m["t1"], s["ts"] or 0)
+    out = {}
+    for mid, m in by_match.items():
+        cands = []
+        for d in m["dirs"]:
+            for f in glob.glob(str(PROJECT_DIR / "data/logs" / d / "phase_settle_final_*.png")):
+                t = int(re.search(r"_(\d+)\.png$", f).group(1))
+                if m["t1"] <= t <= m["t1"] + 900:
+                    cands.append((t, f))
+        for t, f in sorted(cands):
+            r = read_my_rank(cv2.cvtColor(_imread(Path(f)), cv2.COLOR_BGR2RGB))
+            if r:
+                out[mid] = r
+                break
+    return out
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--ver", default="v1")
+    ap.add_argument("--seed", type=int, default=42)
+    args = ap.parse_args()
+    t0 = time.time()
+    points = []
+    runs = sorted(Path(p) for p in glob.glob(str(PROJECT_DIR / "data/logs/live_*")) if os.path.isdir(p))
+    for rd in runs:
+        points += extract_run(rd)
+    n_raw = len(points)
+    points = group_matches(points)
+    # 去重：同一局同一回合同一道题（选项一样）只留一条 —— 规则引擎每帧都会重算、执行层会重发
+    seen, uniq = set(), []
+    for s in points:
+        key = (s["match"], s["round"], s["kind"], json.dumps(s["question"]["criteria"], ensure_ascii=False,
+                                                               sort_keys=True))
+        if key in seen:
+            continue
+        seen.add(key)
+        uniq.append(s)
+    points = uniq
+    ranks = ranks_for_matches(points)
+    for s in points:
+        s["rank"] = ranks.get(s["match"])
+        s["id"] = hashlib.md5(f"{s['run']}|{s['ts']}|{s['kind']}".encode()).hexdigest()[:12]
+        s["feature_version"] = F.FEATURE_VERSION
+    matches = sorted({s["match"] for s in points})
+    rng = random.Random(args.seed)
+    rng.shuffle(matches)
+    n = len(matches)
+    split = {m: ("test" if i < max(1, n // 10) else "val" if i < max(2, n // 5) else "train")
+             for i, m in enumerate(matches)}
+    for s in points:
+        s["split"] = split[s["match"]]
+    out_dir = PROJECT_DIR / "data" / "laya" / "datasets" / args.ver
+    out_dir.mkdir(parents=True, exist_ok=True)
+    with (out_dir / "points.jsonl").open("w", encoding="utf-8") as fh:
+        for r in points:
+            fh.write(json.dumps(r, ensure_ascii=False) + "\n")
+    stats = {
+        "version": args.ver, "feature_version": F.FEATURE_VERSION, "seed": args.seed,
+        "built_at": time.strftime("%Y-%m-%d %H:%M:%S"), "runs": len(runs), "raw_points": n_raw,
+        "points": len(points), "matches": n, "matches_with_rank": len(ranks),
+        "rank_hist": dict(collections.Counter(ranks.values())),
+        "by_split_kind": {sp: dict(collections.Counter(r["kind"] for r in points if r["split"] == sp))
+                          for sp in ("train", "val", "test")},
+        "n_opt_hist": dict(collections.Counter(s["n_opt"] for s in points)),
+        "random_baseline_acc": round(sum(1 / s["n_opt"] for s in points) / max(1, len(points)), 4),
+        "seconds": round(time.time() - t0, 1),
+    }
+    (out_dir / "stats.json").write_text(json.dumps(stats, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(json.dumps(stats, ensure_ascii=False, indent=1))
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

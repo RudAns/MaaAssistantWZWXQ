@@ -1,0 +1,100 @@
+{
+    "WzwxqMain": {
+        "doc": "主入口：对局内全阶段循环（匹配/进局由玩家手动或后续大厅节点完成）",
+        "recognition": "DirectHit",
+        "action": "DoNothing",
+        "next": ["GameLoop"]
+    },
+    "WzwxqInGame": {
+        "doc": "仅对局内辅助的入口",
+        "recognition": "DirectHit",
+        "action": "DoNothing",
+        "next": ["GameLoop"]
+    },
+    "GameLoop": {
+        "doc": "对局主循环：按优先级识别阶段并分支。天赋/结算是模态，优先处理",
+        "recognition": "DirectHit",
+        "action": "DoNothing",
+        "next": [
+            "DetectSettle",
+            "DetectTalent",
+            "DetectAuction",
+            "DetectHeroPick",
+            "DetectPrepare",
+            "DetectBattle",
+            "IdleTick"
+        ]
+    },
+    "DetectSettle": {
+        "doc": "出局/结算：出现'尚未结束'或'立即结算' → 点立即结算",
+        "recognition": "OCR",
+        "roi": [440, 260, 420, 100],
+        "expected": "尚未结束|立即结算|排名",
+        "action": "Click",
+        "target": [474, 594, 320, 40],
+        "post_delay": 1500,
+        "next": ["GameLoop"],
+        "timeout": 800
+    },
+    "DetectTalent": {
+        "doc": "天赋三选一（模态，不选就一直在）：识别底部'全局1次' → 规则引擎选天赋",
+        "recognition": "OCR",
+        "roi": [580, 610, 240, 45],
+        "expected": "全局",
+        "action": "Custom",
+        "custom_action": "WzwxqDecide",
+        "post_delay": 800,
+        "next": ["GameLoop"],
+        "timeout": 800
+    },
+    "DetectAuction": {
+        "doc": "拍卖：顶部'预览/拍卖' → 拍卖决策（引擎内含出价节奏与上限）",
+        "recognition": "OCR",
+        "roi": [520, 0, 320, 50],
+        "expected": "预览|拍卖",
+        "action": "Custom",
+        "custom_action": "WzwxqDecide",
+        "post_delay": 600,
+        "next": ["GameLoop"],
+        "timeout": 800
+    },
+    "DetectHeroPick": {
+        "doc": "选棋手：顶部'选择棋手' → 默认选阿离并确认",
+        "recognition": "OCR",
+        "roi": [600, 0, 220, 50],
+        "expected": "选择棋手",
+        "action": "Custom",
+        "custom_action": "WzwxqHeroPick",
+        "post_delay": 1000,
+        "next": ["GameLoop"],
+        "timeout": 800
+    },
+    "DetectPrepare": {
+        "doc": "准备阶段：右侧'免费刷新'或'当前概率' → 买牌/布阵/升级决策",
+        "recognition": "OCR",
+        "roi": [1140, 290, 140, 90],
+        "expected": "刷新",
+        "action": "Custom",
+        "custom_action": "WzwxqDecide",
+        "post_delay": 2000,
+        "next": ["GameLoop"],
+        "timeout": 800
+    },
+    "DetectBattle": {
+        "doc": "战斗阶段：右侧'战斗统计' → 等待（可开商店看牌但不能用牌，暂不操作）",
+        "recognition": "OCR",
+        "roi": [1100, 50, 180, 50],
+        "expected": "战斗统计",
+        "action": "DoNothing",
+        "post_delay": 3000,
+        "next": ["GameLoop"],
+        "timeout": 800
+    },
+    "IdleTick": {
+        "doc": "兜底：读条/过场等未识别界面，1 秒后重试",
+        "recognition": "DirectHit",
+        "action": "DoNothing",
+        "post_delay": 1000,
+        "next": ["GameLoop"]
+    }
+}

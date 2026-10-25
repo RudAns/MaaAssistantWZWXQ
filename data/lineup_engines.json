@@ -1,0 +1,10694 @@
+{
+ "10004": {
+  "name": "常小娥海陆空",
+  "carry": "司空震",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 2.5,
+  "producers": [],
+  "amplifiers": [
+   "司空震"
+  ],
+  "payoff": [
+   "司空震"
+  ],
+  "complete": false
+ },
+ "10005": {
+  "name": "白歌三分倒转刺",
+  "carry": "孙悟空",
+  "lords": [
+   "白歌"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 14.0,
+  "producers": [
+   "曹操",
+   "甄姬",
+   "周瑜",
+   "阿轲",
+   "露娜",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "周瑜"
+  ],
+  "payoff": [
+   "孙悟空",
+   "甄姬",
+   "曹操",
+   "露娜",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "10003": {
+  "name": "无限复活木兰",
+  "carry": "李白",
+  "lords": [
+   "嬴律",
+   "庄小鱼",
+   "明先生"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 7.0,
+  "producers": [
+   "上官婉儿",
+   "程咬金"
+  ],
+  "amplifiers": [
+   "武则天",
+   "李白"
+  ],
+  "payoff": [
+   "李白",
+   "武则天"
+  ],
+  "complete": true
+ },
+ "79993358704523312": {
+  "name": "牺牲流李信",
+  "carry": "李信",
+  "lords": [
+   "瑶妹",
+   "嬴律",
+   "明先生"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 10.0,
+  "producers": [
+   "铠",
+   "花木兰",
+   "钟馗"
+  ],
+  "amplifiers": [
+   "李信",
+   "明世隐",
+   "大司命",
+   "太乙真人"
+  ],
+  "payoff": [
+   "李信"
+  ],
+  "complete": true
+ },
+ "100259557027692570": {
+  "name": "瑶妹牺牲李信",
+  "carry": "李信",
+  "lords": [
+   "瑶妹"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 9.5,
+  "producers": [
+   "铠",
+   "苏烈",
+   "钟馗",
+   "盾山"
+  ],
+  "amplifiers": [
+   "李信",
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [
+   "李信"
+  ],
+  "complete": true
+ },
+ "58601260474518566": {
+  "name": "三分倒转-肝帝\r",
+  "carry": "露娜",
+  "lords": [
+   "白歌",
+   "孙小宾",
+   "镜"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 13.0,
+  "producers": [
+   "曹操",
+   "甄姬",
+   "周瑜",
+   "阿轲",
+   "露娜"
+  ],
+  "amplifiers": [
+   "小乔",
+   "周瑜"
+  ],
+  "payoff": [
+   "孙悟空",
+   "甄姬",
+   "曹操",
+   "露娜",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "100822506981119016": {
+  "name": "嫦娥养艾琳",
+  "carry": "艾琳",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 2.0,
+  "producers": [
+   "狂铁"
+  ],
+  "amplifiers": [],
+  "payoff": [
+   "艾琳"
+  ],
+  "complete": false
+ },
+ "10011": {
+  "name": "逐鹿雷霆战机",
+  "carry": "嬴政",
+  "lords": [
+   "白歌",
+   "孙小宾",
+   "小妲己"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 10.0,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周",
+   "蒙犽",
+   "鲁班七号"
+  ],
+  "amplifiers": [
+   "芈月",
+   "嬴政"
+  ],
+  "payoff": [
+   "嬴政",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "78304508844282932": {
+  "name": "大河龙蛇",
+  "carry": "敖隐",
+  "lords": [
+   "瑶妹",
+   "昭君",
+   "闹闹"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 12.5,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "东皇太一",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [
+   "张良",
+   "干将莫邪",
+   "虞姬"
+  ],
+  "payoff": [
+   "虞姬",
+   "敖隐"
+  ],
+  "complete": true
+ },
+ "77178608937411622": {
+  "name": "香香大河开团射",
+  "carry": "少司缘",
+  "lords": [
+   "嬴律",
+   "香香",
+   "瑶妹"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 14.0,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "云中君",
+   "鬼谷子",
+   "少司缘"
+  ],
+  "amplifiers": [
+   "张良",
+   "云中君",
+   "干将莫邪",
+   "虞姬"
+  ],
+  "payoff": [
+   "公孙离",
+   "虞姬",
+   "云中君"
+  ],
+  "complete": true
+ },
+ "29890812850015338": {
+  "name": "轮椅流艾琳",
+  "carry": "艾琳",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 5.0,
+  "producers": [
+   "狂铁"
+  ],
+  "amplifiers": [
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "艾琳"
+  ],
+  "complete": true
+ },
+ "50720714303640586": {
+  "name": "阿离颗秒万暴守约",
+  "carry": "百里守约",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 8.5,
+  "producers": [
+   "铠",
+   "钟馗",
+   "盾山"
+  ],
+  "amplifiers": [
+   "百里守约",
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [
+   "百里守约"
+  ],
+  "complete": true
+ },
+ "46779311452662860": {
+  "name": "最强三分倒转",
+  "carry": "露娜",
+  "lords": [
+   "孙小宾",
+   "镜",
+   "白歌"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 13.0,
+  "producers": [
+   "曹操",
+   "甄姬",
+   "周瑜",
+   "阿轲",
+   "露娜"
+  ],
+  "amplifiers": [
+   "小乔",
+   "周瑜"
+  ],
+  "payoff": [
+   "孙悟空",
+   "甄姬",
+   "曹操",
+   "露娜",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "43964561685575724": {
+  "name": "最强赢政逐鹿倒转",
+  "carry": "嬴政",
+  "lords": [
+   "明先生",
+   "白歌",
+   "镜"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 10.0,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周",
+   "蒙犽",
+   "鲁班七号"
+  ],
+  "amplifiers": [
+   "芈月",
+   "嬴政"
+  ],
+  "payoff": [
+   "嬴政",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "68171409682682938": {
+  "name": "狂养李现流",
+  "carry": "李信",
+  "lords": [
+   "瑶妹",
+   "庄小鱼",
+   "闹闹"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 10.5,
+  "producers": [
+   "铠",
+   "花木兰",
+   "苏烈",
+   "钟馗",
+   "盾山"
+  ],
+  "amplifiers": [
+   "李信",
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [
+   "李信"
+  ],
+  "complete": true
+ },
+ "36646212291073100": {
+  "name": "雷霆战机嬴政",
+  "carry": "嬴政",
+  "lords": [
+   "闹闹",
+   "嬴律",
+   "明先生"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 11.0,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周",
+   "老夫子",
+   "蒙犽",
+   "鲁班七号"
+  ],
+  "amplifiers": [
+   "芈月",
+   "嬴政"
+  ],
+  "payoff": [
+   "嬴政",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "63667810055325750": {
+  "name": "全网最细常小鹅海",
+  "carry": "裴擒虎",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 2.5,
+  "producers": [],
+  "amplifiers": [
+   "司空震"
+  ],
+  "payoff": [
+   "司空震"
+  ],
+  "complete": false
+ },
+ "109829706235869310": {
+  "name": "日落海艾琳",
+  "carry": "艾琳",
+  "lords": [
+   "乔汐",
+   "常小娥"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 9.0,
+  "producers": [
+   "狂铁",
+   "安琪拉",
+   "米莱狄"
+  ],
+  "amplifiers": [
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "艾琳",
+   "安琪拉",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "87311708099024898": {
+  "name": "三分倒转-李由多",
+  "carry": "孙悟空",
+  "lords": [
+   "白歌",
+   "孙小宾",
+   "镜"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 14.0,
+  "producers": [
+   "曹操",
+   "甄姬",
+   "周瑜",
+   "阿轲",
+   "露娜",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "周瑜"
+  ],
+  "payoff": [
+   "孙悟空",
+   "甄姬",
+   "曹操",
+   "露娜",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "27639013036329042": {
+  "name": "闹闹三分诸葛",
+  "carry": "大乔",
+  "lords": [
+   "闹闹",
+   "白歌",
+   "庄小鱼"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 7.5,
+  "producers": [
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "蔡文姬",
+   "大乔"
+  ],
+  "payoff": [
+   "诸葛亮",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "116022909866611716": {
+  "name": "999伞干将海月",
+  "carry": "海月",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 1.5,
+  "producers": [],
+  "amplifiers": [
+   "干将莫邪"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "24824263269225488": {
+  "name": "一念神魔",
+  "carry": "李信",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 4.5,
+  "producers": [
+   "铠",
+   "苏烈"
+  ],
+  "amplifiers": [
+   "李信"
+  ],
+  "payoff": [
+   "李信"
+  ],
+  "complete": true
+ },
+ "18631813781582878": {
+  "name": "二保一艾琳",
+  "carry": "艾琳",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 2.0,
+  "producers": [
+   "狂铁"
+  ],
+  "amplifiers": [],
+  "payoff": [
+   "艾琳"
+  ],
+  "complete": false
+ },
+ "85622858238760966": {
+  "name": "单养玄策杀爆全场",
+  "carry": "百里玄策",
+  "lords": [
+   "姜导",
+   "嬴律",
+   "明先生"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 7.5,
+  "producers": [
+   "李元芳",
+   "上官婉儿",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [
+   "武则天"
+  ],
+  "payoff": [
+   "武则天",
+   "百里玄策"
+  ],
+  "complete": true
+ },
+ "57475360567689266": {
+  "name": "日落海艾琳",
+  "carry": "艾琳",
+  "lords": [
+   "昭君",
+   "瑶妹",
+   "明先生"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 9.0,
+  "producers": [
+   "狂铁",
+   "米莱狄",
+   "亚连"
+  ],
+  "amplifiers": [
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "艾琳",
+   "亚连",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "16380013967898682": {
+  "name": "999无阵营",
+  "carry": "明世隐",
+  "lords": [
+   "镜"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 1.5,
+  "producers": [],
+  "amplifiers": [
+   "明世隐"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "46779311452662852": {
+  "name": "马可万血猪",
+  "carry": "猪八戒",
+  "lords": [
+   "马可"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 3.0,
+  "producers": [
+   "曹操",
+   "孙尚香"
+  ],
+  "amplifiers": [],
+  "payoff": [
+   "曹操"
+  ],
+  "complete": false
+ },
+ "24824263269225564": {
+  "name": "炸盾廉颇",
+  "carry": "廉颇",
+  "lords": [
+   "姜导",
+   "白歌",
+   "闹闹"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 5.5,
+  "producers": [
+   "西施",
+   "白起"
+  ],
+  "amplifiers": [
+   "芈月"
+  ],
+  "payoff": [
+   "廉颇",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "40586861965034560": {
+  "name": "马瑶变猪流",
+  "carry": "吕布",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 2.0,
+  "producers": [
+   "瑶",
+   "吕布"
+  ],
+  "amplifiers": [],
+  "payoff": [],
+  "complete": false
+ },
+ "10007": {
+  "name": "马可三分射",
+  "carry": "公孙离",
+  "lords": [
+   "马可"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 11.0,
+  "producers": [
+   "曹操",
+   "甄姬",
+   "露娜",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "蔡文姬"
+  ],
+  "payoff": [
+   "甄姬",
+   "曹操",
+   "露娜",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "81682962224371724": {
+  "name": "阿离守约无限狙！",
+  "carry": "百里守约",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 9.5,
+  "producers": [
+   "铠",
+   "苏烈",
+   "钟馗",
+   "盾山"
+  ],
+  "amplifiers": [
+   "百里守约",
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [
+   "百里守约"
+  ],
+  "complete": true
+ },
+ "79993358704523366": {
+  "name": "日落海挂机流",
+  "carry": "安琪拉",
+  "lords": [
+   "白歌",
+   "香香",
+   "常小娥"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 12.5,
+  "producers": [
+   "狂铁",
+   "安琪拉",
+   "米莱狄",
+   "亚连"
+  ],
+  "amplifiers": [
+   "海诺",
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "海诺",
+   "亚连",
+   "安琪拉",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "89563507912701010": {
+  "name": "倒转雷霆战机",
+  "carry": "嬴政",
+  "lords": [
+   "白歌",
+   "明先生",
+   "嬴律"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 10.0,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周",
+   "蒙犽",
+   "鲁班七号"
+  ],
+  "amplifiers": [
+   "芈月",
+   "嬴政"
+  ],
+  "payoff": [
+   "嬴政",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "113770355909846072": {
+  "name": "乔汐速6司空震！",
+  "carry": "司空震",
+  "lords": [
+   "乔汐"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 4.0,
+  "producers": [],
+  "amplifiers": [
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [
+   "司空震"
+  ],
+  "complete": false
+ },
+ "117711759726825496": {
+  "name": "一枪清屏百里守约",
+  "carry": "百里守约",
+  "lords": [
+   "阿离",
+   "白歌",
+   "姜导"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 8.5,
+  "producers": [
+   "铠",
+   "苏烈",
+   "钟馗"
+  ],
+  "amplifiers": [
+   "百里守约",
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [
+   "百里守约"
+  ],
+  "complete": true
+ },
+ "38335062151329830": {
+  "name": "玉环日落海司空震",
+  "carry": "司空震",
+  "lords": [
+   "玉环",
+   "小妲己"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 5.5,
+  "producers": [
+   "狂铁",
+   "亚瑟",
+   "莱西奥"
+  ],
+  "amplifiers": [
+   "海诺"
+  ],
+  "payoff": [
+   "海诺"
+  ],
+  "complete": true
+ },
+ "77178608937411634": {
+  "name": "班叔雷霆战机",
+  "carry": "嬴政",
+  "lords": [
+   "班叔",
+   "白歌",
+   "小妲己"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 9.0,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周",
+   "鲁班七号"
+  ],
+  "amplifiers": [
+   "芈月",
+   "嬴政"
+  ],
+  "payoff": [
+   "嬴政",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "66482559822422156": {
+  "name": "玄策999",
+  "carry": "百里玄策",
+  "lords": [
+   "常小娥",
+   "姜导",
+   "瑶妹"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 5.0,
+  "producers": [
+   "李元芳",
+   "上官婉儿",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [],
+  "payoff": [
+   "百里玄策"
+  ],
+  "complete": false
+ },
+ "74363859170314304": {
+  "name": "北京人艾琳-烬川",
+  "carry": "艾琳",
+  "lords": [
+   "闹闹",
+   "庄小鱼"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 11.0,
+  "producers": [
+   "狂铁",
+   "米莱狄",
+   "亚连",
+   "露娜"
+  ],
+  "amplifiers": [
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "艾琳",
+   "亚连",
+   "露娜",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "103637256748212262": {
+  "name": "乔汐速6司空震",
+  "carry": "司空震",
+  "lords": [
+   "乔汐"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 6.0,
+  "producers": [
+   "程咬金"
+  ],
+  "amplifiers": [
+   "武则天",
+   "司空震"
+  ],
+  "payoff": [
+   "司空震",
+   "武则天"
+  ],
+  "complete": true
+ },
+ "11313464387092536": {
+  "name": "逐鹿战机",
+  "carry": "嬴政",
+  "lords": [
+   "嬴律",
+   "明先生"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 10.0,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周",
+   "蒙犽",
+   "鲁班七号"
+  ],
+  "amplifiers": [
+   "芈月",
+   "嬴政"
+  ],
+  "payoff": [
+   "嬴政",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "10750514433727564": {
+  "name": "乔夕速六司空震",
+  "carry": "司空震",
+  "lords": [
+   "乔汐"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 6.0,
+  "producers": [
+   "铠",
+   "钟馗"
+  ],
+  "amplifiers": [
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [
+   "司空震"
+  ],
+  "complete": true
+ },
+ "19194763735034944": {
+  "name": "姜导封神千级玄策",
+  "carry": "百里玄策",
+  "lords": [
+   "姜导"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 5.0,
+  "producers": [
+   "李元芳",
+   "上官婉儿",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [],
+  "payoff": [
+   "百里玄策"
+  ],
+  "complete": false
+ },
+ "107014956468725834": {
+  "name": "常小娥无脑前三",
+  "carry": "诸葛亮",
+  "lords": [
+   "常小娥",
+   "班叔",
+   "瑶妹"
+  ],
+  "engine": "skillcast",
+  "engine_name": "放技能",
+  "score": 3.5999999999999996,
+  "producers": [
+   "刘禅"
+  ],
+  "amplifiers": [
+   "孙膑",
+   "诸葛亮"
+  ],
+  "payoff": [
+   "孙膑",
+   "诸葛亮"
+  ],
+  "complete": true
+ },
+ "79430408751108286": {
+  "name": "瑶瑶马超",
+  "carry": "马超",
+  "lords": [
+   "瑶妹"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 4.5,
+  "producers": [
+   "瑶",
+   "太乙真人",
+   "吕布"
+  ],
+  "amplifiers": [
+   "干将莫邪"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "2098594233808928769": {
+  "name": "低压赢律无脑吃分",
+  "carry": "猪八戒",
+  "lords": [
+   "嬴律"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 10.0,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "太乙真人",
+   "鬼谷子",
+   "少司缘"
+  ],
+  "amplifiers": [
+   "干将莫邪",
+   "虞姬"
+  ],
+  "payoff": [
+   "公孙离",
+   "虞姬"
+  ],
+  "complete": true
+ },
+ "29890812850015282": {
+  "name": "日落海倒转",
+  "carry": "司空震",
+  "lords": [
+   "玉环",
+   "小妲己",
+   "马可"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 5.5,
+  "producers": [
+   "狂铁",
+   "亚瑟",
+   "莱西奥"
+  ],
+  "amplifiers": [
+   "海诺"
+  ],
+  "payoff": [
+   "海诺"
+  ],
+  "complete": true
+ },
+ "77178608937411668": {
+  "name": "999不死李信",
+  "carry": "李信",
+  "lords": [
+   "瑶妹",
+   "班叔",
+   "闹闹"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 9.5,
+  "producers": [
+   "铠",
+   "苏烈",
+   "钟馗",
+   "盾山"
+  ],
+  "amplifiers": [
+   "李信",
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [
+   "李信"
+  ],
+  "complete": true
+ },
+ "38898012104754232": {
+  "name": "嫦小娥马瑶",
+  "carry": "瑶",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 2.0,
+  "producers": [
+   "瑶",
+   "吕布"
+  ],
+  "amplifiers": [],
+  "payoff": [],
+  "complete": false
+ },
+ "113770355909846016": {
+  "name": "日落海泳池派对",
+  "carry": "安琪拉",
+  "lords": [
+   "香香",
+   "瑶妹",
+   "明先生"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 9.0,
+  "producers": [
+   "安琪拉",
+   "米莱狄",
+   "亚连"
+  ],
+  "amplifiers": [
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "亚连",
+   "安琪拉",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "33268512570549380": {
+  "name": "马瑶无限戳",
+  "carry": "马超",
+  "lords": [
+   "镜",
+   "孙小宾",
+   "马可"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 3.0,
+  "producers": [
+   "瑶",
+   "太乙真人",
+   "吕布"
+  ],
+  "amplifiers": [],
+  "payoff": [],
+  "complete": false
+ },
+ "51845861033489456": {
+  "name": "庄小鱼无阵营",
+  "carry": "海月",
+  "lords": [
+   "庄小鱼"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 3.0,
+  "producers": [],
+  "amplifiers": [
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "5121767631866894": {
+  "name": "啊离本我流",
+  "carry": "公孙离",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 8.0,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "鬼谷子"
+  ],
+  "amplifiers": [
+   "张良",
+   "虞姬"
+  ],
+  "payoff": [
+   "公孙离",
+   "虞姬"
+  ],
+  "complete": true
+ },
+ "57475360567689332": {
+  "name": "姜导玄策",
+  "carry": "百里玄策",
+  "lords": [
+   "姜导"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 4.0,
+  "producers": [
+   "李元芳",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [],
+  "payoff": [
+   "百里玄策"
+  ],
+  "complete": false
+ },
+ "36646212291073048": {
+  "name": "进阶版三分倒转",
+  "carry": "孙悟空",
+  "lords": [
+   "白歌",
+   "孙小宾"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 14.0,
+  "producers": [
+   "曹操",
+   "甄姬",
+   "周瑜",
+   "阿轲",
+   "露娜",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "周瑜"
+  ],
+  "payoff": [
+   "孙悟空",
+   "甄姬",
+   "曹操",
+   "露娜",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "76615658984028212": {
+  "name": "猪圆芋润开团韩信",
+  "carry": "韩信",
+  "lords": [
+   "明先生",
+   "姜导",
+   "嬴律"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 14.0,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "云中君",
+   "太乙真人",
+   "鬼谷子"
+  ],
+  "amplifiers": [
+   "张良",
+   "韩信",
+   "云中君",
+   "虞姬"
+  ],
+  "payoff": [
+   "韩信",
+   "虞姬",
+   "云中君"
+  ],
+  "complete": true
+ },
+ "46779311452662894": {
+  "name": "昭闹日落海",
+  "carry": "海诺",
+  "lords": [
+   "昭君",
+   "闹闹"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 12.5,
+  "producers": [
+   "狂铁",
+   "米莱狄",
+   "亚连",
+   "露娜"
+  ],
+  "amplifiers": [
+   "海诺",
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "海诺",
+   "亚连",
+   "露娜",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "2306265132381232": {
+  "name": "嫦娥马瑶",
+  "carry": "诸葛亮",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 4.5,
+  "producers": [
+   "瑶",
+   "太乙真人",
+   "吕布"
+  ],
+  "amplifiers": [
+   "干将莫邪"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "92378257679815746": {
+  "name": "乔汐999司空震",
+  "carry": "司空震",
+  "lords": [
+   "乔汐"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 9.5,
+  "producers": [
+   "上官婉儿",
+   "程咬金"
+  ],
+  "amplifiers": [
+   "武则天",
+   "李白",
+   "司空震"
+  ],
+  "payoff": [
+   "李白",
+   "司空震",
+   "武则天"
+  ],
+  "complete": true
+ },
+ "6246914806325254": {
+  "name": "嫦小娥老北京艾琳",
+  "carry": "艾琳",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 3.5,
+  "producers": [
+   "狂铁"
+  ],
+  "amplifiers": [
+   "雅典娜"
+  ],
+  "payoff": [
+   "艾琳"
+  ],
+  "complete": true
+ },
+ "110392656189272128": {
+  "name": "超级古币镜",
+  "carry": "镜",
+  "lords": [
+   "马可",
+   "姜导",
+   "香香"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 8.0,
+  "producers": [
+   "西施",
+   "白起",
+   "程咬金"
+  ],
+  "amplifiers": [
+   "芈月",
+   "镜"
+  ],
+  "payoff": [
+   "镜",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "120525755350879346": {
+  "name": "大河龙蛇决赛阵容",
+  "carry": "敖隐",
+  "lords": [
+   "瑶妹",
+   "昭君",
+   "闹闹"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 12.5,
+  "producers": [
+   "虞姬",
+   "太乙真人",
+   "东皇太一",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [
+   "张良",
+   "干将莫邪",
+   "虞姬"
+  ],
+  "payoff": [
+   "虞姬",
+   "敖隐"
+  ],
+  "complete": true
+ },
+ "80556308657970320": {
+  "name": "万爆守约",
+  "carry": "花木兰",
+  "lords": [
+   "白歌",
+   "瑶妹",
+   "嬴律"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 9.0,
+  "producers": [
+   "铠",
+   "花木兰",
+   "苏烈",
+   "钟馗",
+   "盾山"
+  ],
+  "amplifiers": [
+   "百里守约",
+   "太乙真人"
+  ],
+  "payoff": [
+   "百里守约"
+  ],
+  "complete": true
+ },
+ "40586861965034622": {
+  "name": "最强奕星偷牌河洛",
+  "carry": "李白",
+  "lords": [
+   "弈星"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 7.0,
+  "producers": [
+   "上官婉儿",
+   "程咬金"
+  ],
+  "amplifiers": [
+   "武则天",
+   "李白"
+  ],
+  "payoff": [
+   "李白",
+   "武则天"
+  ],
+  "complete": true
+ },
+ "127844104745344056": {
+  "name": "「流云」大河图腾",
+  "carry": "敖隐",
+  "lords": [
+   "庄小鱼",
+   "闹闹",
+   "瑶妹"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 10.0,
+  "producers": [
+   "虞姬",
+   "东皇太一",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [
+   "张良",
+   "虞姬"
+  ],
+  "payoff": [
+   "虞姬",
+   "敖隐"
+  ],
+  "complete": true
+ },
+ "104763156655060004": {
+  "name": "超级核弹孙膑",
+  "carry": "孙膑",
+  "lords": [
+   "常小娥",
+   "姜导",
+   "镜"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 3.0,
+  "producers": [],
+  "amplifiers": [
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "96881857307147496": {
+  "name": "孙离猪猪无敌炸场",
+  "carry": "公孙离",
+  "lords": [
+   "明先生",
+   "香香",
+   "嬴律"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 10.5,
+  "producers": [
+   "瑶",
+   "云中君",
+   "太乙真人",
+   "鬼谷子"
+  ],
+  "amplifiers": [
+   "张良",
+   "云中君",
+   "干将莫邪"
+  ],
+  "payoff": [
+   "公孙离",
+   "云中君"
+  ],
+  "complete": true
+ },
+ "86185808192145500": {
+  "name": "三分登场流",
+  "carry": "吕布",
+  "lords": [
+   "白歌",
+   "常小娥",
+   "马可"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 13.0,
+  "producers": [
+   "曹操",
+   "赵云",
+   "貂蝉",
+   "周瑜",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "周瑜",
+   "貂蝉",
+   "蔡文姬"
+  ],
+  "payoff": [
+   "曹操",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "84496958331876764": {
+  "name": "95至尊全场特效",
+  "carry": "杨玉环",
+  "lords": [
+   "昭君",
+   "乔汐",
+   "玉环"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 3.0,
+  "producers": [
+   "太乙真人",
+   "东皇太一",
+   "吕布"
+  ],
+  "amplifiers": [],
+  "payoff": [],
+  "complete": false
+ },
+ "45091214769439754": {
+  "name": "阿离遗志伞海月",
+  "carry": "海月",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 3.5,
+  "producers": [
+   "瑶",
+   "太乙真人"
+  ],
+  "amplifiers": [
+   "干将莫邪"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "89563507912701354": {
+  "name": "嫦娥无限技能诸葛",
+  "carry": "诸葛亮",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "skillcast",
+  "engine_name": "放技能",
+  "score": 3.5999999999999996,
+  "producers": [
+   "刘禅"
+  ],
+  "amplifiers": [
+   "孙膑",
+   "诸葛亮"
+  ],
+  "payoff": [
+   "孙膑",
+   "诸葛亮"
+  ],
+  "complete": true
+ },
+ "68171409682682944": {
+  "name": "昭闹玄策",
+  "carry": "百里玄策",
+  "lords": [
+   "昭君",
+   "闹闹"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 7.5,
+  "producers": [
+   "李元芳",
+   "上官婉儿",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [
+   "武则天"
+  ],
+  "payoff": [
+   "武则天",
+   "百里玄策"
+  ],
+  "complete": true
+ },
+ "2098333660022026241": {
+  "name": "黑科技班叔奶屏流",
+  "carry": "杨玉环",
+  "lords": [
+   "班叔"
+  ],
+  "engine": "skillcast",
+  "engine_name": "放技能",
+  "score": 4.5,
+  "producers": [
+   "刘禅"
+  ],
+  "amplifiers": [
+   "孙膑",
+   "诸葛亮",
+   "明世隐"
+  ],
+  "payoff": [
+   "孙膑",
+   "诸葛亮"
+  ],
+  "complete": true
+ },
+ "10009": {
+  "name": "班叔奶柱流",
+  "carry": "杨玉环",
+  "lords": [
+   "班叔"
+  ],
+  "engine": "skillcast",
+  "engine_name": "放技能",
+  "score": 4.5,
+  "producers": [
+   "刘禅"
+  ],
+  "amplifiers": [
+   "孙膑",
+   "诸葛亮",
+   "明世隐"
+  ],
+  "payoff": [
+   "孙膑",
+   "诸葛亮"
+  ],
+  "complete": true
+ },
+ "58601260474518594": {
+  "name": "常小娥《海陆空》",
+  "carry": "司空震",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 2.5,
+  "producers": [],
+  "amplifiers": [
+   "司空震"
+  ],
+  "payoff": [
+   "司空震"
+  ],
+  "complete": false
+ },
+ "74926809123754112": {
+  "name": "嫦小娥老北京艾琳",
+  "carry": "艾琳",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 3.5,
+  "producers": [
+   "狂铁"
+  ],
+  "amplifiers": [
+   "雅典娜"
+  ],
+  "payoff": [
+   "艾琳"
+  ],
+  "complete": true
+ },
+ "46779311452662998": {
+  "name": "瑶嬴政闹变阵艾琳",
+  "carry": "艾琳",
+  "lords": [
+   "闹闹",
+   "瑶妹",
+   "嬴律"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 11.5,
+  "producers": [
+   "狂铁",
+   "米莱狄",
+   "亚连"
+  ],
+  "amplifiers": [
+   "海诺",
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "艾琳",
+   "海诺",
+   "亚连",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "112082260192654362": {
+  "name": "无限火力诸葛亮",
+  "carry": "诸葛亮",
+  "lords": [
+   "瑶妹",
+   "乔汐"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 14.5,
+  "producers": [
+   "曹操",
+   "貂蝉",
+   "周瑜",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "周瑜",
+   "貂蝉",
+   "蔡文姬",
+   "大乔"
+  ],
+  "payoff": [
+   "诸葛亮",
+   "曹操",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "29891565582446612": {
+  "name": "阿离耀天帝",
+  "carry": "曜",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 5.0,
+  "producers": [
+   "西施"
+  ],
+  "amplifiers": [
+   "芈月",
+   "孙膑"
+  ],
+  "payoff": [
+   "芈月"
+  ],
+  "complete": true
+ },
+ "42275711825306908": {
+  "name": "玉环禁海三分转",
+  "carry": "诸葛亮",
+  "lords": [
+   "玉环"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 5.0,
+  "producers": [],
+  "amplifiers": [
+   "小乔",
+   "蔡文姬"
+  ],
+  "payoff": [
+   "诸葛亮",
+   "小乔"
+  ],
+  "complete": false
+ },
+ "52408810986892406": {
+  "name": "日落海999闹闹",
+  "carry": "安琪拉",
+  "lords": [
+   "闹闹"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 13.0,
+  "producers": [
+   "狂铁",
+   "安琪拉",
+   "米莱狄",
+   "亚连",
+   "露娜"
+  ],
+  "amplifiers": [
+   "海诺",
+   "朵莉亚"
+  ],
+  "payoff": [
+   "海诺",
+   "亚连",
+   "安琪拉",
+   "露娜",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "19757713688423494": {
+  "name": "班叔无限复活李信",
+  "carry": "李信",
+  "lords": [
+   "班叔"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 9.5,
+  "producers": [
+   "铠",
+   "花木兰",
+   "钟馗",
+   "盾山"
+  ],
+  "amplifiers": [
+   "李信",
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [
+   "李信"
+  ],
+  "complete": true
+ },
+ "125592304931644526": {
+  "name": "马克镜",
+  "carry": "镜",
+  "lords": [
+   "马可"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 7.0,
+  "producers": [
+   "庄周",
+   "老夫子"
+  ],
+  "amplifiers": [
+   "芈月",
+   "镜"
+  ],
+  "payoff": [
+   "镜",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "3995114992613472": {
+  "name": "马克四驱兄弟",
+  "carry": "苏烈",
+  "lords": [
+   "马可"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 1.0,
+  "producers": [
+   "吕布"
+  ],
+  "amplifiers": [],
+  "payoff": [],
+  "complete": false
+ },
+ "117148055630319678": {
+  "name": "昭君大河龙蛇",
+  "carry": "敖隐",
+  "lords": [
+   "昭君"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 12.5,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "东皇太一",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [
+   "张良",
+   "干将莫邪",
+   "虞姬"
+  ],
+  "payoff": [
+   "虞姬",
+   "敖隐"
+  ],
+  "complete": true
+ },
+ "43401611732149304": {
+  "name": "香香大河开团射",
+  "carry": "公孙离",
+  "lords": [
+   "香香"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 14.0,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "云中君",
+   "鬼谷子",
+   "少司缘"
+  ],
+  "amplifiers": [
+   "张良",
+   "云中君",
+   "干将莫邪",
+   "虞姬"
+  ],
+  "payoff": [
+   "公孙离",
+   "虞姬",
+   "云中君"
+  ],
+  "complete": true
+ },
+ "98570707167415344": {
+  "name": "河洛花木兰无限活",
+  "carry": "花木兰",
+  "lords": [
+   "庄小鱼",
+   "弈星"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 7.0,
+  "producers": [
+   "上官婉儿",
+   "程咬金"
+  ],
+  "amplifiers": [
+   "武则天",
+   "李白"
+  ],
+  "payoff": [
+   "李白",
+   "武则天"
+  ],
+  "complete": true
+ },
+ "9061664573398136": {
+  "name": "恐惧来自火力不足",
+  "carry": "嬴政",
+  "lords": [
+   "庄小鱼",
+   "明先生",
+   "闹闹"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 10.0,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周",
+   "蒙犽",
+   "鲁班七号"
+  ],
+  "amplifiers": [
+   "芈月",
+   "嬴政"
+  ],
+  "payoff": [
+   "嬴政",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "126155254885067860": {
+  "name": "镜神无阵营流",
+  "carry": "裴擒虎",
+  "lords": [
+   "镜"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 1.5,
+  "producers": [],
+  "amplifiers": [
+   "明世隐"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "102511356841373744": {
+  "name": "低阶开团射",
+  "carry": "公孙离",
+  "lords": [
+   "香香",
+   "瑶妹"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 14.0,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "云中君",
+   "鬼谷子",
+   "少司缘"
+  ],
+  "amplifiers": [
+   "张良",
+   "云中君",
+   "干将莫邪",
+   "虞姬"
+  ],
+  "payoff": [
+   "公孙离",
+   "虞姬",
+   "云中君"
+  ],
+  "complete": true
+ },
+ "42275711825306686": {
+  "name": "牢大速六",
+  "carry": "司空震",
+  "lords": [
+   "乔汐"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 4.0,
+  "producers": [],
+  "amplifiers": [
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [
+   "司空震"
+  ],
+  "complete": false
+ },
+ "65356659915587654": {
+  "name": "镜虎999",
+  "carry": "太乙真人",
+  "lords": [
+   "镜"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 4.5,
+  "producers": [
+   "云中君",
+   "太乙真人"
+  ],
+  "amplifiers": [
+   "云中君"
+  ],
+  "payoff": [
+   "云中君"
+  ],
+  "complete": true
+ },
+ "71549109403228254": {
+  "name": "河洛牺牲李信",
+  "carry": "李信",
+  "lords": [
+   "庄小鱼",
+   "闹闹",
+   "瑶妹"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 9.5,
+  "producers": [
+   "铠",
+   "花木兰",
+   "苏烈",
+   "钟馗"
+  ],
+  "amplifiers": [
+   "李信",
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [
+   "李信"
+  ],
+  "complete": true
+ },
+ "33831462523967606": {
+  "name": "弈星雷霆战机",
+  "carry": "嬴政",
+  "lords": [
+   "弈星",
+   "小妲己",
+   "白歌"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 10.0,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周",
+   "蒙犽",
+   "鲁班七号"
+  ],
+  "amplifiers": [
+   "芈月",
+   "嬴政"
+  ],
+  "payoff": [
+   "嬴政",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "128970004652186770": {
+  "name": "廉颇炸盾流",
+  "carry": "廉颇",
+  "lords": [
+   "姜导",
+   "闹闹",
+   "镜"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 5.5,
+  "producers": [
+   "西施",
+   "程咬金"
+  ],
+  "amplifiers": [
+   "芈月"
+  ],
+  "payoff": [
+   "廉颇",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "23135413408964774": {
+  "name": "刘邦炸盾",
+  "carry": "刘邦",
+  "lords": [
+   "明先生",
+   "弈星",
+   "嬴律"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 17.5,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "云中君",
+   "太乙真人",
+   "刘邦",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [
+   "张良",
+   "云中君",
+   "干将莫邪",
+   "虞姬",
+   "刘邦"
+  ],
+  "payoff": [
+   "虞姬",
+   "云中君"
+  ],
+  "complete": true
+ },
+ "35520312384231812": {
+  "name": "姜导爆盾廉颇",
+  "carry": "廉颇",
+  "lords": [
+   "姜导"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 4.5,
+  "producers": [
+   "西施"
+  ],
+  "amplifiers": [
+   "芈月"
+  ],
+  "payoff": [
+   "廉颇",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "51282911080077518": {
+  "name": "昭君95全员c位",
+  "carry": "姜子牙",
+  "lords": [
+   "昭君"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 3.5,
+  "producers": [
+   "周瑜",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "周瑜"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "32705562617109704": {
+  "name": "明先生公孙离",
+  "carry": "公孙离",
+  "lords": [
+   "明先生"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 10.5,
+  "producers": [
+   "瑶",
+   "云中君",
+   "太乙真人",
+   "鬼谷子"
+  ],
+  "amplifiers": [
+   "张良",
+   "云中君",
+   "干将莫邪"
+  ],
+  "payoff": [
+   "公孙离",
+   "云中君"
+  ],
+  "complete": true
+ },
+ "49031111266350262": {
+  "name": "闹闹大河",
+  "carry": "敖隐",
+  "lords": [
+   "闹闹"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 7.5,
+  "producers": [
+   "瑶",
+   "东皇太一",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [
+   "干将莫邪"
+  ],
+  "payoff": [
+   "敖隐"
+  ],
+  "complete": true
+ },
+ "98570707167415388": {
+  "name": "塔防沈梦溪无限雷",
+  "carry": "沈梦溪",
+  "lords": [
+   "班叔"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 3.0,
+  "producers": [
+   "李元芳",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [],
+  "payoff": [],
+  "complete": false
+ },
+ "53534710893716908": {
+  "name": "一枪万血流",
+  "carry": "百里守约",
+  "lords": [
+   "瑶妹",
+   "小妲己"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 8.5,
+  "producers": [
+   "铠",
+   "苏烈",
+   "钟馗"
+  ],
+  "amplifiers": [
+   "百里守约",
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [
+   "百里守约"
+  ],
+  "complete": true
+ },
+ "58601260474518922": {
+  "name": "妲己轮椅日落倒转",
+  "carry": "司空震",
+  "lords": [
+   "小妲己"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 7.5,
+  "producers": [
+   "狂铁",
+   "米莱狄",
+   "亚瑟",
+   "莱西奥"
+  ],
+  "amplifiers": [
+   "海诺"
+  ],
+  "payoff": [
+   "海诺",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "18068863828169806": {
+  "name": "班叔永动诸葛塔防",
+  "carry": "诸葛亮",
+  "lords": [
+   "班叔"
+  ],
+  "engine": "skillcast",
+  "engine_name": "放技能",
+  "score": 4.5,
+  "producers": [
+   "刘禅"
+  ],
+  "amplifiers": [
+   "孙膑",
+   "诸葛亮",
+   "明世隐"
+  ],
+  "payoff": [
+   "孙膑",
+   "诸葛亮"
+  ],
+  "complete": true
+ },
+ "32705562617109616": {
+  "name": "无阵容神队",
+  "carry": "司空震",
+  "lords": [
+   "昭君"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 3.5,
+  "producers": [
+   "苏烈"
+  ],
+  "amplifiers": [
+   "太乙真人"
+  ],
+  "payoff": [
+   "司空震"
+  ],
+  "complete": true
+ },
+ "78304508844283186": {
+  "name": "高伤艾琳遛狗流",
+  "carry": "艾琳",
+  "lords": [
+   "香香",
+   "庄小鱼",
+   "闹闹"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 11.0,
+  "producers": [
+   "狂铁",
+   "米莱狄",
+   "亚连",
+   "露娜"
+  ],
+  "amplifiers": [
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "艾琳",
+   "亚连",
+   "露娜",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "2100952380450078721": {
+  "name": "雷霆战机横扫千军",
+  "carry": "庄周",
+  "lords": [
+   "明先生",
+   "白歌",
+   "孙小宾"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 10.0,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周",
+   "蒙犽",
+   "鲁班七号"
+  ],
+  "amplifiers": [
+   "芈月",
+   "嬴政"
+  ],
+  "payoff": [
+   "嬴政",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "67045509775868308": {
+  "name": "马瑶戳戳戳",
+  "carry": "吕布",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 3.5,
+  "producers": [
+   "瑶",
+   "吕布"
+  ],
+  "amplifiers": [
+   "干将莫邪"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "116585105676929144": {
+  "name": "999艾琳",
+  "carry": "艾琳",
+  "lords": [
+   "瑶妹"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 12.0,
+  "producers": [
+   "狂铁",
+   "安琪拉",
+   "米莱狄",
+   "亚连",
+   "亚瑟"
+  ],
+  "amplifiers": [
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "艾琳",
+   "亚连",
+   "安琪拉",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "63104860101912652": {
+  "name": "庄小鱼无阵营",
+  "carry": "姜子牙",
+  "lords": [
+   "庄小鱼"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 3.0,
+  "producers": [],
+  "amplifiers": [
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "5121767631866914": {
+  "name": "三阶无阵营组合",
+  "carry": "裴擒虎",
+  "lords": [
+   "镜",
+   "白歌",
+   "马可"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 1.5,
+  "producers": [],
+  "amplifiers": [
+   "明世隐"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "118836905490609204": {
+  "name": "瑶妹999李信",
+  "carry": "李信",
+  "lords": [
+   "瑶妹"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 9.5,
+  "producers": [
+   "铠",
+   "花木兰",
+   "苏烈",
+   "钟馗"
+  ],
+  "amplifiers": [
+   "李信",
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [
+   "李信"
+  ],
+  "complete": true
+ },
+ "2098630001059246081": {
+  "name": "鲁班大师雷霆嘎巴",
+  "carry": "嬴政",
+  "lords": [
+   "班叔"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 10.0,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周",
+   "老夫子",
+   "鲁班七号"
+  ],
+  "amplifiers": [
+   "芈月",
+   "嬴政"
+  ],
+  "payoff": [
+   "嬴政",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "131784754419285018": {
+  "name": "古老香香开团射包",
+  "carry": "公孙离",
+  "lords": [
+   "香香"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 14.0,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "云中君",
+   "鬼谷子",
+   "少司缘"
+  ],
+  "amplifiers": [
+   "张良",
+   "云中君",
+   "干将莫邪",
+   "虞姬"
+  ],
+  "payoff": [
+   "公孙离",
+   "虞姬",
+   "云中君"
+  ],
+  "complete": true
+ },
+ "19194763735035326": {
+  "name": "乔夕速升",
+  "carry": "吕布",
+  "lords": [
+   "乔汐"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 15.5,
+  "producers": [
+   "曹操",
+   "赵云",
+   "貂蝉",
+   "周瑜",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "周瑜",
+   "貂蝉",
+   "蔡文姬",
+   "大乔"
+  ],
+  "payoff": [
+   "诸葛亮",
+   "曹操",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "33268512570549432": {
+  "name": "闹闹三分诸葛",
+  "carry": "大乔",
+  "lords": [
+   "闹闹",
+   "白歌",
+   "庄小鱼"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 7.5,
+  "producers": [
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "蔡文姬",
+   "大乔"
+  ],
+  "payoff": [
+   "诸葛亮",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "97444807260597614": {
+  "name": "解放双手稳上分",
+  "carry": "明世隐",
+  "lords": [
+   "镜",
+   "常小娥",
+   "孙小宾"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 1.5,
+  "producers": [],
+  "amplifiers": [
+   "明世隐"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "44527511638981820": {
+  "name": "汐闹三分不死大泉",
+  "carry": "蔡文姬",
+  "lords": [
+   "乔汐",
+   "闹闹",
+   "瑶妹"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 10.5,
+  "producers": [
+   "曹操",
+   "赵云",
+   "貂蝉",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "貂蝉",
+   "蔡文姬"
+  ],
+  "payoff": [
+   "曹操",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "107577906422198424": {
+  "name": "整备觉醒日落海",
+  "carry": "露娜",
+  "lords": [
+   "白歌",
+   "镜"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 10.5,
+  "producers": [
+   "狂铁",
+   "安琪拉",
+   "亚连",
+   "马可波罗",
+   "露娜",
+   "亚瑟"
+  ],
+  "amplifiers": [
+   "朵莉亚"
+  ],
+  "payoff": [
+   "亚连",
+   "安琪拉",
+   "露娜"
+  ],
+  "complete": true
+ },
+ "100822506981119094": {
+  "name": "姜导古币镜",
+  "carry": "程咬金",
+  "lords": [
+   "姜导",
+   "马可"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 6.0,
+  "producers": [
+   "程咬金"
+  ],
+  "amplifiers": [
+   "芈月",
+   "镜"
+  ],
+  "payoff": [
+   "镜",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "5121014899449964": {
+  "name": "玉环三分倒转",
+  "carry": "姜子牙",
+  "lords": [
+   "玉环"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 9.0,
+  "producers": [
+   "曹操",
+   "甄姬",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "蔡文姬"
+  ],
+  "payoff": [
+   "甄姬",
+   "曹操",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "10750514433727618": {
+  "name": "马克四小只",
+  "carry": "孙尚香",
+  "lords": [
+   "马可"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 1.0,
+  "producers": [
+   "孙尚香"
+  ],
+  "amplifiers": [],
+  "payoff": [],
+  "complete": false
+ },
+ "53534710893716574": {
+  "name": "艾琳公主转圈圈",
+  "carry": "艾琳",
+  "lords": [
+   "明先生"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 11.0,
+  "producers": [
+   "狂铁",
+   "米莱狄",
+   "亚连",
+   "露娜"
+  ],
+  "amplifiers": [
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "艾琳",
+   "亚连",
+   "露娜",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "60290110334789734": {
+  "name": "韩信无限横扫",
+  "carry": "韩信",
+  "lords": [
+   "白歌",
+   "玉环"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 10.5,
+  "producers": [
+   "曹操",
+   "甄姬",
+   "露娜",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔"
+  ],
+  "payoff": [
+   "孙悟空",
+   "甄姬",
+   "曹操",
+   "露娜",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "64230760008722558": {
+  "name": "嫦小娥马瑶",
+  "carry": "马超",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 2.0,
+  "producers": [
+   "瑶",
+   "吕布"
+  ],
+  "amplifiers": [],
+  "payoff": [],
+  "complete": false
+ },
+ "70423209496367206": {
+  "name": "马瑶变猪流",
+  "carry": "吕布",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 2.0,
+  "producers": [
+   "瑶",
+   "吕布"
+  ],
+  "amplifiers": [],
+  "payoff": [],
+  "complete": false
+ },
+ "63667810055325776": {
+  "name": "闹闹日落海",
+  "carry": "安琪拉",
+  "lords": [
+   "闹闹"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 13.5,
+  "producers": [
+   "狂铁",
+   "安琪拉",
+   "米莱狄",
+   "亚连",
+   "亚瑟"
+  ],
+  "amplifiers": [
+   "海诺",
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "海诺",
+   "亚连",
+   "安琪拉",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "114896255816657986": {
+  "name": "小明高阶逐鹿",
+  "carry": "嬴政",
+  "lords": [
+   "明先生"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 10.0,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周",
+   "蒙犽",
+   "鲁班七号"
+  ],
+  "amplifiers": [
+   "芈月",
+   "嬴政"
+  ],
+  "payoff": [
+   "嬴政",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "130095904559018106": {
+  "name": "河洛王维李白",
+  "carry": "李白",
+  "lords": [
+   "姜导",
+   "常小娥"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 10.0,
+  "producers": [
+   "李元芳",
+   "上官婉儿",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [
+   "武则天",
+   "李白"
+  ],
+  "payoff": [
+   "李白",
+   "武则天",
+   "百里玄策"
+  ],
+  "complete": true
+ },
+ "46779311452662864": {
+  "name": "乔汐雷电法王",
+  "carry": "司空震",
+  "lords": [
+   "乔汐"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 4.0,
+  "producers": [],
+  "amplifiers": [
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [
+   "司空震"
+  ],
+  "complete": false
+ },
+ "128970004652186812": {
+  "name": "昭君75",
+  "carry": "杨玉环",
+  "lords": [
+   "昭君"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 4.5,
+  "producers": [
+   "太乙真人",
+   "东皇太一",
+   "吕布"
+  ],
+  "amplifiers": [
+   "干将莫邪"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "42839414955750434": {
+  "name": "大河开团射阿离版",
+  "carry": "公孙离",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 12.5,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "云中君",
+   "鬼谷子",
+   "少司缘"
+  ],
+  "amplifiers": [
+   "张良",
+   "云中君",
+   "虞姬"
+  ],
+  "payoff": [
+   "公孙离",
+   "虞姬",
+   "云中君"
+  ],
+  "complete": true
+ },
+ "91252357772953728": {
+  "name": "召唤自曝流",
+  "carry": "西施",
+  "lords": [
+   "瑶妹"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 2.5,
+  "producers": [
+   "蒙恬"
+  ],
+  "amplifiers": [
+   "大司命"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "32706315349545018": {
+  "name": "阿离狄仁杰速秒流",
+  "carry": "狄仁杰",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 5.5,
+  "producers": [
+   "李元芳",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [
+   "狄仁杰"
+  ],
+  "payoff": [
+   "狄仁杰"
+  ],
+  "complete": true
+ },
+ "28764912943176812": {
+  "name": "常小娥嬴政战术流",
+  "carry": "嬴政",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 10.0,
+  "producers": [
+   "西施",
+   "白起",
+   "老夫子",
+   "蒙犽",
+   "鲁班七号"
+  ],
+  "amplifiers": [
+   "芈月",
+   "嬴政"
+  ],
+  "payoff": [
+   "嬴政",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "87874658052426116": {
+  "name": "大河图腾召龙神",
+  "carry": "敖隐",
+  "lords": [
+   "白歌",
+   "镜"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 11.5,
+  "producers": [
+   "虞姬",
+   "东皇太一",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [
+   "张良",
+   "干将莫邪",
+   "虞姬"
+  ],
+  "payoff": [
+   "虞姬",
+   "敖隐"
+  ],
+  "complete": true
+ },
+ "1744067911380998": {
+  "name": "伞亚连",
+  "carry": "亚连",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 12.5,
+  "producers": [
+   "狂铁",
+   "安琪拉",
+   "米莱狄",
+   "亚连"
+  ],
+  "amplifiers": [
+   "海诺",
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "海诺",
+   "亚连",
+   "安琪拉",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "95756711059844130": {
+  "name": "刘邦欻欻流",
+  "carry": "刘邦",
+  "lords": [
+   "乔汐",
+   "常小娥",
+   "孙小宾"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 8.0,
+  "producers": [
+   "瑶",
+   "刘邦",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [
+   "张良",
+   "刘邦"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "2098332239923040257": {
+  "name": "昭君无敌帧露娜",
+  "carry": "露娜",
+  "lords": [
+   "昭君"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 15.5,
+  "producers": [
+   "狂铁",
+   "安琪拉",
+   "米莱狄",
+   "亚连",
+   "露娜",
+   "亚瑟"
+  ],
+  "amplifiers": [
+   "海诺",
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "海诺",
+   "亚连",
+   "安琪拉",
+   "露娜",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "2869967818243146": {
+  "name": "三分登场999级",
+  "carry": "蔡文姬",
+  "lords": [
+   "白歌"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 10.0,
+  "producers": [
+   "曹操",
+   "甄姬",
+   "赵云",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "蔡文姬"
+  ],
+  "payoff": [
+   "甄姬",
+   "曹操",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "87311708099025010": {
+  "name": "孙小宾三分倒转",
+  "carry": "孙悟空",
+  "lords": [
+   "孙小宾"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 14.0,
+  "producers": [
+   "曹操",
+   "甄姬",
+   "周瑜",
+   "阿轲",
+   "露娜",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "周瑜"
+  ],
+  "payoff": [
+   "孙悟空",
+   "甄姬",
+   "曹操",
+   "露娜",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "43401611732149412": {
+  "name": "弈星雷霆战机",
+  "carry": "嬴政",
+  "lords": [
+   "弈星",
+   "小妲己",
+   "白歌"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 10.0,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周",
+   "蒙犽",
+   "鲁班七号"
+  ],
+  "amplifiers": [
+   "芈月",
+   "嬴政"
+  ],
+  "payoff": [
+   "嬴政",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "128970004652186782": {
+  "name": "庄小鱼日落海艾琳",
+  "carry": "艾琳",
+  "lords": [
+   "庄小鱼"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 14.5,
+  "producers": [
+   "狂铁",
+   "安琪拉",
+   "米莱狄",
+   "亚连",
+   "亚瑟"
+  ],
+  "amplifiers": [
+   "海诺",
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "艾琳",
+   "海诺",
+   "亚连",
+   "安琪拉",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "125592304931644818": {
+  "name": "白嬴宾河洛双c",
+  "carry": "司空震",
+  "lords": [
+   "白歌",
+   "嬴律",
+   "孙小宾"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 11.5,
+  "producers": [
+   "李元芳",
+   "上官婉儿",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [
+   "武则天",
+   "李白",
+   "司空震"
+  ],
+  "payoff": [
+   "李白",
+   "司空震",
+   "武则天"
+  ],
+  "complete": true
+ },
+ "67609213388826684": {
+  "name": "干将无敌流",
+  "carry": "干将莫邪",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 10.5,
+  "producers": [
+   "瑶",
+   "云中君",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [
+   "张良",
+   "云中君",
+   "干将莫邪"
+  ],
+  "payoff": [
+   "云中君"
+  ],
+  "complete": true
+ },
+ "87311708099024982": {
+  "name": "常小娥泳池派对",
+  "carry": "狂铁",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 5.0,
+  "producers": [
+   "狂铁"
+  ],
+  "amplifiers": [
+   "海诺",
+   "朵莉亚"
+  ],
+  "payoff": [
+   "海诺"
+  ],
+  "complete": true
+ },
+ "79430408751108230": {
+  "name": "「流云」逐鹿倒转",
+  "carry": "嬴政",
+  "lords": [
+   "白歌",
+   "明先生",
+   "孙小宾"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 8.0,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周"
+  ],
+  "amplifiers": [
+   "芈月",
+   "嬴政"
+  ],
+  "payoff": [
+   "嬴政",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "19757713688423864": {
+  "name": "瑶妹牺牲流李信",
+  "carry": "李信",
+  "lords": [
+   "瑶妹",
+   "明先生"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 8.5,
+  "producers": [
+   "铠",
+   "花木兰",
+   "钟馗"
+  ],
+  "amplifiers": [
+   "李信",
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [
+   "李信"
+  ],
+  "complete": true
+ },
+ "86749511805091912": {
+  "name": "赤壁双C-李小船",
+  "carry": "诸葛亮",
+  "lords": [
+   "常小娥",
+   "嬴律",
+   "乔汐"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 13.5,
+  "producers": [
+   "曹操",
+   "甄姬",
+   "赵云",
+   "周瑜",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "周瑜",
+   "蔡文姬"
+  ],
+  "payoff": [
+   "甄姬",
+   "诸葛亮",
+   "曹操",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "8498714619945172": {
+  "name": "杨玉环日落海司空",
+  "carry": "司空震",
+  "lords": [
+   "玉环",
+   "小妲己"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 5.5,
+  "producers": [
+   "狂铁",
+   "亚瑟",
+   "莱西奥"
+  ],
+  "amplifiers": [
+   "海诺"
+  ],
+  "payoff": [
+   "海诺"
+  ],
+  "complete": true
+ },
+ "131784754419285110": {
+  "name": "一念神魔",
+  "carry": "李信",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 4.5,
+  "producers": [
+   "铠",
+   "苏烈"
+  ],
+  "amplifiers": [
+   "李信"
+  ],
+  "payoff": [
+   "李信"
+  ],
+  "complete": true
+ },
+ "91815307726372090": {
+  "name": "庄小鱼嬴政",
+  "carry": "嬴政",
+  "lords": [
+   "庄小鱼",
+   "闹闹",
+   "瑶妹"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 11.0,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周",
+   "老夫子",
+   "蒙犽",
+   "鲁班七号"
+  ],
+  "amplifiers": [
+   "芈月",
+   "嬴政"
+  ],
+  "payoff": [
+   "嬴政",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "60290110334789786": {
+  "name": "疯魔无敌策",
+  "carry": "百里玄策",
+  "lords": [
+   "常小娥",
+   "孙小宾",
+   "马可"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 1.0,
+  "producers": [],
+  "amplifiers": [],
+  "payoff": [
+   "百里玄策"
+  ],
+  "complete": false
+ },
+ "40586861965034570": {
+  "name": "闹闹日落海",
+  "carry": "安琪拉",
+  "lords": [
+   "闹闹"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 13.5,
+  "producers": [
+   "狂铁",
+   "安琪拉",
+   "米莱狄",
+   "亚连",
+   "亚瑟"
+  ],
+  "amplifiers": [
+   "海诺",
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "海诺",
+   "亚连",
+   "安琪拉",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "102512110984443908": {
+  "name": "阿离遗志流海月",
+  "carry": "海月",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 3.5,
+  "producers": [
+   "瑶",
+   "太乙真人"
+  ],
+  "amplifiers": [
+   "干将莫邪"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "55786510707421308": {
+  "name": "乔汐999司空震",
+  "carry": "司空震",
+  "lords": [
+   "乔汐"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 9.5,
+  "producers": [
+   "上官婉儿",
+   "程咬金"
+  ],
+  "amplifiers": [
+   "武则天",
+   "李白",
+   "司空震"
+  ],
+  "payoff": [
+   "李白",
+   "司空震",
+   "武则天"
+  ],
+  "complete": true
+ },
+ "26513113129498732": {
+  "name": "小鹿干将转海月",
+  "carry": "海月",
+  "lords": [
+   "瑶妹"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 3.5,
+  "producers": [
+   "瑶",
+   "太乙真人"
+  ],
+  "amplifiers": [
+   "干将莫邪"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "111519310239154182": {
+  "name": "阿离玄策",
+  "carry": "太乙真人",
+  "lords": [
+   "阿离",
+   "姜导"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 4.5,
+  "producers": [
+   "苏烈",
+   "钟馗",
+   "盾山"
+  ],
+  "amplifiers": [
+   "太乙真人"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "57476113744684266": {
+  "name": "7D庄小鱼无阵营",
+  "carry": "杨玉环",
+  "lords": [
+   "庄小鱼"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 1.5,
+  "producers": [],
+  "amplifiers": [
+   "太乙真人"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "90689407819556008": {
+  "name": "常小娥炸盾",
+  "carry": "曜",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "",
+  "engine_name": "",
+  "score": 0.0,
+  "producers": [],
+  "amplifiers": [],
+  "payoff": [],
+  "complete": false
+ },
+ "68734359636089000": {
+  "name": "国士无双",
+  "carry": "云中君",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 8.5,
+  "producers": [
+   "瑶",
+   "云中君"
+  ],
+  "amplifiers": [
+   "韩信",
+   "云中君",
+   "干将莫邪"
+  ],
+  "payoff": [
+   "韩信",
+   "云中君"
+  ],
+  "complete": true
+ },
+ "122214605211126812": {
+  "name": "瑶妹古币流花木兰",
+  "carry": "花木兰",
+  "lords": [
+   "瑶妹"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 5.5,
+  "producers": [
+   "李元芳",
+   "上官婉儿",
+   "程咬金"
+  ],
+  "amplifiers": [
+   "武则天"
+  ],
+  "payoff": [
+   "武则天"
+  ],
+  "complete": true
+ },
+ "33268512570549440": {
+  "name": "山鬼牺牲召唤流",
+  "carry": "米莱狄",
+  "lords": [
+   "闹闹",
+   "明先生",
+   "香香"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 5.0,
+  "producers": [
+   "蒙恬",
+   "项羽"
+  ],
+  "amplifiers": [
+   "大司命",
+   "太乙真人"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "36646212291073126": {
+  "name": "昭闹大河",
+  "carry": "韩信",
+  "lords": [
+   "昭君",
+   "闹闹"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 15.5,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "云中君",
+   "太乙真人",
+   "鬼谷子"
+  ],
+  "amplifiers": [
+   "张良",
+   "韩信",
+   "云中君",
+   "干将莫邪",
+   "虞姬"
+  ],
+  "payoff": [
+   "韩信",
+   "虞姬",
+   "云中君"
+  ],
+  "complete": true
+ },
+ "29890812850015340": {
+  "name": "闪现夺取",
+  "carry": "孙悟空",
+  "lords": [
+   "白歌",
+   "镜",
+   "姜导"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 4.0,
+  "producers": [
+   "阿轲",
+   "露娜"
+  ],
+  "amplifiers": [],
+  "payoff": [
+   "孙悟空",
+   "露娜"
+  ],
+  "complete": false
+ },
+ "76615658984028588": {
+  "name": "瑶妹牺牲李信",
+  "carry": "太乙真人",
+  "lords": [
+   "瑶妹"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 11.0,
+  "producers": [
+   "铠",
+   "钟馗",
+   "盾山"
+  ],
+  "amplifiers": [
+   "李信",
+   "百里守约",
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [
+   "李信",
+   "百里守约"
+  ],
+  "complete": true
+ },
+ "99696607074285570": {
+  "name": "狐王班叔奶屏塔防",
+  "carry": "诸葛亮",
+  "lords": [
+   "班叔"
+  ],
+  "engine": "skillcast",
+  "engine_name": "放技能",
+  "score": 4.5,
+  "producers": [
+   "刘禅"
+  ],
+  "amplifiers": [
+   "孙膑",
+   "诸葛亮",
+   "明世隐"
+  ],
+  "payoff": [
+   "孙膑",
+   "诸葛亮"
+  ],
+  "complete": true
+ },
+ "65919609868998794": {
+  "name": "马可三分射",
+  "carry": "公孙离",
+  "lords": [
+   "马可"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 11.0,
+  "producers": [
+   "曹操",
+   "甄姬",
+   "露娜",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "蔡文姬"
+  ],
+  "payoff": [
+   "甄姬",
+   "曹操",
+   "露娜",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "96882610966699082": {
+  "name": "三分控",
+  "carry": "诸葛亮",
+  "lords": [
+   "明先生",
+   "小妲己",
+   "闹闹"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 9.5,
+  "producers": [
+   "曹操",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "蔡文姬",
+   "大乔"
+  ],
+  "payoff": [
+   "诸葛亮",
+   "曹操",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "118273955537188106": {
+  "name": "阿离爆杀流",
+  "carry": "公孙离",
+  "lords": [
+   "明先生"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 9.0,
+  "producers": [
+   "瑶",
+   "云中君",
+   "太乙真人",
+   "鬼谷子"
+  ],
+  "amplifiers": [
+   "张良",
+   "云中君"
+  ],
+  "payoff": [
+   "公孙离",
+   "云中君"
+  ],
+  "complete": true
+ },
+ "121088705304281134": {
+  "name": "核弹孙膑",
+  "carry": "孙膑",
+  "lords": [
+   "姜导"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 5.0,
+  "producers": [
+   "西施"
+  ],
+  "amplifiers": [
+   "芈月",
+   "孙膑"
+  ],
+  "payoff": [
+   "芈月"
+  ],
+  "complete": true
+ },
+ "91252357772953770": {
+  "name": "嬴政",
+  "carry": "嬴政",
+  "lords": [
+   "姜导",
+   "镜",
+   "庄小鱼"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 7.5,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周",
+   "蒙犽"
+  ],
+  "amplifiers": [
+   "嬴政"
+  ],
+  "payoff": [
+   "嬴政",
+   "廉颇"
+  ],
+  "complete": true
+ },
+ "19757713688423496": {
+  "name": "古币复活流木兰",
+  "carry": "花木兰",
+  "lords": [
+   "嬴律",
+   "明先生",
+   "闹闹"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 7.0,
+  "producers": [
+   "上官婉儿",
+   "程咬金"
+  ],
+  "amplifiers": [
+   "武则天",
+   "李白"
+  ],
+  "payoff": [
+   "李白",
+   "武则天"
+  ],
+  "complete": true
+ },
+ "2099709058694139905": {
+  "name": "诸葛亮快速施法",
+  "carry": "诸葛亮",
+  "lords": [
+   "镜",
+   "瑶妹",
+   "常小娥"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 12.0,
+  "producers": [
+   "曹操",
+   "貂蝉",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "貂蝉",
+   "蔡文姬",
+   "大乔"
+  ],
+  "payoff": [
+   "诸葛亮",
+   "曹操",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "61978960195037484": {
+  "name": "无敌帧闪烁白露",
+  "carry": "李白",
+  "lords": [
+   "白歌",
+   "闹闹",
+   "镜"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 10.0,
+  "producers": [
+   "李元芳",
+   "上官婉儿",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [
+   "武则天",
+   "李白"
+  ],
+  "payoff": [
+   "李白",
+   "武则天",
+   "百里玄策"
+  ],
+  "complete": true
+ },
+ "1180365225512030": {
+  "name": "（焚决）复活木兰",
+  "carry": "花木兰",
+  "lords": [
+   "明先生",
+   "弈星",
+   "嬴律"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 7.0,
+  "producers": [
+   "上官婉儿",
+   "程咬金"
+  ],
+  "amplifiers": [
+   "武则天",
+   "李白"
+  ],
+  "payoff": [
+   "李白",
+   "武则天"
+  ],
+  "complete": true
+ },
+ "98570707167415610": {
+  "name": "无敌镜神-进阶版",
+  "carry": "镜",
+  "lords": [
+   "镜",
+   "常小娥",
+   "嬴律"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 8.0,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周"
+  ],
+  "amplifiers": [
+   "芈月",
+   "镜"
+  ],
+  "payoff": [
+   "镜",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "48468161312934126": {
+  "name": "无限复活花木兰",
+  "carry": "花木兰",
+  "lords": [
+   "闹闹",
+   "庄小鱼",
+   "明先生"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 8.0,
+  "producers": [
+   "上官婉儿",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [
+   "武则天",
+   "李白"
+  ],
+  "payoff": [
+   "李白",
+   "武则天"
+  ],
+  "complete": true
+ },
+ "2101289622519468033": {
+  "name": "玉环妲己日落海",
+  "carry": "亚瑟",
+  "lords": [
+   "玉环",
+   "小妲己"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 5.5,
+  "producers": [
+   "狂铁",
+   "亚瑟",
+   "莱西奥"
+  ],
+  "amplifiers": [
+   "海诺"
+  ],
+  "payoff": [
+   "海诺"
+  ],
+  "complete": true
+ },
+ "83371058425067764": {
+  "name": "明先生低压开团射",
+  "carry": "公孙离",
+  "lords": [
+   "明先生"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 10.5,
+  "producers": [
+   "瑶",
+   "云中君",
+   "太乙真人",
+   "鬼谷子"
+  ],
+  "amplifiers": [
+   "张良",
+   "云中君",
+   "干将莫邪"
+  ],
+  "payoff": [
+   "公孙离",
+   "云中君"
+  ],
+  "complete": true
+ },
+ "42838661778720838": {
+  "name": "低阶整备流",
+  "carry": "安琪拉",
+  "lords": [
+   "香香"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 8.5,
+  "producers": [
+   "狂铁",
+   "安琪拉",
+   "米莱狄",
+   "亚连"
+  ],
+  "amplifiers": [
+   "朵莉亚"
+  ],
+  "payoff": [
+   "亚连",
+   "安琪拉",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "103074306794792996": {
+  "name": "日落海三分倒转",
+  "carry": "安琪拉",
+  "lords": [
+   "白歌",
+   "镜",
+   "孙小宾"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 12.0,
+  "producers": [
+   "曹操",
+   "甄姬",
+   "周瑜",
+   "露娜",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "周瑜"
+  ],
+  "payoff": [
+   "甄姬",
+   "曹操",
+   "露娜",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "99133657120862208": {
+  "name": "明先生泳池派对",
+  "carry": "米莱狄",
+  "lords": [
+   "明先生"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 8.0,
+  "producers": [
+   "狂铁",
+   "米莱狄",
+   "亚连"
+  ],
+  "amplifiers": [
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "亚连",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "65919609868998810": {
+  "name": "纯粹召唤流",
+  "carry": "苍",
+  "lords": [
+   "明先生",
+   "常小娥"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 3.5,
+  "producers": [
+   "西施"
+  ],
+  "amplifiers": [
+   "芈月"
+  ],
+  "payoff": [
+   "芈月"
+  ],
+  "complete": true
+ },
+ "66482559822422284": {
+  "name": "养李白古币流",
+  "carry": "李白",
+  "lords": [
+   "庄小鱼",
+   "明先生",
+   "孙小宾"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 8.0,
+  "producers": [
+   "李元芳",
+   "上官婉儿",
+   "程咬金"
+  ],
+  "amplifiers": [
+   "武则天",
+   "李白"
+  ],
+  "payoff": [
+   "李白",
+   "武则天"
+  ],
+  "complete": true
+ },
+ "91252357772953696": {
+  "name": "随机到ban河洛",
+  "carry": "姜子牙",
+  "lords": [
+   "玉环"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 5.5,
+  "producers": [
+   "狂铁",
+   "亚瑟",
+   "莱西奥"
+  ],
+  "amplifiers": [
+   "海诺"
+  ],
+  "payoff": [
+   "海诺"
+  ],
+  "complete": true
+ },
+ "97445560920064112": {
+  "name": "闹闹三分诸葛",
+  "carry": "诸葛亮",
+  "lords": [
+   "闹闹",
+   "白歌",
+   "庄小鱼"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 14.5,
+  "producers": [
+   "曹操",
+   "貂蝉",
+   "周瑜",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "周瑜",
+   "貂蝉",
+   "蔡文姬",
+   "大乔"
+  ],
+  "payoff": [
+   "诸葛亮",
+   "曹操",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "29327862896598094": {
+  "name": "非常的轮椅",
+  "carry": "艾琳",
+  "lords": [
+   "瑶妹"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 11.5,
+  "producers": [
+   "狂铁",
+   "安琪拉",
+   "米莱狄",
+   "亚连",
+   "露娜"
+  ],
+  "amplifiers": [
+   "朵莉亚"
+  ],
+  "payoff": [
+   "艾琳",
+   "亚连",
+   "安琪拉",
+   "露娜",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "2101293757989933057": {
+  "name": "BOOM炸弹伞猫",
+  "carry": "程咬金",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 6.0,
+  "producers": [
+   "苏烈",
+   "钟馗",
+   "盾山"
+  ],
+  "amplifiers": [
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "10187564480276602": {
+  "name": "姜导廉颇炸盾",
+  "carry": "廉颇",
+  "lords": [
+   "姜导",
+   "小妲己",
+   "孙小宾"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 5.5,
+  "producers": [
+   "西施",
+   "程咬金"
+  ],
+  "amplifiers": [
+   "芈月"
+  ],
+  "payoff": [
+   "廉颇",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "122215359354172444": {
+  "name": "班叔大河开团射",
+  "carry": "公孙离",
+  "lords": [
+   "班叔"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 12.5,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "云中君",
+   "鬼谷子",
+   "少司缘"
+  ],
+  "amplifiers": [
+   "张良",
+   "云中君",
+   "虞姬"
+  ],
+  "payoff": [
+   "公孙离",
+   "虞姬",
+   "云中君"
+  ],
+  "complete": true
+ },
+ "2100901224998789121": {
+  "name": "代表法律制裁你",
+  "carry": "狄仁杰",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 7.0,
+  "producers": [
+   "铠",
+   "苏烈",
+   "钟馗",
+   "盾山"
+  ],
+  "amplifiers": [
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "59164963604973600": {
+  "name": "阿离攻速流",
+  "carry": "公孙离",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 10.5,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "鬼谷子",
+   "少司缘"
+  ],
+  "amplifiers": [
+   "张良",
+   "干将莫邪",
+   "虞姬"
+  ],
+  "payoff": [
+   "公孙离",
+   "虞姬"
+  ],
+  "complete": true
+ },
+ "29891565582446734": {
+  "name": "无阵营小妲己",
+  "carry": "海月",
+  "lords": [
+   "小妲己"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 2.0,
+  "producers": [
+   "太乙真人"
+  ],
+  "amplifiers": [],
+  "payoff": [
+   "公孙离"
+  ],
+  "complete": false
+ },
+ "99133657120862422": {
+  "name": "赢律图腾刘邦",
+  "carry": "刘邦",
+  "lords": [
+   "嬴律"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 10.0,
+  "producers": [
+   "云中君",
+   "太乙真人",
+   "刘邦",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [
+   "云中君",
+   "刘邦"
+  ],
+  "payoff": [
+   "云中君"
+  ],
+  "complete": true
+ },
+ "67045509775868110": {
+  "name": "白歌三分倒转",
+  "carry": "周瑜",
+  "lords": [
+   "白歌"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 14.0,
+  "producers": [
+   "曹操",
+   "甄姬",
+   "周瑜",
+   "阿轲",
+   "露娜",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "周瑜"
+  ],
+  "payoff": [
+   "孙悟空",
+   "甄姬",
+   "曹操",
+   "露娜",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "5121767631866960": {
+  "name": "镜神无限分身流",
+  "carry": "镜",
+  "lords": [
+   "阿离",
+   "乔汐",
+   "姜导"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 10.5,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周",
+   "蒙犽"
+  ],
+  "amplifiers": [
+   "芈月",
+   "镜",
+   "孙膑"
+  ],
+  "payoff": [
+   "镜",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "74364612829797406": {
+  "name": "日落海瞬移艾琳",
+  "carry": "艾琳",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 9.0,
+  "producers": [
+   "狂铁",
+   "安琪拉",
+   "米莱狄"
+  ],
+  "amplifiers": [
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "艾琳",
+   "安琪拉",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "105326106608474168": {
+  "name": "七三无阵营",
+  "carry": "裴擒虎",
+  "lords": [
+   "镜",
+   "明先生"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 5.5,
+  "producers": [
+   "瑶",
+   "云中君",
+   "太乙真人"
+  ],
+  "amplifiers": [
+   "云中君"
+  ],
+  "payoff": [
+   "云中君"
+  ],
+  "complete": true
+ },
+ "88437608005832944": {
+  "name": "三分倒转吕布",
+  "carry": "吕布",
+  "lords": [
+   "白歌",
+   "闹闹",
+   "孙小宾"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 11.0,
+  "producers": [
+   "曹操",
+   "甄姬",
+   "周瑜",
+   "露娜"
+  ],
+  "amplifiers": [
+   "小乔",
+   "周瑜"
+  ],
+  "payoff": [
+   "甄姬",
+   "曹操",
+   "露娜",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "100823261124265060": {
+  "name": "无阵营四驱镜",
+  "carry": "猪八戒",
+  "lords": [
+   "镜"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 1.5,
+  "producers": [],
+  "amplifiers": [
+   "明世隐"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "67608459729251514": {
+  "name": "山鬼召唤流天麟",
+  "carry": "苍",
+  "lords": [
+   "明先生"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 4.0,
+  "producers": [
+   "东皇太一",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [],
+  "payoff": [],
+  "complete": false
+ },
+ "22572463455543796": {
+  "name": "无限大招魔王流",
+  "carry": "大乔",
+  "lords": [
+   "白歌",
+   "常小娥",
+   "弈星"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 5.0,
+  "producers": [
+   "赵云"
+  ],
+  "amplifiers": [
+   "蔡文姬",
+   "大乔"
+  ],
+  "payoff": [
+   "诸葛亮"
+  ],
+  "complete": true
+ },
+ "20320663641866610": {
+  "name": "爆炸的安琪拉",
+  "carry": "安琪拉",
+  "lords": [
+   "庄小鱼",
+   "乔汐",
+   "马可"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 10.0,
+  "producers": [
+   "安琪拉",
+   "亚连",
+   "露娜",
+   "莱西奥"
+  ],
+  "amplifiers": [
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "亚连",
+   "安琪拉",
+   "露娜"
+  ],
+  "complete": true
+ },
+ "90690161479036936": {
+  "name": "牺牲升系仙",
+  "carry": "百里守约",
+  "lords": [
+   "乔汐",
+   "昭君",
+   "常小娥"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 10.0,
+  "producers": [
+   "铠",
+   "花木兰",
+   "苏烈",
+   "钟馗",
+   "盾山"
+  ],
+  "amplifiers": [
+   "李信",
+   "百里守约"
+  ],
+  "payoff": [
+   "李信",
+   "百里守约"
+  ],
+  "complete": true
+ },
+ "5121014899449892": {
+  "name": "常小娥苏虎震月",
+  "carry": "苏烈",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 2.5,
+  "producers": [],
+  "amplifiers": [
+   "司空震"
+  ],
+  "payoff": [
+   "司空震"
+  ],
+  "complete": false
+ },
+ "83371058425067726": {
+  "name": "班叔永续人鱼之歌",
+  "carry": "海诺",
+  "lords": [
+   "班叔"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 10.5,
+  "producers": [
+   "狂铁",
+   "米莱狄",
+   "亚连"
+  ],
+  "amplifiers": [
+   "海诺",
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "海诺",
+   "亚连",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "58038310521092182": {
+  "name": "河洛-全阵容",
+  "carry": "花木兰",
+  "lords": [
+   "瑶妹",
+   "弈星",
+   "明先生"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 11.0,
+  "producers": [
+   "铠",
+   "花木兰",
+   "钟馗",
+   "盾山"
+  ],
+  "amplifiers": [
+   "李信",
+   "明世隐",
+   "大司命",
+   "太乙真人"
+  ],
+  "payoff": [
+   "李信"
+  ],
+  "complete": true
+ },
+ "2306265132381448": {
+  "name": "欧美打法流",
+  "carry": "李信",
+  "lords": [
+   "瑶妹",
+   "香香"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 10.5,
+  "producers": [
+   "铠",
+   "花木兰",
+   "苏烈",
+   "钟馗",
+   "盾山"
+  ],
+  "amplifiers": [
+   "李信",
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [
+   "李信"
+  ],
+  "complete": true
+ },
+ "110392656189272236": {
+  "name": "祭祭祭百里",
+  "carry": "沈梦溪",
+  "lords": [
+   "香香"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 10.0,
+  "producers": [
+   "铠",
+   "花木兰",
+   "苏烈",
+   "钟馗",
+   "蒙恬",
+   "盾山"
+  ],
+  "amplifiers": [
+   "百里守约",
+   "太乙真人"
+  ],
+  "payoff": [
+   "百里守约"
+  ],
+  "complete": true
+ },
+ "130659608655536136": {
+  "name": "曜天帝炸盾",
+  "carry": "曜",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 4.5,
+  "producers": [
+   "西施"
+  ],
+  "amplifiers": [
+   "芈月"
+  ],
+  "payoff": [
+   "廉颇",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "32705562617109580": {
+  "name": "海鹿空刷大",
+  "carry": "瑶",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 5.0,
+  "producers": [
+   "狂铁"
+  ],
+  "amplifiers": [
+   "海诺",
+   "朵莉亚"
+  ],
+  "payoff": [
+   "海诺"
+  ],
+  "complete": true
+ },
+ "103074306794793032": {
+  "name": "白歌-三分射",
+  "carry": "公孙离",
+  "lords": [
+   "白歌"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 5.5,
+  "producers": [
+   "曹操",
+   "赵云",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "蔡文姬"
+  ],
+  "payoff": [
+   "曹操"
+  ],
+  "complete": true
+ },
+ "46216361499247702": {
+  "name": "乔汐刷牌司空震",
+  "carry": "司空震",
+  "lords": [
+   "乔汐"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 4.0,
+  "producers": [],
+  "amplifiers": [
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [
+   "司空震"
+  ],
+  "complete": false
+ },
+ "2099957489245159425": {
+  "name": "999艾琳或速刷",
+  "carry": "艾琳",
+  "lords": [
+   "瑶妹",
+   "香香",
+   "明先生"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 9.0,
+  "producers": [
+   "狂铁",
+   "米莱狄",
+   "亚连"
+  ],
+  "amplifiers": [
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "艾琳",
+   "亚连",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "71549109403228468": {
+  "name": "低压开团射",
+  "carry": "张良",
+  "lords": [
+   "明先生",
+   "嬴律",
+   "瑶妹"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 9.0,
+  "producers": [
+   "瑶",
+   "云中君",
+   "太乙真人",
+   "鬼谷子"
+  ],
+  "amplifiers": [
+   "张良",
+   "云中君"
+  ],
+  "payoff": [
+   "公孙离",
+   "云中君"
+  ],
+  "complete": true
+ },
+ "25387213222663236": {
+  "name": "妲己逐鹿雷霆战机",
+  "carry": "嬴政",
+  "lords": [
+   "小妲己"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 10.0,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周",
+   "蒙犽",
+   "鲁班七号"
+  ],
+  "amplifiers": [
+   "芈月",
+   "嬴政"
+  ],
+  "payoff": [
+   "嬴政",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "107577906422198342": {
+  "name": "明先生日落海召唤",
+  "carry": "米莱狄",
+  "lords": [
+   "明先生"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 7.0,
+  "producers": [
+   "安琪拉",
+   "米莱狄"
+  ],
+  "amplifiers": [
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "安琪拉",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "100259557027692916": {
+  "name": "香香开团射包吃分",
+  "carry": "公孙离",
+  "lords": [
+   "香香"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 14.0,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "云中君",
+   "鬼谷子",
+   "少司缘"
+  ],
+  "amplifiers": [
+   "张良",
+   "云中君",
+   "干将莫邪",
+   "虞姬"
+  ],
+  "payoff": [
+   "公孙离",
+   "虞姬",
+   "云中君"
+  ],
+  "complete": true
+ },
+ "20320663641866330": {
+  "name": "芈月大王",
+  "carry": "芈月",
+  "lords": [
+   "姜导"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 6.0,
+  "producers": [
+   "西施",
+   "白起"
+  ],
+  "amplifiers": [
+   "芈月",
+   "孙膑"
+  ],
+  "payoff": [
+   "芈月"
+  ],
+  "complete": true
+ },
+ "25387213222663606": {
+  "name": "自配版倒三角",
+  "carry": "周瑜",
+  "lords": [
+   "常小娥",
+   "乔汐"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 15.5,
+  "producers": [
+   "曹操",
+   "甄姬",
+   "貂蝉",
+   "周瑜",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "周瑜",
+   "貂蝉",
+   "蔡文姬",
+   "大乔"
+  ],
+  "payoff": [
+   "甄姬",
+   "曹操",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "76616412643475468": {
+  "name": "伞亚连",
+  "carry": "亚连",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 11.5,
+  "producers": [
+   "安琪拉",
+   "米莱狄",
+   "亚连"
+  ],
+  "amplifiers": [
+   "海诺",
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "海诺",
+   "亚连",
+   "安琪拉",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "77178608937411706": {
+  "name": "姜导封神玄策",
+  "carry": "百里玄策",
+  "lords": [
+   "姜导"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 7.0,
+  "producers": [
+   "铠",
+   "苏烈",
+   "钟馗",
+   "盾山"
+  ],
+  "amplifiers": [
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "80557062317492296": {
+  "name": "阿离养马流",
+  "carry": "马超",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 4.5,
+  "producers": [
+   "瑶",
+   "太乙真人",
+   "吕布"
+  ],
+  "amplifiers": [
+   "干将莫邪"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "104763910798083086": {
+  "name": "枪有点饿了",
+  "carry": "百里守约",
+  "lords": [
+   "阿离",
+   "姜导",
+   "香香"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 8.0,
+  "producers": [
+   "铠",
+   "苏烈",
+   "钟馗",
+   "盾山"
+  ],
+  "amplifiers": [
+   "百里守约",
+   "太乙真人"
+  ],
+  "payoff": [
+   "百里守约"
+  ],
+  "complete": true
+ },
+ "27076063082941654": {
+  "name": "速升韩信流",
+  "carry": "韩信",
+  "lords": [
+   "姜导",
+   "常小娥",
+   "镜"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 15.5,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "云中君",
+   "太乙真人",
+   "鬼谷子"
+  ],
+  "amplifiers": [
+   "张良",
+   "韩信",
+   "云中君",
+   "干将莫邪",
+   "虞姬"
+  ],
+  "payoff": [
+   "韩信",
+   "虞姬",
+   "云中君"
+  ],
+  "complete": true
+ },
+ "40587615142030354": {
+  "name": "双剑出鞘伞亚连",
+  "carry": "亚连",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 8.0,
+  "producers": [
+   "狂铁",
+   "米莱狄",
+   "亚连"
+  ],
+  "amplifiers": [
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "亚连",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "112081506049516878": {
+  "name": "花木兰",
+  "carry": "花木兰",
+  "lords": [
+   "昭君"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 7.0,
+  "producers": [
+   "上官婉儿",
+   "程咬金"
+  ],
+  "amplifiers": [
+   "武则天",
+   "李白"
+  ],
+  "payoff": [
+   "李白",
+   "武则天"
+  ],
+  "complete": true
+ },
+ "56350213837858858": {
+  "name": "蒙恬自爆召唤流",
+  "carry": "蒙恬",
+  "lords": [
+   "小妲己",
+   "玉环"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 5.5,
+  "producers": [
+   "西施",
+   "白起",
+   "老夫子"
+  ],
+  "amplifiers": [
+   "芈月"
+  ],
+  "payoff": [
+   "芈月"
+  ],
+  "complete": true
+ },
+ "118837659633656880": {
+  "name": "最详细明大河猪射",
+  "carry": "公孙离",
+  "lords": [
+   "明先生"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 9.0,
+  "producers": [
+   "瑶",
+   "云中君",
+   "太乙真人",
+   "鬼谷子"
+  ],
+  "amplifiers": [
+   "张良",
+   "云中君"
+  ],
+  "payoff": [
+   "公孙离",
+   "云中君"
+  ],
+  "complete": true
+ },
+ "112082260192654556": {
+  "name": "马可3阶日落海",
+  "carry": "安琪拉",
+  "lords": [
+   "马可"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 4.0,
+  "producers": [
+   "狂铁",
+   "安琪拉",
+   "亚瑟"
+  ],
+  "amplifiers": [],
+  "payoff": [
+   "安琪拉"
+  ],
+  "complete": false
+ },
+ "86186561851719682": {
+  "name": "阿离遗志海月流",
+  "carry": "海月",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 3.5,
+  "producers": [
+   "瑶",
+   "太乙真人"
+  ],
+  "amplifiers": [
+   "干将莫邪"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "123341259261075502": {
+  "name": "999伞干将海月",
+  "carry": "海月",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 1.5,
+  "producers": [],
+  "amplifiers": [
+   "干将莫邪"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "109829706235869332": {
+  "name": "召唤派对",
+  "carry": "朵莉亚",
+  "lords": [
+   "瑶妹",
+   "嬴律"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 7.0,
+  "producers": [
+   "米莱狄",
+   "亚连"
+  ],
+  "amplifiers": [
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "亚连",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "20883613595276378": {
+  "name": "古币养镜",
+  "carry": "镜",
+  "lords": [
+   "姜导"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 8.0,
+  "producers": [
+   "西施",
+   "白起",
+   "程咬金"
+  ],
+  "amplifiers": [
+   "芈月",
+   "镜"
+  ],
+  "payoff": [
+   "镜",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "60290110334789882": {
+  "name": "「流云」班叔奶屏",
+  "carry": "杨玉环",
+  "lords": [
+   "班叔"
+  ],
+  "engine": "skillcast",
+  "engine_name": "放技能",
+  "score": 4.5,
+  "producers": [
+   "刘禅"
+  ],
+  "amplifiers": [
+   "孙膑",
+   "诸葛亮",
+   "明世隐"
+  ],
+  "payoff": [
+   "孙膑",
+   "诸葛亮"
+  ],
+  "complete": true
+ },
+ "50157764350241826": {
+  "name": "撸猫流",
+  "carry": "沈梦溪",
+  "lords": [
+   "班叔"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 5.5,
+  "producers": [
+   "李元芳",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [
+   "李白"
+  ],
+  "payoff": [
+   "李白"
+  ],
+  "complete": true
+ },
+ "2099076795354267649": {
+  "name": "三分倒转",
+  "carry": "周瑜",
+  "lords": [
+   "白歌",
+   "孙小宾",
+   "香香"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 14.0,
+  "producers": [
+   "曹操",
+   "甄姬",
+   "周瑜",
+   "阿轲",
+   "露娜",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "周瑜"
+  ],
+  "payoff": [
+   "孙悟空",
+   "甄姬",
+   "曹操",
+   "露娜",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "8498714619945300": {
+  "name": "王昭君七五",
+  "carry": "东皇太一",
+  "lords": [
+   "昭君"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 2.0,
+  "producers": [
+   "露娜"
+  ],
+  "amplifiers": [],
+  "payoff": [
+   "露娜"
+  ],
+  "complete": false
+ },
+ "15817064014494880": {
+  "name": "龙蛇变猪流",
+  "carry": "敖隐",
+  "lords": [
+   "明先生"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 10.0,
+  "producers": [
+   "虞姬",
+   "东皇太一",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [
+   "张良",
+   "虞姬"
+  ],
+  "payoff": [
+   "虞姬",
+   "敖隐"
+  ],
+  "complete": true
+ },
+ "99697361217304820": {
+  "name": "95至尊全场特效",
+  "carry": "杨玉环",
+  "lords": [
+   "昭君",
+   "乔汐",
+   "玉环"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 5.5,
+  "producers": [
+   "周瑜",
+   "露娜",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "周瑜"
+  ],
+  "payoff": [
+   "露娜"
+  ],
+  "complete": true
+ },
+ "127281154791912686": {
+  "name": "镜养猪999",
+  "carry": "阿轲",
+  "lords": [
+   "镜"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 1.5,
+  "producers": [],
+  "amplifiers": [
+   "明世隐"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "115459959913136282": {
+  "name": "玉环13猪转37",
+  "carry": "瑶",
+  "lords": [
+   "玉环"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 4.0,
+  "producers": [
+   "苏烈"
+  ],
+  "amplifiers": [
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "110392656189272386": {
+  "name": "轮椅流艾琳",
+  "carry": "艾琳",
+  "lords": [
+   "常小娥",
+   "嬴律",
+   "明先生"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 5.0,
+  "producers": [
+   "狂铁"
+  ],
+  "amplifiers": [
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "艾琳"
+  ],
+  "complete": true
+ },
+ "68735113295632436": {
+  "name": "一身是胆赵子龙",
+  "carry": "赵云",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 12.5,
+  "producers": [
+   "曹操",
+   "甄姬",
+   "赵云",
+   "貂蝉",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "貂蝉",
+   "蔡文姬"
+  ],
+  "payoff": [
+   "甄姬",
+   "曹操",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "59727160381351404": {
+  "name": "河洛玄策",
+  "carry": "百里玄策",
+  "lords": [
+   "姜导",
+   "瑶妹",
+   "香香"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 10.0,
+  "producers": [
+   "李元芳",
+   "上官婉儿",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [
+   "武则天",
+   "李白"
+  ],
+  "payoff": [
+   "李白",
+   "武则天",
+   "百里玄策"
+  ],
+  "complete": true
+ },
+ "3995114992613548": {
+  "name": "河洛香",
+  "carry": "狄仁杰",
+  "lords": [
+   "香香"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 6.5,
+  "producers": [
+   "李元芳",
+   "上官婉儿",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [
+   "狄仁杰"
+  ],
+  "payoff": [
+   "狄仁杰"
+  ],
+  "complete": true
+ },
+ "119962805397425524": {
+  "name": "日落整备艾琳",
+  "carry": "艾琳",
+  "lords": [
+   "乔汐",
+   "白歌",
+   "常小娥"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 11.0,
+  "producers": [
+   "狂铁",
+   "安琪拉",
+   "米莱狄",
+   "亚连"
+  ],
+  "amplifiers": [
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "艾琳",
+   "亚连",
+   "安琪拉",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "81682962224371742": {
+  "name": "无限技能炸弹猫",
+  "carry": "沈梦溪",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 6.0,
+  "producers": [
+   "铠",
+   "钟馗",
+   "盾山"
+  ],
+  "amplifiers": [
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "100823261124265010": {
+  "name": "护盾保c流",
+  "carry": "海月",
+  "lords": [
+   "阿离",
+   "玉环",
+   "瑶妹"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 7.0,
+  "producers": [
+   "白起",
+   "庄周"
+  ],
+  "amplifiers": [
+   "嬴政",
+   "孙膑"
+  ],
+  "payoff": [
+   "嬴政",
+   "廉颇"
+  ],
+  "complete": true
+ },
+ "33269265302983806": {
+  "name": "玉环日落海倒转",
+  "carry": "司空震",
+  "lords": [
+   "玉环",
+   "小妲己"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 4.5,
+  "producers": [
+   "狂铁",
+   "亚瑟"
+  ],
+  "amplifiers": [
+   "海诺"
+  ],
+  "payoff": [
+   "海诺"
+  ],
+  "complete": true
+ },
+ "16942963921326366": {
+  "name": "小鱼养镜",
+  "carry": "镜",
+  "lords": [
+   "庄小鱼",
+   "姜导"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 10.0,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周",
+   "老夫子",
+   "蒙犽"
+  ],
+  "amplifiers": [
+   "芈月",
+   "镜"
+  ],
+  "payoff": [
+   "镜",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "31580415442699332": {
+  "name": "双刃亚连",
+  "carry": "亚连",
+  "lords": [
+   "阿离",
+   "姜导"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 12.5,
+  "producers": [
+   "狂铁",
+   "安琪拉",
+   "米莱狄",
+   "亚连"
+  ],
+  "amplifiers": [
+   "海诺",
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "海诺",
+   "亚连",
+   "安琪拉",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "96881857307147506": {
+  "name": "姜导干将",
+  "carry": "干将莫邪",
+  "lords": [
+   "姜导"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 12.0,
+  "producers": [
+   "虞姬",
+   "云中君",
+   "东皇太一",
+   "鬼谷子"
+  ],
+  "amplifiers": [
+   "张良",
+   "云中君",
+   "干将莫邪",
+   "虞姬"
+  ],
+  "payoff": [
+   "虞姬",
+   "云中君"
+  ],
+  "complete": true
+ },
+ "122214605211127218": {
+  "name": "马可猪镜双核阵",
+  "carry": "镜",
+  "lords": [
+   "马可"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 7.0,
+  "producers": [
+   "西施",
+   "老夫子"
+  ],
+  "amplifiers": [
+   "芈月",
+   "镜"
+  ],
+  "payoff": [
+   "镜",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "50157011173204096": {
+  "name": "保姆赢律低压猪射",
+  "carry": "公孙离",
+  "lords": [
+   "嬴律"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 8.0,
+  "producers": [
+   "瑶",
+   "太乙真人",
+   "鬼谷子",
+   "少司缘"
+  ],
+  "amplifiers": [
+   "张良",
+   "干将莫邪"
+  ],
+  "payoff": [
+   "公孙离"
+  ],
+  "complete": true
+ },
+ "2099707672904511489": {
+  "name": "万血天蓬下凡",
+  "carry": "猪八戒",
+  "lords": [
+   "马可"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 3.0,
+  "producers": [],
+  "amplifiers": [
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "28202715722180634": {
+  "name": "日落海剑圣",
+  "carry": "亚连",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 8.0,
+  "producers": [
+   "狂铁",
+   "米莱狄",
+   "亚连"
+  ],
+  "amplifiers": [
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "亚连",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "125029354978231732": {
+  "name": "狄仁杰攻速流",
+  "carry": "狄仁杰",
+  "lords": [
+   "闹闹",
+   "庄小鱼",
+   "白歌"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 9.0,
+  "producers": [
+   "李元芳",
+   "上官婉儿",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [
+   "武则天",
+   "狄仁杰"
+  ],
+  "payoff": [
+   "狄仁杰",
+   "武则天"
+  ],
+  "complete": true
+ },
+ "2100527391056404481": {
+  "name": "乔夕无阵速刷",
+  "carry": "孙悟空",
+  "lords": [
+   "乔汐"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 4.5,
+  "producers": [
+   "云中君",
+   "太乙真人"
+  ],
+  "amplifiers": [
+   "云中君"
+  ],
+  "payoff": [
+   "云中君"
+  ],
+  "complete": true
+ },
+ "58601260474518866": {
+  "name": "真是得力干将",
+  "carry": "干将莫邪",
+  "lords": [
+   "瑶妹",
+   "姜导",
+   "常小娥"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 8.5,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "鬼谷子"
+  ],
+  "amplifiers": [
+   "张良",
+   "干将莫邪",
+   "虞姬"
+  ],
+  "payoff": [
+   "虞姬"
+  ],
+  "complete": true
+ },
+ "45091214769439940": {
+  "name": "玉环禁海三分转",
+  "carry": "诸葛亮",
+  "lords": [
+   "玉环"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 5.0,
+  "producers": [],
+  "amplifiers": [
+   "小乔",
+   "蔡文姬"
+  ],
+  "payoff": [
+   "诸葛亮",
+   "小乔"
+  ],
+  "complete": false
+ },
+ "67046263435381788": {
+  "name": "守约万爆流",
+  "carry": "百里守约",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 12.0,
+  "producers": [
+   "花木兰",
+   "苏烈",
+   "钟馗",
+   "盾山"
+  ],
+  "amplifiers": [
+   "李信",
+   "百里守约",
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [
+   "李信",
+   "百里守约"
+  ],
+  "complete": true
+ },
+ "122215359354172436": {
+  "name": "阿离Ace简单输",
+  "carry": "百里玄策",
+  "lords": [
+   "阿离",
+   "瑶妹",
+   "白歌"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 6.5,
+  "producers": [
+   "铠",
+   "苏烈",
+   "钟馗",
+   "蒙恬",
+   "盾山"
+  ],
+  "amplifiers": [
+   "太乙真人"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "51845861033489816": {
+  "name": "昭君无阵营流",
+  "carry": "姜子牙",
+  "lords": [
+   "昭君"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 2.0,
+  "producers": [
+   "阿轲"
+  ],
+  "amplifiers": [],
+  "payoff": [
+   "孙悟空"
+  ],
+  "complete": false
+ },
+ "122777555164548556": {
+  "name": "无限复活流花神",
+  "carry": "花木兰",
+  "lords": [
+   "常小娥",
+   "瑶妹",
+   "白歌"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 5.5,
+  "producers": [
+   "李元芳",
+   "上官婉儿",
+   "程咬金"
+  ],
+  "amplifiers": [
+   "武则天"
+  ],
+  "payoff": [
+   "武则天"
+  ],
+  "complete": true
+ },
+ "68171409682683144": {
+  "name": "嫦小娥海月刺客猪",
+  "carry": "裴擒虎",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 1.0,
+  "producers": [
+   "阿轲"
+  ],
+  "amplifiers": [],
+  "payoff": [],
+  "complete": false
+ },
+ "104763910798083186": {
+  "name": "无限火力诸葛亮",
+  "carry": "诸葛亮",
+  "lords": [
+   "瑶妹",
+   "乔汐"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 14.5,
+  "producers": [
+   "曹操",
+   "貂蝉",
+   "周瑜",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "周瑜",
+   "貂蝉",
+   "蔡文姬",
+   "大乔"
+  ],
+  "payoff": [
+   "诸葛亮",
+   "曹操",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "14128214154184076": {
+  "name": "李白打钱流",
+  "carry": "李白",
+  "lords": [
+   "闹闹",
+   "白歌",
+   "常小娥"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 9.0,
+  "producers": [
+   "李元芳",
+   "上官婉儿",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [
+   "武则天",
+   "李白"
+  ],
+  "payoff": [
+   "李白",
+   "武则天"
+  ],
+  "complete": true
+ },
+ "2099524011680636929": {
+  "name": "玉环整备露娜",
+  "carry": "露娜",
+  "lords": [
+   "玉环"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 12.5,
+  "producers": [
+   "狂铁",
+   "米莱狄",
+   "亚连",
+   "露娜"
+  ],
+  "amplifiers": [
+   "海诺",
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "海诺",
+   "亚连",
+   "露娜",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "13002314247384380": {
+  "name": "赢律养猪流",
+  "carry": "公孙离",
+  "lords": [
+   "嬴律"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 3.0,
+  "producers": [],
+  "amplifiers": [
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "98007757214002352": {
+  "name": "庄小鱼无阵营",
+  "carry": "海月",
+  "lords": [
+   "庄小鱼"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 3.0,
+  "producers": [],
+  "amplifiers": [
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "100260311170827544": {
+  "name": "雷霆大飞机",
+  "carry": "嬴政",
+  "lords": [
+   "嬴律",
+   "乔汐",
+   "庄小鱼"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 10.0,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周",
+   "蒙犽",
+   "鲁班七号"
+  ],
+  "amplifiers": [
+   "芈月",
+   "嬴政"
+  ],
+  "payoff": [
+   "嬴政",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "74926809123754420": {
+  "name": "养币狄仁杰",
+  "carry": "狄仁杰",
+  "lords": [
+   "镜",
+   "闹闹",
+   "姜导"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 6.5,
+  "producers": [
+   "李元芳",
+   "上官婉儿",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [
+   "狄仁杰"
+  ],
+  "payoff": [
+   "狄仁杰"
+  ],
+  "complete": true
+ },
+ "38898012104754618": {
+  "name": "乔汐猛养山鬼流",
+  "carry": "大司命",
+  "lords": [
+   "乔汐"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 3.5,
+  "producers": [
+   "蒙恬",
+   "项羽"
+  ],
+  "amplifiers": [
+   "大司命"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "68734359636089084": {
+  "name": "三分狂刷流",
+  "carry": "蔡文姬",
+  "lords": [
+   "瑶妹",
+   "白歌",
+   "香香"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 11.5,
+  "producers": [
+   "曹操",
+   "赵云",
+   "貂蝉",
+   "露娜"
+  ],
+  "amplifiers": [
+   "小乔",
+   "貂蝉",
+   "蔡文姬"
+  ],
+  "payoff": [
+   "曹操",
+   "露娜",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "54660610800570784": {
+  "name": "孙膑众乐乐公孙离",
+  "carry": "公孙离",
+  "lords": [
+   "孙小宾"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 2.0,
+  "producers": [
+   "太乙真人"
+  ],
+  "amplifiers": [],
+  "payoff": [
+   "公孙离"
+  ],
+  "complete": false
+ },
+ "123340505117972920": {
+  "name": "雷霆战机",
+  "carry": "嬴政",
+  "lords": [
+   "明先生",
+   "昭君"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 10.0,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周",
+   "蒙犽",
+   "鲁班七号"
+  ],
+  "amplifiers": [
+   "芈月",
+   "嬴政"
+  ],
+  "payoff": [
+   "嬴政",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "94630057493486834": {
+  "name": "左脚踩右脚上天",
+  "carry": "诸葛亮",
+  "lords": [
+   "瑶妹"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 4.5,
+  "producers": [
+   "瑶",
+   "太乙真人",
+   "吕布"
+  ],
+  "amplifiers": [
+   "干将莫邪"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "60290110334789892": {
+  "name": "999级海月憋笑",
+  "carry": "海月",
+  "lords": [
+   "瑶妹"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 3.0,
+  "producers": [],
+  "amplifiers": [
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "125030109121322014": {
+  "name": "庄小鱼日落海露娜",
+  "carry": "露娜",
+  "lords": [
+   "庄小鱼"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 15.5,
+  "producers": [
+   "狂铁",
+   "安琪拉",
+   "米莱狄",
+   "亚连",
+   "露娜",
+   "亚瑟"
+  ],
+  "amplifiers": [
+   "海诺",
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "海诺",
+   "亚连",
+   "安琪拉",
+   "露娜",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "48468914489957522": {
+  "name": "伞曜炸盾速升",
+  "carry": "曜",
+  "lords": [
+   "阿离",
+   "常小娥",
+   "孙小宾"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 5.0,
+  "producers": [
+   "西施"
+  ],
+  "amplifiers": [
+   "芈月",
+   "孙膑"
+  ],
+  "payoff": [
+   "芈月"
+  ],
+  "complete": true
+ },
+ "6246914806325406": {
+  "name": "挂机999山鬼！",
+  "carry": "米莱狄",
+  "lords": [
+   "明先生"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 3.5,
+  "producers": [
+   "蒙恬",
+   "项羽"
+  ],
+  "amplifiers": [
+   "大司命"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "32142612663707818": {
+  "name": "古法养狄仁杰",
+  "carry": "狄仁杰",
+  "lords": [
+   "姜导",
+   "闹闹",
+   "常小娥"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 6.5,
+  "producers": [
+   "李元芳",
+   "上官婉儿",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [
+   "狄仁杰"
+  ],
+  "payoff": [
+   "狄仁杰"
+  ],
+  "complete": true
+ },
+ "26513865861912598": {
+  "name": "阿离瞬狙流",
+  "carry": "百里守约",
+  "lords": [
+   "姜导",
+   "阿离"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 8.5,
+  "producers": [
+   "铠",
+   "钟馗",
+   "盾山"
+  ],
+  "amplifiers": [
+   "百里守约",
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [
+   "百里守约"
+  ],
+  "complete": true
+ },
+ "110393410332409918": {
+  "name": "无限爆炸召唤器",
+  "carry": "米莱狄",
+  "lords": [
+   "白歌",
+   "弈星",
+   "小妲己"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 4.5,
+  "producers": [
+   "狂铁",
+   "米莱狄"
+  ],
+  "amplifiers": [
+   "朵莉亚"
+  ],
+  "payoff": [
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "83371058425067928": {
+  "name": "嬴政雷霆战机",
+  "carry": "嬴政",
+  "lords": [
+   "白歌",
+   "姜导",
+   "明先生"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 9.0,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周",
+   "鲁班七号"
+  ],
+  "amplifiers": [
+   "芈月",
+   "嬴政"
+  ],
+  "payoff": [
+   "嬴政",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "2101357751987728385": {
+  "name": "马克养镜",
+  "carry": "镜",
+  "lords": [
+   "马可"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 5.0,
+  "producers": [],
+  "amplifiers": [
+   "芈月",
+   "镜"
+  ],
+  "payoff": [
+   "镜",
+   "芈月"
+  ],
+  "complete": false
+ },
+ "117148809773445246": {
+  "name": "阿离伞海月",
+  "carry": "海月",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 3.5,
+  "producers": [
+   "瑶",
+   "太乙真人"
+  ],
+  "amplifiers": [
+   "干将莫邪"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "31579662710273300": {
+  "name": "常小娥无限大诸葛",
+  "carry": "诸葛亮",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 2.5,
+  "producers": [
+   "吕布"
+  ],
+  "amplifiers": [
+   "干将莫邪"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "1744067911381120": {
+  "name": "马瑶无限戳",
+  "carry": "马超",
+  "lords": [
+   "明先生",
+   "阿离"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 5.5,
+  "producers": [
+   "瑶",
+   "云中君",
+   "太乙真人"
+  ],
+  "amplifiers": [
+   "云中君"
+  ],
+  "payoff": [
+   "云中君"
+  ],
+  "complete": true
+ },
+ "127281908935042240": {
+  "name": "无限复活花木兰",
+  "carry": "花木兰",
+  "lords": [
+   "嬴律"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 7.0,
+  "producers": [
+   "上官婉儿",
+   "程咬金"
+  ],
+  "amplifiers": [
+   "武则天",
+   "李白"
+  ],
+  "payoff": [
+   "李白",
+   "武则天"
+  ],
+  "complete": true
+ },
+ "113770355909846282": {
+  "name": "马可顶级养猪流！",
+  "carry": "猪八戒",
+  "lords": [
+   "马可"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 3.0,
+  "producers": [
+   "曹操",
+   "孙尚香"
+  ],
+  "amplifiers": [],
+  "payoff": [
+   "曹操"
+  ],
+  "complete": false
+ },
+ "107014956468726006": {
+  "name": "赢律大河开团猪射",
+  "carry": "公孙离",
+  "lords": [
+   "嬴律",
+   "香香"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 11.5,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "太乙真人",
+   "鬼谷子",
+   "少司缘"
+  ],
+  "amplifiers": [
+   "张良",
+   "干将莫邪",
+   "虞姬"
+  ],
+  "payoff": [
+   "公孙离",
+   "虞姬"
+  ],
+  "complete": true
+ },
+ "76615658984028362": {
+  "name": "无脑999养猪流",
+  "carry": "裴擒虎",
+  "lords": [
+   "镜"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 1.5,
+  "producers": [],
+  "amplifiers": [
+   "明世隐"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "101386211077691428": {
+  "name": "阿离干将遗志海月",
+  "carry": "海月",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 3.0,
+  "producers": [],
+  "amplifiers": [
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "32142612663707772": {
+  "name": "大河开团射",
+  "carry": "公孙离",
+  "lords": [
+   "镜"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 9.0,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "鬼谷子",
+   "少司缘"
+  ],
+  "amplifiers": [
+   "张良",
+   "虞姬"
+  ],
+  "payoff": [
+   "公孙离",
+   "虞姬"
+  ],
+  "complete": true
+ },
+ "33268512570549546": {
+  "name": "你的始皇无限猖狂",
+  "carry": "嬴政",
+  "lords": [
+   "嬴律",
+   "常小娥",
+   "白歌"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 11.0,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周",
+   "老夫子",
+   "蒙犽",
+   "鲁班七号"
+  ],
+  "amplifiers": [
+   "芈月",
+   "嬴政"
+  ],
+  "payoff": [
+   "嬴政",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "98570707167415562": {
+  "name": "闹闹高阶大河",
+  "carry": "敖隐",
+  "lords": [
+   "闹闹"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 15.0,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "云中君",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [
+   "张良",
+   "云中君",
+   "干将莫邪",
+   "虞姬"
+  ],
+  "payoff": [
+   "虞姬",
+   "云中君",
+   "敖隐"
+  ],
+  "complete": true
+ },
+ "29328615629006132": {
+  "name": "昭君大河双子星",
+  "carry": "敖隐",
+  "lords": [
+   "昭君"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 14.5,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "云中君",
+   "东皇太一",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [
+   "张良",
+   "云中君",
+   "虞姬"
+  ],
+  "payoff": [
+   "虞姬",
+   "云中君",
+   "敖隐"
+  ],
+  "complete": true
+ },
+ "40586861965034590": {
+  "name": "低阶大河",
+  "carry": "公孙离",
+  "lords": [
+   "嬴律",
+   "瑶妹",
+   "姜导"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 9.0,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "鬼谷子",
+   "少司缘"
+  ],
+  "amplifiers": [
+   "张良",
+   "虞姬"
+  ],
+  "payoff": [
+   "公孙离",
+   "虞姬"
+  ],
+  "complete": true
+ },
+ "82245158518244550": {
+  "name": "烟花秀",
+  "carry": "司空震",
+  "lords": [
+   "明先生",
+   "瑶妹",
+   "闹闹"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 12.5,
+  "producers": [
+   "李元芳",
+   "上官婉儿",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [
+   "李白",
+   "狄仁杰",
+   "司空震"
+  ],
+  "payoff": [
+   "狄仁杰",
+   "李白",
+   "司空震",
+   "百里玄策"
+  ],
+  "complete": true
+ },
+ "34957362430804364": {
+  "name": "最强蒙恬召唤流",
+  "carry": "蒙恬",
+  "lords": [
+   "小妲己",
+   "白歌",
+   "明先生"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 5.5,
+  "producers": [
+   "西施",
+   "白起",
+   "老夫子"
+  ],
+  "amplifiers": [
+   "芈月"
+  ],
+  "payoff": [
+   "芈月"
+  ],
+  "complete": true
+ },
+ "94067107540098262": {
+  "name": "龙人崛起龙人当兴",
+  "carry": "敖隐",
+  "lords": [
+   "嬴律",
+   "瑶妹",
+   "明先生"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 8.5,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [
+   "虞姬"
+  ],
+  "payoff": [
+   "虞姬",
+   "敖隐"
+  ],
+  "complete": true
+ },
+ "112082260192654372": {
+  "name": "最强阿离伞海月",
+  "carry": "海月",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 3.0,
+  "producers": [],
+  "amplifiers": [
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "102512110984444068": {
+  "name": "闹闹能量改造",
+  "carry": "安琪拉",
+  "lords": [
+   "闹闹"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 14.5,
+  "producers": [
+   "狂铁",
+   "安琪拉",
+   "米莱狄",
+   "亚连",
+   "露娜"
+  ],
+  "amplifiers": [
+   "海诺",
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "海诺",
+   "亚连",
+   "安琪拉",
+   "露娜",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "81120012270900498": {
+  "name": "庄小鱼高阶龙蛇",
+  "carry": "敖隐",
+  "lords": [
+   "庄小鱼"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 11.5,
+  "producers": [
+   "虞姬",
+   "东皇太一",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [
+   "张良",
+   "干将莫邪",
+   "虞姬"
+  ],
+  "payoff": [
+   "虞姬",
+   "敖隐"
+  ],
+  "complete": true
+ },
+ "92379011339326540": {
+  "name": "三分闹闹国服周仓",
+  "carry": "周瑜",
+  "lords": [
+   "闹闹"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 14.5,
+  "producers": [
+   "曹操",
+   "赵云",
+   "貂蝉",
+   "周瑜",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "周瑜",
+   "貂蝉",
+   "蔡文姬",
+   "大乔"
+  ],
+  "payoff": [
+   "曹操",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "42275711825306992": {
+  "name": "撸猫流",
+  "carry": "沈梦溪",
+  "lords": [
+   "班叔"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 5.5,
+  "producers": [
+   "李元芳",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [
+   "李白"
+  ],
+  "payoff": [
+   "李白"
+  ],
+  "complete": true
+ },
+ "50157011173204256": {
+  "name": "马可万血猪",
+  "carry": "裴擒虎",
+  "lords": [
+   "马可"
+  ],
+  "engine": "skillcast",
+  "engine_name": "放技能",
+  "score": 3.0,
+  "producers": [
+   "刘禅"
+  ],
+  "amplifiers": [
+   "孙膑",
+   "明世隐"
+  ],
+  "payoff": [
+   "孙膑"
+  ],
+  "complete": true
+ },
+ "112081506049516804": {
+  "name": "韩信，无限击飞！",
+  "carry": "韩信",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 7.0,
+  "producers": [
+   "瑶",
+   "云中君"
+  ],
+  "amplifiers": [
+   "韩信",
+   "云中君"
+  ],
+  "payoff": [
+   "韩信",
+   "云中君"
+  ],
+  "complete": true
+ },
+ "100823261124264964": {
+  "name": "一念神魔",
+  "carry": "李信",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 4.5,
+  "producers": [
+   "铠",
+   "苏烈"
+  ],
+  "amplifiers": [
+   "李信"
+  ],
+  "payoff": [
+   "李信"
+  ],
+  "complete": true
+ },
+ "38898012104754366": {
+  "name": "镜无阵营四小只",
+  "carry": "裴擒虎",
+  "lords": [
+   "镜"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 1.5,
+  "producers": [],
+  "amplifiers": [
+   "明世隐"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "66482559822422246": {
+  "name": "镜猪马",
+  "carry": "马超",
+  "lords": [
+   "镜"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 1.5,
+  "producers": [],
+  "amplifiers": [
+   "明世隐"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "112082260192654344": {
+  "name": "雷霆战机嬴政",
+  "carry": "嬴政",
+  "lords": [
+   "明先生",
+   "嬴律",
+   "白歌"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 10.0,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周",
+   "老夫子",
+   "鲁班七号"
+  ],
+  "amplifiers": [
+   "芈月",
+   "嬴政"
+  ],
+  "payoff": [
+   "嬴政",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "95755957400350000": {
+  "name": "班叔远程消耗",
+  "carry": "杨玉环",
+  "lords": [
+   "班叔"
+  ],
+  "engine": "skillcast",
+  "engine_name": "放技能",
+  "score": 4.5,
+  "producers": [
+   "刘禅"
+  ],
+  "amplifiers": [
+   "孙膑",
+   "诸葛亮",
+   "明世隐"
+  ],
+  "payoff": [
+   "孙膑",
+   "诸葛亮"
+  ],
+  "complete": true
+ },
+ "55786510707421440": {
+  "name": "炸曜爆盾流",
+  "carry": "曜",
+  "lords": [
+   "白歌",
+   "姜导"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 5.5,
+  "producers": [
+   "西施",
+   "白起"
+  ],
+  "amplifiers": [
+   "芈月"
+  ],
+  "payoff": [
+   "廉颇",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "54661363977611430": {
+  "name": "昭君三分魔神吕布",
+  "carry": "吕布",
+  "lords": [
+   "昭君",
+   "白歌"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 13.0,
+  "producers": [
+   "曹操",
+   "赵云",
+   "貂蝉",
+   "周瑜",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "周瑜",
+   "貂蝉",
+   "蔡文姬"
+  ],
+  "payoff": [
+   "曹操",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "3432165039169900": {
+  "name": "核弹爆炸流",
+  "carry": "孙膑",
+  "lords": [
+   "闹闹"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 9.0,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周",
+   "老夫子"
+  ],
+  "amplifiers": [
+   "芈月",
+   "孙膑"
+  ],
+  "payoff": [
+   "廉颇",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "78867458797682844": {
+  "name": "苏烈成神计划",
+  "carry": "苏烈",
+  "lords": [
+   "姜导"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 2.0,
+  "producers": [
+   "李元芳",
+   "盾山"
+  ],
+  "amplifiers": [],
+  "payoff": [],
+  "complete": false
+ },
+ "128970758795231258": {
+  "name": "干将转海月999",
+  "carry": "海月",
+  "lords": [
+   "阿离",
+   "瑶妹"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 2.5,
+  "producers": [
+   "太乙真人"
+  ],
+  "amplifiers": [
+   "干将莫邪"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "51845861033489728": {
+  "name": "闹闹炸盾刘邦",
+  "carry": "刘邦",
+  "lords": [
+   "明先生",
+   "闹闹"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 7.5,
+  "producers": [
+   "瑶",
+   "太乙真人",
+   "刘邦",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [
+   "刘邦"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "107577906422198616": {
+  "name": "养猪裴擒虎",
+  "carry": "裴擒虎",
+  "lords": [
+   "镜",
+   "明先生"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 1.5,
+  "producers": [],
+  "amplifiers": [
+   "明世隐"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "2307017864817922": {
+  "name": "日落海-全阵容",
+  "carry": "安琪拉",
+  "lords": [
+   "小妲己",
+   "玉环",
+   "弈星"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 14.5,
+  "producers": [
+   "狂铁",
+   "安琪拉",
+   "米莱狄",
+   "亚连",
+   "亚瑟",
+   "莱西奥"
+  ],
+  "amplifiers": [
+   "海诺",
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "海诺",
+   "亚连",
+   "安琪拉",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "29328615629005904": {
+  "name": "保分守约",
+  "carry": "明世隐",
+  "lords": [
+   "瑶妹",
+   "班叔",
+   "阿离"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 9.5,
+  "producers": [
+   "花木兰",
+   "苏烈",
+   "钟馗",
+   "盾山"
+  ],
+  "amplifiers": [
+   "百里守约",
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [
+   "百里守约"
+  ],
+  "complete": true
+ },
+ "31016712756868352": {
+  "name": "海神唐三",
+  "carry": "海诺",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 6.5,
+  "producers": [
+   "狂铁"
+  ],
+  "amplifiers": [
+   "海诺",
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "海诺"
+  ],
+  "complete": true
+ },
+ "85059908285330810": {
+  "name": "狙神百里",
+  "carry": "百里守约",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 10.0,
+  "producers": [
+   "铠",
+   "花木兰",
+   "苏烈",
+   "钟馗",
+   "盾山"
+  ],
+  "amplifiers": [
+   "李信",
+   "百里守约"
+  ],
+  "payoff": [
+   "李信",
+   "百里守约"
+  ],
+  "complete": true
+ },
+ "114896255816658176": {
+  "name": "闹闹花木兰",
+  "carry": "花木兰",
+  "lords": [
+   "闹闹"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 5.5,
+  "producers": [
+   "李元芳",
+   "上官婉儿",
+   "程咬金"
+  ],
+  "amplifiers": [
+   "李白"
+  ],
+  "payoff": [
+   "李白"
+  ],
+  "complete": true
+ },
+ "10751267166135346": {
+  "name": "阿离养芈月",
+  "carry": "芈月",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 5.0,
+  "producers": [
+   "西施"
+  ],
+  "amplifiers": [
+   "芈月",
+   "孙膑"
+  ],
+  "payoff": [
+   "芈月"
+  ],
+  "complete": true
+ },
+ "20320663641866640": {
+  "name": "大河图腾龙蛇",
+  "carry": "虞姬",
+  "lords": [
+   "明先生"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 11.0,
+  "producers": [
+   "虞姬",
+   "太乙真人",
+   "东皇太一",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [
+   "张良",
+   "虞姬"
+  ],
+  "payoff": [
+   "虞姬",
+   "敖隐"
+  ],
+  "complete": true
+ },
+ "77179362596923476": {
+  "name": "999最强逐星曜",
+  "carry": "曜",
+  "lords": [
+   "瑶妹",
+   "嬴律",
+   "明先生"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 5.0,
+  "producers": [
+   "西施"
+  ],
+  "amplifiers": [
+   "芈月",
+   "孙膑"
+  ],
+  "payoff": [
+   "芈月"
+  ],
+  "complete": true
+ },
+ "24824263269225680": {
+  "name": "马可三分射鸡",
+  "carry": "公孙离",
+  "lords": [
+   "马可"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 11.0,
+  "producers": [
+   "曹操",
+   "甄姬",
+   "露娜",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "蔡文姬"
+  ],
+  "payoff": [
+   "甄姬",
+   "曹操",
+   "露娜",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "65357413092641810": {
+  "name": "最强阵容古币木兰",
+  "carry": "花木兰",
+  "lords": [
+   "闹闹",
+   "庄小鱼",
+   "嬴律"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 6.5,
+  "producers": [
+   "铠",
+   "花木兰",
+   "苏烈",
+   "钟馗",
+   "盾山"
+  ],
+  "amplifiers": [
+   "太乙真人"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "81682208564790786": {
+  "name": "东皇山鬼召唤流",
+  "carry": "米莱狄",
+  "lords": [
+   "瑶妹",
+   "明先生",
+   "闹闹"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 4.0,
+  "producers": [
+   "东皇太一",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [],
+  "payoff": [],
+  "complete": false
+ },
+ "120526509493922874": {
+  "name": "干将挂机流",
+  "carry": "干将莫邪",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 3.5,
+  "producers": [
+   "瑶",
+   "太乙真人"
+  ],
+  "amplifiers": [
+   "干将莫邪"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "7373567445618716": {
+  "name": "自配版倒三角",
+  "carry": "周瑜",
+  "lords": [
+   "常小娥",
+   "乔汐"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 15.5,
+  "producers": [
+   "曹操",
+   "甄姬",
+   "貂蝉",
+   "周瑜",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "周瑜",
+   "貂蝉",
+   "蔡文姬",
+   "大乔"
+  ],
+  "payoff": [
+   "甄姬",
+   "曹操",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "56349460660829434": {
+  "name": "红豆之托dy隐杉",
+  "carry": "李白",
+  "lords": [
+   "瑶妹",
+   "常小娥",
+   "明先生"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 6.5,
+  "producers": [
+   "李元芳",
+   "上官婉儿",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [
+   "李白"
+  ],
+  "payoff": [
+   "李白"
+  ],
+  "complete": true
+ },
+ "24262066048224374": {
+  "name": "东皇山鬼召唤流",
+  "carry": "米莱狄",
+  "lords": [
+   "瑶妹",
+   "明先生",
+   "闹闹"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 4.0,
+  "producers": [
+   "东皇太一",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [],
+  "payoff": [],
+  "complete": false
+ },
+ "617415272136824": {
+  "name": "古币狄仁杰",
+  "carry": "狄仁杰",
+  "lords": [
+   "瑶妹"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 8.0,
+  "producers": [
+   "李元芳",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [
+   "武则天",
+   "狄仁杰"
+  ],
+  "payoff": [
+   "狄仁杰",
+   "武则天"
+  ],
+  "complete": true
+ },
+ "82808862131121304": {
+  "name": "无脑养干将",
+  "carry": "太乙真人",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 15.0,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "云中君",
+   "太乙真人",
+   "鬼谷子"
+  ],
+  "amplifiers": [
+   "韩信",
+   "云中君",
+   "干将莫邪",
+   "虞姬"
+  ],
+  "payoff": [
+   "韩信",
+   "公孙离",
+   "虞姬",
+   "云中君"
+  ],
+  "complete": true
+ },
+ "104200960844693584": {
+  "name": "乔汐转李信心得",
+  "carry": "李信",
+  "lords": [
+   "乔汐"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 8.0,
+  "producers": [
+   "铠",
+   "花木兰",
+   "苏烈",
+   "盾山"
+  ],
+  "amplifiers": [
+   "李信",
+   "明世隐"
+  ],
+  "payoff": [
+   "李信"
+  ],
+  "complete": true
+ },
+ "68735113295632432": {
+  "name": "马可万血猪四保1",
+  "carry": "猪八戒",
+  "lords": [
+   "马可"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 3.0,
+  "producers": [
+   "瑶",
+   "太乙真人",
+   "少司缘"
+  ],
+  "amplifiers": [],
+  "payoff": [],
+  "complete": false
+ },
+ "22009513502119334": {
+  "name": "塔防沈梦溪无限雷",
+  "carry": "沈梦溪",
+  "lords": [
+   "班叔"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 3.0,
+  "producers": [
+   "李元芳",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [],
+  "payoff": [],
+  "complete": false
+ },
+ "25950915908475918": {
+  "name": "T0三分控流",
+  "carry": "马超",
+  "lords": [
+   "闹闹",
+   "镜"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 7.5,
+  "producers": [
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "蔡文姬",
+   "大乔"
+  ],
+  "payoff": [
+   "诸葛亮",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "42276465002342468": {
+  "name": "月下露娜",
+  "carry": "露娜",
+  "lords": [
+   "庄小鱼",
+   "闹闹"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 12.0,
+  "producers": [
+   "狂铁",
+   "安琪拉",
+   "米莱狄",
+   "亚连",
+   "露娜"
+  ],
+  "amplifiers": [
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "亚连",
+   "安琪拉",
+   "露娜",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "125029354978231610": {
+  "name": "999级神吕布",
+  "carry": "吕布",
+  "lords": [
+   "马可"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 1.0,
+  "producers": [
+   "吕布"
+  ],
+  "amplifiers": [],
+  "payoff": [],
+  "complete": false
+ },
+ "23136166141385918": {
+  "name": "日不落",
+  "carry": "艾琳",
+  "lords": [
+   "弈星",
+   "瑶妹"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 11.5,
+  "producers": [
+   "狂铁",
+   "安琪拉",
+   "亚连"
+  ],
+  "amplifiers": [
+   "海诺",
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "艾琳",
+   "海诺",
+   "亚连",
+   "安琪拉"
+  ],
+  "complete": true
+ },
+ "37772865374978446": {
+  "name": "阿离爆盾曜",
+  "carry": "曜",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 3.5,
+  "producers": [
+   "西施"
+  ],
+  "amplifiers": [
+   "芈月"
+  ],
+  "payoff": [
+   "芈月"
+  ],
+  "complete": true
+ },
+ "63105613278913636": {
+  "name": "闹闹大河",
+  "carry": "敖隐",
+  "lords": [
+   "闹闹"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 7.5,
+  "producers": [
+   "瑶",
+   "东皇太一",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [
+   "干将莫邪"
+  ],
+  "payoff": [
+   "敖隐"
+  ],
+  "complete": true
+ },
+ "2099386337359417345": {
+  "name": "嫦娥养图腾",
+  "carry": "艾琳",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 4.5,
+  "producers": [
+   "瑶",
+   "艾琳",
+   "鬼谷子"
+  ],
+  "amplifiers": [
+   "干将莫邪"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "31016712756868404": {
+  "name": "999露娜无限连",
+  "carry": "露娜",
+  "lords": [
+   "瑶妹"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 12.5,
+  "producers": [
+   "狂铁",
+   "米莱狄",
+   "亚连",
+   "露娜"
+  ],
+  "amplifiers": [
+   "海诺",
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "海诺",
+   "亚连",
+   "露娜",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "69297309589530002": {
+  "name": "香香日落海",
+  "carry": "安琪拉",
+  "lords": [
+   "香香"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 11.0,
+  "producers": [
+   "狂铁",
+   "安琪拉",
+   "米莱狄",
+   "亚连",
+   "亚瑟"
+  ],
+  "amplifiers": [
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "亚连",
+   "安琪拉",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "121652409400774788": {
+  "name": "大河开团猪射",
+  "carry": "公孙离",
+  "lords": [
+   "明先生"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 12.5,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "云中君",
+   "太乙真人",
+   "鬼谷子"
+  ],
+  "amplifiers": [
+   "张良",
+   "云中君",
+   "虞姬"
+  ],
+  "payoff": [
+   "公孙离",
+   "虞姬",
+   "云中君"
+  ],
+  "complete": true
+ },
+ "110956360285797442": {
+  "name": "阿离单玄策爆杀",
+  "carry": "百里玄策",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 7.5,
+  "producers": [
+   "李元芳",
+   "上官婉儿",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [
+   "武则天"
+  ],
+  "payoff": [
+   "武则天",
+   "百里玄策"
+  ],
+  "complete": true
+ },
+ "42275711825306942": {
+  "name": "马克镜",
+  "carry": "镜",
+  "lords": [
+   "马可"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 7.0,
+  "producers": [
+   "庄周",
+   "老夫子"
+  ],
+  "amplifiers": [
+   "芈月",
+   "镜"
+  ],
+  "payoff": [
+   "镜",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "108140856375597354": {
+  "name": "昭君大河龙蛇",
+  "carry": "敖隐",
+  "lords": [
+   "昭君"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 14.5,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "云中君",
+   "东皇太一",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [
+   "张良",
+   "云中君",
+   "虞姬"
+  ],
+  "payoff": [
+   "虞姬",
+   "云中君",
+   "敖隐"
+  ],
+  "complete": true
+ },
+ "55223560754008538": {
+  "name": "最详细马可万血猪",
+  "carry": "庄周",
+  "lords": [
+   "马可"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 4.0,
+  "producers": [
+   "甄姬",
+   "庄周",
+   "孙尚香"
+  ],
+  "amplifiers": [],
+  "payoff": [
+   "甄姬"
+  ],
+  "complete": false
+ },
+ "2100402056574881793": {
+  "name": "大河射",
+  "carry": "公孙离",
+  "lords": [
+   "明先生"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 10.5,
+  "producers": [
+   "瑶",
+   "云中君",
+   "太乙真人",
+   "鬼谷子"
+  ],
+  "amplifiers": [
+   "张良",
+   "云中君",
+   "干将莫邪"
+  ],
+  "payoff": [
+   "公孙离",
+   "云中君"
+  ],
+  "complete": true
+ },
+ "7372814713118924": {
+  "name": "一念神魔",
+  "carry": "李信",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 4.5,
+  "producers": [
+   "铠",
+   "苏烈"
+  ],
+  "amplifiers": [
+   "李信"
+  ],
+  "payoff": [
+   "李信"
+  ],
+  "complete": true
+ },
+ "2100503381228675073": {
+  "name": "阿离遗志海月流",
+  "carry": "曜",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 2.5,
+  "producers": [
+   "太乙真人"
+  ],
+  "amplifiers": [
+   "干将莫邪"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "27076063082941708": {
+  "name": "克盾三分倒转刺",
+  "carry": "孙悟空",
+  "lords": [
+   "白歌",
+   "嬴律",
+   "闹闹"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 14.0,
+  "producers": [
+   "曹操",
+   "甄姬",
+   "周瑜",
+   "阿轲",
+   "露娜",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "周瑜"
+  ],
+  "payoff": [
+   "孙悟空",
+   "甄姬",
+   "曹操",
+   "露娜",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "65356659915588074": {
+  "name": "逐鹿养镜姐",
+  "carry": "镜",
+  "lords": [
+   "明先生",
+   "小妲己",
+   "弈星"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 9.0,
+  "producers": [
+   "西施",
+   "白起",
+   "老夫子",
+   "蒙犽"
+  ],
+  "amplifiers": [
+   "芈月",
+   "镜"
+  ],
+  "payoff": [
+   "镜",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "42276465002342458": {
+  "name": "猪虎珂三无阵容",
+  "carry": "阿轲",
+  "lords": [
+   "镜",
+   "明先生"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 4.5,
+  "producers": [
+   "瑶",
+   "云中君"
+  ],
+  "amplifiers": [
+   "云中君"
+  ],
+  "payoff": [
+   "云中君"
+  ],
+  "complete": true
+ },
+ "50157011173204386": {
+  "name": "镜之四人动物园",
+  "carry": "裴擒虎",
+  "lords": [
+   "镜"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 1.5,
+  "producers": [],
+  "amplifiers": [
+   "明世隐"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "95756711059844262": {
+  "name": "鲁大蒙恬爆炸流",
+  "carry": "蒙恬",
+  "lords": [
+   "班叔",
+   "小妲己",
+   "香香"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 3.5,
+  "producers": [
+   "西施"
+  ],
+  "amplifiers": [
+   "芈月"
+  ],
+  "payoff": [
+   "芈月"
+  ],
+  "complete": true
+ },
+ "25950163176095148": {
+  "name": "10复活花木兰",
+  "carry": "花木兰",
+  "lords": [
+   "白歌"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 9.0,
+  "producers": [
+   "李元芳",
+   "上官婉儿",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [
+   "武则天",
+   "李白"
+  ],
+  "payoff": [
+   "李白",
+   "武则天"
+  ],
+  "complete": true
+ },
+ "2100183020104646657": {
+  "name": "明先生大河龙蛇",
+  "carry": "东皇太一",
+  "lords": [
+   "明先生"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 10.0,
+  "producers": [
+   "虞姬",
+   "东皇太一",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [
+   "张良",
+   "虞姬"
+  ],
+  "payoff": [
+   "虞姬",
+   "敖隐"
+  ],
+  "complete": true
+ },
+ "38898765281774624": {
+  "name": "伞百里",
+  "carry": "百里守约",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 10.5,
+  "producers": [
+   "铠",
+   "花木兰",
+   "苏烈",
+   "钟馗",
+   "盾山"
+  ],
+  "amplifiers": [
+   "百里守约",
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [
+   "百里守约"
+  ],
+  "complete": true
+ },
+ "82245158518244562": {
+  "name": "瑶妹大河养韩信流",
+  "carry": "韩信",
+  "lords": [
+   "瑶妹"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 13.0,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "太乙真人",
+   "鬼谷子",
+   "大司命"
+  ],
+  "amplifiers": [
+   "张良",
+   "韩信",
+   "干将莫邪",
+   "虞姬"
+  ],
+  "payoff": [
+   "韩信",
+   "虞姬"
+  ],
+  "complete": true
+ },
+ "42839414955750480": {
+  "name": "嬴律保三曜炸盾",
+  "carry": "曜",
+  "lords": [
+   "嬴律"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 4.5,
+  "producers": [
+   "西施",
+   "蒙犽"
+  ],
+  "amplifiers": [
+   "芈月"
+  ],
+  "payoff": [
+   "芈月"
+  ],
+  "complete": true
+ },
+ "112644456002984224": {
+  "name": "四无镜神",
+  "carry": "裴擒虎",
+  "lords": [
+   "镜"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 2.0,
+  "producers": [
+   "阿轲",
+   "孙尚香"
+  ],
+  "amplifiers": [],
+  "payoff": [],
+  "complete": false
+ },
+ "103637256748212590": {
+  "name": "马超诸葛无限连",
+  "carry": "马超",
+  "lords": [
+   "瑶妹"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 4.5,
+  "producers": [
+   "瑶",
+   "太乙真人",
+   "吕布"
+  ],
+  "amplifiers": [
+   "干将莫邪"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "18632566514017416": {
+  "name": "图腾刘邦流",
+  "carry": "刘邦",
+  "lords": [
+   "姜导",
+   "闹闹",
+   "孙小宾"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 12.5,
+  "producers": [
+   "瑶",
+   "云中君",
+   "太乙真人",
+   "刘邦",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [
+   "云中君",
+   "干将莫邪",
+   "刘邦"
+  ],
+  "payoff": [
+   "云中君"
+  ],
+  "complete": true
+ },
+ "82245912177743878": {
+  "name": "嫦小娥四爹流",
+  "carry": "姜子牙",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 2.5,
+  "producers": [
+   "吕布"
+  ],
+  "amplifiers": [
+   "干将莫邪"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "117711759726825484": {
+  "name": "999级姜子牙",
+  "carry": "姜子牙",
+  "lords": [
+   "姜导"
+  ],
+  "engine": "",
+  "engine_name": "",
+  "score": 0.0,
+  "producers": [],
+  "amplifiers": [],
+  "payoff": [],
+  "complete": false
+ },
+ "33831462523967922": {
+  "name": "闹闹法海王",
+  "carry": "海诺",
+  "lords": [
+   "闹闹"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 11.5,
+  "producers": [
+   "狂铁",
+   "米莱狄",
+   "亚连",
+   "亚瑟"
+  ],
+  "amplifiers": [
+   "海诺",
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "海诺",
+   "亚连",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "114334060006333548": {
+  "name": "毒奶天赋专属",
+  "carry": "扁鹊",
+  "lords": [
+   "明先生",
+   "白歌"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 4.5,
+  "producers": [
+   "西施",
+   "蒙犽"
+  ],
+  "amplifiers": [
+   "芈月"
+  ],
+  "payoff": [
+   "芈月"
+  ],
+  "complete": true
+ },
+ "86749511805092086": {
+  "name": "逐鹿本家炸盾",
+  "carry": "扁鹊",
+  "lords": [
+   "闹闹",
+   "香香",
+   "明先生"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 6.5,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周"
+  ],
+  "amplifiers": [
+   "芈月"
+  ],
+  "payoff": [
+   "廉颇",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "102512110984444162": {
+  "name": "马瑶亮联动速刷",
+  "carry": "诸葛亮",
+  "lords": [
+   "明先生"
+  ],
+  "engine": "skillcast",
+  "engine_name": "放技能",
+  "score": 3.0,
+  "producers": [
+   "刘禅"
+  ],
+  "amplifiers": [
+   "诸葛亮",
+   "明世隐"
+  ],
+  "payoff": [
+   "诸葛亮"
+  ],
+  "complete": true
+ },
+ "16943716653747202": {
+  "name": "明先生龙蛇山鬼",
+  "carry": "东皇太一",
+  "lords": [
+   "明先生"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 5.0,
+  "producers": [
+   "东皇太一",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [],
+  "payoff": [
+   "敖隐"
+  ],
+  "complete": false
+ },
+ "69298063249083492": {
+  "name": "嬴律最强",
+  "carry": "海月",
+  "lords": [
+   "嬴律"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 3.5,
+  "producers": [
+   "白起",
+   "老夫子"
+  ],
+  "amplifiers": [
+   "孙膑"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "61416010241620296": {
+  "name": "999级整备老虎",
+  "carry": "裴擒虎",
+  "lords": [
+   "镜"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 1.5,
+  "producers": [],
+  "amplifiers": [
+   "明世隐"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "74926809123754456": {
+  "name": "999海月瑶妹流",
+  "carry": "海月",
+  "lords": [
+   "瑶妹"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 2.5,
+  "producers": [
+   "瑶"
+  ],
+  "amplifiers": [
+   "干将莫邪"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "68735113295632614": {
+  "name": "无限大招魔王流",
+  "carry": "大乔",
+  "lords": [
+   "白歌",
+   "常小娥",
+   "弈星"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 5.0,
+  "producers": [
+   "赵云"
+  ],
+  "amplifiers": [
+   "蔡文姬",
+   "大乔"
+  ],
+  "payoff": [
+   "诸葛亮"
+  ],
+  "complete": true
+ },
+ "100259557027692974": {
+  "name": "低压赢律大猪离",
+  "carry": "公孙离",
+  "lords": [
+   "嬴律"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 10.5,
+  "producers": [
+   "瑶",
+   "云中君",
+   "太乙真人",
+   "鬼谷子"
+  ],
+  "amplifiers": [
+   "张良",
+   "云中君",
+   "干将莫邪"
+  ],
+  "payoff": [
+   "公孙离",
+   "云中君"
+  ],
+  "complete": true
+ },
+ "71549863062685836": {
+  "name": "庄小鱼无阵营",
+  "carry": "杨玉环",
+  "lords": [
+   "庄小鱼"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 1.5,
+  "producers": [],
+  "amplifiers": [
+   "太乙真人"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "99134410780345394": {
+  "name": "无限复活花木兰！",
+  "carry": "花木兰",
+  "lords": [
+   "明先生",
+   "嬴律",
+   "闹闹"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 7.0,
+  "producers": [
+   "上官婉儿",
+   "程咬金"
+  ],
+  "amplifiers": [
+   "武则天",
+   "李白"
+  ],
+  "payoff": [
+   "李白",
+   "武则天"
+  ],
+  "complete": true
+ },
+ "25950915908476010": {
+  "name": "敖隐图腾流",
+  "carry": "敖隐",
+  "lords": [
+   "闹闹",
+   "昭君",
+   "瑶妹"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 6.0,
+  "producers": [
+   "太乙真人",
+   "东皇太一",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [],
+  "payoff": [
+   "敖隐"
+  ],
+  "complete": false
+ },
+ "70986913109283846": {
+  "name": "999伞干将海月",
+  "carry": "海月",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 1.5,
+  "producers": [],
+  "amplifiers": [
+   "干将莫邪"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "60290863511895194": {
+  "name": "马克整备养镜流",
+  "carry": "镜",
+  "lords": [
+   "马可"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 6.0,
+  "producers": [
+   "程咬金"
+  ],
+  "amplifiers": [
+   "芈月",
+   "镜"
+  ],
+  "payoff": [
+   "镜",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "76616412643475528": {
+  "name": "马克镜转海月",
+  "carry": "镜",
+  "lords": [
+   "马可"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 6.0,
+  "producers": [
+   "西施"
+  ],
+  "amplifiers": [
+   "芈月",
+   "镜"
+  ],
+  "payoff": [
+   "镜",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "103075060937851936": {
+  "name": "闹闹版日落海司空",
+  "carry": "姜子牙",
+  "lords": [
+   "闹闹"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 6.5,
+  "producers": [
+   "狂铁",
+   "马可波罗",
+   "亚瑟",
+   "莱西奥"
+  ],
+  "amplifiers": [
+   "海诺"
+  ],
+  "payoff": [
+   "海诺"
+  ],
+  "complete": true
+ },
+ "111519310239154324": {
+  "name": "河洛牺牲流",
+  "carry": "李信",
+  "lords": [
+   "常小娥",
+   "瑶妹",
+   "白歌"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 4.5,
+  "producers": [
+   "铠",
+   "苏烈"
+  ],
+  "amplifiers": [
+   "李信"
+  ],
+  "payoff": [
+   "李信"
+  ],
+  "complete": true
+ },
+ "105889810704947324": {
+  "name": "阿离神龙",
+  "carry": "敖隐",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 12.5,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "东皇太一",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [
+   "张良",
+   "干将莫邪",
+   "虞姬"
+  ],
+  "payoff": [
+   "虞姬",
+   "敖隐"
+  ],
+  "complete": true
+ },
+ "20321416374261844": {
+  "name": "乔汐河洛多核",
+  "carry": "李白",
+  "lords": [
+   "乔汐"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 9.5,
+  "producers": [
+   "上官婉儿",
+   "程咬金"
+  ],
+  "amplifiers": [
+   "武则天",
+   "李白",
+   "司空震"
+  ],
+  "payoff": [
+   "李白",
+   "司空震",
+   "武则天"
+  ],
+  "complete": true
+ },
+ "29328615629005982": {
+  "name": "国士无双遗志韩信",
+  "carry": "韩信",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 9.5,
+  "producers": [
+   "瑶",
+   "云中君",
+   "太乙真人"
+  ],
+  "amplifiers": [
+   "韩信",
+   "云中君",
+   "干将莫邪"
+  ],
+  "payoff": [
+   "韩信",
+   "云中君"
+  ],
+  "complete": true
+ },
+ "125030109121322130": {
+  "name": "赢律重压变",
+  "carry": "曜",
+  "lords": [
+   "嬴律"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 1.5,
+  "producers": [],
+  "amplifiers": [
+   "干将莫邪"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "67609213388826818": {
+  "name": "炸盾君王-烬川",
+  "carry": "刘邦",
+  "lords": [
+   "明先生",
+   "嬴律",
+   "庄小鱼"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 9.0,
+  "producers": [
+   "瑶",
+   "太乙真人",
+   "刘邦",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [
+   "干将莫邪",
+   "刘邦"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "83371812084594808": {
+  "name": "镜妹养猪转海月流",
+  "carry": "海月",
+  "lords": [
+   "镜"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 4.0,
+  "producers": [
+   "钟馗"
+  ],
+  "amplifiers": [
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "51846614210462736": {
+  "name": "新手全5阶昭君",
+  "carry": "杨玉环",
+  "lords": [
+   "昭君"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 3.5,
+  "producers": [
+   "东皇太一",
+   "吕布"
+  ],
+  "amplifiers": [
+   "干将莫邪"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "36084015514654828": {
+  "name": "韩信国士无双",
+  "carry": "韩信",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 8.5,
+  "producers": [
+   "瑶",
+   "云中君"
+  ],
+  "amplifiers": [
+   "韩信",
+   "云中君",
+   "干将莫邪"
+  ],
+  "payoff": [
+   "韩信",
+   "云中君"
+  ],
+  "complete": true
+ },
+ "24825016001651766": {
+  "name": "炸盾刘邦",
+  "carry": "刘邦",
+  "lords": [
+   "瑶妹",
+   "明先生",
+   "闹闹"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 7.5,
+  "producers": [
+   "瑶",
+   "太乙真人",
+   "刘邦",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [
+   "刘邦"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "90127211525664914": {
+  "name": "无阵营闪现流",
+  "carry": "猪八戒",
+  "lords": [
+   "镜",
+   "明先生",
+   "嬴律"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 3.0,
+  "producers": [],
+  "amplifiers": [
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "2099941774438072321": {
+  "name": "✓瑶闹 大河龙蛇",
+  "carry": "敖隐",
+  "lords": [
+   "瑶妹",
+   "闹闹"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 12.5,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "东皇太一",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [
+   "张良",
+   "干将莫邪",
+   "虞姬"
+  ],
+  "payoff": [
+   "虞姬",
+   "敖隐"
+  ],
+  "complete": true
+ },
+ "86186561851719866": {
+  "name": "阿离伞玄策",
+  "carry": "百里玄策",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 5.0,
+  "producers": [
+   "李元芳",
+   "上官婉儿",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [],
+  "payoff": [
+   "百里玄策"
+  ],
+  "complete": false
+ },
+ "25950915908476050": {
+  "name": "韩信国士无双",
+  "carry": "韩信",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 8.5,
+  "producers": [
+   "瑶",
+   "云中君"
+  ],
+  "amplifiers": [
+   "韩信",
+   "云中君",
+   "干将莫邪"
+  ],
+  "payoff": [
+   "韩信",
+   "云中君"
+  ],
+  "complete": true
+ },
+ "101386211077691776": {
+  "name": "日落海→三分倒转",
+  "carry": "马可波罗",
+  "lords": [
+   "白歌",
+   "孙小宾",
+   "镜"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 9.0,
+  "producers": [
+   "米莱狄",
+   "马可波罗",
+   "露娜"
+  ],
+  "amplifiers": [
+   "海诺",
+   "朵莉亚"
+  ],
+  "payoff": [
+   "海诺",
+   "露娜",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "25950163176095112": {
+  "name": "猪圆芋润开团韩信",
+  "carry": "韩信",
+  "lords": [
+   "明先生",
+   "姜导",
+   "嬴律"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 14.0,
+  "producers": [
+   "瑶",
+   "虞姬",
+   "云中君",
+   "太乙真人",
+   "鬼谷子"
+  ],
+  "amplifiers": [
+   "张良",
+   "韩信",
+   "云中君",
+   "虞姬"
+  ],
+  "payoff": [
+   "韩信",
+   "虞姬",
+   "云中君"
+  ],
+  "complete": true
+ },
+ "13566016933243938": {
+  "name": "日落海闹闹",
+  "carry": "安琪拉",
+  "lords": [
+   "闹闹"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 14.5,
+  "producers": [
+   "狂铁",
+   "安琪拉",
+   "米莱狄",
+   "亚连",
+   "露娜"
+  ],
+  "amplifiers": [
+   "海诺",
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "海诺",
+   "亚连",
+   "安琪拉",
+   "露娜",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "100823261124265120": {
+  "name": "大河龙蛇变阵",
+  "carry": "敖隐",
+  "lords": [
+   "明先生"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 11.0,
+  "producers": [
+   "虞姬",
+   "太乙真人",
+   "东皇太一",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [
+   "张良",
+   "虞姬"
+  ],
+  "payoff": [
+   "虞姬",
+   "敖隐"
+  ],
+  "complete": true
+ },
+ "59164963604973798": {
+  "name": "抖音小飞区王召唤",
+  "carry": "蒙恬",
+  "lords": [
+   "明先生"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 3.5,
+  "producers": [
+   "西施"
+  ],
+  "amplifiers": [
+   "芈月"
+  ],
+  "payoff": [
+   "芈月"
+  ],
+  "complete": true
+ },
+ "94067861199608832": {
+  "name": "山鬼(详细介绍版",
+  "carry": "米莱狄",
+  "lords": [
+   "明先生",
+   "嬴律"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 5.0,
+  "producers": [
+   "蒙恬",
+   "项羽"
+  ],
+  "amplifiers": [
+   "大司命",
+   "太乙真人"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "109267510425551054": {
+  "name": "阿离强化爆炸盾",
+  "carry": "刘邦",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 9.0,
+  "producers": [
+   "瑶",
+   "太乙真人",
+   "刘邦",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [
+   "干将莫邪",
+   "刘邦"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "98008510873570384": {
+  "name": "魔丸孙膑",
+  "carry": "孙膑",
+  "lords": [
+   "嬴律"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 4.0,
+  "producers": [],
+  "amplifiers": [
+   "芈月",
+   "孙膑"
+  ],
+  "payoff": [
+   "芈月"
+  ],
+  "complete": false
+ },
+ "24261313315823792": {
+  "name": "三分速刷OAO",
+  "carry": "诸葛亮",
+  "lords": [
+   "白歌",
+   "庄小鱼",
+   "闹闹"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 13.0,
+  "producers": [
+   "曹操",
+   "赵云",
+   "貂蝉",
+   "周瑜",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "周瑜",
+   "貂蝉",
+   "蔡文姬",
+   "大乔"
+  ],
+  "payoff": [
+   "诸葛亮",
+   "曹操"
+  ],
+  "complete": true
+ },
+ "2101022345844895745": {
+  "name": "孙小宾雷霆战机",
+  "carry": "嬴政",
+  "lords": [
+   "孙小宾"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 10.0,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周",
+   "蒙犽",
+   "鲁班七号"
+  ],
+  "amplifiers": [
+   "芈月",
+   "嬴政"
+  ],
+  "payoff": [
+   "嬴政",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "67046263435381768": {
+  "name": "泳池派对-李由多",
+  "carry": "米莱狄",
+  "lords": [
+   "明先生"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 7.0,
+  "producers": [
+   "米莱狄",
+   "亚连"
+  ],
+  "amplifiers": [
+   "朵莉亚",
+   "雅典娜"
+  ],
+  "payoff": [
+   "亚连",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "2101752096809156609": {
+  "name": "一身是胆瞬秒阵容",
+  "carry": "赵云",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 5.5,
+  "producers": [
+   "曹操",
+   "赵云",
+   "貂蝉"
+  ],
+  "amplifiers": [
+   "貂蝉"
+  ],
+  "payoff": [
+   "曹操"
+  ],
+  "complete": true
+ },
+ "74364612829797460": {
+  "name": "猛A流狄仁杰",
+  "carry": "狄仁杰",
+  "lords": [
+   "明先生"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 9.0,
+  "producers": [
+   "李元芳",
+   "上官婉儿",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [
+   "武则天",
+   "狄仁杰"
+  ],
+  "payoff": [
+   "狄仁杰",
+   "武则天"
+  ],
+  "complete": true
+ },
+ "85623611898256576": {
+  "name": "阿离无限炸弹闪猫",
+  "carry": "沈梦溪",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 6.5,
+  "producers": [
+   "李元芳",
+   "上官婉儿",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [
+   "李白"
+  ],
+  "payoff": [
+   "李白"
+  ],
+  "complete": true
+ },
+ "90127211525664972": {
+  "name": "爆炸伞刘邦",
+  "carry": "刘邦",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 11.5,
+  "producers": [
+   "虞姬",
+   "太乙真人",
+   "刘邦",
+   "鬼谷子",
+   "少司缘",
+   "大司命"
+  ],
+  "amplifiers": [
+   "干将莫邪",
+   "虞姬",
+   "刘邦"
+  ],
+  "payoff": [
+   "虞姬"
+  ],
+  "complete": true
+ },
+ "86186561851719878": {
+  "name": "青莲剑仙",
+  "carry": "李白",
+  "lords": [
+   "明先生",
+   "姜导",
+   "闹闹"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 9.0,
+  "producers": [
+   "李元芳",
+   "上官婉儿",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [
+   "武则天",
+   "李白"
+  ],
+  "payoff": [
+   "李白",
+   "武则天"
+  ],
+  "complete": true
+ },
+ "83934008378470836": {
+  "name": "主角核心养成",
+  "carry": "扁鹊",
+  "lords": [
+   "姜导"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 3.5,
+  "producers": [
+   "西施"
+  ],
+  "amplifiers": [
+   "芈月"
+  ],
+  "payoff": [
+   "芈月"
+  ],
+  "complete": true
+ },
+ "6810617492195478": {
+  "name": "蒙恬山鬼召唤流",
+  "carry": "蒙恬",
+  "lords": [
+   "明先生"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 5.0,
+  "producers": [
+   "蒙恬",
+   "盾山"
+  ],
+  "amplifiers": [
+   "大司命",
+   "太乙真人"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "2101249116871671809": {
+  "name": "养玄策",
+  "carry": "铠",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 5.5,
+  "producers": [
+   "铠",
+   "苏烈",
+   "钟馗",
+   "盾山"
+  ],
+  "amplifiers": [
+   "太乙真人"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "37772865374978170": {
+  "name": "瑶瑶马超",
+  "carry": "马超",
+  "lords": [
+   "瑶妹"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 4.5,
+  "producers": [
+   "瑶",
+   "太乙真人",
+   "吕布"
+  ],
+  "amplifiers": [
+   "干将莫邪"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "92941961292771450": {
+  "name": "十步杀一人3.0",
+  "carry": "李白",
+  "lords": [
+   "瑶妹",
+   "常小娥",
+   "白歌"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 9.0,
+  "producers": [
+   "李元芳",
+   "上官婉儿",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [
+   "武则天",
+   "李白"
+  ],
+  "payoff": [
+   "李白",
+   "武则天"
+  ],
+  "complete": true
+ },
+ "12440117026355410": {
+  "name": "境无阵999猪虎",
+  "carry": "裴擒虎",
+  "lords": [
+   "镜"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 1.5,
+  "producers": [],
+  "amplifiers": [
+   "明世隐"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "1181117483870400": {
+  "name": "三分诸葛",
+  "carry": "诸葛亮",
+  "lords": [
+   "闹闹",
+   "姜导"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 11.5,
+  "producers": [
+   "曹操",
+   "甄姬",
+   "周瑜"
+  ],
+  "amplifiers": [
+   "小乔",
+   "周瑜",
+   "蔡文姬"
+  ],
+  "payoff": [
+   "甄姬",
+   "诸葛亮",
+   "曹操",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "119963559540545828": {
+  "name": "无敌三分控",
+  "carry": "诸葛亮",
+  "lords": [
+   "小妲己",
+   "闹闹"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 9.5,
+  "producers": [
+   "曹操",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "小乔",
+   "蔡文姬",
+   "大乔"
+  ],
+  "payoff": [
+   "诸葛亮",
+   "曹操",
+   "小乔"
+  ],
+  "complete": true
+ },
+ "47343014583100416": {
+  "name": "主角狄仁杰爱发牌",
+  "carry": "狄仁杰",
+  "lords": [
+   "姜导"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 9.0,
+  "producers": [
+   "李元芳",
+   "上官婉儿",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [
+   "武则天",
+   "狄仁杰"
+  ],
+  "payoff": [
+   "狄仁杰",
+   "武则天"
+  ],
+  "complete": true
+ },
+ "105326860751523894": {
+  "name": "诸葛无限大招流",
+  "carry": "杨玉环",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "skillcast",
+  "engine_name": "放技能",
+  "score": 2.1,
+  "producers": [
+   "刘禅"
+  ],
+  "amplifiers": [
+   "诸葛亮"
+  ],
+  "payoff": [
+   "诸葛亮"
+  ],
+  "complete": true
+ },
+ "112645210146032652": {
+  "name": "孙膑爆爆乐",
+  "carry": "孙膑",
+  "lords": [
+   "姜导"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 8.0,
+  "producers": [
+   "西施",
+   "白起",
+   "老夫子",
+   "鲁班七号"
+  ],
+  "amplifiers": [
+   "芈月",
+   "孙膑"
+  ],
+  "payoff": [
+   "芈月"
+  ],
+  "complete": true
+ },
+ "2101234596757413889": {
+  "name": "瞬步4.0狄仁杰",
+  "carry": "狄仁杰",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 8.0,
+  "producers": [
+   "李元芳",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [
+   "李白",
+   "狄仁杰"
+  ],
+  "payoff": [
+   "狄仁杰",
+   "李白"
+  ],
+  "complete": true
+ },
+ "33832215256391852": {
+  "name": "三阶无阵营组合",
+  "carry": "裴擒虎",
+  "lords": [
+   "镜",
+   "白歌",
+   "马可"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 1.5,
+  "producers": [],
+  "amplifiers": [
+   "明世隐"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "50720714303640790": {
+  "name": "日落海999登场",
+  "carry": "艾琳",
+  "lords": [
+   "镜"
+  ],
+  "engine": "sunset_core",
+  "engine_name": "日落海·核心",
+  "score": 11.5,
+  "producers": [
+   "狂铁",
+   "安琪拉",
+   "米莱狄",
+   "亚连",
+   "马可波罗",
+   "亚瑟"
+  ],
+  "amplifiers": [
+   "朵莉亚"
+  ],
+  "payoff": [
+   "艾琳",
+   "亚连",
+   "安琪拉",
+   "米莱狄"
+  ],
+  "complete": true
+ },
+ "6247667538771102": {
+  "name": "百级满速狄仁杰",
+  "carry": "狄仁杰",
+  "lords": [
+   "瑶妹"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 8.0,
+  "producers": [
+   "李元芳",
+   "程咬金",
+   "盾山"
+  ],
+  "amplifiers": [
+   "武则天",
+   "狄仁杰"
+  ],
+  "payoff": [
+   "狄仁杰",
+   "武则天"
+  ],
+  "complete": true
+ },
+ "103638010891248808": {
+  "name": "999伞干将海月",
+  "carry": "海月",
+  "lords": [
+   "阿离"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 1.5,
+  "producers": [],
+  "amplifiers": [
+   "干将莫邪"
+  ],
+  "payoff": [],
+  "complete": false
+ },
+ "618167530505450": {
+  "name": "明先生逐鹿嬴政",
+  "carry": "嬴政",
+  "lords": [
+   "明先生"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 10.0,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周",
+   "蒙犽",
+   "鲁班七号"
+  ],
+  "amplifiers": [
+   "芈月",
+   "嬴政"
+  ],
+  "payoff": [
+   "嬴政",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "64231513185755286": {
+  "name": "疯魔无敌策",
+  "carry": "百里玄策",
+  "lords": [
+   "常小娥",
+   "孙小宾",
+   "马可"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 1.0,
+  "producers": [],
+  "amplifiers": [],
+  "payoff": [
+   "百里玄策"
+  ],
+  "complete": false
+ },
+ "124467159167906978": {
+  "name": "闹闹雷霆逐鹿嬴政",
+  "carry": "嬴政",
+  "lords": [
+   "闹闹"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 10.0,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周",
+   "蒙犽",
+   "鲁班七号"
+  ],
+  "amplifiers": [
+   "芈月",
+   "嬴政"
+  ],
+  "payoff": [
+   "嬴政",
+   "芈月"
+  ],
+  "complete": true
+ },
+ "45091214769439972": {
+  "name": "庄周无阵营夺取流",
+  "carry": "姜子牙",
+  "lords": [
+   "庄小鱼"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 2.0,
+  "producers": [
+   "太乙真人"
+  ],
+  "amplifiers": [],
+  "payoff": [
+   "公孙离"
+  ],
+  "complete": false
+ },
+ "81682962224371924": {
+  "name": "嫦娥诸环连环炮",
+  "carry": "杨玉环",
+  "lords": [
+   "常小娥"
+  ],
+  "engine": "skillcast",
+  "engine_name": "放技能",
+  "score": 2.1,
+  "producers": [
+   "刘禅"
+  ],
+  "amplifiers": [
+   "诸葛亮"
+  ],
+  "payoff": [
+   "诸葛亮"
+  ],
+  "complete": true
+ },
+ "108704560472091810": {
+  "name": "三分登场流",
+  "carry": "吕布",
+  "lords": [
+   "马可"
+  ],
+  "engine": "sanfen_deploy",
+  "engine_name": "三分·登场",
+  "score": 5.5,
+  "producers": [
+   "曹操",
+   "赵云",
+   "孙尚香"
+  ],
+  "amplifiers": [
+   "蔡文姬"
+  ],
+  "payoff": [
+   "曹操"
+  ],
+  "complete": true
+ },
+ "79431162410687672": {
+  "name": "河洛牺牲李信",
+  "carry": "李信",
+  "lords": [
+   "庄小鱼",
+   "闹闹",
+   "瑶妹"
+  ],
+  "engine": "heluo_sacrifice",
+  "engine_name": "河洛·牺牲",
+  "score": 10.5,
+  "producers": [
+   "铠",
+   "花木兰",
+   "苏烈",
+   "钟馗",
+   "盾山"
+  ],
+  "amplifiers": [
+   "李信",
+   "明世隐",
+   "太乙真人"
+  ],
+  "payoff": [
+   "李信"
+  ],
+  "complete": true
+ },
+ "89564261572231272": {
+  "name": "飞升孙膑",
+  "carry": "孙膑",
+  "lords": [
+   "姜导"
+  ],
+  "engine": "zhulu_effects",
+  "engine_name": "逐鹿·效果牌",
+  "score": 8.0,
+  "producers": [
+   "西施",
+   "白起",
+   "庄周",
+   "老夫子"
+  ],
+  "amplifiers": [
+   "芈月",
+   "孙膑"
+  ],
+  "payoff": [
+   "芈月"
+  ],
+  "complete": true
+ },
+ "10188938072379412": {
+  "name": "韩跳跳",
+  "carry": "韩信",
+  "lords": [
+   "阿离",
+   "姜导"
+  ],
+  "engine": "river_opening",
+  "engine_name": "大河·开团",
+  "score": 10.5,
+  "producers": [
+   "瑶",
+   "云中君",
+   "太乙真人",
+   "雅典娜"
+  ],
+  "amplifiers": [
+   "韩信",
+   "云中君",
+   "干将莫邪"
+  ],
+  "payoff": [
+   "韩信",
+   "云中君"
+  ],
+  "complete": true
+ },
+ "2102031668087726081": {
+  "name": "无限复活花木兰",
+  "carry": "花木兰",
+  "lords": [
+   "庄小鱼",
+   "明先生",
+   "嬴律"
+  ],
+  "engine": "heluo_coins",
+  "engine_name": "河洛·古币",
+  "score": 7.0,
+  "producers": [
+   "上官婉儿",
+   "程咬金"
+  ],
+  "amplifiers": [
+   "武则天",
+   "李白"
+  ],
+  "payoff": [
+   "李白",
+   "武则天"
+  ],
+  "complete": true
+ }
+}

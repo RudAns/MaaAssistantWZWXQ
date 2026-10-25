@@ -1,0 +1,3032 @@
+{
+ "version": "2026-10-08",
+ "note": "基于 cards.json 卡面/觉醒/技能文本人工整理。to='*' 对任意主C 成立；'@组' 只对该组；英雄名 只对它。condition 以'反向依赖'开头的边由组成员展开到接收方（=该接收方当主C 需要这类供给）。steal 为负向连接（相邻会被夺等级）；economy 边不计入 hub。needs = 该英雄起得来所需的供给。",
+ "nodes": {
+  "苏烈": {
+   "faction": "河洛",
+   "quality": 1,
+   "role": "tank",
+   "carry_value": 2,
+   "functional_value": 5,
+   "hub": "specific",
+   "needs": []
+  },
+  "曜": {
+   "faction": "逐鹿",
+   "quality": 1,
+   "role": "bruiser",
+   "carry_value": 4,
+   "functional_value": 6,
+   "hub": "universal",
+   "needs": []
+  },
+  "孙膑": {
+   "faction": "逐鹿",
+   "quality": 1,
+   "role": "carry_mag",
+   "carry_value": 5,
+   "functional_value": 8,
+   "hub": "universal",
+   "needs": []
+  },
+  "狂铁": {
+   "faction": "日落海",
+   "quality": 1,
+   "role": "tank",
+   "carry_value": 3,
+   "functional_value": 5,
+   "hub": "group",
+   "needs": []
+  },
+  "孙尚香": {
+   "faction": "三分之地",
+   "quality": 1,
+   "role": "carry_phys",
+   "carry_value": 6,
+   "functional_value": 4,
+   "hub": "specific",
+   "needs": []
+  },
+  "弈星": {
+   "faction": "无阵营",
+   "quality": 1,
+   "role": "carry_mag",
+   "carry_value": 4,
+   "functional_value": 5,
+   "hub": "specific",
+   "needs": []
+  },
+  "干将莫邪": {
+   "faction": "大河流域",
+   "quality": 1,
+   "role": "carry_mag",
+   "carry_value": 6,
+   "functional_value": 5,
+   "hub": "specific",
+   "needs": []
+  },
+  "李元芳": {
+   "faction": "河洛",
+   "quality": 1,
+   "role": "carry_phys",
+   "carry_value": 5,
+   "functional_value": 6,
+   "hub": "group",
+   "needs": []
+  },
+  "牛魔": {
+   "faction": "无阵营",
+   "quality": 1,
+   "role": "tank",
+   "carry_value": 1,
+   "functional_value": 4,
+   "hub": "specific",
+   "needs": []
+  },
+  "亚连": {
+   "faction": "日落海",
+   "quality": 2,
+   "role": "bruiser",
+   "carry_value": 7,
+   "functional_value": 6,
+   "hub": "group",
+   "needs": []
+  },
+  "米莱狄": {
+   "faction": "日落海",
+   "quality": 2,
+   "role": "summoner",
+   "carry_value": 5,
+   "functional_value": 6,
+   "hub": "group",
+   "needs": []
+  },
+  "项羽": {
+   "faction": "大河流域",
+   "quality": 2,
+   "role": "tank",
+   "carry_value": 1,
+   "functional_value": 6,
+   "hub": "group",
+   "needs": []
+  },
+  "鬼谷子": {
+   "faction": "大河流域",
+   "quality": 2,
+   "role": "support",
+   "carry_value": 1,
+   "functional_value": 6,
+   "hub": "specific",
+   "needs": []
+  },
+  "梦奇": {
+   "faction": "无阵营",
+   "quality": 2,
+   "role": "tank",
+   "carry_value": 2,
+   "functional_value": 4,
+   "hub": "none",
+   "needs": []
+  },
+  "芈月": {
+   "faction": "逐鹿",
+   "quality": 2,
+   "role": "support",
+   "carry_value": 3,
+   "functional_value": 7,
+   "hub": "group",
+   "needs": [
+    {
+     "from": "效果牌",
+     "what": "引擎燃料"
+    }
+   ]
+  },
+  "沈梦溪": {
+   "faction": "河洛",
+   "quality": 2,
+   "role": "carry_mag",
+   "carry_value": 7,
+   "functional_value": 3,
+   "hub": "none",
+   "needs": [
+    {
+     "from": "效果牌",
+     "what": "对它用效果牌减法力上限"
+    }
+   ]
+  },
+  "盾山": {
+   "faction": "河洛",
+   "quality": 2,
+   "role": "tank",
+   "carry_value": 1,
+   "functional_value": 5,
+   "hub": "specific",
+   "needs": []
+  },
+  "曹操": {
+   "faction": "三分之地",
+   "quality": 2,
+   "role": "bruiser",
+   "carry_value": 3,
+   "functional_value": 6,
+   "hub": "group",
+   "needs": [
+    {
+     "from": "@三分之地",
+     "what": "要有三分登场英雄可复读"
+    }
+   ]
+  },
+  "虞姬": {
+   "faction": "大河流域",
+   "quality": 2,
+   "role": "carry_phys",
+   "carry_value": 5,
+   "functional_value": 6,
+   "hub": "group",
+   "needs": [
+    {
+     "from": "@图腾",
+     "what": "每个图腾触发一次涨级"
+    }
+   ]
+  },
+  "马可波罗": {
+   "faction": "日落海",
+   "quality": 2,
+   "role": "carry_phys",
+   "carry_value": 7,
+   "functional_value": 4,
+   "hub": "group",
+   "needs": []
+  },
+  "赵云": {
+   "faction": "三分之地",
+   "quality": 2,
+   "role": "bruiser",
+   "carry_value": 4,
+   "functional_value": 4,
+   "hub": "specific",
+   "needs": []
+  },
+  "大乔": {
+   "faction": "三分之地",
+   "quality": 2,
+   "role": "carry_mag",
+   "carry_value": 7,
+   "functional_value": 4,
+   "hub": "specific",
+   "needs": [
+    {
+     "from": "@登场",
+     "what": "法力上限-5"
+    }
+   ]
+  },
+  "公孙离": {
+   "faction": "无阵营",
+   "quality": 2,
+   "role": "carry_phys",
+   "carry_value": 7,
+   "functional_value": 3,
+   "hub": "specific",
+   "needs": [
+    {
+     "from": "已觉醒英雄",
+     "what": "攻速"
+    },
+    {
+     "from": "相邻友军",
+     "what": "夺取等级"
+    }
+   ]
+  },
+  "百里守约": {
+   "faction": "河洛",
+   "quality": 2,
+   "role": "carry_phys",
+   "carry_value": 8,
+   "functional_value": 2,
+   "hub": "none",
+   "needs": [
+    {
+     "from": "@牺牲",
+     "what": "阵亡减法力上限"
+    }
+   ]
+  },
+  "墨子": {
+   "faction": "逐鹿",
+   "quality": 2,
+   "role": "tank",
+   "carry_value": 2,
+   "functional_value": 5,
+   "hub": "specific",
+   "needs": [
+    {
+     "from": "@护盾",
+     "what": "护盾被破才生效"
+    }
+   ]
+  },
+  "百里玄策": {
+   "faction": "河洛",
+   "quality": 2,
+   "role": "assassin",
+   "carry_value": 6,
+   "functional_value": 4,
+   "hub": "group",
+   "needs": [
+    {
+     "from": "@闪现",
+     "what": "闪现英雄击杀"
+    }
+   ]
+  },
+  "廉颇": {
+   "faction": "逐鹿",
+   "quality": 2,
+   "role": "tank",
+   "carry_value": 1,
+   "functional_value": 6,
+   "hub": "universal",
+   "needs": [
+    {
+     "from": "@战术牌",
+     "what": "护盾加成"
+    }
+   ]
+  },
+  "蒙恬": {
+   "faction": "逐鹿",
+   "quality": 2,
+   "role": "tank",
+   "carry_value": 2,
+   "functional_value": 5,
+   "hub": "specific",
+   "needs": []
+  },
+  "蔡文姬": {
+   "faction": "三分之地",
+   "quality": 2,
+   "role": "support",
+   "carry_value": 1,
+   "functional_value": 6,
+   "hub": "group",
+   "needs": []
+  },
+  "云中君": {
+   "faction": "大河流域",
+   "quality": 3,
+   "role": "assassin",
+   "carry_value": 5,
+   "functional_value": 8,
+   "hub": "universal",
+   "needs": []
+  },
+  "姬小满": {
+   "faction": "日落海",
+   "quality": 3,
+   "role": "bruiser",
+   "carry_value": 4,
+   "functional_value": 3,
+   "hub": "none",
+   "needs": []
+  },
+  "苍": {
+   "faction": "无阵营",
+   "quality": 3,
+   "role": "carry_phys",
+   "carry_value": 6,
+   "functional_value": 3,
+   "hub": "group",
+   "needs": [
+    {
+     "from": "@召唤",
+     "what": "召唤物阵亡爆伤"
+    }
+   ]
+  },
+  "铠": {
+   "faction": "河洛",
+   "quality": 3,
+   "role": "bruiser",
+   "carry_value": 3,
+   "functional_value": 7,
+   "hub": "group",
+   "needs": []
+  },
+  "白起": {
+   "faction": "逐鹿",
+   "quality": 3,
+   "role": "tank",
+   "carry_value": 1,
+   "functional_value": 6,
+   "hub": "specific",
+   "needs": []
+  },
+  "明世隐": {
+   "faction": "无阵营",
+   "quality": 3,
+   "role": "support",
+   "carry_value": 1,
+   "functional_value": 9,
+   "hub": "universal",
+   "needs": [
+    {
+     "from": "@临时等级",
+     "what": "转化原料"
+    }
+   ]
+  },
+  "阿轲": {
+   "faction": "无阵营",
+   "quality": 3,
+   "role": "assassin",
+   "carry_value": 6,
+   "functional_value": 5,
+   "hub": "specific",
+   "needs": []
+  },
+  "马超": {
+   "faction": "三分之地",
+   "quality": 3,
+   "role": "assassin",
+   "carry_value": 6,
+   "functional_value": 3,
+   "hub": "none",
+   "needs": [
+    {
+     "from": "@控制",
+     "what": "法力+暴击"
+    }
+   ]
+  },
+  "裴擒虎": {
+   "faction": "无阵营",
+   "quality": 3,
+   "role": "assassin",
+   "carry_value": 5,
+   "functional_value": 4,
+   "hub": "specific",
+   "needs": [
+    {
+     "from": "*",
+     "what": "复制其他英雄一半等级（临时）"
+    }
+   ]
+  },
+  "老夫子": {
+   "faction": "逐鹿",
+   "quality": 3,
+   "role": "tank",
+   "carry_value": 2,
+   "functional_value": 5,
+   "hub": "specific",
+   "needs": []
+  },
+  "西施": {
+   "faction": "逐鹿",
+   "quality": 3,
+   "role": "controller",
+   "carry_value": 5,
+   "functional_value": 6,
+   "hub": "specific",
+   "needs": []
+  },
+  "刘禅": {
+   "faction": "三分之地",
+   "quality": 3,
+   "role": "tank",
+   "carry_value": 1,
+   "functional_value": 8,
+   "hub": "universal",
+   "needs": []
+  },
+  "猪八戒": {
+   "faction": "无阵营",
+   "quality": 3,
+   "role": "tank",
+   "carry_value": 2,
+   "functional_value": 6,
+   "hub": "specific",
+   "needs": []
+  },
+  "程咬金": {
+   "faction": "河洛",
+   "quality": 3,
+   "role": "tank",
+   "carry_value": 1,
+   "functional_value": 6,
+   "hub": "specific",
+   "needs": []
+  },
+  "狄仁杰": {
+   "faction": "河洛",
+   "quality": 3,
+   "role": "carry_phys",
+   "carry_value": 7,
+   "functional_value": 2,
+   "hub": "none",
+   "needs": [
+    {
+     "from": "@古币",
+     "what": "古币永久加攻速"
+    }
+   ]
+  },
+  "张良": {
+   "faction": "大河流域",
+   "quality": 3,
+   "role": "controller",
+   "carry_value": 3,
+   "functional_value": 8,
+   "hub": "universal",
+   "needs": [
+    {
+     "from": "@开团",
+     "what": "引擎燃料"
+    }
+   ]
+  },
+  "少司缘": {
+   "faction": "大河流域",
+   "quality": 3,
+   "role": "support",
+   "carry_value": 2,
+   "functional_value": 7,
+   "hub": "universal",
+   "needs": []
+  },
+  "亚瑟": {
+   "faction": "日落海",
+   "quality": 3,
+   "role": "tank",
+   "carry_value": 1,
+   "functional_value": 5,
+   "hub": "group",
+   "needs": []
+  },
+  "钟馗": {
+   "faction": "河洛",
+   "quality": 3,
+   "role": "controller",
+   "carry_value": 2,
+   "functional_value": 7,
+   "hub": "universal",
+   "needs": []
+  },
+  "貂蝉": {
+   "faction": "三分之地",
+   "quality": 3,
+   "role": "carry_mag",
+   "carry_value": 6,
+   "functional_value": 6,
+   "hub": "group",
+   "needs": []
+  },
+  "安琪拉": {
+   "faction": "日落海",
+   "quality": 3,
+   "role": "carry_mag",
+   "carry_value": 8,
+   "functional_value": 4,
+   "hub": "group",
+   "needs": []
+  },
+  "瑶": {
+   "faction": "大河流域",
+   "quality": 3,
+   "role": "support",
+   "carry_value": 1,
+   "functional_value": 8,
+   "hub": "universal",
+   "needs": []
+  },
+  "镜": {
+   "faction": "逐鹿",
+   "quality": 3,
+   "role": "assassin",
+   "carry_value": 6,
+   "functional_value": 2,
+   "hub": "none",
+   "needs": [
+    {
+     "from": "效果牌",
+     "what": "每 2 张 +1 级"
+    }
+   ]
+  },
+  "朵莉亚": {
+   "faction": "日落海",
+   "quality": 3,
+   "role": "support",
+   "carry_value": 1,
+   "functional_value": 8,
+   "hub": "universal",
+   "needs": [
+    {
+     "from": "@整备",
+     "what": "引擎燃料"
+    }
+   ]
+  },
+  "莱西奥": {
+   "faction": "日落海",
+   "quality": 4,
+   "role": "support",
+   "carry_value": 5,
+   "functional_value": 5,
+   "hub": "universal",
+   "needs": []
+  },
+  "上官婉儿": {
+   "faction": "河洛",
+   "quality": 4,
+   "role": "carry_mag",
+   "carry_value": 6,
+   "functional_value": 7,
+   "hub": "group",
+   "needs": []
+  },
+  "艾琳": {
+   "faction": "日落海",
+   "quality": 4,
+   "role": "carry_mag",
+   "carry_value": 8,
+   "functional_value": 1,
+   "hub": "specific",
+   "needs": []
+  },
+  "扁鹊": {
+   "faction": "逐鹿",
+   "quality": 4,
+   "role": "support",
+   "carry_value": 3,
+   "functional_value": 6,
+   "hub": "group",
+   "needs": [
+    {
+     "from": "@护盾",
+     "what": "护盾被破才爆伤"
+    }
+   ]
+  },
+  "嬴政": {
+   "faction": "逐鹿",
+   "quality": 4,
+   "role": "carry_mag",
+   "carry_value": 8,
+   "functional_value": 1,
+   "hub": "specific",
+   "needs": [
+    {
+     "from": "@战术牌",
+     "what": "法攻加成"
+    }
+   ]
+  },
+  "李信": {
+   "faction": "河洛",
+   "quality": 4,
+   "role": "carry_phys",
+   "carry_value": 8,
+   "functional_value": 1,
+   "hub": "none",
+   "needs": [
+    {
+     "from": "@牺牲",
+     "what": "阵亡给临时等级"
+    }
+   ]
+  },
+  "李白": {
+   "faction": "河洛",
+   "quality": 4,
+   "role": "assassin",
+   "carry_value": 7,
+   "functional_value": 5,
+   "hub": "group",
+   "needs": [
+    {
+     "from": "@古币",
+     "what": "古币对李白额外 +3 临时"
+    }
+   ]
+  },
+  "雅典娜": {
+   "faction": "日落海",
+   "quality": 4,
+   "role": "tank",
+   "carry_value": 1,
+   "functional_value": 7,
+   "hub": "group",
+   "needs": [
+    {
+     "from": "@日落海",
+     "what": "要有日落海整备英雄"
+    }
+   ]
+  },
+  "太乙真人": {
+   "faction": "无阵营",
+   "quality": 4,
+   "role": "support",
+   "carry_value": 1,
+   "functional_value": 9,
+   "hub": "universal",
+   "needs": []
+  },
+  "孙悟空": {
+   "faction": "无阵营",
+   "quality": 4,
+   "role": "carry_phys",
+   "carry_value": 8,
+   "functional_value": 4,
+   "hub": "group",
+   "needs": []
+  },
+  "甄姬": {
+   "faction": "三分之地",
+   "quality": 4,
+   "role": "controller",
+   "carry_value": 5,
+   "functional_value": 7,
+   "hub": "specific",
+   "needs": []
+  },
+  "小乔": {
+   "faction": "三分之地",
+   "quality": 4,
+   "role": "controller",
+   "carry_value": 3,
+   "functional_value": 9,
+   "hub": "universal",
+   "needs": [
+    {
+     "from": "@登场",
+     "what": "引擎燃料"
+    }
+   ]
+  },
+  "大司命": {
+   "faction": "大河流域",
+   "quality": 4,
+   "role": "bruiser",
+   "carry_value": 6,
+   "functional_value": 6,
+   "hub": "group",
+   "needs": []
+  },
+  "庄周": {
+   "faction": "逐鹿",
+   "quality": 4,
+   "role": "tank",
+   "carry_value": 1,
+   "functional_value": 7,
+   "hub": "universal",
+   "needs": []
+  },
+  "刘邦": {
+   "faction": "大河流域",
+   "quality": 4,
+   "role": "tank",
+   "carry_value": 2,
+   "functional_value": 4,
+   "hub": "specific",
+   "needs": [
+    {
+     "from": "@图腾",
+     "what": "摧毁图腾涨级"
+    }
+   ]
+  },
+  "诸葛亮": {
+   "faction": "三分之地",
+   "quality": 4,
+   "role": "carry_mag",
+   "carry_value": 8,
+   "functional_value": 1,
+   "hub": "none",
+   "needs": [
+    {
+     "from": "*",
+     "what": "任意队友放技能 +4 临时 +15 法力"
+    }
+   ]
+  },
+  "韩信": {
+   "faction": "大河流域",
+   "quality": 4,
+   "role": "assassin",
+   "carry_value": 7,
+   "functional_value": 2,
+   "hub": "none",
+   "needs": [
+    {
+     "from": "@整备",
+     "what": "永久+2（觉醒+4）"
+    },
+    {
+     "from": "@开团",
+     "what": "永久+2（觉醒+4）"
+    }
+   ]
+  },
+  "蒙犽": {
+   "faction": "逐鹿",
+   "quality": 4,
+   "role": "carry_phys",
+   "carry_value": 7,
+   "functional_value": 3,
+   "hub": "specific",
+   "needs": []
+  },
+  "东皇太一": {
+   "faction": "大河流域",
+   "quality": 5,
+   "role": "tank",
+   "carry_value": 2,
+   "functional_value": 6,
+   "hub": "group",
+   "needs": [
+    {
+     "from": "@图腾",
+     "what": "临时等级"
+    }
+   ]
+  },
+  "敖隐": {
+   "faction": "大河流域",
+   "quality": 5,
+   "role": "carry_phys",
+   "carry_value": 8,
+   "functional_value": 1,
+   "hub": "none",
+   "needs": [
+    {
+     "from": "@图腾",
+     "what": "攻速+临时等级"
+    }
+   ]
+  },
+  "鲁班大师": {
+   "faction": "逐鹿",
+   "quality": 5,
+   "role": "controller",
+   "carry_value": 2,
+   "functional_value": 6,
+   "hub": "specific",
+   "needs": []
+  },
+  "花木兰": {
+   "faction": "河洛",
+   "quality": 5,
+   "role": "bruiser",
+   "carry_value": 6,
+   "functional_value": 5,
+   "hub": "specific",
+   "needs": [
+    {
+     "from": "@古币",
+     "what": "每回合 5 张古币换复生"
+    }
+   ]
+  },
+  "司空震": {
+   "faction": "河洛",
+   "quality": 5,
+   "role": "carry_mag",
+   "carry_value": 9,
+   "functional_value": 1,
+   "hub": "none",
+   "needs": [
+    {
+     "from": "@临时等级",
+     "what": "分一半临时等级"
+    }
+   ]
+  },
+  "姜子牙": {
+   "faction": "无阵营",
+   "quality": 5,
+   "role": "carry_mag",
+   "carry_value": 7,
+   "functional_value": 7,
+   "hub": "universal",
+   "needs": []
+  },
+  "武则天": {
+   "faction": "河洛",
+   "quality": 5,
+   "role": "carry_mag",
+   "carry_value": 7,
+   "functional_value": 7,
+   "hub": "group",
+   "needs": [
+    {
+     "from": "@古币",
+     "what": "放大古币"
+    }
+   ]
+  },
+  "吕布": {
+   "faction": "三分之地",
+   "quality": 5,
+   "role": "bruiser",
+   "carry_value": 8,
+   "functional_value": 5,
+   "hub": "group",
+   "needs": []
+  },
+  "海月": {
+   "faction": "无阵营",
+   "quality": 5,
+   "role": "carry_mag",
+   "carry_value": 7,
+   "functional_value": 5,
+   "hub": "specific",
+   "needs": []
+  },
+  "鲁班七号": {
+   "faction": "逐鹿",
+   "quality": 5,
+   "role": "carry_phys",
+   "carry_value": 7,
+   "functional_value": 4,
+   "hub": "specific",
+   "needs": []
+  },
+  "海诺": {
+   "faction": "日落海",
+   "quality": 5,
+   "role": "carry_mag",
+   "carry_value": 8,
+   "functional_value": 5,
+   "hub": "group",
+   "needs": [
+    {
+     "from": "@日落海核心",
+     "what": "核心升级才放大"
+    }
+   ]
+  },
+  "露娜": {
+   "faction": "日落海",
+   "quality": 5,
+   "role": "assassin",
+   "carry_value": 8,
+   "functional_value": 7,
+   "hub": "group",
+   "needs": [
+    {
+     "from": "@整备",
+     "what": "要有整备英雄可复读"
+    }
+   ]
+  },
+  "杨玉环": {
+   "faction": "无阵营",
+   "quality": 5,
+   "role": "support",
+   "carry_value": 5,
+   "functional_value": 6,
+   "hub": "universal",
+   "needs": []
+  },
+  "周瑜": {
+   "faction": "三分之地",
+   "quality": 5,
+   "role": "carry_mag",
+   "carry_value": 5,
+   "functional_value": 9,
+   "hub": "universal",
+   "needs": []
+  }
+ },
+ "groups": {
+  "河洛": {
+   "type": "faction",
+   "members": [
+    "苏烈",
+    "李元芳",
+    "沈梦溪",
+    "盾山",
+    "百里守约",
+    "百里玄策",
+    "铠",
+    "程咬金",
+    "狄仁杰",
+    "钟馗",
+    "上官婉儿",
+    "李信",
+    "李白",
+    "花木兰",
+    "司空震",
+    "武则天"
+   ],
+   "why": "派系"
+  },
+  "逐鹿": {
+   "type": "faction",
+   "members": [
+    "曜",
+    "孙膑",
+    "芈月",
+    "墨子",
+    "廉颇",
+    "蒙恬",
+    "白起",
+    "老夫子",
+    "西施",
+    "镜",
+    "扁鹊",
+    "嬴政",
+    "庄周",
+    "蒙犽",
+    "鲁班大师",
+    "鲁班七号"
+   ],
+   "why": "派系"
+  },
+  "日落海": {
+   "type": "faction",
+   "members": [
+    "狂铁",
+    "亚连",
+    "米莱狄",
+    "马可波罗",
+    "姬小满",
+    "亚瑟",
+    "安琪拉",
+    "朵莉亚",
+    "莱西奥",
+    "艾琳",
+    "雅典娜",
+    "海诺",
+    "露娜"
+   ],
+   "why": "派系"
+  },
+  "三分之地": {
+   "type": "faction",
+   "members": [
+    "孙尚香",
+    "曹操",
+    "赵云",
+    "大乔",
+    "蔡文姬",
+    "马超",
+    "刘禅",
+    "貂蝉",
+    "甄姬",
+    "小乔",
+    "诸葛亮",
+    "吕布",
+    "周瑜"
+   ],
+   "why": "派系"
+  },
+  "大河流域": {
+   "type": "faction",
+   "members": [
+    "干将莫邪",
+    "项羽",
+    "鬼谷子",
+    "虞姬",
+    "云中君",
+    "张良",
+    "少司缘",
+    "瑶",
+    "大司命",
+    "刘邦",
+    "韩信",
+    "东皇太一",
+    "敖隐"
+   ],
+   "why": "派系"
+  },
+  "无阵营": {
+   "type": "faction",
+   "members": [
+    "弈星",
+    "牛魔",
+    "梦奇",
+    "公孙离",
+    "苍",
+    "明世隐",
+    "阿轲",
+    "裴擒虎",
+    "猪八戒",
+    "太乙真人",
+    "孙悟空",
+    "姜子牙",
+    "海月",
+    "杨玉环"
+   ],
+   "why": "派系（姜子牙按“不在场阵营/无阵营英雄牌”触发）"
+  },
+  "闪现": {
+   "type": "keyword",
+   "members": [
+    "百里玄策",
+    "云中君",
+    "阿轲",
+    "裴擒虎",
+    "镜",
+    "李白",
+    "孙悟空",
+    "韩信",
+    "露娜"
+   ],
+   "why": "卡面带「闪现」：玄策/孙悟空按此给等级"
+  },
+  "牺牲": {
+   "type": "keyword",
+   "members": [
+    "苏烈",
+    "项羽",
+    "盾山",
+    "蒙恬",
+    "铠",
+    "钟馗",
+    "花木兰",
+    "海月"
+   ],
+   "why": "自带牺牲（钟馗还给左右 1 格英雄牺牲）：喂李信/百里守约/大司命"
+  },
+  "登场": {
+   "type": "keyword",
+   "members": [
+    "孙尚香",
+    "马可波罗",
+    "赵云",
+    "明世隐",
+    "阿轲",
+    "貂蝉",
+    "甄姬",
+    "庄周",
+    "蒙犽",
+    "武则天",
+    "露娜",
+    "周瑜"
+   ],
+   "why": "卡面带「登场」：小乔/大乔/曹操/甄姬/露娜 放大"
+  },
+  "整备": {
+   "type": "keyword",
+   "members": [
+    "狂铁",
+    "李元芳",
+    "亚连",
+    "米莱狄",
+    "曹操",
+    "百里玄策",
+    "裴擒虎",
+    "西施",
+    "程咬金",
+    "安琪拉",
+    "上官婉儿",
+    "孙悟空"
+   ],
+   "why": "卡面带「整备」：朵莉亚/雅典娜/露娜/韩信 放大"
+  },
+  "开团": {
+   "type": "keyword",
+   "members": [
+    "虞姬",
+    "公孙离",
+    "云中君",
+    "瑶",
+    "艾琳",
+    "嬴政",
+    "雅典娜",
+    "太乙真人",
+    "刘邦",
+    "东皇太一",
+    "吕布"
+   ],
+   "why": "卡面带「开团」：张良/韩信 放大"
+  },
+  "日落海核心": {
+   "type": "keyword",
+   "members": [
+    "狂铁",
+    "亚连",
+    "米莱狄",
+    "马可波罗",
+    "安琪拉",
+    "亚瑟",
+    "莱西奥",
+    "海诺",
+    "朵莉亚",
+    "露娜"
+   ],
+   "why": "给阿科米亚核心加等级的件，共堆一个核心，海诺放大"
+  },
+  "图腾": {
+   "type": "keyword",
+   "members": [
+    "鬼谷子",
+    "少司缘",
+    "大司命"
+   ],
+   "why": "在场召唤图腾：虞姬/敖隐/东皇太一吃，项羽/大司命加级，刘邦摧毁"
+  },
+  "召唤": {
+   "type": "keyword",
+   "members": [
+    "米莱狄",
+    "蒙恬",
+    "苍",
+    "鲁班大师",
+    "大司命",
+    "芈月",
+    "鬼谷子",
+    "少司缘"
+   ],
+   "why": "产出召唤物/图腾"
+  },
+  "古币": {
+   "type": "keyword",
+   "members": [
+    "李元芳",
+    "上官婉儿",
+    "程咬金",
+    "盾山",
+    "武则天"
+   ],
+   "why": "产出/使用古币：花木兰/狄仁杰/李白吃，武则天/李白放大"
+  },
+  "临时等级": {
+   "type": "keyword",
+   "members": [
+    "刘禅",
+    "鬼谷子",
+    "铠",
+    "李白",
+    "裴擒虎",
+    "米莱狄"
+   ],
+   "why": "产出临时等级：明世隐转永久，司空震分一半"
+  },
+  "护盾": {
+   "type": "keyword",
+   "members": [
+    "廉颇",
+    "庄周",
+    "瑶",
+    "刘邦",
+    "海月",
+    "刘禅",
+    "白起",
+    "牛魔",
+    "雅典娜",
+    "太乙真人"
+   ],
+   "why": "给自己/友军护盾：墨子/扁鹊在护盾被击破时生效"
+  },
+  "控制": {
+   "type": "keyword",
+   "members": [
+    "牛魔",
+    "刘禅",
+    "张良",
+    "西施",
+    "甄姬",
+    "大乔",
+    "鲁班大师",
+    "钟馗",
+    "东皇太一",
+    "雅典娜",
+    "小乔",
+    "吕布",
+    "公孙离",
+    "百里玄策",
+    "弈星",
+    "孙膑"
+   ],
+   "why": "技能带眩晕/击飞/压制/冻结/沉默：马超吃"
+  },
+  "战术牌": {
+   "type": "keyword",
+   "members": [
+    "白起",
+    "老夫子",
+    "西施",
+    "庄周",
+    "蒙犽",
+    "鲁班七号"
+   ],
+   "why": "产出战术牌：廉颇护盾/嬴政法攻随使用提升"
+  },
+  "近战": {
+   "type": "position",
+   "members": [
+    "苏烈",
+    "曜",
+    "狂铁",
+    "牛魔",
+    "亚连",
+    "项羽",
+    "梦奇",
+    "盾山",
+    "曹操",
+    "赵云",
+    "墨子",
+    "廉颇",
+    "蒙恬",
+    "云中君",
+    "姬小满",
+    "铠",
+    "白起",
+    "阿轲",
+    "马超",
+    "裴擒虎",
+    "老夫子",
+    "刘禅",
+    "猪八戒",
+    "程咬金",
+    "亚瑟",
+    "钟馗",
+    "镜",
+    "李白",
+    "雅典娜",
+    "太乙真人",
+    "孙悟空",
+    "庄周",
+    "刘邦",
+    "韩信",
+    "东皇太一",
+    "鲁班大师",
+    "花木兰",
+    "吕布",
+    "露娜"
+   ],
+   "why": "attackDistance=1：芈月仆从给等级最高的近战友军"
+  }
+ },
+ "edges": [
+  {
+   "from": "太乙真人",
+   "to": "*",
+   "kind": "revive",
+   "condition": "最近的1名英雄（贴主C）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "开团：使距离最近的1名英雄获得复生"
+  },
+  {
+   "from": "明世隐",
+   "to": "*",
+   "kind": "perm_level",
+   "condition": "最近的英雄；需要有临时等级来源（@临时等级）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "距离最近的英雄，临时等级中的 2级可转化为永久等级"
+  },
+  {
+   "from": "明世隐",
+   "to": "*",
+   "kind": "heal",
+   "condition": "连线最近友军",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "以法器连接1名最近的友方英雄"
+  },
+  {
+   "from": "瑶",
+   "to": "*",
+   "kind": "shield",
+   "condition": "最近友军附身",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "选择最近的友方英雄作为保护目标…护盾，以及10点双攻和5点双防"
+  },
+  {
+   "from": "瑶",
+   "to": "*",
+   "kind": "equip",
+   "condition": "随机3名友军",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "自身的首件普通装备分享给随机3名友方英雄"
+  },
+  {
+   "from": "云中君",
+   "to": "*",
+   "kind": "perm_level",
+   "condition": "按该英雄穿戴装备件数",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "你的英雄每穿戴1件装备，该英雄等级永久+1"
+  },
+  {
+   "from": "孙膑",
+   "to": "*",
+   "kind": "perm_level",
+   "condition": "该英雄每放3次技能",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "你的英雄每释放3次技能，该英雄等级永久+1"
+  },
+  {
+   "from": "刘禅",
+   "to": "*",
+   "kind": "temp_level",
+   "condition": "该英雄每放1次技能",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "你的英雄释放技能时，该英雄获得2临时等级"
+  },
+  {
+   "from": "曜",
+   "to": "*",
+   "kind": "level",
+   "condition": "合成时",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "你的英雄合成提升的等级+1"
+  },
+  {
+   "from": "周瑜",
+   "to": "*",
+   "kind": "level",
+   "condition": "登场一次全体",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "登场：全体英雄等级+1"
+  },
+  {
+   "from": "小乔",
+   "to": "*",
+   "kind": "level",
+   "condition": "每次登场效果，随机3名（醒：全部）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你的英雄触发登场效果时，随机3名英雄等级+1"
+  },
+  {
+   "from": "张良",
+   "to": "*",
+   "kind": "perm_level",
+   "condition": "每次开团效果，随机3名（醒：全部）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你的单位触发开团效果时，场上随机3名己方英雄等级永久+1"
+  },
+  {
+   "from": "朵莉亚",
+   "to": "*",
+   "kind": "level",
+   "condition": "每次整备效果，随机3名（醒：全部）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你的英雄触发整备效果时，随机3名英雄及阿科米亚核心等级+1"
+  },
+  {
+   "from": "朵莉亚",
+   "to": "*",
+   "kind": "heal",
+   "condition": "水域内友军，含回蓝",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "落地立即恢复范围内友军…生命值，10点法力值"
+  },
+  {
+   "from": "庄周",
+   "to": "*",
+   "kind": "shield",
+   "condition": "左右2格友军，驱散",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "驱散自身和左右两边2格内友军，并获得200点护盾"
+  },
+  {
+   "from": "廉颇",
+   "to": "*",
+   "kind": "shield",
+   "condition": "其他所有英雄",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "廉颇释放技能时，你的其他英雄获得 5点护盾值"
+  },
+  {
+   "from": "墨子",
+   "to": "*",
+   "kind": "buff",
+   "condition": "护盾被击破的友军永久加血上限",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "友方单位护盾被击破时，该单位生命值上限永久+30"
+  },
+  {
+   "from": "少司缘",
+   "to": "*",
+   "kind": "heal",
+   "condition": "沿途友军；L40 攻速+30%",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "恢复沿途友军…生命值"
+  },
+  {
+   "from": "扁鹊",
+   "to": "*",
+   "kind": "heal",
+   "condition": "血量比例最低的单位",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "处于药液中的友军每秒恢复…生命值"
+  },
+  {
+   "from": "蔡文姬",
+   "to": "*",
+   "kind": "heal",
+   "condition": "周围1格友军，L10 加双防",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "每秒为自身周围1格的友军恢复30点生命值"
+  },
+  {
+   "from": "杨玉环",
+   "to": "*",
+   "kind": "awaken",
+   "condition": "弦音：任意未觉醒英雄觉醒进度+1",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "杨玉环在场时，每过3个回合获得1张弦音"
+  },
+  {
+   "from": "杨玉环",
+   "to": "*",
+   "kind": "heal",
+   "condition": "血量最低3名",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "清平：为3名血量最低的友军恢复"
+  },
+  {
+   "from": "鬼谷子",
+   "to": "*",
+   "kind": "temp_level",
+   "condition": "随机友军",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "随机1名友方英雄使其临时等级+5"
+  },
+  {
+   "from": "赵云",
+   "to": "*",
+   "kind": "level",
+   "condition": "随机2名，一次性",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "登场：自身及随机2名其他英雄等级+1"
+  },
+  {
+   "from": "阿轲",
+   "to": "*",
+   "kind": "level",
+   "condition": "随机1名，棋手每掉10血重复",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "登场：自身及随机1名英雄等级+1，棋手生命值每降低10点，重复1次"
+  },
+  {
+   "from": "程咬金",
+   "to": "*",
+   "kind": "level",
+   "condition": "古币可指定给任何英雄",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "整备：获得1张古币，对自身使用1张古币"
+  },
+  {
+   "from": "干将莫邪",
+   "to": "*",
+   "kind": "equip",
+   "condition": "在场送普通装备",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "干将莫邪在场时，获得普通装备双剑·雄"
+  },
+  {
+   "from": "莱西奥",
+   "to": "*",
+   "kind": "buff",
+   "condition": "烟雾内友军攻速+不被优先攻击",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "使处于烟雾中的英雄不会被优先攻击，并且增加30%攻击速度"
+  },
+  {
+   "from": "钟馗",
+   "to": "*",
+   "kind": "position",
+   "condition": "左右1格英雄获得牺牲；站前排正中",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "自身及左右1格的英雄获得牺牲：击败者等级临时降低10%"
+  },
+  {
+   "from": "猪八戒",
+   "to": "*",
+   "kind": "level",
+   "condition": "3阶及以下合成时同阶英雄+1",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "每当3阶及以下英雄合成时，与其同阶的英雄等级+1"
+  },
+  {
+   "from": "姜子牙",
+   "to": "*",
+   "kind": "level",
+   "condition": "用不在场阵营/无阵营英雄牌→随机3名不同阵营",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "姜子牙和随机3名其他不同阵营的英雄等级+1"
+  },
+  {
+   "from": "猪八戒",
+   "to": "*",
+   "kind": "steal",
+   "condition": "负向：相邻友军被夺取最多10级，别贴主C",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "夺取"
+  },
+  {
+   "from": "公孙离",
+   "to": "*",
+   "kind": "steal",
+   "condition": "负向：相邻友军被夺取；她当主C 时是正向（吃邻居）",
+   "needs_from_is_carry": true,
+   "strength": 2,
+   "quote": "夺取"
+  },
+  {
+   "from": "孙悟空",
+   "to": "*",
+   "kind": "steal",
+   "condition": "负向：相邻友军被夺取",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "闪现，夺取"
+  },
+  {
+   "from": "孙尚香",
+   "to": "*",
+   "kind": "economy",
+   "condition": "经济/卡牌，不直接作用于主C",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "登场：获得1次免费刷新"
+  },
+  {
+   "from": "牛魔",
+   "to": "*",
+   "kind": "economy",
+   "condition": "经济/卡牌，不直接作用于主C",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "凯旋：获得1能量"
+  },
+  {
+   "from": "弈星",
+   "to": "*",
+   "kind": "economy",
+   "condition": "经济/卡牌，不直接作用于主C",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "棋手升级时，棋手经验+2"
+  },
+  {
+   "from": "梦奇",
+   "to": "*",
+   "kind": "economy",
+   "condition": "经济/卡牌，不直接作用于主C",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "退场：获得1张 1阶英雄兑换券"
+  },
+  {
+   "from": "姬小满",
+   "to": "*",
+   "kind": "economy",
+   "condition": "经济/卡牌，不直接作用于主C",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "每当你出售4名场上英雄后，获得1次临时刷新"
+  },
+  {
+   "from": "老夫子",
+   "to": "*",
+   "kind": "economy",
+   "condition": "经济/卡牌，不直接作用于主C",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "每回合首次合成时，获得1张招募战术"
+  },
+  {
+   "from": "白起",
+   "to": "*",
+   "kind": "economy",
+   "condition": "经济/卡牌，不直接作用于主C",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "每回合首次使用效果牌时，获得1张援护战术"
+  },
+  {
+   "from": "西施",
+   "to": "*",
+   "kind": "economy",
+   "condition": "经济/卡牌，不直接作用于主C",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "整备：获得1张推演战术"
+  },
+  {
+   "from": "蒙犽",
+   "to": "*",
+   "kind": "economy",
+   "condition": "经济/卡牌，不直接作用于主C",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "登场：获得1张特训战术"
+  },
+  {
+   "from": "鲁班七号",
+   "to": "*",
+   "kind": "economy",
+   "condition": "经济/卡牌，不直接作用于主C",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "你的英雄每合成3次，随机获得1张战术牌"
+  },
+  {
+   "from": "甄姬",
+   "to": "*",
+   "kind": "economy",
+   "condition": "经济/卡牌，不直接作用于主C",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "登场：获得1张其他的登场英雄牌"
+  },
+  {
+   "from": "庄周",
+   "to": "*",
+   "kind": "economy",
+   "condition": "经济/卡牌，不直接作用于主C",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "登场：自身等级+2并获得1张招募战术"
+  },
+  {
+   "from": "盾山",
+   "to": "*",
+   "kind": "economy",
+   "condition": "经济/卡牌，不直接作用于主C",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "牺牲：获得1张古币"
+  },
+  {
+   "from": "武则天",
+   "to": "*",
+   "kind": "economy",
+   "condition": "经济/卡牌，不直接作用于主C",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "登场：获得1张精致古币"
+  },
+  {
+   "from": "百里玄策",
+   "to": "@闪现",
+   "kind": "level",
+   "condition": "闪现英雄上回合击杀数→随机闪现英雄+1；玄策是收割位，需当主C",
+   "needs_from_is_carry": true,
+   "strength": 3,
+   "quote": "你的闪现英雄上回合每击败过1名敌方英雄，随机1名闪现英雄等级+1"
+  },
+  {
+   "from": "孙悟空",
+   "to": "@闪现",
+   "kind": "level",
+   "condition": "整备，与击杀无关",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "整备：拥有闪现效果的英雄等级+2"
+  },
+  {
+   "from": "李元芳",
+   "to": "@河洛",
+   "kind": "level",
+   "condition": "最近的河洛英雄用1张古币（贴河洛主C）",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "整备：对距离最近的【河洛】英雄使用1张古币"
+  },
+  {
+   "from": "上官婉儿",
+   "to": "@河洛",
+   "kind": "level",
+   "condition": "随机3名河洛各1张古币",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "整备：随机对3名不同【河洛】英雄使用1张古币"
+  },
+  {
+   "from": "铠",
+   "to": "@河洛",
+   "kind": "temp_level",
+   "condition": "铠阵亡时",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "牺牲：你的【河洛】英雄获得5临时等级"
+  },
+  {
+   "from": "亚连",
+   "to": "*",
+   "kind": "level",
+   "condition": "穿装备最多的1名英雄（2026-10-08 起不限派系，=主C）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "整备：你穿戴装备最多的1名英雄等级+2"
+  },
+  {
+   "from": "芈月",
+   "to": "@逐鹿",
+   "kind": "level",
+   "condition": "每用1张效果牌→穿装备最多的逐鹿英雄",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你使用效果牌时，己方穿戴装备最多的1名【逐鹿】英雄等级+1"
+  },
+  {
+   "from": "芈月",
+   "to": "@近战",
+   "kind": "buff",
+   "condition": "等级最高的近战友军得暗影仆从（伤害+奶+偷双防）",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "芈月为等级最高的近战友军召唤1只暗影仆从"
+  },
+  {
+   "from": "虞姬",
+   "to": "@大河流域",
+   "kind": "level",
+   "condition": "开团，每个图腾→随机2名大河",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "开团：场上每有1个图腾，自身及随机2名不同【大河流域】英雄等级+1"
+  },
+  {
+   "from": "蔡文姬",
+   "to": "@三分之地",
+   "kind": "level",
+   "condition": "每用三分英雄牌→最低3名三分",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "每当你使用【三分】英雄牌时，等级最低的其他3名【三分】英雄等级+1"
+  },
+  {
+   "from": "貂蝉",
+   "to": "@三分之地",
+   "kind": "level",
+   "condition": "登场一次",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "登场：【三分】英雄等级+1"
+  },
+  {
+   "from": "吕布",
+   "to": "@三分之地",
+   "kind": "buff",
+   "condition": "等级最高3名三分吸血；吕布自己翻倍",
+   "needs_from_is_carry": true,
+   "strength": 2,
+   "quote": "开团：等级最高的3名【三分】英雄获得20%物理和法术吸血，若目标为吕布，效果翻倍"
+  },
+  {
+   "from": "曹操",
+   "to": "@登场",
+   "kind": "trigger",
+   "condition": "整备随机触发1名三分英雄的登场",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "整备：随机触发1名【三分】英雄的登场效果"
+  },
+  {
+   "from": "露娜",
+   "to": "@整备",
+   "kind": "trigger",
+   "condition": "登场随机触发2名英雄整备",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "随机触发2名英雄的整备效果"
+  },
+  {
+   "from": "雅典娜",
+   "to": "@整备",
+   "kind": "trigger",
+   "condition": "开团随机触发2名日落海整备",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "开团：随机触发2名【日落海】英雄的整备效果"
+  },
+  {
+   "from": "武则天",
+   "to": "@古币",
+   "kind": "level",
+   "condition": "古币提升等级+1（作用于古币目标）",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "古币牌提升的等级+1"
+  },
+  {
+   "from": "李白",
+   "to": "@古币",
+   "kind": "temp_level",
+   "condition": "古币额外+4临时等级",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "古币牌会额外提供4临时等级"
+  },
+  {
+   "from": "狂铁",
+   "to": "@日落海核心",
+   "kind": "core_level",
+   "condition": "共同堆阿科米亚核心",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "整备：阿科米亚核心的等级+2。"
+  },
+  {
+   "from": "亚连",
+   "to": "@日落海核心",
+   "kind": "core_level",
+   "condition": "共同堆阿科米亚核心",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "整备：你穿戴装备最多的1名英雄等级+2，且阿科米亚核心等级+1。"
+  },
+  {
+   "from": "米莱狄",
+   "to": "@日落海核心",
+   "kind": "core_level",
+   "condition": "共同堆阿科米亚核心",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "整备：该临时等级及阿科米亚核心等级额外+3。"
+  },
+  {
+   "from": "马可波罗",
+   "to": "@日落海核心",
+   "kind": "core_level",
+   "condition": "共同堆阿科米亚核心",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "登场：自身及阿科米亚核心等级+2。"
+  },
+  {
+   "from": "安琪拉",
+   "to": "@日落海核心",
+   "kind": "core_level",
+   "condition": "共同堆阿科米亚核心",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "整备：自身及阿科米亚核心等级+2。"
+  },
+  {
+   "from": "亚瑟",
+   "to": "@日落海核心",
+   "kind": "core_level",
+   "condition": "共同堆阿科米亚核心",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "每当你使用【日落海】英雄牌时，阿科米亚核心等级+3。"
+  },
+  {
+   "from": "莱西奥",
+   "to": "@日落海核心",
+   "kind": "core_level",
+   "condition": "共同堆阿科米亚核心",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "每当你出售2名场上英雄后，阿科米亚核心等级+1。"
+  },
+  {
+   "from": "朵莉亚",
+   "to": "@日落海核心",
+   "kind": "core_level",
+   "condition": "共同堆阿科米亚核心",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "每当你的英雄触发整备效果时，随机3名英雄及阿科米亚核心等级+1。"
+  },
+  {
+   "from": "露娜",
+   "to": "@日落海核心",
+   "kind": "core_level",
+   "condition": "共同堆阿科米亚核心",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "登场：阿科米亚核心等级+2，并且随机触发2名英雄的整备效果。"
+  },
+  {
+   "from": "海诺",
+   "to": "@日落海核心",
+   "kind": "core_level",
+   "condition": "核心每次升级额外+1（放大器）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当阿科米亚核心等级提升时，核心等级额外+1"
+  },
+  {
+   "from": "米莱狄",
+   "to": "@召唤",
+   "kind": "temp_level",
+   "condition": "召唤单位+3临时等级",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "召唤单位获得 3临时等级"
+  },
+  {
+   "from": "苍",
+   "to": "@召唤",
+   "kind": "buff",
+   "condition": "召唤物阵亡爆伤",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "你的召唤单位阵亡时，会对周围敌人造成 25点物理伤害"
+  },
+  {
+   "from": "项羽",
+   "to": "@图腾",
+   "kind": "level",
+   "condition": "项羽牺牲：图腾永久+3，召唤物免控",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "牺牲：所有图腾等级永久+3且本回合你的召唤物免疫控制"
+  },
+  {
+   "from": "大司命",
+   "to": "@图腾",
+   "kind": "level",
+   "condition": "触发牺牲时往生图腾+2",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "每当你触发牺牲效果时：往生图腾等级永久+2"
+  },
+  {
+   "from": "东皇太一",
+   "to": "@图腾",
+   "kind": "buff",
+   "condition": "图腾不被优先攻击",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "图腾不会被优先攻击"
+  },
+  {
+   "from": "扁鹊",
+   "to": "@护盾",
+   "kind": "buff",
+   "condition": "护盾被击破时爆伤",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "友方单位护盾被击破时，对周围敌人造成该英雄最大生命值10%的法术伤害"
+  },
+  {
+   "from": "苏烈",
+   "to": "李信",
+   "kind": "temp_level",
+   "condition": "反向依赖 李信←@牺牲：牺牲英雄阵亡",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你拥有牺牲效果的英雄阵亡时，李信临时等级+7"
+  },
+  {
+   "from": "项羽",
+   "to": "李信",
+   "kind": "temp_level",
+   "condition": "反向依赖 李信←@牺牲：牺牲英雄阵亡",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你拥有牺牲效果的英雄阵亡时，李信临时等级+7"
+  },
+  {
+   "from": "盾山",
+   "to": "李信",
+   "kind": "temp_level",
+   "condition": "反向依赖 李信←@牺牲：牺牲英雄阵亡",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你拥有牺牲效果的英雄阵亡时，李信临时等级+7"
+  },
+  {
+   "from": "蒙恬",
+   "to": "李信",
+   "kind": "temp_level",
+   "condition": "反向依赖 李信←@牺牲：牺牲英雄阵亡",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你拥有牺牲效果的英雄阵亡时，李信临时等级+7"
+  },
+  {
+   "from": "铠",
+   "to": "李信",
+   "kind": "temp_level",
+   "condition": "反向依赖 李信←@牺牲：牺牲英雄阵亡",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你拥有牺牲效果的英雄阵亡时，李信临时等级+7"
+  },
+  {
+   "from": "钟馗",
+   "to": "李信",
+   "kind": "temp_level",
+   "condition": "反向依赖 李信←@牺牲：牺牲英雄阵亡",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你拥有牺牲效果的英雄阵亡时，李信临时等级+7"
+  },
+  {
+   "from": "花木兰",
+   "to": "李信",
+   "kind": "temp_level",
+   "condition": "反向依赖 李信←@牺牲：牺牲英雄阵亡",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你拥有牺牲效果的英雄阵亡时，李信临时等级+7"
+  },
+  {
+   "from": "海月",
+   "to": "李信",
+   "kind": "temp_level",
+   "condition": "反向依赖 李信←@牺牲：牺牲英雄阵亡",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你拥有牺牲效果的英雄阵亡时，李信临时等级+7"
+  },
+  {
+   "from": "苏烈",
+   "to": "百里守约",
+   "kind": "mana",
+   "condition": "反向依赖 百里守约←@牺牲：牺牲英雄阵亡→本回合法力上限-20",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你拥有牺牲效果的英雄阵亡时，本回合百里守约的法力值上限-20"
+  },
+  {
+   "from": "项羽",
+   "to": "百里守约",
+   "kind": "mana",
+   "condition": "反向依赖 百里守约←@牺牲：牺牲英雄阵亡→本回合法力上限-20",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你拥有牺牲效果的英雄阵亡时，本回合百里守约的法力值上限-20"
+  },
+  {
+   "from": "盾山",
+   "to": "百里守约",
+   "kind": "mana",
+   "condition": "反向依赖 百里守约←@牺牲：牺牲英雄阵亡→本回合法力上限-20",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你拥有牺牲效果的英雄阵亡时，本回合百里守约的法力值上限-20"
+  },
+  {
+   "from": "蒙恬",
+   "to": "百里守约",
+   "kind": "mana",
+   "condition": "反向依赖 百里守约←@牺牲：牺牲英雄阵亡→本回合法力上限-20",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你拥有牺牲效果的英雄阵亡时，本回合百里守约的法力值上限-20"
+  },
+  {
+   "from": "铠",
+   "to": "百里守约",
+   "kind": "mana",
+   "condition": "反向依赖 百里守约←@牺牲：牺牲英雄阵亡→本回合法力上限-20",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你拥有牺牲效果的英雄阵亡时，本回合百里守约的法力值上限-20"
+  },
+  {
+   "from": "钟馗",
+   "to": "百里守约",
+   "kind": "mana",
+   "condition": "反向依赖 百里守约←@牺牲：牺牲英雄阵亡→本回合法力上限-20",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你拥有牺牲效果的英雄阵亡时，本回合百里守约的法力值上限-20"
+  },
+  {
+   "from": "花木兰",
+   "to": "百里守约",
+   "kind": "mana",
+   "condition": "反向依赖 百里守约←@牺牲：牺牲英雄阵亡→本回合法力上限-20",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你拥有牺牲效果的英雄阵亡时，本回合百里守约的法力值上限-20"
+  },
+  {
+   "from": "海月",
+   "to": "百里守约",
+   "kind": "mana",
+   "condition": "反向依赖 百里守约←@牺牲：牺牲英雄阵亡→本回合法力上限-20",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你拥有牺牲效果的英雄阵亡时，本回合百里守约的法力值上限-20"
+  },
+  {
+   "from": "鬼谷子",
+   "to": "敖隐",
+   "kind": "temp_level",
+   "condition": "反向依赖 敖隐←@图腾：每个图腾每4秒",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每个图腾每4秒为敖隐提供16%攻击速度和4临时等级"
+  },
+  {
+   "from": "少司缘",
+   "to": "敖隐",
+   "kind": "temp_level",
+   "condition": "反向依赖 敖隐←@图腾：每个图腾每4秒",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每个图腾每4秒为敖隐提供16%攻击速度和4临时等级"
+  },
+  {
+   "from": "大司命",
+   "to": "敖隐",
+   "kind": "temp_level",
+   "condition": "反向依赖 敖隐←@图腾：每个图腾每4秒",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每个图腾每4秒为敖隐提供16%攻击速度和4临时等级"
+  },
+  {
+   "from": "鬼谷子",
+   "to": "东皇太一",
+   "kind": "temp_level",
+   "condition": "反向依赖 东皇太一←@图腾：开团按图腾等级",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "开团：获得每个图腾等级数15%的临时等级"
+  },
+  {
+   "from": "少司缘",
+   "to": "东皇太一",
+   "kind": "temp_level",
+   "condition": "反向依赖 东皇太一←@图腾：开团按图腾等级",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "开团：获得每个图腾等级数15%的临时等级"
+  },
+  {
+   "from": "大司命",
+   "to": "东皇太一",
+   "kind": "temp_level",
+   "condition": "反向依赖 东皇太一←@图腾：开团按图腾等级",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "开团：获得每个图腾等级数15%的临时等级"
+  },
+  {
+   "from": "鬼谷子",
+   "to": "刘邦",
+   "kind": "perm_level",
+   "condition": "反向依赖 刘邦←@图腾：开团摧毁图腾（与图腾体系冲突）",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "开团：摧毁你所有的图腾，每摧毁1个，刘邦等级永久+5"
+  },
+  {
+   "from": "少司缘",
+   "to": "刘邦",
+   "kind": "perm_level",
+   "condition": "反向依赖 刘邦←@图腾：开团摧毁图腾（与图腾体系冲突）",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "开团：摧毁你所有的图腾，每摧毁1个，刘邦等级永久+5"
+  },
+  {
+   "from": "大司命",
+   "to": "刘邦",
+   "kind": "perm_level",
+   "condition": "反向依赖 刘邦←@图腾：开团摧毁图腾（与图腾体系冲突）",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "开团：摧毁你所有的图腾，每摧毁1个，刘邦等级永久+5"
+  },
+  {
+   "from": "李元芳",
+   "to": "花木兰",
+   "kind": "revive",
+   "condition": "反向依赖 花木兰←@古币：本回合每5张古币1次复生",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "本回合每使用5张古币牌，获得1次复生"
+  },
+  {
+   "from": "上官婉儿",
+   "to": "花木兰",
+   "kind": "revive",
+   "condition": "反向依赖 花木兰←@古币：本回合每5张古币1次复生",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "本回合每使用5张古币牌，获得1次复生"
+  },
+  {
+   "from": "程咬金",
+   "to": "花木兰",
+   "kind": "revive",
+   "condition": "反向依赖 花木兰←@古币：本回合每5张古币1次复生",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "本回合每使用5张古币牌，获得1次复生"
+  },
+  {
+   "from": "盾山",
+   "to": "花木兰",
+   "kind": "revive",
+   "condition": "反向依赖 花木兰←@古币：本回合每5张古币1次复生",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "本回合每使用5张古币牌，获得1次复生"
+  },
+  {
+   "from": "武则天",
+   "to": "花木兰",
+   "kind": "revive",
+   "condition": "反向依赖 花木兰←@古币：本回合每5张古币1次复生",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "本回合每使用5张古币牌，获得1次复生"
+  },
+  {
+   "from": "李元芳",
+   "to": "狄仁杰",
+   "kind": "buff",
+   "condition": "反向依赖 狄仁杰←@古币：古币→攻速永久+5%",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "对狄仁杰使用古币时，其攻击速度永久+5%"
+  },
+  {
+   "from": "上官婉儿",
+   "to": "狄仁杰",
+   "kind": "buff",
+   "condition": "反向依赖 狄仁杰←@古币：古币→攻速永久+5%",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "对狄仁杰使用古币时，其攻击速度永久+5%"
+  },
+  {
+   "from": "程咬金",
+   "to": "狄仁杰",
+   "kind": "buff",
+   "condition": "反向依赖 狄仁杰←@古币：古币→攻速永久+5%",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "对狄仁杰使用古币时，其攻击速度永久+5%"
+  },
+  {
+   "from": "盾山",
+   "to": "狄仁杰",
+   "kind": "buff",
+   "condition": "反向依赖 狄仁杰←@古币：古币→攻速永久+5%",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "对狄仁杰使用古币时，其攻击速度永久+5%"
+  },
+  {
+   "from": "武则天",
+   "to": "狄仁杰",
+   "kind": "buff",
+   "condition": "反向依赖 狄仁杰←@古币：古币→攻速永久+5%",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "对狄仁杰使用古币时，其攻击速度永久+5%"
+  },
+  {
+   "from": "刘禅",
+   "to": "司空震",
+   "kind": "temp_level",
+   "condition": "反向依赖 司空震←@临时等级：其他英雄获得临时等级时分一半",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "你的其他英雄获得临时等级时，司空震获得一半效果"
+  },
+  {
+   "from": "鬼谷子",
+   "to": "司空震",
+   "kind": "temp_level",
+   "condition": "反向依赖 司空震←@临时等级：其他英雄获得临时等级时分一半",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "你的其他英雄获得临时等级时，司空震获得一半效果"
+  },
+  {
+   "from": "铠",
+   "to": "司空震",
+   "kind": "temp_level",
+   "condition": "反向依赖 司空震←@临时等级：其他英雄获得临时等级时分一半",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "你的其他英雄获得临时等级时，司空震获得一半效果"
+  },
+  {
+   "from": "李白",
+   "to": "司空震",
+   "kind": "temp_level",
+   "condition": "反向依赖 司空震←@临时等级：其他英雄获得临时等级时分一半",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "你的其他英雄获得临时等级时，司空震获得一半效果"
+  },
+  {
+   "from": "裴擒虎",
+   "to": "司空震",
+   "kind": "temp_level",
+   "condition": "反向依赖 司空震←@临时等级：其他英雄获得临时等级时分一半",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "你的其他英雄获得临时等级时，司空震获得一半效果"
+  },
+  {
+   "from": "米莱狄",
+   "to": "司空震",
+   "kind": "temp_level",
+   "condition": "反向依赖 司空震←@临时等级：其他英雄获得临时等级时分一半",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "你的其他英雄获得临时等级时，司空震获得一半效果"
+  },
+  {
+   "from": "刘禅",
+   "to": "明世隐",
+   "kind": "perm_level",
+   "condition": "反向依赖 明世隐←@临时等级：临时等级是明世隐转化的原料",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "临时等级中的 2级可转化为永久等级"
+  },
+  {
+   "from": "鬼谷子",
+   "to": "明世隐",
+   "kind": "perm_level",
+   "condition": "反向依赖 明世隐←@临时等级：临时等级是明世隐转化的原料",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "临时等级中的 2级可转化为永久等级"
+  },
+  {
+   "from": "铠",
+   "to": "明世隐",
+   "kind": "perm_level",
+   "condition": "反向依赖 明世隐←@临时等级：临时等级是明世隐转化的原料",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "临时等级中的 2级可转化为永久等级"
+  },
+  {
+   "from": "李白",
+   "to": "明世隐",
+   "kind": "perm_level",
+   "condition": "反向依赖 明世隐←@临时等级：临时等级是明世隐转化的原料",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "临时等级中的 2级可转化为永久等级"
+  },
+  {
+   "from": "裴擒虎",
+   "to": "明世隐",
+   "kind": "perm_level",
+   "condition": "反向依赖 明世隐←@临时等级：临时等级是明世隐转化的原料",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "临时等级中的 2级可转化为永久等级"
+  },
+  {
+   "from": "米莱狄",
+   "to": "明世隐",
+   "kind": "perm_level",
+   "condition": "反向依赖 明世隐←@临时等级：临时等级是明世隐转化的原料",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "临时等级中的 2级可转化为永久等级"
+  },
+  {
+   "from": "孙尚香",
+   "to": "大乔",
+   "kind": "mana",
+   "condition": "反向依赖 大乔←@登场：每2次登场法力上限永久-5",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "你的英雄每触发2次登场效果，大乔的法力值上限永久-5"
+  },
+  {
+   "from": "马可波罗",
+   "to": "大乔",
+   "kind": "mana",
+   "condition": "反向依赖 大乔←@登场：每2次登场法力上限永久-5",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "你的英雄每触发2次登场效果，大乔的法力值上限永久-5"
+  },
+  {
+   "from": "赵云",
+   "to": "大乔",
+   "kind": "mana",
+   "condition": "反向依赖 大乔←@登场：每2次登场法力上限永久-5",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "你的英雄每触发2次登场效果，大乔的法力值上限永久-5"
+  },
+  {
+   "from": "明世隐",
+   "to": "大乔",
+   "kind": "mana",
+   "condition": "反向依赖 大乔←@登场：每2次登场法力上限永久-5",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "你的英雄每触发2次登场效果，大乔的法力值上限永久-5"
+  },
+  {
+   "from": "阿轲",
+   "to": "大乔",
+   "kind": "mana",
+   "condition": "反向依赖 大乔←@登场：每2次登场法力上限永久-5",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "你的英雄每触发2次登场效果，大乔的法力值上限永久-5"
+  },
+  {
+   "from": "貂蝉",
+   "to": "大乔",
+   "kind": "mana",
+   "condition": "反向依赖 大乔←@登场：每2次登场法力上限永久-5",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "你的英雄每触发2次登场效果，大乔的法力值上限永久-5"
+  },
+  {
+   "from": "甄姬",
+   "to": "大乔",
+   "kind": "mana",
+   "condition": "反向依赖 大乔←@登场：每2次登场法力上限永久-5",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "你的英雄每触发2次登场效果，大乔的法力值上限永久-5"
+  },
+  {
+   "from": "庄周",
+   "to": "大乔",
+   "kind": "mana",
+   "condition": "反向依赖 大乔←@登场：每2次登场法力上限永久-5",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "你的英雄每触发2次登场效果，大乔的法力值上限永久-5"
+  },
+  {
+   "from": "蒙犽",
+   "to": "大乔",
+   "kind": "mana",
+   "condition": "反向依赖 大乔←@登场：每2次登场法力上限永久-5",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "你的英雄每触发2次登场效果，大乔的法力值上限永久-5"
+  },
+  {
+   "from": "武则天",
+   "to": "大乔",
+   "kind": "mana",
+   "condition": "反向依赖 大乔←@登场：每2次登场法力上限永久-5",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "你的英雄每触发2次登场效果，大乔的法力值上限永久-5"
+  },
+  {
+   "from": "露娜",
+   "to": "大乔",
+   "kind": "mana",
+   "condition": "反向依赖 大乔←@登场：每2次登场法力上限永久-5",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "你的英雄每触发2次登场效果，大乔的法力值上限永久-5"
+  },
+  {
+   "from": "周瑜",
+   "to": "大乔",
+   "kind": "mana",
+   "condition": "反向依赖 大乔←@登场：每2次登场法力上限永久-5",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "你的英雄每触发2次登场效果，大乔的法力值上限永久-5"
+  },
+  {
+   "from": "狂铁",
+   "to": "韩信",
+   "kind": "perm_level",
+   "condition": "反向依赖 韩信←@整备：每次整备效果永久+2（觉醒+4，2026-10-08 平衡调整）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你的英雄触发整备或开团效果时，韩信等级永久+2"
+  },
+  {
+   "from": "李元芳",
+   "to": "韩信",
+   "kind": "perm_level",
+   "condition": "反向依赖 韩信←@整备：每次整备效果永久+2（觉醒+4，2026-10-08 平衡调整）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你的英雄触发整备或开团效果时，韩信等级永久+2"
+  },
+  {
+   "from": "亚连",
+   "to": "韩信",
+   "kind": "perm_level",
+   "condition": "反向依赖 韩信←@整备：每次整备效果永久+2（觉醒+4，2026-10-08 平衡调整）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你的英雄触发整备或开团效果时，韩信等级永久+2"
+  },
+  {
+   "from": "米莱狄",
+   "to": "韩信",
+   "kind": "perm_level",
+   "condition": "反向依赖 韩信←@整备：每次整备效果永久+2（觉醒+4，2026-10-08 平衡调整）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你的英雄触发整备或开团效果时，韩信等级永久+2"
+  },
+  {
+   "from": "曹操",
+   "to": "韩信",
+   "kind": "perm_level",
+   "condition": "反向依赖 韩信←@整备：每次整备效果永久+2（觉醒+4，2026-10-08 平衡调整）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你的英雄触发整备或开团效果时，韩信等级永久+2"
+  },
+  {
+   "from": "百里玄策",
+   "to": "韩信",
+   "kind": "perm_level",
+   "condition": "反向依赖 韩信←@整备：每次整备效果永久+2（觉醒+4，2026-10-08 平衡调整）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你的英雄触发整备或开团效果时，韩信等级永久+2"
+  },
+  {
+   "from": "裴擒虎",
+   "to": "韩信",
+   "kind": "perm_level",
+   "condition": "反向依赖 韩信←@整备：每次整备效果永久+2（觉醒+4，2026-10-08 平衡调整）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你的英雄触发整备或开团效果时，韩信等级永久+2"
+  },
+  {
+   "from": "西施",
+   "to": "韩信",
+   "kind": "perm_level",
+   "condition": "反向依赖 韩信←@整备：每次整备效果永久+2（觉醒+4，2026-10-08 平衡调整）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你的英雄触发整备或开团效果时，韩信等级永久+2"
+  },
+  {
+   "from": "程咬金",
+   "to": "韩信",
+   "kind": "perm_level",
+   "condition": "反向依赖 韩信←@整备：每次整备效果永久+2（觉醒+4，2026-10-08 平衡调整）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你的英雄触发整备或开团效果时，韩信等级永久+2"
+  },
+  {
+   "from": "安琪拉",
+   "to": "韩信",
+   "kind": "perm_level",
+   "condition": "反向依赖 韩信←@整备：每次整备效果永久+2（觉醒+4，2026-10-08 平衡调整）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你的英雄触发整备或开团效果时，韩信等级永久+2"
+  },
+  {
+   "from": "上官婉儿",
+   "to": "韩信",
+   "kind": "perm_level",
+   "condition": "反向依赖 韩信←@整备：每次整备效果永久+2（觉醒+4，2026-10-08 平衡调整）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你的英雄触发整备或开团效果时，韩信等级永久+2"
+  },
+  {
+   "from": "孙悟空",
+   "to": "韩信",
+   "kind": "perm_level",
+   "condition": "反向依赖 韩信←@整备：每次整备效果永久+2（觉醒+4，2026-10-08 平衡调整）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你的英雄触发整备或开团效果时，韩信等级永久+2"
+  },
+  {
+   "from": "虞姬",
+   "to": "韩信",
+   "kind": "perm_level",
+   "condition": "反向依赖 韩信←@开团：每次开团效果永久+2（觉醒+4，2026-10-08 平衡调整）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你的英雄触发整备或开团效果时，韩信等级永久+2"
+  },
+  {
+   "from": "公孙离",
+   "to": "韩信",
+   "kind": "perm_level",
+   "condition": "反向依赖 韩信←@开团：每次开团效果永久+2（觉醒+4，2026-10-08 平衡调整）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你的英雄触发整备或开团效果时，韩信等级永久+2"
+  },
+  {
+   "from": "云中君",
+   "to": "韩信",
+   "kind": "perm_level",
+   "condition": "反向依赖 韩信←@开团：每次开团效果永久+2（觉醒+4，2026-10-08 平衡调整）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你的英雄触发整备或开团效果时，韩信等级永久+2"
+  },
+  {
+   "from": "瑶",
+   "to": "韩信",
+   "kind": "perm_level",
+   "condition": "反向依赖 韩信←@开团：每次开团效果永久+2（觉醒+4，2026-10-08 平衡调整）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你的英雄触发整备或开团效果时，韩信等级永久+2"
+  },
+  {
+   "from": "艾琳",
+   "to": "韩信",
+   "kind": "perm_level",
+   "condition": "反向依赖 韩信←@开团：每次开团效果永久+2（觉醒+4，2026-10-08 平衡调整）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你的英雄触发整备或开团效果时，韩信等级永久+2"
+  },
+  {
+   "from": "嬴政",
+   "to": "韩信",
+   "kind": "perm_level",
+   "condition": "反向依赖 韩信←@开团：每次开团效果永久+2（觉醒+4，2026-10-08 平衡调整）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你的英雄触发整备或开团效果时，韩信等级永久+2"
+  },
+  {
+   "from": "雅典娜",
+   "to": "韩信",
+   "kind": "perm_level",
+   "condition": "反向依赖 韩信←@开团：每次开团效果永久+2（觉醒+4，2026-10-08 平衡调整）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你的英雄触发整备或开团效果时，韩信等级永久+2"
+  },
+  {
+   "from": "太乙真人",
+   "to": "韩信",
+   "kind": "perm_level",
+   "condition": "反向依赖 韩信←@开团：每次开团效果永久+2（觉醒+4，2026-10-08 平衡调整）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你的英雄触发整备或开团效果时，韩信等级永久+2"
+  },
+  {
+   "from": "刘邦",
+   "to": "韩信",
+   "kind": "perm_level",
+   "condition": "反向依赖 韩信←@开团：每次开团效果永久+2（觉醒+4，2026-10-08 平衡调整）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你的英雄触发整备或开团效果时，韩信等级永久+2"
+  },
+  {
+   "from": "东皇太一",
+   "to": "韩信",
+   "kind": "perm_level",
+   "condition": "反向依赖 韩信←@开团：每次开团效果永久+2（觉醒+4，2026-10-08 平衡调整）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你的英雄触发整备或开团效果时，韩信等级永久+2"
+  },
+  {
+   "from": "吕布",
+   "to": "韩信",
+   "kind": "perm_level",
+   "condition": "反向依赖 韩信←@开团：每次开团效果永久+2（觉醒+4，2026-10-08 平衡调整）",
+   "needs_from_is_carry": false,
+   "strength": 3,
+   "quote": "每当你的英雄触发整备或开团效果时，韩信等级永久+2"
+  },
+  {
+   "from": "牛魔",
+   "to": "马超",
+   "kind": "mana",
+   "condition": "反向依赖 马超←@控制：己方施加控制→马超法力+暴击",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "己方施加控制效果时，马超获得15点法力值及5%暴击率"
+  },
+  {
+   "from": "刘禅",
+   "to": "马超",
+   "kind": "mana",
+   "condition": "反向依赖 马超←@控制：己方施加控制→马超法力+暴击",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "己方施加控制效果时，马超获得15点法力值及5%暴击率"
+  },
+  {
+   "from": "张良",
+   "to": "马超",
+   "kind": "mana",
+   "condition": "反向依赖 马超←@控制：己方施加控制→马超法力+暴击",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "己方施加控制效果时，马超获得15点法力值及5%暴击率"
+  },
+  {
+   "from": "西施",
+   "to": "马超",
+   "kind": "mana",
+   "condition": "反向依赖 马超←@控制：己方施加控制→马超法力+暴击",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "己方施加控制效果时，马超获得15点法力值及5%暴击率"
+  },
+  {
+   "from": "甄姬",
+   "to": "马超",
+   "kind": "mana",
+   "condition": "反向依赖 马超←@控制：己方施加控制→马超法力+暴击",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "己方施加控制效果时，马超获得15点法力值及5%暴击率"
+  },
+  {
+   "from": "大乔",
+   "to": "马超",
+   "kind": "mana",
+   "condition": "反向依赖 马超←@控制：己方施加控制→马超法力+暴击",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "己方施加控制效果时，马超获得15点法力值及5%暴击率"
+  },
+  {
+   "from": "鲁班大师",
+   "to": "马超",
+   "kind": "mana",
+   "condition": "反向依赖 马超←@控制：己方施加控制→马超法力+暴击",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "己方施加控制效果时，马超获得15点法力值及5%暴击率"
+  },
+  {
+   "from": "钟馗",
+   "to": "马超",
+   "kind": "mana",
+   "condition": "反向依赖 马超←@控制：己方施加控制→马超法力+暴击",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "己方施加控制效果时，马超获得15点法力值及5%暴击率"
+  },
+  {
+   "from": "东皇太一",
+   "to": "马超",
+   "kind": "mana",
+   "condition": "反向依赖 马超←@控制：己方施加控制→马超法力+暴击",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "己方施加控制效果时，马超获得15点法力值及5%暴击率"
+  },
+  {
+   "from": "雅典娜",
+   "to": "马超",
+   "kind": "mana",
+   "condition": "反向依赖 马超←@控制：己方施加控制→马超法力+暴击",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "己方施加控制效果时，马超获得15点法力值及5%暴击率"
+  },
+  {
+   "from": "小乔",
+   "to": "马超",
+   "kind": "mana",
+   "condition": "反向依赖 马超←@控制：己方施加控制→马超法力+暴击",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "己方施加控制效果时，马超获得15点法力值及5%暴击率"
+  },
+  {
+   "from": "吕布",
+   "to": "马超",
+   "kind": "mana",
+   "condition": "反向依赖 马超←@控制：己方施加控制→马超法力+暴击",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "己方施加控制效果时，马超获得15点法力值及5%暴击率"
+  },
+  {
+   "from": "公孙离",
+   "to": "马超",
+   "kind": "mana",
+   "condition": "反向依赖 马超←@控制：己方施加控制→马超法力+暴击",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "己方施加控制效果时，马超获得15点法力值及5%暴击率"
+  },
+  {
+   "from": "百里玄策",
+   "to": "马超",
+   "kind": "mana",
+   "condition": "反向依赖 马超←@控制：己方施加控制→马超法力+暴击",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "己方施加控制效果时，马超获得15点法力值及5%暴击率"
+  },
+  {
+   "from": "弈星",
+   "to": "马超",
+   "kind": "mana",
+   "condition": "反向依赖 马超←@控制：己方施加控制→马超法力+暴击",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "己方施加控制效果时，马超获得15点法力值及5%暴击率"
+  },
+  {
+   "from": "孙膑",
+   "to": "马超",
+   "kind": "mana",
+   "condition": "反向依赖 马超←@控制：己方施加控制→马超法力+暴击",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "己方施加控制效果时，马超获得15点法力值及5%暴击率"
+  },
+  {
+   "from": "白起",
+   "to": "廉颇",
+   "kind": "shield",
+   "condition": "反向依赖 廉颇←@战术牌：使用战术牌提升护盾值",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "每次使用战术牌会提升该护盾值"
+  },
+  {
+   "from": "老夫子",
+   "to": "廉颇",
+   "kind": "shield",
+   "condition": "反向依赖 廉颇←@战术牌：使用战术牌提升护盾值",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "每次使用战术牌会提升该护盾值"
+  },
+  {
+   "from": "西施",
+   "to": "廉颇",
+   "kind": "shield",
+   "condition": "反向依赖 廉颇←@战术牌：使用战术牌提升护盾值",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "每次使用战术牌会提升该护盾值"
+  },
+  {
+   "from": "庄周",
+   "to": "廉颇",
+   "kind": "shield",
+   "condition": "反向依赖 廉颇←@战术牌：使用战术牌提升护盾值",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "每次使用战术牌会提升该护盾值"
+  },
+  {
+   "from": "蒙犽",
+   "to": "廉颇",
+   "kind": "shield",
+   "condition": "反向依赖 廉颇←@战术牌：使用战术牌提升护盾值",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "每次使用战术牌会提升该护盾值"
+  },
+  {
+   "from": "鲁班七号",
+   "to": "廉颇",
+   "kind": "shield",
+   "condition": "反向依赖 廉颇←@战术牌：使用战术牌提升护盾值",
+   "needs_from_is_carry": false,
+   "strength": 1,
+   "quote": "每次使用战术牌会提升该护盾值"
+  },
+  {
+   "from": "白起",
+   "to": "嬴政",
+   "kind": "buff",
+   "condition": "反向依赖 嬴政←@战术牌：使用战术牌提升法攻加成",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "开团：法术攻击力+ 7。每次使用战术牌会提升该加成"
+  },
+  {
+   "from": "老夫子",
+   "to": "嬴政",
+   "kind": "buff",
+   "condition": "反向依赖 嬴政←@战术牌：使用战术牌提升法攻加成",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "开团：法术攻击力+ 7。每次使用战术牌会提升该加成"
+  },
+  {
+   "from": "西施",
+   "to": "嬴政",
+   "kind": "buff",
+   "condition": "反向依赖 嬴政←@战术牌：使用战术牌提升法攻加成",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "开团：法术攻击力+ 7。每次使用战术牌会提升该加成"
+  },
+  {
+   "from": "庄周",
+   "to": "嬴政",
+   "kind": "buff",
+   "condition": "反向依赖 嬴政←@战术牌：使用战术牌提升法攻加成",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "开团：法术攻击力+ 7。每次使用战术牌会提升该加成"
+  },
+  {
+   "from": "蒙犽",
+   "to": "嬴政",
+   "kind": "buff",
+   "condition": "反向依赖 嬴政←@战术牌：使用战术牌提升法攻加成",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "开团：法术攻击力+ 7。每次使用战术牌会提升该加成"
+  },
+  {
+   "from": "鲁班七号",
+   "to": "嬴政",
+   "kind": "buff",
+   "condition": "反向依赖 嬴政←@战术牌：使用战术牌提升法攻加成",
+   "needs_from_is_carry": false,
+   "strength": 2,
+   "quote": "开团：法术攻击力+ 7。每次使用战术牌会提升该加成"
+  }
+ ]
+}

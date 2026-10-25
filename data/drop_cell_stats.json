@@ -1,0 +1,120 @@
+{
+ "note": "上场落点历史失败率（含被占），只当排序先验",
+ "cells": {
+  "300,569": {
+   "tries": 483,
+   "fails": 25,
+   "fail_rate": 0.054
+  },
+  "276,501": {
+   "tries": 450,
+   "fails": 41,
+   "fail_rate": 0.093
+  },
+  "1027,572": {
+   "tries": 429,
+   "fails": 42,
+   "fail_rate": 0.1
+  },
+  "617,372": {
+   "tries": 533,
+   "fails": 28,
+   "fail_rate": 0.054
+  },
+  "672,430": {
+   "tries": 467,
+   "fails": 23,
+   "fail_rate": 0.051
+  },
+  "529,372": {
+   "tries": 419,
+   "fails": 8,
+   "fail_rate": 0.021
+  },
+  "433,569": {
+   "tries": 317,
+   "fails": 28,
+   "fail_rate": 0.091
+  },
+  "390,502": {
+   "tries": 288,
+   "fails": 20,
+   "fail_rate": 0.072
+  },
+  "556,430": {
+   "tries": 356,
+   "fails": 14,
+   "fail_rate": 0.042
+  },
+  "783,438": {
+   "tries": 231,
+   "fails": 4,
+   "fail_rate": 0.021
+  },
+  "411,372": {
+   "tries": 142,
+   "fails": 11,
+   "fail_rate": 0.083
+  },
+  "451,433": {
+   "tries": 148,
+   "fails": 0,
+   "fail_rate": 0.007
+  },
+  "718,371": {
+   "tries": 260,
+   "fails": 7,
+   "fail_rate": 0.031
+  },
+  "499,500": {
+   "tries": 162,
+   "fails": 13,
+   "fail_rate": 0.085
+  },
+  "839,502": {
+   "tries": 285,
+   "fails": 18,
+   "fail_rate": 0.066
+  },
+  "555,569": {
+   "tries": 2,
+   "fails": 0,
+   "fail_rate": 0.25
+  },
+  "786,569": {
+   "tries": 153,
+   "fails": 3,
+   "fail_rate": 0.026
+  },
+  "681,571": {
+   "tries": 33,
+   "fails": 2,
+   "fail_rate": 0.086
+  },
+  "319,375": {
+   "tries": 75,
+   "fails": 6,
+   "fail_rate": 0.091
+  },
+  "346,430": {
+   "tries": 139,
+   "fails": 8,
+   "fail_rate": 0.064
+  },
+  "617,496": {
+   "tries": 23,
+   "fails": 0,
+   "fail_rate": 0.04
+  },
+  "720,500": {
+   "tries": 45,
+   "fails": 3,
+   "fail_rate": 0.085
+  },
+  "955,502": {
+   "tries": 14,
+   "fails": 1,
+   "fail_rate": 0.125
+  }
+ }
+}

@@ -1,0 +1,9780 @@
+{
+ "params": {
+  "sims": 300,
+  "opponents": 7,
+  "opp_buys_per_round": 2,
+  "plans": {
+   "standard": {
+    "2": 2,
+    "4": 3,
+    "7": 4,
+    "10": 5,
+    "13": 6
+   },
+   "fast": {
+    "2": 2,
+    "3": 3,
+    "5": 4,
+    "8": 5,
+    "11": 6
+   },
+   "roll3": {
+    "2": 2,
+    "4": 3,
+    "10": 4,
+    "11": 5,
+    "13": 6
+   }
+  },
+  "xp_need": {
+   "1": 7,
+   "2": 13,
+   "3": 17,
+   "4": 23,
+   "5": 27
+  }
+ },
+ "heroes": {
+  "上官婉儿": {
+   "quality": 4,
+   "faction": "河洛",
+   "skill_score": 7,
+   "growth": 3.17,
+   "power": 22.2,
+   "p_by_r6": 0.0,
+   "p_by_r10": 0.83,
+   "e_copies_r10": 1.5,
+   "best_plan_for_r8": "fast",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.453,
+      "e_copies": 0.5
+     },
+     "8": {
+      "p_any": 0.653,
+      "e_copies": 0.91
+     },
+     "9": {
+      "p_any": 0.767,
+      "e_copies": 1.22
+     },
+     "10": {
+      "p_any": 0.83,
+      "e_copies": 1.5
+     },
+     "11": {
+      "p_any": 0.893,
+      "e_copies": 1.81
+     },
+     "12": {
+      "p_any": 0.91,
+      "e_copies": 1.89
+     },
+     "13": {
+      "p_any": 0.957,
+      "e_copies": 2.36
+     },
+     "14": {
+      "p_any": 0.977,
+      "e_copies": 2.71
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.05,
+      "e_copies": 0.05
+     },
+     "6": {
+      "p_any": 0.287,
+      "e_copies": 0.3
+     },
+     "7": {
+      "p_any": 0.463,
+      "e_copies": 0.52
+     },
+     "8": {
+      "p_any": 0.663,
+      "e_copies": 0.85
+     },
+     "9": {
+      "p_any": 0.78,
+      "e_copies": 1.16
+     },
+     "10": {
+      "p_any": 0.843,
+      "e_copies": 1.3
+     },
+     "11": {
+      "p_any": 0.843,
+      "e_copies": 1.46
+     },
+     "12": {
+      "p_any": 0.9,
+      "e_copies": 1.87
+     },
+     "13": {
+      "p_any": 0.943,
+      "e_copies": 2.25
+     },
+     "14": {
+      "p_any": 0.973,
+      "e_copies": 2.64
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.793,
+      "e_copies": 1.38
+     },
+     "11": {
+      "p_any": 0.87,
+      "e_copies": 1.66
+     },
+     "12": {
+      "p_any": 0.87,
+      "e_copies": 1.77
+     },
+     "13": {
+      "p_any": 0.913,
+      "e_copies": 1.96
+     },
+     "14": {
+      "p_any": 0.963,
+      "e_copies": 2.28
+     }
+    }
+   },
+   "value_early": 0.0,
+   "value_mid": 18.42,
+   "lineup_carry_share": 0.0,
+   "ali_carry_share": 0.0
+  },
+  "云中君": {
+   "quality": 3,
+   "faction": "大河流域",
+   "skill_score": 6,
+   "growth": 1.98,
+   "power": 11.9,
+   "p_by_r6": 0.593,
+   "p_by_r10": 0.877,
+   "e_copies_r10": 1.76,
+   "best_plan_for_r8": "roll3",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.183,
+      "e_copies": 0.19
+     },
+     "5": {
+      "p_any": 0.4,
+      "e_copies": 0.45
+     },
+     "6": {
+      "p_any": 0.593,
+      "e_copies": 0.74
+     },
+     "7": {
+      "p_any": 0.703,
+      "e_copies": 0.89
+     },
+     "8": {
+      "p_any": 0.723,
+      "e_copies": 1.01
+     },
+     "9": {
+      "p_any": 0.823,
+      "e_copies": 1.37
+     },
+     "10": {
+      "p_any": 0.877,
+      "e_copies": 1.76
+     },
+     "11": {
+      "p_any": 0.903,
+      "e_copies": 2.07
+     },
+     "12": {
+      "p_any": 0.907,
+      "e_copies": 2.11
+     },
+     "13": {
+      "p_any": 0.947,
+      "e_copies": 2.5
+     },
+     "14": {
+      "p_any": 0.97,
+      "e_copies": 2.88
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.16,
+      "e_copies": 0.16
+     },
+     "5": {
+      "p_any": 0.373,
+      "e_copies": 0.44
+     },
+     "6": {
+      "p_any": 0.373,
+      "e_copies": 0.54
+     },
+     "7": {
+      "p_any": 0.493,
+      "e_copies": 0.68
+     },
+     "8": {
+      "p_any": 0.667,
+      "e_copies": 1.01
+     },
+     "9": {
+      "p_any": 0.77,
+      "e_copies": 1.42
+     },
+     "10": {
+      "p_any": 0.85,
+      "e_copies": 1.78
+     },
+     "11": {
+      "p_any": 0.85,
+      "e_copies": 2.02
+     },
+     "12": {
+      "p_any": 0.923,
+      "e_copies": 2.19
+     },
+     "13": {
+      "p_any": 0.957,
+      "e_copies": 2.59
+     },
+     "14": {
+      "p_any": 0.973,
+      "e_copies": 2.96
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.217,
+      "e_copies": 0.22
+     },
+     "5": {
+      "p_any": 0.417,
+      "e_copies": 0.49
+     },
+     "6": {
+      "p_any": 0.59,
+      "e_copies": 0.77
+     },
+     "7": {
+      "p_any": 0.717,
+      "e_copies": 1.03
+     },
+     "8": {
+      "p_any": 0.823,
+      "e_copies": 1.35
+     },
+     "9": {
+      "p_any": 0.903,
+      "e_copies": 1.69
+     },
+     "10": {
+      "p_any": 0.917,
+      "e_copies": 1.87
+     },
+     "11": {
+      "p_any": 0.957,
+      "e_copies": 2.23
+     },
+     "12": {
+      "p_any": 0.957,
+      "e_copies": 2.42
+     },
+     "13": {
+      "p_any": 0.967,
+      "e_copies": 2.57
+     },
+     "14": {
+      "p_any": 0.983,
+      "e_copies": 2.9
+     }
+    }
+   },
+   "value_early": 7.04,
+   "value_mid": 10.42,
+   "lineup_carry_share": 0.0003,
+   "ali_carry_share": 0.0
+  },
+  "亚连": {
+   "quality": 2,
+   "faction": "日落海",
+   "skill_score": 7,
+   "growth": 2.03,
+   "power": 14.2,
+   "p_by_r6": 0.843,
+   "p_by_r10": 0.963,
+   "e_copies_r10": 2.52,
+   "best_plan_for_r8": "roll3",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.28,
+      "e_copies": 0.29
+     },
+     "3": {
+      "p_any": 0.55,
+      "e_copies": 0.66
+     },
+     "4": {
+      "p_any": 0.55,
+      "e_copies": 0.7
+     },
+     "5": {
+      "p_any": 0.693,
+      "e_copies": 0.99
+     },
+     "6": {
+      "p_any": 0.843,
+      "e_copies": 1.46
+     },
+     "7": {
+      "p_any": 0.907,
+      "e_copies": 1.7
+     },
+     "8": {
+      "p_any": 0.907,
+      "e_copies": 1.85
+     },
+     "9": {
+      "p_any": 0.937,
+      "e_copies": 2.18
+     },
+     "10": {
+      "p_any": 0.963,
+      "e_copies": 2.52
+     },
+     "11": {
+      "p_any": 0.98,
+      "e_copies": 2.83
+     },
+     "12": {
+      "p_any": 0.98,
+      "e_copies": 2.86
+     },
+     "13": {
+      "p_any": 0.993,
+      "e_copies": 3.09
+     },
+     "14": {
+      "p_any": 0.993,
+      "e_copies": 3.32
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.28,
+      "e_copies": 0.29
+     },
+     "3": {
+      "p_any": 0.55,
+      "e_copies": 0.66
+     },
+     "4": {
+      "p_any": 0.55,
+      "e_copies": 0.7
+     },
+     "5": {
+      "p_any": 0.693,
+      "e_copies": 0.99
+     },
+     "6": {
+      "p_any": 0.843,
+      "e_copies": 1.46
+     },
+     "7": {
+      "p_any": 0.907,
+      "e_copies": 1.7
+     },
+     "8": {
+      "p_any": 0.907,
+      "e_copies": 1.85
+     },
+     "9": {
+      "p_any": 0.937,
+      "e_copies": 2.18
+     },
+     "10": {
+      "p_any": 0.963,
+      "e_copies": 2.52
+     },
+     "11": {
+      "p_any": 0.98,
+      "e_copies": 2.83
+     },
+     "12": {
+      "p_any": 0.98,
+      "e_copies": 2.86
+     },
+     "13": {
+      "p_any": 0.993,
+      "e_copies": 3.09
+     },
+     "14": {
+      "p_any": 0.993,
+      "e_copies": 3.32
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.237,
+      "e_copies": 0.24
+     },
+     "3": {
+      "p_any": 0.54,
+      "e_copies": 0.65
+     },
+     "4": {
+      "p_any": 0.54,
+      "e_copies": 0.7
+     },
+     "5": {
+      "p_any": 0.73,
+      "e_copies": 1.01
+     },
+     "6": {
+      "p_any": 0.867,
+      "e_copies": 1.49
+     },
+     "7": {
+      "p_any": 0.947,
+      "e_copies": 1.94
+     },
+     "8": {
+      "p_any": 0.983,
+      "e_copies": 2.52
+     },
+     "9": {
+      "p_any": 0.993,
+      "e_copies": 2.98
+     },
+     "10": {
+      "p_any": 0.997,
+      "e_copies": 3.09
+     },
+     "11": {
+      "p_any": 1.0,
+      "e_copies": 3.4
+     },
+     "12": {
+      "p_any": 1.0,
+      "e_copies": 3.53
+     },
+     "13": {
+      "p_any": 1.0,
+      "e_copies": 3.62
+     },
+     "14": {
+      "p_any": 1.0,
+      "e_copies": 3.81
+     }
+    }
+   },
+   "value_early": 11.98,
+   "value_mid": 13.68,
+   "lineup_carry_share": 0.0008,
+   "ali_carry_share": 0.0116
+  },
+  "公孙离": {
+   "quality": 2,
+   "faction": "无阵营",
+   "skill_score": 6,
+   "growth": 1.0,
+   "power": 6.0,
+   "p_by_r6": 0.837,
+   "p_by_r10": 0.97,
+   "e_copies_r10": 2.54,
+   "best_plan_for_r8": "roll3",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.167,
+      "e_copies": 0.17
+     },
+     "3": {
+      "p_any": 0.533,
+      "e_copies": 0.65
+     },
+     "4": {
+      "p_any": 0.533,
+      "e_copies": 0.71
+     },
+     "5": {
+      "p_any": 0.707,
+      "e_copies": 1.04
+     },
+     "6": {
+      "p_any": 0.837,
+      "e_copies": 1.43
+     },
+     "7": {
+      "p_any": 0.93,
+      "e_copies": 1.72
+     },
+     "8": {
+      "p_any": 0.93,
+      "e_copies": 1.86
+     },
+     "9": {
+      "p_any": 0.96,
+      "e_copies": 2.18
+     },
+     "10": {
+      "p_any": 0.97,
+      "e_copies": 2.54
+     },
+     "11": {
+      "p_any": 0.98,
+      "e_copies": 2.85
+     },
+     "12": {
+      "p_any": 0.987,
+      "e_copies": 2.89
+     },
+     "13": {
+      "p_any": 0.993,
+      "e_copies": 3.16
+     },
+     "14": {
+      "p_any": 0.993,
+      "e_copies": 3.4
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.167,
+      "e_copies": 0.17
+     },
+     "3": {
+      "p_any": 0.533,
+      "e_copies": 0.65
+     },
+     "4": {
+      "p_any": 0.533,
+      "e_copies": 0.71
+     },
+     "5": {
+      "p_any": 0.707,
+      "e_copies": 1.04
+     },
+     "6": {
+      "p_any": 0.837,
+      "e_copies": 1.43
+     },
+     "7": {
+      "p_any": 0.93,
+      "e_copies": 1.72
+     },
+     "8": {
+      "p_any": 0.93,
+      "e_copies": 1.86
+     },
+     "9": {
+      "p_any": 0.96,
+      "e_copies": 2.18
+     },
+     "10": {
+      "p_any": 0.97,
+      "e_copies": 2.54
+     },
+     "11": {
+      "p_any": 0.98,
+      "e_copies": 2.85
+     },
+     "12": {
+      "p_any": 0.987,
+      "e_copies": 2.89
+     },
+     "13": {
+      "p_any": 0.993,
+      "e_copies": 3.16
+     },
+     "14": {
+      "p_any": 0.993,
+      "e_copies": 3.4
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.243,
+      "e_copies": 0.25
+     },
+     "3": {
+      "p_any": 0.553,
+      "e_copies": 0.68
+     },
+     "4": {
+      "p_any": 0.553,
+      "e_copies": 0.74
+     },
+     "5": {
+      "p_any": 0.7,
+      "e_copies": 1.02
+     },
+     "6": {
+      "p_any": 0.827,
+      "e_copies": 1.41
+     },
+     "7": {
+      "p_any": 0.907,
+      "e_copies": 1.84
+     },
+     "8": {
+      "p_any": 0.957,
+      "e_copies": 2.35
+     },
+     "9": {
+      "p_any": 0.973,
+      "e_copies": 2.83
+     },
+     "10": {
+      "p_any": 0.977,
+      "e_copies": 2.95
+     },
+     "11": {
+      "p_any": 0.98,
+      "e_copies": 3.24
+     },
+     "12": {
+      "p_any": 0.98,
+      "e_copies": 3.36
+     },
+     "13": {
+      "p_any": 0.983,
+      "e_copies": 3.44
+     },
+     "14": {
+      "p_any": 0.983,
+      "e_copies": 3.58
+     }
+    }
+   },
+   "value_early": 5.02,
+   "value_mid": 5.82,
+   "lineup_carry_share": 0.0193,
+   "ali_carry_share": 0.0518
+  },
+  "司空震": {
+   "quality": 5,
+   "faction": "河洛",
+   "skill_score": 9,
+   "growth": 2.83,
+   "power": 25.5,
+   "p_by_r6": 0.0,
+   "p_by_r10": 0.42,
+   "e_copies_r10": 0.53,
+   "best_plan_for_r8": "fast",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.42,
+      "e_copies": 0.53
+     },
+     "11": {
+      "p_any": 0.543,
+      "e_copies": 0.72
+     },
+     "12": {
+      "p_any": 0.633,
+      "e_copies": 0.91
+     },
+     "13": {
+      "p_any": 0.72,
+      "e_copies": 1.11
+     },
+     "14": {
+      "p_any": 0.777,
+      "e_copies": 1.25
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.107,
+      "e_copies": 0.11
+     },
+     "9": {
+      "p_any": 0.293,
+      "e_copies": 0.32
+     },
+     "10": {
+      "p_any": 0.377,
+      "e_copies": 0.45
+     },
+     "11": {
+      "p_any": 0.547,
+      "e_copies": 0.73
+     },
+     "12": {
+      "p_any": 0.67,
+      "e_copies": 0.91
+     },
+     "13": {
+      "p_any": 0.67,
+      "e_copies": 1.1
+     },
+     "14": {
+      "p_any": 0.823,
+      "e_copies": 1.59
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "11": {
+      "p_any": 0.507,
+      "e_copies": 0.67
+     },
+     "12": {
+      "p_any": 0.633,
+      "e_copies": 0.89
+     },
+     "13": {
+      "p_any": 0.73,
+      "e_copies": 1.13
+     },
+     "14": {
+      "p_any": 0.79,
+      "e_copies": 1.28
+     }
+    }
+   },
+   "value_early": 0.0,
+   "value_mid": 10.7,
+   "lineup_carry_share": 0.1228,
+   "ali_carry_share": 0.0
+  },
+  "吕布": {
+   "quality": 5,
+   "faction": "三分之地",
+   "skill_score": 8,
+   "growth": 3.07,
+   "power": 24.6,
+   "p_by_r6": 0.0,
+   "p_by_r10": 0.45,
+   "e_copies_r10": 0.54,
+   "best_plan_for_r8": "fast",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.45,
+      "e_copies": 0.54
+     },
+     "11": {
+      "p_any": 0.573,
+      "e_copies": 0.73
+     },
+     "12": {
+      "p_any": 0.657,
+      "e_copies": 0.96
+     },
+     "13": {
+      "p_any": 0.747,
+      "e_copies": 1.21
+     },
+     "14": {
+      "p_any": 0.797,
+      "e_copies": 1.42
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.157,
+      "e_copies": 0.16
+     },
+     "9": {
+      "p_any": 0.283,
+      "e_copies": 0.3
+     },
+     "10": {
+      "p_any": 0.437,
+      "e_copies": 0.53
+     },
+     "11": {
+      "p_any": 0.543,
+      "e_copies": 0.73
+     },
+     "12": {
+      "p_any": 0.647,
+      "e_copies": 0.86
+     },
+     "13": {
+      "p_any": 0.647,
+      "e_copies": 1.09
+     },
+     "14": {
+      "p_any": 0.827,
+      "e_copies": 1.62
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "11": {
+      "p_any": 0.49,
+      "e_copies": 0.65
+     },
+     "12": {
+      "p_any": 0.617,
+      "e_copies": 0.83
+     },
+     "13": {
+      "p_any": 0.707,
+      "e_copies": 1.01
+     },
+     "14": {
+      "p_any": 0.773,
+      "e_copies": 1.23
+     }
+    }
+   },
+   "value_early": 0.0,
+   "value_mid": 11.05,
+   "lineup_carry_share": 0.0123,
+   "ali_carry_share": 0.0
+  },
+  "周瑜": {
+   "quality": 5,
+   "faction": "三分之地",
+   "skill_score": 6,
+   "growth": 4.0,
+   "power": 24.0,
+   "p_by_r6": 0.0,
+   "p_by_r10": 0.477,
+   "e_copies_r10": 0.56,
+   "best_plan_for_r8": "fast",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.477,
+      "e_copies": 0.56
+     },
+     "11": {
+      "p_any": 0.577,
+      "e_copies": 0.75
+     },
+     "12": {
+      "p_any": 0.663,
+      "e_copies": 0.94
+     },
+     "13": {
+      "p_any": 0.747,
+      "e_copies": 1.15
+     },
+     "14": {
+      "p_any": 0.813,
+      "e_copies": 1.38
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.127,
+      "e_copies": 0.13
+     },
+     "9": {
+      "p_any": 0.307,
+      "e_copies": 0.35
+     },
+     "10": {
+      "p_any": 0.417,
+      "e_copies": 0.49
+     },
+     "11": {
+      "p_any": 0.52,
+      "e_copies": 0.69
+     },
+     "12": {
+      "p_any": 0.627,
+      "e_copies": 0.85
+     },
+     "13": {
+      "p_any": 0.627,
+      "e_copies": 0.99
+     },
+     "14": {
+      "p_any": 0.837,
+      "e_copies": 1.52
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "11": {
+      "p_any": 0.543,
+      "e_copies": 0.72
+     },
+     "12": {
+      "p_any": 0.657,
+      "e_copies": 0.95
+     },
+     "13": {
+      "p_any": 0.733,
+      "e_copies": 1.15
+     },
+     "14": {
+      "p_any": 0.797,
+      "e_copies": 1.35
+     }
+    }
+   },
+   "value_early": 0.0,
+   "value_mid": 11.45,
+   "lineup_carry_share": 0.0004,
+   "ali_carry_share": 0.0
+  },
+  "大乔": {
+   "quality": 2,
+   "faction": "三分之地",
+   "skill_score": 5,
+   "growth": 1.98,
+   "power": 9.9,
+   "p_by_r6": 0.8,
+   "p_by_r10": 0.96,
+   "e_copies_r10": 2.42,
+   "best_plan_for_r8": "roll3",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.237,
+      "e_copies": 0.24
+     },
+     "3": {
+      "p_any": 0.49,
+      "e_copies": 0.59
+     },
+     "4": {
+      "p_any": 0.49,
+      "e_copies": 0.63
+     },
+     "5": {
+      "p_any": 0.64,
+      "e_copies": 0.92
+     },
+     "6": {
+      "p_any": 0.8,
+      "e_copies": 1.35
+     },
+     "7": {
+      "p_any": 0.88,
+      "e_copies": 1.56
+     },
+     "8": {
+      "p_any": 0.89,
+      "e_copies": 1.73
+     },
+     "9": {
+      "p_any": 0.93,
+      "e_copies": 2.05
+     },
+     "10": {
+      "p_any": 0.96,
+      "e_copies": 2.42
+     },
+     "11": {
+      "p_any": 0.97,
+      "e_copies": 2.73
+     },
+     "12": {
+      "p_any": 0.97,
+      "e_copies": 2.77
+     },
+     "13": {
+      "p_any": 0.973,
+      "e_copies": 2.99
+     },
+     "14": {
+      "p_any": 0.99,
+      "e_copies": 3.21
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.237,
+      "e_copies": 0.24
+     },
+     "3": {
+      "p_any": 0.49,
+      "e_copies": 0.59
+     },
+     "4": {
+      "p_any": 0.49,
+      "e_copies": 0.63
+     },
+     "5": {
+      "p_any": 0.64,
+      "e_copies": 0.92
+     },
+     "6": {
+      "p_any": 0.8,
+      "e_copies": 1.35
+     },
+     "7": {
+      "p_any": 0.88,
+      "e_copies": 1.56
+     },
+     "8": {
+      "p_any": 0.89,
+      "e_copies": 1.73
+     },
+     "9": {
+      "p_any": 0.93,
+      "e_copies": 2.05
+     },
+     "10": {
+      "p_any": 0.96,
+      "e_copies": 2.42
+     },
+     "11": {
+      "p_any": 0.97,
+      "e_copies": 2.73
+     },
+     "12": {
+      "p_any": 0.97,
+      "e_copies": 2.77
+     },
+     "13": {
+      "p_any": 0.973,
+      "e_copies": 2.99
+     },
+     "14": {
+      "p_any": 0.99,
+      "e_copies": 3.21
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.207,
+      "e_copies": 0.21
+     },
+     "3": {
+      "p_any": 0.533,
+      "e_copies": 0.61
+     },
+     "4": {
+      "p_any": 0.533,
+      "e_copies": 0.67
+     },
+     "5": {
+      "p_any": 0.72,
+      "e_copies": 1.01
+     },
+     "6": {
+      "p_any": 0.867,
+      "e_copies": 1.42
+     },
+     "7": {
+      "p_any": 0.933,
+      "e_copies": 1.87
+     },
+     "8": {
+      "p_any": 0.977,
+      "e_copies": 2.41
+     },
+     "9": {
+      "p_any": 0.993,
+      "e_copies": 2.9
+     },
+     "10": {
+      "p_any": 0.997,
+      "e_copies": 3.03
+     },
+     "11": {
+      "p_any": 1.0,
+      "e_copies": 3.32
+     },
+     "12": {
+      "p_any": 1.0,
+      "e_copies": 3.45
+     },
+     "13": {
+      "p_any": 1.0,
+      "e_copies": 3.55
+     },
+     "14": {
+      "p_any": 1.0,
+      "e_copies": 3.74
+     }
+    }
+   },
+   "value_early": 7.92,
+   "value_mid": 9.5,
+   "lineup_carry_share": 0.017,
+   "ali_carry_share": 0.0
+  },
+  "大司命": {
+   "quality": 4,
+   "faction": "大河流域",
+   "skill_score": 6,
+   "growth": 1.52,
+   "power": 9.1,
+   "p_by_r6": 0.0,
+   "p_by_r10": 0.82,
+   "e_copies_r10": 1.43,
+   "best_plan_for_r8": "standard",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.44,
+      "e_copies": 0.51
+     },
+     "8": {
+      "p_any": 0.613,
+      "e_copies": 0.81
+     },
+     "9": {
+      "p_any": 0.74,
+      "e_copies": 1.12
+     },
+     "10": {
+      "p_any": 0.82,
+      "e_copies": 1.43
+     },
+     "11": {
+      "p_any": 0.877,
+      "e_copies": 1.71
+     },
+     "12": {
+      "p_any": 0.883,
+      "e_copies": 1.79
+     },
+     "13": {
+      "p_any": 0.93,
+      "e_copies": 2.17
+     },
+     "14": {
+      "p_any": 0.96,
+      "e_copies": 2.52
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.06,
+      "e_copies": 0.06
+     },
+     "6": {
+      "p_any": 0.297,
+      "e_copies": 0.32
+     },
+     "7": {
+      "p_any": 0.437,
+      "e_copies": 0.53
+     },
+     "8": {
+      "p_any": 0.6,
+      "e_copies": 0.83
+     },
+     "9": {
+      "p_any": 0.723,
+      "e_copies": 1.12
+     },
+     "10": {
+      "p_any": 0.83,
+      "e_copies": 1.27
+     },
+     "11": {
+      "p_any": 0.83,
+      "e_copies": 1.4
+     },
+     "12": {
+      "p_any": 0.883,
+      "e_copies": 1.73
+     },
+     "13": {
+      "p_any": 0.933,
+      "e_copies": 2.12
+     },
+     "14": {
+      "p_any": 0.963,
+      "e_copies": 2.47
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.79,
+      "e_copies": 1.34
+     },
+     "11": {
+      "p_any": 0.873,
+      "e_copies": 1.61
+     },
+     "12": {
+      "p_any": 0.873,
+      "e_copies": 1.76
+     },
+     "13": {
+      "p_any": 0.923,
+      "e_copies": 1.9
+     },
+     "14": {
+      "p_any": 0.977,
+      "e_copies": 2.26
+     }
+    }
+   },
+   "value_early": 0.0,
+   "value_mid": 7.48,
+   "lineup_carry_share": 0.0001,
+   "ali_carry_share": 0.0
+  },
+  "姜子牙": {
+   "quality": 5,
+   "faction": "无阵营",
+   "skill_score": 8,
+   "growth": 1.32,
+   "power": 10.6,
+   "p_by_r6": 0.0,
+   "p_by_r10": 0.42,
+   "e_copies_r10": 0.5,
+   "best_plan_for_r8": "fast",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.42,
+      "e_copies": 0.5
+     },
+     "11": {
+      "p_any": 0.54,
+      "e_copies": 0.71
+     },
+     "12": {
+      "p_any": 0.637,
+      "e_copies": 0.91
+     },
+     "13": {
+      "p_any": 0.727,
+      "e_copies": 1.15
+     },
+     "14": {
+      "p_any": 0.793,
+      "e_copies": 1.35
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.137,
+      "e_copies": 0.14
+     },
+     "9": {
+      "p_any": 0.31,
+      "e_copies": 0.33
+     },
+     "10": {
+      "p_any": 0.44,
+      "e_copies": 0.52
+     },
+     "11": {
+      "p_any": 0.543,
+      "e_copies": 0.7
+     },
+     "12": {
+      "p_any": 0.61,
+      "e_copies": 0.8
+     },
+     "13": {
+      "p_any": 0.61,
+      "e_copies": 0.97
+     },
+     "14": {
+      "p_any": 0.82,
+      "e_copies": 1.48
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "11": {
+      "p_any": 0.503,
+      "e_copies": 0.66
+     },
+     "12": {
+      "p_any": 0.63,
+      "e_copies": 0.91
+     },
+     "13": {
+      "p_any": 0.703,
+      "e_copies": 1.09
+     },
+     "14": {
+      "p_any": 0.753,
+      "e_copies": 1.29
+     }
+    }
+   },
+   "value_early": 0.0,
+   "value_mid": 4.44,
+   "lineup_carry_share": 0.0028,
+   "ali_carry_share": 0.0
+  },
+  "嬴政": {
+   "quality": 4,
+   "faction": "逐鹿",
+   "skill_score": 8,
+   "growth": 2.28,
+   "power": 18.2,
+   "p_by_r6": 0.0,
+   "p_by_r10": 0.81,
+   "e_copies_r10": 1.4,
+   "best_plan_for_r8": "fast",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.443,
+      "e_copies": 0.52
+     },
+     "8": {
+      "p_any": 0.623,
+      "e_copies": 0.84
+     },
+     "9": {
+      "p_any": 0.75,
+      "e_copies": 1.14
+     },
+     "10": {
+      "p_any": 0.81,
+      "e_copies": 1.4
+     },
+     "11": {
+      "p_any": 0.843,
+      "e_copies": 1.6
+     },
+     "12": {
+      "p_any": 0.86,
+      "e_copies": 1.68
+     },
+     "13": {
+      "p_any": 0.947,
+      "e_copies": 2.15
+     },
+     "14": {
+      "p_any": 0.98,
+      "e_copies": 2.52
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.047,
+      "e_copies": 0.05
+     },
+     "6": {
+      "p_any": 0.31,
+      "e_copies": 0.33
+     },
+     "7": {
+      "p_any": 0.48,
+      "e_copies": 0.55
+     },
+     "8": {
+      "p_any": 0.637,
+      "e_copies": 0.88
+     },
+     "9": {
+      "p_any": 0.747,
+      "e_copies": 1.22
+     },
+     "10": {
+      "p_any": 0.817,
+      "e_copies": 1.36
+     },
+     "11": {
+      "p_any": 0.817,
+      "e_copies": 1.48
+     },
+     "12": {
+      "p_any": 0.89,
+      "e_copies": 1.87
+     },
+     "13": {
+      "p_any": 0.933,
+      "e_copies": 2.24
+     },
+     "14": {
+      "p_any": 0.967,
+      "e_copies": 2.6
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.823,
+      "e_copies": 1.42
+     },
+     "11": {
+      "p_any": 0.907,
+      "e_copies": 1.7
+     },
+     "12": {
+      "p_any": 0.907,
+      "e_copies": 1.85
+     },
+     "13": {
+      "p_any": 0.943,
+      "e_copies": 2.01
+     },
+     "14": {
+      "p_any": 0.967,
+      "e_copies": 2.37
+     }
+    }
+   },
+   "value_early": 0.0,
+   "value_mid": 14.77,
+   "lineup_carry_share": 0.0982,
+   "ali_carry_share": 0.0
+  },
+  "孙尚香": {
+   "quality": 1,
+   "faction": "三分之地",
+   "skill_score": 6,
+   "growth": 1.98,
+   "power": 11.9,
+   "p_by_r6": 0.963,
+   "p_by_r10": 0.993,
+   "e_copies_r10": 3.41,
+   "best_plan_for_r8": "roll3",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.647,
+      "e_copies": 0.74
+     },
+     "2": {
+      "p_any": 0.74,
+      "e_copies": 0.92
+     },
+     "3": {
+      "p_any": 0.903,
+      "e_copies": 1.57
+     },
+     "4": {
+      "p_any": 0.903,
+      "e_copies": 1.74
+     },
+     "5": {
+      "p_any": 0.937,
+      "e_copies": 2.0
+     },
+     "6": {
+      "p_any": 0.963,
+      "e_copies": 2.38
+     },
+     "7": {
+      "p_any": 0.973,
+      "e_copies": 2.63
+     },
+     "8": {
+      "p_any": 0.973,
+      "e_copies": 2.73
+     },
+     "9": {
+      "p_any": 0.993,
+      "e_copies": 3.07
+     },
+     "10": {
+      "p_any": 0.993,
+      "e_copies": 3.41
+     },
+     "11": {
+      "p_any": 0.993,
+      "e_copies": 3.75
+     },
+     "12": {
+      "p_any": 0.993,
+      "e_copies": 3.75
+     },
+     "13": {
+      "p_any": 0.993,
+      "e_copies": 3.79
+     },
+     "14": {
+      "p_any": 0.993,
+      "e_copies": 3.82
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.647,
+      "e_copies": 0.74
+     },
+     "2": {
+      "p_any": 0.74,
+      "e_copies": 0.92
+     },
+     "3": {
+      "p_any": 0.903,
+      "e_copies": 1.57
+     },
+     "4": {
+      "p_any": 0.903,
+      "e_copies": 1.74
+     },
+     "5": {
+      "p_any": 0.937,
+      "e_copies": 2.0
+     },
+     "6": {
+      "p_any": 0.963,
+      "e_copies": 2.38
+     },
+     "7": {
+      "p_any": 0.973,
+      "e_copies": 2.63
+     },
+     "8": {
+      "p_any": 0.973,
+      "e_copies": 2.73
+     },
+     "9": {
+      "p_any": 0.993,
+      "e_copies": 3.07
+     },
+     "10": {
+      "p_any": 0.993,
+      "e_copies": 3.41
+     },
+     "11": {
+      "p_any": 0.993,
+      "e_copies": 3.75
+     },
+     "12": {
+      "p_any": 0.993,
+      "e_copies": 3.75
+     },
+     "13": {
+      "p_any": 0.993,
+      "e_copies": 3.79
+     },
+     "14": {
+      "p_any": 0.993,
+      "e_copies": 3.82
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.647,
+      "e_copies": 0.73
+     },
+     "2": {
+      "p_any": 0.727,
+      "e_copies": 0.87
+     },
+     "3": {
+      "p_any": 0.89,
+      "e_copies": 1.51
+     },
+     "4": {
+      "p_any": 0.89,
+      "e_copies": 1.69
+     },
+     "5": {
+      "p_any": 0.913,
+      "e_copies": 1.94
+     },
+     "6": {
+      "p_any": 0.95,
+      "e_copies": 2.32
+     },
+     "7": {
+      "p_any": 0.973,
+      "e_copies": 2.66
+     },
+     "8": {
+      "p_any": 0.983,
+      "e_copies": 3.16
+     },
+     "9": {
+      "p_any": 0.993,
+      "e_copies": 3.62
+     },
+     "10": {
+      "p_any": 0.993,
+      "e_copies": 3.72
+     },
+     "11": {
+      "p_any": 0.997,
+      "e_copies": 3.98
+     },
+     "12": {
+      "p_any": 0.997,
+      "e_copies": 4.13
+     },
+     "13": {
+      "p_any": 0.997,
+      "e_copies": 4.15
+     },
+     "14": {
+      "p_any": 0.997,
+      "e_copies": 4.18
+     }
+    }
+   },
+   "value_early": 11.44,
+   "value_mid": 11.8,
+   "lineup_carry_share": 0.0007,
+   "ali_carry_share": 0.0
+  },
+  "孙悟空": {
+   "quality": 4,
+   "faction": "无阵营",
+   "skill_score": 8,
+   "growth": 2.66,
+   "power": 21.3,
+   "p_by_r6": 0.0,
+   "p_by_r10": 0.8,
+   "e_copies_r10": 1.42,
+   "best_plan_for_r8": "fast",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.45,
+      "e_copies": 0.51
+     },
+     "8": {
+      "p_any": 0.627,
+      "e_copies": 0.84
+     },
+     "9": {
+      "p_any": 0.72,
+      "e_copies": 1.12
+     },
+     "10": {
+      "p_any": 0.8,
+      "e_copies": 1.42
+     },
+     "11": {
+      "p_any": 0.86,
+      "e_copies": 1.68
+     },
+     "12": {
+      "p_any": 0.873,
+      "e_copies": 1.75
+     },
+     "13": {
+      "p_any": 0.933,
+      "e_copies": 2.17
+     },
+     "14": {
+      "p_any": 0.967,
+      "e_copies": 2.6
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.047,
+      "e_copies": 0.05
+     },
+     "6": {
+      "p_any": 0.25,
+      "e_copies": 0.26
+     },
+     "7": {
+      "p_any": 0.447,
+      "e_copies": 0.53
+     },
+     "8": {
+      "p_any": 0.64,
+      "e_copies": 0.88
+     },
+     "9": {
+      "p_any": 0.743,
+      "e_copies": 1.18
+     },
+     "10": {
+      "p_any": 0.847,
+      "e_copies": 1.39
+     },
+     "11": {
+      "p_any": 0.847,
+      "e_copies": 1.52
+     },
+     "12": {
+      "p_any": 0.923,
+      "e_copies": 1.89
+     },
+     "13": {
+      "p_any": 0.963,
+      "e_copies": 2.29
+     },
+     "14": {
+      "p_any": 0.98,
+      "e_copies": 2.62
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.83,
+      "e_copies": 1.42
+     },
+     "11": {
+      "p_any": 0.87,
+      "e_copies": 1.68
+     },
+     "12": {
+      "p_any": 0.87,
+      "e_copies": 1.83
+     },
+     "13": {
+      "p_any": 0.937,
+      "e_copies": 2.0
+     },
+     "14": {
+      "p_any": 0.96,
+      "e_copies": 2.32
+     }
+    }
+   },
+   "value_early": 0.0,
+   "value_mid": 17.02,
+   "lineup_carry_share": 0.095,
+   "ali_carry_share": 0.0
+  },
+  "孙膑": {
+   "quality": 1,
+   "faction": "逐鹿",
+   "skill_score": 5,
+   "growth": 1.72,
+   "power": 8.6,
+   "p_by_r6": 0.967,
+   "p_by_r10": 0.99,
+   "e_copies_r10": 3.2,
+   "best_plan_for_r8": "roll3",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.697,
+      "e_copies": 0.79
+     },
+     "2": {
+      "p_any": 0.76,
+      "e_copies": 0.93
+     },
+     "3": {
+      "p_any": 0.92,
+      "e_copies": 1.5
+     },
+     "4": {
+      "p_any": 0.92,
+      "e_copies": 1.64
+     },
+     "5": {
+      "p_any": 0.95,
+      "e_copies": 1.88
+     },
+     "6": {
+      "p_any": 0.967,
+      "e_copies": 2.24
+     },
+     "7": {
+      "p_any": 0.983,
+      "e_copies": 2.42
+     },
+     "8": {
+      "p_any": 0.983,
+      "e_copies": 2.53
+     },
+     "9": {
+      "p_any": 0.99,
+      "e_copies": 2.86
+     },
+     "10": {
+      "p_any": 0.99,
+      "e_copies": 3.2
+     },
+     "11": {
+      "p_any": 0.993,
+      "e_copies": 3.51
+     },
+     "12": {
+      "p_any": 0.993,
+      "e_copies": 3.51
+     },
+     "13": {
+      "p_any": 0.993,
+      "e_copies": 3.53
+     },
+     "14": {
+      "p_any": 0.993,
+      "e_copies": 3.56
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.697,
+      "e_copies": 0.79
+     },
+     "2": {
+      "p_any": 0.76,
+      "e_copies": 0.93
+     },
+     "3": {
+      "p_any": 0.92,
+      "e_copies": 1.5
+     },
+     "4": {
+      "p_any": 0.92,
+      "e_copies": 1.64
+     },
+     "5": {
+      "p_any": 0.95,
+      "e_copies": 1.88
+     },
+     "6": {
+      "p_any": 0.967,
+      "e_copies": 2.24
+     },
+     "7": {
+      "p_any": 0.983,
+      "e_copies": 2.42
+     },
+     "8": {
+      "p_any": 0.983,
+      "e_copies": 2.53
+     },
+     "9": {
+      "p_any": 0.99,
+      "e_copies": 2.86
+     },
+     "10": {
+      "p_any": 0.99,
+      "e_copies": 3.2
+     },
+     "11": {
+      "p_any": 0.993,
+      "e_copies": 3.51
+     },
+     "12": {
+      "p_any": 0.993,
+      "e_copies": 3.51
+     },
+     "13": {
+      "p_any": 0.993,
+      "e_copies": 3.53
+     },
+     "14": {
+      "p_any": 0.993,
+      "e_copies": 3.56
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.68,
+      "e_copies": 0.78
+     },
+     "2": {
+      "p_any": 0.76,
+      "e_copies": 0.94
+     },
+     "3": {
+      "p_any": 0.913,
+      "e_copies": 1.56
+     },
+     "4": {
+      "p_any": 0.913,
+      "e_copies": 1.72
+     },
+     "5": {
+      "p_any": 0.923,
+      "e_copies": 1.91
+     },
+     "6": {
+      "p_any": 0.957,
+      "e_copies": 2.24
+     },
+     "7": {
+      "p_any": 0.987,
+      "e_copies": 2.58
+     },
+     "8": {
+      "p_any": 0.993,
+      "e_copies": 3.0
+     },
+     "9": {
+      "p_any": 0.997,
+      "e_copies": 3.35
+     },
+     "10": {
+      "p_any": 0.997,
+      "e_copies": 3.46
+     },
+     "11": {
+      "p_any": 0.997,
+      "e_copies": 3.74
+     },
+     "12": {
+      "p_any": 0.997,
+      "e_copies": 3.86
+     },
+     "13": {
+      "p_any": 0.997,
+      "e_copies": 3.87
+     },
+     "14": {
+      "p_any": 0.997,
+      "e_copies": 3.91
+     }
+    }
+   },
+   "value_early": 8.32,
+   "value_mid": 8.51,
+   "lineup_carry_share": 0.0023,
+   "ali_carry_share": 0.0
+  },
+  "安琪拉": {
+   "quality": 3,
+   "faction": "日落海",
+   "skill_score": 8,
+   "growth": 1.95,
+   "power": 15.6,
+   "p_by_r6": 0.553,
+   "p_by_r10": 0.883,
+   "e_copies_r10": 1.81,
+   "best_plan_for_r8": "roll3",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.19,
+      "e_copies": 0.2
+     },
+     "5": {
+      "p_any": 0.38,
+      "e_copies": 0.42
+     },
+     "6": {
+      "p_any": 0.553,
+      "e_copies": 0.7
+     },
+     "7": {
+      "p_any": 0.683,
+      "e_copies": 0.87
+     },
+     "8": {
+      "p_any": 0.697,
+      "e_copies": 1.02
+     },
+     "9": {
+      "p_any": 0.82,
+      "e_copies": 1.45
+     },
+     "10": {
+      "p_any": 0.883,
+      "e_copies": 1.81
+     },
+     "11": {
+      "p_any": 0.93,
+      "e_copies": 2.13
+     },
+     "12": {
+      "p_any": 0.94,
+      "e_copies": 2.18
+     },
+     "13": {
+      "p_any": 0.963,
+      "e_copies": 2.62
+     },
+     "14": {
+      "p_any": 0.98,
+      "e_copies": 2.97
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.123,
+      "e_copies": 0.12
+     },
+     "5": {
+      "p_any": 0.307,
+      "e_copies": 0.35
+     },
+     "6": {
+      "p_any": 0.307,
+      "e_copies": 0.41
+     },
+     "7": {
+      "p_any": 0.437,
+      "e_copies": 0.54
+     },
+     "8": {
+      "p_any": 0.617,
+      "e_copies": 0.88
+     },
+     "9": {
+      "p_any": 0.76,
+      "e_copies": 1.3
+     },
+     "10": {
+      "p_any": 0.833,
+      "e_copies": 1.63
+     },
+     "11": {
+      "p_any": 0.833,
+      "e_copies": 1.85
+     },
+     "12": {
+      "p_any": 0.903,
+      "e_copies": 2.03
+     },
+     "13": {
+      "p_any": 0.927,
+      "e_copies": 2.43
+     },
+     "14": {
+      "p_any": 0.947,
+      "e_copies": 2.78
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.213,
+      "e_copies": 0.22
+     },
+     "5": {
+      "p_any": 0.437,
+      "e_copies": 0.5
+     },
+     "6": {
+      "p_any": 0.577,
+      "e_copies": 0.74
+     },
+     "7": {
+      "p_any": 0.673,
+      "e_copies": 1.02
+     },
+     "8": {
+      "p_any": 0.79,
+      "e_copies": 1.33
+     },
+     "9": {
+      "p_any": 0.857,
+      "e_copies": 1.62
+     },
+     "10": {
+      "p_any": 0.88,
+      "e_copies": 1.77
+     },
+     "11": {
+      "p_any": 0.92,
+      "e_copies": 2.07
+     },
+     "12": {
+      "p_any": 0.92,
+      "e_copies": 2.27
+     },
+     "13": {
+      "p_any": 0.943,
+      "e_copies": 2.43
+     },
+     "14": {
+      "p_any": 0.963,
+      "e_copies": 2.77
+     }
+    }
+   },
+   "value_early": 8.63,
+   "value_mid": 13.77,
+   "lineup_carry_share": 0.0141,
+   "ali_carry_share": 0.0
+  },
+  "小乔": {
+   "quality": 4,
+   "faction": "三分之地",
+   "skill_score": 5,
+   "growth": 1.98,
+   "power": 9.9,
+   "p_by_r6": 0.0,
+   "p_by_r10": 0.807,
+   "e_copies_r10": 1.38,
+   "best_plan_for_r8": "fast",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.417,
+      "e_copies": 0.48
+     },
+     "8": {
+      "p_any": 0.553,
+      "e_copies": 0.77
+     },
+     "9": {
+      "p_any": 0.69,
+      "e_copies": 1.05
+     },
+     "10": {
+      "p_any": 0.807,
+      "e_copies": 1.38
+     },
+     "11": {
+      "p_any": 0.857,
+      "e_copies": 1.67
+     },
+     "12": {
+      "p_any": 0.867,
+      "e_copies": 1.76
+     },
+     "13": {
+      "p_any": 0.93,
+      "e_copies": 2.19
+     },
+     "14": {
+      "p_any": 0.967,
+      "e_copies": 2.55
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.033,
+      "e_copies": 0.03
+     },
+     "6": {
+      "p_any": 0.27,
+      "e_copies": 0.27
+     },
+     "7": {
+      "p_any": 0.403,
+      "e_copies": 0.48
+     },
+     "8": {
+      "p_any": 0.63,
+      "e_copies": 0.85
+     },
+     "9": {
+      "p_any": 0.753,
+      "e_copies": 1.19
+     },
+     "10": {
+      "p_any": 0.817,
+      "e_copies": 1.34
+     },
+     "11": {
+      "p_any": 0.817,
+      "e_copies": 1.46
+     },
+     "12": {
+      "p_any": 0.887,
+      "e_copies": 1.83
+     },
+     "13": {
+      "p_any": 0.95,
+      "e_copies": 2.24
+     },
+     "14": {
+      "p_any": 0.96,
+      "e_copies": 2.53
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.81,
+      "e_copies": 1.44
+     },
+     "11": {
+      "p_any": 0.873,
+      "e_copies": 1.72
+     },
+     "12": {
+      "p_any": 0.873,
+      "e_copies": 1.91
+     },
+     "13": {
+      "p_any": 0.91,
+      "e_copies": 2.04
+     },
+     "14": {
+      "p_any": 0.95,
+      "e_copies": 2.41
+     }
+    }
+   },
+   "value_early": 0.0,
+   "value_mid": 7.99,
+   "lineup_carry_share": 0.0,
+   "ali_carry_share": 0.0
+  },
+  "干将莫邪": {
+   "quality": 1,
+   "faction": "大河流域",
+   "skill_score": 6,
+   "growth": 4.0,
+   "power": 24.0,
+   "p_by_r6": 0.963,
+   "p_by_r10": 0.99,
+   "e_copies_r10": 3.3,
+   "best_plan_for_r8": "roll3",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.67,
+      "e_copies": 0.75
+     },
+     "2": {
+      "p_any": 0.737,
+      "e_copies": 0.89
+     },
+     "3": {
+      "p_any": 0.927,
+      "e_copies": 1.58
+     },
+     "4": {
+      "p_any": 0.927,
+      "e_copies": 1.75
+     },
+     "5": {
+      "p_any": 0.933,
+      "e_copies": 1.92
+     },
+     "6": {
+      "p_any": 0.963,
+      "e_copies": 2.28
+     },
+     "7": {
+      "p_any": 0.973,
+      "e_copies": 2.53
+     },
+     "8": {
+      "p_any": 0.973,
+      "e_copies": 2.68
+     },
+     "9": {
+      "p_any": 0.983,
+      "e_copies": 2.99
+     },
+     "10": {
+      "p_any": 0.99,
+      "e_copies": 3.3
+     },
+     "11": {
+      "p_any": 0.99,
+      "e_copies": 3.6
+     },
+     "12": {
+      "p_any": 0.99,
+      "e_copies": 3.6
+     },
+     "13": {
+      "p_any": 0.99,
+      "e_copies": 3.61
+     },
+     "14": {
+      "p_any": 0.99,
+      "e_copies": 3.64
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.67,
+      "e_copies": 0.75
+     },
+     "2": {
+      "p_any": 0.737,
+      "e_copies": 0.89
+     },
+     "3": {
+      "p_any": 0.927,
+      "e_copies": 1.58
+     },
+     "4": {
+      "p_any": 0.927,
+      "e_copies": 1.75
+     },
+     "5": {
+      "p_any": 0.933,
+      "e_copies": 1.92
+     },
+     "6": {
+      "p_any": 0.963,
+      "e_copies": 2.28
+     },
+     "7": {
+      "p_any": 0.973,
+      "e_copies": 2.53
+     },
+     "8": {
+      "p_any": 0.973,
+      "e_copies": 2.68
+     },
+     "9": {
+      "p_any": 0.983,
+      "e_copies": 2.99
+     },
+     "10": {
+      "p_any": 0.99,
+      "e_copies": 3.3
+     },
+     "11": {
+      "p_any": 0.99,
+      "e_copies": 3.6
+     },
+     "12": {
+      "p_any": 0.99,
+      "e_copies": 3.6
+     },
+     "13": {
+      "p_any": 0.99,
+      "e_copies": 3.61
+     },
+     "14": {
+      "p_any": 0.99,
+      "e_copies": 3.64
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.713,
+      "e_copies": 0.79
+     },
+     "2": {
+      "p_any": 0.77,
+      "e_copies": 0.93
+     },
+     "3": {
+      "p_any": 0.93,
+      "e_copies": 1.56
+     },
+     "4": {
+      "p_any": 0.93,
+      "e_copies": 1.74
+     },
+     "5": {
+      "p_any": 0.957,
+      "e_copies": 1.99
+     },
+     "6": {
+      "p_any": 0.98,
+      "e_copies": 2.39
+     },
+     "7": {
+      "p_any": 0.987,
+      "e_copies": 2.73
+     },
+     "8": {
+      "p_any": 0.993,
+      "e_copies": 3.15
+     },
+     "9": {
+      "p_any": 0.993,
+      "e_copies": 3.54
+     },
+     "10": {
+      "p_any": 0.997,
+      "e_copies": 3.68
+     },
+     "11": {
+      "p_any": 0.997,
+      "e_copies": 3.89
+     },
+     "12": {
+      "p_any": 0.997,
+      "e_copies": 4.03
+     },
+     "13": {
+      "p_any": 0.997,
+      "e_copies": 4.05
+     },
+     "14": {
+      "p_any": 1.0,
+      "e_copies": 4.08
+     }
+    }
+   },
+   "value_early": 23.11,
+   "value_mid": 23.76,
+   "lineup_carry_share": 0.0005,
+   "ali_carry_share": 0.0057
+  },
+  "弈星": {
+   "quality": 1,
+   "faction": "无阵营",
+   "skill_score": 5,
+   "growth": 2.3,
+   "power": 11.5,
+   "p_by_r6": 0.953,
+   "p_by_r10": 0.99,
+   "e_copies_r10": 3.34,
+   "best_plan_for_r8": "roll3",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.663,
+      "e_copies": 0.76
+     },
+     "2": {
+      "p_any": 0.75,
+      "e_copies": 0.9
+     },
+     "3": {
+      "p_any": 0.887,
+      "e_copies": 1.54
+     },
+     "4": {
+      "p_any": 0.887,
+      "e_copies": 1.72
+     },
+     "5": {
+      "p_any": 0.923,
+      "e_copies": 1.97
+     },
+     "6": {
+      "p_any": 0.953,
+      "e_copies": 2.35
+     },
+     "7": {
+      "p_any": 0.967,
+      "e_copies": 2.56
+     },
+     "8": {
+      "p_any": 0.967,
+      "e_copies": 2.71
+     },
+     "9": {
+      "p_any": 0.983,
+      "e_copies": 3.0
+     },
+     "10": {
+      "p_any": 0.99,
+      "e_copies": 3.34
+     },
+     "11": {
+      "p_any": 0.99,
+      "e_copies": 3.63
+     },
+     "12": {
+      "p_any": 0.99,
+      "e_copies": 3.63
+     },
+     "13": {
+      "p_any": 0.99,
+      "e_copies": 3.64
+     },
+     "14": {
+      "p_any": 0.99,
+      "e_copies": 3.66
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.663,
+      "e_copies": 0.76
+     },
+     "2": {
+      "p_any": 0.75,
+      "e_copies": 0.9
+     },
+     "3": {
+      "p_any": 0.887,
+      "e_copies": 1.54
+     },
+     "4": {
+      "p_any": 0.887,
+      "e_copies": 1.72
+     },
+     "5": {
+      "p_any": 0.923,
+      "e_copies": 1.97
+     },
+     "6": {
+      "p_any": 0.953,
+      "e_copies": 2.35
+     },
+     "7": {
+      "p_any": 0.967,
+      "e_copies": 2.56
+     },
+     "8": {
+      "p_any": 0.967,
+      "e_copies": 2.71
+     },
+     "9": {
+      "p_any": 0.983,
+      "e_copies": 3.0
+     },
+     "10": {
+      "p_any": 0.99,
+      "e_copies": 3.34
+     },
+     "11": {
+      "p_any": 0.99,
+      "e_copies": 3.63
+     },
+     "12": {
+      "p_any": 0.99,
+      "e_copies": 3.63
+     },
+     "13": {
+      "p_any": 0.99,
+      "e_copies": 3.64
+     },
+     "14": {
+      "p_any": 0.99,
+      "e_copies": 3.66
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.687,
+      "e_copies": 0.78
+     },
+     "2": {
+      "p_any": 0.757,
+      "e_copies": 0.94
+     },
+     "3": {
+      "p_any": 0.907,
+      "e_copies": 1.53
+     },
+     "4": {
+      "p_any": 0.907,
+      "e_copies": 1.71
+     },
+     "5": {
+      "p_any": 0.937,
+      "e_copies": 1.92
+     },
+     "6": {
+      "p_any": 0.963,
+      "e_copies": 2.26
+     },
+     "7": {
+      "p_any": 0.977,
+      "e_copies": 2.68
+     },
+     "8": {
+      "p_any": 0.987,
+      "e_copies": 3.08
+     },
+     "9": {
+      "p_any": 0.99,
+      "e_copies": 3.53
+     },
+     "10": {
+      "p_any": 0.993,
+      "e_copies": 3.68
+     },
+     "11": {
+      "p_any": 0.997,
+      "e_copies": 3.98
+     },
+     "12": {
+      "p_any": 0.997,
+      "e_copies": 4.15
+     },
+     "13": {
+      "p_any": 0.997,
+      "e_copies": 4.16
+     },
+     "14": {
+      "p_any": 0.997,
+      "e_copies": 4.19
+     }
+    }
+   },
+   "value_early": 10.96,
+   "value_mid": 11.38,
+   "lineup_carry_share": 0.0,
+   "ali_carry_share": 0.0
+  },
+  "扁鹊": {
+   "quality": 4,
+   "faction": "逐鹿",
+   "skill_score": 5,
+   "growth": 1.98,
+   "power": 9.9,
+   "p_by_r6": 0.0,
+   "p_by_r10": 0.803,
+   "e_copies_r10": 1.39,
+   "best_plan_for_r8": "standard",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.47,
+      "e_copies": 0.53
+     },
+     "8": {
+      "p_any": 0.623,
+      "e_copies": 0.83
+     },
+     "9": {
+      "p_any": 0.717,
+      "e_copies": 1.13
+     },
+     "10": {
+      "p_any": 0.803,
+      "e_copies": 1.39
+     },
+     "11": {
+      "p_any": 0.843,
+      "e_copies": 1.63
+     },
+     "12": {
+      "p_any": 0.857,
+      "e_copies": 1.7
+     },
+     "13": {
+      "p_any": 0.937,
+      "e_copies": 2.18
+     },
+     "14": {
+      "p_any": 0.97,
+      "e_copies": 2.59
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.073,
+      "e_copies": 0.07
+     },
+     "6": {
+      "p_any": 0.277,
+      "e_copies": 0.29
+     },
+     "7": {
+      "p_any": 0.427,
+      "e_copies": 0.49
+     },
+     "8": {
+      "p_any": 0.59,
+      "e_copies": 0.74
+     },
+     "9": {
+      "p_any": 0.727,
+      "e_copies": 1.02
+     },
+     "10": {
+      "p_any": 0.81,
+      "e_copies": 1.16
+     },
+     "11": {
+      "p_any": 0.81,
+      "e_copies": 1.34
+     },
+     "12": {
+      "p_any": 0.89,
+      "e_copies": 1.71
+     },
+     "13": {
+      "p_any": 0.933,
+      "e_copies": 2.11
+     },
+     "14": {
+      "p_any": 0.973,
+      "e_copies": 2.44
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.773,
+      "e_copies": 1.29
+     },
+     "11": {
+      "p_any": 0.853,
+      "e_copies": 1.56
+     },
+     "12": {
+      "p_any": 0.853,
+      "e_copies": 1.7
+     },
+     "13": {
+      "p_any": 0.92,
+      "e_copies": 1.86
+     },
+     "14": {
+      "p_any": 0.963,
+      "e_copies": 2.21
+     }
+    }
+   },
+   "value_early": 0.0,
+   "value_mid": 7.95,
+   "lineup_carry_share": 0.0,
+   "ali_carry_share": 0.0
+  },
+  "敖隐": {
+   "quality": 5,
+   "faction": "大河流域",
+   "skill_score": 8,
+   "growth": 1.32,
+   "power": 10.6,
+   "p_by_r6": 0.0,
+   "p_by_r10": 0.41,
+   "e_copies_r10": 0.49,
+   "best_plan_for_r8": "fast",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.41,
+      "e_copies": 0.49
+     },
+     "11": {
+      "p_any": 0.523,
+      "e_copies": 0.7
+     },
+     "12": {
+      "p_any": 0.643,
+      "e_copies": 0.9
+     },
+     "13": {
+      "p_any": 0.72,
+      "e_copies": 1.12
+     },
+     "14": {
+      "p_any": 0.78,
+      "e_copies": 1.32
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.137,
+      "e_copies": 0.14
+     },
+     "9": {
+      "p_any": 0.27,
+      "e_copies": 0.31
+     },
+     "10": {
+      "p_any": 0.407,
+      "e_copies": 0.49
+     },
+     "11": {
+      "p_any": 0.53,
+      "e_copies": 0.67
+     },
+     "12": {
+      "p_any": 0.657,
+      "e_copies": 0.84
+     },
+     "13": {
+      "p_any": 0.657,
+      "e_copies": 1.01
+     },
+     "14": {
+      "p_any": 0.837,
+      "e_copies": 1.54
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "11": {
+      "p_any": 0.523,
+      "e_copies": 0.7
+     },
+     "12": {
+      "p_any": 0.633,
+      "e_copies": 0.92
+     },
+     "13": {
+      "p_any": 0.693,
+      "e_copies": 1.11
+     },
+     "14": {
+      "p_any": 0.77,
+      "e_copies": 1.3
+     }
+    }
+   },
+   "value_early": 0.0,
+   "value_mid": 4.33,
+   "lineup_carry_share": 0.0366,
+   "ali_carry_share": 0.0001
+  },
+  "曹操": {
+   "quality": 2,
+   "faction": "三分之地",
+   "skill_score": 5,
+   "growth": 1.32,
+   "power": 6.6,
+   "p_by_r6": 0.82,
+   "p_by_r10": 0.967,
+   "e_copies_r10": 2.46,
+   "best_plan_for_r8": "roll3",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.183,
+      "e_copies": 0.19
+     },
+     "3": {
+      "p_any": 0.51,
+      "e_copies": 0.59
+     },
+     "4": {
+      "p_any": 0.51,
+      "e_copies": 0.64
+     },
+     "5": {
+      "p_any": 0.687,
+      "e_copies": 0.96
+     },
+     "6": {
+      "p_any": 0.82,
+      "e_copies": 1.45
+     },
+     "7": {
+      "p_any": 0.91,
+      "e_copies": 1.7
+     },
+     "8": {
+      "p_any": 0.92,
+      "e_copies": 1.83
+     },
+     "9": {
+      "p_any": 0.95,
+      "e_copies": 2.17
+     },
+     "10": {
+      "p_any": 0.967,
+      "e_copies": 2.46
+     },
+     "11": {
+      "p_any": 0.977,
+      "e_copies": 2.83
+     },
+     "12": {
+      "p_any": 0.977,
+      "e_copies": 2.86
+     },
+     "13": {
+      "p_any": 0.983,
+      "e_copies": 3.1
+     },
+     "14": {
+      "p_any": 0.987,
+      "e_copies": 3.29
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.183,
+      "e_copies": 0.19
+     },
+     "3": {
+      "p_any": 0.51,
+      "e_copies": 0.59
+     },
+     "4": {
+      "p_any": 0.51,
+      "e_copies": 0.64
+     },
+     "5": {
+      "p_any": 0.687,
+      "e_copies": 0.96
+     },
+     "6": {
+      "p_any": 0.82,
+      "e_copies": 1.45
+     },
+     "7": {
+      "p_any": 0.91,
+      "e_copies": 1.7
+     },
+     "8": {
+      "p_any": 0.92,
+      "e_copies": 1.83
+     },
+     "9": {
+      "p_any": 0.95,
+      "e_copies": 2.17
+     },
+     "10": {
+      "p_any": 0.967,
+      "e_copies": 2.46
+     },
+     "11": {
+      "p_any": 0.977,
+      "e_copies": 2.83
+     },
+     "12": {
+      "p_any": 0.977,
+      "e_copies": 2.86
+     },
+     "13": {
+      "p_any": 0.983,
+      "e_copies": 3.1
+     },
+     "14": {
+      "p_any": 0.987,
+      "e_copies": 3.29
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.163,
+      "e_copies": 0.17
+     },
+     "3": {
+      "p_any": 0.473,
+      "e_copies": 0.57
+     },
+     "4": {
+      "p_any": 0.473,
+      "e_copies": 0.61
+     },
+     "5": {
+      "p_any": 0.683,
+      "e_copies": 0.94
+     },
+     "6": {
+      "p_any": 0.843,
+      "e_copies": 1.39
+     },
+     "7": {
+      "p_any": 0.9,
+      "e_copies": 1.8
+     },
+     "8": {
+      "p_any": 0.95,
+      "e_copies": 2.31
+     },
+     "9": {
+      "p_any": 0.97,
+      "e_copies": 2.85
+     },
+     "10": {
+      "p_any": 0.977,
+      "e_copies": 3.02
+     },
+     "11": {
+      "p_any": 0.983,
+      "e_copies": 3.32
+     },
+     "12": {
+      "p_any": 0.983,
+      "e_copies": 3.51
+     },
+     "13": {
+      "p_any": 0.99,
+      "e_copies": 3.62
+     },
+     "14": {
+      "p_any": 0.99,
+      "e_copies": 3.76
+     }
+    }
+   },
+   "value_early": 5.41,
+   "value_mid": 6.38,
+   "lineup_carry_share": 0.0,
+   "ali_carry_share": 0.0
+  },
+  "李信": {
+   "quality": 4,
+   "faction": "河洛",
+   "skill_score": 8,
+   "growth": 1.62,
+   "power": 13.0,
+   "p_by_r6": 0.0,
+   "p_by_r10": 0.817,
+   "e_copies_r10": 1.39,
+   "best_plan_for_r8": "standard",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.443,
+      "e_copies": 0.52
+     },
+     "8": {
+      "p_any": 0.66,
+      "e_copies": 0.86
+     },
+     "9": {
+      "p_any": 0.73,
+      "e_copies": 1.12
+     },
+     "10": {
+      "p_any": 0.817,
+      "e_copies": 1.39
+     },
+     "11": {
+      "p_any": 0.867,
+      "e_copies": 1.63
+     },
+     "12": {
+      "p_any": 0.883,
+      "e_copies": 1.72
+     },
+     "13": {
+      "p_any": 0.94,
+      "e_copies": 2.1
+     },
+     "14": {
+      "p_any": 0.963,
+      "e_copies": 2.51
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.07,
+      "e_copies": 0.07
+     },
+     "6": {
+      "p_any": 0.323,
+      "e_copies": 0.36
+     },
+     "7": {
+      "p_any": 0.487,
+      "e_copies": 0.59
+     },
+     "8": {
+      "p_any": 0.62,
+      "e_copies": 0.85
+     },
+     "9": {
+      "p_any": 0.723,
+      "e_copies": 1.11
+     },
+     "10": {
+      "p_any": 0.8,
+      "e_copies": 1.29
+     },
+     "11": {
+      "p_any": 0.8,
+      "e_copies": 1.43
+     },
+     "12": {
+      "p_any": 0.883,
+      "e_copies": 1.9
+     },
+     "13": {
+      "p_any": 0.93,
+      "e_copies": 2.27
+     },
+     "14": {
+      "p_any": 0.963,
+      "e_copies": 2.56
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.817,
+      "e_copies": 1.44
+     },
+     "11": {
+      "p_any": 0.88,
+      "e_copies": 1.68
+     },
+     "12": {
+      "p_any": 0.88,
+      "e_copies": 1.86
+     },
+     "13": {
+      "p_any": 0.927,
+      "e_copies": 2.03
+     },
+     "14": {
+      "p_any": 0.97,
+      "e_copies": 2.39
+     }
+    }
+   },
+   "value_early": 0.0,
+   "value_mid": 10.59,
+   "lineup_carry_share": 0.1146,
+   "ali_carry_share": 0.0
+  },
+  "李元芳": {
+   "quality": 1,
+   "faction": "河洛",
+   "skill_score": 5,
+   "growth": 1.0,
+   "power": 5.0,
+   "p_by_r6": 0.963,
+   "p_by_r10": 0.983,
+   "e_copies_r10": 3.2,
+   "best_plan_for_r8": "roll3",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.663,
+      "e_copies": 0.74
+     },
+     "2": {
+      "p_any": 0.74,
+      "e_copies": 0.87
+     },
+     "3": {
+      "p_any": 0.92,
+      "e_copies": 1.47
+     },
+     "4": {
+      "p_any": 0.92,
+      "e_copies": 1.64
+     },
+     "5": {
+      "p_any": 0.947,
+      "e_copies": 1.91
+     },
+     "6": {
+      "p_any": 0.963,
+      "e_copies": 2.29
+     },
+     "7": {
+      "p_any": 0.97,
+      "e_copies": 2.51
+     },
+     "8": {
+      "p_any": 0.97,
+      "e_copies": 2.65
+     },
+     "9": {
+      "p_any": 0.983,
+      "e_copies": 2.91
+     },
+     "10": {
+      "p_any": 0.983,
+      "e_copies": 3.2
+     },
+     "11": {
+      "p_any": 0.983,
+      "e_copies": 3.5
+     },
+     "12": {
+      "p_any": 0.983,
+      "e_copies": 3.5
+     },
+     "13": {
+      "p_any": 0.983,
+      "e_copies": 3.52
+     },
+     "14": {
+      "p_any": 0.983,
+      "e_copies": 3.53
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.663,
+      "e_copies": 0.74
+     },
+     "2": {
+      "p_any": 0.74,
+      "e_copies": 0.87
+     },
+     "3": {
+      "p_any": 0.92,
+      "e_copies": 1.47
+     },
+     "4": {
+      "p_any": 0.92,
+      "e_copies": 1.64
+     },
+     "5": {
+      "p_any": 0.947,
+      "e_copies": 1.91
+     },
+     "6": {
+      "p_any": 0.963,
+      "e_copies": 2.29
+     },
+     "7": {
+      "p_any": 0.97,
+      "e_copies": 2.51
+     },
+     "8": {
+      "p_any": 0.97,
+      "e_copies": 2.65
+     },
+     "9": {
+      "p_any": 0.983,
+      "e_copies": 2.91
+     },
+     "10": {
+      "p_any": 0.983,
+      "e_copies": 3.2
+     },
+     "11": {
+      "p_any": 0.983,
+      "e_copies": 3.5
+     },
+     "12": {
+      "p_any": 0.983,
+      "e_copies": 3.5
+     },
+     "13": {
+      "p_any": 0.983,
+      "e_copies": 3.52
+     },
+     "14": {
+      "p_any": 0.983,
+      "e_copies": 3.53
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.693,
+      "e_copies": 0.75
+     },
+     "2": {
+      "p_any": 0.78,
+      "e_copies": 0.94
+     },
+     "3": {
+      "p_any": 0.893,
+      "e_copies": 1.54
+     },
+     "4": {
+      "p_any": 0.893,
+      "e_copies": 1.7
+     },
+     "5": {
+      "p_any": 0.923,
+      "e_copies": 1.92
+     },
+     "6": {
+      "p_any": 0.95,
+      "e_copies": 2.24
+     },
+     "7": {
+      "p_any": 0.973,
+      "e_copies": 2.54
+     },
+     "8": {
+      "p_any": 0.98,
+      "e_copies": 2.98
+     },
+     "9": {
+      "p_any": 0.983,
+      "e_copies": 3.39
+     },
+     "10": {
+      "p_any": 0.987,
+      "e_copies": 3.51
+     },
+     "11": {
+      "p_any": 0.987,
+      "e_copies": 3.78
+     },
+     "12": {
+      "p_any": 0.987,
+      "e_copies": 3.93
+     },
+     "13": {
+      "p_any": 0.987,
+      "e_copies": 3.94
+     },
+     "14": {
+      "p_any": 0.987,
+      "e_copies": 3.96
+     }
+    }
+   },
+   "value_early": 4.81,
+   "value_mid": 4.92,
+   "lineup_carry_share": 0.0,
+   "ali_carry_share": 0.0
+  },
+  "李白": {
+   "quality": 4,
+   "faction": "河洛",
+   "skill_score": 7,
+   "growth": 1.88,
+   "power": 13.2,
+   "p_by_r6": 0.0,
+   "p_by_r10": 0.793,
+   "e_copies_r10": 1.44,
+   "best_plan_for_r8": "fast",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.46,
+      "e_copies": 0.55
+     },
+     "8": {
+      "p_any": 0.603,
+      "e_copies": 0.88
+     },
+     "9": {
+      "p_any": 0.707,
+      "e_copies": 1.17
+     },
+     "10": {
+      "p_any": 0.793,
+      "e_copies": 1.44
+     },
+     "11": {
+      "p_any": 0.863,
+      "e_copies": 1.7
+     },
+     "12": {
+      "p_any": 0.87,
+      "e_copies": 1.77
+     },
+     "13": {
+      "p_any": 0.917,
+      "e_copies": 2.13
+     },
+     "14": {
+      "p_any": 0.947,
+      "e_copies": 2.47
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.08,
+      "e_copies": 0.08
+     },
+     "6": {
+      "p_any": 0.323,
+      "e_copies": 0.33
+     },
+     "7": {
+      "p_any": 0.467,
+      "e_copies": 0.54
+     },
+     "8": {
+      "p_any": 0.63,
+      "e_copies": 0.84
+     },
+     "9": {
+      "p_any": 0.73,
+      "e_copies": 1.14
+     },
+     "10": {
+      "p_any": 0.813,
+      "e_copies": 1.32
+     },
+     "11": {
+      "p_any": 0.813,
+      "e_copies": 1.45
+     },
+     "12": {
+      "p_any": 0.887,
+      "e_copies": 1.84
+     },
+     "13": {
+      "p_any": 0.92,
+      "e_copies": 2.23
+     },
+     "14": {
+      "p_any": 0.943,
+      "e_copies": 2.54
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.82,
+      "e_copies": 1.42
+     },
+     "11": {
+      "p_any": 0.877,
+      "e_copies": 1.73
+     },
+     "12": {
+      "p_any": 0.877,
+      "e_copies": 1.88
+     },
+     "13": {
+      "p_any": 0.923,
+      "e_copies": 2.06
+     },
+     "14": {
+      "p_any": 0.963,
+      "e_copies": 2.43
+     }
+    }
+   },
+   "value_early": 0.0,
+   "value_mid": 10.44,
+   "lineup_carry_share": 0.0569,
+   "ali_carry_share": 0.0
+  },
+  "杨玉环": {
+   "quality": 5,
+   "faction": "无阵营",
+   "skill_score": 6,
+   "growth": 4.0,
+   "power": 24.0,
+   "p_by_r6": 0.0,
+   "p_by_r10": 0.46,
+   "e_copies_r10": 0.56,
+   "best_plan_for_r8": "fast",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.46,
+      "e_copies": 0.56
+     },
+     "11": {
+      "p_any": 0.57,
+      "e_copies": 0.75
+     },
+     "12": {
+      "p_any": 0.7,
+      "e_copies": 1.0
+     },
+     "13": {
+      "p_any": 0.797,
+      "e_copies": 1.25
+     },
+     "14": {
+      "p_any": 0.837,
+      "e_copies": 1.45
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.173,
+      "e_copies": 0.18
+     },
+     "9": {
+      "p_any": 0.347,
+      "e_copies": 0.39
+     },
+     "10": {
+      "p_any": 0.51,
+      "e_copies": 0.65
+     },
+     "11": {
+      "p_any": 0.613,
+      "e_copies": 0.82
+     },
+     "12": {
+      "p_any": 0.7,
+      "e_copies": 0.93
+     },
+     "13": {
+      "p_any": 0.7,
+      "e_copies": 1.14
+     },
+     "14": {
+      "p_any": 0.857,
+      "e_copies": 1.64
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "11": {
+      "p_any": 0.547,
+      "e_copies": 0.75
+     },
+     "12": {
+      "p_any": 0.65,
+      "e_copies": 0.95
+     },
+     "13": {
+      "p_any": 0.737,
+      "e_copies": 1.18
+     },
+     "14": {
+      "p_any": 0.81,
+      "e_copies": 1.37
+     }
+    }
+   },
+   "value_early": 0.0,
+   "value_mid": 11.04,
+   "lineup_carry_share": 0.0064,
+   "ali_carry_share": 0.0
+  },
+  "武则天": {
+   "quality": 5,
+   "faction": "河洛",
+   "skill_score": 9,
+   "growth": 3.93,
+   "power": 35.4,
+   "p_by_r6": 0.0,
+   "p_by_r10": 0.483,
+   "e_copies_r10": 0.55,
+   "best_plan_for_r8": "fast",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.483,
+      "e_copies": 0.55
+     },
+     "11": {
+      "p_any": 0.58,
+      "e_copies": 0.73
+     },
+     "12": {
+      "p_any": 0.643,
+      "e_copies": 0.92
+     },
+     "13": {
+      "p_any": 0.727,
+      "e_copies": 1.13
+     },
+     "14": {
+      "p_any": 0.79,
+      "e_copies": 1.33
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.127,
+      "e_copies": 0.13
+     },
+     "9": {
+      "p_any": 0.327,
+      "e_copies": 0.35
+     },
+     "10": {
+      "p_any": 0.45,
+      "e_copies": 0.54
+     },
+     "11": {
+      "p_any": 0.573,
+      "e_copies": 0.7
+     },
+     "12": {
+      "p_any": 0.677,
+      "e_copies": 0.83
+     },
+     "13": {
+      "p_any": 0.677,
+      "e_copies": 1.02
+     },
+     "14": {
+      "p_any": 0.857,
+      "e_copies": 1.48
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "11": {
+      "p_any": 0.54,
+      "e_copies": 0.63
+     },
+     "12": {
+      "p_any": 0.66,
+      "e_copies": 0.87
+     },
+     "13": {
+      "p_any": 0.743,
+      "e_copies": 1.09
+     },
+     "14": {
+      "p_any": 0.803,
+      "e_copies": 1.28
+     }
+    }
+   },
+   "value_early": 0.0,
+   "value_mid": 17.08,
+   "lineup_carry_share": 0.0,
+   "ali_carry_share": 0.0
+  },
+  "沈梦溪": {
+   "quality": 2,
+   "faction": "河洛",
+   "skill_score": 7,
+   "growth": 1.72,
+   "power": 12.0,
+   "p_by_r6": 0.843,
+   "p_by_r10": 0.98,
+   "e_copies_r10": 2.48,
+   "best_plan_for_r8": "roll3",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.197,
+      "e_copies": 0.2
+     },
+     "3": {
+      "p_any": 0.53,
+      "e_copies": 0.66
+     },
+     "4": {
+      "p_any": 0.53,
+      "e_copies": 0.71
+     },
+     "5": {
+      "p_any": 0.733,
+      "e_copies": 1.06
+     },
+     "6": {
+      "p_any": 0.843,
+      "e_copies": 1.49
+     },
+     "7": {
+      "p_any": 0.907,
+      "e_copies": 1.7
+     },
+     "8": {
+      "p_any": 0.907,
+      "e_copies": 1.81
+     },
+     "9": {
+      "p_any": 0.963,
+      "e_copies": 2.15
+     },
+     "10": {
+      "p_any": 0.98,
+      "e_copies": 2.48
+     },
+     "11": {
+      "p_any": 0.98,
+      "e_copies": 2.79
+     },
+     "12": {
+      "p_any": 0.98,
+      "e_copies": 2.82
+     },
+     "13": {
+      "p_any": 0.987,
+      "e_copies": 3.07
+     },
+     "14": {
+      "p_any": 0.99,
+      "e_copies": 3.29
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.197,
+      "e_copies": 0.2
+     },
+     "3": {
+      "p_any": 0.53,
+      "e_copies": 0.66
+     },
+     "4": {
+      "p_any": 0.53,
+      "e_copies": 0.71
+     },
+     "5": {
+      "p_any": 0.733,
+      "e_copies": 1.06
+     },
+     "6": {
+      "p_any": 0.843,
+      "e_copies": 1.49
+     },
+     "7": {
+      "p_any": 0.907,
+      "e_copies": 1.7
+     },
+     "8": {
+      "p_any": 0.907,
+      "e_copies": 1.81
+     },
+     "9": {
+      "p_any": 0.963,
+      "e_copies": 2.15
+     },
+     "10": {
+      "p_any": 0.98,
+      "e_copies": 2.48
+     },
+     "11": {
+      "p_any": 0.98,
+      "e_copies": 2.79
+     },
+     "12": {
+      "p_any": 0.98,
+      "e_copies": 2.82
+     },
+     "13": {
+      "p_any": 0.987,
+      "e_copies": 3.07
+     },
+     "14": {
+      "p_any": 0.99,
+      "e_copies": 3.29
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.21,
+      "e_copies": 0.22
+     },
+     "3": {
+      "p_any": 0.47,
+      "e_copies": 0.57
+     },
+     "4": {
+      "p_any": 0.47,
+      "e_copies": 0.59
+     },
+     "5": {
+      "p_any": 0.69,
+      "e_copies": 0.94
+     },
+     "6": {
+      "p_any": 0.78,
+      "e_copies": 1.34
+     },
+     "7": {
+      "p_any": 0.857,
+      "e_copies": 1.75
+     },
+     "8": {
+      "p_any": 0.94,
+      "e_copies": 2.32
+     },
+     "9": {
+      "p_any": 0.963,
+      "e_copies": 2.8
+     },
+     "10": {
+      "p_any": 0.97,
+      "e_copies": 2.92
+     },
+     "11": {
+      "p_any": 0.987,
+      "e_copies": 3.22
+     },
+     "12": {
+      "p_any": 0.987,
+      "e_copies": 3.38
+     },
+     "13": {
+      "p_any": 0.99,
+      "e_copies": 3.47
+     },
+     "14": {
+      "p_any": 0.997,
+      "e_copies": 3.6
+     }
+    }
+   },
+   "value_early": 10.15,
+   "value_mid": 11.8,
+   "lineup_carry_share": 0.0013,
+   "ali_carry_share": 0.0012
+  },
+  "海月": {
+   "quality": 5,
+   "faction": "无阵营",
+   "skill_score": 7,
+   "growth": 2.2,
+   "power": 15.4,
+   "p_by_r6": 0.0,
+   "p_by_r10": 0.38,
+   "e_copies_r10": 0.46,
+   "best_plan_for_r8": "fast",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.38,
+      "e_copies": 0.46
+     },
+     "11": {
+      "p_any": 0.48,
+      "e_copies": 0.64
+     },
+     "12": {
+      "p_any": 0.597,
+      "e_copies": 0.87
+     },
+     "13": {
+      "p_any": 0.713,
+      "e_copies": 1.07
+     },
+     "14": {
+      "p_any": 0.797,
+      "e_copies": 1.27
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.14,
+      "e_copies": 0.14
+     },
+     "9": {
+      "p_any": 0.313,
+      "e_copies": 0.36
+     },
+     "10": {
+      "p_any": 0.463,
+      "e_copies": 0.57
+     },
+     "11": {
+      "p_any": 0.603,
+      "e_copies": 0.79
+     },
+     "12": {
+      "p_any": 0.683,
+      "e_copies": 0.92
+     },
+     "13": {
+      "p_any": 0.683,
+      "e_copies": 1.1
+     },
+     "14": {
+      "p_any": 0.853,
+      "e_copies": 1.68
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "11": {
+      "p_any": 0.46,
+      "e_copies": 0.6
+     },
+     "12": {
+      "p_any": 0.587,
+      "e_copies": 0.83
+     },
+     "13": {
+      "p_any": 0.667,
+      "e_copies": 1.08
+     },
+     "14": {
+      "p_any": 0.77,
+      "e_copies": 1.34
+     }
+    }
+   },
+   "value_early": 0.0,
+   "value_mid": 5.85,
+   "lineup_carry_share": 0.0211,
+   "ali_carry_share": 0.2722
+  },
+  "海诺": {
+   "quality": 5,
+   "faction": "日落海",
+   "skill_score": 9,
+   "growth": 2.2,
+   "power": 19.8,
+   "p_by_r6": 0.0,
+   "p_by_r10": 0.477,
+   "e_copies_r10": 0.55,
+   "best_plan_for_r8": "fast",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.477,
+      "e_copies": 0.55
+     },
+     "11": {
+      "p_any": 0.577,
+      "e_copies": 0.74
+     },
+     "12": {
+      "p_any": 0.697,
+      "e_copies": 1.01
+     },
+     "13": {
+      "p_any": 0.787,
+      "e_copies": 1.24
+     },
+     "14": {
+      "p_any": 0.833,
+      "e_copies": 1.4
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.153,
+      "e_copies": 0.16
+     },
+     "9": {
+      "p_any": 0.3,
+      "e_copies": 0.33
+     },
+     "10": {
+      "p_any": 0.457,
+      "e_copies": 0.53
+     },
+     "11": {
+      "p_any": 0.577,
+      "e_copies": 0.74
+     },
+     "12": {
+      "p_any": 0.65,
+      "e_copies": 0.84
+     },
+     "13": {
+      "p_any": 0.65,
+      "e_copies": 1.07
+     },
+     "14": {
+      "p_any": 0.84,
+      "e_copies": 1.6
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "11": {
+      "p_any": 0.52,
+      "e_copies": 0.69
+     },
+     "12": {
+      "p_any": 0.67,
+      "e_copies": 0.92
+     },
+     "13": {
+      "p_any": 0.753,
+      "e_copies": 1.12
+     },
+     "14": {
+      "p_any": 0.81,
+      "e_copies": 1.29
+     }
+    }
+   },
+   "value_early": 0.0,
+   "value_mid": 9.44,
+   "lineup_carry_share": 0.0026,
+   "ali_carry_share": 0.0
+  },
+  "狄仁杰": {
+   "quality": 3,
+   "faction": "河洛",
+   "skill_score": 7,
+   "growth": 4.0,
+   "power": 28.0,
+   "p_by_r6": 0.573,
+   "p_by_r10": 0.857,
+   "e_copies_r10": 1.71,
+   "best_plan_for_r8": "roll3",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.223,
+      "e_copies": 0.23
+     },
+     "5": {
+      "p_any": 0.413,
+      "e_copies": 0.46
+     },
+     "6": {
+      "p_any": 0.573,
+      "e_copies": 0.73
+     },
+     "7": {
+      "p_any": 0.69,
+      "e_copies": 0.88
+     },
+     "8": {
+      "p_any": 0.703,
+      "e_copies": 1.05
+     },
+     "9": {
+      "p_any": 0.807,
+      "e_copies": 1.37
+     },
+     "10": {
+      "p_any": 0.857,
+      "e_copies": 1.71
+     },
+     "11": {
+      "p_any": 0.923,
+      "e_copies": 2.05
+     },
+     "12": {
+      "p_any": 0.923,
+      "e_copies": 2.1
+     },
+     "13": {
+      "p_any": 0.953,
+      "e_copies": 2.46
+     },
+     "14": {
+      "p_any": 0.97,
+      "e_copies": 2.89
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.153,
+      "e_copies": 0.16
+     },
+     "5": {
+      "p_any": 0.373,
+      "e_copies": 0.44
+     },
+     "6": {
+      "p_any": 0.373,
+      "e_copies": 0.54
+     },
+     "7": {
+      "p_any": 0.48,
+      "e_copies": 0.66
+     },
+     "8": {
+      "p_any": 0.707,
+      "e_copies": 1.03
+     },
+     "9": {
+      "p_any": 0.81,
+      "e_copies": 1.43
+     },
+     "10": {
+      "p_any": 0.893,
+      "e_copies": 1.8
+     },
+     "11": {
+      "p_any": 0.893,
+      "e_copies": 1.97
+     },
+     "12": {
+      "p_any": 0.933,
+      "e_copies": 2.09
+     },
+     "13": {
+      "p_any": 0.97,
+      "e_copies": 2.49
+     },
+     "14": {
+      "p_any": 0.983,
+      "e_copies": 2.85
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.217,
+      "e_copies": 0.23
+     },
+     "5": {
+      "p_any": 0.41,
+      "e_copies": 0.46
+     },
+     "6": {
+      "p_any": 0.56,
+      "e_copies": 0.71
+     },
+     "7": {
+      "p_any": 0.71,
+      "e_copies": 0.95
+     },
+     "8": {
+      "p_any": 0.78,
+      "e_copies": 1.31
+     },
+     "9": {
+      "p_any": 0.88,
+      "e_copies": 1.66
+     },
+     "10": {
+      "p_any": 0.917,
+      "e_copies": 1.89
+     },
+     "11": {
+      "p_any": 0.937,
+      "e_copies": 2.24
+     },
+     "12": {
+      "p_any": 0.937,
+      "e_copies": 2.47
+     },
+     "13": {
+      "p_any": 0.97,
+      "e_copies": 2.62
+     },
+     "14": {
+      "p_any": 0.98,
+      "e_copies": 2.95
+     }
+    }
+   },
+   "value_early": 16.04,
+   "value_mid": 24.0,
+   "lineup_carry_share": 0.0009,
+   "ali_carry_share": 0.0097
+  },
+  "甄姬": {
+   "quality": 4,
+   "faction": "三分之地",
+   "skill_score": 7,
+   "growth": 2.85,
+   "power": 19.9,
+   "p_by_r6": 0.0,
+   "p_by_r10": 0.81,
+   "e_copies_r10": 1.3,
+   "best_plan_for_r8": "standard",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.427,
+      "e_copies": 0.49
+     },
+     "8": {
+      "p_any": 0.6,
+      "e_copies": 0.8
+     },
+     "9": {
+      "p_any": 0.723,
+      "e_copies": 1.06
+     },
+     "10": {
+      "p_any": 0.81,
+      "e_copies": 1.3
+     },
+     "11": {
+      "p_any": 0.88,
+      "e_copies": 1.56
+     },
+     "12": {
+      "p_any": 0.88,
+      "e_copies": 1.62
+     },
+     "13": {
+      "p_any": 0.933,
+      "e_copies": 2.08
+     },
+     "14": {
+      "p_any": 0.967,
+      "e_copies": 2.38
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.06,
+      "e_copies": 0.06
+     },
+     "6": {
+      "p_any": 0.247,
+      "e_copies": 0.27
+     },
+     "7": {
+      "p_any": 0.403,
+      "e_copies": 0.51
+     },
+     "8": {
+      "p_any": 0.6,
+      "e_copies": 0.84
+     },
+     "9": {
+      "p_any": 0.72,
+      "e_copies": 1.13
+     },
+     "10": {
+      "p_any": 0.797,
+      "e_copies": 1.28
+     },
+     "11": {
+      "p_any": 0.797,
+      "e_copies": 1.46
+     },
+     "12": {
+      "p_any": 0.903,
+      "e_copies": 1.82
+     },
+     "13": {
+      "p_any": 0.95,
+      "e_copies": 2.22
+     },
+     "14": {
+      "p_any": 0.97,
+      "e_copies": 2.56
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.797,
+      "e_copies": 1.39
+     },
+     "11": {
+      "p_any": 0.857,
+      "e_copies": 1.66
+     },
+     "12": {
+      "p_any": 0.857,
+      "e_copies": 1.78
+     },
+     "13": {
+      "p_any": 0.923,
+      "e_copies": 1.97
+     },
+     "14": {
+      "p_any": 0.977,
+      "e_copies": 2.39
+     }
+    }
+   },
+   "value_early": 0.0,
+   "value_mid": 16.16,
+   "lineup_carry_share": 0.0,
+   "ali_carry_share": 0.0
+  },
+  "百里守约": {
+   "quality": 2,
+   "faction": "河洛",
+   "skill_score": 8,
+   "growth": 1.31,
+   "power": 10.5,
+   "p_by_r6": 0.883,
+   "p_by_r10": 0.967,
+   "e_copies_r10": 2.61,
+   "best_plan_for_r8": "roll3",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.257,
+      "e_copies": 0.27
+     },
+     "3": {
+      "p_any": 0.547,
+      "e_copies": 0.67
+     },
+     "4": {
+      "p_any": 0.547,
+      "e_copies": 0.72
+     },
+     "5": {
+      "p_any": 0.753,
+      "e_copies": 1.05
+     },
+     "6": {
+      "p_any": 0.883,
+      "e_copies": 1.57
+     },
+     "7": {
+      "p_any": 0.927,
+      "e_copies": 1.78
+     },
+     "8": {
+      "p_any": 0.93,
+      "e_copies": 1.91
+     },
+     "9": {
+      "p_any": 0.957,
+      "e_copies": 2.27
+     },
+     "10": {
+      "p_any": 0.967,
+      "e_copies": 2.61
+     },
+     "11": {
+      "p_any": 0.983,
+      "e_copies": 2.93
+     },
+     "12": {
+      "p_any": 0.983,
+      "e_copies": 2.96
+     },
+     "13": {
+      "p_any": 0.99,
+      "e_copies": 3.16
+     },
+     "14": {
+      "p_any": 0.993,
+      "e_copies": 3.36
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.257,
+      "e_copies": 0.27
+     },
+     "3": {
+      "p_any": 0.547,
+      "e_copies": 0.67
+     },
+     "4": {
+      "p_any": 0.547,
+      "e_copies": 0.72
+     },
+     "5": {
+      "p_any": 0.753,
+      "e_copies": 1.05
+     },
+     "6": {
+      "p_any": 0.883,
+      "e_copies": 1.57
+     },
+     "7": {
+      "p_any": 0.927,
+      "e_copies": 1.78
+     },
+     "8": {
+      "p_any": 0.93,
+      "e_copies": 1.91
+     },
+     "9": {
+      "p_any": 0.957,
+      "e_copies": 2.27
+     },
+     "10": {
+      "p_any": 0.967,
+      "e_copies": 2.61
+     },
+     "11": {
+      "p_any": 0.983,
+      "e_copies": 2.93
+     },
+     "12": {
+      "p_any": 0.983,
+      "e_copies": 2.96
+     },
+     "13": {
+      "p_any": 0.99,
+      "e_copies": 3.16
+     },
+     "14": {
+      "p_any": 0.993,
+      "e_copies": 3.36
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.203,
+      "e_copies": 0.21
+     },
+     "3": {
+      "p_any": 0.483,
+      "e_copies": 0.58
+     },
+     "4": {
+      "p_any": 0.483,
+      "e_copies": 0.62
+     },
+     "5": {
+      "p_any": 0.747,
+      "e_copies": 1.02
+     },
+     "6": {
+      "p_any": 0.827,
+      "e_copies": 1.45
+     },
+     "7": {
+      "p_any": 0.91,
+      "e_copies": 1.95
+     },
+     "8": {
+      "p_any": 0.96,
+      "e_copies": 2.53
+     },
+     "9": {
+      "p_any": 0.97,
+      "e_copies": 3.0
+     },
+     "10": {
+      "p_any": 0.973,
+      "e_copies": 3.16
+     },
+     "11": {
+      "p_any": 0.983,
+      "e_copies": 3.44
+     },
+     "12": {
+      "p_any": 0.983,
+      "e_copies": 3.6
+     },
+     "13": {
+      "p_any": 0.983,
+      "e_copies": 3.69
+     },
+     "14": {
+      "p_any": 0.987,
+      "e_copies": 3.85
+     }
+    }
+   },
+   "value_early": 9.25,
+   "value_mid": 10.13,
+   "lineup_carry_share": 0.0403,
+   "ali_carry_share": 0.6023
+  },
+  "百里玄策": {
+   "quality": 2,
+   "faction": "河洛",
+   "skill_score": 5,
+   "growth": 1.72,
+   "power": 8.6,
+   "p_by_r6": 0.843,
+   "p_by_r10": 0.967,
+   "e_copies_r10": 2.53,
+   "best_plan_for_r8": "roll3",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.21,
+      "e_copies": 0.21
+     },
+     "3": {
+      "p_any": 0.52,
+      "e_copies": 0.62
+     },
+     "4": {
+      "p_any": 0.52,
+      "e_copies": 0.67
+     },
+     "5": {
+      "p_any": 0.71,
+      "e_copies": 0.98
+     },
+     "6": {
+      "p_any": 0.843,
+      "e_copies": 1.45
+     },
+     "7": {
+      "p_any": 0.9,
+      "e_copies": 1.71
+     },
+     "8": {
+      "p_any": 0.907,
+      "e_copies": 1.84
+     },
+     "9": {
+      "p_any": 0.953,
+      "e_copies": 2.22
+     },
+     "10": {
+      "p_any": 0.967,
+      "e_copies": 2.53
+     },
+     "11": {
+      "p_any": 0.973,
+      "e_copies": 2.85
+     },
+     "12": {
+      "p_any": 0.973,
+      "e_copies": 2.89
+     },
+     "13": {
+      "p_any": 0.983,
+      "e_copies": 3.11
+     },
+     "14": {
+      "p_any": 0.987,
+      "e_copies": 3.29
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.21,
+      "e_copies": 0.21
+     },
+     "3": {
+      "p_any": 0.52,
+      "e_copies": 0.62
+     },
+     "4": {
+      "p_any": 0.52,
+      "e_copies": 0.67
+     },
+     "5": {
+      "p_any": 0.71,
+      "e_copies": 0.98
+     },
+     "6": {
+      "p_any": 0.843,
+      "e_copies": 1.45
+     },
+     "7": {
+      "p_any": 0.9,
+      "e_copies": 1.71
+     },
+     "8": {
+      "p_any": 0.907,
+      "e_copies": 1.84
+     },
+     "9": {
+      "p_any": 0.953,
+      "e_copies": 2.22
+     },
+     "10": {
+      "p_any": 0.967,
+      "e_copies": 2.53
+     },
+     "11": {
+      "p_any": 0.973,
+      "e_copies": 2.85
+     },
+     "12": {
+      "p_any": 0.973,
+      "e_copies": 2.89
+     },
+     "13": {
+      "p_any": 0.983,
+      "e_copies": 3.11
+     },
+     "14": {
+      "p_any": 0.987,
+      "e_copies": 3.29
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.213,
+      "e_copies": 0.22
+     },
+     "3": {
+      "p_any": 0.51,
+      "e_copies": 0.6
+     },
+     "4": {
+      "p_any": 0.51,
+      "e_copies": 0.64
+     },
+     "5": {
+      "p_any": 0.697,
+      "e_copies": 1.0
+     },
+     "6": {
+      "p_any": 0.833,
+      "e_copies": 1.45
+     },
+     "7": {
+      "p_any": 0.907,
+      "e_copies": 1.87
+     },
+     "8": {
+      "p_any": 0.953,
+      "e_copies": 2.46
+     },
+     "9": {
+      "p_any": 0.97,
+      "e_copies": 2.9
+     },
+     "10": {
+      "p_any": 0.973,
+      "e_copies": 3.06
+     },
+     "11": {
+      "p_any": 0.98,
+      "e_copies": 3.37
+     },
+     "12": {
+      "p_any": 0.98,
+      "e_copies": 3.51
+     },
+     "13": {
+      "p_any": 0.99,
+      "e_copies": 3.61
+     },
+     "14": {
+      "p_any": 0.993,
+      "e_copies": 3.74
+     }
+    }
+   },
+   "value_early": 7.25,
+   "value_mid": 8.32,
+   "lineup_carry_share": 0.026,
+   "ali_carry_share": 0.0012
+  },
+  "米莱狄": {
+   "quality": 2,
+   "faction": "日落海",
+   "skill_score": 6,
+   "growth": 1.32,
+   "power": 7.9,
+   "p_by_r6": 0.853,
+   "p_by_r10": 0.967,
+   "e_copies_r10": 2.54,
+   "best_plan_for_r8": "roll3",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.23,
+      "e_copies": 0.23
+     },
+     "3": {
+      "p_any": 0.537,
+      "e_copies": 0.67
+     },
+     "4": {
+      "p_any": 0.537,
+      "e_copies": 0.71
+     },
+     "5": {
+      "p_any": 0.727,
+      "e_copies": 1.06
+     },
+     "6": {
+      "p_any": 0.853,
+      "e_copies": 1.51
+     },
+     "7": {
+      "p_any": 0.903,
+      "e_copies": 1.73
+     },
+     "8": {
+      "p_any": 0.913,
+      "e_copies": 1.89
+     },
+     "9": {
+      "p_any": 0.957,
+      "e_copies": 2.19
+     },
+     "10": {
+      "p_any": 0.967,
+      "e_copies": 2.54
+     },
+     "11": {
+      "p_any": 0.977,
+      "e_copies": 2.87
+     },
+     "12": {
+      "p_any": 0.977,
+      "e_copies": 2.9
+     },
+     "13": {
+      "p_any": 0.99,
+      "e_copies": 3.2
+     },
+     "14": {
+      "p_any": 0.993,
+      "e_copies": 3.43
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.23,
+      "e_copies": 0.23
+     },
+     "3": {
+      "p_any": 0.537,
+      "e_copies": 0.67
+     },
+     "4": {
+      "p_any": 0.537,
+      "e_copies": 0.71
+     },
+     "5": {
+      "p_any": 0.727,
+      "e_copies": 1.06
+     },
+     "6": {
+      "p_any": 0.853,
+      "e_copies": 1.51
+     },
+     "7": {
+      "p_any": 0.903,
+      "e_copies": 1.73
+     },
+     "8": {
+      "p_any": 0.913,
+      "e_copies": 1.89
+     },
+     "9": {
+      "p_any": 0.957,
+      "e_copies": 2.19
+     },
+     "10": {
+      "p_any": 0.967,
+      "e_copies": 2.54
+     },
+     "11": {
+      "p_any": 0.977,
+      "e_copies": 2.87
+     },
+     "12": {
+      "p_any": 0.977,
+      "e_copies": 2.9
+     },
+     "13": {
+      "p_any": 0.99,
+      "e_copies": 3.2
+     },
+     "14": {
+      "p_any": 0.993,
+      "e_copies": 3.43
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.263,
+      "e_copies": 0.27
+     },
+     "3": {
+      "p_any": 0.553,
+      "e_copies": 0.7
+     },
+     "4": {
+      "p_any": 0.553,
+      "e_copies": 0.78
+     },
+     "5": {
+      "p_any": 0.73,
+      "e_copies": 1.11
+     },
+     "6": {
+      "p_any": 0.867,
+      "e_copies": 1.57
+     },
+     "7": {
+      "p_any": 0.923,
+      "e_copies": 1.99
+     },
+     "8": {
+      "p_any": 0.96,
+      "e_copies": 2.48
+     },
+     "9": {
+      "p_any": 0.99,
+      "e_copies": 3.0
+     },
+     "10": {
+      "p_any": 0.99,
+      "e_copies": 3.15
+     },
+     "11": {
+      "p_any": 0.993,
+      "e_copies": 3.45
+     },
+     "12": {
+      "p_any": 0.993,
+      "e_copies": 3.58
+     },
+     "13": {
+      "p_any": 0.993,
+      "e_copies": 3.66
+     },
+     "14": {
+      "p_any": 0.997,
+      "e_copies": 3.82
+     }
+    }
+   },
+   "value_early": 6.76,
+   "value_mid": 7.66,
+   "lineup_carry_share": 0.0007,
+   "ali_carry_share": 0.0
+  },
+  "艾琳": {
+   "quality": 4,
+   "faction": "日落海",
+   "skill_score": 8,
+   "growth": 1.72,
+   "power": 13.8,
+   "p_by_r6": 0.0,
+   "p_by_r10": 0.767,
+   "e_copies_r10": 1.32,
+   "best_plan_for_r8": "fast",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.417,
+      "e_copies": 0.5
+     },
+     "8": {
+      "p_any": 0.55,
+      "e_copies": 0.76
+     },
+     "9": {
+      "p_any": 0.697,
+      "e_copies": 1.07
+     },
+     "10": {
+      "p_any": 0.767,
+      "e_copies": 1.32
+     },
+     "11": {
+      "p_any": 0.83,
+      "e_copies": 1.55
+     },
+     "12": {
+      "p_any": 0.84,
+      "e_copies": 1.62
+     },
+     "13": {
+      "p_any": 0.937,
+      "e_copies": 2.11
+     },
+     "14": {
+      "p_any": 0.963,
+      "e_copies": 2.47
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.053,
+      "e_copies": 0.05
+     },
+     "6": {
+      "p_any": 0.297,
+      "e_copies": 0.31
+     },
+     "7": {
+      "p_any": 0.487,
+      "e_copies": 0.55
+     },
+     "8": {
+      "p_any": 0.663,
+      "e_copies": 0.87
+     },
+     "9": {
+      "p_any": 0.76,
+      "e_copies": 1.14
+     },
+     "10": {
+      "p_any": 0.837,
+      "e_copies": 1.29
+     },
+     "11": {
+      "p_any": 0.837,
+      "e_copies": 1.45
+     },
+     "12": {
+      "p_any": 0.903,
+      "e_copies": 1.8
+     },
+     "13": {
+      "p_any": 0.967,
+      "e_copies": 2.16
+     },
+     "14": {
+      "p_any": 0.987,
+      "e_copies": 2.52
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.793,
+      "e_copies": 1.33
+     },
+     "11": {
+      "p_any": 0.863,
+      "e_copies": 1.62
+     },
+     "12": {
+      "p_any": 0.863,
+      "e_copies": 1.82
+     },
+     "13": {
+      "p_any": 0.927,
+      "e_copies": 2.01
+     },
+     "14": {
+      "p_any": 0.947,
+      "e_copies": 2.36
+     }
+    }
+   },
+   "value_early": 0.0,
+   "value_mid": 10.55,
+   "lineup_carry_share": 0.1153,
+   "ali_carry_share": 0.0025
+  },
+  "花木兰": {
+   "quality": 5,
+   "faction": "河洛",
+   "skill_score": 7,
+   "growth": 2.1,
+   "power": 14.7,
+   "p_by_r6": 0.0,
+   "p_by_r10": 0.403,
+   "e_copies_r10": 0.49,
+   "best_plan_for_r8": "fast",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.403,
+      "e_copies": 0.49
+     },
+     "11": {
+      "p_any": 0.523,
+      "e_copies": 0.66
+     },
+     "12": {
+      "p_any": 0.627,
+      "e_copies": 0.88
+     },
+     "13": {
+      "p_any": 0.73,
+      "e_copies": 1.16
+     },
+     "14": {
+      "p_any": 0.783,
+      "e_copies": 1.34
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.16,
+      "e_copies": 0.16
+     },
+     "9": {
+      "p_any": 0.333,
+      "e_copies": 0.39
+     },
+     "10": {
+      "p_any": 0.447,
+      "e_copies": 0.57
+     },
+     "11": {
+      "p_any": 0.53,
+      "e_copies": 0.72
+     },
+     "12": {
+      "p_any": 0.58,
+      "e_copies": 0.78
+     },
+     "13": {
+      "p_any": 0.58,
+      "e_copies": 0.96
+     },
+     "14": {
+      "p_any": 0.8,
+      "e_copies": 1.53
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "11": {
+      "p_any": 0.487,
+      "e_copies": 0.66
+     },
+     "12": {
+      "p_any": 0.607,
+      "e_copies": 0.85
+     },
+     "13": {
+      "p_any": 0.68,
+      "e_copies": 1.03
+     },
+     "14": {
+      "p_any": 0.737,
+      "e_copies": 1.21
+     }
+    }
+   },
+   "value_early": 0.0,
+   "value_mid": 5.92,
+   "lineup_carry_share": 0.0048,
+   "ali_carry_share": 0.0
+  },
+  "苍": {
+   "quality": 3,
+   "faction": "无阵营",
+   "skill_score": 6,
+   "growth": 1.0,
+   "power": 6.0,
+   "p_by_r6": 0.58,
+   "p_by_r10": 0.893,
+   "e_copies_r10": 1.81,
+   "best_plan_for_r8": "roll3",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.213,
+      "e_copies": 0.21
+     },
+     "5": {
+      "p_any": 0.44,
+      "e_copies": 0.48
+     },
+     "6": {
+      "p_any": 0.58,
+      "e_copies": 0.73
+     },
+     "7": {
+      "p_any": 0.713,
+      "e_copies": 0.92
+     },
+     "8": {
+      "p_any": 0.743,
+      "e_copies": 1.1
+     },
+     "9": {
+      "p_any": 0.83,
+      "e_copies": 1.45
+     },
+     "10": {
+      "p_any": 0.893,
+      "e_copies": 1.81
+     },
+     "11": {
+      "p_any": 0.933,
+      "e_copies": 2.14
+     },
+     "12": {
+      "p_any": 0.94,
+      "e_copies": 2.2
+     },
+     "13": {
+      "p_any": 0.973,
+      "e_copies": 2.64
+     },
+     "14": {
+      "p_any": 0.983,
+      "e_copies": 3.06
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.197,
+      "e_copies": 0.2
+     },
+     "5": {
+      "p_any": 0.367,
+      "e_copies": 0.43
+     },
+     "6": {
+      "p_any": 0.367,
+      "e_copies": 0.49
+     },
+     "7": {
+      "p_any": 0.49,
+      "e_copies": 0.62
+     },
+     "8": {
+      "p_any": 0.67,
+      "e_copies": 1.01
+     },
+     "9": {
+      "p_any": 0.8,
+      "e_copies": 1.43
+     },
+     "10": {
+      "p_any": 0.853,
+      "e_copies": 1.74
+     },
+     "11": {
+      "p_any": 0.853,
+      "e_copies": 1.98
+     },
+     "12": {
+      "p_any": 0.907,
+      "e_copies": 2.13
+     },
+     "13": {
+      "p_any": 0.967,
+      "e_copies": 2.59
+     },
+     "14": {
+      "p_any": 0.987,
+      "e_copies": 2.99
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.207,
+      "e_copies": 0.21
+     },
+     "5": {
+      "p_any": 0.43,
+      "e_copies": 0.48
+     },
+     "6": {
+      "p_any": 0.57,
+      "e_copies": 0.74
+     },
+     "7": {
+      "p_any": 0.687,
+      "e_copies": 0.95
+     },
+     "8": {
+      "p_any": 0.77,
+      "e_copies": 1.25
+     },
+     "9": {
+      "p_any": 0.85,
+      "e_copies": 1.57
+     },
+     "10": {
+      "p_any": 0.89,
+      "e_copies": 1.77
+     },
+     "11": {
+      "p_any": 0.93,
+      "e_copies": 2.06
+     },
+     "12": {
+      "p_any": 0.93,
+      "e_copies": 2.26
+     },
+     "13": {
+      "p_any": 0.96,
+      "e_copies": 2.46
+     },
+     "14": {
+      "p_any": 0.98,
+      "e_copies": 2.8
+     }
+    }
+   },
+   "value_early": 3.48,
+   "value_mid": 5.36,
+   "lineup_carry_share": 0.0004,
+   "ali_carry_share": 0.0
+  },
+  "莱西奥": {
+   "quality": 4,
+   "faction": "日落海",
+   "skill_score": 7,
+   "growth": 1.0,
+   "power": 7.0,
+   "p_by_r6": 0.0,
+   "p_by_r10": 0.84,
+   "e_copies_r10": 1.42,
+   "best_plan_for_r8": "fast",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.377,
+      "e_copies": 0.45
+     },
+     "8": {
+      "p_any": 0.553,
+      "e_copies": 0.73
+     },
+     "9": {
+      "p_any": 0.71,
+      "e_copies": 1.07
+     },
+     "10": {
+      "p_any": 0.84,
+      "e_copies": 1.42
+     },
+     "11": {
+      "p_any": 0.887,
+      "e_copies": 1.69
+     },
+     "12": {
+      "p_any": 0.897,
+      "e_copies": 1.77
+     },
+     "13": {
+      "p_any": 0.95,
+      "e_copies": 2.23
+     },
+     "14": {
+      "p_any": 0.963,
+      "e_copies": 2.56
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.043,
+      "e_copies": 0.04
+     },
+     "6": {
+      "p_any": 0.257,
+      "e_copies": 0.27
+     },
+     "7": {
+      "p_any": 0.393,
+      "e_copies": 0.45
+     },
+     "8": {
+      "p_any": 0.58,
+      "e_copies": 0.77
+     },
+     "9": {
+      "p_any": 0.7,
+      "e_copies": 1.06
+     },
+     "10": {
+      "p_any": 0.783,
+      "e_copies": 1.22
+     },
+     "11": {
+      "p_any": 0.783,
+      "e_copies": 1.35
+     },
+     "12": {
+      "p_any": 0.893,
+      "e_copies": 1.73
+     },
+     "13": {
+      "p_any": 0.94,
+      "e_copies": 2.16
+     },
+     "14": {
+      "p_any": 0.963,
+      "e_copies": 2.56
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.793,
+      "e_copies": 1.36
+     },
+     "11": {
+      "p_any": 0.87,
+      "e_copies": 1.63
+     },
+     "12": {
+      "p_any": 0.87,
+      "e_copies": 1.81
+     },
+     "13": {
+      "p_any": 0.923,
+      "e_copies": 1.99
+     },
+     "14": {
+      "p_any": 0.963,
+      "e_copies": 2.38
+     }
+    }
+   },
+   "value_early": 0.0,
+   "value_mid": 5.88,
+   "lineup_carry_share": 0.0,
+   "ali_carry_share": 0.0
+  },
+  "蒙犽": {
+   "quality": 4,
+   "faction": "逐鹿",
+   "skill_score": 8,
+   "growth": 1.98,
+   "power": 15.8,
+   "p_by_r6": 0.0,
+   "p_by_r10": 0.817,
+   "e_copies_r10": 1.41,
+   "best_plan_for_r8": "standard",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.423,
+      "e_copies": 0.5
+     },
+     "8": {
+      "p_any": 0.62,
+      "e_copies": 0.85
+     },
+     "9": {
+      "p_any": 0.75,
+      "e_copies": 1.11
+     },
+     "10": {
+      "p_any": 0.817,
+      "e_copies": 1.41
+     },
+     "11": {
+      "p_any": 0.883,
+      "e_copies": 1.67
+     },
+     "12": {
+      "p_any": 0.893,
+      "e_copies": 1.77
+     },
+     "13": {
+      "p_any": 0.937,
+      "e_copies": 2.16
+     },
+     "14": {
+      "p_any": 0.983,
+      "e_copies": 2.57
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.07,
+      "e_copies": 0.07
+     },
+     "6": {
+      "p_any": 0.267,
+      "e_copies": 0.28
+     },
+     "7": {
+      "p_any": 0.407,
+      "e_copies": 0.48
+     },
+     "8": {
+      "p_any": 0.607,
+      "e_copies": 0.81
+     },
+     "9": {
+      "p_any": 0.723,
+      "e_copies": 1.13
+     },
+     "10": {
+      "p_any": 0.803,
+      "e_copies": 1.29
+     },
+     "11": {
+      "p_any": 0.803,
+      "e_copies": 1.43
+     },
+     "12": {
+      "p_any": 0.863,
+      "e_copies": 1.81
+     },
+     "13": {
+      "p_any": 0.9,
+      "e_copies": 2.16
+     },
+     "14": {
+      "p_any": 0.943,
+      "e_copies": 2.49
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.773,
+      "e_copies": 1.27
+     },
+     "11": {
+      "p_any": 0.847,
+      "e_copies": 1.55
+     },
+     "12": {
+      "p_any": 0.847,
+      "e_copies": 1.75
+     },
+     "13": {
+      "p_any": 0.913,
+      "e_copies": 1.92
+     },
+     "14": {
+      "p_any": 0.95,
+      "e_copies": 2.27
+     }
+    }
+   },
+   "value_early": 0.0,
+   "value_mid": 12.94,
+   "lineup_carry_share": 0.0,
+   "ali_carry_share": 0.0
+  },
+  "虞姬": {
+   "quality": 2,
+   "faction": "大河流域",
+   "skill_score": 5,
+   "growth": 1.15,
+   "power": 5.8,
+   "p_by_r6": 0.823,
+   "p_by_r10": 0.96,
+   "e_copies_r10": 2.45,
+   "best_plan_for_r8": "roll3",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.2,
+      "e_copies": 0.2
+     },
+     "3": {
+      "p_any": 0.453,
+      "e_copies": 0.55
+     },
+     "4": {
+      "p_any": 0.453,
+      "e_copies": 0.59
+     },
+     "5": {
+      "p_any": 0.64,
+      "e_copies": 0.93
+     },
+     "6": {
+      "p_any": 0.823,
+      "e_copies": 1.43
+     },
+     "7": {
+      "p_any": 0.917,
+      "e_copies": 1.65
+     },
+     "8": {
+      "p_any": 0.92,
+      "e_copies": 1.79
+     },
+     "9": {
+      "p_any": 0.937,
+      "e_copies": 2.14
+     },
+     "10": {
+      "p_any": 0.96,
+      "e_copies": 2.45
+     },
+     "11": {
+      "p_any": 0.97,
+      "e_copies": 2.77
+     },
+     "12": {
+      "p_any": 0.973,
+      "e_copies": 2.82
+     },
+     "13": {
+      "p_any": 0.977,
+      "e_copies": 3.03
+     },
+     "14": {
+      "p_any": 0.977,
+      "e_copies": 3.21
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.2,
+      "e_copies": 0.2
+     },
+     "3": {
+      "p_any": 0.453,
+      "e_copies": 0.55
+     },
+     "4": {
+      "p_any": 0.453,
+      "e_copies": 0.59
+     },
+     "5": {
+      "p_any": 0.64,
+      "e_copies": 0.93
+     },
+     "6": {
+      "p_any": 0.823,
+      "e_copies": 1.43
+     },
+     "7": {
+      "p_any": 0.917,
+      "e_copies": 1.65
+     },
+     "8": {
+      "p_any": 0.92,
+      "e_copies": 1.79
+     },
+     "9": {
+      "p_any": 0.937,
+      "e_copies": 2.14
+     },
+     "10": {
+      "p_any": 0.96,
+      "e_copies": 2.45
+     },
+     "11": {
+      "p_any": 0.97,
+      "e_copies": 2.77
+     },
+     "12": {
+      "p_any": 0.973,
+      "e_copies": 2.82
+     },
+     "13": {
+      "p_any": 0.977,
+      "e_copies": 3.03
+     },
+     "14": {
+      "p_any": 0.977,
+      "e_copies": 3.21
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.227,
+      "e_copies": 0.23
+     },
+     "3": {
+      "p_any": 0.52,
+      "e_copies": 0.66
+     },
+     "4": {
+      "p_any": 0.52,
+      "e_copies": 0.71
+     },
+     "5": {
+      "p_any": 0.703,
+      "e_copies": 1.06
+     },
+     "6": {
+      "p_any": 0.837,
+      "e_copies": 1.45
+     },
+     "7": {
+      "p_any": 0.907,
+      "e_copies": 1.9
+     },
+     "8": {
+      "p_any": 0.957,
+      "e_copies": 2.46
+     },
+     "9": {
+      "p_any": 0.98,
+      "e_copies": 3.01
+     },
+     "10": {
+      "p_any": 0.987,
+      "e_copies": 3.14
+     },
+     "11": {
+      "p_any": 0.987,
+      "e_copies": 3.39
+     },
+     "12": {
+      "p_any": 0.987,
+      "e_copies": 3.5
+     },
+     "13": {
+      "p_any": 0.993,
+      "e_copies": 3.6
+     },
+     "14": {
+      "p_any": 0.993,
+      "e_copies": 3.74
+     }
+    }
+   },
+   "value_early": 4.73,
+   "value_mid": 5.52,
+   "lineup_carry_share": 0.0,
+   "ali_carry_share": 0.0
+  },
+  "裴擒虎": {
+   "quality": 3,
+   "faction": "无阵营",
+   "skill_score": 5,
+   "growth": 1.67,
+   "power": 8.3,
+   "p_by_r6": 0.517,
+   "p_by_r10": 0.873,
+   "e_copies_r10": 1.82,
+   "best_plan_for_r8": "roll3",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.173,
+      "e_copies": 0.18
+     },
+     "5": {
+      "p_any": 0.403,
+      "e_copies": 0.43
+     },
+     "6": {
+      "p_any": 0.517,
+      "e_copies": 0.65
+     },
+     "7": {
+      "p_any": 0.66,
+      "e_copies": 0.83
+     },
+     "8": {
+      "p_any": 0.683,
+      "e_copies": 1.03
+     },
+     "9": {
+      "p_any": 0.787,
+      "e_copies": 1.42
+     },
+     "10": {
+      "p_any": 0.873,
+      "e_copies": 1.82
+     },
+     "11": {
+      "p_any": 0.91,
+      "e_copies": 2.12
+     },
+     "12": {
+      "p_any": 0.91,
+      "e_copies": 2.19
+     },
+     "13": {
+      "p_any": 0.957,
+      "e_copies": 2.61
+     },
+     "14": {
+      "p_any": 0.977,
+      "e_copies": 2.94
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.187,
+      "e_copies": 0.2
+     },
+     "5": {
+      "p_any": 0.387,
+      "e_copies": 0.44
+     },
+     "6": {
+      "p_any": 0.387,
+      "e_copies": 0.54
+     },
+     "7": {
+      "p_any": 0.487,
+      "e_copies": 0.65
+     },
+     "8": {
+      "p_any": 0.657,
+      "e_copies": 0.99
+     },
+     "9": {
+      "p_any": 0.817,
+      "e_copies": 1.41
+     },
+     "10": {
+      "p_any": 0.877,
+      "e_copies": 1.75
+     },
+     "11": {
+      "p_any": 0.877,
+      "e_copies": 1.98
+     },
+     "12": {
+      "p_any": 0.907,
+      "e_copies": 2.12
+     },
+     "13": {
+      "p_any": 0.957,
+      "e_copies": 2.6
+     },
+     "14": {
+      "p_any": 0.973,
+      "e_copies": 3.01
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.197,
+      "e_copies": 0.21
+     },
+     "5": {
+      "p_any": 0.427,
+      "e_copies": 0.49
+     },
+     "6": {
+      "p_any": 0.583,
+      "e_copies": 0.74
+     },
+     "7": {
+      "p_any": 0.683,
+      "e_copies": 0.99
+     },
+     "8": {
+      "p_any": 0.8,
+      "e_copies": 1.31
+     },
+     "9": {
+      "p_any": 0.86,
+      "e_copies": 1.63
+     },
+     "10": {
+      "p_any": 0.88,
+      "e_copies": 1.79
+     },
+     "11": {
+      "p_any": 0.917,
+      "e_copies": 2.17
+     },
+     "12": {
+      "p_any": 0.917,
+      "e_copies": 2.3
+     },
+     "13": {
+      "p_any": 0.947,
+      "e_copies": 2.48
+     },
+     "14": {
+      "p_any": 0.963,
+      "e_copies": 2.8
+     }
+    }
+   },
+   "value_early": 4.32,
+   "value_mid": 7.29,
+   "lineup_carry_share": 0.0214,
+   "ali_carry_share": 0.0
+  },
+  "西施": {
+   "quality": 3,
+   "faction": "逐鹿",
+   "skill_score": 6,
+   "growth": 1.72,
+   "power": 10.3,
+   "p_by_r6": 0.537,
+   "p_by_r10": 0.883,
+   "e_copies_r10": 1.7,
+   "best_plan_for_r8": "roll3",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.223,
+      "e_copies": 0.23
+     },
+     "5": {
+      "p_any": 0.393,
+      "e_copies": 0.48
+     },
+     "6": {
+      "p_any": 0.537,
+      "e_copies": 0.72
+     },
+     "7": {
+      "p_any": 0.66,
+      "e_copies": 0.89
+     },
+     "8": {
+      "p_any": 0.693,
+      "e_copies": 1.02
+     },
+     "9": {
+      "p_any": 0.803,
+      "e_copies": 1.38
+     },
+     "10": {
+      "p_any": 0.883,
+      "e_copies": 1.7
+     },
+     "11": {
+      "p_any": 0.937,
+      "e_copies": 1.98
+     },
+     "12": {
+      "p_any": 0.937,
+      "e_copies": 2.03
+     },
+     "13": {
+      "p_any": 0.963,
+      "e_copies": 2.44
+     },
+     "14": {
+      "p_any": 0.987,
+      "e_copies": 2.78
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.177,
+      "e_copies": 0.18
+     },
+     "5": {
+      "p_any": 0.383,
+      "e_copies": 0.46
+     },
+     "6": {
+      "p_any": 0.383,
+      "e_copies": 0.51
+     },
+     "7": {
+      "p_any": 0.507,
+      "e_copies": 0.66
+     },
+     "8": {
+      "p_any": 0.683,
+      "e_copies": 1.04
+     },
+     "9": {
+      "p_any": 0.807,
+      "e_copies": 1.46
+     },
+     "10": {
+      "p_any": 0.883,
+      "e_copies": 1.81
+     },
+     "11": {
+      "p_any": 0.883,
+      "e_copies": 2.07
+     },
+     "12": {
+      "p_any": 0.94,
+      "e_copies": 2.27
+     },
+     "13": {
+      "p_any": 0.963,
+      "e_copies": 2.66
+     },
+     "14": {
+      "p_any": 0.987,
+      "e_copies": 3.04
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.237,
+      "e_copies": 0.24
+     },
+     "5": {
+      "p_any": 0.433,
+      "e_copies": 0.51
+     },
+     "6": {
+      "p_any": 0.573,
+      "e_copies": 0.78
+     },
+     "7": {
+      "p_any": 0.667,
+      "e_copies": 1.02
+     },
+     "8": {
+      "p_any": 0.787,
+      "e_copies": 1.36
+     },
+     "9": {
+      "p_any": 0.85,
+      "e_copies": 1.61
+     },
+     "10": {
+      "p_any": 0.877,
+      "e_copies": 1.79
+     },
+     "11": {
+      "p_any": 0.933,
+      "e_copies": 2.14
+     },
+     "12": {
+      "p_any": 0.933,
+      "e_copies": 2.34
+     },
+     "13": {
+      "p_any": 0.957,
+      "e_copies": 2.53
+     },
+     "14": {
+      "p_any": 0.973,
+      "e_copies": 2.85
+     }
+    }
+   },
+   "value_early": 5.54,
+   "value_mid": 9.11,
+   "lineup_carry_share": 0.0005,
+   "ali_carry_share": 0.0
+  },
+  "诸葛亮": {
+   "quality": 4,
+   "faction": "三分之地",
+   "skill_score": 8,
+   "growth": 3.97,
+   "power": 31.8,
+   "p_by_r6": 0.0,
+   "p_by_r10": 0.79,
+   "e_copies_r10": 1.39,
+   "best_plan_for_r8": "fast",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.387,
+      "e_copies": 0.44
+     },
+     "8": {
+      "p_any": 0.59,
+      "e_copies": 0.77
+     },
+     "9": {
+      "p_any": 0.707,
+      "e_copies": 1.1
+     },
+     "10": {
+      "p_any": 0.79,
+      "e_copies": 1.39
+     },
+     "11": {
+      "p_any": 0.873,
+      "e_copies": 1.72
+     },
+     "12": {
+      "p_any": 0.883,
+      "e_copies": 1.79
+     },
+     "13": {
+      "p_any": 0.943,
+      "e_copies": 2.19
+     },
+     "14": {
+      "p_any": 0.97,
+      "e_copies": 2.6
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.037,
+      "e_copies": 0.04
+     },
+     "6": {
+      "p_any": 0.253,
+      "e_copies": 0.26
+     },
+     "7": {
+      "p_any": 0.417,
+      "e_copies": 0.47
+     },
+     "8": {
+      "p_any": 0.63,
+      "e_copies": 0.82
+     },
+     "9": {
+      "p_any": 0.753,
+      "e_copies": 1.13
+     },
+     "10": {
+      "p_any": 0.847,
+      "e_copies": 1.28
+     },
+     "11": {
+      "p_any": 0.847,
+      "e_copies": 1.45
+     },
+     "12": {
+      "p_any": 0.903,
+      "e_copies": 1.84
+     },
+     "13": {
+      "p_any": 0.953,
+      "e_copies": 2.19
+     },
+     "14": {
+      "p_any": 0.967,
+      "e_copies": 2.58
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.84,
+      "e_copies": 1.38
+     },
+     "11": {
+      "p_any": 0.88,
+      "e_copies": 1.68
+     },
+     "12": {
+      "p_any": 0.88,
+      "e_copies": 1.87
+     },
+     "13": {
+      "p_any": 0.93,
+      "e_copies": 2.04
+     },
+     "14": {
+      "p_any": 0.96,
+      "e_copies": 2.37
+     }
+    }
+   },
+   "value_early": 0.0,
+   "value_mid": 25.09,
+   "lineup_carry_share": 0.0137,
+   "ali_carry_share": 0.0
+  },
+  "貂蝉": {
+   "quality": 3,
+   "faction": "三分之地",
+   "skill_score": 7,
+   "growth": 1.98,
+   "power": 13.9,
+   "p_by_r6": 0.593,
+   "p_by_r10": 0.92,
+   "e_copies_r10": 1.93,
+   "best_plan_for_r8": "roll3",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.197,
+      "e_copies": 0.2
+     },
+     "5": {
+      "p_any": 0.43,
+      "e_copies": 0.5
+     },
+     "6": {
+      "p_any": 0.593,
+      "e_copies": 0.82
+     },
+     "7": {
+      "p_any": 0.713,
+      "e_copies": 1.01
+     },
+     "8": {
+      "p_any": 0.73,
+      "e_copies": 1.14
+     },
+     "9": {
+      "p_any": 0.853,
+      "e_copies": 1.57
+     },
+     "10": {
+      "p_any": 0.92,
+      "e_copies": 1.93
+     },
+     "11": {
+      "p_any": 0.963,
+      "e_copies": 2.28
+     },
+     "12": {
+      "p_any": 0.963,
+      "e_copies": 2.35
+     },
+     "13": {
+      "p_any": 0.983,
+      "e_copies": 2.77
+     },
+     "14": {
+      "p_any": 1.0,
+      "e_copies": 3.11
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.137,
+      "e_copies": 0.14
+     },
+     "5": {
+      "p_any": 0.35,
+      "e_copies": 0.41
+     },
+     "6": {
+      "p_any": 0.35,
+      "e_copies": 0.48
+     },
+     "7": {
+      "p_any": 0.473,
+      "e_copies": 0.61
+     },
+     "8": {
+      "p_any": 0.693,
+      "e_copies": 0.98
+     },
+     "9": {
+      "p_any": 0.787,
+      "e_copies": 1.31
+     },
+     "10": {
+      "p_any": 0.87,
+      "e_copies": 1.69
+     },
+     "11": {
+      "p_any": 0.87,
+      "e_copies": 1.88
+     },
+     "12": {
+      "p_any": 0.92,
+      "e_copies": 2.05
+     },
+     "13": {
+      "p_any": 0.953,
+      "e_copies": 2.44
+     },
+     "14": {
+      "p_any": 0.973,
+      "e_copies": 2.79
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.147,
+      "e_copies": 0.15
+     },
+     "5": {
+      "p_any": 0.373,
+      "e_copies": 0.42
+     },
+     "6": {
+      "p_any": 0.517,
+      "e_copies": 0.65
+     },
+     "7": {
+      "p_any": 0.637,
+      "e_copies": 0.86
+     },
+     "8": {
+      "p_any": 0.773,
+      "e_copies": 1.25
+     },
+     "9": {
+      "p_any": 0.833,
+      "e_copies": 1.55
+     },
+     "10": {
+      "p_any": 0.853,
+      "e_copies": 1.73
+     },
+     "11": {
+      "p_any": 0.913,
+      "e_copies": 2.03
+     },
+     "12": {
+      "p_any": 0.913,
+      "e_copies": 2.23
+     },
+     "13": {
+      "p_any": 0.95,
+      "e_copies": 2.43
+     },
+     "14": {
+      "p_any": 0.977,
+      "e_copies": 2.82
+     }
+    }
+   },
+   "value_early": 8.22,
+   "value_mid": 12.75,
+   "lineup_carry_share": 0.0,
+   "ali_carry_share": 0.0
+  },
+  "镜": {
+   "quality": 3,
+   "faction": "逐鹿",
+   "skill_score": 5,
+   "growth": 2.48,
+   "power": 12.4,
+   "p_by_r6": 0.55,
+   "p_by_r10": 0.9,
+   "e_copies_r10": 1.81,
+   "best_plan_for_r8": "roll3",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.193,
+      "e_copies": 0.2
+     },
+     "5": {
+      "p_any": 0.387,
+      "e_copies": 0.46
+     },
+     "6": {
+      "p_any": 0.55,
+      "e_copies": 0.76
+     },
+     "7": {
+      "p_any": 0.653,
+      "e_copies": 0.89
+     },
+     "8": {
+      "p_any": 0.687,
+      "e_copies": 1.05
+     },
+     "9": {
+      "p_any": 0.833,
+      "e_copies": 1.43
+     },
+     "10": {
+      "p_any": 0.9,
+      "e_copies": 1.81
+     },
+     "11": {
+      "p_any": 0.927,
+      "e_copies": 2.12
+     },
+     "12": {
+      "p_any": 0.94,
+      "e_copies": 2.19
+     },
+     "13": {
+      "p_any": 0.973,
+      "e_copies": 2.62
+     },
+     "14": {
+      "p_any": 0.983,
+      "e_copies": 2.99
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.153,
+      "e_copies": 0.16
+     },
+     "5": {
+      "p_any": 0.367,
+      "e_copies": 0.43
+     },
+     "6": {
+      "p_any": 0.367,
+      "e_copies": 0.5
+     },
+     "7": {
+      "p_any": 0.49,
+      "e_copies": 0.64
+     },
+     "8": {
+      "p_any": 0.643,
+      "e_copies": 0.95
+     },
+     "9": {
+      "p_any": 0.8,
+      "e_copies": 1.32
+     },
+     "10": {
+      "p_any": 0.87,
+      "e_copies": 1.64
+     },
+     "11": {
+      "p_any": 0.87,
+      "e_copies": 1.82
+     },
+     "12": {
+      "p_any": 0.937,
+      "e_copies": 2.02
+     },
+     "13": {
+      "p_any": 0.96,
+      "e_copies": 2.44
+     },
+     "14": {
+      "p_any": 0.983,
+      "e_copies": 2.86
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.18,
+      "e_copies": 0.19
+     },
+     "5": {
+      "p_any": 0.397,
+      "e_copies": 0.46
+     },
+     "6": {
+      "p_any": 0.56,
+      "e_copies": 0.74
+     },
+     "7": {
+      "p_any": 0.657,
+      "e_copies": 0.96
+     },
+     "8": {
+      "p_any": 0.773,
+      "e_copies": 1.26
+     },
+     "9": {
+      "p_any": 0.86,
+      "e_copies": 1.59
+     },
+     "10": {
+      "p_any": 0.877,
+      "e_copies": 1.76
+     },
+     "11": {
+      "p_any": 0.92,
+      "e_copies": 2.11
+     },
+     "12": {
+      "p_any": 0.92,
+      "e_copies": 2.26
+     },
+     "13": {
+      "p_any": 0.953,
+      "e_copies": 2.44
+     },
+     "14": {
+      "p_any": 0.97,
+      "e_copies": 2.79
+     }
+    }
+   },
+   "value_early": 6.82,
+   "value_mid": 11.16,
+   "lineup_carry_share": 0.0045,
+   "ali_carry_share": 0.0025
+  },
+  "阿轲": {
+   "quality": 3,
+   "faction": "无阵营",
+   "skill_score": 5,
+   "growth": 1.49,
+   "power": 7.5,
+   "p_by_r6": 0.583,
+   "p_by_r10": 0.887,
+   "e_copies_r10": 1.71,
+   "best_plan_for_r8": "roll3",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.253,
+      "e_copies": 0.26
+     },
+     "5": {
+      "p_any": 0.457,
+      "e_copies": 0.52
+     },
+     "6": {
+      "p_any": 0.583,
+      "e_copies": 0.74
+     },
+     "7": {
+      "p_any": 0.687,
+      "e_copies": 0.88
+     },
+     "8": {
+      "p_any": 0.69,
+      "e_copies": 1.01
+     },
+     "9": {
+      "p_any": 0.823,
+      "e_copies": 1.37
+     },
+     "10": {
+      "p_any": 0.887,
+      "e_copies": 1.71
+     },
+     "11": {
+      "p_any": 0.943,
+      "e_copies": 2.07
+     },
+     "12": {
+      "p_any": 0.947,
+      "e_copies": 2.14
+     },
+     "13": {
+      "p_any": 0.963,
+      "e_copies": 2.46
+     },
+     "14": {
+      "p_any": 0.98,
+      "e_copies": 2.82
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.147,
+      "e_copies": 0.15
+     },
+     "5": {
+      "p_any": 0.397,
+      "e_copies": 0.44
+     },
+     "6": {
+      "p_any": 0.397,
+      "e_copies": 0.5
+     },
+     "7": {
+      "p_any": 0.513,
+      "e_copies": 0.62
+     },
+     "8": {
+      "p_any": 0.647,
+      "e_copies": 0.9
+     },
+     "9": {
+      "p_any": 0.793,
+      "e_copies": 1.32
+     },
+     "10": {
+      "p_any": 0.87,
+      "e_copies": 1.68
+     },
+     "11": {
+      "p_any": 0.87,
+      "e_copies": 1.89
+     },
+     "12": {
+      "p_any": 0.907,
+      "e_copies": 2.04
+     },
+     "13": {
+      "p_any": 0.943,
+      "e_copies": 2.43
+     },
+     "14": {
+      "p_any": 0.963,
+      "e_copies": 2.82
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.19,
+      "e_copies": 0.2
+     },
+     "5": {
+      "p_any": 0.39,
+      "e_copies": 0.45
+     },
+     "6": {
+      "p_any": 0.54,
+      "e_copies": 0.71
+     },
+     "7": {
+      "p_any": 0.63,
+      "e_copies": 0.92
+     },
+     "8": {
+      "p_any": 0.737,
+      "e_copies": 1.21
+     },
+     "9": {
+      "p_any": 0.82,
+      "e_copies": 1.54
+     },
+     "10": {
+      "p_any": 0.843,
+      "e_copies": 1.7
+     },
+     "11": {
+      "p_any": 0.933,
+      "e_copies": 2.07
+     },
+     "12": {
+      "p_any": 0.933,
+      "e_copies": 2.25
+     },
+     "13": {
+      "p_any": 0.953,
+      "e_copies": 2.41
+     },
+     "14": {
+      "p_any": 0.977,
+      "e_copies": 2.79
+     }
+    }
+   },
+   "value_early": 4.34,
+   "value_mid": 6.61,
+   "lineup_carry_share": 0.0001,
+   "ali_carry_share": 0.0
+  },
+  "露娜": {
+   "quality": 5,
+   "faction": "日落海",
+   "skill_score": 8,
+   "growth": 2.64,
+   "power": 21.1,
+   "p_by_r6": 0.0,
+   "p_by_r10": 0.447,
+   "e_copies_r10": 0.55,
+   "best_plan_for_r8": "fast",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.447,
+      "e_copies": 0.55
+     },
+     "11": {
+      "p_any": 0.573,
+      "e_copies": 0.76
+     },
+     "12": {
+      "p_any": 0.673,
+      "e_copies": 0.96
+     },
+     "13": {
+      "p_any": 0.763,
+      "e_copies": 1.17
+     },
+     "14": {
+      "p_any": 0.817,
+      "e_copies": 1.42
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.13,
+      "e_copies": 0.13
+     },
+     "9": {
+      "p_any": 0.293,
+      "e_copies": 0.33
+     },
+     "10": {
+      "p_any": 0.437,
+      "e_copies": 0.51
+     },
+     "11": {
+      "p_any": 0.54,
+      "e_copies": 0.7
+     },
+     "12": {
+      "p_any": 0.653,
+      "e_copies": 0.84
+     },
+     "13": {
+      "p_any": 0.653,
+      "e_copies": 1.02
+     },
+     "14": {
+      "p_any": 0.86,
+      "e_copies": 1.58
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "11": {
+      "p_any": 0.603,
+      "e_copies": 0.79
+     },
+     "12": {
+      "p_any": 0.69,
+      "e_copies": 1.0
+     },
+     "13": {
+      "p_any": 0.773,
+      "e_copies": 1.21
+     },
+     "14": {
+      "p_any": 0.84,
+      "e_copies": 1.42
+     }
+    }
+   },
+   "value_early": 0.0,
+   "value_mid": 9.44,
+   "lineup_carry_share": 0.0602,
+   "ali_carry_share": 0.0
+  },
+  "韩信": {
+   "quality": 4,
+   "faction": "大河流域",
+   "skill_score": 7,
+   "growth": 1.52,
+   "power": 10.6,
+   "p_by_r6": 0.0,
+   "p_by_r10": 0.787,
+   "e_copies_r10": 1.43,
+   "best_plan_for_r8": "fast",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.41,
+      "e_copies": 0.47
+     },
+     "8": {
+      "p_any": 0.58,
+      "e_copies": 0.79
+     },
+     "9": {
+      "p_any": 0.7,
+      "e_copies": 1.11
+     },
+     "10": {
+      "p_any": 0.787,
+      "e_copies": 1.43
+     },
+     "11": {
+      "p_any": 0.833,
+      "e_copies": 1.67
+     },
+     "12": {
+      "p_any": 0.84,
+      "e_copies": 1.75
+     },
+     "13": {
+      "p_any": 0.917,
+      "e_copies": 2.15
+     },
+     "14": {
+      "p_any": 0.957,
+      "e_copies": 2.48
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.08,
+      "e_copies": 0.08
+     },
+     "6": {
+      "p_any": 0.33,
+      "e_copies": 0.35
+     },
+     "7": {
+      "p_any": 0.477,
+      "e_copies": 0.54
+     },
+     "8": {
+      "p_any": 0.647,
+      "e_copies": 0.9
+     },
+     "9": {
+      "p_any": 0.753,
+      "e_copies": 1.17
+     },
+     "10": {
+      "p_any": 0.837,
+      "e_copies": 1.34
+     },
+     "11": {
+      "p_any": 0.837,
+      "e_copies": 1.5
+     },
+     "12": {
+      "p_any": 0.877,
+      "e_copies": 1.81
+     },
+     "13": {
+      "p_any": 0.93,
+      "e_copies": 2.14
+     },
+     "14": {
+      "p_any": 0.97,
+      "e_copies": 2.52
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.8,
+      "e_copies": 1.34
+     },
+     "11": {
+      "p_any": 0.867,
+      "e_copies": 1.64
+     },
+     "12": {
+      "p_any": 0.867,
+      "e_copies": 1.83
+     },
+     "13": {
+      "p_any": 0.917,
+      "e_copies": 1.98
+     },
+     "14": {
+      "p_any": 0.957,
+      "e_copies": 2.32
+     }
+    }
+   },
+   "value_early": 0.0,
+   "value_mid": 8.37,
+   "lineup_carry_share": 0.0035,
+   "ali_carry_share": 0.0001
+  },
+  "马可波罗": {
+   "quality": 2,
+   "faction": "日落海",
+   "skill_score": 7,
+   "growth": 2.2,
+   "power": 15.4,
+   "p_by_r6": 0.843,
+   "p_by_r10": 0.973,
+   "e_copies_r10": 2.52,
+   "best_plan_for_r8": "roll3",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.24,
+      "e_copies": 0.24
+     },
+     "3": {
+      "p_any": 0.5,
+      "e_copies": 0.6
+     },
+     "4": {
+      "p_any": 0.5,
+      "e_copies": 0.64
+     },
+     "5": {
+      "p_any": 0.693,
+      "e_copies": 0.94
+     },
+     "6": {
+      "p_any": 0.843,
+      "e_copies": 1.41
+     },
+     "7": {
+      "p_any": 0.907,
+      "e_copies": 1.62
+     },
+     "8": {
+      "p_any": 0.91,
+      "e_copies": 1.81
+     },
+     "9": {
+      "p_any": 0.957,
+      "e_copies": 2.19
+     },
+     "10": {
+      "p_any": 0.973,
+      "e_copies": 2.52
+     },
+     "11": {
+      "p_any": 0.983,
+      "e_copies": 2.86
+     },
+     "12": {
+      "p_any": 0.983,
+      "e_copies": 2.9
+     },
+     "13": {
+      "p_any": 0.983,
+      "e_copies": 3.12
+     },
+     "14": {
+      "p_any": 0.987,
+      "e_copies": 3.28
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.24,
+      "e_copies": 0.24
+     },
+     "3": {
+      "p_any": 0.5,
+      "e_copies": 0.6
+     },
+     "4": {
+      "p_any": 0.5,
+      "e_copies": 0.64
+     },
+     "5": {
+      "p_any": 0.693,
+      "e_copies": 0.94
+     },
+     "6": {
+      "p_any": 0.843,
+      "e_copies": 1.41
+     },
+     "7": {
+      "p_any": 0.907,
+      "e_copies": 1.62
+     },
+     "8": {
+      "p_any": 0.91,
+      "e_copies": 1.81
+     },
+     "9": {
+      "p_any": 0.957,
+      "e_copies": 2.19
+     },
+     "10": {
+      "p_any": 0.973,
+      "e_copies": 2.52
+     },
+     "11": {
+      "p_any": 0.983,
+      "e_copies": 2.86
+     },
+     "12": {
+      "p_any": 0.983,
+      "e_copies": 2.9
+     },
+     "13": {
+      "p_any": 0.983,
+      "e_copies": 3.12
+     },
+     "14": {
+      "p_any": 0.987,
+      "e_copies": 3.28
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.223,
+      "e_copies": 0.23
+     },
+     "3": {
+      "p_any": 0.533,
+      "e_copies": 0.67
+     },
+     "4": {
+      "p_any": 0.533,
+      "e_copies": 0.73
+     },
+     "5": {
+      "p_any": 0.72,
+      "e_copies": 1.04
+     },
+     "6": {
+      "p_any": 0.88,
+      "e_copies": 1.52
+     },
+     "7": {
+      "p_any": 0.927,
+      "e_copies": 1.88
+     },
+     "8": {
+      "p_any": 0.963,
+      "e_copies": 2.43
+     },
+     "9": {
+      "p_any": 0.987,
+      "e_copies": 2.97
+     },
+     "10": {
+      "p_any": 0.99,
+      "e_copies": 3.13
+     },
+     "11": {
+      "p_any": 0.993,
+      "e_copies": 3.39
+     },
+     "12": {
+      "p_any": 0.993,
+      "e_copies": 3.53
+     },
+     "13": {
+      "p_any": 0.993,
+      "e_copies": 3.6
+     },
+     "14": {
+      "p_any": 0.993,
+      "e_copies": 3.75
+     }
+    }
+   },
+   "value_early": 12.98,
+   "value_mid": 14.98,
+   "lineup_carry_share": 0.0,
+   "ali_carry_share": 0.0
+  },
+  "马超": {
+   "quality": 3,
+   "faction": "三分之地",
+   "skill_score": 6,
+   "growth": 1.98,
+   "power": 11.9,
+   "p_by_r6": 0.603,
+   "p_by_r10": 0.917,
+   "e_copies_r10": 1.78,
+   "best_plan_for_r8": "roll3",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.217,
+      "e_copies": 0.22
+     },
+     "5": {
+      "p_any": 0.447,
+      "e_copies": 0.5
+     },
+     "6": {
+      "p_any": 0.603,
+      "e_copies": 0.78
+     },
+     "7": {
+      "p_any": 0.723,
+      "e_copies": 0.94
+     },
+     "8": {
+      "p_any": 0.733,
+      "e_copies": 1.11
+     },
+     "9": {
+      "p_any": 0.853,
+      "e_copies": 1.44
+     },
+     "10": {
+      "p_any": 0.917,
+      "e_copies": 1.78
+     },
+     "11": {
+      "p_any": 0.95,
+      "e_copies": 2.07
+     },
+     "12": {
+      "p_any": 0.95,
+      "e_copies": 2.13
+     },
+     "13": {
+      "p_any": 0.973,
+      "e_copies": 2.55
+     },
+     "14": {
+      "p_any": 0.98,
+      "e_copies": 2.95
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.183,
+      "e_copies": 0.19
+     },
+     "5": {
+      "p_any": 0.41,
+      "e_copies": 0.47
+     },
+     "6": {
+      "p_any": 0.41,
+      "e_copies": 0.55
+     },
+     "7": {
+      "p_any": 0.507,
+      "e_copies": 0.66
+     },
+     "8": {
+      "p_any": 0.673,
+      "e_copies": 1.02
+     },
+     "9": {
+      "p_any": 0.793,
+      "e_copies": 1.39
+     },
+     "10": {
+      "p_any": 0.873,
+      "e_copies": 1.72
+     },
+     "11": {
+      "p_any": 0.873,
+      "e_copies": 1.92
+     },
+     "12": {
+      "p_any": 0.923,
+      "e_copies": 2.1
+     },
+     "13": {
+      "p_any": 0.973,
+      "e_copies": 2.63
+     },
+     "14": {
+      "p_any": 0.98,
+      "e_copies": 2.97
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.2,
+      "e_copies": 0.21
+     },
+     "5": {
+      "p_any": 0.443,
+      "e_copies": 0.51
+     },
+     "6": {
+      "p_any": 0.573,
+      "e_copies": 0.77
+     },
+     "7": {
+      "p_any": 0.7,
+      "e_copies": 1.01
+     },
+     "8": {
+      "p_any": 0.793,
+      "e_copies": 1.4
+     },
+     "9": {
+      "p_any": 0.867,
+      "e_copies": 1.69
+     },
+     "10": {
+      "p_any": 0.897,
+      "e_copies": 1.87
+     },
+     "11": {
+      "p_any": 0.933,
+      "e_copies": 2.18
+     },
+     "12": {
+      "p_any": 0.933,
+      "e_copies": 2.42
+     },
+     "13": {
+      "p_any": 0.957,
+      "e_copies": 2.56
+     },
+     "14": {
+      "p_any": 0.98,
+      "e_copies": 2.91
+     }
+    }
+   },
+   "value_early": 7.16,
+   "value_mid": 10.89,
+   "lineup_carry_share": 0.0077,
+   "ali_carry_share": 0.0023
+  },
+  "鲁班七号": {
+   "quality": 5,
+   "faction": "逐鹿",
+   "skill_score": 9,
+   "growth": 2.64,
+   "power": 23.8,
+   "p_by_r6": 0.0,
+   "p_by_r10": 0.473,
+   "e_copies_r10": 0.55,
+   "best_plan_for_r8": "fast",
+   "sims": {
+    "standard": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.473,
+      "e_copies": 0.55
+     },
+     "11": {
+      "p_any": 0.603,
+      "e_copies": 0.77
+     },
+     "12": {
+      "p_any": 0.693,
+      "e_copies": 1.0
+     },
+     "13": {
+      "p_any": 0.757,
+      "e_copies": 1.21
+     },
+     "14": {
+      "p_any": 0.803,
+      "e_copies": 1.41
+     }
+    },
+    "fast": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.153,
+      "e_copies": 0.16
+     },
+     "9": {
+      "p_any": 0.32,
+      "e_copies": 0.35
+     },
+     "10": {
+      "p_any": 0.447,
+      "e_copies": 0.54
+     },
+     "11": {
+      "p_any": 0.533,
+      "e_copies": 0.7
+     },
+     "12": {
+      "p_any": 0.633,
+      "e_copies": 0.83
+     },
+     "13": {
+      "p_any": 0.633,
+      "e_copies": 1.02
+     },
+     "14": {
+      "p_any": 0.813,
+      "e_copies": 1.53
+     }
+    },
+    "roll3": {
+     "1": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "2": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "3": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "4": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "5": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "6": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "7": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "8": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "9": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "10": {
+      "p_any": 0.0,
+      "e_copies": 0.0
+     },
+     "11": {
+      "p_any": 0.58,
+      "e_copies": 0.77
+     },
+     "12": {
+      "p_any": 0.72,
+      "e_copies": 1.0
+     },
+     "13": {
+      "p_any": 0.81,
+      "e_copies": 1.22
+     },
+     "14": {
+      "p_any": 0.85,
+      "e_copies": 1.43
+     }
+    }
+   },
+   "value_early": 0.0,
+   "value_mid": 11.24,
+   "lineup_carry_share": 0.0,
+   "ali_carry_share": 0.0
+  }
+ }
+}

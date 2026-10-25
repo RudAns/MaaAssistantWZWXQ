@@ -1,0 +1,1513 @@
+{
+"live_1791691663": {
+"1": {
+"enemy_max": 1,
+"enemy_sum": 1,
+"ours_max": 1,
+"ours_sum": 2,
+"n": 2
+},
+"2": {
+"enemy_max": 3,
+"enemy_sum": 4,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"3": {
+"enemy_max": 4,
+"enemy_sum": 5,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"4": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"5": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"6": {
+"enemy_max": 12,
+"enemy_sum": 34,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"7": {
+"enemy_max": 27,
+"enemy_sum": 68,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"8": {
+"enemy_max": 22,
+"enemy_sum": 61,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"9": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 31,
+"ours_sum": 60,
+"n": 2
+},
+"10": {
+"enemy_max": 38,
+"enemy_sum": 74,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"11": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"12": {
+"enemy_max": 122,
+"enemy_sum": 227,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+}
+},
+"live_1791693072": {
+"1": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"2": {
+"enemy_max": 7,
+"enemy_sum": 10,
+"ours_max": 1,
+"ours_sum": 4,
+"n": 1
+},
+"3": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"4": {
+"enemy_max": 5,
+"enemy_sum": 8,
+"ours_max": 1,
+"ours_sum": 4,
+"n": 1
+},
+"5": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"6": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"7": {
+"enemy_max": 34,
+"enemy_sum": 83,
+"ours_max": 24,
+"ours_sum": 68,
+"n": 2
+},
+"8": {
+"enemy_max": 38,
+"enemy_sum": 58,
+"ours_max": 26,
+"ours_sum": 102,
+"n": 1
+},
+"9": {
+"enemy_max": 44,
+"enemy_sum": 174,
+"ours_max": 211,
+"ours_sum": 306,
+"n": 1
+},
+"10": {
+"enemy_max": 41,
+"enemy_sum": 133,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"191": {
+"enemy_max": 91,
+"enemy_sum": 207,
+"ours_max": 55,
+"ours_sum": 164,
+"n": 1
+},
+"11": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"12": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 123,
+"ours_sum": 123,
+"n": 2
+},
+"13": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"14": {
+"enemy_max": 149,
+"enemy_sum": 299,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"15": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"16": {
+"enemy_max": 381,
+"enemy_sum": 1034,
+"ours_max": 93,
+"ours_sum": 166,
+"n": 1
+}
+},
+"live_1791695129": {
+"1": {
+"enemy_max": 1,
+"enemy_sum": 1,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"2": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"3": {
+"enemy_max": 8,
+"enemy_sum": 9,
+"ours_max": 4,
+"ours_sum": 6,
+"n": 2
+},
+"4": {
+"enemy_max": 10,
+"enemy_sum": 14,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"5": {
+"enemy_max": 42,
+"enemy_sum": 42,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"6": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"7": {
+"enemy_max": 28,
+"enemy_sum": 33,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"8": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"9": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"10": {
+"enemy_max": 40,
+"enemy_sum": 66,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"11": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"12": {
+"enemy_max": 89,
+"enemy_sum": 300,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"13": {
+"enemy_max": 244,
+"enemy_sum": 383,
+"ours_max": 146,
+"ours_sum": 329,
+"n": 2
+},
+"14": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+}
+},
+"live_1791696814": {
+"1": {
+"enemy_max": 1,
+"enemy_sum": 1,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"2": {
+"enemy_max": 1,
+"enemy_sum": 4,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"3": {
+"enemy_max": 1,
+"enemy_sum": 1,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"4": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"5": {
+"enemy_max": 12,
+"enemy_sum": 39,
+"ours_max": 11,
+"ours_sum": 21,
+"n": 1
+},
+"6": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"7": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"8": {
+"enemy_max": 14,
+"enemy_sum": 24,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"9": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"10": {
+"enemy_max": 55,
+"enemy_sum": 189,
+"ours_max": 46,
+"ours_sum": 94,
+"n": 1
+}
+},
+"live_1791697968": {
+"1": {
+"enemy_max": 1,
+"enemy_sum": 2,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"2": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"3": {
+"enemy_max": 1,
+"enemy_sum": 2,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"4": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"5": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 19,
+"ours_sum": 19,
+"n": 2
+},
+"6": {
+"enemy_max": 49,
+"enemy_sum": 59,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"7": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"8": {
+"enemy_max": 7,
+"enemy_sum": 23,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"9": {
+"enemy_max": 76,
+"enemy_sum": 106,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"10": {
+"enemy_max": 109,
+"enemy_sum": 197,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"11": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"12": {
+"enemy_max": 50,
+"enemy_sum": 126,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+}
+},
+"live_1791699333": {
+"1": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"2": {
+"enemy_max": 4,
+"enemy_sum": 4,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"3": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"4": {
+"enemy_max": 14,
+"enemy_sum": 38,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"5": {
+"enemy_max": 1,
+"enemy_sum": 4,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"6": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"7": {
+"enemy_max": 31,
+"enemy_sum": 84,
+"ours_max": 1,
+"ours_sum": 1,
+"n": 3
+},
+"8": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"9": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 53,
+"ours_sum": 74,
+"n": 2
+},
+"10": {
+"enemy_max": 38,
+"enemy_sum": 204,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"11": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 122,
+"ours_sum": 122,
+"n": 3
+},
+"12": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"13": {
+"enemy_max": 124,
+"enemy_sum": 725,
+"ours_max": 75,
+"ours_sum": 110,
+"n": 1
+},
+"14": {
+"enemy_max": 116,
+"enemy_sum": 409,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"15": {
+"enemy_max": 116,
+"enemy_sum": 116,
+"ours_max": 230,
+"ours_sum": 230,
+"n": 3
+},
+"16": {
+"enemy_max": 143,
+"enemy_sum": 450,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"17": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+}
+},
+"live_1791701420": {
+"1": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"2": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"3": {
+"enemy_max": 16,
+"enemy_sum": 16,
+"ours_max": 4,
+"ours_sum": 9,
+"n": 2
+},
+"4": {
+"enemy_max": 4,
+"enemy_sum": 10,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"5": {
+"enemy_max": 21,
+"enemy_sum": 31,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"6": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"7": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"8": {
+"enemy_max": 77,
+"enemy_sum": 126,
+"ours_max": 21,
+"ours_sum": 41,
+"n": 1
+},
+"9": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"10": {
+"enemy_max": 82,
+"enemy_sum": 118,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"11": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"12": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"13": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"14": {
+"enemy_max": 123,
+"enemy_sum": 313,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+}
+},
+"live_1791703090": {
+"1": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"2": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"3": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"4": {
+"enemy_max": 1,
+"enemy_sum": 2,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"5": {
+"enemy_max": 10,
+"enemy_sum": 29,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"6": {
+"enemy_max": 8,
+"enemy_sum": 9,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"7": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"8": {
+"enemy_max": 30,
+"enemy_sum": 93,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"9": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"10": {
+"enemy_max": 25,
+"enemy_sum": 67,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"11": {
+"enemy_max": 118,
+"enemy_sum": 118,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 3
+},
+"12": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+}
+},
+"live_1791704493": {
+"1": {
+"enemy_max": 3,
+"enemy_sum": 3,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"2": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 1,
+"ours_sum": 3,
+"n": 2
+},
+"3": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"4": {
+"enemy_max": 2,
+"enemy_sum": 2,
+"ours_max": 8,
+"ours_sum": 9,
+"n": 1
+},
+"5": {
+"enemy_max": 22,
+"enemy_sum": 41,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"6": {
+"enemy_max": 49,
+"enemy_sum": 49,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 3
+},
+"7": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"8": {
+"enemy_max": 88,
+"enemy_sum": 126,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"9": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"10": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"11": {
+"enemy_max": 56,
+"enemy_sum": 147,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"12": {
+"enemy_max": 119,
+"enemy_sum": 119,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+}
+},
+"live_1791705908": {
+"1": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"2": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"3": {
+"enemy_max": 13,
+"enemy_sum": 15,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"4": {
+"enemy_max": 6,
+"enemy_sum": 16,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"5": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"6": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"7": {
+"enemy_max": 16,
+"enemy_sum": 50,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 3
+},
+"8": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+}
+},
+"live_1791713727": {
+"1": {
+"enemy_max": 1,
+"enemy_sum": 2,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"2": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"3": {
+"enemy_max": 1,
+"enemy_sum": 1,
+"ours_max": 16,
+"ours_sum": 22,
+"n": 2
+},
+"4": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"5": {
+"enemy_max": 29,
+"enemy_sum": 49,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"6": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"7": {
+"enemy_max": 36,
+"enemy_sum": 110,
+"ours_max": 43,
+"ours_sum": 88,
+"n": 2
+},
+"8": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"9": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"10": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"11": {
+"enemy_max": 47,
+"enemy_sum": 67,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"12": {
+"enemy_max": 81,
+"enemy_sum": 227,
+"ours_max": 85,
+"ours_sum": 210,
+"n": 2
+},
+"13": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"14": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+}
+},
+"live_1791715384": {
+"1": {
+"enemy_max": 1,
+"enemy_sum": 2,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"2": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"3": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"4": {
+"enemy_max": 1,
+"enemy_sum": 4,
+"ours_max": 14,
+"ours_sum": 34,
+"n": 2
+},
+"5": {
+"enemy_max": 5,
+"enemy_sum": 16,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"6": {
+"enemy_max": 25,
+"enemy_sum": 46,
+"ours_max": 14,
+"ours_sum": 35,
+"n": 2
+},
+"7": {
+"enemy_max": 48,
+"enemy_sum": 81,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"8": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"9": {
+"enemy_max": 19,
+"enemy_sum": 73,
+"ours_max": 19,
+"ours_sum": 65,
+"n": 1
+},
+"10": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"11": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"12": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+}
+},
+"live_1791716776": {
+"1": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"2": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"3": {
+"enemy_max": 20,
+"enemy_sum": 20,
+"ours_max": 7,
+"ours_sum": 13,
+"n": 2
+},
+"4": {
+"enemy_max": 2,
+"enemy_sum": 7,
+"ours_max": 77,
+"ours_sum": 108,
+"n": 2
+},
+"5": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"6": {
+"enemy_max": 10,
+"enemy_sum": 17,
+"ours_max": 21,
+"ours_sum": 83,
+"n": 1
+},
+"7": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"8": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"9": {
+"enemy_max": 70,
+"enemy_sum": 211,
+"ours_max": 37,
+"ours_sum": 169,
+"n": 1
+},
+"10": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"11": {
+"enemy_max": 103,
+"enemy_sum": 134,
+"ours_max": 46,
+"ours_sum": 124,
+"n": 2
+},
+"12": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+}
+},
+"live_1791718192": {
+"1": {
+"enemy_max": 1,
+"enemy_sum": 1,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"2": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"3": {
+"enemy_max": 14,
+"enemy_sum": 14,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"4": {
+"enemy_max": 34,
+"enemy_sum": 34,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"5": {
+"enemy_max": 5,
+"enemy_sum": 7,
+"ours_max": 16,
+"ours_sum": 19,
+"n": 1
+},
+"6": {
+"enemy_max": 11,
+"enemy_sum": 19,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"7": {
+"enemy_max": 19,
+"enemy_sum": 41,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"8": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"9": {
+"enemy_max": 72,
+"enemy_sum": 174,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"10": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+}
+},
+"live_1791719281": {
+"1": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"2": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"3": {
+"enemy_max": 1,
+"enemy_sum": 2,
+"ours_max": 4,
+"ours_sum": 6,
+"n": 3
+},
+"4": {
+"enemy_max": 1,
+"enemy_sum": 1,
+"ours_max": 5,
+"ours_sum": 12,
+"n": 1
+},
+"5": {
+"enemy_max": 1,
+"enemy_sum": 2,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"6": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"7": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 3
+},
+"8": {
+"enemy_max": 17,
+"enemy_sum": 59,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"9": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"10": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"11": {
+"enemy_max": 108,
+"enemy_sum": 126,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"12": {
+"enemy_max": 182,
+"enemy_sum": 197,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"13": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+}
+},
+"live_1791720775": {
+"1": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"2": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"3": {
+"enemy_max": 1,
+"enemy_sum": 1,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"4": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"5": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"6": {
+"enemy_max": 16,
+"enemy_sum": 36,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"7": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"8": {
+"enemy_max": 14,
+"enemy_sum": 15,
+"ours_max": 48,
+"ours_sum": 96,
+"n": 2
+},
+"9": {
+"enemy_max": 54,
+"enemy_sum": 86,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"10": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"11": {
+"enemy_max": 54,
+"enemy_sum": 253,
+"ours_max": 47,
+"ours_sum": 94,
+"n": 1
+}
+},
+"live_1791722106": {
+"1": {
+"enemy_max": 1,
+"enemy_sum": 3,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"2": {
+"enemy_max": 7,
+"enemy_sum": 11,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"3": {
+"enemy_max": 1,
+"enemy_sum": 2,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"4": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"5": {
+"enemy_max": 3,
+"enemy_sum": 6,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"6": {
+"enemy_max": 7,
+"enemy_sum": 32,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"7": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 2
+},
+"8": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"9": {
+"enemy_max": 0,
+"enemy_sum": 0,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"10": {
+"enemy_max": 29,
+"enemy_sum": 101,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+},
+"11": {
+"enemy_max": 75,
+"enemy_sum": 291,
+"ours_max": 0,
+"ours_sum": 0,
+"n": 1
+}
+}
+}

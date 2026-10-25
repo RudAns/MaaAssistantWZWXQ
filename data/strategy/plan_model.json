@@ -1,0 +1,4811 @@
+{
+ "sims": 1000,
+ "plans": {
+  "速升(2/3/5/8/11)": {
+   "2": 2,
+   "3": 3,
+   "5": 4,
+   "8": 5,
+   "11": 6
+  },
+  "标准(2/4/7/10/13)": {
+   "2": 2,
+   "4": 3,
+   "7": 4,
+   "10": 5,
+   "13": 6
+  },
+  "卡2级到8": {
+   "2": 2,
+   "8": 3,
+   "10": 4,
+   "12": 5,
+   "13": 6
+  },
+  "卡3级到10": {
+   "2": 2,
+   "4": 3,
+   "10": 4,
+   "12": 5,
+   "13": 6
+  },
+  "卡4级到11": {
+   "2": 2,
+   "4": 3,
+   "6": 4,
+   "11": 5,
+   "13": 6
+  },
+  "卡3级到7再速升": {
+   "2": 2,
+   "4": 3,
+   "7": 4,
+   "9": 5,
+   "11": 6
+  },
+  "永远卡3级": {
+   "2": 2,
+   "4": 3
+  },
+  "永远卡4级": {
+   "2": 2,
+   "4": 3,
+   "6": 4
+  }
+ },
+ "carry_by_tier": {
+  "1": "孙尚香",
+  "2": "百里守约",
+  "3": "安琪拉",
+  "4": "蒙犽",
+  "5": "鲁班七号"
+ },
+ "ref_strength": {
+  "1": 761.6163839999933,
+  "2": 986.9107314666595,
+  "3": 1345.2693609999994,
+  "4": 1582.4161881333341,
+  "5": 2351.78072553333,
+  "6": 2696.458193933334,
+  "7": 3082.6487207733358,
+  "8": 4044.591466873351,
+  "9": 4495.396214250003,
+  "10": 5327.0075971933275,
+  "11": 6458.787381279997,
+  "12": 7173.226001163349,
+  "13": 7685.906731070005,
+  "14": 8896.39122108667
+ },
+ "results": {
+  "孙尚香": {
+   "速升(2/3/5/8/11)": {
+    "1": {
+     "p_carry": 0.681,
+     "carry_lv": 1.6,
+     "p_awake": 0.0,
+     "strength": 675,
+     "lord_lv": 1.0,
+     "units": 0.68
+    },
+    "2": {
+     "p_carry": 0.763,
+     "carry_lv": 10.3,
+     "p_awake": 0.0,
+     "strength": 966,
+     "lord_lv": 2.0,
+     "units": 0.76
+    },
+    "3": {
+     "p_carry": 0.804,
+     "carry_lv": 11.9,
+     "p_awake": 0.004,
+     "strength": 1067,
+     "lord_lv": 2.1,
+     "units": 0.81
+    },
+    "4": {
+     "p_carry": 0.841,
+     "carry_lv": 19.0,
+     "p_awake": 0.006,
+     "strength": 1322,
+     "lord_lv": 2.98,
+     "units": 0.87
+    },
+    "5": {
+     "p_carry": 0.843,
+     "carry_lv": 22.0,
+     "p_awake": 0.009,
+     "strength": 1457,
+     "lord_lv": 3.48,
+     "units": 0.91
+    },
+    "6": {
+     "p_carry": 0.857,
+     "carry_lv": 26.0,
+     "p_awake": 0.014,
+     "strength": 1881,
+     "lord_lv": 3.99,
+     "units": 1.56
+    },
+    "7": {
+     "p_carry": 0.867,
+     "carry_lv": 26.5,
+     "p_awake": 0.028,
+     "strength": 1988,
+     "lord_lv": 4.0,
+     "units": 1.65
+    },
+    "8": {
+     "p_carry": 0.869,
+     "carry_lv": 32.6,
+     "p_awake": 0.028,
+     "strength": 2267,
+     "lord_lv": 4.95,
+     "units": 1.67
+    },
+    "9": {
+     "p_carry": 0.871,
+     "carry_lv": 33.8,
+     "p_awake": 0.028,
+     "strength": 3520,
+     "lord_lv": 5.0,
+     "units": 4.31
+    },
+    "10": {
+     "p_carry": 0.871,
+     "carry_lv": 35.2,
+     "p_awake": 0.029,
+     "strength": 3752,
+     "lord_lv": 5.0,
+     "units": 4.41
+    },
+    "11": {
+     "p_carry": 0.871,
+     "carry_lv": 40.3,
+     "p_awake": 0.029,
+     "strength": 4011,
+     "lord_lv": 6.0,
+     "units": 4.42
+    },
+    "12": {
+     "p_carry": 0.871,
+     "carry_lv": 42.4,
+     "p_awake": 0.029,
+     "strength": 5306,
+     "lord_lv": 6.0,
+     "units": 6.78
+    },
+    "13": {
+     "p_carry": 0.871,
+     "carry_lv": 45.0,
+     "p_awake": 0.029,
+     "strength": 5771,
+     "lord_lv": 6.0,
+     "units": 6.87
+    },
+    "14": {
+     "p_carry": 0.871,
+     "carry_lv": 47.9,
+     "p_awake": 0.029,
+     "strength": 6063,
+     "lord_lv": 6.0,
+     "units": 6.87
+    },
+    "hp_end": 2.4,
+    "p_alive_r14": 0.081,
+    "mean_out_round": 10.38,
+    "win_r8": 0.156
+   },
+   "标准(2/4/7/10/13)": {
+    "1": {
+     "p_carry": 0.688,
+     "carry_lv": 1.6,
+     "p_awake": 0.0,
+     "strength": 682,
+     "lord_lv": 1.0,
+     "units": 0.69
+    },
+    "2": {
+     "p_carry": 0.768,
+     "carry_lv": 7.7,
+     "p_awake": 0.0,
+     "strength": 916,
+     "lord_lv": 2.0,
+     "units": 0.79
+    },
+    "3": {
+     "p_carry": 0.891,
+     "carry_lv": 9.5,
+     "p_awake": 0.002,
+     "strength": 1127,
+     "lord_lv": 2.0,
+     "units": 0.95
+    },
+    "4": {
+     "p_carry": 0.899,
+     "carry_lv": 18.3,
+     "p_awake": 0.009,
+     "strength": 1444,
+     "lord_lv": 2.96,
+     "units": 1.03
+    },
+    "5": {
+     "p_carry": 0.913,
+     "carry_lv": 19.3,
+     "p_awake": 0.024,
+     "strength": 2203,
+     "lord_lv": 3.01,
+     "units": 2.62
+    },
+    "6": {
+     "p_carry": 0.924,
+     "carry_lv": 20.3,
+     "p_awake": 0.047,
+     "strength": 2567,
+     "lord_lv": 3.01,
+     "units": 3.22
+    },
+    "7": {
+     "p_carry": 0.929,
+     "carry_lv": 27.6,
+     "p_awake": 0.057,
+     "strength": 2961,
+     "lord_lv": 3.99,
+     "units": 3.29
+    },
+    "8": {
+     "p_carry": 0.94,
+     "carry_lv": 32.2,
+     "p_awake": 0.077,
+     "strength": 4158,
+     "lord_lv": 4.0,
+     "units": 5.45
+    },
+    "9": {
+     "p_carry": 0.948,
+     "carry_lv": 34.8,
+     "p_awake": 0.109,
+     "strength": 4581,
+     "lord_lv": 4.0,
+     "units": 5.77
+    },
+    "10": {
+     "p_carry": 0.949,
+     "carry_lv": 40.6,
+     "p_awake": 0.11,
+     "strength": 4958,
+     "lord_lv": 4.99,
+     "units": 5.85
+    },
+    "11": {
+     "p_carry": 0.949,
+     "carry_lv": 41.7,
+     "p_awake": 0.111,
+     "strength": 5594,
+     "lord_lv": 5.0,
+     "units": 6.93
+    },
+    "12": {
+     "p_carry": 0.95,
+     "carry_lv": 43.5,
+     "p_awake": 0.115,
+     "strength": 5845,
+     "lord_lv": 5.0,
+     "units": 6.95
+    },
+    "13": {
+     "p_carry": 0.95,
+     "carry_lv": 48.3,
+     "p_awake": 0.115,
+     "strength": 6108,
+     "lord_lv": 6.0,
+     "units": 6.95
+    },
+    "14": {
+     "p_carry": 0.95,
+     "carry_lv": 50.2,
+     "p_awake": 0.115,
+     "strength": 6301,
+     "lord_lv": 6.0,
+     "units": 6.95
+    },
+    "hp_end": 3.6,
+    "p_alive_r14": 0.14,
+    "mean_out_round": 11.59,
+    "win_r8": 0.467
+   },
+   "卡2级到8": {
+    "1": {
+     "p_carry": 0.698,
+     "carry_lv": 1.5,
+     "p_awake": 0.0,
+     "strength": 690,
+     "lord_lv": 1.0,
+     "units": 0.7
+    },
+    "2": {
+     "p_carry": 0.772,
+     "carry_lv": 9.6,
+     "p_awake": 0.001,
+     "strength": 973,
+     "lord_lv": 2.0,
+     "units": 0.8
+    },
+    "3": {
+     "p_carry": 0.876,
+     "carry_lv": 11.7,
+     "p_awake": 0.002,
+     "strength": 1368,
+     "lord_lv": 2.01,
+     "units": 1.4
+    },
+    "4": {
+     "p_carry": 0.916,
+     "carry_lv": 15.6,
+     "p_awake": 0.026,
+     "strength": 2206,
+     "lord_lv": 2.01,
+     "units": 2.94
+    },
+    "5": {
+     "p_carry": 0.944,
+     "carry_lv": 18.6,
+     "p_awake": 0.078,
+     "strength": 2959,
+     "lord_lv": 2.04,
+     "units": 4.24
+    },
+    "6": {
+     "p_carry": 0.966,
+     "carry_lv": 21.9,
+     "p_awake": 0.157,
+     "strength": 3478,
+     "lord_lv": 2.04,
+     "units": 4.84
+    },
+    "7": {
+     "p_carry": 0.981,
+     "carry_lv": 25.3,
+     "p_awake": 0.265,
+     "strength": 3861,
+     "lord_lv": 2.07,
+     "units": 5.03
+    },
+    "8": {
+     "p_carry": 0.984,
+     "carry_lv": 32.8,
+     "p_awake": 0.32,
+     "strength": 4705,
+     "lord_lv": 3.0,
+     "units": 5.83
+    },
+    "9": {
+     "p_carry": 0.988,
+     "carry_lv": 35.4,
+     "p_awake": 0.4,
+     "strength": 5115,
+     "lord_lv": 3.02,
+     "units": 5.99
+    },
+    "10": {
+     "p_carry": 0.988,
+     "carry_lv": 41.9,
+     "p_awake": 0.412,
+     "strength": 5568,
+     "lord_lv": 4.0,
+     "units": 5.99
+    },
+    "11": {
+     "p_carry": 0.988,
+     "carry_lv": 47.4,
+     "p_awake": 0.451,
+     "strength": 5962,
+     "lord_lv": 4.0,
+     "units": 5.99
+    },
+    "12": {
+     "p_carry": 0.988,
+     "carry_lv": 51.7,
+     "p_awake": 0.451,
+     "strength": 6374,
+     "lord_lv": 5.0,
+     "units": 6.26
+    },
+    "13": {
+     "p_carry": 0.988,
+     "carry_lv": 53.8,
+     "p_awake": 0.452,
+     "strength": 6557,
+     "lord_lv": 5.4,
+     "units": 6.27
+    },
+    "14": {
+     "p_carry": 0.988,
+     "carry_lv": 56.0,
+     "p_awake": 0.452,
+     "strength": 6969,
+     "lord_lv": 6.0,
+     "units": 6.81
+    },
+    "hp_end": 5.7,
+    "p_alive_r14": 0.273,
+    "mean_out_round": 13.16,
+    "win_r8": 0.613
+   },
+   "卡3级到10": {
+    "1": {
+     "p_carry": 0.656,
+     "carry_lv": 1.7,
+     "p_awake": 0.0,
+     "strength": 651,
+     "lord_lv": 1.0,
+     "units": 0.66
+    },
+    "2": {
+     "p_carry": 0.75,
+     "carry_lv": 9.9,
+     "p_awake": 0.0,
+     "strength": 952,
+     "lord_lv": 2.0,
+     "units": 0.78
+    },
+    "3": {
+     "p_carry": 0.882,
+     "carry_lv": 11.2,
+     "p_awake": 0.006,
+     "strength": 1167,
+     "lord_lv": 2.0,
+     "units": 0.95
+    },
+    "4": {
+     "p_carry": 0.897,
+     "carry_lv": 19.8,
+     "p_awake": 0.012,
+     "strength": 1482,
+     "lord_lv": 2.96,
+     "units": 1.02
+    },
+    "5": {
+     "p_carry": 0.916,
+     "carry_lv": 21.5,
+     "p_awake": 0.03,
+     "strength": 2293,
+     "lord_lv": 3.01,
+     "units": 2.61
+    },
+    "6": {
+     "p_carry": 0.927,
+     "carry_lv": 22.8,
+     "p_awake": 0.051,
+     "strength": 3090,
+     "lord_lv": 3.01,
+     "units": 4.22
+    },
+    "7": {
+     "p_carry": 0.937,
+     "carry_lv": 24.5,
+     "p_awake": 0.074,
+     "strength": 3807,
+     "lord_lv": 3.02,
+     "units": 5.53
+    },
+    "8": {
+     "p_carry": 0.954,
+     "carry_lv": 28.9,
+     "p_awake": 0.135,
+     "strength": 4372,
+     "lord_lv": 3.02,
+     "units": 5.95
+    },
+    "9": {
+     "p_carry": 0.967,
+     "carry_lv": 32.6,
+     "p_awake": 0.202,
+     "strength": 4773,
+     "lord_lv": 3.08,
+     "units": 5.97
+    },
+    "10": {
+     "p_carry": 0.97,
+     "carry_lv": 39.0,
+     "p_awake": 0.237,
+     "strength": 5235,
+     "lord_lv": 4.0,
+     "units": 5.97
+    },
+    "11": {
+     "p_carry": 0.976,
+     "carry_lv": 44.9,
+     "p_awake": 0.294,
+     "strength": 5678,
+     "lord_lv": 4.0,
+     "units": 5.98
+    },
+    "12": {
+     "p_carry": 0.976,
+     "carry_lv": 49.8,
+     "p_awake": 0.294,
+     "strength": 6037,
+     "lord_lv": 5.0,
+     "units": 6.15
+    },
+    "13": {
+     "p_carry": 0.976,
+     "carry_lv": 51.6,
+     "p_awake": 0.295,
+     "strength": 6187,
+     "lord_lv": 5.29,
+     "units": 6.17
+    },
+    "14": {
+     "p_carry": 0.976,
+     "carry_lv": 54.0,
+     "p_awake": 0.295,
+     "strength": 6661,
+     "lord_lv": 6.0,
+     "units": 6.76
+    },
+    "hp_end": 4.3,
+    "p_alive_r14": 0.172,
+    "mean_out_round": 12.13,
+    "win_r8": 0.526
+   },
+   "卡4级到11": {
+    "1": {
+     "p_carry": 0.652,
+     "carry_lv": 1.6,
+     "p_awake": 0.0,
+     "strength": 647,
+     "lord_lv": 1.0,
+     "units": 0.65
+    },
+    "2": {
+     "p_carry": 0.727,
+     "carry_lv": 9.5,
+     "p_awake": 0.0,
+     "strength": 917,
+     "lord_lv": 2.0,
+     "units": 0.76
+    },
+    "3": {
+     "p_carry": 0.858,
+     "carry_lv": 10.8,
+     "p_awake": 0.004,
+     "strength": 1131,
+     "lord_lv": 2.0,
+     "units": 0.93
+    },
+    "4": {
+     "p_carry": 0.875,
+     "carry_lv": 20.2,
+     "p_awake": 0.01,
+     "strength": 1474,
+     "lord_lv": 2.96,
+     "units": 1.01
+    },
+    "5": {
+     "p_carry": 0.902,
+     "carry_lv": 21.2,
+     "p_awake": 0.022,
+     "strength": 1653,
+     "lord_lv": 3.0,
+     "units": 1.22
+    },
+    "6": {
+     "p_carry": 0.908,
+     "carry_lv": 27.2,
+     "p_awake": 0.024,
+     "strength": 1921,
+     "lord_lv": 3.98,
+     "units": 1.27
+    },
+    "7": {
+     "p_carry": 0.914,
+     "carry_lv": 28.4,
+     "p_awake": 0.042,
+     "strength": 2727,
+     "lord_lv": 4.0,
+     "units": 2.94
+    },
+    "8": {
+     "p_carry": 0.93,
+     "carry_lv": 33.4,
+     "p_awake": 0.063,
+     "strength": 4131,
+     "lord_lv": 4.0,
+     "units": 5.44
+    },
+    "9": {
+     "p_carry": 0.942,
+     "carry_lv": 37.1,
+     "p_awake": 0.112,
+     "strength": 4736,
+     "lord_lv": 4.0,
+     "units": 5.94
+    },
+    "10": {
+     "p_carry": 0.961,
+     "carry_lv": 40.6,
+     "p_awake": 0.158,
+     "strength": 5080,
+     "lord_lv": 4.0,
+     "units": 5.96
+    },
+    "11": {
+     "p_carry": 0.962,
+     "carry_lv": 45.6,
+     "p_awake": 0.161,
+     "strength": 5478,
+     "lord_lv": 4.99,
+     "units": 6.12
+    },
+    "12": {
+     "p_carry": 0.962,
+     "carry_lv": 47.3,
+     "p_awake": 0.164,
+     "strength": 5954,
+     "lord_lv": 5.0,
+     "units": 6.78
+    },
+    "13": {
+     "p_carry": 0.962,
+     "carry_lv": 52.5,
+     "p_awake": 0.164,
+     "strength": 6277,
+     "lord_lv": 6.0,
+     "units": 6.78
+    },
+    "14": {
+     "p_carry": 0.962,
+     "carry_lv": 54.5,
+     "p_awake": 0.164,
+     "strength": 6561,
+     "lord_lv": 6.0,
+     "units": 6.96
+    },
+    "hp_end": 3.8,
+    "p_alive_r14": 0.146,
+    "mean_out_round": 11.29,
+    "win_r8": 0.451
+   },
+   "卡3级到7再速升": {
+    "1": {
+     "p_carry": 0.663,
+     "carry_lv": 1.6,
+     "p_awake": 0.0,
+     "strength": 657,
+     "lord_lv": 1.0,
+     "units": 0.66
+    },
+    "2": {
+     "p_carry": 0.754,
+     "carry_lv": 8.2,
+     "p_awake": 0.0,
+     "strength": 920,
+     "lord_lv": 2.0,
+     "units": 0.8
+    },
+    "3": {
+     "p_carry": 0.881,
+     "carry_lv": 9.7,
+     "p_awake": 0.001,
+     "strength": 1119,
+     "lord_lv": 2.0,
+     "units": 0.96
+    },
+    "4": {
+     "p_carry": 0.887,
+     "carry_lv": 20.2,
+     "p_awake": 0.003,
+     "strength": 1500,
+     "lord_lv": 2.98,
+     "units": 1.03
+    },
+    "5": {
+     "p_carry": 0.903,
+     "carry_lv": 21.3,
+     "p_awake": 0.017,
+     "strength": 2284,
+     "lord_lv": 3.01,
+     "units": 2.66
+    },
+    "6": {
+     "p_carry": 0.925,
+     "carry_lv": 22.6,
+     "p_awake": 0.039,
+     "strength": 2658,
+     "lord_lv": 3.01,
+     "units": 3.24
+    },
+    "7": {
+     "p_carry": 0.929,
+     "carry_lv": 29.3,
+     "p_awake": 0.042,
+     "strength": 3017,
+     "lord_lv": 3.99,
+     "units": 3.31
+    },
+    "8": {
+     "p_carry": 0.94,
+     "carry_lv": 33.7,
+     "p_awake": 0.061,
+     "strength": 3513,
+     "lord_lv": 4.0,
+     "units": 3.9
+    },
+    "9": {
+     "p_carry": 0.941,
+     "carry_lv": 40.7,
+     "p_awake": 0.061,
+     "strength": 3897,
+     "lord_lv": 4.98,
+     "units": 3.92
+    },
+    "10": {
+     "p_carry": 0.942,
+     "carry_lv": 41.2,
+     "p_awake": 0.062,
+     "strength": 3997,
+     "lord_lv": 5.0,
+     "units": 4.04
+    },
+    "11": {
+     "p_carry": 0.943,
+     "carry_lv": 45.8,
+     "p_awake": 0.063,
+     "strength": 4244,
+     "lord_lv": 5.87,
+     "units": 4.04
+    },
+    "12": {
+     "p_carry": 0.943,
+     "carry_lv": 47.4,
+     "p_awake": 0.063,
+     "strength": 5615,
+     "lord_lv": 6.0,
+     "units": 6.72
+    },
+    "13": {
+     "p_carry": 0.943,
+     "carry_lv": 49.1,
+     "p_awake": 0.063,
+     "strength": 6085,
+     "lord_lv": 6.0,
+     "units": 6.94
+    },
+    "14": {
+     "p_carry": 0.943,
+     "carry_lv": 51.1,
+     "p_awake": 0.063,
+     "strength": 6327,
+     "lord_lv": 6.0,
+     "units": 6.94
+    },
+    "hp_end": 3.3,
+    "p_alive_r14": 0.118,
+    "mean_out_round": 11.12,
+    "win_r8": 0.326
+   },
+   "永远卡3级": {
+    "1": {
+     "p_carry": 0.677,
+     "carry_lv": 1.5,
+     "p_awake": 0.0,
+     "strength": 670,
+     "lord_lv": 1.0,
+     "units": 0.68
+    },
+    "2": {
+     "p_carry": 0.754,
+     "carry_lv": 9.7,
+     "p_awake": 0.0,
+     "strength": 955,
+     "lord_lv": 2.0,
+     "units": 0.79
+    },
+    "3": {
+     "p_carry": 0.882,
+     "carry_lv": 10.7,
+     "p_awake": 0.002,
+     "strength": 1154,
+     "lord_lv": 2.01,
+     "units": 0.96
+    },
+    "4": {
+     "p_carry": 0.894,
+     "carry_lv": 18.5,
+     "p_awake": 0.005,
+     "strength": 1459,
+     "lord_lv": 2.97,
+     "units": 1.07
+    },
+    "5": {
+     "p_carry": 0.907,
+     "carry_lv": 19.6,
+     "p_awake": 0.015,
+     "strength": 2223,
+     "lord_lv": 3.0,
+     "units": 2.69
+    },
+    "6": {
+     "p_carry": 0.922,
+     "carry_lv": 20.9,
+     "p_awake": 0.04,
+     "strength": 3037,
+     "lord_lv": 3.0,
+     "units": 4.3
+    },
+    "7": {
+     "p_carry": 0.94,
+     "carry_lv": 22.7,
+     "p_awake": 0.061,
+     "strength": 3724,
+     "lord_lv": 3.01,
+     "units": 5.51
+    },
+    "8": {
+     "p_carry": 0.958,
+     "carry_lv": 27.3,
+     "p_awake": 0.131,
+     "strength": 4289,
+     "lord_lv": 3.01,
+     "units": 5.95
+    },
+    "9": {
+     "p_carry": 0.971,
+     "carry_lv": 30.7,
+     "p_awake": 0.195,
+     "strength": 4658,
+     "lord_lv": 3.06,
+     "units": 5.97
+    },
+    "10": {
+     "p_carry": 0.982,
+     "carry_lv": 33.4,
+     "p_awake": 0.277,
+     "strength": 4999,
+     "lord_lv": 3.08,
+     "units": 5.98
+    },
+    "11": {
+     "p_carry": 0.986,
+     "carry_lv": 38.1,
+     "p_awake": 0.368,
+     "strength": 5411,
+     "lord_lv": 3.1,
+     "units": 5.99
+    },
+    "12": {
+     "p_carry": 0.991,
+     "carry_lv": 42.2,
+     "p_awake": 0.449,
+     "strength": 5872,
+     "lord_lv": 3.4,
+     "units": 5.99
+    },
+    "13": {
+     "p_carry": 0.993,
+     "carry_lv": 44.9,
+     "p_awake": 0.545,
+     "strength": 6215,
+     "lord_lv": 3.42,
+     "units": 5.99
+    },
+    "14": {
+     "p_carry": 0.995,
+     "carry_lv": 47.2,
+     "p_awake": 0.602,
+     "strength": 6508,
+     "lord_lv": 3.45,
+     "units": 6.0
+    },
+    "hp_end": 3.5,
+    "p_alive_r14": 0.137,
+    "mean_out_round": 11.98,
+    "win_r8": 0.514
+   },
+   "永远卡4级": {
+    "1": {
+     "p_carry": 0.676,
+     "carry_lv": 1.6,
+     "p_awake": 0.0,
+     "strength": 670,
+     "lord_lv": 1.0,
+     "units": 0.68
+    },
+    "2": {
+     "p_carry": 0.754,
+     "carry_lv": 8.4,
+     "p_awake": 0.0,
+     "strength": 916,
+     "lord_lv": 2.0,
+     "units": 0.78
+    },
+    "3": {
+     "p_carry": 0.89,
+     "carry_lv": 11.0,
+     "p_awake": 0.004,
+     "strength": 1181,
+     "lord_lv": 2.01,
+     "units": 0.97
+    },
+    "4": {
+     "p_carry": 0.906,
+     "carry_lv": 20.2,
+     "p_awake": 0.005,
+     "strength": 1523,
+     "lord_lv": 2.97,
+     "units": 1.06
+    },
+    "5": {
+     "p_carry": 0.928,
+     "carry_lv": 21.2,
+     "p_awake": 0.011,
+     "strength": 1692,
+     "lord_lv": 3.01,
+     "units": 1.27
+    },
+    "6": {
+     "p_carry": 0.932,
+     "carry_lv": 27.4,
+     "p_awake": 0.015,
+     "strength": 1938,
+     "lord_lv": 3.98,
+     "units": 1.32
+    },
+    "7": {
+     "p_carry": 0.944,
+     "carry_lv": 28.4,
+     "p_awake": 0.032,
+     "strength": 2751,
+     "lord_lv": 4.0,
+     "units": 2.99
+    },
+    "8": {
+     "p_carry": 0.959,
+     "carry_lv": 33.2,
+     "p_awake": 0.049,
+     "strength": 4131,
+     "lord_lv": 4.0,
+     "units": 5.49
+    },
+    "9": {
+     "p_carry": 0.971,
+     "carry_lv": 37.4,
+     "p_awake": 0.108,
+     "strength": 4740,
+     "lord_lv": 4.0,
+     "units": 5.96
+    },
+    "10": {
+     "p_carry": 0.977,
+     "carry_lv": 41.3,
+     "p_awake": 0.186,
+     "strength": 5128,
+     "lord_lv": 4.0,
+     "units": 5.98
+    },
+    "11": {
+     "p_carry": 0.983,
+     "carry_lv": 48.2,
+     "p_awake": 0.251,
+     "strength": 5683,
+     "lord_lv": 4.01,
+     "units": 5.99
+    },
+    "12": {
+     "p_carry": 0.99,
+     "carry_lv": 52.2,
+     "p_awake": 0.334,
+     "strength": 6099,
+     "lord_lv": 4.01,
+     "units": 6.0
+    },
+    "13": {
+     "p_carry": 0.992,
+     "carry_lv": 55.8,
+     "p_awake": 0.423,
+     "strength": 6512,
+     "lord_lv": 4.02,
+     "units": 6.01
+    },
+    "14": {
+     "p_carry": 0.993,
+     "carry_lv": 59.0,
+     "p_awake": 0.491,
+     "strength": 6871,
+     "lord_lv": 4.02,
+     "units": 6.01
+    },
+    "hp_end": 3.7,
+    "p_alive_r14": 0.136,
+    "mean_out_round": 11.36,
+    "win_r8": 0.457
+   }
+  },
+  "百里守约": {
+   "速升(2/3/5/8/11)": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 780,
+     "lord_lv": 1.0,
+     "units": 1.89
+    },
+    "2": {
+     "p_carry": 0.031,
+     "carry_lv": 6.6,
+     "p_awake": 0.0,
+     "strength": 964,
+     "lord_lv": 2.0,
+     "units": 1.92
+    },
+    "3": {
+     "p_carry": 0.131,
+     "carry_lv": 9.0,
+     "p_awake": 0.0,
+     "strength": 1199,
+     "lord_lv": 2.1,
+     "units": 2.02
+    },
+    "4": {
+     "p_carry": 0.228,
+     "carry_lv": 18.5,
+     "p_awake": 0.0,
+     "strength": 1622,
+     "lord_lv": 2.98,
+     "units": 2.13
+    },
+    "5": {
+     "p_carry": 0.277,
+     "carry_lv": 21.0,
+     "p_awake": 0.0,
+     "strength": 1864,
+     "lord_lv": 3.33,
+     "units": 2.2
+    },
+    "6": {
+     "p_carry": 0.385,
+     "carry_lv": 27.4,
+     "p_awake": 0.001,
+     "strength": 2558,
+     "lord_lv": 3.98,
+     "units": 2.74
+    },
+    "7": {
+     "p_carry": 0.432,
+     "carry_lv": 29.6,
+     "p_awake": 0.001,
+     "strength": 2815,
+     "lord_lv": 4.0,
+     "units": 2.84
+    },
+    "8": {
+     "p_carry": 0.446,
+     "carry_lv": 36.5,
+     "p_awake": 0.002,
+     "strength": 3105,
+     "lord_lv": 4.91,
+     "units": 2.87
+    },
+    "9": {
+     "p_carry": 0.5,
+     "carry_lv": 40.0,
+     "p_awake": 0.003,
+     "strength": 4525,
+     "lord_lv": 5.0,
+     "units": 5.34
+    },
+    "10": {
+     "p_carry": 0.55,
+     "carry_lv": 40.9,
+     "p_awake": 0.005,
+     "strength": 4919,
+     "lord_lv": 5.0,
+     "units": 5.45
+    },
+    "11": {
+     "p_carry": 0.55,
+     "carry_lv": 45.5,
+     "p_awake": 0.005,
+     "strength": 5146,
+     "lord_lv": 5.99,
+     "units": 5.46
+    },
+    "12": {
+     "p_carry": 0.55,
+     "carry_lv": 47.6,
+     "p_awake": 0.005,
+     "strength": 5858,
+     "lord_lv": 6.0,
+     "units": 6.55
+    },
+    "13": {
+     "p_carry": 0.55,
+     "carry_lv": 49.9,
+     "p_awake": 0.005,
+     "strength": 6156,
+     "lord_lv": 6.0,
+     "units": 6.55
+    },
+    "14": {
+     "p_carry": 0.55,
+     "carry_lv": 52.5,
+     "p_awake": 0.005,
+     "strength": 6385,
+     "lord_lv": 6.0,
+     "units": 6.55
+    },
+    "hp_end": 5.5,
+    "p_alive_r14": 0.204,
+    "mean_out_round": 11.23,
+    "win_r8": 0.285
+   },
+   "标准(2/4/7/10/13)": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 787,
+     "lord_lv": 1.0,
+     "units": 1.89
+    },
+    "2": {
+     "p_carry": 0.021,
+     "carry_lv": 4.8,
+     "p_awake": 0.0,
+     "strength": 953,
+     "lord_lv": 2.0,
+     "units": 1.93
+    },
+    "3": {
+     "p_carry": 0.148,
+     "carry_lv": 12.1,
+     "p_awake": 0.0,
+     "strength": 1299,
+     "lord_lv": 2.0,
+     "units": 2.06
+    },
+    "4": {
+     "p_carry": 0.212,
+     "carry_lv": 16.4,
+     "p_awake": 0.0,
+     "strength": 1625,
+     "lord_lv": 2.97,
+     "units": 2.18
+    },
+    "5": {
+     "p_carry": 0.356,
+     "carry_lv": 17.5,
+     "p_awake": 0.001,
+     "strength": 2624,
+     "lord_lv": 3.01,
+     "units": 3.62
+    },
+    "6": {
+     "p_carry": 0.474,
+     "carry_lv": 20.2,
+     "p_awake": 0.003,
+     "strength": 3184,
+     "lord_lv": 3.01,
+     "units": 4.0
+    },
+    "7": {
+     "p_carry": 0.507,
+     "carry_lv": 28.4,
+     "p_awake": 0.003,
+     "strength": 3609,
+     "lord_lv": 3.99,
+     "units": 4.06
+    },
+    "8": {
+     "p_carry": 0.606,
+     "carry_lv": 33.8,
+     "p_awake": 0.004,
+     "strength": 4790,
+     "lord_lv": 4.0,
+     "units": 5.5
+    },
+    "9": {
+     "p_carry": 0.668,
+     "carry_lv": 36.4,
+     "p_awake": 0.009,
+     "strength": 5267,
+     "lord_lv": 4.0,
+     "units": 5.64
+    },
+    "10": {
+     "p_carry": 0.679,
+     "carry_lv": 42.8,
+     "p_awake": 0.009,
+     "strength": 5638,
+     "lord_lv": 4.99,
+     "units": 5.68
+    },
+    "11": {
+     "p_carry": 0.742,
+     "carry_lv": 44.6,
+     "p_awake": 0.017,
+     "strength": 6521,
+     "lord_lv": 5.0,
+     "units": 6.74
+    },
+    "12": {
+     "p_carry": 0.77,
+     "carry_lv": 47.3,
+     "p_awake": 0.026,
+     "strength": 6908,
+     "lord_lv": 5.0,
+     "units": 6.77
+    },
+    "13": {
+     "p_carry": 0.77,
+     "carry_lv": 52.9,
+     "p_awake": 0.026,
+     "strength": 7225,
+     "lord_lv": 6.0,
+     "units": 6.77
+    },
+    "14": {
+     "p_carry": 0.77,
+     "carry_lv": 55.0,
+     "p_awake": 0.026,
+     "strength": 7431,
+     "lord_lv": 6.0,
+     "units": 6.77
+    },
+    "hp_end": 7.8,
+    "p_alive_r14": 0.324,
+    "mean_out_round": 12.48,
+    "win_r8": 0.572
+   },
+   "卡2级到8": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 777,
+     "lord_lv": 1.0,
+     "units": 1.87
+    },
+    "2": {
+     "p_carry": 0.026,
+     "carry_lv": 7.2,
+     "p_awake": 0.0,
+     "strength": 932,
+     "lord_lv": 2.0,
+     "units": 1.9
+    },
+    "3": {
+     "p_carry": 0.186,
+     "carry_lv": 5.5,
+     "p_awake": 0.0,
+     "strength": 1355,
+     "lord_lv": 2.01,
+     "units": 2.19
+    },
+    "4": {
+     "p_carry": 0.324,
+     "carry_lv": 10.4,
+     "p_awake": 0.0,
+     "strength": 2318,
+     "lord_lv": 2.01,
+     "units": 3.65
+    },
+    "5": {
+     "p_carry": 0.466,
+     "carry_lv": 13.0,
+     "p_awake": 0.001,
+     "strength": 3021,
+     "lord_lv": 2.04,
+     "units": 4.35
+    },
+    "6": {
+     "p_carry": 0.604,
+     "carry_lv": 15.8,
+     "p_awake": 0.002,
+     "strength": 3598,
+     "lord_lv": 2.04,
+     "units": 4.62
+    },
+    "7": {
+     "p_carry": 0.703,
+     "carry_lv": 19.5,
+     "p_awake": 0.01,
+     "strength": 4114,
+     "lord_lv": 2.08,
+     "units": 4.77
+    },
+    "8": {
+     "p_carry": 0.769,
+     "carry_lv": 28.3,
+     "p_awake": 0.024,
+     "strength": 5098,
+     "lord_lv": 3.0,
+     "units": 5.57
+    },
+    "9": {
+     "p_carry": 0.864,
+     "carry_lv": 31.8,
+     "p_awake": 0.06,
+     "strength": 5842,
+     "lord_lv": 3.0,
+     "units": 5.86
+    },
+    "10": {
+     "p_carry": 0.873,
+     "carry_lv": 38.6,
+     "p_awake": 0.064,
+     "strength": 6335,
+     "lord_lv": 4.0,
+     "units": 5.87
+    },
+    "11": {
+     "p_carry": 0.9,
+     "carry_lv": 44.4,
+     "p_awake": 0.084,
+     "strength": 6882,
+     "lord_lv": 4.0,
+     "units": 5.9
+    },
+    "12": {
+     "p_carry": 0.907,
+     "carry_lv": 48.7,
+     "p_awake": 0.087,
+     "strength": 7236,
+     "lord_lv": 5.0,
+     "units": 5.93
+    },
+    "13": {
+     "p_carry": 0.909,
+     "carry_lv": 50.2,
+     "p_awake": 0.09,
+     "strength": 7374,
+     "lord_lv": 5.09,
+     "units": 5.94
+    },
+    "14": {
+     "p_carry": 0.909,
+     "carry_lv": 53.2,
+     "p_awake": 0.09,
+     "strength": 7917,
+     "lord_lv": 6.0,
+     "units": 6.62
+    },
+    "hp_end": 9.7,
+    "p_alive_r14": 0.45,
+    "mean_out_round": 13.52,
+    "win_r8": 0.673
+   },
+   "卡3级到10": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 766,
+     "lord_lv": 1.0,
+     "units": 1.85
+    },
+    "2": {
+     "p_carry": 0.023,
+     "carry_lv": 8.6,
+     "p_awake": 0.0,
+     "strength": 926,
+     "lord_lv": 2.0,
+     "units": 1.88
+    },
+    "3": {
+     "p_carry": 0.15,
+     "carry_lv": 8.0,
+     "p_awake": 0.0,
+     "strength": 1233,
+     "lord_lv": 2.01,
+     "units": 2.01
+    },
+    "4": {
+     "p_carry": 0.223,
+     "carry_lv": 16.1,
+     "p_awake": 0.0,
+     "strength": 1607,
+     "lord_lv": 2.97,
+     "units": 2.14
+    },
+    "5": {
+     "p_carry": 0.378,
+     "carry_lv": 18.5,
+     "p_awake": 0.0,
+     "strength": 2641,
+     "lord_lv": 3.0,
+     "units": 3.59
+    },
+    "6": {
+     "p_carry": 0.497,
+     "carry_lv": 20.3,
+     "p_awake": 0.0,
+     "strength": 3596,
+     "lord_lv": 3.0,
+     "units": 4.93
+    },
+    "7": {
+     "p_carry": 0.631,
+     "carry_lv": 23.0,
+     "p_awake": 0.007,
+     "strength": 4352,
+     "lord_lv": 3.01,
+     "units": 5.53
+    },
+    "8": {
+     "p_carry": 0.762,
+     "carry_lv": 27.0,
+     "p_awake": 0.024,
+     "strength": 5093,
+     "lord_lv": 3.01,
+     "units": 5.76
+    },
+    "9": {
+     "p_carry": 0.854,
+     "carry_lv": 31.3,
+     "p_awake": 0.07,
+     "strength": 5829,
+     "lord_lv": 3.08,
+     "units": 5.85
+    },
+    "10": {
+     "p_carry": 0.876,
+     "carry_lv": 38.6,
+     "p_awake": 0.093,
+     "strength": 6463,
+     "lord_lv": 4.0,
+     "units": 5.88
+    },
+    "11": {
+     "p_carry": 0.906,
+     "carry_lv": 44.0,
+     "p_awake": 0.118,
+     "strength": 7033,
+     "lord_lv": 4.0,
+     "units": 5.91
+    },
+    "12": {
+     "p_carry": 0.908,
+     "carry_lv": 48.3,
+     "p_awake": 0.125,
+     "strength": 7381,
+     "lord_lv": 5.0,
+     "units": 5.96
+    },
+    "13": {
+     "p_carry": 0.912,
+     "carry_lv": 50.0,
+     "p_awake": 0.133,
+     "strength": 7566,
+     "lord_lv": 5.13,
+     "units": 5.97
+    },
+    "14": {
+     "p_carry": 0.912,
+     "carry_lv": 53.4,
+     "p_awake": 0.133,
+     "strength": 8115,
+     "lord_lv": 6.0,
+     "units": 6.61
+    },
+    "hp_end": 9.0,
+    "p_alive_r14": 0.376,
+    "mean_out_round": 13.16,
+    "win_r8": 0.659
+   },
+   "卡4级到11": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 787,
+     "lord_lv": 1.0,
+     "units": 1.89
+    },
+    "2": {
+     "p_carry": 0.026,
+     "carry_lv": 7.3,
+     "p_awake": 0.0,
+     "strength": 977,
+     "lord_lv": 2.0,
+     "units": 1.93
+    },
+    "3": {
+     "p_carry": 0.153,
+     "carry_lv": 7.1,
+     "p_awake": 0.0,
+     "strength": 1281,
+     "lord_lv": 2.0,
+     "units": 2.07
+    },
+    "4": {
+     "p_carry": 0.212,
+     "carry_lv": 17.8,
+     "p_awake": 0.0,
+     "strength": 1652,
+     "lord_lv": 2.96,
+     "units": 2.17
+    },
+    "5": {
+     "p_carry": 0.334,
+     "carry_lv": 19.8,
+     "p_awake": 0.0,
+     "strength": 2105,
+     "lord_lv": 3.01,
+     "units": 2.4
+    },
+    "6": {
+     "p_carry": 0.374,
+     "carry_lv": 25.8,
+     "p_awake": 0.0,
+     "strength": 2446,
+     "lord_lv": 3.97,
+     "units": 2.46
+    },
+    "7": {
+     "p_carry": 0.448,
+     "carry_lv": 28.4,
+     "p_awake": 0.001,
+     "strength": 3395,
+     "lord_lv": 4.0,
+     "units": 3.94
+    },
+    "8": {
+     "p_carry": 0.563,
+     "carry_lv": 34.3,
+     "p_awake": 0.002,
+     "strength": 4702,
+     "lord_lv": 4.0,
+     "units": 5.5
+    },
+    "9": {
+     "p_carry": 0.681,
+     "carry_lv": 37.7,
+     "p_awake": 0.007,
+     "strength": 5440,
+     "lord_lv": 4.0,
+     "units": 5.68
+    },
+    "10": {
+     "p_carry": 0.758,
+     "carry_lv": 41.0,
+     "p_awake": 0.019,
+     "strength": 5990,
+     "lord_lv": 4.0,
+     "units": 5.76
+    },
+    "11": {
+     "p_carry": 0.769,
+     "carry_lv": 47.2,
+     "p_awake": 0.022,
+     "strength": 6425,
+     "lord_lv": 4.99,
+     "units": 5.83
+    },
+    "12": {
+     "p_carry": 0.803,
+     "carry_lv": 49.2,
+     "p_awake": 0.028,
+     "strength": 7075,
+     "lord_lv": 5.0,
+     "units": 6.6
+    },
+    "13": {
+     "p_carry": 0.803,
+     "carry_lv": 53.8,
+     "p_awake": 0.028,
+     "strength": 7403,
+     "lord_lv": 5.99,
+     "units": 6.6
+    },
+    "14": {
+     "p_carry": 0.803,
+     "carry_lv": 55.8,
+     "p_awake": 0.028,
+     "strength": 7703,
+     "lord_lv": 6.0,
+     "units": 6.8
+    },
+    "hp_end": 7.2,
+    "p_alive_r14": 0.3,
+    "mean_out_round": 12.28,
+    "win_r8": 0.543
+   },
+   "卡3级到7再速升": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 778,
+     "lord_lv": 1.0,
+     "units": 1.87
+    },
+    "2": {
+     "p_carry": 0.031,
+     "carry_lv": 4.5,
+     "p_awake": 0.0,
+     "strength": 952,
+     "lord_lv": 2.0,
+     "units": 1.91
+    },
+    "3": {
+     "p_carry": 0.158,
+     "carry_lv": 9.0,
+     "p_awake": 0.0,
+     "strength": 1273,
+     "lord_lv": 2.0,
+     "units": 2.04
+    },
+    "4": {
+     "p_carry": 0.224,
+     "carry_lv": 17.8,
+     "p_awake": 0.0,
+     "strength": 1645,
+     "lord_lv": 2.97,
+     "units": 2.16
+    },
+    "5": {
+     "p_carry": 0.368,
+     "carry_lv": 20.3,
+     "p_awake": 0.0,
+     "strength": 2649,
+     "lord_lv": 3.0,
+     "units": 3.56
+    },
+    "6": {
+     "p_carry": 0.492,
+     "carry_lv": 21.7,
+     "p_awake": 0.0,
+     "strength": 3189,
+     "lord_lv": 3.01,
+     "units": 3.93
+    },
+    "7": {
+     "p_carry": 0.507,
+     "carry_lv": 27.3,
+     "p_awake": 0.001,
+     "strength": 3501,
+     "lord_lv": 3.99,
+     "units": 3.97
+    },
+    "8": {
+     "p_carry": 0.583,
+     "carry_lv": 31.1,
+     "p_awake": 0.003,
+     "strength": 4127,
+     "lord_lv": 4.0,
+     "units": 4.49
+    },
+    "9": {
+     "p_carry": 0.592,
+     "carry_lv": 37.4,
+     "p_awake": 0.005,
+     "strength": 4473,
+     "lord_lv": 4.99,
+     "units": 4.52
+    },
+    "10": {
+     "p_carry": 0.61,
+     "carry_lv": 39.0,
+     "p_awake": 0.006,
+     "strength": 4653,
+     "lord_lv": 5.0,
+     "units": 4.62
+    },
+    "11": {
+     "p_carry": 0.61,
+     "carry_lv": 42.8,
+     "p_awake": 0.007,
+     "strength": 4859,
+     "lord_lv": 5.86,
+     "units": 4.62
+    },
+    "12": {
+     "p_carry": 0.61,
+     "carry_lv": 45.1,
+     "p_awake": 0.007,
+     "strength": 5939,
+     "lord_lv": 6.0,
+     "units": 6.58
+    },
+    "13": {
+     "p_carry": 0.61,
+     "carry_lv": 47.1,
+     "p_awake": 0.007,
+     "strength": 6253,
+     "lord_lv": 6.0,
+     "units": 6.61
+    },
+    "14": {
+     "p_carry": 0.61,
+     "carry_lv": 49.2,
+     "p_awake": 0.007,
+     "strength": 6469,
+     "lord_lv": 6.0,
+     "units": 6.61
+    },
+    "hp_end": 5.5,
+    "p_alive_r14": 0.217,
+    "mean_out_round": 11.86,
+    "win_r8": 0.463
+   },
+   "永远卡3级": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 775,
+     "lord_lv": 1.0,
+     "units": 1.88
+    },
+    "2": {
+     "p_carry": 0.02,
+     "carry_lv": 13.7,
+     "p_awake": 0.0,
+     "strength": 952,
+     "lord_lv": 2.0,
+     "units": 1.92
+    },
+    "3": {
+     "p_carry": 0.14,
+     "carry_lv": 7.4,
+     "p_awake": 0.0,
+     "strength": 1237,
+     "lord_lv": 2.01,
+     "units": 2.05
+    },
+    "4": {
+     "p_carry": 0.198,
+     "carry_lv": 16.2,
+     "p_awake": 0.0,
+     "strength": 1610,
+     "lord_lv": 2.97,
+     "units": 2.17
+    },
+    "5": {
+     "p_carry": 0.356,
+     "carry_lv": 18.8,
+     "p_awake": 0.0,
+     "strength": 2644,
+     "lord_lv": 3.01,
+     "units": 3.59
+    },
+    "6": {
+     "p_carry": 0.489,
+     "carry_lv": 21.5,
+     "p_awake": 0.001,
+     "strength": 3659,
+     "lord_lv": 3.01,
+     "units": 4.93
+    },
+    "7": {
+     "p_carry": 0.626,
+     "carry_lv": 24.6,
+     "p_awake": 0.005,
+     "strength": 4446,
+     "lord_lv": 3.02,
+     "units": 5.53
+    },
+    "8": {
+     "p_carry": 0.779,
+     "carry_lv": 29.1,
+     "p_awake": 0.017,
+     "strength": 5264,
+     "lord_lv": 3.02,
+     "units": 5.78
+    },
+    "9": {
+     "p_carry": 0.874,
+     "carry_lv": 32.6,
+     "p_awake": 0.054,
+     "strength": 5971,
+     "lord_lv": 3.07,
+     "units": 5.87
+    },
+    "10": {
+     "p_carry": 0.922,
+     "carry_lv": 35.7,
+     "p_awake": 0.116,
+     "strength": 6551,
+     "lord_lv": 3.08,
+     "units": 5.92
+    },
+    "11": {
+     "p_carry": 0.945,
+     "carry_lv": 40.6,
+     "p_awake": 0.19,
+     "strength": 7190,
+     "lord_lv": 3.11,
+     "units": 5.95
+    },
+    "12": {
+     "p_carry": 0.963,
+     "carry_lv": 45.1,
+     "p_awake": 0.27,
+     "strength": 7868,
+     "lord_lv": 3.4,
+     "units": 5.96
+    },
+    "13": {
+     "p_carry": 0.971,
+     "carry_lv": 48.4,
+     "p_awake": 0.371,
+     "strength": 8448,
+     "lord_lv": 3.42,
+     "units": 5.97
+    },
+    "14": {
+     "p_carry": 0.978,
+     "carry_lv": 51.4,
+     "p_awake": 0.45,
+     "strength": 8947,
+     "lord_lv": 3.45,
+     "units": 5.98
+    },
+    "hp_end": 10.1,
+    "p_alive_r14": 0.434,
+    "mean_out_round": 13.35,
+    "win_r8": 0.681
+   },
+   "永远卡4级": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 783,
+     "lord_lv": 1.0,
+     "units": 1.88
+    },
+    "2": {
+     "p_carry": 0.028,
+     "carry_lv": 19.9,
+     "p_awake": 0.0,
+     "strength": 988,
+     "lord_lv": 2.0,
+     "units": 1.93
+    },
+    "3": {
+     "p_carry": 0.154,
+     "carry_lv": 9.2,
+     "p_awake": 0.0,
+     "strength": 1289,
+     "lord_lv": 2.0,
+     "units": 2.06
+    },
+    "4": {
+     "p_carry": 0.215,
+     "carry_lv": 21.7,
+     "p_awake": 0.0,
+     "strength": 1684,
+     "lord_lv": 2.96,
+     "units": 2.16
+    },
+    "5": {
+     "p_carry": 0.346,
+     "carry_lv": 22.1,
+     "p_awake": 0.0,
+     "strength": 2161,
+     "lord_lv": 3.01,
+     "units": 2.43
+    },
+    "6": {
+     "p_carry": 0.388,
+     "carry_lv": 30.9,
+     "p_awake": 0.0,
+     "strength": 2598,
+     "lord_lv": 3.97,
+     "units": 2.52
+    },
+    "7": {
+     "p_carry": 0.471,
+     "carry_lv": 31.7,
+     "p_awake": 0.001,
+     "strength": 3525,
+     "lord_lv": 4.0,
+     "units": 3.98
+    },
+    "8": {
+     "p_carry": 0.576,
+     "carry_lv": 35.4,
+     "p_awake": 0.001,
+     "strength": 4748,
+     "lord_lv": 4.0,
+     "units": 5.52
+    },
+    "9": {
+     "p_carry": 0.71,
+     "carry_lv": 39.4,
+     "p_awake": 0.013,
+     "strength": 5596,
+     "lord_lv": 4.0,
+     "units": 5.71
+    },
+    "10": {
+     "p_carry": 0.787,
+     "carry_lv": 42.9,
+     "p_awake": 0.024,
+     "strength": 6189,
+     "lord_lv": 4.0,
+     "units": 5.79
+    },
+    "11": {
+     "p_carry": 0.858,
+     "carry_lv": 49.2,
+     "p_awake": 0.056,
+     "strength": 7012,
+     "lord_lv": 4.01,
+     "units": 5.87
+    },
+    "12": {
+     "p_carry": 0.904,
+     "carry_lv": 53.6,
+     "p_awake": 0.102,
+     "strength": 7686,
+     "lord_lv": 4.01,
+     "units": 5.92
+    },
+    "13": {
+     "p_carry": 0.938,
+     "carry_lv": 57.3,
+     "p_awake": 0.158,
+     "strength": 8322,
+     "lord_lv": 4.03,
+     "units": 5.96
+    },
+    "14": {
+     "p_carry": 0.958,
+     "carry_lv": 61.1,
+     "p_awake": 0.207,
+     "strength": 8888,
+     "lord_lv": 4.03,
+     "units": 5.98
+    },
+    "hp_end": 8.5,
+    "p_alive_r14": 0.334,
+    "mean_out_round": 12.4,
+    "win_r8": 0.548
+   }
+  },
+  "安琪拉": {
+   "速升(2/3/5/8/11)": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 769,
+     "lord_lv": 1.0,
+     "units": 1.86
+    },
+    "2": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 912,
+     "lord_lv": 2.0,
+     "units": 1.89
+    },
+    "3": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 937,
+     "lord_lv": 2.12,
+     "units": 1.89
+    },
+    "4": {
+     "p_carry": 0.062,
+     "carry_lv": 15.5,
+     "p_awake": 0.0,
+     "strength": 1152,
+     "lord_lv": 2.99,
+     "units": 1.97
+    },
+    "5": {
+     "p_carry": 0.108,
+     "carry_lv": 19.9,
+     "p_awake": 0.0,
+     "strength": 1354,
+     "lord_lv": 3.42,
+     "units": 2.04
+    },
+    "6": {
+     "p_carry": 0.215,
+     "carry_lv": 28.0,
+     "p_awake": 0.0,
+     "strength": 2051,
+     "lord_lv": 3.99,
+     "units": 2.67
+    },
+    "7": {
+     "p_carry": 0.266,
+     "carry_lv": 27.3,
+     "p_awake": 0.0,
+     "strength": 2253,
+     "lord_lv": 4.0,
+     "units": 2.82
+    },
+    "8": {
+     "p_carry": 0.313,
+     "carry_lv": 31.8,
+     "p_awake": 0.0,
+     "strength": 2579,
+     "lord_lv": 4.94,
+     "units": 2.89
+    },
+    "9": {
+     "p_carry": 0.417,
+     "carry_lv": 33.7,
+     "p_awake": 0.0,
+     "strength": 4061,
+     "lord_lv": 5.0,
+     "units": 5.36
+    },
+    "10": {
+     "p_carry": 0.484,
+     "carry_lv": 35.8,
+     "p_awake": 0.002,
+     "strength": 4518,
+     "lord_lv": 5.0,
+     "units": 5.46
+    },
+    "11": {
+     "p_carry": 0.516,
+     "carry_lv": 41.5,
+     "p_awake": 0.002,
+     "strength": 4953,
+     "lord_lv": 5.99,
+     "units": 5.5
+    },
+    "12": {
+     "p_carry": 0.679,
+     "carry_lv": 45.4,
+     "p_awake": 0.009,
+     "strength": 6389,
+     "lord_lv": 6.0,
+     "units": 6.67
+    },
+    "13": {
+     "p_carry": 0.792,
+     "carry_lv": 49.9,
+     "p_awake": 0.035,
+     "strength": 7475,
+     "lord_lv": 6.0,
+     "units": 6.79
+    },
+    "14": {
+     "p_carry": 0.864,
+     "carry_lv": 54.4,
+     "p_awake": 0.073,
+     "strength": 8392,
+     "lord_lv": 6.0,
+     "units": 6.86
+    },
+    "hp_end": 3.6,
+    "p_alive_r14": 0.138,
+    "mean_out_round": 10.45,
+    "win_r8": 0.19
+   },
+   "标准(2/4/7/10/13)": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 776,
+     "lord_lv": 1.0,
+     "units": 1.87
+    },
+    "2": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1010,
+     "lord_lv": 2.0,
+     "units": 2.14
+    },
+    "3": {
+     "p_carry": 0.001,
+     "carry_lv": 1.0,
+     "p_awake": 0.0,
+     "strength": 1410,
+     "lord_lv": 2.01,
+     "units": 3.02
+    },
+    "4": {
+     "p_carry": 0.013,
+     "carry_lv": 8.6,
+     "p_awake": 0.0,
+     "strength": 1551,
+     "lord_lv": 2.99,
+     "units": 3.06
+    },
+    "5": {
+     "p_carry": 0.097,
+     "carry_lv": 24.0,
+     "p_awake": 0.0,
+     "strength": 2248,
+     "lord_lv": 3.02,
+     "units": 4.08
+    },
+    "6": {
+     "p_carry": 0.199,
+     "carry_lv": 22.7,
+     "p_awake": 0.0,
+     "strength": 2640,
+     "lord_lv": 3.02,
+     "units": 4.34
+    },
+    "7": {
+     "p_carry": 0.231,
+     "carry_lv": 33.2,
+     "p_awake": 0.0,
+     "strength": 3028,
+     "lord_lv": 3.99,
+     "units": 4.4
+    },
+    "8": {
+     "p_carry": 0.397,
+     "carry_lv": 36.6,
+     "p_awake": 0.0,
+     "strength": 4128,
+     "lord_lv": 4.0,
+     "units": 5.36
+    },
+    "9": {
+     "p_carry": 0.491,
+     "carry_lv": 38.6,
+     "p_awake": 0.002,
+     "strength": 4670,
+     "lord_lv": 4.0,
+     "units": 5.48
+    },
+    "10": {
+     "p_carry": 0.521,
+     "carry_lv": 46.2,
+     "p_awake": 0.002,
+     "strength": 5223,
+     "lord_lv": 5.0,
+     "units": 5.53
+    },
+    "11": {
+     "p_carry": 0.652,
+     "carry_lv": 47.9,
+     "p_awake": 0.008,
+     "strength": 6433,
+     "lord_lv": 5.0,
+     "units": 6.65
+    },
+    "12": {
+     "p_carry": 0.756,
+     "carry_lv": 49.7,
+     "p_awake": 0.014,
+     "strength": 7174,
+     "lord_lv": 5.0,
+     "units": 6.76
+    },
+    "13": {
+     "p_carry": 0.768,
+     "carry_lv": 54.2,
+     "p_awake": 0.021,
+     "strength": 7619,
+     "lord_lv": 5.99,
+     "units": 6.77
+    },
+    "14": {
+     "p_carry": 0.868,
+     "carry_lv": 57.2,
+     "p_awake": 0.059,
+     "strength": 8601,
+     "lord_lv": 6.0,
+     "units": 6.87
+    },
+    "hp_end": 6.3,
+    "p_alive_r14": 0.264,
+    "mean_out_round": 11.92,
+    "win_r8": 0.4
+   },
+   "卡2级到8": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 770,
+     "lord_lv": 1.0,
+     "units": 1.87
+    },
+    "2": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1000,
+     "lord_lv": 2.0,
+     "units": 2.18
+    },
+    "3": {
+     "p_carry": 0.001,
+     "carry_lv": 1.0,
+     "p_awake": 0.0,
+     "strength": 1676,
+     "lord_lv": 2.01,
+     "units": 3.66
+    },
+    "4": {
+     "p_carry": 0.001,
+     "carry_lv": 9.0,
+     "p_awake": 0.0,
+     "strength": 1896,
+     "lord_lv": 2.01,
+     "units": 3.99
+    },
+    "5": {
+     "p_carry": 0.002,
+     "carry_lv": 5.2,
+     "p_awake": 0.0,
+     "strength": 2000,
+     "lord_lv": 2.03,
+     "units": 4.03
+    },
+    "6": {
+     "p_carry": 0.008,
+     "carry_lv": 13.6,
+     "p_awake": 0.0,
+     "strength": 2103,
+     "lord_lv": 2.03,
+     "units": 4.04
+    },
+    "7": {
+     "p_carry": 0.023,
+     "carry_lv": 18.9,
+     "p_awake": 0.0,
+     "strength": 2254,
+     "lord_lv": 2.07,
+     "units": 4.1
+    },
+    "8": {
+     "p_carry": 0.373,
+     "carry_lv": 25.8,
+     "p_awake": 0.0,
+     "strength": 3804,
+     "lord_lv": 3.0,
+     "units": 5.37
+    },
+    "9": {
+     "p_carry": 0.511,
+     "carry_lv": 29.3,
+     "p_awake": 0.003,
+     "strength": 4518,
+     "lord_lv": 3.01,
+     "units": 5.51
+    },
+    "10": {
+     "p_carry": 0.548,
+     "carry_lv": 35.2,
+     "p_awake": 0.003,
+     "strength": 5051,
+     "lord_lv": 4.0,
+     "units": 5.55
+    },
+    "11": {
+     "p_carry": 0.647,
+     "carry_lv": 41.5,
+     "p_awake": 0.008,
+     "strength": 5865,
+     "lord_lv": 4.0,
+     "units": 5.65
+    },
+    "12": {
+     "p_carry": 0.671,
+     "carry_lv": 46.6,
+     "p_awake": 0.009,
+     "strength": 6361,
+     "lord_lv": 4.99,
+     "units": 5.67
+    },
+    "13": {
+     "p_carry": 0.695,
+     "carry_lv": 48.1,
+     "p_awake": 0.013,
+     "strength": 6656,
+     "lord_lv": 5.06,
+     "units": 5.71
+    },
+    "14": {
+     "p_carry": 0.746,
+     "carry_lv": 51.9,
+     "p_awake": 0.022,
+     "strength": 7531,
+     "lord_lv": 6.0,
+     "units": 6.37
+    },
+    "hp_end": 3.7,
+    "p_alive_r14": 0.205,
+    "mean_out_round": 12.0,
+    "win_r8": 0.388
+   },
+   "卡3级到10": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 766,
+     "lord_lv": 1.0,
+     "units": 1.84
+    },
+    "2": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 996,
+     "lord_lv": 2.0,
+     "units": 2.09
+    },
+    "3": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1409,
+     "lord_lv": 2.0,
+     "units": 3.01
+    },
+    "4": {
+     "p_carry": 0.014,
+     "carry_lv": 6.6,
+     "p_awake": 0.0,
+     "strength": 1560,
+     "lord_lv": 2.98,
+     "units": 3.04
+    },
+    "5": {
+     "p_carry": 0.108,
+     "carry_lv": 18.7,
+     "p_awake": 0.0,
+     "strength": 2246,
+     "lord_lv": 3.0,
+     "units": 4.07
+    },
+    "6": {
+     "p_carry": 0.208,
+     "carry_lv": 20.0,
+     "p_awake": 0.0,
+     "strength": 2932,
+     "lord_lv": 3.01,
+     "units": 4.96
+    },
+    "7": {
+     "p_carry": 0.309,
+     "carry_lv": 23.4,
+     "p_awake": 0.0,
+     "strength": 3439,
+     "lord_lv": 3.01,
+     "units": 5.27
+    },
+    "8": {
+     "p_carry": 0.451,
+     "carry_lv": 28.3,
+     "p_awake": 0.0,
+     "strength": 4117,
+     "lord_lv": 3.01,
+     "units": 5.45
+    },
+    "9": {
+     "p_carry": 0.554,
+     "carry_lv": 31.3,
+     "p_awake": 0.005,
+     "strength": 4736,
+     "lord_lv": 3.07,
+     "units": 5.55
+    },
+    "10": {
+     "p_carry": 0.618,
+     "carry_lv": 37.7,
+     "p_awake": 0.009,
+     "strength": 5441,
+     "lord_lv": 4.0,
+     "units": 5.62
+    },
+    "11": {
+     "p_carry": 0.703,
+     "carry_lv": 44.6,
+     "p_awake": 0.019,
+     "strength": 6379,
+     "lord_lv": 4.0,
+     "units": 5.7
+    },
+    "12": {
+     "p_carry": 0.718,
+     "carry_lv": 50.6,
+     "p_awake": 0.021,
+     "strength": 6942,
+     "lord_lv": 4.99,
+     "units": 5.72
+    },
+    "13": {
+     "p_carry": 0.736,
+     "carry_lv": 52.3,
+     "p_awake": 0.027,
+     "strength": 7217,
+     "lord_lv": 5.06,
+     "units": 5.75
+    },
+    "14": {
+     "p_carry": 0.784,
+     "carry_lv": 56.0,
+     "p_awake": 0.042,
+     "strength": 8153,
+     "lord_lv": 6.0,
+     "units": 6.4
+    },
+    "hp_end": 6.9,
+    "p_alive_r14": 0.284,
+    "mean_out_round": 12.25,
+    "win_r8": 0.423
+   },
+   "卡4级到11": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 774,
+     "lord_lv": 1.0,
+     "units": 1.88
+    },
+    "2": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 980,
+     "lord_lv": 2.0,
+     "units": 2.15
+    },
+    "3": {
+     "p_carry": 0.001,
+     "carry_lv": 11.0,
+     "p_awake": 0.0,
+     "strength": 1380,
+     "lord_lv": 2.01,
+     "units": 3.03
+    },
+    "4": {
+     "p_carry": 0.008,
+     "carry_lv": 5.6,
+     "p_awake": 0.0,
+     "strength": 1529,
+     "lord_lv": 2.99,
+     "units": 3.06
+    },
+    "5": {
+     "p_carry": 0.071,
+     "carry_lv": 12.3,
+     "p_awake": 0.0,
+     "strength": 1740,
+     "lord_lv": 3.01,
+     "units": 3.23
+    },
+    "6": {
+     "p_carry": 0.115,
+     "carry_lv": 18.2,
+     "p_awake": 0.0,
+     "strength": 2015,
+     "lord_lv": 3.98,
+     "units": 3.31
+    },
+    "7": {
+     "p_carry": 0.224,
+     "carry_lv": 24.6,
+     "p_awake": 0.0,
+     "strength": 2931,
+     "lord_lv": 4.0,
+     "units": 4.6
+    },
+    "8": {
+     "p_carry": 0.409,
+     "carry_lv": 32.2,
+     "p_awake": 0.0,
+     "strength": 4054,
+     "lord_lv": 4.0,
+     "units": 5.4
+    },
+    "9": {
+     "p_carry": 0.573,
+     "carry_lv": 36.5,
+     "p_awake": 0.003,
+     "strength": 4906,
+     "lord_lv": 4.0,
+     "units": 5.57
+    },
+    "10": {
+     "p_carry": 0.66,
+     "carry_lv": 39.0,
+     "p_awake": 0.007,
+     "strength": 5439,
+     "lord_lv": 4.0,
+     "units": 5.66
+    },
+    "11": {
+     "p_carry": 0.673,
+     "carry_lv": 44.7,
+     "p_awake": 0.009,
+     "strength": 5944,
+     "lord_lv": 4.99,
+     "units": 5.72
+    },
+    "12": {
+     "p_carry": 0.733,
+     "carry_lv": 48.1,
+     "p_awake": 0.012,
+     "strength": 6832,
+     "lord_lv": 5.0,
+     "units": 6.56
+    },
+    "13": {
+     "p_carry": 0.749,
+     "carry_lv": 52.5,
+     "p_awake": 0.013,
+     "strength": 7332,
+     "lord_lv": 5.99,
+     "units": 6.57
+    },
+    "14": {
+     "p_carry": 0.853,
+     "carry_lv": 55.3,
+     "p_awake": 0.04,
+     "strength": 8364,
+     "lord_lv": 6.0,
+     "units": 6.85
+    },
+    "hp_end": 4.9,
+    "p_alive_r14": 0.227,
+    "mean_out_round": 11.79,
+    "win_r8": 0.396
+   },
+   "卡3级到7再速升": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 774,
+     "lord_lv": 1.0,
+     "units": 1.87
+    },
+    "2": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 989,
+     "lord_lv": 2.0,
+     "units": 2.14
+    },
+    "3": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1398,
+     "lord_lv": 2.0,
+     "units": 3.04
+    },
+    "4": {
+     "p_carry": 0.017,
+     "carry_lv": 10.8,
+     "p_awake": 0.0,
+     "strength": 1532,
+     "lord_lv": 2.99,
+     "units": 3.07
+    },
+    "5": {
+     "p_carry": 0.108,
+     "carry_lv": 15.1,
+     "p_awake": 0.0,
+     "strength": 2181,
+     "lord_lv": 3.01,
+     "units": 4.09
+    },
+    "6": {
+     "p_carry": 0.203,
+     "carry_lv": 16.4,
+     "p_awake": 0.0,
+     "strength": 2544,
+     "lord_lv": 3.01,
+     "units": 4.35
+    },
+    "7": {
+     "p_carry": 0.241,
+     "carry_lv": 24.2,
+     "p_awake": 0.0,
+     "strength": 2887,
+     "lord_lv": 3.99,
+     "units": 4.41
+    },
+    "8": {
+     "p_carry": 0.326,
+     "carry_lv": 30.6,
+     "p_awake": 0.0,
+     "strength": 3485,
+     "lord_lv": 4.0,
+     "units": 4.76
+    },
+    "9": {
+     "p_carry": 0.352,
+     "carry_lv": 38.8,
+     "p_awake": 0.0,
+     "strength": 3901,
+     "lord_lv": 4.98,
+     "units": 4.8
+    },
+    "10": {
+     "p_carry": 0.4,
+     "carry_lv": 39.2,
+     "p_awake": 0.001,
+     "strength": 4150,
+     "lord_lv": 5.0,
+     "units": 4.88
+    },
+    "11": {
+     "p_carry": 0.417,
+     "carry_lv": 43.9,
+     "p_awake": 0.003,
+     "strength": 4467,
+     "lord_lv": 5.82,
+     "units": 4.9
+    },
+    "12": {
+     "p_carry": 0.6,
+     "carry_lv": 49.0,
+     "p_awake": 0.005,
+     "strength": 6254,
+     "lord_lv": 6.0,
+     "units": 6.59
+    },
+    "13": {
+     "p_carry": 0.762,
+     "carry_lv": 51.0,
+     "p_awake": 0.023,
+     "strength": 7399,
+     "lord_lv": 6.0,
+     "units": 6.76
+    },
+    "14": {
+     "p_carry": 0.859,
+     "carry_lv": 55.0,
+     "p_awake": 0.061,
+     "strength": 8394,
+     "lord_lv": 6.0,
+     "units": 6.86
+    },
+    "hp_end": 4.4,
+    "p_alive_r14": 0.176,
+    "mean_out_round": 11.37,
+    "win_r8": 0.314
+   },
+   "永远卡3级": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 775,
+     "lord_lv": 1.0,
+     "units": 1.88
+    },
+    "2": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1020,
+     "lord_lv": 2.0,
+     "units": 2.16
+    },
+    "3": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1424,
+     "lord_lv": 2.0,
+     "units": 3.03
+    },
+    "4": {
+     "p_carry": 0.009,
+     "carry_lv": 9.1,
+     "p_awake": 0.0,
+     "strength": 1553,
+     "lord_lv": 2.99,
+     "units": 3.06
+    },
+    "5": {
+     "p_carry": 0.101,
+     "carry_lv": 19.4,
+     "p_awake": 0.0,
+     "strength": 2249,
+     "lord_lv": 3.0,
+     "units": 4.1
+    },
+    "6": {
+     "p_carry": 0.224,
+     "carry_lv": 22.8,
+     "p_awake": 0.0,
+     "strength": 3017,
+     "lord_lv": 3.01,
+     "units": 5.02
+    },
+    "7": {
+     "p_carry": 0.337,
+     "carry_lv": 24.1,
+     "p_awake": 0.0,
+     "strength": 3521,
+     "lord_lv": 3.01,
+     "units": 5.32
+    },
+    "8": {
+     "p_carry": 0.478,
+     "carry_lv": 27.7,
+     "p_awake": 0.001,
+     "strength": 4164,
+     "lord_lv": 3.02,
+     "units": 5.48
+    },
+    "9": {
+     "p_carry": 0.58,
+     "carry_lv": 30.6,
+     "p_awake": 0.005,
+     "strength": 4787,
+     "lord_lv": 3.06,
+     "units": 5.58
+    },
+    "10": {
+     "p_carry": 0.663,
+     "carry_lv": 34.1,
+     "p_awake": 0.012,
+     "strength": 5440,
+     "lord_lv": 3.07,
+     "units": 5.66
+    },
+    "11": {
+     "p_carry": 0.743,
+     "carry_lv": 38.0,
+     "p_awake": 0.023,
+     "strength": 6220,
+     "lord_lv": 3.11,
+     "units": 5.74
+    },
+    "12": {
+     "p_carry": 0.797,
+     "carry_lv": 43.1,
+     "p_awake": 0.042,
+     "strength": 7127,
+     "lord_lv": 3.4,
+     "units": 5.8
+    },
+    "13": {
+     "p_carry": 0.856,
+     "carry_lv": 46.5,
+     "p_awake": 0.085,
+     "strength": 7932,
+     "lord_lv": 3.42,
+     "units": 5.86
+    },
+    "14": {
+     "p_carry": 0.909,
+     "carry_lv": 49.8,
+     "p_awake": 0.133,
+     "strength": 8748,
+     "lord_lv": 3.44,
+     "units": 5.91
+    },
+    "hp_end": 6.6,
+    "p_alive_r14": 0.289,
+    "mean_out_round": 12.38,
+    "win_r8": 0.438
+   },
+   "永远卡4级": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 769,
+     "lord_lv": 1.0,
+     "units": 1.86
+    },
+    "2": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1002,
+     "lord_lv": 2.0,
+     "units": 2.13
+    },
+    "3": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1410,
+     "lord_lv": 2.01,
+     "units": 3.03
+    },
+    "4": {
+     "p_carry": 0.011,
+     "carry_lv": 24.4,
+     "p_awake": 0.0,
+     "strength": 1584,
+     "lord_lv": 2.99,
+     "units": 3.08
+    },
+    "5": {
+     "p_carry": 0.072,
+     "carry_lv": 16.5,
+     "p_awake": 0.0,
+     "strength": 1798,
+     "lord_lv": 3.01,
+     "units": 3.24
+    },
+    "6": {
+     "p_carry": 0.131,
+     "carry_lv": 23.0,
+     "p_awake": 0.0,
+     "strength": 2108,
+     "lord_lv": 3.99,
+     "units": 3.33
+    },
+    "7": {
+     "p_carry": 0.235,
+     "carry_lv": 24.5,
+     "p_awake": 0.0,
+     "strength": 2957,
+     "lord_lv": 4.0,
+     "units": 4.61
+    },
+    "8": {
+     "p_carry": 0.397,
+     "carry_lv": 29.7,
+     "p_awake": 0.0,
+     "strength": 3939,
+     "lord_lv": 4.0,
+     "units": 5.38
+    },
+    "9": {
+     "p_carry": 0.556,
+     "carry_lv": 35.3,
+     "p_awake": 0.001,
+     "strength": 4786,
+     "lord_lv": 4.0,
+     "units": 5.56
+    },
+    "10": {
+     "p_carry": 0.681,
+     "carry_lv": 39.3,
+     "p_awake": 0.012,
+     "strength": 5559,
+     "lord_lv": 4.0,
+     "units": 5.68
+    },
+    "11": {
+     "p_carry": 0.758,
+     "carry_lv": 46.6,
+     "p_awake": 0.024,
+     "strength": 6568,
+     "lord_lv": 4.01,
+     "units": 5.77
+    },
+    "12": {
+     "p_carry": 0.83,
+     "carry_lv": 51.0,
+     "p_awake": 0.06,
+     "strength": 7454,
+     "lord_lv": 4.01,
+     "units": 5.84
+    },
+    "13": {
+     "p_carry": 0.885,
+     "carry_lv": 54.1,
+     "p_awake": 0.107,
+     "strength": 8268,
+     "lord_lv": 4.02,
+     "units": 5.9
+    },
+    "14": {
+     "p_carry": 0.928,
+     "carry_lv": 58.0,
+     "p_awake": 0.147,
+     "strength": 9067,
+     "lord_lv": 4.02,
+     "units": 5.95
+    },
+    "hp_end": 5.7,
+    "p_alive_r14": 0.267,
+    "mean_out_round": 11.97,
+    "win_r8": 0.393
+   }
+  },
+  "蒙犽": {
+   "速升(2/3/5/8/11)": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 778,
+     "lord_lv": 1.0,
+     "units": 1.88
+    },
+    "2": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 929,
+     "lord_lv": 2.0,
+     "units": 1.9
+    },
+    "3": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 968,
+     "lord_lv": 2.1,
+     "units": 1.93
+    },
+    "4": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1154,
+     "lord_lv": 2.99,
+     "units": 2.13
+    },
+    "5": {
+     "p_carry": 0.005,
+     "carry_lv": 47.8,
+     "p_awake": 0.0,
+     "strength": 1267,
+     "lord_lv": 3.44,
+     "units": 2.15
+    },
+    "6": {
+     "p_carry": 0.079,
+     "carry_lv": 23.8,
+     "p_awake": 0.0,
+     "strength": 1857,
+     "lord_lv": 3.98,
+     "units": 2.66
+    },
+    "7": {
+     "p_carry": 0.139,
+     "carry_lv": 25.1,
+     "p_awake": 0.0,
+     "strength": 2189,
+     "lord_lv": 4.0,
+     "units": 2.79
+    },
+    "8": {
+     "p_carry": 0.192,
+     "carry_lv": 31.0,
+     "p_awake": 0.0,
+     "strength": 2632,
+     "lord_lv": 4.96,
+     "units": 2.88
+    },
+    "9": {
+     "p_carry": 0.315,
+     "carry_lv": 37.2,
+     "p_awake": 0.0,
+     "strength": 4441,
+     "lord_lv": 5.0,
+     "units": 5.29
+    },
+    "10": {
+     "p_carry": 0.404,
+     "carry_lv": 37.2,
+     "p_awake": 0.0,
+     "strength": 5082,
+     "lord_lv": 5.0,
+     "units": 5.42
+    },
+    "11": {
+     "p_carry": 0.431,
+     "carry_lv": 44.9,
+     "p_awake": 0.0,
+     "strength": 5618,
+     "lord_lv": 5.99,
+     "units": 5.46
+    },
+    "12": {
+     "p_carry": 0.636,
+     "carry_lv": 49.5,
+     "p_awake": 0.006,
+     "strength": 7708,
+     "lord_lv": 6.0,
+     "units": 6.63
+    },
+    "13": {
+     "p_carry": 0.781,
+     "carry_lv": 54.9,
+     "p_awake": 0.019,
+     "strength": 9300,
+     "lord_lv": 6.0,
+     "units": 6.78
+    },
+    "14": {
+     "p_carry": 0.868,
+     "carry_lv": 59.7,
+     "p_awake": 0.048,
+     "strength": 10591,
+     "lord_lv": 6.0,
+     "units": 6.87
+    },
+    "hp_end": 3.6,
+    "p_alive_r14": 0.185,
+    "mean_out_round": 10.88,
+    "win_r8": 0.212
+   },
+   "标准(2/4/7/10/13)": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 781,
+     "lord_lv": 1.0,
+     "units": 1.88
+    },
+    "2": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1028,
+     "lord_lv": 2.0,
+     "units": 2.15
+    },
+    "3": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1444,
+     "lord_lv": 2.0,
+     "units": 3.05
+    },
+    "4": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1650,
+     "lord_lv": 2.99,
+     "units": 3.24
+    },
+    "5": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2340,
+     "lord_lv": 3.0,
+     "units": 4.71
+    },
+    "6": {
+     "p_carry": 0.002,
+     "carry_lv": 23.5,
+     "p_awake": 0.0,
+     "strength": 2544,
+     "lord_lv": 3.01,
+     "units": 4.97
+    },
+    "7": {
+     "p_carry": 0.095,
+     "carry_lv": 29.6,
+     "p_awake": 0.0,
+     "strength": 3135,
+     "lord_lv": 4.0,
+     "units": 5.07
+    },
+    "8": {
+     "p_carry": 0.268,
+     "carry_lv": 38.7,
+     "p_awake": 0.0,
+     "strength": 4351,
+     "lord_lv": 4.0,
+     "units": 5.27
+    },
+    "9": {
+     "p_carry": 0.375,
+     "carry_lv": 40.2,
+     "p_awake": 0.0,
+     "strength": 5090,
+     "lord_lv": 4.0,
+     "units": 5.38
+    },
+    "10": {
+     "p_carry": 0.413,
+     "carry_lv": 46.2,
+     "p_awake": 0.0,
+     "strength": 5621,
+     "lord_lv": 5.0,
+     "units": 5.44
+    },
+    "11": {
+     "p_carry": 0.578,
+     "carry_lv": 48.5,
+     "p_awake": 0.0,
+     "strength": 7280,
+     "lord_lv": 5.0,
+     "units": 6.58
+    },
+    "12": {
+     "p_carry": 0.697,
+     "carry_lv": 51.0,
+     "p_awake": 0.004,
+     "strength": 8331,
+     "lord_lv": 5.0,
+     "units": 6.7
+    },
+    "13": {
+     "p_carry": 0.723,
+     "carry_lv": 55.3,
+     "p_awake": 0.004,
+     "strength": 8843,
+     "lord_lv": 5.99,
+     "units": 6.72
+    },
+    "14": {
+     "p_carry": 0.842,
+     "carry_lv": 58.7,
+     "p_awake": 0.021,
+     "strength": 10056,
+     "lord_lv": 6.0,
+     "units": 6.84
+    },
+    "hp_end": 7.2,
+    "p_alive_r14": 0.314,
+    "mean_out_round": 12.38,
+    "win_r8": 0.409
+   },
+   "卡2级到8": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 777,
+     "lord_lv": 1.0,
+     "units": 1.87
+    },
+    "2": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1006,
+     "lord_lv": 2.0,
+     "units": 2.15
+    },
+    "3": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1703,
+     "lord_lv": 2.0,
+     "units": 3.69
+    },
+    "4": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1910,
+     "lord_lv": 2.01,
+     "units": 4.0
+    },
+    "5": {
+     "p_carry": 0.001,
+     "carry_lv": 6.0,
+     "p_awake": 0.0,
+     "strength": 2020,
+     "lord_lv": 2.04,
+     "units": 4.04
+    },
+    "6": {
+     "p_carry": 0.001,
+     "carry_lv": 13.0,
+     "p_awake": 0.0,
+     "strength": 2117,
+     "lord_lv": 2.04,
+     "units": 4.04
+    },
+    "7": {
+     "p_carry": 0.001,
+     "carry_lv": 15.0,
+     "p_awake": 0.0,
+     "strength": 2230,
+     "lord_lv": 2.08,
+     "units": 4.08
+    },
+    "8": {
+     "p_carry": 0.001,
+     "carry_lv": 19.0,
+     "p_awake": 0.0,
+     "strength": 2744,
+     "lord_lv": 3.0,
+     "units": 5.0
+    },
+    "9": {
+     "p_carry": 0.005,
+     "carry_lv": 25.1,
+     "p_awake": 0.0,
+     "strength": 2850,
+     "lord_lv": 3.01,
+     "units": 5.0
+    },
+    "10": {
+     "p_carry": 0.483,
+     "carry_lv": 36.0,
+     "p_awake": 0.0,
+     "strength": 5609,
+     "lord_lv": 4.0,
+     "units": 5.48
+    },
+    "11": {
+     "p_carry": 0.571,
+     "carry_lv": 44.3,
+     "p_awake": 0.005,
+     "strength": 6624,
+     "lord_lv": 4.0,
+     "units": 5.57
+    },
+    "12": {
+     "p_carry": 0.598,
+     "carry_lv": 49.1,
+     "p_awake": 0.006,
+     "strength": 7118,
+     "lord_lv": 4.99,
+     "units": 5.6
+    },
+    "13": {
+     "p_carry": 0.625,
+     "carry_lv": 51.2,
+     "p_awake": 0.007,
+     "strength": 7437,
+     "lord_lv": 5.05,
+     "units": 5.64
+    },
+    "14": {
+     "p_carry": 0.688,
+     "carry_lv": 55.3,
+     "p_awake": 0.011,
+     "strength": 8441,
+     "lord_lv": 6.0,
+     "units": 6.31
+    },
+    "hp_end": 2.2,
+    "p_alive_r14": 0.184,
+    "mean_out_round": 11.9,
+    "win_r8": 0.182
+   },
+   "卡3级到10": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 784,
+     "lord_lv": 1.0,
+     "units": 1.89
+    },
+    "2": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1005,
+     "lord_lv": 2.0,
+     "units": 2.15
+    },
+    "3": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1421,
+     "lord_lv": 2.01,
+     "units": 3.06
+    },
+    "4": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1614,
+     "lord_lv": 2.99,
+     "units": 3.25
+    },
+    "5": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2312,
+     "lord_lv": 3.01,
+     "units": 4.72
+    },
+    "6": {
+     "p_carry": 0.001,
+     "carry_lv": 15.0,
+     "p_awake": 0.0,
+     "strength": 2513,
+     "lord_lv": 3.01,
+     "units": 4.99
+    },
+    "7": {
+     "p_carry": 0.002,
+     "carry_lv": 25.2,
+     "p_awake": 0.0,
+     "strength": 2601,
+     "lord_lv": 3.02,
+     "units": 5.0
+    },
+    "8": {
+     "p_carry": 0.002,
+     "carry_lv": 33.2,
+     "p_awake": 0.0,
+     "strength": 2691,
+     "lord_lv": 3.02,
+     "units": 5.0
+    },
+    "9": {
+     "p_carry": 0.029,
+     "carry_lv": 36.6,
+     "p_awake": 0.0,
+     "strength": 2930,
+     "lord_lv": 3.07,
+     "units": 5.03
+    },
+    "10": {
+     "p_carry": 0.521,
+     "carry_lv": 40.0,
+     "p_awake": 0.002,
+     "strength": 6042,
+     "lord_lv": 4.0,
+     "units": 5.52
+    },
+    "11": {
+     "p_carry": 0.592,
+     "carry_lv": 46.7,
+     "p_awake": 0.003,
+     "strength": 6925,
+     "lord_lv": 4.0,
+     "units": 5.59
+    },
+    "12": {
+     "p_carry": 0.613,
+     "carry_lv": 52.2,
+     "p_awake": 0.005,
+     "strength": 7437,
+     "lord_lv": 5.0,
+     "units": 5.62
+    },
+    "13": {
+     "p_carry": 0.641,
+     "carry_lv": 54.7,
+     "p_awake": 0.008,
+     "strength": 7820,
+     "lord_lv": 5.06,
+     "units": 5.66
+    },
+    "14": {
+     "p_carry": 0.706,
+     "carry_lv": 59.2,
+     "p_awake": 0.015,
+     "strength": 8935,
+     "lord_lv": 6.0,
+     "units": 6.33
+    },
+    "hp_end": 3.3,
+    "p_alive_r14": 0.221,
+    "mean_out_round": 12.0,
+    "win_r8": 0.175
+   },
+   "卡4级到11": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 783,
+     "lord_lv": 1.0,
+     "units": 1.88
+    },
+    "2": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1025,
+     "lord_lv": 2.0,
+     "units": 2.15
+    },
+    "3": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1451,
+     "lord_lv": 2.0,
+     "units": 3.07
+    },
+    "4": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1658,
+     "lord_lv": 2.99,
+     "units": 3.24
+    },
+    "5": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2103,
+     "lord_lv": 3.01,
+     "units": 4.15
+    },
+    "6": {
+     "p_carry": 0.014,
+     "carry_lv": 15.3,
+     "p_awake": 0.0,
+     "strength": 2289,
+     "lord_lv": 3.99,
+     "units": 4.18
+    },
+    "7": {
+     "p_carry": 0.123,
+     "carry_lv": 25.6,
+     "p_awake": 0.0,
+     "strength": 3094,
+     "lord_lv": 4.0,
+     "units": 4.86
+    },
+    "8": {
+     "p_carry": 0.304,
+     "carry_lv": 37.4,
+     "p_awake": 0.0,
+     "strength": 4493,
+     "lord_lv": 4.0,
+     "units": 5.3
+    },
+    "9": {
+     "p_carry": 0.472,
+     "carry_lv": 41.3,
+     "p_awake": 0.001,
+     "strength": 5688,
+     "lord_lv": 4.0,
+     "units": 5.47
+    },
+    "10": {
+     "p_carry": 0.557,
+     "carry_lv": 43.7,
+     "p_awake": 0.002,
+     "strength": 6381,
+     "lord_lv": 4.0,
+     "units": 5.56
+    },
+    "11": {
+     "p_carry": 0.576,
+     "carry_lv": 50.6,
+     "p_awake": 0.002,
+     "strength": 6982,
+     "lord_lv": 5.0,
+     "units": 5.62
+    },
+    "12": {
+     "p_carry": 0.642,
+     "carry_lv": 53.3,
+     "p_awake": 0.007,
+     "strength": 8000,
+     "lord_lv": 5.0,
+     "units": 6.46
+    },
+    "13": {
+     "p_carry": 0.66,
+     "carry_lv": 58.4,
+     "p_awake": 0.009,
+     "strength": 8490,
+     "lord_lv": 5.99,
+     "units": 6.48
+    },
+    "14": {
+     "p_carry": 0.801,
+     "carry_lv": 61.8,
+     "p_awake": 0.022,
+     "strength": 9959,
+     "lord_lv": 6.0,
+     "units": 6.8
+    },
+    "hp_end": 8.2,
+    "p_alive_r14": 0.354,
+    "mean_out_round": 12.45,
+    "win_r8": 0.428
+   },
+   "卡3级到7再速升": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 776,
+     "lord_lv": 1.0,
+     "units": 1.86
+    },
+    "2": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1014,
+     "lord_lv": 2.0,
+     "units": 2.11
+    },
+    "3": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1437,
+     "lord_lv": 2.0,
+     "units": 3.02
+    },
+    "4": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1650,
+     "lord_lv": 2.99,
+     "units": 3.19
+    },
+    "5": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2352,
+     "lord_lv": 3.01,
+     "units": 4.68
+    },
+    "6": {
+     "p_carry": 0.003,
+     "carry_lv": 21.2,
+     "p_awake": 0.0,
+     "strength": 2574,
+     "lord_lv": 3.01,
+     "units": 4.98
+    },
+    "7": {
+     "p_carry": 0.1,
+     "carry_lv": 25.8,
+     "p_awake": 0.0,
+     "strength": 3143,
+     "lord_lv": 4.0,
+     "units": 5.08
+    },
+    "8": {
+     "p_carry": 0.204,
+     "carry_lv": 33.2,
+     "p_awake": 0.0,
+     "strength": 3858,
+     "lord_lv": 4.0,
+     "units": 5.18
+    },
+    "9": {
+     "p_carry": 0.241,
+     "carry_lv": 38.7,
+     "p_awake": 0.0,
+     "strength": 4259,
+     "lord_lv": 4.99,
+     "units": 5.23
+    },
+    "10": {
+     "p_carry": 0.303,
+     "carry_lv": 41.6,
+     "p_awake": 0.0,
+     "strength": 4731,
+     "lord_lv": 5.0,
+     "units": 5.34
+    },
+    "11": {
+     "p_carry": 0.326,
+     "carry_lv": 43.9,
+     "p_awake": 0.0,
+     "strength": 4999,
+     "lord_lv": 5.78,
+     "units": 5.36
+    },
+    "12": {
+     "p_carry": 0.563,
+     "carry_lv": 50.7,
+     "p_awake": 0.003,
+     "strength": 7257,
+     "lord_lv": 6.0,
+     "units": 6.56
+    },
+    "13": {
+     "p_carry": 0.743,
+     "carry_lv": 55.8,
+     "p_awake": 0.011,
+     "strength": 8989,
+     "lord_lv": 6.0,
+     "units": 6.74
+    },
+    "14": {
+     "p_carry": 0.845,
+     "carry_lv": 59.4,
+     "p_awake": 0.042,
+     "strength": 10208,
+     "lord_lv": 6.0,
+     "units": 6.84
+    },
+    "hp_end": 5.3,
+    "p_alive_r14": 0.245,
+    "mean_out_round": 11.84,
+    "win_r8": 0.353
+   },
+   "永远卡3级": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 787,
+     "lord_lv": 1.0,
+     "units": 1.89
+    },
+    "2": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1043,
+     "lord_lv": 2.0,
+     "units": 2.15
+    },
+    "3": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1457,
+     "lord_lv": 2.01,
+     "units": 3.05
+    },
+    "4": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1655,
+     "lord_lv": 2.99,
+     "units": 3.23
+    },
+    "5": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2349,
+     "lord_lv": 3.01,
+     "units": 4.71
+    },
+    "6": {
+     "p_carry": 0.001,
+     "carry_lv": 54.0,
+     "p_awake": 0.0,
+     "strength": 2567,
+     "lord_lv": 3.01,
+     "units": 5.0
+    },
+    "7": {
+     "p_carry": 0.004,
+     "carry_lv": 26.5,
+     "p_awake": 0.0,
+     "strength": 2661,
+     "lord_lv": 3.01,
+     "units": 5.0
+    },
+    "8": {
+     "p_carry": 0.004,
+     "carry_lv": 36.8,
+     "p_awake": 0.0,
+     "strength": 2753,
+     "lord_lv": 3.01,
+     "units": 5.0
+    },
+    "9": {
+     "p_carry": 0.029,
+     "carry_lv": 37.0,
+     "p_awake": 0.0,
+     "strength": 2987,
+     "lord_lv": 3.06,
+     "units": 5.03
+    },
+    "10": {
+     "p_carry": 0.037,
+     "carry_lv": 36.5,
+     "p_awake": 0.0,
+     "strength": 3102,
+     "lord_lv": 3.06,
+     "units": 5.04
+    },
+    "11": {
+     "p_carry": 0.062,
+     "carry_lv": 42.0,
+     "p_awake": 0.0,
+     "strength": 3355,
+     "lord_lv": 3.09,
+     "units": 5.06
+    },
+    "12": {
+     "p_carry": 0.205,
+     "carry_lv": 48.7,
+     "p_awake": 0.003,
+     "strength": 4476,
+     "lord_lv": 3.29,
+     "units": 5.21
+    },
+    "13": {
+     "p_carry": 0.237,
+     "carry_lv": 51.9,
+     "p_awake": 0.007,
+     "strength": 4859,
+     "lord_lv": 3.3,
+     "units": 5.24
+    },
+    "14": {
+     "p_carry": 0.272,
+     "carry_lv": 54.7,
+     "p_awake": 0.015,
+     "strength": 5293,
+     "lord_lv": 3.31,
+     "units": 5.27
+    },
+    "hp_end": 0.9,
+    "p_alive_r14": 0.047,
+    "mean_out_round": 10.9,
+    "win_r8": 0.188
+   },
+   "永远卡4级": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 775,
+     "lord_lv": 1.0,
+     "units": 1.86
+    },
+    "2": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1027,
+     "lord_lv": 2.0,
+     "units": 2.12
+    },
+    "3": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1441,
+     "lord_lv": 2.0,
+     "units": 3.0
+    },
+    "4": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1651,
+     "lord_lv": 2.99,
+     "units": 3.17
+    },
+    "5": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2081,
+     "lord_lv": 3.01,
+     "units": 4.04
+    },
+    "6": {
+     "p_carry": 0.009,
+     "carry_lv": 12.8,
+     "p_awake": 0.0,
+     "strength": 2261,
+     "lord_lv": 3.98,
+     "units": 4.07
+    },
+    "7": {
+     "p_carry": 0.107,
+     "carry_lv": 24.2,
+     "p_awake": 0.0,
+     "strength": 3028,
+     "lord_lv": 4.0,
+     "units": 4.77
+    },
+    "8": {
+     "p_carry": 0.276,
+     "carry_lv": 35.3,
+     "p_awake": 0.001,
+     "strength": 4323,
+     "lord_lv": 4.0,
+     "units": 5.27
+    },
+    "9": {
+     "p_carry": 0.442,
+     "carry_lv": 40.4,
+     "p_awake": 0.001,
+     "strength": 5525,
+     "lord_lv": 4.0,
+     "units": 5.44
+    },
+    "10": {
+     "p_carry": 0.559,
+     "carry_lv": 43.5,
+     "p_awake": 0.004,
+     "strength": 6460,
+     "lord_lv": 4.0,
+     "units": 5.56
+    },
+    "11": {
+     "p_carry": 0.652,
+     "carry_lv": 49.3,
+     "p_awake": 0.009,
+     "strength": 7487,
+     "lord_lv": 4.01,
+     "units": 5.66
+    },
+    "12": {
+     "p_carry": 0.746,
+     "carry_lv": 54.9,
+     "p_awake": 0.02,
+     "strength": 8662,
+     "lord_lv": 4.01,
+     "units": 5.75
+    },
+    "13": {
+     "p_carry": 0.816,
+     "carry_lv": 58.6,
+     "p_awake": 0.038,
+     "strength": 9605,
+     "lord_lv": 4.02,
+     "units": 5.84
+    },
+    "14": {
+     "p_carry": 0.858,
+     "carry_lv": 62.5,
+     "p_awake": 0.059,
+     "strength": 10451,
+     "lord_lv": 4.02,
+     "units": 5.88
+    },
+    "hp_end": 8.5,
+    "p_alive_r14": 0.391,
+    "mean_out_round": 12.58,
+    "win_r8": 0.419
+   }
+  },
+  "鲁班七号": {
+   "速升(2/3/5/8/11)": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 791,
+     "lord_lv": 1.0,
+     "units": 1.89
+    },
+    "2": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 916,
+     "lord_lv": 2.0,
+     "units": 1.91
+    },
+    "3": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 958,
+     "lord_lv": 2.1,
+     "units": 1.93
+    },
+    "4": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1149,
+     "lord_lv": 2.99,
+     "units": 2.14
+    },
+    "5": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1260,
+     "lord_lv": 3.41,
+     "units": 2.21
+    },
+    "6": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1995,
+     "lord_lv": 3.99,
+     "units": 3.64
+    },
+    "7": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2081,
+     "lord_lv": 4.0,
+     "units": 3.7
+    },
+    "8": {
+     "p_carry": 0.013,
+     "carry_lv": 36.5,
+     "p_awake": 0.0,
+     "strength": 2341,
+     "lord_lv": 4.98,
+     "units": 3.75
+    },
+    "9": {
+     "p_carry": 0.103,
+     "carry_lv": 31.5,
+     "p_awake": 0.0,
+     "strength": 4000,
+     "lord_lv": 5.0,
+     "units": 5.87
+    },
+    "10": {
+     "p_carry": 0.141,
+     "carry_lv": 34.9,
+     "p_awake": 0.0,
+     "strength": 4527,
+     "lord_lv": 5.0,
+     "units": 5.92
+    },
+    "11": {
+     "p_carry": 0.182,
+     "carry_lv": 40.2,
+     "p_awake": 0.0,
+     "strength": 5166,
+     "lord_lv": 5.99,
+     "units": 5.96
+    },
+    "12": {
+     "p_carry": 0.545,
+     "carry_lv": 49.4,
+     "p_awake": 0.0,
+     "strength": 9682,
+     "lord_lv": 6.0,
+     "units": 6.54
+    },
+    "13": {
+     "p_carry": 0.75,
+     "carry_lv": 54.0,
+     "p_awake": 0.01,
+     "strength": 12855,
+     "lord_lv": 6.0,
+     "units": 6.75
+    },
+    "14": {
+     "p_carry": 0.868,
+     "carry_lv": 59.0,
+     "p_awake": 0.034,
+     "strength": 15341,
+     "lord_lv": 6.0,
+     "units": 6.87
+    },
+    "hp_end": 2.0,
+    "p_alive_r14": 0.125,
+    "mean_out_round": 10.5,
+    "win_r8": 0.14
+   },
+   "标准(2/4/7/10/13)": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 782,
+     "lord_lv": 1.0,
+     "units": 1.88
+    },
+    "2": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1028,
+     "lord_lv": 2.0,
+     "units": 2.14
+    },
+    "3": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1446,
+     "lord_lv": 2.01,
+     "units": 3.04
+    },
+    "4": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1641,
+     "lord_lv": 3.0,
+     "units": 3.2
+    },
+    "5": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2344,
+     "lord_lv": 3.01,
+     "units": 4.69
+    },
+    "6": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2548,
+     "lord_lv": 3.01,
+     "units": 4.98
+    },
+    "7": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2679,
+     "lord_lv": 4.0,
+     "units": 4.98
+    },
+    "8": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2796,
+     "lord_lv": 4.0,
+     "units": 5.0
+    },
+    "9": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2869,
+     "lord_lv": 4.0,
+     "units": 5.0
+    },
+    "10": {
+     "p_carry": 0.197,
+     "carry_lv": 37.3,
+     "p_awake": 0.0,
+     "strength": 5196,
+     "lord_lv": 5.0,
+     "units": 6.19
+    },
+    "11": {
+     "p_carry": 0.309,
+     "carry_lv": 40.3,
+     "p_awake": 0.0,
+     "strength": 6465,
+     "lord_lv": 5.0,
+     "units": 6.31
+    },
+    "12": {
+     "p_carry": 0.401,
+     "carry_lv": 42.8,
+     "p_awake": 0.0,
+     "strength": 7607,
+     "lord_lv": 5.0,
+     "units": 6.4
+    },
+    "13": {
+     "p_carry": 0.459,
+     "carry_lv": 47.4,
+     "p_awake": 0.0,
+     "strength": 8635,
+     "lord_lv": 6.0,
+     "units": 6.46
+    },
+    "14": {
+     "p_carry": 0.719,
+     "carry_lv": 51.9,
+     "p_awake": 0.01,
+     "strength": 12092,
+     "lord_lv": 6.0,
+     "units": 6.72
+    },
+    "hp_end": 2.8,
+    "p_alive_r14": 0.172,
+    "mean_out_round": 11.5,
+    "win_r8": 0.195
+   },
+   "卡2级到8": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 777,
+     "lord_lv": 1.0,
+     "units": 1.88
+    },
+    "2": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1035,
+     "lord_lv": 2.0,
+     "units": 2.15
+    },
+    "3": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1733,
+     "lord_lv": 2.0,
+     "units": 3.69
+    },
+    "4": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1937,
+     "lord_lv": 2.01,
+     "units": 3.98
+    },
+    "5": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2049,
+     "lord_lv": 2.04,
+     "units": 4.04
+    },
+    "6": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2141,
+     "lord_lv": 2.04,
+     "units": 4.04
+    },
+    "7": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2252,
+     "lord_lv": 2.08,
+     "units": 4.08
+    },
+    "8": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2774,
+     "lord_lv": 3.0,
+     "units": 5.0
+    },
+    "9": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2862,
+     "lord_lv": 3.01,
+     "units": 5.0
+    },
+    "10": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2972,
+     "lord_lv": 4.0,
+     "units": 5.0
+    },
+    "11": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 3071,
+     "lord_lv": 4.0,
+     "units": 5.0
+    },
+    "12": {
+     "p_carry": 0.294,
+     "carry_lv": 46.1,
+     "p_awake": 0.0,
+     "strength": 6648,
+     "lord_lv": 5.0,
+     "units": 6.29
+    },
+    "13": {
+     "p_carry": 0.35,
+     "carry_lv": 49.3,
+     "p_awake": 0.0,
+     "strength": 7497,
+     "lord_lv": 6.0,
+     "units": 6.35
+    },
+    "14": {
+     "p_carry": 0.709,
+     "carry_lv": 53.0,
+     "p_awake": 0.003,
+     "strength": 11847,
+     "lord_lv": 6.0,
+     "units": 6.71
+    },
+    "hp_end": 0.6,
+    "p_alive_r14": 0.033,
+    "mean_out_round": 10.69,
+    "win_r8": 0.189
+   },
+   "卡3级到10": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 781,
+     "lord_lv": 1.0,
+     "units": 1.87
+    },
+    "2": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1018,
+     "lord_lv": 2.0,
+     "units": 2.11
+    },
+    "3": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1426,
+     "lord_lv": 2.01,
+     "units": 2.99
+    },
+    "4": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1615,
+     "lord_lv": 2.99,
+     "units": 3.15
+    },
+    "5": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2339,
+     "lord_lv": 3.0,
+     "units": 4.69
+    },
+    "6": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2558,
+     "lord_lv": 3.01,
+     "units": 5.0
+    },
+    "7": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2641,
+     "lord_lv": 3.02,
+     "units": 5.0
+    },
+    "8": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2726,
+     "lord_lv": 3.02,
+     "units": 5.0
+    },
+    "9": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2814,
+     "lord_lv": 3.05,
+     "units": 5.0
+    },
+    "10": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2922,
+     "lord_lv": 4.0,
+     "units": 5.0
+    },
+    "11": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 3023,
+     "lord_lv": 4.0,
+     "units": 5.0
+    },
+    "12": {
+     "p_carry": 0.352,
+     "carry_lv": 45.6,
+     "p_awake": 0.001,
+     "strength": 7257,
+     "lord_lv": 5.0,
+     "units": 6.35
+    },
+    "13": {
+     "p_carry": 0.401,
+     "carry_lv": 50.7,
+     "p_awake": 0.002,
+     "strength": 8232,
+     "lord_lv": 6.0,
+     "units": 6.4
+    },
+    "14": {
+     "p_carry": 0.742,
+     "carry_lv": 54.8,
+     "p_awake": 0.005,
+     "strength": 12792,
+     "lord_lv": 6.0,
+     "units": 6.74
+    },
+    "hp_end": 0.8,
+    "p_alive_r14": 0.057,
+    "mean_out_round": 10.8,
+    "win_r8": 0.182
+   },
+   "卡4级到11": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 787,
+     "lord_lv": 1.0,
+     "units": 1.9
+    },
+    "2": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1046,
+     "lord_lv": 2.0,
+     "units": 2.19
+    },
+    "3": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1469,
+     "lord_lv": 2.0,
+     "units": 3.09
+    },
+    "4": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1646,
+     "lord_lv": 2.99,
+     "units": 3.25
+    },
+    "5": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2093,
+     "lord_lv": 3.01,
+     "units": 4.16
+    },
+    "6": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2258,
+     "lord_lv": 3.99,
+     "units": 4.22
+    },
+    "7": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2645,
+     "lord_lv": 4.0,
+     "units": 4.94
+    },
+    "8": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2789,
+     "lord_lv": 4.0,
+     "units": 5.0
+    },
+    "9": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2860,
+     "lord_lv": 4.0,
+     "units": 5.0
+    },
+    "10": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2931,
+     "lord_lv": 4.0,
+     "units": 5.0
+    },
+    "11": {
+     "p_carry": 0.3,
+     "carry_lv": 42.3,
+     "p_awake": 0.001,
+     "strength": 6464,
+     "lord_lv": 5.0,
+     "units": 6.3
+    },
+    "12": {
+     "p_carry": 0.376,
+     "carry_lv": 43.8,
+     "p_awake": 0.001,
+     "strength": 7413,
+     "lord_lv": 5.0,
+     "units": 6.38
+    },
+    "13": {
+     "p_carry": 0.433,
+     "carry_lv": 49.8,
+     "p_awake": 0.001,
+     "strength": 8501,
+     "lord_lv": 6.0,
+     "units": 6.43
+    },
+    "14": {
+     "p_carry": 0.732,
+     "carry_lv": 55.3,
+     "p_awake": 0.009,
+     "strength": 12719,
+     "lord_lv": 6.0,
+     "units": 6.73
+    },
+    "hp_end": 1.9,
+    "p_alive_r14": 0.12,
+    "mean_out_round": 10.98,
+    "win_r8": 0.196
+   },
+   "卡3级到7再速升": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 786,
+     "lord_lv": 1.0,
+     "units": 1.88
+    },
+    "2": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1037,
+     "lord_lv": 2.0,
+     "units": 2.12
+    },
+    "3": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1461,
+     "lord_lv": 2.01,
+     "units": 3.05
+    },
+    "4": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1673,
+     "lord_lv": 2.99,
+     "units": 3.23
+    },
+    "5": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2359,
+     "lord_lv": 3.01,
+     "units": 4.69
+    },
+    "6": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2567,
+     "lord_lv": 3.01,
+     "units": 4.98
+    },
+    "7": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2725,
+     "lord_lv": 4.0,
+     "units": 4.98
+    },
+    "8": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2839,
+     "lord_lv": 4.0,
+     "units": 5.0
+    },
+    "9": {
+     "p_carry": 0.071,
+     "carry_lv": 35.7,
+     "p_awake": 0.0,
+     "strength": 3797,
+     "lord_lv": 5.0,
+     "units": 5.61
+    },
+    "10": {
+     "p_carry": 0.113,
+     "carry_lv": 41.5,
+     "p_awake": 0.0,
+     "strength": 4353,
+     "lord_lv": 5.0,
+     "units": 5.66
+    },
+    "11": {
+     "p_carry": 0.175,
+     "carry_lv": 45.8,
+     "p_awake": 0.0,
+     "strength": 5151,
+     "lord_lv": 5.99,
+     "units": 5.73
+    },
+    "12": {
+     "p_carry": 0.532,
+     "carry_lv": 48.3,
+     "p_awake": 0.001,
+     "strength": 9329,
+     "lord_lv": 6.0,
+     "units": 6.53
+    },
+    "13": {
+     "p_carry": 0.752,
+     "carry_lv": 53.1,
+     "p_awake": 0.011,
+     "strength": 12502,
+     "lord_lv": 6.0,
+     "units": 6.75
+    },
+    "14": {
+     "p_carry": 0.869,
+     "carry_lv": 56.8,
+     "p_awake": 0.048,
+     "strength": 14758,
+     "lord_lv": 6.0,
+     "units": 6.87
+    },
+    "hp_end": 3.4,
+    "p_alive_r14": 0.194,
+    "mean_out_round": 11.46,
+    "win_r8": 0.206
+   },
+   "永远卡3级": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 777,
+     "lord_lv": 1.0,
+     "units": 1.87
+    },
+    "2": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1021,
+     "lord_lv": 2.0,
+     "units": 2.15
+    },
+    "3": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1429,
+     "lord_lv": 2.01,
+     "units": 3.04
+    },
+    "4": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1634,
+     "lord_lv": 2.99,
+     "units": 3.21
+    },
+    "5": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2337,
+     "lord_lv": 3.0,
+     "units": 4.71
+    },
+    "6": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2540,
+     "lord_lv": 3.0,
+     "units": 5.0
+    },
+    "7": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2615,
+     "lord_lv": 3.01,
+     "units": 5.0
+    },
+    "8": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2706,
+     "lord_lv": 3.01,
+     "units": 5.0
+    },
+    "9": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2789,
+     "lord_lv": 3.05,
+     "units": 5.0
+    },
+    "10": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2861,
+     "lord_lv": 3.05,
+     "units": 5.0
+    },
+    "11": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2941,
+     "lord_lv": 3.08,
+     "units": 5.0
+    },
+    "12": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 3028,
+     "lord_lv": 3.29,
+     "units": 5.0
+    },
+    "13": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 3093,
+     "lord_lv": 3.3,
+     "units": 5.0
+    },
+    "14": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 3161,
+     "lord_lv": 3.31,
+     "units": 5.0
+    },
+    "hp_end": 0.1,
+    "p_alive_r14": 0.008,
+    "mean_out_round": 10.65,
+    "win_r8": 0.18
+   },
+   "永远卡4级": {
+    "1": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 784,
+     "lord_lv": 1.0,
+     "units": 1.89
+    },
+    "2": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1011,
+     "lord_lv": 2.0,
+     "units": 2.17
+    },
+    "3": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1417,
+     "lord_lv": 2.01,
+     "units": 3.06
+    },
+    "4": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 1629,
+     "lord_lv": 2.99,
+     "units": 3.22
+    },
+    "5": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2062,
+     "lord_lv": 3.01,
+     "units": 4.1
+    },
+    "6": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2223,
+     "lord_lv": 3.98,
+     "units": 4.15
+    },
+    "7": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2639,
+     "lord_lv": 4.0,
+     "units": 4.94
+    },
+    "8": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2786,
+     "lord_lv": 4.0,
+     "units": 5.0
+    },
+    "9": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2861,
+     "lord_lv": 4.0,
+     "units": 5.0
+    },
+    "10": {
+     "p_carry": 0.0,
+     "carry_lv": 0.0,
+     "p_awake": 0.0,
+     "strength": 2926,
+     "lord_lv": 4.0,
+     "units": 5.0
+    },
+    "11": {
+     "p_carry": 0.006,
+     "carry_lv": 52.8,
+     "p_awake": 0.0,
+     "strength": 3111,
+     "lord_lv": 4.01,
+     "units": 5.02
+    },
+    "12": {
+     "p_carry": 0.006,
+     "carry_lv": 57.4,
+     "p_awake": 0.0,
+     "strength": 3185,
+     "lord_lv": 4.01,
+     "units": 5.02
+    },
+    "13": {
+     "p_carry": 0.013,
+     "carry_lv": 52.9,
+     "p_awake": 0.001,
+     "strength": 3352,
+     "lord_lv": 4.02,
+     "units": 5.04
+    },
+    "14": {
+     "p_carry": 0.016,
+     "carry_lv": 58.6,
+     "p_awake": 0.001,
+     "strength": 3477,
+     "lord_lv": 4.02,
+     "units": 5.04
+    },
+    "hp_end": 0.1,
+    "p_alive_r14": 0.011,
+    "mean_out_round": 10.56,
+    "win_r8": 0.198
+   }
+  }
+ }
+}

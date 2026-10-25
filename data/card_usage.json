@@ -1,0 +1,8301 @@
+{
+ "高级人才": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "随机给1张高1阶英雄牌，无需目标，拖到任意己方英雄即可。"
+ },
+ "照影": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "copy_hero",
+  "reason": "随机复制1张场上英雄牌，可当合成材料。"
+ },
+ "呼朋唤友": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（得1张与其同阵营的英雄牌）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "按目标阵营出牌，指定主C 才能拿到契合体系的英雄。"
+ },
+ "吸纳人才": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "英雄牌4选1，无需目标。"
+ },
+ "简易协作": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "now"
+  ],
+  "effect_type": "level_up",
+  "reason": "指定英雄+3级，加等级牌全给主C。"
+ },
+ "遗志": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "disposable_hero",
+  "target_detail": "要淘汰的高等级旧主C/过渡件（等级转给随机1名英雄）",
+  "avoid": [
+   "carry"
+  ],
+  "prefer": [
+   "disposable",
+   "high_level"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "level_transfer",
+  "reason": "移除目标并把等级给随机1人，只能指向要淘汰的人；场上人越少越可能落到主C。"
+ },
+ "1阶英雄兑换券": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "1阶英雄3选1，无需目标。"
+ },
+ "2阶英雄兑换券": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "2阶英雄3选1，无需目标。"
+ },
+ "3阶英雄兑换券": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "3阶英雄3选1，无需目标。"
+ },
+ "3阶英雄兑换券(效果牌)": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "3阶英雄3选1，无需目标。"
+ },
+ "4阶英雄兑换券": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "4阶英雄3选1，无需目标。"
+ },
+ "4阶英雄兑换券(效果牌)": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "4阶英雄3选1，无需目标。"
+ },
+ "5阶英雄兑换券": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "5阶英雄3选1，无需目标。"
+ },
+ "5阶英雄兑换券(效果牌)": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "5阶英雄3选1，无需目标。"
+ },
+ "研读会": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "lord_xp",
+  "reason": "直接给3棋手经验，无需目标。"
+ },
+ "经典研读会": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "lord_xp",
+  "reason": "直接给4棋手经验，无需目标。"
+ },
+ "精密协作": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "now"
+  ],
+  "effect_type": "level_up",
+  "reason": "指定英雄+4级，给主C。"
+ },
+ "广纳良才": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:2"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "英雄牌5选2，无需目标。"
+ },
+ "求贤": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（发现同阵营英雄3选1）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "按目标阵营发现英雄，指定主C 拿同体系的牌。"
+ },
+ "扶倾济弱": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "自动作用于场上等级最低的英雄",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "level_up",
+  "reason": "自动给最低等级英雄+9，不能指定，拖到任意英雄即可。"
+ },
+ "临阵磨枪": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "specific_hero",
+  "target_detail": "带整备效果的英雄（优先整备能给主C加等级的）",
+  "avoid": [],
+  "prefer": [
+   "has_prepare_effect"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "other",
+  "reason": "只对有整备效果的英雄有意义，没有就别用。"
+ },
+ "唤醒": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "specific_hero",
+  "target_detail": "带登场效果的英雄（优先登场收益大的）",
+  "avoid": [],
+  "prefer": [
+   "has_entry_effect"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "other",
+  "reason": "只对有登场效果的英雄有意义，没有就别用。"
+ },
+ "能量大爆炸": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "energy",
+  "reason": "直接给5能量。"
+ },
+ "有福同享": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "any_hero",
+  "target_detail": "场上同品阶人数最多的那一阶里的任意英雄（最好含主C）",
+  "avoid": [],
+  "prefer": [
+   "carry_tier",
+   "tier_most_heroes"
+  ],
+  "when": [
+   "now"
+  ],
+  "effect_type": "level_up",
+  "reason": "同品阶英雄都+3，指向同阶人数最多且含主C 的那一阶。"
+ },
+ "有福同享(效果牌)": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "any_hero",
+  "target_detail": "场上同品阶人数最多的那一阶里的任意英雄（最好含主C）",
+  "avoid": [],
+  "prefer": [
+   "carry_tier",
+   "tier_most_heroes"
+  ],
+  "when": [
+   "now"
+  ],
+  "effect_type": "level_up",
+  "reason": "同品阶英雄都+3，指向同阶人数最多且含主C 的那一阶。"
+ },
+ "集体唤醒": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "other",
+  "reason": "触发全体登场效果，场上有登场英雄时才值。"
+ },
+ "全军动员": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "other",
+  "reason": "触发全体整备效果，场上有整备英雄时才值。"
+ },
+ "武装重构": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "hero_with_equipment",
+  "target_detail": "有装备的非主C英雄（装备全毁，换N+1件基础装备）",
+  "avoid": [
+   "carry"
+  ],
+  "prefer": [
+   "disposable",
+   "most_equipment"
+  ],
+  "when": [
+   "has_target",
+   "hand_room:4"
+  ],
+  "effect_type": "gives_equipment",
+  "reason": "摧毁目标全部装备换基础装备，别拆主C 的成品，拆过渡件身上的再转给主C。"
+ },
+ "精选武装": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_equipment",
+  "reason": "基础装备4选1，无需目标。"
+ },
+ "传承": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "high_level_hero",
+  "target_detail": "10级以上、要淘汰的英雄（等级随机分给3名其他英雄）",
+  "avoid": [
+   "carry"
+  ],
+  "prefer": [
+   "disposable",
+   "high_level"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "level_transfer",
+  "reason": "把目标等级拆给3人，主C 被拆就是灾难，只拆要换掉的旧主C/过渡件。"
+ },
+ "展翅腾飞": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "economy",
+  "reason": "本回合刷新免费，打算搜牌的回合先打出。"
+ },
+ "移花接木": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "level_up",
+  "reason": "下场战斗随机1名英雄获得敌方最高等级一半，无需目标。"
+ },
+ "惊喜补贴": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "economy",
+  "reason": "3次免费刷新，无需目标。"
+ },
+ "超级补贴": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "economy",
+  "reason": "4次免费刷新，无需目标。"
+ },
+ "武装分解": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "hero_with_equipment",
+  "target_detail": "有装备的非主C英雄：1件→4能量，2件→妙音，3件→珍品宝箱",
+  "avoid": [
+   "carry"
+  ],
+  "prefer": [
+   "most_equipment",
+   "disposable"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "destroy_equipment",
+  "reason": "摧毁目标全部装备换资源，绝不能拆主C，挑装备最多的过渡件。"
+ },
+ "珍品宝箱": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_equipment",
+  "reason": "特殊/天赋装备3选1，无需目标。"
+ },
+ "破境之证": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "carry_on_board"
+  ],
+  "effect_type": "level_up",
+  "reason": "立即+20级、之后每回合+10，必须给最终主C。"
+ },
+ "超级复印机": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:3"
+  ],
+  "effect_type": "copy_hero",
+  "reason": "随机3张相同场上英雄牌，无需目标。"
+ },
+ "四人同行": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:4"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "5选1并一分为四，4张同名直接凑觉醒。"
+ },
+ "狂飙三倍速": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:3"
+  ],
+  "effect_type": "gives_cards",
+  "reason": "给3张开局狂飙，无需目标。"
+ },
+ "众星闪耀": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hold_next_round"
+  ],
+  "effect_type": "level_up",
+  "reason": "全体+10级，每多持有1回合+5，先留在手里攒，后期或手牌紧张时再打。"
+ },
+ "神兵天降": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:4"
+  ],
+  "effect_type": "gives_cards",
+  "reason": "给4张5阶兑换券，无需目标。"
+ },
+ "军械库": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:3"
+  ],
+  "effect_type": "gives_equipment",
+  "reason": "随机3张基础装备，无需目标。"
+ },
+ "呼风唤雨": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:4"
+  ],
+  "effect_type": "gives_cards",
+  "reason": "随机4张5阶效果牌，无需目标。"
+ },
+ "绝处逢生": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:10",
+   "low_hp"
+  ],
+  "effect_type": "gives_cards",
+  "reason": "棋手血直接变1换10张效果牌，只在血量已很低时用。"
+ },
+ "化铁为金": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "high_level_hero",
+  "target_detail": "1-3阶里等级最高的英雄（可以是低阶主C）",
+  "avoid": [],
+  "prefer": [
+   "carry",
+   "high_level"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "other",
+  "reason": "1-3阶英雄变随机5阶觉醒并保留等级，挑等级最高的1-3阶英雄。"
+ },
+ "一线生机": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:2"
+  ],
+  "effect_type": "gives_equipment",
+  "reason": "给2张名刀·司命并获得一次免死，无需目标。"
+ },
+ "能量超新星": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "energy",
+  "reason": "随机10-20能量。"
+ },
+ "扶摇直上": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "lord_xp",
+  "reason": "棋手直接升1级（满级给10能量）。"
+ },
+ "新生力量": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "other",
+  "reason": "可上阵人数+1，越早用越好。"
+ },
+ "沧海拾遗": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_cards",
+  "reason": "随机1张6阶效果牌。"
+ },
+ "天籁琴音": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:3"
+  ],
+  "effect_type": "gives_cards",
+  "reason": "给3张妙音（觉醒进度+1），妙音再给主C。"
+ },
+ "助力核心": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "level_up",
+  "reason": "阿科米亚核心加等级，无需目标。"
+ },
+ "古币多多": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:2"
+  ],
+  "effect_type": "gives_cards",
+  "reason": "给2张古币。"
+ },
+ "阵营祝福": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "level_up",
+  "reason": "每个阵营随机1人+4级，无需目标。"
+ },
+ "发号施令": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:2"
+  ],
+  "effect_type": "gives_cards",
+  "reason": "随机2张战术牌。"
+ },
+ "换帅": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "specific_faction",
+  "target_detail": "【三分】英雄：与最近的【三分】英雄交换等级（用来把高等级换到主C身上）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "level_transfer",
+  "reason": "只在主C 是三分且旁边的三分英雄等级更高时用，否则会把主C 等级换走。"
+ },
+ "河洛征召令": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:2"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "给2张【河洛】英雄牌。"
+ },
+ "三分征召令": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:2"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "给2张【三分】英雄牌。"
+ },
+ "逐鹿征召令": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:2"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "给2张【逐鹿】英雄牌。"
+ },
+ "日落海征召令": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:2"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "给2张【日落海】英雄牌。"
+ },
+ "大河流域征召令": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:2"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "给2张【大河流域】英雄牌。"
+ },
+ "无阵营征召令": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:2"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "给2张无阵营英雄牌。"
+ },
+ "登场人物": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:2"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "给2张登场英雄牌。"
+ },
+ "整备高手": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:2"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "给2张整备英雄牌。"
+ },
+ "牺牲品": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:2"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "给2张牺牲英雄牌。"
+ },
+ "闪现突击者": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:2"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "给2张闪现英雄牌。"
+ },
+ "开团号令": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:2"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "给2张开团英雄牌。"
+ },
+ "2阶英雄": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:2"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "给2张2阶英雄牌。"
+ },
+ "4阶英雄": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:2"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "给2张4阶英雄牌。"
+ },
+ "5阶英雄": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:2"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "给2张5阶英雄牌。"
+ },
+ "图腾仪式": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "随机1张图腾相关【大河流域】英雄牌。"
+ },
+ "度命之护": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_equipment",
+  "reason": "给1件贤者的庇护（河洛专属），无需目标。"
+ },
+ "远洋宝藏": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_equipment",
+  "reason": "随机1件【日落海】专属装备，无需目标。"
+ },
+ "久经沙场": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "specific_faction",
+  "target_detail": "已觉醒的【逐鹿】英雄（最好是主C）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target",
+   "hand_room:1"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "只对已觉醒的逐鹿英雄生效，复制一张同名牌。"
+ },
+ "机关秘典": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_equipment",
+  "reason": "给1件机关匣（逐鹿专属），无需目标。"
+ },
+ "图腾祝福": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "level_up",
+  "reason": "随机大河英雄+5级，按图腾数重复，无需目标。"
+ },
+ "武装之力": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "level_up",
+  "reason": "全体按装备数加等级，装备越多越晚用越值。"
+ },
+ "因材施教": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_cards",
+  "reason": "按主要阵营随机给效果牌。"
+ },
+ "逍遥自在": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "level_up",
+  "reason": "无阵营英雄加等级，场上无阵营英雄多时才值。"
+ },
+ "夺取之术": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（夺取最近1名己方英雄最多10级）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "level_transfer",
+  "reason": "搬等级到主C，主C 旁边要站着有等级的非核心英雄。"
+ },
+ "八方来援": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "now"
+  ],
+  "effect_type": "level_up",
+  "reason": "指定英雄+2级、按阵营数重复，给主C。"
+ },
+ "战前宣誓": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（品阶越高临时等级越多）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "now"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "给品阶×3临时等级，只管本场战斗，给主C。"
+ },
+ "奇谋": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "specific_faction",
+  "target_detail": "【三分】英雄（优先三分主C）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "只对三分英雄生效，开战立即放技能。"
+ },
+ "乱世": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "登场英雄3选1。"
+ },
+ "跳级": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（从阿科米亚核心夺至多5级）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "now"
+  ],
+  "effect_type": "level_transfer",
+  "reason": "从核心搬等级给指定英雄，给主C。"
+ },
+ "开局狂飙": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（本回合开战15秒无限放技能）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "now"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "本回合有效，给技能输出型主C。"
+ },
+ "众星拱月": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（夺取其他英雄各10级）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "now"
+  ],
+  "effect_type": "level_transfer",
+  "reason": "全场向主C 搬等级，必须给主C。"
+ },
+ "心之引力": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "economy",
+  "reason": "4次临时刷新且购买-1，搜牌回合打出。"
+ },
+ "神奇小鹿·嘲讽": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "作用于小鹿（棋手召唤物）",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "小鹿强化牌，无需英雄目标。"
+ },
+ "神奇小鹿·重装": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "作用于小鹿（棋手召唤物）",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "小鹿强化牌，无需英雄目标。"
+ },
+ "神奇小鹿·双生": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "作用于小鹿（棋手召唤物）",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "summon",
+  "reason": "小鹿强化牌（开战复制小鹿），无需英雄目标。"
+ },
+ "神奇小鹿·共鸣": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "作用于小鹿（棋手召唤物）",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "level_up",
+  "reason": "小鹿等级翻倍，无需英雄目标。"
+ },
+ "神奇小鹿·奉献": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "作用于小鹿（棋手召唤物）",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "level_up",
+  "reason": "小鹿阵亡时把等级分给英雄，无需英雄目标。"
+ },
+ "翩跹舞步·新生": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "自用牌，拖到任一己方英雄即可（作用于枫叶舞）",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "maple_dance",
+  "reason": "为枫叶舞挑强化牌，枫叶舞英雄每回合+2级；不需要特定目标。"
+ },
+ "翩跹舞步·蓄势": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "自用牌，拖到任一己方英雄即可（作用于枫叶舞）",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "maple_dance",
+  "reason": "为枫叶舞挑强化牌，枫叶舞英雄击杀永久+1级；不需要特定目标。"
+ },
+ "翩跹舞步·流动": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "自用牌，拖到任一己方英雄即可（作用于枫叶舞）",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "maple_dance",
+  "reason": "为枫叶舞挑强化牌，击杀换额外转移次数；不需要特定目标。"
+ },
+ "翩跹舞步·进化": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "自用牌，拖到任一己方英雄即可（作用于枫叶舞）",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "maple_dance",
+  "reason": "为枫叶舞挑强化牌，按击杀数加攻击；不需要特定目标。"
+ },
+ "翩跹舞步·余韵": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "自用牌，拖到任一己方英雄即可（作用于枫叶舞）",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "maple_dance",
+  "reason": "为枫叶舞挑强化牌，枫叶舞强化；不需要特定目标。"
+ },
+ "枫舞扶摇": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "枫叶舞强化选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "maple_dance",
+  "reason": "翩跹舞步/即刻起舞弹出的枫叶舞强化选项，选中即生效，不进手牌。"
+ },
+ "枫影无拘": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "枫叶舞强化选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "maple_dance",
+  "reason": "翩跹舞步/即刻起舞弹出的枫叶舞强化选项，选中即生效，不进手牌。"
+ },
+ "枫华之刃": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "枫叶舞强化选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "maple_dance",
+  "reason": "翩跹舞步/即刻起舞弹出的枫叶舞强化选项，选中即生效，不进手牌。"
+ },
+ "枫灵涌动": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "枫叶舞强化选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "maple_dance",
+  "reason": "翩跹舞步/即刻起舞弹出的枫叶舞强化选项，选中即生效，不进手牌。"
+ },
+ "红枫疾舞": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "枫叶舞强化选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "maple_dance",
+  "reason": "翩跹舞步/即刻起舞弹出的枫叶舞强化选项，选中即生效，不进手牌。"
+ },
+ "拈花一指": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "枫叶舞强化选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "maple_dance",
+  "reason": "翩跹舞步/即刻起舞弹出的枫叶舞强化选项，选中即生效，不进手牌。"
+ },
+ "枫佑永驻": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "枫叶舞强化选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "maple_dance",
+  "reason": "翩跹舞步/即刻起舞弹出的枫叶舞强化选项，选中即生效，不进手牌。"
+ },
+ "有叶新生": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "枫叶舞强化选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "maple_dance",
+  "reason": "翩跹舞步/即刻起舞弹出的枫叶舞强化选项，选中即生效，不进手牌。"
+ },
+ "红叶染锋": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "枫叶舞强化选项（见到必拿）",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "maple_dance",
+  "reason": "枫叶舞英雄离场后保留50%等级给下一个，是换主C 的核心，选中即生效。"
+ },
+ "踏叶摘星": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "枫叶舞强化选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "maple_dance",
+  "reason": "翩跹舞步/即刻起舞弹出的枫叶舞强化选项，选中即生效，不进手牌。"
+ },
+ "瞬步无影": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "枫叶舞强化选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "maple_dance",
+  "reason": "翩跹舞步/即刻起舞弹出的枫叶舞强化选项，选中即生效，不进手牌。"
+ },
+ "一叶双生": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "枫叶舞强化选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "maple_dance",
+  "reason": "翩跹舞步/即刻起舞弹出的枫叶舞强化选项，选中即生效，不进手牌。"
+ },
+ "层林遮影": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "枫叶舞强化选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "maple_dance",
+  "reason": "翩跹舞步/即刻起舞弹出的枫叶舞强化选项，选中即生效，不进手牌。"
+ },
+ "青叶绽蕊": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "枫叶舞强化选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "maple_dance",
+  "reason": "翩跹舞步/即刻起舞弹出的枫叶舞强化选项，选中即生效，不进手牌。"
+ },
+ "斗转星移": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "枫叶舞强化选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "maple_dance",
+  "reason": "翩跹舞步/即刻起舞弹出的枫叶舞强化选项，选中即生效，不进手牌。"
+ },
+ "镜像": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "specific_hero",
+  "target_detail": "变成上一张打出的英雄牌后按英雄牌处理：合成到同名英雄或上场",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "after_hero_plays"
+  ],
+  "effect_type": "copy_hero",
+  "reason": "先打出主C 的同名牌，镜像就变成主C 合成材料。"
+ },
+ "万镜": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:4"
+  ],
+  "effect_type": "copy_hero",
+  "reason": "随机复制4张不同场上英雄牌。"
+ },
+ "潮汐的交响": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "level_up",
+  "reason": "随机5名英雄+8级，无需目标。"
+ },
+ "小菟送福": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "level_up",
+  "reason": "随机4名英雄各+2级，无需目标。"
+ },
+ "轮指": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "琵琶指法选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "棋手琵琶的指法选项，非手牌。"
+ },
+ "扫拂": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "琵琶指法选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "棋手琵琶的指法选项，非手牌。"
+ },
+ "吟揉": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "琵琶指法选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "棋手琵琶的指法选项，非手牌。"
+ },
+ "绞弦": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "琵琶指法选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "棋手琵琶的指法选项，非手牌。"
+ },
+ "惊鸿调": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "other",
+  "reason": "秘技牌，重放前6次指法，无需目标。"
+ },
+ "如梦似幻": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:5"
+  ],
+  "effect_type": "gives_cards",
+  "reason": "秘技牌，按阵容给一套手牌，手牌要有空位。"
+ },
+ "红笺锦鲤符": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "now"
+  ],
+  "effect_type": "level_up",
+  "reason": "宝藏牌，指定英雄+4级，给主C。"
+ },
+ "狼牙部落的图腾雕像": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "宝藏牌，抽1张3阶及以下英雄。"
+ },
+ "沙海甘泉": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "energy",
+  "reason": "宝藏牌，给1能量。"
+ },
+ "人鱼之泪": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_cards",
+  "reason": "宝藏牌，随机1张效果牌。"
+ },
+ "神树彩陶": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "level_up",
+  "reason": "宝藏牌，随机4人+2级。"
+ },
+ "冰曜宝石镜": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "copy_hero",
+  "reason": "宝藏牌，复制手牌中1张非觉醒英雄。"
+ },
+ "终极宝藏正是在下": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "other",
+  "reason": "秘技牌，3个终极宝藏选1。"
+ },
+ "马可的招牌微笑": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_cards",
+  "reason": "终极宝藏：强化宝藏牌并给1张，无需目标。"
+ },
+ "马可的吸睛自拍": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:3"
+  ],
+  "effect_type": "copy_hero",
+  "reason": "终极宝藏：随机3张不同场上英雄牌。"
+ },
+ "马可的限量亲签": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "energy",
+  "reason": "终极宝藏：4能量+1张装备牌。"
+ },
+ "马可的魅力飞吻": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "level_up",
+  "reason": "终极宝藏：全体+10级。"
+ },
+ "马可的时差信笺": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:2"
+  ],
+  "effect_type": "gives_cards",
+  "reason": "终极宝藏：随机2张宝藏牌。"
+ },
+ "马可的随身信物": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:4"
+  ],
+  "effect_type": "gives_cards",
+  "reason": "终极宝藏：随机4张效果牌。"
+ },
+ "即兴创作": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "copy_hero",
+  "reason": "随机复制场上1名英雄，无需目标。"
+ },
+ "灵感爆发": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:3"
+  ],
+  "effect_type": "copy_hero",
+  "reason": "把手里3张非觉醒英雄各斩成2张转瞬复制，打出后当回合要用掉。"
+ },
+ "深度冻结": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "any_hero",
+  "target_detail": "要变阶的英雄（冻结后解冻变高阶，保留等级情况未知）",
+  "avoid": [],
+  "prefer": [
+   "high_level"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "other",
+  "reason": "秘技牌，冻结目标并选强化，解冻后变阶；是否会改掉主C 身份不确定，谨慎指向主C。"
+ },
+ "升华": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "深度冻结的强化选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "深度冻结弹出的3选1强化选项，选中即生效，不进手牌。"
+ },
+ "霜寒进化": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "深度冻结的强化选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "深度冻结弹出的3选1强化选项，选中即生效，不进手牌。"
+ },
+ "破冰裂变": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "深度冻结的强化选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "深度冻结弹出的3选1强化选项，选中即生效，不进手牌。"
+ },
+ "寒冰王座": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "深度冻结的强化选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "深度冻结弹出的3选1强化选项，选中即生效，不进手牌。"
+ },
+ "冰封结晶": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "深度冻结的强化选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "深度冻结弹出的3选1强化选项，选中即生效，不进手牌。"
+ },
+ "冰心领域": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "深度冻结的强化选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "深度冻结弹出的3选1强化选项，选中即生效，不进手牌。"
+ },
+ "寒雨凝结": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "深度冻结的强化选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "深度冻结弹出的3选1强化选项，选中即生效，不进手牌。"
+ },
+ "寒潮共振": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "深度冻结的强化选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "深度冻结弹出的3选1强化选项，选中即生效，不进手牌。"
+ },
+ "寒冰觉醒": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "深度冻结的强化选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "深度冻结弹出的3选1强化选项，选中即生效，不进手牌。"
+ },
+ "热能陷阱": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "放在己方阵位上（机关，不是给英雄）",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "summon",
+  "reason": "放置机关，不需要英雄目标。"
+ },
+ "电磁弹簧": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "放在己方阵位上（机关，不是给英雄）",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "summon",
+  "reason": "放置机关，不需要英雄目标。"
+ },
+ "等离子屏障": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "放在己方阵位上（机关，不是给英雄）",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "summon",
+  "reason": "放置机关，不需要英雄目标。"
+ },
+ "构筑升级": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "拖到场上的机关上",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "other",
+  "reason": "升级场上1个机关，目标是机关不是英雄。"
+ },
+ "热能陷阱强化": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "机关强化方案选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "成品方案弹出的机关强化选项，选中即生效。"
+ },
+ "电磁弹簧强化": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "机关强化方案选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "成品方案弹出的机关强化选项，选中即生效。"
+ },
+ "等离子屏障强化": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "机关强化方案选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "成品方案弹出的机关强化选项，选中即生效。"
+ },
+ "便携式机关": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "summon",
+  "reason": "升级时选的天赋，选中后3种机关选1，不从手牌打。"
+ },
+ "驭势": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:5"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "秘技牌，开战时把敌方英雄复制进手牌，手牌要留空位。"
+ },
+ "时之回环": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "other",
+  "reason": "回合开始尽早打出，之后本回合打的英雄/效果牌下回合重放。"
+ },
+ "永恒时之回环": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "other",
+  "reason": "回合开始尽早打出，记录最多12张牌下回合重放。"
+ },
+ "命运馈赠": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "other",
+  "reason": "秘技牌，2个馈赠选1。"
+ },
+ "命运馈赠·阴": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "命运馈赠选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "energy",
+  "reason": "命运馈赠的选项，选中即生效。"
+ },
+ "命运馈赠·阳": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "命运馈赠选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "命运馈赠的选项，选中即生效。"
+ },
+ "朋友多多": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:4"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "秘技牌，随机4张所选阵营英雄。"
+ },
+ "封神一瞬": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（此后每次永久升级额外+1）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "carry_on_board"
+  ],
+  "effect_type": "level_up",
+  "reason": "长期叠等级，只给最终主C。"
+ },
+ "战略决策": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "other",
+  "reason": "秘技牌，挑1个战略决策。"
+ },
+ "投资增值": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "决策选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "economy",
+  "reason": "嬴律战略/至高/特权决策的选项，选中即生效，不进手牌。"
+ },
+ "风险对冲": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "决策选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "economy",
+  "reason": "嬴律战略/至高/特权决策的选项，选中即生效，不进手牌。"
+ },
+ "固定收益": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "决策选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "economy",
+  "reason": "嬴律战略/至高/特权决策的选项，选中即生效，不进手牌。"
+ },
+ "基层提拔": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "决策选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "嬴律战略/至高/特权决策的选项，选中即生效，不进手牌。"
+ },
+ "空降人才": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "决策选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "嬴律战略/至高/特权决策的选项，选中即生效，不进手牌。"
+ },
+ "至高决策": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "other",
+  "reason": "秘技牌，从4个至高决策中选1颁布。"
+ },
+ "资本杠杆": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "决策选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "energy",
+  "reason": "嬴律战略/至高/特权决策的选项，选中即生效，不进手牌。"
+ },
+ "资产清算": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "决策选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "energy",
+  "reason": "嬴律战略/至高/特权决策的选项，选中即生效，不进手牌。"
+ },
+ "胜场激励": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "决策选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "energy",
+  "reason": "嬴律战略/至高/特权决策的选项，选中即生效，不进手牌。"
+ },
+ "分红": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "决策选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "energy",
+  "reason": "嬴律战略/至高/特权决策的选项，选中即生效，不进手牌。"
+ },
+ "人才储备": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "决策选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "嬴律战略/至高/特权决策的选项，选中即生效，不进手牌。"
+ },
+ "投资回报": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "决策选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "嬴律战略/至高/特权决策的选项，选中即生效，不进手牌。"
+ },
+ "首购激励": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "决策选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "copy_hero",
+  "reason": "嬴律战略/至高/特权决策的选项，选中即生效，不进手牌。"
+ },
+ "管理进修": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "决策选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "lord_xp",
+  "reason": "嬴律战略/至高/特权决策的选项，选中即生效，不进手牌。"
+ },
+ "战略性收缩": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "决策选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "lord_xp",
+  "reason": "嬴律战略/至高/特权决策的选项，选中即生效，不进手牌。"
+ },
+ "短期企划": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "决策选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "嬴律战略/至高/特权决策的选项，选中即生效，不进手牌。"
+ },
+ "股权激励": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "决策选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_equipment",
+  "reason": "嬴律战略/至高/特权决策的选项，选中即生效，不进手牌。"
+ },
+ "精英计划": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "决策选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "嬴律战略/至高/特权决策的选项，选中即生效，不进手牌。"
+ },
+ "协同增效": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "决策选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "嬴律战略/至高/特权决策的选项，选中即生效，不进手牌。"
+ },
+ "猎头挖角": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "决策选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "copy_hero",
+  "reason": "嬴律战略/至高/特权决策的选项，选中即生效，不进手牌。"
+ },
+ "基层强化": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "决策选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "嬴律战略/至高/特权决策的选项，选中即生效，不进手牌。"
+ },
+ "沉淀收益": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "决策选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "energy",
+  "reason": "嬴律战略/至高/特权决策的选项，选中即生效，不进手牌。"
+ },
+ "并购红利": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "决策选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "energy",
+  "reason": "嬴律战略/至高/特权决策的选项，选中即生效，不进手牌。"
+ },
+ "低压运营": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "决策选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "嬴律战略/至高/特权决策的选项，选中即生效，不进手牌。"
+ },
+ "绝对压制": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "决策选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "嬴律战略/至高/特权决策的选项，选中即生效，不进手牌。"
+ },
+ "贷款协议": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "决策选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "economy",
+  "reason": "嬴律战略/至高/特权决策的选项，选中即生效，不进手牌。"
+ },
+ "资源再分配": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "决策选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "energy",
+  "reason": "嬴律战略/至高/特权决策的选项，选中即生效，不进手牌。"
+ },
+ "武器改造": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "other",
+  "reason": "秘技牌，香香攻击力+20%并选改造方案。"
+ },
+ "炮击模式": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "机枪模式": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "狙击模式": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "激光模式": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "战术·歼灭": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "战术·砺刃": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "战术·暴击": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "战术·追击": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "战术·蓄势": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "战术·王牌": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "战术·列阵": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "战术·痛击": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "额外弹匣": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "破甲弹头": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "燃烧弹头": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "制导弹头": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "裂伤弹": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "连锁跳弹": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "补给弹匣": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "干扰弹": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "贯穿弹头": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "大号弹头": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "凝滞弹头": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "歼灭补给": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "超级电池": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "聚焦光束": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "殉爆模式": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "高能激发": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "战术·淬刃": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "战术·借势": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "战术·百战": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "香香武器改造选项",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "香香武器改造方案里的选项，选中即生效，不进手牌。"
+ },
+ "弦音": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（必须1-3阶）；否则觉醒进度最高的1-3阶英雄",
+  "avoid": [],
+  "prefer": [
+   "carry",
+   "near_awaken"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "other",
+  "reason": "1-3阶英雄觉醒进度+1，给要冲觉醒的主C。"
+ },
+ "弦音(效果牌)": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（必须1-3阶）；否则觉醒进度最高的1-3阶英雄",
+  "avoid": [],
+  "prefer": [
+   "carry",
+   "near_awaken"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "other",
+  "reason": "1-3阶英雄觉醒进度+1，给要冲觉醒的主C。"
+ },
+ "妙音": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C",
+  "avoid": [],
+  "prefer": [
+   "carry",
+   "near_awaken"
+  ],
+  "when": [
+   "now"
+  ],
+  "effect_type": "other",
+  "reason": "觉醒进度+1，觉醒翻倍词条，给主C。"
+ },
+ "古币": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "specific_faction",
+  "target_detail": "【河洛】英雄（优先河洛主C；有古币机时可喂古币机）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "transient_now"
+  ],
+  "effect_type": "level_up",
+  "reason": "转瞬，只对河洛英雄+2级，本回合必须用掉。"
+ },
+ "古币(效果牌)": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "specific_faction",
+  "target_detail": "【河洛】英雄（优先河洛主C；有古币机时可喂古币机）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "transient_now"
+  ],
+  "effect_type": "level_up",
+  "reason": "转瞬，只对河洛英雄+2级，本回合必须用掉。"
+ },
+ "精致古币": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "specific_faction",
+  "target_detail": "【河洛】英雄（优先河洛主C；有古币机时可喂古币机）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "transient_now"
+  ],
+  "effect_type": "level_up",
+  "reason": "转瞬，只对河洛英雄+4级，本回合必须用掉。"
+ },
+ "精致古币(效果牌)": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "specific_faction",
+  "target_detail": "【河洛】英雄（优先河洛主C；有古币机时可喂古币机）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "transient_now"
+  ],
+  "effect_type": "level_up",
+  "reason": "转瞬，只对河洛英雄+4级，本回合必须用掉。"
+ },
+ "援护战术": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "全体【逐鹿】英雄获得护盾",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "transient_now"
+  ],
+  "effect_type": "shield",
+  "reason": "转瞬、全体生效，本回合随便拖到一个英雄上用掉。"
+ },
+ "援护战术(效果牌)": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "全体【逐鹿】英雄获得护盾",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "transient_now"
+  ],
+  "effect_type": "shield",
+  "reason": "转瞬、全体生效，本回合随便拖到一个英雄上用掉。"
+ },
+ "招募战术": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "transient_now"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "转瞬，随机1张逐鹿英雄，本回合用掉。"
+ },
+ "招募战术(效果牌)": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "transient_now"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "转瞬，随机1张逐鹿英雄，本回合用掉。"
+ },
+ "特训战术": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "transient_now"
+  ],
+  "effect_type": "level_up",
+  "reason": "转瞬，指定英雄+4级，本回合给主C。"
+ },
+ "特训战术(效果牌)": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "transient_now"
+  ],
+  "effect_type": "level_up",
+  "reason": "转瞬，指定英雄+4级，本回合给主C。"
+ },
+ "高阶援护战术": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "全体【逐鹿】英雄获得护盾",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "transient_now"
+  ],
+  "effect_type": "shield",
+  "reason": "转瞬、全体生效，本回合用掉。"
+ },
+ "高阶特训战术": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "transient_now"
+  ],
+  "effect_type": "level_up",
+  "reason": "转瞬，指定英雄+8级，本回合给主C。"
+ },
+ "高阶招募战术": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "transient_now",
+   "hand_room:1"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "转瞬，逐鹿英雄3选1，本回合用掉。"
+ },
+ "推演战术": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "specific_faction",
+  "target_detail": "【逐鹿】英雄（优先逐鹿主C）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "transient_now"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "转瞬，只对逐鹿英雄降法力上限，本回合用掉。"
+ },
+ "推演战术(效果牌)": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "specific_faction",
+  "target_detail": "【逐鹿】英雄（优先逐鹿主C）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "transient_now"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "转瞬，只对逐鹿英雄降法力上限，本回合用掉。"
+ },
+ "高阶推演战术": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "specific_faction",
+  "target_detail": "【逐鹿】英雄（优先逐鹿主C）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "transient_now"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "转瞬，只对逐鹿英雄降法力上限，本回合用掉。"
+ },
+ "高阶推演战术(效果牌)": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "specific_faction",
+  "target_detail": "【逐鹿】英雄（优先逐鹿主C）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "transient_now"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "转瞬，只对逐鹿英雄降法力上限，本回合用掉。"
+ },
+ "演练战术": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "transient_now"
+  ],
+  "effect_type": "level_up",
+  "reason": "转瞬，全体+1级，本回合用掉。"
+ },
+ "演练战术(效果牌)": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "transient_now"
+  ],
+  "effect_type": "level_up",
+  "reason": "转瞬，全体+1级，本回合用掉。"
+ },
+ "高阶演练战术": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "transient_now"
+  ],
+  "effect_type": "level_up",
+  "reason": "转瞬，全体+2级，本回合用掉。"
+ },
+ "特权决策": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "专属天赋，自动生效，不从手牌打出。"
+ },
+ "即刻起舞": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "maple_dance",
+  "reason": "专属天赋，选中即弹枫叶舞强化3选1，自动生效，不从手牌打出。"
+ },
+ "瓜分宝藏": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "专属天赋，选中即选英雄强化，自动生效，不从手牌打出。"
+ },
+ "心动节拍": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "economy",
+  "reason": "秘技任务，完成后给心之引力，自动生效，不从手牌打出。"
+ },
+ "魅力无限": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "专属被动天赋，自动生效，不从手牌打出。"
+ },
+ "超绝可爱小鹿": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "秘技任务，定期给神奇小鹿，自动生效，不从手牌打出。"
+ },
+ "巨型玩偶": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "专属天赋，自动生效，不从手牌打出。"
+ },
+ "惊鸿游龙": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "maple_dance",
+  "reason": "秘技任务，击杀数达标给翩跹舞步，自动生效，不从手牌打出。"
+ },
+ "镜像之力": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "copy_hero",
+  "reason": "秘技任务，用4张镜像给万镜，自动生效，不从手牌打出。"
+ },
+ "镜花影": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "copy_hero",
+  "reason": "专属被动天赋，自动生效，不从手牌打出。"
+ },
+ "海的拥抱": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "秘技任务，定期给潮汐的交响，自动生效，不从手牌打出。"
+ },
+ "潮起潮落": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "summon",
+  "reason": "专属被动天赋，自动生效，不从手牌打出。"
+ },
+ "兔飞猛进": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "秘技任务，给小菟送福，自动生效，不从手牌打出。"
+ },
+ "月之特调": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "专属被动天赋，自动生效，不从手牌打出。"
+ },
+ "自成曲调": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "秘技任务，给惊鸿调，自动生效，不从手牌打出。"
+ },
+ "余音绕梁": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "专属天赋，自动生效，不从手牌打出。"
+ },
+ "美梦成真": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "秘技任务，给如梦似幻，自动生效，不从手牌打出。"
+ },
+ "引擎升级": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "economy",
+  "reason": "专属天赋，给梦幻引擎，自动生效，不从手牌打出。"
+ },
+ "梦幻引擎": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "economy",
+  "reason": "把商店换成梦幻商店，搜牌回合开店前打出。"
+ },
+ "终极宝藏": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "秘技任务，给终极宝藏，自动生效，不从手牌打出。"
+ },
+ "阳光普照": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "被动天赋，自动生效，不从手牌打出。"
+ },
+ "重点照顾": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "被动天赋，自动生效，不从手牌打出。"
+ },
+ "天生我才": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "copy_hero",
+  "reason": "秘技任务，给灵感爆发，自动生效，不从手牌打出。"
+ },
+ "惊才绝艳": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "专属天赋，给奇才，自动生效，不从手牌打出。"
+ },
+ "奇才": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（获得4张该英雄牌，直接凑觉醒）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "hand_room:4"
+  ],
+  "effect_type": "copy_hero",
+  "reason": "复制4张目标英雄牌，给主C 最赚。"
+ },
+ "极寒冰冻": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "秘技任务，给深度冻结，自动生效，不从手牌打出。"
+ },
+ "寒潮之势": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "被动天赋，自动生效，不从手牌打出。"
+ },
+ "不朽坚冰": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "被动天赋，自动生效，不从手牌打出。"
+ },
+ "雪暴时刻": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "被动天赋，自动生效，不从手牌打出。"
+ },
+ "冰雪秘藏": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "专属天赋，选中即3选1，自动生效，不从手牌打出。"
+ },
+ "机关跃迁": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "秘技任务，给构筑升级，自动生效，不从手牌打出。"
+ },
+ "成品方案": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "专属天赋，选中即3选1，自动生效，不从手牌打出。"
+ },
+ "谋而后定": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "秘技任务，给驭势，自动生效，不从手牌打出。"
+ },
+ "神之一手": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "copy_hero",
+  "reason": "专属被动天赋，自动生效，不从手牌打出。"
+ },
+ "时间魔法": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "秘技任务，给时之回环，自动生效，不从手牌打出。"
+ },
+ "时光宝藏": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "专属天赋，给永恒时之回环，自动生效，不从手牌打出。"
+ },
+ "天降鸿运": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "秘技任务，给命运馈赠，自动生效，不从手牌打出。"
+ },
+ "飞龙在天": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "economy",
+  "reason": "专属被动天赋，自动生效，不从手牌打出。"
+ },
+ "快乐集结": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "秘技任务，给朋友多多，自动生效，不从手牌打出。"
+ },
+ "狂欢时刻": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "专属天赋，给打成一片，自动生效，不从手牌打出。"
+ },
+ "打成一片": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "other",
+  "reason": "天赋3选1（所选阵营相关），无需目标。"
+ },
+ "封神时刻": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "秘技任务，给封神一瞬，自动生效，不从手牌打出。"
+ },
+ "完美演出": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "专属被动天赋，自动生效，不从手牌打出。"
+ },
+ "至高之主": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "秘技任务，给至高决策，自动生效，不从手牌打出。"
+ },
+ "枪炮艺术": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "秘技任务，给武器改造，自动生效，不从手牌打出。"
+ },
+ "火力全开": {
+  "category": "效果牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "专属被动天赋，自动生效，不从手牌打出。"
+ },
+ "1阶效果锦囊": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_cards",
+  "reason": "选1张1阶效果牌，无需目标。"
+ },
+ "2阶效果锦囊": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_cards",
+  "reason": "选1张2阶效果牌，无需目标。"
+ },
+ "3阶效果锦囊": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_cards",
+  "reason": "选1张3阶效果牌，无需目标。"
+ },
+ "4阶效果锦囊": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_cards",
+  "reason": "选1张4阶效果牌，无需目标。"
+ },
+ "5阶效果锦囊": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_cards",
+  "reason": "选1张5阶效果牌，无需目标。"
+ },
+ "破损古币": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "specific_faction",
+  "target_detail": "【河洛】英雄或古币机（不给等级）",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "transient_now"
+  ],
+  "effect_type": "other",
+  "reason": "转瞬且不给等级，只用来触发古币类天赋/喂古币机，没有这类效果就无所谓。"
+ },
+ "双人同行·2阶": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:2"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "永不独行送的手牌：随机2张相同2阶英雄，无需目标。"
+ },
+ "双人同行·3阶": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:2"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "永不独行送的手牌：随机2张相同3阶英雄，无需目标。"
+ },
+ "保持进步": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "lord_xp",
+  "reason": "选中给3阶兑换券，每回合+1棋手经验，自动生效。"
+ },
+ "里程碑": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "energy",
+  "reason": "5级时自动给能量和装备箱。"
+ },
+ "人才济济": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "lord_xp",
+  "reason": "升级经验-2并送人才搜寻，自动生效。"
+ },
+ "整装待发": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "energy",
+  "reason": "没打英雄牌下回合给能量，自动生效。"
+ },
+ "先苦后甜": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "lord_xp",
+  "reason": "输2场给经验，自动生效。"
+ },
+ "防御领域": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "棋手减伤，自动生效。"
+ },
+ "重大里程碑": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "energy",
+  "reason": "5级时自动给资源。"
+ },
+ "卧薪尝胆": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "lord_xp",
+  "reason": "输2场给经验，自动生效。"
+ },
+ "绝对领域": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "棋手减伤，自动生效。"
+ },
+ "无限进步": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "lord_xp",
+  "reason": "每回合+2棋手经验，自动生效。"
+ },
+ "资深猎头": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:4"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "4级时送的手牌：4阶2选1并一分为四，直接凑觉醒。"
+ },
+ "紧急行动": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_equipment",
+  "reason": "选中立即回血+装备箱。"
+ },
+ "临时增幅": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "开战随机分临时等级，自动生效。"
+ },
+ "王牌认证": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "条件满足时送效果锦囊，自动生效。"
+ },
+ "三十而立": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "lord_xp",
+  "reason": "总等级达30给经验，自动生效。"
+ },
+ "有舍有得": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "每回合随机觉醒进度+1，自动生效。"
+ },
+ "王牌部队": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "条件满足时送高阶效果锦囊，自动生效。"
+ },
+ "三十而达": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "lord_xp",
+  "reason": "总等级达30给经验，自动生效。"
+ },
+ "大明星": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "board_room:1"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "手牌：直接上阵1名高等级5阶英雄，需要空人口。"
+ },
+ "紧急救援": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "选中立即回血并给装备箱和兑换券。"
+ },
+ "极限操作": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "energy",
+  "reason": "选中立即扣血换15能量。"
+ },
+ "搏命": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "energy",
+  "reason": "选中立即扣血换25能量。"
+ },
+ "双人游": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "选中立即给2张英雄牌。"
+ },
+ "人才市场": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "选中给3张人才搜寻（人才搜寻才是手牌）。"
+ },
+ "永不独行": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "选中给双人同行（双人同行才是手牌）。"
+ },
+ "凯旋征召": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "copy_hero",
+  "reason": "赢了送最高等级英雄牌，自动生效。"
+ },
+ "中坚力量": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "打出3阶英雄额外+4级，自动生效。"
+ },
+ "小咖秀": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "copy_hero",
+  "reason": "条件满足开战复制英雄，自动生效。"
+ },
+ "常胜将军": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "energy",
+  "reason": "连胜给能量，自动生效。"
+ },
+ "中流砥柱": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "打出3阶英雄额外+6级，自动生效。"
+ },
+ "三人游": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "选中立即给3张4-5阶英雄。"
+ },
+ "复印机": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（必须1-3阶）；否则最值钱的1-3阶英雄",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "copy_hero",
+  "reason": "手牌：复制目标英雄牌当合成材料，只对1-3阶有效。"
+ },
+ "兵行诡招": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "扣血换开战临时等级，自动生效。"
+ },
+ "伤害转化器": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "energy",
+  "reason": "给能量，赢了再给，自动生效。"
+ },
+ "终极复印机": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "copy_hero",
+  "reason": "手牌：复制目标英雄牌，复制主C 用来合成/觉醒。"
+ },
+ "小电池包": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "energy",
+  "reason": "选中立即给5能量。"
+ },
+ "五福临门": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:5"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "手牌：随机5张英雄牌，手牌要留5格。"
+ },
+ "银算盘": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "卖场上英雄时随机1人+2级，自动生效。"
+ },
+ "专注射击": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "后排普攻叠攻速，自动生效。"
+ },
+ "如法炮制": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "每回合首张英雄牌送同阶英雄，自动生效。"
+ },
+ "消费返利": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "花能量送加速成长（加速成长才是手牌）。"
+ },
+ "泉水": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "lord_xp",
+  "reason": "每回合回血或给经验，自动生效。"
+ },
+ "金算盘": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "卖场上英雄时随机1人+3级，自动生效。"
+ },
+ "超专注射击": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "后排普攻叠攻速，自动生效。"
+ },
+ "电池包": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "energy",
+  "reason": "选中立即给8能量。"
+ },
+ "结伴": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "选中给能量和兑换券。"
+ },
+ "加速成长": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "now"
+  ],
+  "effect_type": "level_up",
+  "reason": "手牌：指定英雄+5级，给主C。"
+ },
+ "同路人": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "同阵营连打送英雄，自动生效。"
+ },
+ "同心协力": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "6名同阵营时加属性，自动生效。"
+ },
+ "重装上阵": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "2件装备以上加伤减伤，自动生效。"
+ },
+ "成年礼": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "英雄到30级送同阵营英雄，自动生效。"
+ },
+ "全副武装": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_equipment",
+  "reason": "给基础装备+装备多的加伤，自动生效。"
+ },
+ "大电池包": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "energy",
+  "reason": "选中立即给10能量。"
+ },
+ "限制性进化": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "disposable_hero",
+  "target_detail": "1~2阶的过渡英雄（等级越高越赚）",
+  "avoid": [
+   "carry"
+  ],
+  "prefer": [
+   "disposable",
+   "high_level"
+  ],
+  "when": [
+   "has_target",
+   "hand_room:1"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "手牌：移除1~2阶英雄换高2阶英雄牌（原等级+10），别动主C。"
+ },
+ "援军": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（随机4张同阵营英雄牌）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "hand_room:6"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "手牌：按目标阵营给4张英雄，指定主C 拿同体系牌，手牌要够空。"
+ },
+ "延迟满足": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "carry_on_board"
+  ],
+  "effect_type": "level_up",
+  "reason": "手牌：+10级、3回合后再+25，给会留到最后的主C。"
+ },
+ "自适应武装": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（给2件与其适配的普通装备）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "hand_room:2"
+  ],
+  "effect_type": "gives_equipment",
+  "reason": "手牌：按目标适配出装备，指定主C 拿输出装。"
+ },
+ "虚构装备": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "开战随机3人临时装备，自动生效。"
+ },
+ "战术模组": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "选中人口+1。"
+ },
+ "随机成长": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "开战最高品阶英雄永久+4级，自动生效。"
+ },
+ "控能达人": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "低能量开战送英雄，自动生效。"
+ },
+ "强者自强": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "觉醒英雄加攻击，自动生效。"
+ },
+ "破败之力": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "普攻附带百分比伤害，自动生效。"
+ },
+ "虚构武装": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "开战随机3人临时2件装备，自动生效。"
+ },
+ "战略中枢": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "人口+1并给2张有福同享。"
+ },
+ "随机进化": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "开战最高品阶英雄永久+6级，自动生效。"
+ },
+ "破败神威": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "普攻附带百分比伤害，自动生效。"
+ },
+ "随机强化": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "开战最高品阶英雄永久+9级，自动生效。"
+ },
+ "强者恒强": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "觉醒英雄加攻击和吸血，自动生效。"
+ },
+ "特大电池包": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "energy",
+  "reason": "选中立即给12能量。"
+ },
+ "超速成长": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "now"
+  ],
+  "effect_type": "level_up",
+  "reason": "手牌：指定英雄+15级，给主C。"
+ },
+ "守护灵": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "summon",
+  "reason": "只剩1人时召唤5阶英雄，自动生效。"
+ },
+ "天兵": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "给5阶英雄牌，每回合再给，自动生效。"
+ },
+ "河洛新援": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "选中给能量和河洛英雄。"
+ },
+ "河洛来客": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "选中给能量和李信。"
+ },
+ "河洛增援": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "选中给3张河洛英雄。"
+ },
+ "河洛精兵": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "选中弹河洛4/5阶3选1。"
+ },
+ "河洛强援": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "选中给能量和3张河洛高阶英雄。"
+ },
+ "前浪的荣光": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（得1张高1-2阶同阵营英雄）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "手牌：按目标阵营给高阶英雄，指定主C 拿同体系牌。"
+ },
+ "全军列阵": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（召唤同阵营英雄补满人口）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "board_room:2"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "手牌：按目标阵营把人口补满，空位越多越赚。"
+ },
+ "逐鹿新援": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "选中给能量和逐鹿英雄。"
+ },
+ "逐鹿来客": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "选中给能量和蒙犽。"
+ },
+ "逐鹿增援": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "选中给3张逐鹿英雄。"
+ },
+ "逐鹿精兵": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "选中弹逐鹿4/5阶3选1。"
+ },
+ "逐鹿强援": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "选中给能量和3张逐鹿高阶英雄。"
+ },
+ "大河新援": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "选中给能量和大河英雄。"
+ },
+ "大河来客": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "选中给能量和刘邦。"
+ },
+ "大河增援": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "选中给3张大河英雄。"
+ },
+ "大河精兵": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "选中弹大河4/5阶3选1。"
+ },
+ "大河强援": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "选中给能量和3张大河高阶英雄。"
+ },
+ "日落海新援": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "选中给能量和日落海英雄。"
+ },
+ "日落海来客": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "选中给能量和雅典娜。"
+ },
+ "日落海增援": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "选中给3张日落海英雄。"
+ },
+ "日落海精兵": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "选中弹日落海4/5阶3选1。"
+ },
+ "日落海强援": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "选中给能量和3张日落海高阶英雄。"
+ },
+ "三分新援": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "选中给能量和三分英雄。"
+ },
+ "三分来客": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "选中给能量和小乔。"
+ },
+ "三分增援": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "选中给3张三分英雄。"
+ },
+ "三分精兵": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "选中弹三分4/5阶3选1。"
+ },
+ "三分强援": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "选中给能量和3张三分高阶英雄。"
+ },
+ "点兵点将": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:5"
+  ],
+  "effect_type": "copy_hero",
+  "reason": "手牌：场上每名英雄各复制1张，手牌要够空。"
+ },
+ "能量改造": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "改变阿科米亚核心机制，自动生效。"
+ },
+ "定向传输": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "核心等级优先给装备最多的日落海英雄，自动生效。"
+ },
+ "光棱塔": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "核心改为造成伤害，自动生效。"
+ },
+ "能量汲取": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "卖人时核心吸收等级，自动生效。"
+ },
+ "场外供能": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "每回合核心加等级，自动生效。"
+ },
+ "积极整备": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_equipment",
+  "reason": "整备次数达标送日落海装备，自动生效。"
+ },
+ "积少成多": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "日落海升级时核心加等级，自动生效。"
+ },
+ "双重分配": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "核心分配附带属性，自动生效。"
+ },
+ "全域共鸣": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_equipment",
+  "reason": "给火鹰装备，专属效果对所有人生效。"
+ },
+ "能源置换": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "energy",
+  "reason": "每回合核心掉级换能量，自动生效。"
+ },
+ "核心裂痕": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "选中给盗火（盗火才是手牌）。"
+ },
+ "动能灌注": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "核心加等级，自动生效。"
+ },
+ "盗火": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（偷阿科米亚核心至多20级）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "transient_now"
+  ],
+  "effect_type": "level_transfer",
+  "reason": "转瞬手牌：从核心搬等级给主C，本回合用掉。"
+ },
+ "智能装甲": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_equipment",
+  "reason": "给日落海专属装备，自动生效。"
+ },
+ "多彩古币": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "改变古币用法（只能对非河洛用），自动生效。"
+ },
+ "升值": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "选中给2张古币，古币成长，自动生效。"
+ },
+ "古币机": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "summon",
+  "reason": "选中召唤古币机（之后古币可喂给它）。"
+ },
+ "一起发财": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "用古币时其他阵营加等级，自动生效。"
+ },
+ "传家宝": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "古币去掉转瞬并成长，自动生效。"
+ },
+ "古币翻新": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "给古币且古币多给2级，自动生效。"
+ },
+ "自我奉献": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "河洛获得牺牲效果，自动生效。"
+ },
+ "献祭之赐": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "给李信并强化，自动生效。"
+ },
+ "丝绸之路": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "卖人换古币，自动生效。"
+ },
+ "零钱兑换": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "古币变破损古币，自动生效。"
+ },
+ "千金换酒": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "给李白并强化，自动生效。"
+ },
+ "最终守卫": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "河洛最后一人无敌，自动生效。"
+ },
+ "古币契约": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "牺牲次数换古币，自动生效。"
+ },
+ "钱生战力": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "按古币使用数给河洛临时等级，自动生效。"
+ },
+ "暴君归来": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "复生英雄强化，自动生效。"
+ },
+ "幸运硬币": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "古币概率多次触发，自动生效。"
+ },
+ "红豆之托": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "给王维，总等级达标再给，自动生效。"
+ },
+ "鬼神降临": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "summon",
+  "reason": "三分阵亡够4人召唤吕布，自动生效。"
+ },
+ "四重奏": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "3阵营以上开战给临时等级，自动生效。"
+ },
+ "乐善好施": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "登场触发时三分英雄加等级，自动生效。"
+ },
+ "搏战": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "三分前排低血回复加攻速，自动生效。"
+ },
+ "一身是胆": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "给赵云并强化，自动生效。"
+ },
+ "卧龙威势": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "给诸葛亮并强化，自动生效。"
+ },
+ "怒涛": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "三分获得牺牲效果，自动生效。"
+ },
+ "擂台猛虎": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "summon",
+  "reason": "放置猛虎擂台，自动生效。"
+ },
+ "控制感应": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "施加控制时三分加法攻，自动生效。"
+ },
+ "锦囊妙计": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "选中给锦囊（锦囊才是手牌）。"
+ },
+ "三三得三": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "三分人数为3倍数时给临时等级，自动生效。"
+ },
+ "挂帅上阵": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "选中给挂帅手牌（挂帅不在库中）。"
+ },
+ "膨化生命": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "三分加生命上限，自动生效。"
+ },
+ "三分领袖": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_equipment",
+  "reason": "选中给三分旗帜装备。"
+ },
+ "技高一筹": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "energy",
+  "reason": "逐鹿放技能换能量，自动生效。"
+ },
+ "意外之财": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "逐鹿合成换效果锦囊，自动生效。"
+ },
+ "令行如流": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "每回合给战术牌，自动生效。"
+ },
+ "穷兵黩武": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "summon",
+  "reason": "逐鹿放技能召唤士兵，自动生效。"
+ },
+ "复现": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "对逐鹿用的首张效果牌返回手牌，自动生效。"
+ },
+ "强力小弟": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "召唤单位加等级，自动生效。"
+ },
+ "演武": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "5级后战术牌变高阶，自动生效。"
+ },
+ "罡气护体": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "shield",
+  "reason": "逐鹿放技能时获得护盾，自动生效。"
+ },
+ "鲸吞": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "给庄周并强化，自动生效。"
+ },
+ "乘胜追击": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "赢了送高阶推演战术，自动生效。"
+ },
+ "贤士登门": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "每回合给逐鹿英雄，自动生效。"
+ },
+ "春风化雨": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "copy_hero",
+  "reason": "每回合给场上逐鹿英雄同名牌，自动生效。"
+ },
+ "水晶穹顶": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "shield",
+  "reason": "战斗中护盾机制，自动生效。"
+ },
+ "望梅止渴": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "效果未收录，暂按主C 处理",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "now"
+  ],
+  "effect_type": "other",
+  "reason": "天赋会送同名手牌，但手牌效果文本不在库里，先按给主C 处理。"
+ },
+ "四海来援": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "summon",
+  "reason": "无阵营获得牺牲召唤，自动生效。"
+ },
+ "命运图腾": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "summon",
+  "reason": "开战召唤命运图腾，自动生效。"
+ },
+ "神明庇佑": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "图腾周围单位加属性，自动生效。"
+ },
+ "生命绽放": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "给鬼谷子并强化，自动生效。"
+ },
+ "始祖熊灵": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "给始祖熊灵英雄牌（不占人口），自动生效。"
+ },
+ "熊魂附甲": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "summon",
+  "reason": "大河装备英雄阵亡召唤熊灵，自动生效。"
+ },
+ "化为熊灵": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "summon",
+  "reason": "首名大河阵亡召唤熊灵，自动生效。"
+ },
+ "图腾启灵": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "summon",
+  "reason": "每回合随机召唤图腾，自动生效。"
+ },
+ "虚妄转生": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "summon",
+  "reason": "召唤虚妄图腾，自动生效。"
+ },
+ "坚不可摧": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "shield",
+  "reason": "图腾获得护盾，自动生效。"
+ },
+ "灵祭升华": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "图腾被毁给大河临时等级，自动生效。"
+ },
+ "因缘际会": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "summon",
+  "reason": "召唤因缘图腾，自动生效。"
+ },
+ "荆棘牢笼": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "先知图腾强化，自动生效。"
+ },
+ "协同一致": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "每回合无阵营英雄加等级，自动生效。"
+ },
+ "升格": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "summon",
+  "reason": "召唤物存活变为召唤者，自动生效。"
+ },
+ "千里相聚": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "打无阵营英雄全体加等级，自动生效。"
+ },
+ "身外身": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "给孙悟空并强化，自动生效。"
+ },
+ "兄妹": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "给铠和露娜并强化，自动生效。"
+ },
+ "兽觉": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "给裴擒虎和云中君并强化，自动生效。"
+ },
+ "巨像": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "给米莱狄和蒙恬并召唤神兽，自动生效。"
+ },
+ "舞力全开": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "貂蝉婉儿共战强化，自动生效。"
+ },
+ "箭雨": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "给虞姬和公孙离并强化，自动生效。"
+ },
+ "双生突袭": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "马可波罗百里守约共战强化，自动生效。"
+ },
+ "毒奶": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "给蔡文姬和扁鹊并强化，自动生效。"
+ },
+ "逐星": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "给李白和曜并强化，自动生效。"
+ },
+ "宝盒": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "给露娜和孙悟空并强化，自动生效。"
+ },
+ "旋刃": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "给李元芳和公孙离并强化，自动生效。"
+ },
+ "慕名而来": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "登场次数换英雄牌，自动生效。"
+ },
+ "狂野帷幕": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "开战隐形，自动生效。"
+ },
+ "胜之不武": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "手牌：下场全体+20临时等级但对棋手伤害-10，无需目标。"
+ },
+ "超级蓄能": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "整备英雄每回合加等级，自动生效。"
+ },
+ "镜像迷离": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_transfer",
+  "reason": "开战偷敌方同名英雄等级，自动生效。"
+ },
+ "摄人心魄": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_transfer",
+  "reason": "夺取英雄击杀永久夺等级，自动生效。"
+ },
+ "控魂": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "summon",
+  "reason": "夺取英雄击杀复活敌人，自动生效。"
+ },
+ "瞬影连斩": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "闪现英雄连斩，自动生效。"
+ },
+ "双生相": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "闪现英雄强化，自动生效。"
+ },
+ "生生不息": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "4/5阶召唤物完美复生，自动生效。"
+ },
+ "破妄之刃(天赋牌)": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_equipment",
+  "reason": "天赋三选一：选中获得天赋装备「破妄之刃」（装备牌再按装备规则穿），天赋本身不从手牌打。"
+ },
+ "破阵战芒(天赋牌)": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_equipment",
+  "reason": "天赋三选一：选中获得天赋装备「破阵战芒」（装备牌再按装备规则穿），天赋本身不从手牌打。"
+ },
+ "断念(天赋牌)": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_equipment",
+  "reason": "天赋三选一：选中获得天赋装备「断念」（装备牌再按装备规则穿），天赋本身不从手牌打。"
+ },
+ "法潮灵杖(天赋牌)": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_equipment",
+  "reason": "天赋三选一：选中获得天赋装备「法潮灵杖」（装备牌再按装备规则穿），天赋本身不从手牌打。"
+ },
+ "护命灵珠(天赋牌)": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_equipment",
+  "reason": "天赋三选一：选中获得天赋装备「护命灵珠」（装备牌再按装备规则穿），天赋本身不从手牌打。"
+ },
+ "光辉圣铠(天赋牌)": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_equipment",
+  "reason": "天赋三选一：选中获得天赋装备「光辉圣铠」（装备牌再按装备规则穿），天赋本身不从手牌打。"
+ },
+ "魂祭绝刃(天赋牌)": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_equipment",
+  "reason": "天赋三选一：选中获得天赋装备「魂祭绝刃」（装备牌再按装备规则穿），天赋本身不从手牌打。"
+ },
+ "根源之力": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_equipment",
+  "reason": "天赋三选一：选中获得天赋装备「根源之力」（装备牌再按装备规则穿），天赋本身不从手牌打。"
+ },
+ "灵泉项链(天赋牌)": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_equipment",
+  "reason": "天赋三选一：选中获得天赋装备「灵泉项链」（装备牌再按装备规则穿），天赋本身不从手牌打。"
+ },
+ "魂灭灵冠(天赋牌)": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_equipment",
+  "reason": "天赋三选一：选中获得天赋装备「魂灭灵冠」（装备牌再按装备规则穿），天赋本身不从手牌打。"
+ },
+ "怒神项链(天赋牌)": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_equipment",
+  "reason": "天赋三选一：选中获得天赋装备「怒神项链」（装备牌再按装备规则穿），天赋本身不从手牌打。"
+ },
+ "强敌克星": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_equipment",
+  "reason": "天赋三选一：选中获得天赋装备「强敌克星」（装备牌再按装备规则穿），天赋本身不从手牌打。"
+ },
+ "灵泉法杖(天赋牌)": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_equipment",
+  "reason": "天赋三选一：选中获得天赋装备「灵泉法杖」（装备牌再按装备规则穿），天赋本身不从手牌打。"
+ },
+ "鼓舞之戒(天赋牌)": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_equipment",
+  "reason": "天赋三选一：选中获得天赋装备「鼓舞之戒」（装备牌再按装备规则穿），天赋本身不从手牌打。"
+ },
+ "梦魇之牙(天赋牌)": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_equipment",
+  "reason": "天赋三选一：选中获得天赋装备「梦魇之牙」（装备牌再按装备规则穿），天赋本身不从手牌打。"
+ },
+ "末世(天赋牌)": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_equipment",
+  "reason": "天赋三选一：选中获得天赋装备「末世」（装备牌再按装备规则穿），天赋本身不从手牌打。"
+ },
+ "人才搜寻": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "手牌：商店最高品阶英雄3选1。"
+ },
+ "一分钱一分货": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "选中给等价交换（等价交换才是手牌）。"
+ },
+ "小身体大能量": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "开战全体加攻速暴击，自动生效。"
+ },
+ "存款利息": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "energy",
+  "reason": "给能量并按存款生息，自动生效。"
+ },
+ "小小的助力": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "低阶多时高阶加伤，自动生效。"
+ },
+ "逆袭之路": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "排名靠后时加属性，自动生效。"
+ },
+ "拾荒者": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "回血，有人淘汰送兑换券，自动生效。"
+ },
+ "富贵险中求": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "选中给一刀穷一刀富（那张才是手牌）。"
+ },
+ "二象性": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "选中给二象坍缩（二象坍缩才是手牌）。"
+ },
+ "祝你好运": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "升级时送碰碰运气（碰碰运气才是手牌）。"
+ },
+ "预言家": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "选中给胜利预言和失败预言（那两张才是手牌）。"
+ },
+ "群星璀璨": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "给兑换券，4-5阶多时加临时等级，自动生效。"
+ },
+ "拍卖专家": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "拍卖后送拍卖重现（那张才是手牌）。"
+ },
+ "一个响指": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "选中给听天由命（听天由命才是手牌）。"
+ },
+ "无影手": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "economy",
+  "reason": "每回合3次免费刷新，自动生效。"
+ },
+ "学霸": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "energy",
+  "reason": "给能量，抢先到5/6级有奖励，自动生效。"
+ },
+ "厉兵秣马": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_equipment",
+  "reason": "给普通装备，等级不变再给，自动生效。"
+ },
+ "绝境逆袭": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "排名靠后时加属性，自动生效。"
+ },
+ "买橘子去": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "选中给站这别动（站这别动才是手牌）。"
+ },
+ "神秘英雄": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "给2张神秘英雄牌（英雄牌按英雄处理），天赋本身不打出。"
+ },
+ "抢攻": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_equipment",
+  "reason": "给普通装备，造成伤害达标给能量，自动生效。"
+ },
+ "群英荟萃": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "打3张不同品阶英雄全体加等级，自动生效。"
+ },
+ "前线堡垒": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "第一排加防御，自动生效。"
+ },
+ "战前叫阵": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "最高等级英雄比拼，自动生效。"
+ },
+ "猪猪": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "开战把敌方变小猪，自动生效。"
+ },
+ "扩编名额": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "解锁可购买的人口天赋（在天赋栏里花能量买），不从手牌打。"
+ },
+ "扩编高峰": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "other",
+  "reason": "解锁可购买的人口天赋（在天赋栏里花能量买），不从手牌打。"
+ },
+ "补给线：整备": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "给整备英雄牌，每回合再给，自动生效。"
+ },
+ "补给线：牺牲": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "给牺牲英雄牌，每回合再给，自动生效。"
+ },
+ "补给线：开团": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "选中给3张开团英雄牌。"
+ },
+ "补给线：登场": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "给登场英雄牌，每回合再给，自动生效。"
+ },
+ "混沌次元": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "选中给混沌裂隙（混沌裂隙才是手牌）。"
+ },
+ "混沌裂隙": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "disposable_hero",
+  "target_detail": "要牺牲的高等级非主C英雄所在阵位（开战前被吞）",
+  "avoid": [
+   "carry"
+  ],
+  "prefer": [
+   "disposable",
+   "high_level"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "summon",
+  "reason": "手牌：吞掉该格英雄，双倍等级给开战召唤的英雄，别放在主C 格。"
+ },
+ "班叔的遗留物": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "选中给2级电磁弹簧（那张才是手牌）。"
+ },
+ "2级电磁弹簧": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "放在己方阵位上（机关）",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "summon",
+  "reason": "手牌：在指定位置放机关，不需要英雄目标。"
+ },
+ "刻舟减蓝": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "20级后法力上限-10，自动生效。"
+ },
+ "微弱优势": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "打出觉醒英雄加暴击吸血，自动生效。"
+ },
+ "节能商店": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "economy",
+  "reason": "刷新后有卡降价，自动生效。"
+ },
+ "危险数字": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "energy",
+  "reason": "买牌返能量，自动生效。"
+ },
+ "战争头牌": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "level_up",
+  "reason": "打出指定品阶英雄额外+4级，自动生效。"
+ },
+ "瓶中人": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "选中给契约瓶（契约瓶才是手牌）。"
+ },
+ "好聚好散": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_cards",
+  "reason": "选中给体面离场（体面离场才是手牌）。"
+ },
+ "大买卖": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "economy",
+  "reason": "买贵卖贵，自动生效。"
+ },
+ "破格": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "economy",
+  "reason": "商店自动刷新出高1阶英雄，自动生效。"
+ },
+ "惊雷之龙": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "buff_stats",
+  "reason": "赵云的额外技能说明（一身是胆），不是卡牌。"
+ },
+ "锦囊": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "before_hero_plays"
+  ],
+  "effect_type": "other",
+  "reason": "手牌：本回合之后打出的登场英雄多触发1次，先打锦囊再打登场英雄。"
+ },
+ "等价交换": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:3"
+  ],
+  "effect_type": "economy",
+  "reason": "手牌：扣光能量换资源（≥5能量换5阶兑换券+2锦囊最值），无需目标。"
+ },
+ "一刀穷一刀富": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:2"
+  ],
+  "effect_type": "gives_equipment",
+  "reason": "手牌：给基础装备+险中求富，无需目标。"
+ },
+ "险中求富": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hold_next_round"
+  ],
+  "effect_type": "gives_equipment",
+  "reason": "手牌：连胜时攒装备，失败就消失，攒够或预计要输时再打出。"
+ },
+ "二象坍缩": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（3张同阶或2张同阵营最高阶英雄）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "hand_room:6"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "手牌：按目标给同阶/同阵营英雄，指定主C。"
+ },
+ "碰碰运气": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "needs_energy:5"
+  ],
+  "effect_type": "level_up",
+  "reason": "手牌：主C +5~20级，会随机扣1~5能量，留够5能量再用。"
+ },
+ "胜利预言": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "other",
+  "reason": "手牌：预测下场赢，自认能赢时打出。"
+ },
+ "失败预言": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "now"
+  ],
+  "effect_type": "other",
+  "reason": "手牌：预测下场输，自认要输时打出。"
+ },
+ "拍卖重现：一": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_cards",
+  "reason": "手牌：第一轮拍卖没拿到的卡选1。"
+ },
+ "拍卖重现：二": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_cards",
+  "reason": "手牌：第二轮拍卖没拿到的卡选1。"
+ },
+ "拍卖重现：三": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "needs_energy:4",
+   "hand_room:1"
+  ],
+  "effect_type": "gives_cards",
+  "reason": "手牌：花4能量从第三轮拍卖选1。"
+ },
+ "听天由命": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "自动消除场上等级最低的4名英雄",
+  "avoid": [
+   "carry"
+  ],
+  "prefer": [],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "remove_hero",
+  "reason": "手牌：自动删最低4人换资源，主C 若在最低4人里就不能用。"
+ },
+ "站这别动": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C 所在阵位（每2回合复制此格英雄）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "carry_on_board"
+  ],
+  "effect_type": "copy_hero",
+  "reason": "手牌：指定阵位持续复制该格英雄，指主C 所在格给合成材料。"
+ },
+ "契约瓶": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hold_next_round"
+  ],
+  "effect_type": "gives_heroes",
+  "reason": "手牌：赢了攒英雄，先攒几回合再打出兑现。"
+ },
+ "体面离场": {
+  "category": "天赋牌",
+  "usable_from_hand": true,
+  "target": "disposable_hero",
+  "target_detail": "要淘汰的英雄（觉醒进度越高给能量越多）",
+  "avoid": [
+   "carry"
+  ],
+  "prefer": [
+   "disposable"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "remove_hero",
+  "reason": "手牌：移除英雄换能量，本质是带补偿的卖人，只能指向消耗件。"
+ },
+ "留级证明": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "energy",
+  "reason": "学霸失败的补偿：停在1级时每回合+1能量，自动生效。"
+ },
+ "起舞": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "给貂蝉和上官婉儿并强化，自动生效。"
+ },
+ "崛起": {
+  "category": "天赋牌",
+  "usable_from_hand": false,
+  "target": "n/a",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [],
+  "effect_type": "gives_heroes",
+  "reason": "给马可波罗和百里守约并强化，自动生效。"
+ },
+ "机关匣": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "specific_faction",
+  "target_detail": "【逐鹿】英雄（唯一）",
+  "avoid": [],
+  "prefer": [
+   "carry",
+   "front_row"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "summon",
+  "reason": "只有逐鹿英雄能穿，开战召唤2个故障机器人。"
+ },
+ "星源装甲": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "specific_faction",
+  "target_detail": "【日落海】英雄（专属效果只对日落海生效）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "日落海专属装备，吸血+免控，给日落海主C。"
+ },
+ "星源装甲(装备牌)": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "specific_faction",
+  "target_detail": "【日落海】英雄（专属效果只对日落海生效）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "日落海专属装备，吸血+免控，给日落海主C。"
+ },
+ "星源狩枪": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "specific_faction",
+  "target_detail": "【日落海】英雄（专属效果只对日落海生效）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "日落海专属输出装，给日落海技能主C。"
+ },
+ "星源狩枪(装备牌)": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "specific_faction",
+  "target_detail": "【日落海】英雄（专属效果只对日落海生效）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "日落海专属输出装，给日落海技能主C。"
+ },
+ "星源星徽": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "specific_faction",
+  "target_detail": "【日落海】里不想分到核心等级的英雄",
+  "avoid": [
+   "carry"
+  ],
+  "prefer": [
+   "disposable"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "other",
+  "reason": "穿戴者不吃核心等级，给日落海过渡件让核心等级集中到别人。"
+ },
+ "星源合金盾": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "specific_faction",
+  "target_detail": "【日落海】英雄（前排）",
+  "avoid": [],
+  "prefer": [
+   "tank",
+   "front_row"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "日落海专属防御装，给日落海前排。"
+ },
+ "星源合金盾(装备牌)": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "specific_faction",
+  "target_detail": "【日落海】英雄（前排）",
+  "avoid": [],
+  "prefer": [
+   "tank",
+   "front_row"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "日落海专属防御装，给日落海前排。"
+ },
+ "月影之力": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "specific_hero",
+  "target_detail": "露娜（仅露娜穿戴时专属效果生效，日落海专属）",
+  "avoid": [],
+  "prefer": [
+   "露娜"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "专属效果只对露娜生效，没有露娜就只是加血装。"
+ },
+ "玄微之种": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "any_hero",
+  "target_detail": "前排/消耗件（牺牲时给队友回血）",
+  "avoid": [
+   "carry"
+  ],
+  "prefer": [
+   "tank",
+   "disposable"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "牺牲触发的治疗装，给会先死的前排，别占主C 格子。"
+ },
+ "双剑·雄": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（干将莫邪穿戴有额外效果）",
+  "avoid": [],
+  "prefer": [
+   "carry",
+   "干将莫邪"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "攻速装，干将莫邪穿戴时法力上限降到10。"
+ },
+ "学识宝石": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "level_up",
+  "reason": "每回合+8%等级，长期叠等级，只给最终主C。"
+ },
+ "百锻刀": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "最终的物理主C（无法拆卸）",
+  "avoid": [],
+  "prefer": [
+   "carry",
+   "physical"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "无法拆卸，击杀永久成长，只给确定的物理主C。"
+ },
+ "聚灵法杖": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "最终的法术主C（无法拆卸）",
+  "avoid": [],
+  "prefer": [
+   "carry",
+   "magic"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "无法拆卸，击杀永久成长，只给确定的法术主C。"
+ },
+ "分身镜": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "summon",
+  "reason": "召唤主C 复制体，本体越强复制体越强。"
+ },
+ "捕能手套": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（击杀最多的人）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "economy",
+  "reason": "击杀换能量，给击杀最多的输出。"
+ },
+ "鼓舞之戒": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "any_hero",
+  "target_detail": "主阵营里的辅助/前排（给同阵营加血）",
+  "avoid": [
+   "carry"
+  ],
+  "prefer": [
+   "support",
+   "main_faction"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "给同阵营加30%血的团队装，穿在主阵营非主C 身上省主C 格子。"
+ },
+ "小鹿的庇护": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（伤害转给小鹿）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "把穿戴者30%伤害转给小鹿，给最怕被集火的主C。"
+ },
+ "静谧之铃": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（法术输出更佳）",
+  "avoid": [],
+  "prefer": [
+   "carry",
+   "magic"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "压制敌方两名最高等级英雄的回蓝并造成法伤。"
+ },
+ "凝渊": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "暴击装，给输出主C。"
+ },
+ "盛华": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "any_hero",
+  "target_detail": "前排坦克（无法拆卸，战后永久加血）",
+  "avoid": [],
+  "prefer": [
+   "tank",
+   "front_row"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "无法拆卸的成长型生命装，给会一直留场的前排。"
+ },
+ "日渊": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "ranged_hero",
+  "target_detail": "远程英雄（限定远程），优先远程主C",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "限定远程英雄，近战穿不上。"
+ },
+ "贤者的庇护": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "specific_faction",
+  "target_detail": "【河洛】英雄，优先河洛主C",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "只有河洛英雄能穿，首次阵亡复生。"
+ },
+ "青莲剑谱": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "melee_hero",
+  "target_detail": "近战英雄（限定近战），优先近战主C",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "限定近战英雄，暴击+技能替换。"
+ },
+ "不屈意志": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "any_hero",
+  "target_detail": "多名英雄各穿1件时收益最大",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "穿的人越多越强，阵亡把等级分给同装备友军；单件给主C。"
+ },
+ "风暴巨剑": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（基础装备，铸造输出型成品）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "基础装备，穿上弹四选一铸造输出装，给主C。"
+ },
+ "无尽巨剑": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（暴击型）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "暴击输出装。"
+ },
+ "制裁之剑": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（普攻型更佳）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "降治疗/护盾，普攻型输出收益翻倍。"
+ },
+ "纯净苍穹": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（法术型）",
+  "avoid": [],
+  "prefer": [
+   "carry",
+   "magic"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "叠法攻+净化，给法术主C。"
+ },
+ "大棒": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（基础装备，铸造输出型成品）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "基础装备，铸造输出装，给主C。"
+ },
+ "虚无法杖": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（法术型）",
+  "avoid": [],
+  "prefer": [
+   "carry",
+   "magic"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "法穿装，给法术主C。"
+ },
+ "寒霜侵袭": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（普攻型）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "普攻减速叠易伤，给普攻输出。"
+ },
+ "梦魇之牙": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（法术型）",
+  "avoid": [],
+  "prefer": [
+   "carry",
+   "magic"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "法攻+35%，给法术主C。"
+ },
+ "金色圣剑": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（普攻型）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "攻速+普攻法伤。"
+ },
+ "自然法杖": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（远程法术更佳）",
+  "avoid": [],
+  "prefer": [
+   "carry",
+   "magic",
+   "ranged"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "法攻+变猪，远程收益翻倍。"
+ },
+ "速击之枪": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（基础装备，铸造输出型成品）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "基础装备，铸造输出装，给主C。"
+ },
+ "影牙": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（普攻型）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "攻速+50%。"
+ },
+ "破晓": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（物理普攻型）",
+  "avoid": [],
+  "prefer": [
+   "carry",
+   "physical"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "普攻破甲，给物理普攻输出。"
+ },
+ "末世": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（近战效果翻倍）",
+  "avoid": [],
+  "prefer": [
+   "carry",
+   "melee"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "普攻吸取最大生命值，近战翻倍。"
+ },
+ "铸梦·逐风": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（普攻型）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "定时连续普攻。"
+ },
+ "破碎圣杯": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（基础装备，铸造功能型成品）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "基础装备，铸造功能装（回蓝/控制），给主C 或技能核心。"
+ },
+ "痛苦面具": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（法术型）",
+  "avoid": [],
+  "prefer": [
+   "carry",
+   "magic"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "高额法伤点燃，给法术主C。"
+ },
+ "法源之杯": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（靠技能输出）",
+  "avoid": [],
+  "prefer": [
+   "carry",
+   "skill_caster"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "每秒回蓝，技能型主C 更快放技能。"
+ },
+ "破茧之衣": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "开战回蓝+眩晕敌方高等级单位。"
+ },
+ "聚灵水晶": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "any_hero",
+  "target_detail": "前排坦克（受击回蓝回血）",
+  "avoid": [
+   "carry"
+  ],
+  "prefer": [
+   "tank",
+   "front_row"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "受击触发，给挨打的前排。"
+ },
+ "力量腰带": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "any_hero",
+  "target_detail": "前排坦克（基础装备，铸造防御型成品）",
+  "avoid": [
+   "carry"
+  ],
+  "prefer": [
+   "tank",
+   "front_row"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "基础装备，铸造防御装，给前排坦克别占主C 格。"
+ },
+ "霸者重铠": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "any_hero",
+  "target_detail": "前排坦克",
+  "avoid": [
+   "carry"
+  ],
+  "prefer": [
+   "tank",
+   "front_row"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "高血量减伤，给前排。"
+ },
+ "不死鸟之眼": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "any_hero",
+  "target_detail": "前排坦克或有护盾/回复的英雄",
+  "avoid": [],
+  "prefer": [
+   "tank",
+   "front_row"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "加血+强化回复护盾，给前排。"
+ },
+ "魔女斗篷": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "any_hero",
+  "target_detail": "高等级前排（护盾=等级×5）",
+  "avoid": [],
+  "prefer": [
+   "tank",
+   "front_row"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "法抗+按等级给护盾，等级越高越值。"
+ },
+ "红莲炎甲": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "any_hero",
+  "target_detail": "前排坦克（贴身灼烧）",
+  "avoid": [
+   "carry"
+  ],
+  "prefer": [
+   "tank",
+   "front_row"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "周身伤害+减疗，必须站前排。"
+ },
+ "守护者之铠": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "any_hero",
+  "target_detail": "前排坦克（基础装备，铸造防御型成品）",
+  "avoid": [
+   "carry"
+  ],
+  "prefer": [
+   "tank",
+   "front_row"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "基础装备，铸造防御装，给前排坦克。"
+ },
+ "不祥征兆": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "any_hero",
+  "target_detail": "前排坦克",
+  "avoid": [
+   "carry"
+  ],
+  "prefer": [
+   "tank",
+   "front_row"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "格挡普攻，给前排。"
+ },
+ "极寒风暴": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "any_hero",
+  "target_detail": "前排坦克",
+  "avoid": [
+   "carry"
+  ],
+  "prefer": [
+   "tank",
+   "front_row"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "受普攻减攻速并冻结，给前排。"
+ },
+ "近卫荣耀": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "any_hero",
+  "target_detail": "前排坦克（周围友军加防）",
+  "avoid": [
+   "carry"
+  ],
+  "prefer": [
+   "tank",
+   "front_row"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "团队防御光环，给站在人堆里的前排。"
+ },
+ "反伤重甲": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "any_hero",
+  "target_detail": "前排坦克",
+  "avoid": [
+   "carry"
+  ],
+  "prefer": [
+   "tank",
+   "front_row"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "反伤，给挨打最多的前排。"
+ },
+ "雷鸣刃": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（基础装备，铸造输出型成品）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "基础装备，铸造输出装，给主C。"
+ },
+ "征服之剑": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（物理型）",
+  "avoid": [],
+  "prefer": [
+   "carry",
+   "physical"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "物理吸血，给物理主C。"
+ },
+ "冥王": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "melee_hero",
+  "target_detail": "身边敌人多的近战（战士主C或前排）",
+  "avoid": [],
+  "prefer": [
+   "carry",
+   "tank"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "周围敌人越多越强，只适合近战。"
+ },
+ "名刀·司命": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "首次致命伤无敌，给主C 保命。"
+ },
+ "名刀·司命(装备牌)": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "首次致命伤无敌，给主C 保命。"
+ },
+ "红魔": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "any_hero",
+  "target_detail": "独自站位、会承伤的近战输出/前排",
+  "avoid": [],
+  "prefer": [
+   "melee",
+   "tank"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "周围无友军加伤、承伤加伤，适合单独顶出去的近战。"
+ },
+ "魔律之刃": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（技能型）",
+  "avoid": [],
+  "prefer": [
+   "carry",
+   "skill_caster"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "技能概率双放，等级越高概率越大。"
+ },
+ "圣者法典": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（基础装备，铸造法术型成品）",
+  "avoid": [],
+  "prefer": [
+   "carry",
+   "magic"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "基础装备，铸造法术装，给法术主C。"
+ },
+ "噬神之书": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（法术型）",
+  "avoid": [],
+  "prefer": [
+   "carry",
+   "magic"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "法攻+100、法吸60%，给法术主C。"
+ },
+ "贤者之书": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（技能/法术型）",
+  "avoid": [],
+  "prefer": [
+   "carry",
+   "magic"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "降蓝并叠法攻，给法术主C。"
+ },
+ "炽热支配者": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "首次被控给护盾并免控，保护主C 输出。"
+ },
+ "生命魔典": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "any_hero",
+  "target_detail": "前排坦克（受伤时群体回血）",
+  "avoid": [
+   "carry"
+  ],
+  "prefer": [
+   "tank",
+   "front_row"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "受伤触发群体回血，给前排。"
+ },
+ "御灵之纱": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C 或最高等级英雄（护盾=等级×15）",
+  "avoid": [],
+  "prefer": [
+   "carry",
+   "high_level"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "护盾按等级算，给等级最高的人。"
+ },
+ "灵泉法杖": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（近战/刺客更佳）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "闪现+重击，给突进型输出。"
+ },
+ "破妄之刃": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "伤害50%转真伤，给输出主C。"
+ },
+ "破阵战芒": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "specific_hero",
+  "target_detail": "1-3阶英雄（仅1-3阶可穿），主C 是1-3阶优先",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "只有1-3阶能穿，按等级加伤攻速，给低阶高等级输出。"
+ },
+ "断念": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "降敌方生命上限。"
+ },
+ "法潮灵杖": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "法术主C（左右各站1名法术英雄更佳）",
+  "avoid": [],
+  "prefer": [
+   "carry",
+   "magic"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "吸收左右英雄法攻，给被法师夹着的法术主C。"
+ },
+ "护命灵珠": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "周期护盾，有盾时加伤。"
+ },
+ "光辉圣铠": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "any_hero",
+  "target_detail": "前排坦克",
+  "avoid": [
+   "carry"
+  ],
+  "prefer": [
+   "tank",
+   "front_row"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "每秒回血，给前排。"
+ },
+ "魂祭绝刃": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（有吸血能回血的输出）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "攻速吸血，开战掉一半血，给能靠吸血回来的输出。"
+ },
+ "灵泉项链": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "any_hero",
+  "target_detail": "站在主C 旁边的辅助（周围1格回蓝）",
+  "avoid": [],
+  "prefer": [
+   "support",
+   "carry_neighbor"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "给周围1格回蓝，穿在紧挨主C 的人身上。"
+ },
+ "魂灭灵冠": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "any_hero",
+  "target_detail": "前排/会先死的人（阵亡时爆发真伤）",
+  "avoid": [
+   "carry"
+  ],
+  "prefer": [
+   "tank",
+   "disposable"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "阵亡触发，给先死的前排或消耗件。"
+ },
+ "怒神项链": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（法术型暴击更佳）",
+  "avoid": [],
+  "prefer": [
+   "carry",
+   "magic"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "暴击+法术可暴击。"
+ },
+ "驱雷": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "any_hero",
+  "target_detail": "司空震或后排远程（雷电会误伤友军）",
+  "avoid": [],
+  "prefer": [
+   "司空震",
+   "backline"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "随机雷击敌我单位，对司空震有专属收益，给别的人要小心误伤。"
+ },
+ "怒莲之刺": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "carry",
+  "target_detail": "主C（需另有人穿银莲庇佑承伤）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "攻速+100%，伤害转给穿银莲庇佑的人，和银莲庇佑成对使用。"
+ },
+ "银莲庇佑": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "any_hero",
+  "target_detail": "前排坦克（替穿怒莲之刺的主C承伤）",
+  "avoid": [
+   "carry"
+  ],
+  "prefer": [
+   "tank",
+   "front_row"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "替怒莲之刺穿戴者承伤，给血厚的前排。"
+ },
+ "机器头": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "any_hero",
+  "target_detail": "攻速低、靠技能或单发高伤的英雄",
+  "avoid": [],
+  "prefer": [
+   "skill_caster"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "攻速固定0.4但+60%伤害并免负面，攻速型主C 别穿。"
+ },
+ "阿科米亚之子": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "any_hero",
+  "target_detail": "主C 旁边的辅助/前排（周围回蓝回血，参与核心分配）",
+  "avoid": [],
+  "prefer": [
+   "support",
+   "carry_neighbor"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "光环型回蓝回血，穿在主C 旁边的人身上。"
+ },
+ "磐石之心": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "any_hero",
+  "target_detail": "前排坦克（单次伤害上限15%）",
+  "avoid": [],
+  "prefer": [
+   "tank",
+   "front_row"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "防秒杀，给前排，主C 被秒时也可给主C。"
+ },
+ "三分旗帜": {
+  "category": "装备牌",
+  "usable_from_hand": true,
+  "target": "specific_faction",
+  "target_detail": "【三分】英雄（仅三分可穿）",
+  "avoid": [],
+  "prefer": [
+   "carry"
+  ],
+  "when": [
+   "has_target"
+  ],
+  "effect_type": "buff_stats",
+  "reason": "只有三分英雄能穿，伤害转群体治疗。"
+ },
+ "装备箱": {
+  "category": "效果牌",
+  "usable_from_hand": true,
+  "target": "none",
+  "target_detail": "",
+  "avoid": [],
+  "prefer": [],
+  "when": [
+   "hand_room:1"
+  ],
+  "effect_type": "gives_equipment",
+  "reason": "直接使用，弹出装备 N 选 1 挑一件（用户 2026-09-26）；来源：里程碑/重大里程碑/紧急行动/紧急救援。"
+ }
+}

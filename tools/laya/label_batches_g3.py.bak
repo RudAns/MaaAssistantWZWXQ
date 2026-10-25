@@ -1,0 +1,238 @@
+"""标注流程工具：把决策点导出成"标注视图"（中文、完整信息、**隐藏规则引擎的选择和名次**），回收并校验标签。
+
+  export  按类型/数量抽样，切成批次，写 data/laya/labels/<ver>/batches/batch_XXX.md（+ .ids.json）
+          --dup 0.1：再抽 10% 做第二遍独立标注（衡量标注一致性），写 dup_XXX.md
+  merge   读 data/laya/labels/<ver>/out/*.jsonl（标注员写的），校验后合并成 labels.jsonl / labels_dup.jsonl
+  status  看进度
+
+标签格式见 docs/laya-report/labeling-guide.md 第 0 节。
+"""
+from __future__ import annotations
+
+import argparse
+import collections
+import glob
+import json
+import random
+import sys
+from pathlib import Path
+
+PROJECT_DIR = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(PROJECT_DIR / "tools" / "laya"))
+import features as F  # noqa: E402
+
+GUIDE_VERSION = "g3"
+
+
+def _cards():
+    return F._cards()
+
+
+def hero_brief(name: str) -> str:
+    c = _cards().get(name) or {}
+    if not c:
+        return f"{name}（卡库无此牌）"
+    tags = "/".join(c.get("tags") or [])
+    return f"{name}（{c.get('category', '')} {c.get('quality', '?')}阶 {c.get('faction') or '无阵营'} {tags}）"
+
+
+def card_full(name: str, desc: str = "") -> str:
+    c = _cards().get(name) or {}
+    skill = (c.get("skill") or desc or "").replace("\n", " ")
+    head = hero_brief(name) if c else f"{name or '未识别'}（卡库无此牌）"
+    return f"{head} 效果：{skill[:160]}" if skill else head
+
+
+def render_point(p: dict) -> str:
+    ctx = p.get("ctx") or {}
+    lines = [f"### id={p['id']}  类型={p['kind']}"]
+    lines.append(f"回合 {ctx.get('round')}｜血 {ctx.get('hp') if ctx.get('hp') is not None else '?'}/60"
+                 + (f"（第 {ctx['rank']}/{ctx.get('alive') or 6} 名）" if ctx.get("rank") else "")
+                 + f"｜能量 {ctx.get('gold')}｜棋手等级 {ctx.get('level')}"
+                 + ("（读数与商店品阶矛盾，已按品阶修正）" if ctx.get("level_fixed") else "")
+                 + ("（满级，不能再升级）" if (ctx.get("level") or 0) >= 6 else "")
+                 + (f"（升级费 {ctx.get('level_cost')}）" if (ctx.get('level_cost') or -1) > 0 else "")
+                 + (f"（经验 {ctx['xp']}/{ctx['xp_needed']}）" if (ctx.get('xp_needed') or 0) > 0 else "")
+                 + f"｜人口 {ctx.get('pop')}/{ctx.get('pop_cap')}｜禁用派系 {ctx.get('banned') or '-'}")
+    extra = []
+    if ctx.get("auction_in") is not None:
+        extra.append(("本回合是拍卖回合，" + ("拍卖已经结束" if ctx.get("auction_done") else "拍卖还没开始"))
+                     if ctx["auction_in"] == 0 else f"距下次拍卖 {ctx['auction_in']} 回合")
+    if "free_refresh" in ctx:
+        extra.append(f"免费刷新 {ctx.get('free_refresh') or 0} 次")
+    if ctx.get("units_seen") is not None:
+        extra.append(f"画面上看到 {ctx['units_seen']} 个单位"
+                     + (f"（读到的等级 {ctx['unit_levels']}）" if ctx.get("unit_levels") else ""))
+    if "hand" in ctx:
+        extra.append(f"手牌 {len(ctx.get('hand') or [])} 张")
+    if extra:
+        lines.append("｜".join(extra))
+    carry = ctx.get("carry")
+    lines.append("主C：" + (card_full(carry) if carry else "未定"))
+    field = p.get("field") or []
+    lines.append("场上（账本近似）：" + ("、".join(hero_brief(n) for n in field) if field else "未知/空"))
+    hand = ctx.get("hand") or []
+    if hand:
+        cnt = collections.Counter(hand)
+        lines.append("手牌：" + "、".join(f"{hero_brief(n)}" + (f"×{k}" if k > 1 else "") for n, k in cnt.items()))
+    lines.append("选项：")
+    raw = p.get("raw") or {}
+    crit = p["question"]["criteria"]
+    if p["kind"] == "card_pick":
+        for i, n in enumerate(raw.get("cards", [])):
+            k = sum(1 for h in hand if h == n)
+            lines.append(f"- opt{i}: {card_full(n)}" + (f"（手里已有 {k} 张）" if k else ""))
+    elif p["kind"] in ("talent", "lord_boost"):
+        items = raw.get("talents") or raw.get("boosts") or []
+        for i, (n, d) in enumerate(items):
+            lines.append(f"- opt{i}: {card_full(n, d)}")
+        if "refresh" in crit:
+            lines.append("- refresh: 刷新这三个天赋（本级只能刷一次）")
+    elif p["kind"] == "shop":
+        for slot, n, cost in raw.get("shop", []):
+            if f"buy{slot}" not in p["options"]:
+                continue                    # 同名牌只保留一个选项（f3）
+            k = sum(1 for h in hand if h == n) + (1 if n in field else 0)
+            lines.append(f"- buy{slot}: 买 {card_full(n)}｜价格 {cost}" + (f"｜已拥有 {k} 张" if k else ""))
+        if "refresh" in crit:
+            lines.append("- refresh: 刷新商店（" + ("免费" if ctx.get("free_refresh") else "2 能量") + "）")
+        if "levelup" in crit:
+            lc = ctx.get("level_cost") or -1
+            lines.append(f"- levelup: 升级棋手（{lc} 能量）" if lc > 0 else "- levelup: 升级棋手（升级费没读出来）")
+        lines.append("- stop: 不买了，关店留钱")
+    lines.append(f"（可选键：{', '.join(p['options'])}）")
+    return "\n".join(lines)
+
+
+def load_points(ver: str) -> list[dict]:
+    f = PROJECT_DIR / "data" / "laya" / "datasets" / ver / "points.jsonl"
+    return [json.loads(line) for line in f.read_text(encoding="utf-8").splitlines()]
+
+
+def cmd_export(args) -> int:
+    pts = load_points(args.ver)
+    if args.only_new:
+        # 迭代轮次：只标本轮新加的题（build_round.py 写的 new_ids.json），旧题沿用上一版标签
+        keep = set(json.loads((PROJECT_DIR / "data" / "laya" / "datasets" / args.ver / "new_ids.json")
+                              .read_text(encoding="utf-8")))
+        pts = [p for p in pts if p["id"] in keep]
+    rng = random.Random(args.seed)
+    quota = {"card_pick": 10 ** 6, "lord_boost": 10 ** 6, "talent": 10 ** 6, "shop": args.shop}
+    chosen = []
+    for kind in ("card_pick", "lord_boost", "talent", "shop"):
+        rows = [p for p in pts if p["kind"] == kind]
+        rng.shuffle(rows)
+        chosen += rows[:quota[kind]]
+    rng.shuffle(chosen)
+    root = PROJECT_DIR / "data" / "laya" / "labels" / args.ver
+    (root / "batches").mkdir(parents=True, exist_ok=True)
+    (root / "out").mkdir(parents=True, exist_ok=True)
+
+    def write(prefix, rows):
+        n = 0
+        for b in range(0, len(rows), args.batch):
+            part = rows[b:b + args.batch]
+            name = f"{prefix}_{b // args.batch:03d}"
+            md = [f"# 标注批次 {name}（{len(part)} 题，规范 {GUIDE_VERSION}）\n"] + [render_point(p) + "\n" for p in part]
+            (root / "batches" / f"{name}.md").write_text("\n".join(md), encoding="utf-8")
+            (root / "batches" / f"{name}.ids.json").write_text(json.dumps(
+                {p["id"]: p["options"] for p in part}, ensure_ascii=False), encoding="utf-8")
+            n += 1
+        return n
+    nb = write("batch", chosen)
+    dup = rng.sample(chosen, max(1, int(len(chosen) * args.dup))) if args.dup > 0 else []
+    nd = write("dup", dup) if dup else 0
+    manifest = {"ver": args.ver, "guide": GUIDE_VERSION, "seed": args.seed, "n": len(chosen), "batches": nb,
+                "dup_n": len(dup), "dup_batches": nd,
+                "by_kind": dict(collections.Counter(p["kind"] for p in chosen))}
+    (root / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(json.dumps(manifest, ensure_ascii=False))
+    return 0
+
+
+def _validate(rec: dict, opts: list[str]) -> str | None:
+    d = rec.get("dist")
+    if not isinstance(d, dict) or set(d) != set(opts):
+        return f"dist 键不对：{sorted(d or {})} vs {opts}"
+    s = sum(float(v) for v in d.values())
+    if not 0.98 <= s <= 1.02:
+        return f"概率和 {s:.3f}"
+    if rec.get("best") not in opts:
+        return "best 不在选项里"
+    return None
+
+
+def cmd_merge(args) -> int:
+    root = PROJECT_DIR / "data" / "laya" / "labels" / args.ver
+    ids = {}
+    for f in glob.glob(str(root / "batches" / "*.ids.json")):
+        name = Path(f).name.replace(".ids.json", "")
+        ids[name] = json.loads(Path(f).read_text(encoding="utf-8"))
+    good = {"batch": {}, "dup": {}}
+    bad = []
+    for f in sorted(glob.glob(str(root / "out" / "*.jsonl"))):
+        name = Path(f).stem
+        kind = "dup" if name.startswith("dup") else "batch"
+        want = ids.get(name, {})
+        for line in Path(f).read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                rec = json.loads(line)
+            except ValueError:
+                bad.append((name, "JSON 解析失败", line[:60]))
+                continue
+            opts = want.get(rec.get("id"))
+            if opts is None:
+                bad.append((name, "id 不在批次里", rec.get("id")))
+                continue
+            err = _validate(rec, opts)
+            if err:
+                bad.append((name, err, rec.get("id")))
+                continue
+            s = sum(float(v) for v in rec["dist"].values())
+            rec["dist"] = {k: float(v) / s for k, v in rec["dist"].items()}
+            rec["guide"] = args.guide
+            rec["batch"] = name
+            good[kind][rec["id"]] = rec
+    for kind, fname in (("batch", "labels.jsonl"), ("dup", "labels_dup.jsonl")):
+        with (root / fname).open("w", encoding="utf-8") as fh:
+            for r in good[kind].values():
+                fh.write(json.dumps(r, ensure_ascii=False) + "\n")
+    print(f"合并：主标注 {len(good['batch'])}，重复标注 {len(good['dup'])}，不合格 {len(bad)}")
+    for b in bad[:20]:
+        print("  ", b)
+    return 0
+
+
+def cmd_status(args) -> int:
+    root = PROJECT_DIR / "data" / "laya" / "labels" / args.ver
+    batches = sorted(Path(f).stem for f in glob.glob(str(root / "batches" / "*.md")))
+    done = sorted(Path(f).stem for f in glob.glob(str(root / "out" / "*.jsonl")))
+    todo = [b for b in batches if b not in done]
+    print(f"批次 {len(batches)}，已完成 {len(done)}，待标 {len(todo)}：{todo[:40]}")
+    return 0
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    sub = ap.add_subparsers(dest="cmd", required=True)
+    e = sub.add_parser("export")
+    e.add_argument("--ver", default="v2")
+    e.add_argument("--shop", type=int, default=800)
+    e.add_argument("--batch", type=int, default=40)
+    e.add_argument("--dup", type=float, default=0.1)
+    e.add_argument("--seed", type=int, default=7)
+    e.add_argument("--only-new", action="store_true", help="只导出 new_ids.json 里的新题（迭代轮次）")
+    m = sub.add_parser("merge")
+    m.add_argument("--ver", default="v2")
+    m.add_argument("--guide", default=GUIDE_VERSION, help="这批标注用的规范版本（v2 标注是 g1）")
+    s = sub.add_parser("status")
+    s.add_argument("--ver", default="v2")
+    args = ap.parse_args()
+    return {"export": cmd_export, "merge": cmd_merge, "status": cmd_status}[args.cmd](args)
+
+
+if __name__ == "__main__":
+    sys.exit(main())

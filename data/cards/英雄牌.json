@@ -1,0 +1,5652 @@
+{
+  "version": "2026-10-25",
+  "expected": 85,
+  "source_url": "https://game.gtimg.cn/images/amside/ide_timer/589094_oscard_new_1.js",
+  "cards": {
+    "苏烈": {
+      "id": 1941,
+      "name": "苏烈",
+      "category": "英雄牌",
+      "faction": "河洛",
+      "cost": 3,
+      "quality": 1,
+      "tags": [
+        "前排",
+        "坦克"
+      ],
+      "skill": "牺牲：苏烈的等级永久+2。",
+      "awaken": "牺牲：苏烈的等级永久+4。",
+      "skills": [
+        {
+          "name": "豪烈万军",
+          "desc": "苏烈旋转1周，对周围敌人造成80+80%物理攻击力的物理伤害，并降低其4点物理防御，持续5秒。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "技能伤害提升至造成80+120%物理攻击力，减少的物理防御提升至8点"
+            },
+            {
+              "level": 40,
+              "desc": "战斗中首次被击败后复生，并且拥有50%最大生命值"
+            },
+            {
+              "level": 100,
+              "desc": "复生后拥有100%最大生命值，击飞眩晕周围1格敌方1秒并造成10%最大生命值的物理伤害"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 330,
+        "phyAttack": 32,
+        "magAttack": 0,
+        "phyDefense": 20,
+        "magDefense": 20,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 20,
+        "energy": 40,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "牺牲",
+          "desc": "英雄阵亡时，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/苏烈.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/bd50906724791132e7fef18b41368abe.png",
+      "source": "web"
+    },
+    "曜": {
+      "id": 5221,
+      "name": "曜",
+      "category": "英雄牌",
+      "faction": "逐鹿",
+      "cost": 3,
+      "quality": 1,
+      "tags": [
+        "前排"
+      ],
+      "skill": "你的英雄合成提升的等级+1。",
+      "awaken": "你的英雄合成提升的等级+2。",
+      "skills": [
+        {
+          "name": "逐星",
+          "desc": "曜化作星辰对当前目标造成100+130%物理攻击力的物理伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "施放技能额外获得100+100%物理攻击力的护盾，持续4秒"
+            },
+            {
+              "level": 40,
+              "desc": "每第3次施放技能会额外击飞并眩晕目标0.5秒"
+            },
+            {
+              "level": 100,
+              "desc": "施放技能后获得1次强化攻击，造成130+130%物理攻击力的物理伤害并恢复自身200+75%物理攻击力的生命值"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 300,
+        "phyAttack": 40,
+        "magAttack": 0,
+        "phyDefense": 18,
+        "magDefense": 18,
+        "moveSpeed": 4600,
+        "attackSpeed": 8000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 30,
+        "energy": 50,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "合成",
+          "desc": "使用场上已存在的英雄牌，与场上英雄结合，使其强化。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/曜.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/2271ca2d7d8a6420d326c3fa336b9ac7.png",
+      "source": "web"
+    },
+    "孙膑": {
+      "id": 1181,
+      "name": "孙膑",
+      "category": "英雄牌",
+      "faction": "逐鹿",
+      "cost": 3,
+      "quality": 1,
+      "tags": [
+        "后排"
+      ],
+      "skill": "你的英雄每释放3次技能，该英雄等级永久+1。",
+      "awaken": "你的英雄每释放3次技能，该英雄等级永久+2。",
+      "skills": [
+        {
+          "name": "时空爆弹",
+          "desc": "孙膑向目标敌人投掷1枚定时炸弹，2秒后爆炸对其及附近1格内的敌人造成100+100%法术攻击力的法术伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "炸弹伤害提升至125+175%法术攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "每第3次施放技能，会对生命值最高的3个敌人投掷炸弹"
+            },
+            {
+              "level": 100,
+              "desc": "炸弹附着在敌人身上时沉默该目标"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 240,
+        "phyAttack": 24,
+        "magAttack": 40,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 4,
+        "initEnergy": 10,
+        "energy": 25,
+        "initLevel": 0
+      },
+      "keywords": [],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/孙膑.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/bf7985ba2e1f9acaed5d1046d22827bc.png",
+      "source": "web"
+    },
+    "狂铁": {
+      "id": 5031,
+      "name": "狂铁",
+      "category": "英雄牌",
+      "faction": "日落海",
+      "cost": 3,
+      "quality": 1,
+      "tags": [
+        "前排",
+        "战士"
+      ],
+      "skill": "整备：阿科米亚核心的等级+2。",
+      "awaken": "整备：阿科米亚核心的等级+2，触发2次。",
+      "skills": [
+        {
+          "name": "碎裂之击",
+          "desc": "狂铁挥舞2次武器，每次挥击对身前的敌人造成50+100%物理攻击力的物理伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "施法获得持续4秒的100+10%最大生命值的护盾"
+            },
+            {
+              "level": 40,
+              "desc": "技能每命中1个敌人，护盾值提升100点"
+            },
+            {
+              "level": 100,
+              "desc": "护盾被击破时恢复10%最大生命值"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 300,
+        "phyAttack": 40,
+        "magAttack": 0,
+        "phyDefense": 18,
+        "magDefense": 18,
+        "moveSpeed": 4600,
+        "attackSpeed": 8000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 30,
+        "energy": 50,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "整备",
+          "desc": "回合开始时，触发效果。"
+        },
+        {
+          "name": "阿科米亚核心",
+          "desc": "战斗开始时，核心的等级会以临时等级的形式，平均分配给己方【日落海】英雄（单英雄分配上限50%）。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/狂铁.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/ec2de510aaf9ba36f374130ee1cd2bdd.png",
+      "source": "web"
+    },
+    "孙尚香": {
+      "id": 1111,
+      "name": "孙尚香",
+      "category": "英雄牌",
+      "faction": "三分之地",
+      "cost": 3,
+      "quality": 1,
+      "tags": [
+        "后排",
+        "射手"
+      ],
+      "skill": "登场：获得1次免费刷新。",
+      "awaken": "登场：获得2次免费刷新。",
+      "skills": [
+        {
+          "name": "红莲爆弹",
+          "desc": "孙尚香朝目标敌人发射1发弩炮，造成100+100%物理攻击力的物理伤害，并降低命中敌人50%物理防御，持续5秒。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "弩炮伤害提升至150+150%物理攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "弩炮会在命中后爆炸，对附近敌人造成60%的技能伤害"
+            },
+            {
+              "level": 100,
+              "desc": "会额外发射1发更强力的弩炮，造成1.5倍的伤害"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 210,
+        "phyAttack": 40,
+        "magAttack": 0,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 10000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 4,
+        "initEnergy": 15,
+        "energy": 50,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "登场",
+          "desc": "使用此卡牌后，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/孙尚香.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/b1b1c4935f3d6eb4cb242e62de5ff0c5.png",
+      "source": "web"
+    },
+    "弈星": {
+      "id": 1971,
+      "name": "弈星",
+      "category": "英雄牌",
+      "faction": "无阵营",
+      "cost": 3,
+      "quality": 1,
+      "tags": [
+        "后排",
+        "法师"
+      ],
+      "skill": "棋手升级时，棋手经验+2。",
+      "awaken": "棋手升级时，棋手经验+4。",
+      "skills": [
+        {
+          "name": "万变之局",
+          "desc": "弈星选择敌人最多的1排，画出1个虚空棋盘，1.5秒后棋盘完全成型，对范围内的敌人造成100+50%法术攻击力的法术伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "棋盘伤害提升至100+100%法术攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "棋盘持续期间，内外的敌人无法进出"
+            },
+            {
+              "level": 100,
+              "desc": "棋盘持续时间延长至5.5秒"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 240,
+        "phyAttack": 24,
+        "magAttack": 40,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 4,
+        "initEnergy": 40,
+        "energy": 60,
+        "initLevel": 0
+      },
+      "keywords": [],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/弈星.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/5ecd03adb33a8d187ff822c588330f68.png",
+      "source": "web"
+    },
+    "干将莫邪": {
+      "id": 1821,
+      "name": "干将莫邪",
+      "category": "英雄牌",
+      "faction": "大河流域",
+      "cost": 3,
+      "quality": 1,
+      "tags": [
+        "后排",
+        "法师"
+      ],
+      "skill": "干将莫邪在场时，获得普通装备双剑·雄。",
+      "awaken": "干将莫邪在场时，获得普通装备双剑·雄及双剑·雌。",
+      "skills": [
+        {
+          "name": "雌雄双剑",
+          "desc": "干将莫邪释放1对飞剑，对敌人造成100+50%法术攻击力的法术伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "飞剑伤害提升至150+100%法术攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "每第2次施法会额外释放1对飞剑"
+            },
+            {
+              "level": 100,
+              "desc": "飞剑伤害提升至150+200%法术攻击力"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 240,
+        "phyAttack": 24,
+        "magAttack": 40,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 4,
+        "initEnergy": 15,
+        "energy": 25,
+        "initLevel": 0
+      },
+      "keywords": [],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/干将莫邪.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/a5cf6d85a212323809f9445c3b48f425.png",
+      "source": "web"
+    },
+    "双剑·雄": {
+      "id": 42102,
+      "name": "双剑·雄",
+      "category": "装备牌",
+      "faction": "无阵营",
+      "cost": 1,
+      "quality": 1,
+      "tags": [],
+      "skill": "攻击速度+30%。若穿戴者为干将莫邪，其法力值上限降低至10。",
+      "awaken": "",
+      "skills": [],
+      "properties": {},
+      "keywords": [],
+      "get_desc": "来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。",
+      "talent_group": "",
+      "portrait": "image/pieces/装备牌/双剑·雄.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_equip_auto/da7acad9b2240c2e0fcbd4eae72303ab.png",
+      "source": "web"
+    },
+    "李元芳": {
+      "id": 1731,
+      "name": "李元芳",
+      "category": "英雄牌",
+      "faction": "河洛",
+      "cost": 3,
+      "quality": 1,
+      "tags": [
+        "后排",
+        "射手"
+      ],
+      "skill": "整备：对距离最近的【河洛】英雄使用1张古币。",
+      "awaken": "整备：对距离最近的【河洛】英雄使用2张古币。",
+      "skills": [
+        {
+          "name": "谍影重重",
+          "desc": "被动：李元芳技能造成伤害会叠加印记，叠满3层引爆印记造成100%物理攻击力的物理伤害。\n主动：李元芳丢出飞镖造成150%物理攻击力的物理伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "印记引爆伤害提升至150%物理攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "普攻也会叠加1层印记"
+            },
+            {
+              "level": 100,
+              "desc": "印记引爆后，提升25%攻击速度，最多叠加5层"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 210,
+        "phyAttack": 36,
+        "magAttack": 0,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 10000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 4,
+        "initEnergy": 20,
+        "energy": 60,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "整备",
+          "desc": "回合开始时，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/李元芳.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/c3fb8a2aed92d604b46b6be098bc9139.png",
+      "source": "web"
+    },
+    "古币": {
+      "id": 311002,
+      "name": "古币",
+      "category": "效果牌",
+      "faction": "河洛",
+      "cost": 0,
+      "quality": 1,
+      "tags": [],
+      "skill": "转瞬\n指定1名【河洛】英雄等级+2。",
+      "awaken": "",
+      "skills": [],
+      "properties": {},
+      "keywords": [],
+      "get_desc": "该卡通过词条效果等渠道获得。",
+      "talent_group": "",
+      "portrait": "image/pieces/效果牌/古币.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_squarehud_auto/591461e90948ff993c261df63c3e2918.png",
+      "source": "web"
+    },
+    "牛魔": {
+      "id": 1681,
+      "name": "牛魔",
+      "category": "英雄牌",
+      "faction": "无阵营",
+      "cost": 3,
+      "quality": 1,
+      "tags": [
+        "前排",
+        "坦克"
+      ],
+      "skill": "凯旋：获得1能量。",
+      "awaken": "凯旋：获得2能量。",
+      "skills": [
+        {
+          "name": "山崩地裂",
+          "desc": "牛魔短暂蓄力后以巨斧猛力劈向当前的目标敌人，自身获得持续4秒的80点护盾并造成30+100%物理攻击力的物理伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "技能伤害提升至30+120%物理攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "将目标击飞并眩晕1秒"
+            },
+            {
+              "level": 100,
+              "desc": "击飞眩晕延长至3秒"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 330,
+        "phyAttack": 32,
+        "magAttack": 0,
+        "phyDefense": 20,
+        "magDefense": 20,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 50,
+        "energy": 60,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "凯旋",
+          "desc": "英雄上阵期间若战斗胜利，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/牛魔.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/f7ef3c5560cccec98ad29468a75cc883.png",
+      "source": "web"
+    },
+    "亚连": {
+      "id": 5141,
+      "name": "亚连",
+      "category": "英雄牌",
+      "faction": "日落海",
+      "cost": 3,
+      "quality": 2,
+      "tags": [
+        "前排"
+      ],
+      "skill": "整备：你穿戴装备最多的1名英雄等级+2，且阿科米亚核心等级+1。",
+      "awaken": "整备：你穿戴装备最多的1名英雄等级+2，且阿科米亚核心等级+1，触发2次。",
+      "skills": [
+        {
+          "name": "流星斩",
+          "desc": "被动：亚连使用“赤影”攻击时造成法术伤害，使用“守心”攻击时造成物理伤害，双剑合击时造成真实伤害。且普攻和技能伤害可以暴击。\n亚连对敌人造成伤害时会获得怒气层数，每层为自身提供2%的伤害减免，最多10层。\n主动：亚连挥舞双剑，对前方目标进行3次快速斩击，分别造成65%法术攻击力的法术伤害和2次65%物理攻击力的物理伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "技能提升至5段，还会击飞目标敌人"
+            },
+            {
+              "level": 40,
+              "desc": "技能提升至7段，物理伤害提升至115%；施放技能后怒气层数上限提高至20层"
+            },
+            {
+              "level": 100,
+              "desc": "技能变为大范围圆形"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 300,
+        "phyAttack": 32,
+        "magAttack": 30,
+        "phyDefense": 18,
+        "magDefense": 18,
+        "moveSpeed": 4600,
+        "attackSpeed": 8000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 30,
+        "energy": 60,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "整备",
+          "desc": "回合开始时，触发效果。"
+        },
+        {
+          "name": "阿科米亚核心",
+          "desc": "战斗开始时，核心的等级会以临时等级的形式，平均分配给己方【日落海】英雄（单英雄分配上限50%）。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/亚连.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/a449e1cc89889154333ab8576c0289c6.png",
+      "source": "web"
+    },
+    "米莱狄": {
+      "id": 5041,
+      "name": "米莱狄",
+      "category": "英雄牌",
+      "faction": "日落海",
+      "cost": 3,
+      "quality": 2,
+      "tags": [
+        "后排",
+        "法师"
+      ],
+      "skill": "召唤单位获得 3临时等级。\n整备：该临时等级及阿科米亚核心等级额外+3。",
+      "awaken": "召唤单位获得 6临时等级。\n整备：该临时等级及阿科米亚核心等级额外+3，触发2次。",
+      "skills": [
+        {
+          "name": "机械仆从",
+          "desc": "米莱狄在距离自己最远的敌人附近召唤1个机械仆从，继承自己100%法术攻击力。\n仆从每次攻击造成30+20%法术攻击力的法术伤害，机械仆从到达最大数量后，再次施放技能，增加仆从60%攻击速度，持续5秒（不可叠加）。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "每次召唤2个机械仆从；攻击伤害提升至30+50%法术攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "机械仆从获得200%法术攻击的额外生命值；机械仆从到达上限后，再次施放技能转而恢复仆从们的所有生命值"
+            },
+            {
+              "level": 100,
+              "desc": "召唤机械仆从上限提升至4"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 240,
+        "phyAttack": 24,
+        "magAttack": 40,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 4,
+        "initEnergy": 40,
+        "energy": 60,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "临时等级",
+          "desc": "战斗结束时，临时等级将会被清除。"
+        },
+        {
+          "name": "整备",
+          "desc": "回合开始时，触发效果。"
+        },
+        {
+          "name": "阿科米亚核心",
+          "desc": "战斗开始时，核心的等级会以临时等级的形式，平均分配给己方【日落海】英雄（单英雄分配上限50%）。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/米莱狄.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/2abcfd1ac6f720240ed70402610e574e.png",
+      "source": "web"
+    },
+    "项羽": {
+      "id": 1351,
+      "name": "项羽",
+      "category": "英雄牌",
+      "faction": "大河流域",
+      "cost": 3,
+      "quality": 2,
+      "tags": [
+        "前排",
+        "坦克"
+      ],
+      "skill": "牺牲：所有图腾等级永久+3且本回合你的召唤物免疫控制。",
+      "awaken": "牺牲：所有图腾等级永久+6且本回合你的召唤物免疫控制。",
+      "skills": [
+        {
+          "name": "破釜沉舟",
+          "desc": "被动：项羽在战斗开始时向前冲撞3格距离，击退沿途敌人并在结束时击飞前方敌人造成100+5%项羽最大生命值的物理伤害。\n主动：项羽发出怒吼同时恢复自身150+5%最大生命值的生命值。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "恢复效果提升至300+8%最大生命值"
+            },
+            {
+              "level": 40,
+              "desc": "怒吼还会降低周围1格敌人50%攻击速度，持续5秒"
+            },
+            {
+              "level": 100,
+              "desc": "技能每命中1名敌人降低自身10%受到的伤害，最多5层，持续到回合结束"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 330,
+        "phyAttack": 32,
+        "magAttack": 0,
+        "phyDefense": 20,
+        "magDefense": 20,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 40,
+        "energy": 70,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "牺牲",
+          "desc": "英雄阵亡时，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/项羽.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/0de5ed257bd358d6110087499ff1e493.png",
+      "source": "web"
+    },
+    "鬼谷子": {
+      "id": 1891,
+      "name": "鬼谷子",
+      "category": "英雄牌",
+      "faction": "大河流域",
+      "cost": 3,
+      "quality": 2,
+      "tags": [
+        "后排",
+        "辅助"
+      ],
+      "skill": "在场时，召唤先知图腾。",
+      "awaken": "在场时，召唤并强化先知图腾。",
+      "skills": [
+        {
+          "name": "万物有灵",
+          "desc": "鬼谷子使用玄微子包裹随机1名友方英雄使其临时等级+5，持续8秒（不可叠加）。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "临时等级增加提升至10"
+            },
+            {
+              "level": 40,
+              "desc": "增益目标+1"
+            },
+            {
+              "level": 100,
+              "desc": "增益效果及持续时间翻倍"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 270,
+        "phyAttack": 24,
+        "magAttack": 20,
+        "phyDefense": 18,
+        "magDefense": 18,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 2,
+        "initEnergy": 20,
+        "energy": 35,
+        "initLevel": 0
+      },
+      "keywords": [],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/鬼谷子.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/5b7769e634c8899e4953e01bec2fca2e.png",
+      "source": "web"
+    },
+    "先知图腾": {
+      "id": 31080,
+      "name": "先知图腾",
+      "category": "召唤物",
+      "faction": "大河流域",
+      "cost": 1,
+      "quality": 2,
+      "tags": [],
+      "skill": "开团：距离最近的2名己方英雄获得装备玄微之种。",
+      "awaken": "",
+      "skills": [
+        {
+          "name": "图腾建筑",
+          "desc": "大河流域阵营的特殊单位。",
+          "enhance": [
+            {
+              "level": 0,
+              "desc": ""
+            },
+            {
+              "level": 0,
+              "desc": ""
+            },
+            {
+              "level": 0,
+              "desc": ""
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 200,
+        "phyAttack": 0,
+        "magAttack": 0,
+        "phyDefense": 0,
+        "magDefense": 0,
+        "moveSpeed": 0,
+        "attackSpeed": 0,
+        "criticalRate": 0,
+        "criticalEffect": 0,
+        "attackDistance": 0,
+        "initEnergy": 0,
+        "energy": 0,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "开团",
+          "desc": "战斗开始时，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/召唤物/先知图腾.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/cd7f89c2c8adcfa293df3f9d3296e629.png",
+      "source": "web"
+    },
+    "玄微之种": {
+      "id": 42101,
+      "name": "玄微之种",
+      "category": "装备牌",
+      "faction": "无阵营",
+      "cost": 1,
+      "quality": 1,
+      "tags": [],
+      "skill": "穿戴者获得牺牲：生命值百分比最低的己方英雄恢复200（+20%最大生命值）点生命值。",
+      "awaken": "",
+      "skills": [],
+      "properties": {},
+      "keywords": [],
+      "get_desc": "来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。",
+      "talent_group": "",
+      "portrait": "image/pieces/装备牌/玄微之种.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_equip_auto/85944555c1f6e801b3645b2950f7867c.png",
+      "source": "web"
+    },
+    "梦奇": {
+      "id": 1981,
+      "name": "梦奇",
+      "category": "英雄牌",
+      "faction": "无阵营",
+      "cost": 3,
+      "quality": 2,
+      "tags": [
+        "前排"
+      ],
+      "skill": "退场：获得1张 1阶英雄兑换券。\n败阵：提升英雄兑换券的品阶。",
+      "awaken": "退场：获得2张 1阶英雄兑换券。\n败阵：提升英雄兑换券的品阶。",
+      "skills": [
+        {
+          "name": "梦境萦绕",
+          "desc": "梦奇使用泡泡包裹自身，恢复8%最大生命值；1秒后泡泡破碎，对周围敌人造成50+70%法术攻击力的法术伤害，并降低5点物理防御和法术防御，持续5秒。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "恢复提升至100+10%最大生命值，泡泡破碎伤害提升至50+100%法术攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "额外保护1名生命值最低的友军"
+            },
+            {
+              "level": 100,
+              "desc": "恢复提升至100+20%最大生命值"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 330,
+        "phyAttack": 24,
+        "magAttack": 20,
+        "phyDefense": 20,
+        "magDefense": 20,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 30,
+        "energy": 80,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "退场",
+          "desc": "场上的此英雄被出售时，触发效果。"
+        },
+        {
+          "name": "败阵",
+          "desc": "英雄上阵期间若战斗失败，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/梦奇.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/e17d6f3d65eb2e87550697a68b361b75.png",
+      "source": "web"
+    },
+    "芈月": {
+      "id": 1211,
+      "name": "芈月",
+      "category": "英雄牌",
+      "faction": "逐鹿",
+      "cost": 3,
+      "quality": 2,
+      "tags": [
+        "后排"
+      ],
+      "skill": "每当你使用效果牌时，己方穿戴装备最多的1名【逐鹿】英雄等级+1。",
+      "awaken": "每当你使用效果牌时，己方穿戴装备最多的1名【逐鹿】英雄等级+2。",
+      "skills": [
+        {
+          "name": "幻翼仆从",
+          "desc": "芈月为等级最高的近战友军召唤1只暗影仆从协助战斗，持续10秒。仆从每次攻击造成80%芈月法术攻击力的法术伤害并为友军恢复80%芈月法术攻击力的生命值，同时窃取目标1点物理防御和法术防御转移给友军（最多30层，持续至回合结束）。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "仆从伤害提升至100%法术攻击力，生命值恢复提升至100%法术攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "仆从数量提升至5只"
+            },
+            {
+              "level": 100,
+              "desc": "窃取的双防提升至2点"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 240,
+        "phyAttack": 24,
+        "magAttack": 40,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 2,
+        "initEnergy": 30,
+        "energy": 50,
+        "initLevel": 0
+      },
+      "keywords": [],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/芈月.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/74bdbbdc99a98145cc9f86cc0e41da59.png",
+      "source": "web"
+    },
+    "沈梦溪": {
+      "id": 3121,
+      "name": "沈梦溪",
+      "category": "英雄牌",
+      "faction": "河洛",
+      "cost": 3,
+      "quality": 2,
+      "tags": [
+        "后排",
+        "法师"
+      ],
+      "skill": "每对沈梦溪使用1张效果牌，本回合法力值上限-15。",
+      "awaken": "每对沈梦溪使用1张效果牌，本回合法力值上限-30。",
+      "skills": [
+        {
+          "name": "综合爆款",
+          "desc": "沈梦溪向敌人密集处投掷1枚混合炸弹，造成100+100%法术攻击力的法术伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "技能伤害提升至125+175%法术攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "炸弹爆炸半径扩大1格"
+            },
+            {
+              "level": 100,
+              "desc": "爆炸时眩晕敌人0.5秒"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 240,
+        "phyAttack": 24,
+        "magAttack": 40,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 4,
+        "initEnergy": 10,
+        "energy": 40,
+        "initLevel": 0
+      },
+      "keywords": [],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/沈梦溪.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/2674fae42335fc1ce006b8476aa32fad.png",
+      "source": "web"
+    },
+    "盾山": {
+      "id": 5091,
+      "name": "盾山",
+      "category": "英雄牌",
+      "faction": "河洛",
+      "cost": 3,
+      "quality": 2,
+      "tags": [
+        "前排",
+        "坦克"
+      ],
+      "skill": "牺牲：获得1张古币。",
+      "awaken": "牺牲：获得1张精致古币。",
+      "skills": [
+        {
+          "name": "不动如山",
+          "desc": "盾山架盾进入防御形态获得25%伤害减免，持续3秒。期间每秒对身前敌人造成50点法术伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "伤害减免提升至35%，持续时间延长至8秒"
+            },
+            {
+              "level": 40,
+              "desc": "石盾范围扩大并降低接触敌人35%攻击速度"
+            },
+            {
+              "level": 100,
+              "desc": "开战后立即进入防御形态，持续至回合结束"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 330,
+        "phyAttack": 24,
+        "magAttack": 20,
+        "phyDefense": 20,
+        "magDefense": 20,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 25,
+        "energy": 45,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "牺牲",
+          "desc": "英雄阵亡时，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/盾山.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/189b5f960a9f6a9e823d823215c2c39b.png",
+      "source": "web"
+    },
+    "曹操": {
+      "id": 1281,
+      "name": "曹操",
+      "category": "英雄牌",
+      "faction": "三分之地",
+      "cost": 3,
+      "quality": 2,
+      "tags": [
+        "前排"
+      ],
+      "skill": "整备：随机触发1名【三分】英雄的登场效果。",
+      "awaken": "整备：随机触发2名【三分】英雄的登场效果。",
+      "skills": [
+        {
+          "name": "霸道枭雄",
+          "desc": "曹操凝聚霸道之力立即恢复自身100+15%最大生命值，同时在5秒内提高20%基础攻击力。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "攻击力增益提升至50%"
+            },
+            {
+              "level": 40,
+              "desc": "增益时间+5秒，强化状态下普攻会施放出可穿透的剑气"
+            },
+            {
+              "level": 100,
+              "desc": "技能持续期间额外获得30%物理吸血"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 300,
+        "phyAttack": 40,
+        "magAttack": 0,
+        "phyDefense": 18,
+        "magDefense": 18,
+        "moveSpeed": 4600,
+        "attackSpeed": 8000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 25,
+        "energy": 60,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "整备",
+          "desc": "回合开始时，触发效果。"
+        },
+        {
+          "name": "登场",
+          "desc": "使用此卡牌后，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/曹操.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/2b2ccd1348d6e5020649d7362e101900.png",
+      "source": "web"
+    },
+    "虞姬": {
+      "id": 1741,
+      "name": "虞姬",
+      "category": "英雄牌",
+      "faction": "大河流域",
+      "cost": 3,
+      "quality": 2,
+      "tags": [
+        "后排",
+        "射手"
+      ],
+      "skill": "开团：场上每有1个图腾，自身及随机2名不同己方英雄等级+1。",
+      "awaken": "开团：场上每有1个图腾，自身及随机4名不同己方英雄等级+1。",
+      "skills": [
+        {
+          "name": "阵前舞",
+          "desc": "被动：虞姬在普攻时有30%的概率会追加1次攻击。\n主动：虞姬冲向目标敌人对其造成120%物理攻击力的物理伤害，随后向后翻腾对目标敌人快速射出4支弩矢，每支弩矢造成50+80%物理攻击力的物理伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "弩矢伤害提升至50+120%物理攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "落地时提升自身50%攻击速度，持续3秒"
+            },
+            {
+              "level": 100,
+              "desc": "冲向目标敌人时还会将其眩晕1.5秒"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 210,
+        "phyAttack": 36,
+        "magAttack": 0,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 10000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 5,
+        "initEnergy": 10,
+        "energy": 60,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "开团",
+          "desc": "战斗开始时，触发效果。"
+        },
+        {
+          "name": "图腾",
+          "desc": "大河流域阵营专属单位，存活时提供特殊效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/虞姬.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/18742e5bb95a71174b50f25aff6b9b56.png",
+      "source": "web"
+    },
+    "马可波罗": {
+      "id": 1321,
+      "name": "马可波罗",
+      "category": "英雄牌",
+      "faction": "日落海",
+      "cost": 3,
+      "quality": 2,
+      "tags": [
+        "后排",
+        "射手"
+      ],
+      "skill": "登场：自身及阿科米亚核心等级+2。",
+      "awaken": "登场：自身及阿科米亚核心等级+4。",
+      "skills": [
+        {
+          "name": "华丽左轮",
+          "desc": "马可波罗掏出华丽左轮朝当前方向连续射出8颗子弹，每颗子弹造成25+15%物理攻击力的物理伤害，通过技能击败敌人后，下1次技能额外增加8发子弹。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "子弹伤害提升至40+30%物理攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "子弹数量提升至16发"
+            },
+            {
+              "level": 100,
+              "desc": "被马可波罗子弹命中的敌人将被永久打上标记，友军攻击标记敌人会提升50%攻击速度"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 210,
+        "phyAttack": 40,
+        "magAttack": 0,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 10000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 4,
+        "initEnergy": 30,
+        "energy": 45,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "登场",
+          "desc": "使用此卡牌后，触发效果。"
+        },
+        {
+          "name": "阿科米亚核心",
+          "desc": "战斗开始时，核心的等级会以临时等级的形式，平均分配给己方【日落海】英雄（单英雄分配上限50%）。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/马可波罗.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/88705f544b5d4492d0a129a47115ffd1.png",
+      "source": "web"
+    },
+    "赵云": {
+      "id": 1071,
+      "name": "赵云",
+      "category": "英雄牌",
+      "faction": "三分之地",
+      "cost": 3,
+      "quality": 2,
+      "tags": [
+        "前排"
+      ],
+      "skill": "登场：自身及随机2名其他英雄等级+1。",
+      "awaken": "登场：自身及随机2名其他英雄等级+2。",
+      "skills": [
+        {
+          "name": "破云之龙",
+          "desc": "赵云快速刺出4次龙枪打击目标敌人，每次造成60+60%物理攻击力的物理伤害并恢复自身40点生命值。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "单次伤害提升至60+100%物理攻击力，恢复生命值提升至80点"
+            },
+            {
+              "level": 40,
+              "desc": "低于50%生命值时，龙枪次数+3"
+            },
+            {
+              "level": 100,
+              "desc": "低于30%生命值时，技能伤害和恢复效果变为1.5倍；首次低于30%生命值时会获得100+30%最大生命值的护盾"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 300,
+        "phyAttack": 40,
+        "magAttack": 0,
+        "phyDefense": 18,
+        "magDefense": 18,
+        "moveSpeed": 4600,
+        "attackSpeed": 8000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 0,
+        "energy": 40,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "登场",
+          "desc": "使用此卡牌后，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/赵云.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/90feabff398cf6fb80bfc47becdd0653.png",
+      "source": "web"
+    },
+    "大乔": {
+      "id": 1911,
+      "name": "大乔",
+      "category": "英雄牌",
+      "faction": "三分之地",
+      "cost": 3,
+      "quality": 2,
+      "tags": [
+        "后排",
+        "辅助"
+      ],
+      "skill": "你的英雄每触发2次登场效果，大乔的法力值上限永久-5且等级+1。",
+      "awaken": "每当你的英雄触发登场效果，大乔的法力值上限永久-5且等级+1。",
+      "skills": [
+        {
+          "name": "鲤跃之潮",
+          "desc": "大乔唤出1道波浪前行，击飞并眩晕沿途敌人1秒，造成100+100%法术攻击力的法术伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "技能伤害提升至100+150%法术攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "每第3次施法会施放1道巨型波浪，造成100+200%法术攻击力的法术伤害"
+            },
+            {
+              "level": 100,
+              "desc": "每次施法都施放巨型波浪"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 270,
+        "phyAttack": 24,
+        "magAttack": 20,
+        "phyDefense": 18,
+        "magDefense": 18,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 4,
+        "initEnergy": 20,
+        "energy": 45,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "登场",
+          "desc": "使用此卡牌后，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/大乔.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/986d585a5dc3dc5bc1fea1cadaff5f72.png",
+      "source": "web"
+    },
+    "公孙离": {
+      "id": 1991,
+      "name": "公孙离",
+      "category": "英雄牌",
+      "faction": "无阵营",
+      "cost": 3,
+      "quality": 2,
+      "tags": [
+        "后排",
+        "射手"
+      ],
+      "skill": "夺取\n开团：场上每有1名已觉醒英雄，攻击速度+15%。",
+      "awaken": "夺取\n开团：场上每有1名已觉醒英雄，攻击速度+30%。",
+      "skills": [
+        {
+          "name": "孤鹜断霞",
+          "desc": "公孙离朝目标方向丢出纸伞，纸伞到达最远端悬停一段时间后收回。纸伞会对所有首次命中的敌人造成100%物理攻击力的物理伤害，并在悬停处对触碰到的敌人每秒造成100%物理攻击力的物理伤害且降低其40%移动速度。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "纸伞不在手中时提升30%攻击速度；击退并眩晕纸伞命中的首个敌人1.5秒"
+            },
+            {
+              "level": 40,
+              "desc": "伞脱手后获得的攻速增益提升至50%"
+            },
+            {
+              "level": 100,
+              "desc": "控制时间延长至2.5秒，同时击退距离大幅增加"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 210,
+        "phyAttack": 36,
+        "magAttack": 0,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 10000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 5,
+        "initEnergy": 20,
+        "energy": 80,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "夺取",
+          "desc": "使用此卡牌时，夺取周围1格随机1名己方英雄的等级（最多10级，不包含临时等级）。"
+        },
+        {
+          "name": "开团",
+          "desc": "战斗开始时，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/公孙离.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/e37c41d9977fb7943e896959c2be0fef.png",
+      "source": "web"
+    },
+    "百里守约": {
+      "id": 1961,
+      "name": "百里守约",
+      "category": "英雄牌",
+      "faction": "河洛",
+      "cost": 3,
+      "quality": 2,
+      "tags": [
+        "后排",
+        "射手"
+      ],
+      "skill": "每当你拥有牺牲效果的英雄阵亡时，本回合百里守约的法力值上限-20。",
+      "awaken": "每当你拥有牺牲效果的英雄阵亡时，本回合百里守约的法力值上限-40。",
+      "skills": [
+        {
+          "name": "瞄准",
+          "desc": "百里守约朝最远的敌人（英雄优先）狙击。子弹对首名命中敌人造成50+700%物理攻击力的物理伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "狙击伤害提升至200+800%物理攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "狙击子弹在击败敌人后会继续行进但伤害衰减30%，最多衰减60%"
+            },
+            {
+              "level": 100,
+              "desc": "狙击子弹的伤害不再衰减"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 210,
+        "phyAttack": 40,
+        "magAttack": 0,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 10000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 4,
+        "initEnergy": 60,
+        "energy": 80,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "牺牲",
+          "desc": "英雄阵亡时，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/百里守约.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/198e67ac6fbaafbab9aa27338df6590a.png",
+      "source": "web"
+    },
+    "墨子": {
+      "id": 1081,
+      "name": "墨子",
+      "category": "英雄牌",
+      "faction": "逐鹿",
+      "cost": 3,
+      "quality": 2,
+      "tags": [
+        "前排"
+      ],
+      "skill": "友方单位护盾被击破时，该单位生命值上限永久+30。",
+      "awaken": "友方单位护盾被击破时，该单位生命值上限永久+60。",
+      "skills": [
+        {
+          "name": "墨守成规",
+          "desc": "墨子驾驶机关人展开高能屏障，对触碰到屏障的敌人每0.5秒造成30+50%法术攻击力的法术伤害，屏障最多持续2秒。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "屏障伤害提升至50+75%法术攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "屏障伤害时还会对敌人造成0.5秒眩晕"
+            },
+            {
+              "level": 100,
+              "desc": "屏障持续时间延长至5秒"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 330,
+        "phyAttack": 24,
+        "magAttack": 20,
+        "phyDefense": 20,
+        "magDefense": 20,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 50,
+        "energy": 60,
+        "initLevel": 0
+      },
+      "keywords": [],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/墨子.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/b1936a0c293710205470446d3876e20d.png",
+      "source": "web"
+    },
+    "百里玄策": {
+      "id": 1951,
+      "name": "百里玄策",
+      "category": "英雄牌",
+      "faction": "河洛",
+      "cost": 3,
+      "quality": 2,
+      "tags": [
+        "后排",
+        "刺客"
+      ],
+      "skill": "闪现\n整备：你的闪现英雄上回合每击败过1名敌方英雄，随机1名闪现英雄等级+1（击败次数： 0）。",
+      "awaken": "闪现\n整备：你的闪现英雄上回合每击败过1名敌方英雄，随机1名闪现英雄等级+2（击败次数： 0）。",
+      "skills": [
+        {
+          "name": "梦魇钩锁",
+          "desc": "玄策舞动钩镰对目标敌人造成50+100%物理攻击力的物理伤害，而后将其甩向玄策身后，落地时造成50+100%物理攻击力的物理伤害并眩晕1秒。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "钩镰伤害提升至50+130%物理攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "钩镰会钩住目标6秒，敌人落地玄策立即突进至其身后，对沿途的敌人造成100+200%物理攻击力的物理伤害，玄策普攻对被钩住的目标造成120%物理攻击力的物理伤害"
+            },
+            {
+              "level": 100,
+              "desc": "施法时会标记当前目标，降低其10点物理及法术防御力；标记目标被击败时玄策进入狂暴状态（攻速提高150%，移速提高40%），持续7秒"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 240,
+        "phyAttack": 40,
+        "magAttack": 0,
+        "phyDefense": 16,
+        "magDefense": 16,
+        "moveSpeed": 4600,
+        "attackSpeed": 8000,
+        "criticalRate": 2000,
+        "criticalEffect": 4000,
+        "attackDistance": 2,
+        "initEnergy": 35,
+        "energy": 45,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "闪现",
+          "desc": "战斗开始时，英雄会跳跃至敌方战场的镜像位置。"
+        },
+        {
+          "name": "整备",
+          "desc": "回合开始时，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/百里玄策.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/6b17f3a73b257035a350aa31bda1c464.png",
+      "source": "web"
+    },
+    "廉颇": {
+      "id": 1051,
+      "name": "廉颇",
+      "category": "英雄牌",
+      "faction": "逐鹿",
+      "cost": 3,
+      "quality": 2,
+      "tags": [
+        "前排",
+        "坦克"
+      ],
+      "skill": "廉颇释放技能时，你的其他英雄获得 5点护盾值。每次使用战术牌会提升该护盾值。",
+      "awaken": "廉颇释放技能时，你的其他英雄获得 10点护盾值。每次使用战术牌会提升该护盾值。",
+      "skills": [
+        {
+          "name": "勇士之魂",
+          "desc": "廉颇用臂甲砸向目标敌人，获得持续4秒的100点护盾，造成50+80%物理攻击力的物理伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "技能伤害提升至120+120%物理攻击力，护盾提升至250点"
+            },
+            {
+              "level": 40,
+              "desc": "每次施法护盾值额外提升40点，最多5次"
+            },
+            {
+              "level": 100,
+              "desc": "施法直接获得最大护盾值（不再需要多次施法提升）并恢复10%最大生命值"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 330,
+        "phyAttack": 32,
+        "magAttack": 0,
+        "phyDefense": 20,
+        "magDefense": 20,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 20,
+        "energy": 50,
+        "initLevel": 0
+      },
+      "keywords": [],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/廉颇.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/2cf66bb3403c0783ed965c9fbb63aafa.png",
+      "source": "web"
+    },
+    "援护战术": {
+      "id": 313001,
+      "name": "援护战术",
+      "category": "效果牌",
+      "faction": "逐鹿",
+      "cost": 0,
+      "quality": 1,
+      "tags": [],
+      "skill": "转瞬\n全体【逐鹿】英雄本回合获得50（+25×战术牌打出次数，当前：75）点护盾。",
+      "awaken": "",
+      "skills": [],
+      "properties": {},
+      "keywords": [],
+      "get_desc": "该卡通过词条效果等渠道获得。",
+      "talent_group": "",
+      "portrait": "image/pieces/效果牌/援护战术.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_squarehud_auto/f0d0f9bcd021bbd9c26710a07ba70b0e.png",
+      "source": "web"
+    },
+    "招募战术": {
+      "id": 313003,
+      "name": "招募战术",
+      "category": "效果牌",
+      "faction": "逐鹿",
+      "cost": 0,
+      "quality": 2,
+      "tags": [],
+      "skill": "转瞬\n随机获得1张【逐鹿】英雄牌。",
+      "awaken": "",
+      "skills": [],
+      "properties": {},
+      "keywords": [],
+      "get_desc": "该卡通过词条效果等渠道获得。",
+      "talent_group": "",
+      "portrait": "image/pieces/效果牌/招募战术.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_squarehud_auto/beae22b4a4c43b48c546cf7fb70f0af6.png",
+      "source": "web"
+    },
+    "演练战术": {
+      "id": 313013,
+      "name": "演练战术",
+      "category": "效果牌",
+      "faction": "逐鹿",
+      "cost": 0,
+      "quality": 2,
+      "tags": [],
+      "skill": "转瞬\n所有英雄等级+1。",
+      "awaken": "",
+      "skills": [],
+      "properties": {},
+      "keywords": [],
+      "get_desc": "该卡通过词条效果等渠道获得。",
+      "talent_group": "",
+      "portrait": "image/pieces/效果牌/演练战术.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_squarehud_auto/216bf733e676df6eb92382416cf4aa5d.png",
+      "source": "web"
+    },
+    "推演战术": {
+      "id": 313011,
+      "name": "推演战术",
+      "category": "效果牌",
+      "faction": "逐鹿",
+      "cost": 0,
+      "quality": 2,
+      "tags": [],
+      "skill": "转瞬\n指定1名【逐鹿】英雄，使其本回合法力值上限{推演战术:-5}（每次使用此牌都会提升效果，上限20点）。",
+      "awaken": "",
+      "skills": [],
+      "properties": {},
+      "keywords": [],
+      "get_desc": "该卡通过词条效果等渠道获得。",
+      "talent_group": "",
+      "portrait": "image/pieces/效果牌/推演战术.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_squarehud_auto/97a8d6245a0d3a3890820790658be309.png",
+      "source": "web"
+    },
+    "特训战术": {
+      "id": 313007,
+      "name": "特训战术",
+      "category": "效果牌",
+      "faction": "逐鹿",
+      "cost": 0,
+      "quality": 2,
+      "tags": [],
+      "skill": "转瞬\n指定1名英雄等级+4。",
+      "awaken": "",
+      "skills": [],
+      "properties": {},
+      "keywords": [],
+      "get_desc": "该卡通过词条效果等渠道获得。",
+      "talent_group": "",
+      "portrait": "image/pieces/效果牌/特训战术.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_squarehud_auto/47d986582d29e59ff87b516cf5a73f7c.png",
+      "source": "web"
+    },
+    "蒙恬": {
+      "id": 5271,
+      "name": "蒙恬",
+      "category": "英雄牌",
+      "faction": "逐鹿",
+      "cost": 3,
+      "quality": 2,
+      "tags": [
+        "前排"
+      ],
+      "skill": "牺牲：召唤2名与自身等级相同的玄雍士兵。",
+      "awaken": "牺牲：召唤4名与自身等级相同的玄雍士兵。",
+      "skills": [
+        {
+          "name": "玄雍众将",
+          "desc": "蒙恬召唤出1名玄雍士兵列阵作战（持续20秒，至多2名）。每名士兵会分担蒙恬5%受到的伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "士兵分担伤害提升至12%"
+            },
+            {
+              "level": 40,
+              "desc": "每次召唤2名士兵（至多4名）"
+            },
+            {
+              "level": 100,
+              "desc": "每次召唤4名士兵"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 330,
+        "phyAttack": 32,
+        "magAttack": 0,
+        "phyDefense": 20,
+        "magDefense": 20,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 0,
+        "energy": 60,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "牺牲",
+          "desc": "英雄阵亡时，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/蒙恬.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/88124cfd87e1369f485dbff3ef6eb374.png",
+      "source": "web"
+    },
+    "玄雍士兵": {
+      "id": 314010,
+      "name": "玄雍士兵",
+      "category": "召唤物",
+      "faction": "逐鹿",
+      "cost": 0,
+      "quality": 2,
+      "tags": [],
+      "skill": "“令则行，禁则止，无有所怠！”",
+      "awaken": "",
+      "skills": [
+        {
+          "name": "普通攻击",
+          "desc": "玄雍士兵向当前的目标敌人发动攻击造成物理伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": ""
+            },
+            {
+              "level": 40,
+              "desc": ""
+            },
+            {
+              "level": 100,
+              "desc": ""
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 120,
+        "phyAttack": 6,
+        "magAttack": 0,
+        "phyDefense": 20,
+        "magDefense": 20,
+        "moveSpeed": 4600,
+        "attackSpeed": 10000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 0,
+        "energy": 0,
+        "initLevel": 0
+      },
+      "keywords": [],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/召唤物/玄雍士兵.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/a776130574f8b35a025e27fe494729f2.png",
+      "source": "web"
+    },
+    "蔡文姬": {
+      "id": 1841,
+      "name": "蔡文姬",
+      "category": "英雄牌",
+      "faction": "三分之地",
+      "cost": 3,
+      "quality": 2,
+      "tags": [
+        "后排",
+        "辅助"
+      ],
+      "skill": "每当你使用【三分】英雄牌时，等级最低的其他3名【三分】英雄等级+1。",
+      "awaken": "每当你使用【三分】英雄牌时，等级最低的其他3名【三分】英雄等级+2。",
+      "skills": [
+        {
+          "name": "思无邪",
+          "desc": "被动：蔡文姬施放琴音每秒为自身周围1格的友军恢复30点生命值。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "为范围内的友军增加6点物理防御力和法术防御力"
+            },
+            {
+              "level": 40,
+              "desc": "恢复生命值提升至80点，双防数值提升为12点"
+            },
+            {
+              "level": 100,
+              "desc": "技能效果范围扩大至周围2格，恢复生命值提升至150点"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 270,
+        "phyAttack": 24,
+        "magAttack": 20,
+        "phyDefense": 18,
+        "magDefense": 18,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 2,
+        "initEnergy": 0,
+        "energy": 0,
+        "initLevel": 0
+      },
+      "keywords": [],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/蔡文姬.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/faa2bc18f7630ff22c35ec35ffb5a872.png",
+      "source": "web"
+    },
+    "云中君": {
+      "id": 5061,
+      "name": "云中君",
+      "category": "英雄牌",
+      "faction": "大河流域",
+      "cost": 3,
+      "quality": 3,
+      "tags": [
+        "前排",
+        "刺客"
+      ],
+      "skill": "闪现\n开团：你的英雄每穿戴1件装备，该英雄等级永久+1。",
+      "awaken": "闪现\n开团：你的英雄每穿戴1件装备，该英雄等级永久+2。",
+      "skills": [
+        {
+          "name": "若英·华彩",
+          "desc": "云中君展翅舞蹈向周围1格射出羽箭，对命中的敌人造成50+80%物理攻击力的物理伤害，并施加2层撕裂效果。\n\n\n撕裂：每秒造成目标敌人当前生命值2%的物理伤害，持续5秒，最多叠加5层。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "羽箭伤害提升至50+120%物理攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "普攻对目标施加1层撕裂"
+            },
+            {
+              "level": 100,
+              "desc": "羽箭伤害范围+1格"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 240,
+        "phyAttack": 40,
+        "magAttack": 0,
+        "phyDefense": 16,
+        "magDefense": 16,
+        "moveSpeed": 4600,
+        "attackSpeed": 8000,
+        "criticalRate": 2000,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 20,
+        "energy": 50,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "闪现",
+          "desc": "战斗开始时，英雄会跳跃至敌方战场的镜像位置。"
+        },
+        {
+          "name": "开团",
+          "desc": "战斗开始时，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/云中君.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/f67c42716500d97656904fa3263eb9d7.png",
+      "source": "web"
+    },
+    "姬小满": {
+      "id": 5641,
+      "name": "姬小满",
+      "category": "英雄牌",
+      "faction": "日落海",
+      "cost": 3,
+      "quality": 3,
+      "tags": [
+        "前排"
+      ],
+      "skill": "每当你出售4名场上英雄后，获得1次临时刷新。",
+      "awaken": "每当你出售2名场上英雄后，获得1次临时刷新。",
+      "skills": [
+        {
+          "name": "强攻代守",
+          "desc": "姬小满飞踢敌人造成150+100%物理攻击力的物理伤害，并将其向敌方英雄密集处击退，撞到敌人时停止。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "飞踢伤害提升至150+150%物理攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "技能对目标施加5秒印记，期间姬小满与友军对携带印记的敌人造成的伤害提升40%"
+            },
+            {
+              "level": 100,
+              "desc": "击退敌人后借力翻身跃向空中（期间获得70%伤害减免），并朝着当前目标重击，对范围内敌人造成150%物理攻击力的物理伤害和击飞"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 300,
+        "phyAttack": 40,
+        "magAttack": 0,
+        "phyDefense": 18,
+        "magDefense": 18,
+        "moveSpeed": 4600,
+        "attackSpeed": 8000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 30,
+        "energy": 40,
+        "initLevel": 0
+      },
+      "keywords": [],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/姬小满.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/40fe1c263075f889d23f29baabdfa225.png",
+      "source": "web"
+    },
+    "苍": {
+      "id": 1771,
+      "name": "苍",
+      "category": "英雄牌",
+      "faction": "无阵营",
+      "cost": 3,
+      "quality": 3,
+      "tags": [
+        "后排",
+        "射手"
+      ],
+      "skill": "你的召唤单位阵亡时，会对周围敌人造成 30点物理伤害。每次召唤还会额外提升该伤害。",
+      "awaken": "你的召唤单位阵亡时，会对周围敌人造成 60点物理伤害。每次召唤还会额外提升该伤害。",
+      "skills": [
+        {
+          "name": "领袖姿态",
+          "desc": "被动：狼魂继承苍的攻击速度，狼魂每次攻击会为苍提供2%的物理攻击力，上限30%。\n主动：苍召唤1只狼魂（上限3只）向目标敌人位置冲锋，造成50+120%物理攻击力的物理伤害。攻击替换为二连普攻，第一道子弹造成60%物理攻击力的物理伤害，第二道子弹造成80%物理攻击力的物理伤害，状态持续8秒，期间不恢复法力值，假如技能期间狼魂全部阵亡，法力值开始恢复。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "狼魂普攻伤害提升为120%物理攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "狼魂攻击可为苍提高的攻击力上限提升至60%"
+            },
+            {
+              "level": 100,
+              "desc": "召唤3道狼魂冲锋"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 210,
+        "phyAttack": 36,
+        "magAttack": 0,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 10000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 4,
+        "initEnergy": 20,
+        "energy": 60,
+        "initLevel": 0
+      },
+      "keywords": [],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/苍.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/36716634173d0cc96dbcedd2ac6b6646.png",
+      "source": "web"
+    },
+    "铠": {
+      "id": 1931,
+      "name": "铠",
+      "category": "英雄牌",
+      "faction": "河洛",
+      "cost": 3,
+      "quality": 3,
+      "tags": [
+        "前排",
+        "战士"
+      ],
+      "skill": "复生\n牺牲：你的【河洛】英雄获得5临时等级。",
+      "awaken": "完美复生\n牺牲：你的【河洛】英雄获得10临时等级。",
+      "skills": [
+        {
+          "name": "不灭魔躯",
+          "desc": "铠使用魔铠武装自身，获得15点伤害减免（减免后不会低于5点）。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "魔铠的伤害减免提升至20点，期间每第3次普攻获得200点护盾（不可叠加）"
+            },
+            {
+              "level": 40,
+              "desc": "魔铠状态下，每第3次普攻对目标额外造成100%物理攻击力的法术伤害"
+            },
+            {
+              "level": 100,
+              "desc": "战斗开始时，使用魔铠武装自身"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 300,
+        "phyAttack": 40,
+        "magAttack": 0,
+        "phyDefense": 18,
+        "magDefense": 18,
+        "moveSpeed": 4600,
+        "attackSpeed": 8000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 50,
+        "energy": 90,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "复生",
+          "desc": "英雄在阵亡后会复活，并恢复50%生命值（每名英雄单回合最多复活10次）。"
+        },
+        {
+          "name": "牺牲",
+          "desc": "英雄阵亡时，触发效果。"
+        },
+        {
+          "name": "临时等级",
+          "desc": "战斗结束时，临时等级将会被清除。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/铠.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/b4835ebc7bd4df52d5cd835de22f2257.png",
+      "source": "web"
+    },
+    "白起": {
+      "id": 1201,
+      "name": "白起",
+      "category": "英雄牌",
+      "faction": "逐鹿",
+      "cost": 3,
+      "quality": 3,
+      "tags": [
+        "前排",
+        "坦克"
+      ],
+      "skill": "每回合首次使用效果牌时，获得1张援护战术。",
+      "awaken": "每回合首次使用效果牌时，获得1张高阶援护战术。",
+      "skills": [
+        {
+          "name": "生命回响",
+          "desc": "白起怒吼，立即恢复10%最大生命值，并嘲讽周围1格敌人，持续1秒。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "施法额外获得20%最大生命值的护盾，持续4秒"
+            },
+            {
+              "level": 40,
+              "desc": "护盾提升至200+30%最大生命值"
+            },
+            {
+              "level": 100,
+              "desc": "嘲讽时间延长至4秒"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 330,
+        "phyAttack": 32,
+        "magAttack": 0,
+        "phyDefense": 20,
+        "magDefense": 20,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 50,
+        "energy": 90,
+        "initLevel": 0
+      },
+      "keywords": [],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/白起.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/5e8581caf2935e84070ee44936bb3779.png",
+      "source": "web"
+    },
+    "明世隐": {
+      "id": 5011,
+      "name": "明世隐",
+      "category": "英雄牌",
+      "faction": "无阵营",
+      "cost": 3,
+      "quality": 3,
+      "tags": [
+        "后排",
+        "辅助"
+      ],
+      "skill": "距离最近的英雄，临时等级中的 2级可转化为永久等级。\n登场：可转化的等级+2。",
+      "awaken": "距离最近的英雄，临时等级中的 4级可转化为永久等级。\n登场：可转化的等级+4。",
+      "skills": [
+        {
+          "name": "泰卦·长生",
+          "desc": "被动：明世隐在备战阶段以法器连接1名最近的友方英雄。\n主动：明世隐为自身和连接的英雄恢复100+60%法术攻击力的生命值。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "恢复效果提升至100+90%法术攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "技能还会提高目标25物理和法术防御，持续5秒"
+            },
+            {
+              "level": 100,
+              "desc": "技能还会额外恢复20%最大生命值"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 270,
+        "phyAttack": 24,
+        "magAttack": 20,
+        "phyDefense": 18,
+        "magDefense": 18,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 4,
+        "initEnergy": 0,
+        "energy": 40,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "临时等级",
+          "desc": "战斗结束时，临时等级将会被清除。"
+        },
+        {
+          "name": "登场",
+          "desc": "使用此卡牌后，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/明世隐.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/f6f2d52e4223b1e1ea25df41e8e2bbf3.png",
+      "source": "web"
+    },
+    "阿轲": {
+      "id": 1161,
+      "name": "阿轲",
+      "category": "英雄牌",
+      "faction": "无阵营",
+      "cost": 3,
+      "quality": 3,
+      "tags": [
+        "前排",
+        "刺客"
+      ],
+      "skill": "闪现\n登场：自身及随机1名英雄等级+1，棋手生命值每降低10点，重复1次。",
+      "awaken": "闪现\n登场：自身及随机1名英雄等级+2，棋手生命值每降低10点，重复1次。",
+      "skills": [
+        {
+          "name": "弧光",
+          "desc": "阿轲挥动双刺发动2次攻击，每次造成30+100%物理攻击力的物理伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "单次伤害提升至30+130%物理攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "开战后20秒内自身不会被优先攻击"
+            },
+            {
+              "level": 100,
+              "desc": "战斗过程中不会被优先攻击，技能必定暴击"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 240,
+        "phyAttack": 40,
+        "magAttack": 0,
+        "phyDefense": 16,
+        "magDefense": 16,
+        "moveSpeed": 4600,
+        "attackSpeed": 8000,
+        "criticalRate": 2000,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 30,
+        "energy": 35,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "闪现",
+          "desc": "战斗开始时，英雄会跳跃至敌方战场的镜像位置。"
+        },
+        {
+          "name": "登场",
+          "desc": "使用此卡牌后，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/阿轲.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/5de6a396516f822473bd4f476f4da9bc.png",
+      "source": "web"
+    },
+    "马超": {
+      "id": 5181,
+      "name": "马超",
+      "category": "英雄牌",
+      "faction": "三分之地",
+      "cost": 3,
+      "quality": 3,
+      "tags": [
+        "前排"
+      ],
+      "skill": "己方施加控制效果时，马超获得15点法力值及5%暴击率。",
+      "awaken": "己方施加控制效果时，马超获得30点法力值及10%暴击率。",
+      "skills": [
+        {
+          "name": "魔影突袭",
+          "desc": "被动：马超靠近冷晖枪时会拾取回收，同时恢复自身100+75%物理攻击力的生命值，并提升10点物理攻击力。\n主动：马超立即恢复自身100点生命值，快速突袭至3格内最远的敌人身边，对其造成50+100%物理攻击力的物理伤害并留下1把冷晖枪。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "突袭伤害提升至50+150%物理攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "突袭伤害暴击时会回收场上的冷晖枪，并对路径上的敌人造成50%物理攻击力的物理伤害"
+            },
+            {
+              "level": 100,
+              "desc": "每回收3把冷晖枪，下一次技能会转而在场上连续突袭至多6次"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 300,
+        "phyAttack": 40,
+        "magAttack": 0,
+        "phyDefense": 18,
+        "magDefense": 18,
+        "moveSpeed": 4600,
+        "attackSpeed": 8000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 20,
+        "energy": 60,
+        "initLevel": 0
+      },
+      "keywords": [],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/马超.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/204baba8a4d96b2383ae0beea27a8cec.png",
+      "source": "web"
+    },
+    "裴擒虎": {
+      "id": 5021,
+      "name": "裴擒虎",
+      "category": "英雄牌",
+      "faction": "无阵营",
+      "cost": 3,
+      "quality": 3,
+      "tags": [
+        "前排",
+        "刺客"
+      ],
+      "skill": "闪现\n整备：随机获得1名其他英雄等级数一半的临时等级，不可叠加。",
+      "awaken": "闪现\n整备：随机获得1名其他英雄等级数的临时等级，不可叠加。",
+      "skills": [
+        {
+          "name": "虎啸生风",
+          "desc": "裴擒虎化身猛虎，提升自身20点物理攻击力以及5点物理和法术防御。\n\n若处于虎形态，则对当前目标敌人发起猛击造成120%物理攻击力的物理伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "猛击伤害提升至150%物理攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "开战立即化身猛虎，还会提升30%攻击速度和移动速度"
+            },
+            {
+              "level": 100,
+              "desc": "虎形态的属性增益翻倍，猛击伤害提升至200%物理攻击力"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 240,
+        "phyAttack": 40,
+        "magAttack": 0,
+        "phyDefense": 16,
+        "magDefense": 16,
+        "moveSpeed": 4600,
+        "attackSpeed": 8000,
+        "criticalRate": 2000,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 20,
+        "energy": 50,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "闪现",
+          "desc": "战斗开始时，英雄会跳跃至敌方战场的镜像位置。"
+        },
+        {
+          "name": "整备",
+          "desc": "回合开始时，触发效果。"
+        },
+        {
+          "name": "临时等级",
+          "desc": "战斗结束时，临时等级将会被清除。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/裴擒虎.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/916803561412111d80ab05e114b5246b.png",
+      "source": "web"
+    },
+    "老夫子": {
+      "id": 1391,
+      "name": "老夫子",
+      "category": "英雄牌",
+      "faction": "逐鹿",
+      "cost": 3,
+      "quality": 3,
+      "tags": [
+        "前排"
+      ],
+      "skill": "每回合首次合成时，获得1张招募战术。",
+      "awaken": "每回合首次合成时，获得1张高阶招募战术。",
+      "skills": [
+        {
+          "name": "举一反三",
+          "desc": "老夫子爆发气场，获得30%伤害减免，持续3秒。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "伤害减免提升至45%"
+            },
+            {
+              "level": 40,
+              "desc": "技能持续期间，每次受到伤害恢复20点生命值，最多恢复160点生命值"
+            },
+            {
+              "level": 100,
+              "desc": "恢复的生命值无上限"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 300,
+        "phyAttack": 40,
+        "magAttack": 0,
+        "phyDefense": 18,
+        "magDefense": 18,
+        "moveSpeed": 4600,
+        "attackSpeed": 8000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 20,
+        "energy": 50,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "合成",
+          "desc": "使用场上已存在的英雄牌，与场上英雄结合，使其强化。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/老夫子.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/95ee94ee672de169b1869da12558d7c6.png",
+      "source": "web"
+    },
+    "西施": {
+      "id": 5231,
+      "name": "西施",
+      "category": "英雄牌",
+      "faction": "逐鹿",
+      "cost": 3,
+      "quality": 3,
+      "tags": [
+        "后排",
+        "法师"
+      ],
+      "skill": "整备：获得1张推演战术。",
+      "awaken": "整备：获得1张高阶推演战术。",
+      "skills": [
+        {
+          "name": "幻纱之灵",
+          "desc": "西施随机向1个敌人所在位置释放持续3秒的能量球造成50+100%法术攻击力的法术伤害，3秒后能量球爆炸对这些单位造成100+100%法术攻击力的法术伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "能量球出现的伤害提升至100+120%法术攻击力，爆炸伤害提升至100+150%法术攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "期间若目标走出能量球所处阵位，会被牵引回该阵位，到达时能量球将立即爆炸并消散，造成100+150%法术攻击力的法术伤害并眩晕周围的敌方单位2秒"
+            },
+            {
+              "level": 100,
+              "desc": "眩晕时间延长至3.5秒"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 240,
+        "phyAttack": 24,
+        "magAttack": 40,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 4,
+        "initEnergy": 10,
+        "energy": 50,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "整备",
+          "desc": "回合开始时，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/西施.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/c7e4c38d9050539a8ae6cfddacb72f20.png",
+      "source": "web"
+    },
+    "刘禅": {
+      "id": 1141,
+      "name": "刘禅",
+      "category": "英雄牌",
+      "faction": "三分之地",
+      "cost": 3,
+      "quality": 3,
+      "tags": [
+        "前排",
+        "坦克"
+      ],
+      "skill": "你的英雄释放技能时，该英雄获得2临时等级。",
+      "awaken": "你的英雄释放技能时，该英雄获得4临时等级。",
+      "skills": [
+        {
+          "name": "机关魔爪",
+          "desc": "刘禅操作机关魔爪对当前目标敌人造成50+100%物理攻击力的物理伤害并眩晕1秒，自身获得100点护盾，持续4秒。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "护盾提升至300点"
+            },
+            {
+              "level": 40,
+              "desc": "护盾提升至400点，持续期间减免30%所受伤害"
+            },
+            {
+              "level": 100,
+              "desc": "护盾提升至600+5%最大生命值，眩晕3秒"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 330,
+        "phyAttack": 32,
+        "magAttack": 0,
+        "phyDefense": 20,
+        "magDefense": 20,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 20,
+        "energy": 30,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "临时等级",
+          "desc": "战斗结束时，临时等级将会被清除。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/刘禅.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/77c58bb27bb46cea3ea32d6b2b81a52e.png",
+      "source": "web"
+    },
+    "猪八戒": {
+      "id": 5111,
+      "name": "猪八戒",
+      "category": "英雄牌",
+      "faction": "无阵营",
+      "cost": 3,
+      "quality": 3,
+      "tags": [
+        "前排",
+        "坦克"
+      ],
+      "skill": "夺取\n每当3阶及以下英雄合成时，与其同阶的英雄等级+1。",
+      "awaken": "夺取\n每当3阶及以下英雄合成时，与其同阶的英雄等级+2。",
+      "skills": [
+        {
+          "name": "肉弹蹦床",
+          "desc": "被动：猪八戒每承受600点伤害将永久提升45点最大生命值并增大体型，但降低1%移动速度，最多叠加30层。\n主动：猪八戒奋力跳起，落地时震击地面，对附近1格敌人造成7%最大生命值的法术伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "技能伤害提升至10%最大生命值"
+            },
+            {
+              "level": 40,
+              "desc": "最大生命值叠层提升至60层"
+            },
+            {
+              "level": 100,
+              "desc": "叠层上限取消且不再降低移动速度，单回合最多叠加100层；施法时跳跃至敌人密集处"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 330,
+        "phyAttack": 24,
+        "magAttack": 20,
+        "phyDefense": 20,
+        "magDefense": 20,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 20,
+        "energy": 50,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "夺取",
+          "desc": "使用此卡牌时，夺取周围1格随机1名己方英雄的等级（最多10级，不包含临时等级）。"
+        },
+        {
+          "name": "合成",
+          "desc": "使用场上已存在的英雄牌，与场上英雄结合，使其强化。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/猪八戒.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/2cf753e41136bbe6c5d4c6924d89db55.png",
+      "source": "web"
+    },
+    "程咬金": {
+      "id": 1441,
+      "name": "程咬金",
+      "category": "英雄牌",
+      "faction": "河洛",
+      "cost": 3,
+      "quality": 3,
+      "tags": [
+        "前排",
+        "坦克"
+      ],
+      "skill": "整备：获得1张古币，对自身使用1张古币。",
+      "awaken": "整备：获得1张精致古币，对自身使用1张精致古币。",
+      "skills": [
+        {
+          "name": "正义潜能",
+          "desc": "程咬金迸发出自身的正义热情，3秒内恢复35+10%最大生命值的生命值。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "恢复效果提升至60+10%最大生命值"
+            },
+            {
+              "level": 40,
+              "desc": "技能持续期间获得15%伤害减免"
+            },
+            {
+              "level": 100,
+              "desc": "施法立即恢复25%已损失生命值"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 330,
+        "phyAttack": 32,
+        "magAttack": 0,
+        "phyDefense": 20,
+        "magDefense": 20,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 30,
+        "energy": 60,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "整备",
+          "desc": "回合开始时，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/程咬金.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/9736bab9c472acc5bdc8942ac7200c9a.png",
+      "source": "web"
+    },
+    "狄仁杰": {
+      "id": 1331,
+      "name": "狄仁杰",
+      "category": "英雄牌",
+      "faction": "河洛",
+      "cost": 3,
+      "quality": 3,
+      "tags": [
+        "后排"
+      ],
+      "skill": "对狄仁杰使用古币时，其攻击速度永久+5%。",
+      "awaken": "对狄仁杰使用古币时，其攻击速度永久+10%。",
+      "skills": [
+        {
+          "name": "迅捷",
+          "desc": "狄仁杰激发潜能，获得1层迅捷效果，增加自身40%基础攻击速度，持续5秒，若已经达到攻速上限，则获得3%物理攻击力，最多叠加3次。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "基础攻速增益提升至90%"
+            },
+            {
+              "level": 40,
+              "desc": "每3次普攻抽出1张蓝牌，对目标造成150%物理攻击力的物理伤害"
+            },
+            {
+              "level": 100,
+              "desc": "普攻全部换为蓝牌，并且每10次普攻抽出1张黄牌，额外造成0.5秒眩晕效果"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 210,
+        "phyAttack": 36,
+        "magAttack": 0,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 10000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 5,
+        "initEnergy": 10,
+        "energy": 70,
+        "initLevel": 0
+      },
+      "keywords": [],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/狄仁杰.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/f0363e1c543d5c0bf02fd1b1c13ea117.png",
+      "source": "web"
+    },
+    "精致古币": {
+      "id": 311003,
+      "name": "精致古币",
+      "category": "效果牌",
+      "faction": "河洛",
+      "cost": 0,
+      "quality": 3,
+      "tags": [],
+      "skill": "转瞬\n指定1名【河洛】英雄等级+4。",
+      "awaken": "",
+      "skills": [],
+      "properties": {},
+      "keywords": [],
+      "get_desc": "该卡通过词条效果等渠道获得。",
+      "talent_group": "",
+      "portrait": "image/pieces/效果牌/精致古币.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_squarehud_auto/e7a12c0cbc3226ad0283f43dc32666f5.png",
+      "source": "web"
+    },
+    "张良": {
+      "id": 1561,
+      "name": "张良",
+      "category": "英雄牌",
+      "faction": "大河流域",
+      "cost": 3,
+      "quality": 3,
+      "tags": [
+        "后排",
+        "法师"
+      ],
+      "skill": "每当你的单位触发开团效果时，场上随机3名己方英雄等级永久+1。",
+      "awaken": "每当你的单位触发开团效果时，所有英雄等级永久+1。",
+      "skills": [
+        {
+          "name": "言灵·操纵",
+          "desc": "张良以言灵之术抓住1名敌人，持续1.5秒，期间每0.5秒造成100点法术伤害，并持续压制对方。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "技能伤害提升至100+50%法术攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "同时每0.5秒削减目标敌人5点法力值"
+            },
+            {
+              "level": 100,
+              "desc": "持续时间提升至3秒，并将敌人法力值清空"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 240,
+        "phyAttack": 24,
+        "magAttack": 40,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 4,
+        "initEnergy": 30,
+        "energy": 70,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "开团",
+          "desc": "战斗开始时，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/张良.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/fad4dda086e78227f65dedd121e5db9d.png",
+      "source": "web"
+    },
+    "少司缘": {
+      "id": 5771,
+      "name": "少司缘",
+      "category": "英雄牌",
+      "faction": "大河流域",
+      "cost": 3,
+      "quality": 3,
+      "tags": [
+        "后排",
+        "辅助"
+      ],
+      "skill": "在场时，召唤因缘图腾。",
+      "awaken": "在场时，召唤并强化因缘图腾。",
+      "skills": [
+        {
+          "name": "因缘际会",
+          "desc": "少司缘指挥成群的缘崽向前拥簇飞行，恢复沿途友军100+50%法术攻击力的生命值。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "恢复提升至150+100%法术攻击力的生命值"
+            },
+            {
+              "level": 40,
+              "desc": "同时提升沿途友军30%攻击速度，持续4秒"
+            },
+            {
+              "level": 100,
+              "desc": "对沿途敌人造成150+50%法术攻击力的法术伤害，并降低其15%伤害，持续5秒"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 270,
+        "phyAttack": 24,
+        "magAttack": 20,
+        "phyDefense": 18,
+        "magDefense": 18,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 5,
+        "initEnergy": 20,
+        "energy": 80,
+        "initLevel": 0
+      },
+      "keywords": [],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/少司缘.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/4cdf701fe4b6bb3947e34cf09f6cad44.png",
+      "source": "web"
+    },
+    "因缘图腾": {
+      "id": 31081,
+      "name": "因缘图腾",
+      "category": "召唤物",
+      "faction": "大河流域",
+      "cost": 1,
+      "quality": 3,
+      "tags": [],
+      "skill": "你的单位每合计进行25次普攻，所有己方英雄等级永久+1。",
+      "awaken": "",
+      "skills": [
+        {
+          "name": "图腾建筑",
+          "desc": "大河流域阵营的特殊单位。",
+          "enhance": [
+            {
+              "level": 0,
+              "desc": ""
+            },
+            {
+              "level": 0,
+              "desc": ""
+            },
+            {
+              "level": 0,
+              "desc": ""
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 300,
+        "phyAttack": 0,
+        "magAttack": 0,
+        "phyDefense": 0,
+        "magDefense": 0,
+        "moveSpeed": 0,
+        "attackSpeed": 0,
+        "criticalRate": 0,
+        "criticalEffect": 0,
+        "attackDistance": 0,
+        "initEnergy": 0,
+        "energy": 250,
+        "initLevel": 0
+      },
+      "keywords": [],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/召唤物/因缘图腾.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/09c9dabfcd3ab8df2c58fe4def7de70b.png",
+      "source": "web"
+    },
+    "亚瑟": {
+      "id": 1661,
+      "name": "亚瑟",
+      "category": "英雄牌",
+      "faction": "日落海",
+      "cost": 3,
+      "quality": 3,
+      "tags": [
+        "前排",
+        "坦克"
+      ],
+      "skill": "每当你使用【日落海】英雄牌时，阿科米亚核心等级+3。",
+      "awaken": "每当你使用【日落海】英雄牌时，阿科米亚核心等级+6。",
+      "skills": [
+        {
+          "name": "誓约之盾",
+          "desc": "亚瑟召唤圣盾围绕自身旋转，持续5秒。每秒对1格内敌人造成50%物理攻击力的物理伤害并获得15%伤害减免，亚瑟每次参与击杀获得30点最大生命值。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "圣盾伤害提升至80%物理攻击力，伤害减免提高至25%"
+            },
+            {
+              "level": 40,
+              "desc": "减伤持续时间延长至8秒"
+            },
+            {
+              "level": 100,
+              "desc": "举起圣剑跃向敌方人群密集处，额外造成自身15%最大生命的法术伤害并禁止范围内所有敌人恢复法力值，持续3秒"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 330,
+        "phyAttack": 32,
+        "magAttack": 0,
+        "phyDefense": 20,
+        "magDefense": 20,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 20,
+        "energy": 40,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "阿科米亚核心",
+          "desc": "战斗开始时，核心的等级会以临时等级的形式，平均分配给己方【日落海】英雄（单英雄分配上限50%）。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/亚瑟.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/60b7c74fe7a942e875eb44defd76fdb2.png",
+      "source": "web"
+    },
+    "钟馗": {
+      "id": 1751,
+      "name": "钟馗",
+      "category": "英雄牌",
+      "faction": "河洛",
+      "cost": 3,
+      "quality": 3,
+      "tags": [
+        "前排"
+      ],
+      "skill": "自身及左右1格的英雄获得牺牲：击败者等级临时降低10%（每场战斗限1次）。",
+      "awaken": "自身及左右1格的英雄获得牺牲：击败者等级临时降低20%（每场战斗限1次）。",
+      "skills": [
+        {
+          "name": "湮灭之锁",
+          "desc": "钟馗投出钩锁，将距离自己最远的1名敌人拉到身边，造成50+100%法术攻击力的法术伤害，并使其成为友军的优先攻击目标。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "战斗开始时充满法力值"
+            },
+            {
+              "level": 40,
+              "desc": "技能伤害提升至50+150%法术攻击力"
+            },
+            {
+              "level": 100,
+              "desc": "减少50点最大法力值"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 330,
+        "phyAttack": 24,
+        "magAttack": 20,
+        "phyDefense": 20,
+        "magDefense": 20,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 60,
+        "energy": 100,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "牺牲",
+          "desc": "英雄阵亡时，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/钟馗.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/bd5d400d4aab509599f3db935d91f254.png",
+      "source": "web"
+    },
+    "貂蝉": {
+      "id": 1411,
+      "name": "貂蝉",
+      "category": "英雄牌",
+      "faction": "三分之地",
+      "cost": 3,
+      "quality": 3,
+      "tags": [
+        "后排",
+        "法师"
+      ],
+      "skill": "登场：【三分】英雄等级+1。",
+      "awaken": "登场：【三分】英雄等级+2。",
+      "skills": [
+        {
+          "name": "语·花印",
+          "desc": "貂蝉向周围2格的随机敌人施放5朵花球，每朵花球造成50+40%法术攻击力的法术伤害并降低敌人70%生命恢复效果，持续5秒。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "花球伤害提升至50+60%法术攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "花球数量+4"
+            },
+            {
+              "level": 100,
+              "desc": "施法时会远离敌人"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 240,
+        "phyAttack": 24,
+        "magAttack": 40,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 2,
+        "initEnergy": 5,
+        "energy": 20,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "登场",
+          "desc": "使用此卡牌后，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/貂蝉.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/735083ee049068dc3dfa3cc4af6ec321.png",
+      "source": "web"
+    },
+    "安琪拉": {
+      "id": 1421,
+      "name": "安琪拉",
+      "category": "英雄牌",
+      "faction": "日落海",
+      "cost": 3,
+      "quality": 3,
+      "tags": [
+        "后排",
+        "法师"
+      ],
+      "skill": "整备：自身及阿科米亚核心等级+2。",
+      "awaken": "整备：自身及阿科米亚核心等级+2，触发2次。",
+      "skills": [
+        {
+          "name": "炽热光辉",
+          "desc": "安琪拉引导魔力朝敌人最多的方向施放炽热光辉，持续3秒，对路径上的敌人每0.1秒造成5+10%法术攻击力的法术伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "光辉伤害提升至10+20%法术攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "光辉数量增加到3道"
+            },
+            {
+              "level": 100,
+              "desc": "每击败1名敌人会延长2秒光辉持续时间，并提升15%伤害"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 240,
+        "phyAttack": 24,
+        "magAttack": 40,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 5,
+        "initEnergy": 45,
+        "energy": 55,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "整备",
+          "desc": "回合开始时，触发效果。"
+        },
+        {
+          "name": "阿科米亚核心",
+          "desc": "战斗开始时，核心的等级会以临时等级的形式，平均分配给己方【日落海】英雄（单英雄分配上限50%）。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/安琪拉.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/e07974389273c900bfcdb5f22c7b0d17.png",
+      "source": "web"
+    },
+    "瑶": {
+      "id": 5051,
+      "name": "瑶",
+      "category": "英雄牌",
+      "faction": "大河流域",
+      "cost": 3,
+      "quality": 3,
+      "tags": [
+        "后排"
+      ],
+      "skill": "开团：自身的首件普通装备分享给随机3名友方英雄（持续15秒）。",
+      "awaken": "开团：自身的首件普通装备分享给随机3名友方英雄。",
+      "skills": [
+        {
+          "name": "独立兮山之上",
+          "desc": "被动：瑶在备战阶段，选择最近的友方英雄作为保护目标并在开战时附身其上。附身提供200+20%瑶最大生命值的护盾，以及10点双攻和5点双防，直到目标被击败。附身期间瑶会每2秒随机攻击至多2名敌人，造成50+50%法术伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "附身额外提供30点双攻及10点双防；护盾提升至300+25%最大生命值"
+            },
+            {
+              "level": 40,
+              "desc": "附身攻击会对目标造成0.5秒眩晕"
+            },
+            {
+              "level": 100,
+              "desc": "瑶会分享自身30%主要属性给保护目标（最大生命、双攻、双防、攻速）"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 270,
+        "phyAttack": 24,
+        "magAttack": 20,
+        "phyDefense": 18,
+        "magDefense": 18,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 4,
+        "initEnergy": 0,
+        "energy": 100,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "开团",
+          "desc": "战斗开始时，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/瑶.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/906a48992c7228914777dfe4efcfa434.png",
+      "source": "web"
+    },
+    "镜": {
+      "id": 5311,
+      "name": "镜",
+      "category": "英雄牌",
+      "faction": "逐鹿",
+      "cost": 3,
+      "quality": 3,
+      "tags": [
+        "前排",
+        "刺客"
+      ],
+      "skill": "闪现\n每使用2张效果牌，等级+1。",
+      "awaken": "闪现\n每使用2张效果牌，等级+2。",
+      "skills": [
+        {
+          "name": "裂空",
+          "desc": "镜旋转攻击，对当前目标敌人造成60+80%物理攻击力的物理伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "技能伤害提升至80+120%物理攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "技能伤害提升至80+150%物理攻击力，并额外产生1名镜像攻击"
+            },
+            {
+              "level": 100,
+              "desc": "产生2名镜像攻击，并会恢复450点生命值"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 240,
+        "phyAttack": 40,
+        "magAttack": 0,
+        "phyDefense": 16,
+        "magDefense": 16,
+        "moveSpeed": 4600,
+        "attackSpeed": 8000,
+        "criticalRate": 2000,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 5,
+        "energy": 20,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "闪现",
+          "desc": "战斗开始时，英雄会跳跃至敌方战场的镜像位置。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/镜.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/fe0850fcceb7fb3abdf7456ec02a5740.png",
+      "source": "web"
+    },
+    "朵莉亚": {
+      "id": 1591,
+      "name": "朵莉亚",
+      "category": "英雄牌",
+      "faction": "日落海",
+      "cost": 3,
+      "quality": 3,
+      "tags": [
+        "后排",
+        "辅助"
+      ],
+      "skill": "每当你的英雄触发整备效果时，随机3名英雄及阿科米亚核心等级+1。",
+      "awaken": "每当你的英雄触发整备效果时，己方所有英雄及阿科米亚核心等级+1。",
+      "skills": [
+        {
+          "name": "逐浪",
+          "desc": "被动：朵莉亚在自身创建的水域内会化身人鱼形态。普通攻击会额外恢复5点法力值，对目标附带50%法术攻击力的法术伤害，在水域内再次施放技能，原水域消失形成新水域。\n主动：跃向3格内友军密集处创造一片水域，水域持续10秒，朵莉亚在水域中化身人鱼形态，落地立即恢复范围内友军75+100%法术攻击力的生命值，10点法力值（法力值恢复不对朵莉亚生效），水域每秒恢复范围内友军50%法术攻击力的生命值，朵莉亚离开水域时水域消失并且恢复人形态。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "落地时的生命值恢复提升至100+150%法术攻击力，法力值恢复提升至20点"
+            },
+            {
+              "level": 40,
+              "desc": "水域可持续到回合结束；人鱼形态下，通过普攻恢复的法力值会共享给水域内的友军"
+            },
+            {
+              "level": 100,
+              "desc": "落地时会立即恢复水域内友军100%最大法力值"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 270,
+        "phyAttack": 24,
+        "magAttack": 20,
+        "phyDefense": 18,
+        "magDefense": 18,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 4,
+        "initEnergy": 50,
+        "energy": 90,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "整备",
+          "desc": "回合开始时，触发效果。"
+        },
+        {
+          "name": "阿科米亚核心",
+          "desc": "战斗开始时，核心的等级会以临时等级的形式，平均分配给己方【日落海】英雄（单英雄分配上限50%）。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/朵莉亚.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/faac65959d499e474f7b118747e3b319.png",
+      "source": "web"
+    },
+    "莱西奥": {
+      "id": 5451,
+      "name": "莱西奥",
+      "category": "英雄牌",
+      "faction": "日落海",
+      "cost": 3,
+      "quality": 4,
+      "tags": [
+        "后排",
+        "射手"
+      ],
+      "skill": "每当你出售2名场上英雄后，阿科米亚核心等级+1。",
+      "awaken": "每当你出售场上英雄后，阿科米亚核心等级+1。",
+      "skills": [
+        {
+          "name": "传奇英雄登场",
+          "desc": "被动：莱西奥每8次普攻，会使用小火鹰发射1枚强化飞弹，对目标造成150%物理攻击力的物理伤害并且对周围1格敌人造成50%物理攻击力的物理伤害，若未发射，则充能1层，最多储存5层。\n主动：莱西奥扔出烟雾弹制造1片烟雾，使处于烟雾中的英雄不会被优先攻击，并且增加30%攻击速度。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "攻速增益提升至50%"
+            },
+            {
+              "level": 40,
+              "desc": "莱西奥会和烟雾中的友军攻击同一目标，烟雾中的友军每次对敌人造成伤害也会为莱西奥的小火鹰进行1次充能"
+            },
+            {
+              "level": 100,
+              "desc": "施法进入快速发射模式：立即发射5枚强化飞弹；并将储能层数扩充到10层，持续5秒"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 210,
+        "phyAttack": 40,
+        "magAttack": 0,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 10000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 4,
+        "initEnergy": 40,
+        "energy": 50,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "阿科米亚核心",
+          "desc": "战斗开始时，核心的等级会以临时等级的形式，平均分配给己方【日落海】英雄（单英雄分配上限50%）。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/莱西奥.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/46ead358e10a832c74dd50af15b24380.png",
+      "source": "web"
+    },
+    "上官婉儿": {
+      "id": 5131,
+      "name": "上官婉儿",
+      "category": "英雄牌",
+      "faction": "河洛",
+      "cost": 3,
+      "quality": 4,
+      "tags": [
+        "后排",
+        "法师"
+      ],
+      "skill": "整备：随机对3名不同【河洛】英雄使用1张古币。",
+      "awaken": "整备：随机对6名不同【河洛】英雄使用1张古币。",
+      "skills": [
+        {
+          "name": "篆法·疾势",
+          "desc": "上官婉儿朝最远处的敌人挥出1记笔墨，对沿途敌人造成100+100%法术攻击力的法术伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "笔墨伤害提升至100+150%法术攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "笔墨每命中1名敌人伤害提升50%，最多150%"
+            },
+            {
+              "level": 100,
+              "desc": "笔墨伤害提升至100+240%法术攻击力"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 240,
+        "phyAttack": 24,
+        "magAttack": 40,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 4,
+        "initEnergy": 20,
+        "energy": 40,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "整备",
+          "desc": "回合开始时，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/上官婉儿.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/f03154d2e4bfc7266a3a93bc26187f08.png",
+      "source": "web"
+    },
+    "艾琳": {
+      "id": 3551,
+      "name": "艾琳",
+      "category": "英雄牌",
+      "faction": "日落海",
+      "cost": 3,
+      "quality": 4,
+      "tags": [
+        "后排",
+        "射手"
+      ],
+      "skill": "开团：艾琳获得自身等级×1%的攻击速度。",
+      "awaken": "开团：艾琳获得自身等级×2%的攻击速度。",
+      "skills": [
+        {
+          "name": "叶舞·致意",
+          "desc": "被动：艾琳每次普攻为自己累积1层月桂祝福，当达到10/20层时，艾琳的技能会获得进化。\n主动：艾琳向当前目标敌人发出1束月桂叶，造成100%法术攻击力的法术伤害。\n10层进化：若周围2格有敌人，则位移至敌人较少处，随后向目标发出1片月桂飞叶，造成100%法术攻击力的法术伤害。\n20层进化：若周围2格有敌人，则位移至敌人较少处，向目标发出5片月桂飞叶，每片造成100%法术攻击力的法术伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "技能伤害提升至150%法术攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "30层时，获得额外一次进化：每次普攻获得2点法术攻击力，并附带10%法术攻击力的法术伤害"
+            },
+            {
+              "level": 100,
+              "desc": "开战时艾琳挥舞翅膀绕场飞行，获得无限攻击距离，并且释放技能时普攻获得穿透效果，持续5秒"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 210,
+        "phyAttack": 32,
+        "magAttack": 20,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 10000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 5,
+        "initEnergy": 30,
+        "energy": 85,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "开团",
+          "desc": "战斗开始时，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/艾琳.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/bbcb4b0d0e241589d8e5ed6188bff57a.png",
+      "source": "web"
+    },
+    "扁鹊": {
+      "id": 1191,
+      "name": "扁鹊",
+      "category": "英雄牌",
+      "faction": "逐鹿",
+      "cost": 3,
+      "quality": 4,
+      "tags": [
+        "后排"
+      ],
+      "skill": "友方单位护盾被击破时，对周围敌人造成该英雄最大生命值10%的法术伤害（冷却1秒）。",
+      "awaken": "友方单位护盾被击破时，对周围敌人造成该英雄最大生命值20%的法术伤害（冷却1秒）。",
+      "skills": [
+        {
+          "name": "万变灵药",
+          "desc": "扁鹊朝场上生命值比例最低的3个单位扔出药瓶，药瓶触地后破碎留下药液，持续5秒。处于药液中的友军每秒恢复20+60%法术攻击力的生命值，处于药液中的敌人每秒受到20+60%法术攻击力的法术伤害，效果可叠加。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "药液伤害提升至20+90%法术攻击力，生命值恢复提升至20+90%法术攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "药瓶数量提升至5个"
+            },
+            {
+              "level": 100,
+              "desc": "药液可提升友军40%攻速，降低敌人40%攻速"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 270,
+        "phyAttack": 24,
+        "magAttack": 20,
+        "phyDefense": 18,
+        "magDefense": 18,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 4,
+        "initEnergy": 35,
+        "energy": 50,
+        "initLevel": 0
+      },
+      "keywords": [],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/扁鹊.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/4708536fe1e026afd08faa1e93527ee7.png",
+      "source": "web"
+    },
+    "嬴政": {
+      "id": 1101,
+      "name": "嬴政",
+      "category": "英雄牌",
+      "faction": "逐鹿",
+      "cost": 3,
+      "quality": 4,
+      "tags": [
+        "后排"
+      ],
+      "skill": "开团：法术攻击力+ 7。每次使用战术牌会提升该加成。",
+      "awaken": "开团：法术攻击力+ 14。每次使用战术牌会提升该加成。",
+      "skills": [
+        {
+          "name": "至尊王权",
+          "desc": "嬴政展示王权，锁定最近的敌人，在5秒内号令80把飞剑朝其冲击，每把飞剑造成10+10%法术攻击力的法术伤害。若当前路径上没有敌人，嬴政会立即转向下个目标。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "飞剑伤害提升至15+15%法术攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "飞剑基础数量增加到100把，并且每击败1名敌人延长2秒技能持续时间"
+            },
+            {
+              "level": 100,
+              "desc": "飞剑基础数量增加到120把，每击败1名敌人范围增加2格，最多增加4格"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 240,
+        "phyAttack": 24,
+        "magAttack": 40,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 5,
+        "initEnergy": 0,
+        "energy": 40,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "开团",
+          "desc": "战斗开始时，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/嬴政.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/2af25469dff50369747fcf3973dcda48.png",
+      "source": "web"
+    },
+    "李信": {
+      "id": 5071,
+      "name": "李信",
+      "category": "英雄牌",
+      "faction": "河洛",
+      "cost": 3,
+      "quality": 4,
+      "tags": [
+        "后排"
+      ],
+      "skill": "每当你拥有牺牲效果的英雄阵亡时，李信临时等级+7。",
+      "awaken": "每当你拥有牺牲效果的英雄阵亡时，李信临时等级+14。",
+      "skills": [
+        {
+          "name": "力量觉醒",
+          "desc": "李信免控并短暂蓄力后当前方向挥出1道剑气，对命中的敌人造成50+180%物理攻击力的物理伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "剑气伤害提升至100+220%物理攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "剑气数量增加至3道"
+            },
+            {
+              "level": 100,
+              "desc": "李信阵亡后，以狂暴形态（拥有独特技能）完美复生"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 300,
+        "phyAttack": 40,
+        "magAttack": 0,
+        "phyDefense": 18,
+        "magDefense": 18,
+        "moveSpeed": 4600,
+        "attackSpeed": 8000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 4,
+        "initEnergy": 40,
+        "energy": 80,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "牺牲",
+          "desc": "英雄阵亡时，触发效果。"
+        },
+        {
+          "name": "临时等级",
+          "desc": "战斗结束时，临时等级将会被清除。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/李信.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/24428dd12ddd9d7b29addc9d33279e5d.png",
+      "source": "web"
+    },
+    "李白": {
+      "id": 1311,
+      "name": "李白",
+      "category": "英雄牌",
+      "faction": "河洛",
+      "cost": 3,
+      "quality": 4,
+      "tags": [
+        "前排",
+        "刺客"
+      ],
+      "skill": "闪现\n古币牌会额外提供4临时等级。若目标为李白，该临时等级会额外+3。",
+      "awaken": "闪现\n古币牌会额外提供8临时等级。若目标为李白，该临时等级会额外+6。",
+      "skills": [
+        {
+          "name": "青莲剑歌",
+          "desc": "被动：李白施放技能时会积累1道剑气，最多4道。每道剑气提升10%基础物理攻击力。\n主动：李白施展剑阵，降低目标敌人及其相邻敌人6点物理防御。随后化身剑气施展6次斩击，每次造成80%物理攻击力的物理伤害，伤害由范围内的敌人平均分摊。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "斩击伤害提升至120%物理攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "斩击伤害提升至150%物理攻击力"
+            },
+            {
+              "level": 100,
+              "desc": "斩击期间不可选中"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 240,
+        "phyAttack": 40,
+        "magAttack": 0,
+        "phyDefense": 16,
+        "magDefense": 16,
+        "moveSpeed": 4600,
+        "attackSpeed": 8000,
+        "criticalRate": 2000,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 30,
+        "energy": 55,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "闪现",
+          "desc": "战斗开始时，英雄会跳跃至敌方战场的镜像位置。"
+        },
+        {
+          "name": "临时等级",
+          "desc": "战斗结束时，临时等级将会被清除。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/李白.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/91eccc72e272ee7cb08a335dd048203f.png",
+      "source": "web"
+    },
+    "雅典娜": {
+      "id": 1831,
+      "name": "雅典娜",
+      "category": "英雄牌",
+      "faction": "日落海",
+      "cost": 3,
+      "quality": 4,
+      "tags": [
+        "前排",
+        "坦克"
+      ],
+      "skill": "开团：随机触发2名【日落海】英雄的整备效果。",
+      "awaken": "开团：随机触发4名【日落海】英雄的整备效果。",
+      "skills": [
+        {
+          "name": "敬畏圣盾",
+          "desc": "雅典娜举起圣盾，获得免控以及持续6秒15%最大生命值的护盾。2秒后雅典娜将使用圣盾反击，对附近1格敌人造成30点法术伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "护盾提升至35%最大生命值"
+            },
+            {
+              "level": 40,
+              "desc": "敌人额外受到眩晕效果1.5秒"
+            },
+            {
+              "level": 100,
+              "desc": "技能范围增加1格"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 330,
+        "phyAttack": 24,
+        "magAttack": 20,
+        "phyDefense": 20,
+        "magDefense": 20,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 50,
+        "energy": 80,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "开团",
+          "desc": "战斗开始时，触发效果。"
+        },
+        {
+          "name": "整备",
+          "desc": "回合开始时，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/雅典娜.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/77f16591920deacf6727bfae934f97f1.png",
+      "source": "web"
+    },
+    "太乙真人": {
+      "id": 1861,
+      "name": "太乙真人",
+      "category": "英雄牌",
+      "faction": "无阵营",
+      "cost": 3,
+      "quality": 4,
+      "tags": [
+        "前排",
+        "坦克"
+      ],
+      "skill": "开团：使距离最近的1名英雄获得复生。",
+      "awaken": "开团：使距离最近的1名英雄获得完美复生。",
+      "skills": [
+        {
+          "name": "第三只手",
+          "desc": "太乙真人将自身拉向最远敌人，并嘲讽周围1格的敌人。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "施法时自身获得400点护盾"
+            },
+            {
+              "level": 40,
+              "desc": "护盾被击破会对周围1格敌人造成400点法术伤害"
+            },
+            {
+              "level": 100,
+              "desc": "拉向目标途中击飞自身周围1格的敌人1秒"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 330,
+        "phyAttack": 24,
+        "magAttack": 20,
+        "phyDefense": 20,
+        "magDefense": 20,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 100,
+        "energy": 100,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "开团",
+          "desc": "战斗开始时，触发效果。"
+        },
+        {
+          "name": "复生",
+          "desc": "英雄在阵亡后会复活，并恢复50%生命值（每名英雄单回合最多复活10次）。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/太乙真人.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/9d0a3bdf56b254cd8e7bf30874df8a2e.png",
+      "source": "web"
+    },
+    "孙悟空": {
+      "id": 1671,
+      "name": "孙悟空",
+      "category": "英雄牌",
+      "faction": "无阵营",
+      "cost": 3,
+      "quality": 4,
+      "tags": [
+        "前排"
+      ],
+      "skill": "闪现，夺取\n整备：拥有闪现效果的英雄等级+2。",
+      "awaken": "闪现，夺取\n整备：拥有闪现效果的英雄等级+4。",
+      "skills": [
+        {
+          "name": "大圣神威",
+          "desc": "孙悟空挥舞金箍棒砸向前方，造成100+400%物理攻击力的物理伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "技能伤害提升至100+500%物理攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "技能伤害提升至100+700%物理攻击力，技能范围扩大至2格"
+            },
+            {
+              "level": 100,
+              "desc": "技能范围扩大至4格"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 240,
+        "phyAttack": 40,
+        "magAttack": 0,
+        "phyDefense": 16,
+        "magDefense": 16,
+        "moveSpeed": 4600,
+        "attackSpeed": 8000,
+        "criticalRate": 2000,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 25,
+        "energy": 45,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "闪现",
+          "desc": "战斗开始时，英雄会跳跃至敌方战场的镜像位置。"
+        },
+        {
+          "name": "夺取",
+          "desc": "使用此卡牌时，夺取周围1格随机1名己方英雄的等级（最多10级，不包含临时等级）。"
+        },
+        {
+          "name": "整备",
+          "desc": "回合开始时，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/孙悟空.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/9db0288a1b34639f079120b56dda6b8d.png",
+      "source": "web"
+    },
+    "甄姬": {
+      "id": 1271,
+      "name": "甄姬",
+      "category": "英雄牌",
+      "faction": "三分之地",
+      "cost": 3,
+      "quality": 4,
+      "tags": [
+        "后排",
+        "法师"
+      ],
+      "skill": "登场：获得1张其他的登场英雄牌。",
+      "awaken": "登场：从3张其他的登场英雄牌中选择1张。",
+      "skills": [
+        {
+          "name": "叹息水流",
+          "desc": "甄姬施放水流冲击当前目标敌人并弹向3格内最远的敌人，最多弹射4次，每次造成30+40%法术攻击力的法术伤害。敌人在3秒内受到3次水流伤害后会被冻结1秒。若目标附近无其他敌人则直接对其造成3倍水流伤害并直接被冻结。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "水流伤害提升至30+75%法术攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "冻结持续时间+1秒，并在冻结结束时额外造成50+100%法术攻击力的法术伤害"
+            },
+            {
+              "level": 100,
+              "desc": "弹射次数上限+4"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 240,
+        "phyAttack": 24,
+        "magAttack": 40,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 4,
+        "initEnergy": 10,
+        "energy": 40,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "登场",
+          "desc": "使用此卡牌后，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/甄姬.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/0d292f0d30751de609ba583362aa9648.png",
+      "source": "web"
+    },
+    "小乔": {
+      "id": 1061,
+      "name": "小乔",
+      "category": "英雄牌",
+      "faction": "三分之地",
+      "cost": 3,
+      "quality": 4,
+      "tags": [
+        "后排",
+        "法师"
+      ],
+      "skill": "每当你的英雄触发登场效果时，随机3名英雄等级+1。",
+      "awaken": "每当你的英雄触发登场效果时，所有英雄等级+1。",
+      "skills": [
+        {
+          "name": "甜蜜恋风",
+          "desc": "小乔持续引导1道旋风吹起最近的敌人，使其浮空并每0.2秒受到10%法术攻击力的法术伤害，最多3秒。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "旋风伤害提升至15%法术攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "再额外吹起1名附近敌人"
+            },
+            {
+              "level": 100,
+              "desc": "额外吹起1名最远的敌人"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 240,
+        "phyAttack": 24,
+        "magAttack": 40,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 4,
+        "initEnergy": 20,
+        "energy": 50,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "登场",
+          "desc": "使用此卡牌后，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/小乔.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/11711f999d889b61daf6e926017dfd03.png",
+      "source": "web"
+    },
+    "大司命": {
+      "id": 5171,
+      "name": "大司命",
+      "category": "英雄牌",
+      "faction": "大河流域",
+      "cost": 3,
+      "quality": 4,
+      "tags": [
+        "后排",
+        "坦克"
+      ],
+      "skill": "在场时，召唤往生图腾。\n每当你触发牺牲效果时：往生图腾等级永久+2并获得50点法力值。",
+      "awaken": "在场时，召唤往生图腾。\n每当你触发牺牲效果时：往生图腾等级永久+4并获得50点法力值。",
+      "skills": [
+        {
+          "name": "魂归忘忧",
+          "desc": "被动：大司命的普通攻击会持续连接敌人，在3秒内造成5次伤害，每次造成50%物理攻击力的物理伤害。\n主动：大司命神巫之力全开，从天而临对附近2格敌人造成150+200%物理攻击力的物理伤害并恢复100+5%最大生命值的生命值。同时凝聚1名范围内敌人的灵体协助战斗（视作召唤物）。之后进入神巫状态，无法恢复法力值，但普攻会恢复10+1%最大生命值的生命值。\n灵体继承大司命部分属性，并且在大司命神巫状态攻击时，获得同样的生命恢复效果。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "恢复效果提升至250+10%最大生命值"
+            },
+            {
+              "level": 40,
+              "desc": "神巫状态下大司命可以同时攻击范围内最多3名敌人"
+            },
+            {
+              "level": 100,
+              "desc": "最大灵体数量提升至3"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 330,
+        "phyAttack": 32,
+        "magAttack": 0,
+        "phyDefense": 20,
+        "magDefense": 20,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 2,
+        "initEnergy": 30,
+        "energy": 60,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "牺牲",
+          "desc": "英雄阵亡时，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/大司命.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/948dd54e701f36f77aec600b1249c463.png",
+      "source": "web"
+    },
+    "往生图腾": {
+      "id": 31082,
+      "name": "往生图腾",
+      "category": "召唤物",
+      "faction": "大河流域",
+      "cost": 1,
+      "quality": 4,
+      "tags": [],
+      "skill": "大司命灵体以外的1-3阶己方召唤物上场时，吸收该单位使往生图腾等级永久+1并获得15点法力值。",
+      "awaken": "",
+      "skills": [
+        {
+          "name": "图腾化身",
+          "desc": "主动：往生图腾变身为往生图腾（山鬼形态），出现在敌方最密集位置参与战斗。",
+          "enhance": [
+            {
+              "level": 0,
+              "desc": ""
+            },
+            {
+              "level": 0,
+              "desc": ""
+            },
+            {
+              "level": 0,
+              "desc": ""
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 400,
+        "phyAttack": 0,
+        "magAttack": 0,
+        "phyDefense": 0,
+        "magDefense": 0,
+        "moveSpeed": 0,
+        "attackSpeed": 0,
+        "criticalRate": 0,
+        "criticalEffect": 0,
+        "attackDistance": 0,
+        "initEnergy": 0,
+        "energy": 100,
+        "initLevel": 0
+      },
+      "keywords": [],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/召唤物/往生图腾.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/029b96181d63e429b44334d54a523c6f.png",
+      "source": "web"
+    },
+    "往生图腾（山鬼形态）": {
+      "id": 31280,
+      "name": "往生图腾（山鬼形态）",
+      "category": "召唤物",
+      "faction": "大河流域",
+      "cost": 1,
+      "quality": 4,
+      "tags": [],
+      "skill": "大司命灵体以外的1-3阶己方召唤物上场时，吸收该单位使往生图腾等级永久+1并获得15点法力值。",
+      "awaken": "",
+      "skills": [
+        {
+          "name": "自然之主",
+          "desc": "被动：山鬼每次普攻恢复20点法力值，且会享受大司命的普攻生命恢复效果。山鬼受到致命伤害时进入失活状态，失活状态无敌且无法选中，若失活期间法力值充满，会恢复全部生命值并重新加入战斗。\n主动：山鬼恢复10%最大生命值，拍击地面对自身周围1格的单位造成山鬼最大生命值20%的物理伤害，每命中1个单位，山鬼恢复250点生命值。首次上场或脱离失活状态时，将释放强化技能，技能范围扩大至自身周围2格且额外施加持续1秒的嘲讽。",
+          "enhance": [
+            {
+              "level": 0,
+              "desc": ""
+            },
+            {
+              "level": 0,
+              "desc": ""
+            },
+            {
+              "level": 0,
+              "desc": ""
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 400,
+        "phyAttack": 20,
+        "magAttack": 0,
+        "phyDefense": 27,
+        "magDefense": 27,
+        "moveSpeed": 3500,
+        "attackSpeed": 6500,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 100,
+        "energy": 100,
+        "initLevel": 0
+      },
+      "keywords": [],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/召唤物/往生图腾（山鬼形态）.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/82d0c253b7edaf08e810e612effe9d5d.png",
+      "source": "web"
+    },
+    "庄周": {
+      "id": 1131,
+      "name": "庄周",
+      "category": "英雄牌",
+      "faction": "逐鹿",
+      "cost": 3,
+      "quality": 4,
+      "tags": [
+        "前排",
+        "坦克"
+      ],
+      "skill": "登场：自身等级+2并获得1张招募战术。",
+      "awaken": "登场：自身等级+4并获得1张高阶招募战术。",
+      "skills": [
+        {
+          "name": "天人合一",
+          "desc": "庄周幻化梦域保护队友和自身，驱散自身和左右两边2格内友军，并获得200点护盾，持续5秒。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "护盾提升至300点"
+            },
+            {
+              "level": 40,
+              "desc": "在护盾持续时间内免控"
+            },
+            {
+              "level": 100,
+              "desc": "技能范围扩大至全体友军"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 330,
+        "phyAttack": 24,
+        "magAttack": 20,
+        "phyDefense": 20,
+        "magDefense": 20,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 40,
+        "energy": 60,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "登场",
+          "desc": "使用此卡牌后，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/庄周.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/1b0b4002e6af2bd3a3c1c8ab6bb3e0e5.png",
+      "source": "web"
+    },
+    "刘邦": {
+      "id": 1491,
+      "name": "刘邦",
+      "category": "英雄牌",
+      "faction": "大河流域",
+      "cost": 3,
+      "quality": 4,
+      "tags": [
+        "前排",
+        "坦克"
+      ],
+      "skill": "开团：摧毁你所有的图腾，每摧毁1个，刘邦等级永久+5。",
+      "awaken": "开团：摧毁你所有的图腾，每摧毁1个，刘邦等级永久+10。",
+      "skills": [
+        {
+          "name": "统御战场",
+          "desc": "刘邦在4秒内将普攻切换为范围横扫，期间每秒获得50点护盾。被横扫的敌人会被打上印记，友方造成伤害时会消耗标记，造成50+30%法术攻击力的法术伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "每秒获得的护盾提升至80点护盾；每拥有15点法术攻击力提升20%攻速"
+            },
+            {
+              "level": 40,
+              "desc": "技能持续期间每秒为周围1格的友军提供80点护盾"
+            },
+            {
+              "level": 100,
+              "desc": "护盾被击破对周围1格敌人造成100+50%法术攻击力的法术伤害"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 330,
+        "phyAttack": 24,
+        "magAttack": 20,
+        "phyDefense": 20,
+        "magDefense": 20,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 45,
+        "energy": 70,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "开团",
+          "desc": "战斗开始时，触发效果。"
+        },
+        {
+          "name": "图腾",
+          "desc": "大河流域阵营专属单位，存活时提供特殊效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/刘邦.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/60e779d8ec852fb83fba06f6faef313b.png",
+      "source": "web"
+    },
+    "诸葛亮": {
+      "id": 1901,
+      "name": "诸葛亮",
+      "category": "英雄牌",
+      "faction": "三分之地",
+      "cost": 3,
+      "quality": 4,
+      "tags": [
+        "后排",
+        "法师"
+      ],
+      "skill": "你的其他英雄释放技能时，诸葛亮获得15点法力值以及4临时等级。",
+      "awaken": "你的其他英雄释放技能时，诸葛亮获得30点法力值以及8临时等级。",
+      "skills": [
+        {
+          "name": "元气弹",
+          "desc": "诸葛亮发射元气弹对当前目标造成150+100%法术攻击力的法术伤害，并对其相邻敌人造成40%伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "元气弹伤害提升至150+200%法术攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "元气弹击败敌人时恢复自身70%最大法力值"
+            },
+            {
+              "level": 100,
+              "desc": "元气弹伤害提升至250+300%法术攻击力，会额外发射4发小元气弹造成25%伤害"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 240,
+        "phyAttack": 24,
+        "magAttack": 40,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 6,
+        "initEnergy": 35,
+        "energy": 55,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "临时等级",
+          "desc": "战斗结束时，临时等级将会被清除。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/诸葛亮.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/eef754cb0fd3bea25affa930175a1547.png",
+      "source": "web"
+    },
+    "韩信": {
+      "id": 1501,
+      "name": "韩信",
+      "category": "英雄牌",
+      "faction": "大河流域",
+      "cost": 3,
+      "quality": 4,
+      "tags": [
+        "前排",
+        "刺客"
+      ],
+      "skill": "闪现\n每当你的英雄触发整备或开团效果时，韩信等级永久+2。",
+      "awaken": "闪现\n每当你的英雄触发整备或开团效果时，韩信等级永久+4。",
+      "skills": [
+        {
+          "name": "国士无双",
+          "desc": "被动：韩信每第3次普攻击飞敌人1秒，造成160%物理攻击力的物理伤害，并且每击败1名敌军增加10%基础攻击速度。\n主动：韩信枪挑敌人造成击飞和100点物理伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "技能伤害提升至100+150%物理攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "增加戳刺造成100+200%物理攻击力的物理伤害，若击败目标则立刻冲锋至下1个目标处并且挑飞目标，造成100+200%物理攻击力的物理伤害"
+            },
+            {
+              "level": 100,
+              "desc": "技能变为3段范围伤害，对主目标造成100+200%物理攻击力的物理伤害，对其他目标造成200点物理伤害，最后1段击飞周围1格敌人"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 240,
+        "phyAttack": 40,
+        "magAttack": 0,
+        "phyDefense": 16,
+        "magDefense": 16,
+        "moveSpeed": 4600,
+        "attackSpeed": 8000,
+        "criticalRate": 2000,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 55,
+        "energy": 65,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "闪现",
+          "desc": "战斗开始时，英雄会跳跃至敌方战场的镜像位置。"
+        },
+        {
+          "name": "整备",
+          "desc": "回合开始时，触发效果。"
+        },
+        {
+          "name": "开团",
+          "desc": "战斗开始时，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/韩信.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/5765e0a774103621c8ed9b0d91383304.png",
+      "source": "web"
+    },
+    "蒙犽": {
+      "id": 5241,
+      "name": "蒙犽",
+      "category": "英雄牌",
+      "faction": "逐鹿",
+      "cost": 3,
+      "quality": 4,
+      "tags": [
+        "后排"
+      ],
+      "skill": "登场：获得1张特训战术。",
+      "awaken": "登场：获得1张高阶特训战术。",
+      "skills": [
+        {
+          "name": "飞弹援袭",
+          "desc": "蒙犽发射12枚导弹攻击随机敌人，每枚造成30+60%物理攻击力的物理伤害。多枚导弹命中同一目标时，后续伤害衰减40%。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "导弹伤害提升至30+90%物理攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "多枚导弹命中的伤害衰减降低至10%"
+            },
+            {
+              "level": 100,
+              "desc": "导弹数量提升至20枚；每施法1次，下次技能导弹数量增加1枚（至多30枚）"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 210,
+        "phyAttack": 40,
+        "magAttack": 0,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 10000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 5,
+        "initEnergy": 35,
+        "energy": 50,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "登场",
+          "desc": "使用此卡牌后，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/蒙犽.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/b7110fe4f30068b797f74abe482dd699.png",
+      "source": "web"
+    },
+    "东皇太一": {
+      "id": 1871,
+      "name": "东皇太一",
+      "category": "英雄牌",
+      "faction": "大河流域",
+      "cost": 3,
+      "quality": 5,
+      "tags": [
+        "前排",
+        "坦克"
+      ],
+      "skill": "图腾不会被优先攻击。\n开团：获得每个图腾等级数15%的临时等级。",
+      "awaken": "图腾不会被优先攻击。\n开团：获得每个图腾等级数30%的临时等级。",
+      "skills": [
+        {
+          "name": "堕神契约",
+          "desc": "被动：东皇太一创造3颗能量球绕自身转动。能量球触碰到敌人时会造成其3%最大生命值的法术伤害并恢复东皇3%的最大生命值。\n主动：东皇太一施展堕神契约压制目标敌人5秒，期间双方承受等量伤害。若期间目标距离过远，则效果提前中断。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "能量球伤害及恢复的最大生命值系数提升至5%"
+            },
+            {
+              "level": 40,
+              "desc": "压制时能量球转速提升50%"
+            },
+            {
+              "level": 100,
+              "desc": "技能效果会持续到其中1方阵亡"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 330,
+        "phyAttack": 24,
+        "magAttack": 20,
+        "phyDefense": 20,
+        "magDefense": 20,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 40,
+        "energy": 80,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "图腾",
+          "desc": "大河流域阵营专属单位，存活时提供特殊效果。"
+        },
+        {
+          "name": "开团",
+          "desc": "战斗开始时，触发效果。"
+        },
+        {
+          "name": "临时等级",
+          "desc": "战斗结束时，临时等级将会被清除。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/东皇太一.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/54913769ab8bc4bd6b46891cfaa5def1.png",
+      "source": "web"
+    },
+    "敖隐": {
+      "id": 5191,
+      "name": "敖隐",
+      "category": "英雄牌",
+      "faction": "大河流域",
+      "cost": 3,
+      "quality": 5,
+      "tags": [
+        "后排",
+        "射手"
+      ],
+      "skill": "战斗中，每个图腾每4秒为敖隐提供16%攻击速度和4临时等级。",
+      "awaken": "战斗中，每个图腾每4秒为敖隐提供32%攻击速度和8临时等级。",
+      "skills": [
+        {
+          "name": "隐介藏形",
+          "desc": "敖隐唤出白龙冲向敌人密集处，造成100+75%物理攻击力的物理伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "随机解锁\"薄日掌火\"与\"擎天司雨\"两种武器中的一个，造成范围伤害\n薄日掌火：普攻附带10%物理攻击力的真实伤害\n擎天司雨：普攻恢复20点生命值，施法额外恢复100点生命值"
+            },
+            {
+              "level": 40,
+              "desc": "薄日掌火：真实伤害提升至15%物理攻击力\n擎天司雨：普攻恢复提升至20+2%最大生命值，施法恢复提升至350点"
+            },
+            {
+              "level": 100,
+              "desc": "同时拥有两种武器效果"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 210,
+        "phyAttack": 36,
+        "magAttack": 0,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 10000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 5,
+        "initEnergy": 0,
+        "energy": 50,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "图腾",
+          "desc": "大河流域阵营专属单位，存活时提供特殊效果。"
+        },
+        {
+          "name": "临时等级",
+          "desc": "战斗结束时，临时等级将会被清除。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/敖隐.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/f7d88265cf5d5899cf5221e48aa3f1ed.png",
+      "source": "web"
+    },
+    "鲁班大师": {
+      "id": 5251,
+      "name": "鲁班大师",
+      "category": "英雄牌",
+      "faction": "逐鹿",
+      "cost": 3,
+      "quality": 5,
+      "tags": [
+        "前排"
+      ],
+      "skill": "鲁班大师在场时，召唤1个等级与自身相同的机关傀儡。",
+      "awaken": "鲁班大师在场时，召唤1个等级与自身相同的机关傀儡·改。",
+      "skills": [
+        {
+          "name": "助推跳跃",
+          "desc": "鲁班大师跃入敌人最密集处连接3格内1名敌人并强制拽离，在落地后造成50+60%法术攻击力的法术伤害并眩晕0.5秒。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "技能伤害提升至50+90%法术攻击力，获得250点护盾"
+            },
+            {
+              "level": 40,
+              "desc": "控制目标增加至最多3名"
+            },
+            {
+              "level": 100,
+              "desc": "控制目标增加至最多6名"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 270,
+        "phyAttack": 24,
+        "magAttack": 20,
+        "phyDefense": 18,
+        "magDefense": 18,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 65,
+        "energy": 80,
+        "initLevel": 0
+      },
+      "keywords": [],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/鲁班大师.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/cc4544aa19e3c6f29834f333c560d455.png",
+      "source": "web"
+    },
+    "机关傀儡": {
+      "id": 314009,
+      "name": "机关傀儡",
+      "category": "召唤物",
+      "faction": "逐鹿",
+      "cost": 0,
+      "quality": 5,
+      "tags": [],
+      "skill": "获得等同于你场上【逐鹿】英雄或召唤单位中最高等级一半的临时等级。",
+      "awaken": "",
+      "skills": [
+        {
+          "name": "激光射线",
+          "desc": "被动：机关傀儡拥有无限攻击距离，不会受到碰撞影响。\n主动：机关傀儡远离当前目标飞向下一个位置，在过程中会连续射击目标8次，造成物理伤害，并恢复生命值。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "技能伤害提升至58%物理攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "首次施法制造4个分身，会在机关傀儡施法时朝着目标发射1道激光造成58%物理攻击力的物理伤害"
+            },
+            {
+              "level": 100,
+              "desc": "再次施放技能时，额外制造1个分身（场上至多同时存在6个）"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 150,
+        "phyAttack": 30,
+        "magAttack": 0,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 8000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 15,
+        "initEnergy": 0,
+        "energy": 50,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "临时等级",
+          "desc": "战斗结束时，临时等级将会被清除。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/召唤物/机关傀儡.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/1f8993df7240134f9607a75d3822cfec.png",
+      "source": "web"
+    },
+    "花木兰": {
+      "id": 1541,
+      "name": "花木兰",
+      "category": "英雄牌",
+      "faction": "河洛",
+      "cost": 3,
+      "quality": 5,
+      "tags": [
+        "前排"
+      ],
+      "skill": "本回合每使用5张古币牌，获得1次复生（总复生次数： 1）。 \n牺牲：临时等级+10。",
+      "awaken": "本回合每使用5张古币牌，获得1次复生（总复生次数： 1）。\n牺牲：临时等级+20。",
+      "skills": [
+        {
+          "name": "长城巡守者",
+          "desc": "被动：花木兰可以通过战场上的剑切换形态，两种形态的基础属性不同。\n主动：轻剑形态下，挥舞双剑对目标发起7段攻击，每段造成80%物理攻击力的物理伤害。\n重剑形态下，蓄力3秒后，将前方区域内敌人击飞并眩晕1.5秒，造成80+60%物理攻击力的物理伤害。蓄力期间自身处于免控状态。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "轻剑：伤害提升至105%物理攻击力\n重剑：眩晕延长至2.5秒"
+            },
+            {
+              "level": 40,
+              "desc": "轻剑：斩击持续至目标阵亡\n重剑：蓄力期间获得40%伤害免疫"
+            },
+            {
+              "level": 100,
+              "desc": "轻剑：若目标被击败，将立即回满法力值，并冲锋至随机敌人处\n重剑：技能范围扩大至全场"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 300,
+        "phyAttack": 40,
+        "magAttack": 0,
+        "phyDefense": 18,
+        "magDefense": 18,
+        "moveSpeed": 4600,
+        "attackSpeed": 8000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 0,
+        "energy": 20,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "牺牲",
+          "desc": "英雄阵亡时，触发效果。"
+        },
+        {
+          "name": "临时等级",
+          "desc": "战斗结束时，临时等级将会被清除。"
+        },
+        {
+          "name": "复生",
+          "desc": "英雄在阵亡后会复活，并恢复50%生命值（每名英雄单回合最多复活10次）。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/花木兰.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/4124b5b315c015ba3fb6915982033935.png",
+      "source": "web"
+    },
+    "司空震": {
+      "id": 5371,
+      "name": "司空震",
+      "category": "英雄牌",
+      "faction": "河洛",
+      "cost": 3,
+      "quality": 5,
+      "tags": [
+        "后排",
+        "法师"
+      ],
+      "skill": "你的其他英雄获得临时等级时，司空震获得一半效果（不超过自身真实等级的1倍）。",
+      "awaken": "你的其他英雄获得临时等级时，司空震获得全部效果（不超过自身真实等级的2倍）。",
+      "skills": [
+        {
+          "name": "雷霆万钧",
+          "desc": "司空震升入空中，使用雷鼓轰击全场敌人，造成50+65%法术攻击力的法术伤害。\n雷霆之王：基础攻击速度增加15%。普攻能产生可传导3次的闪电链，造成75+50%法术攻击力的法术伤害，伤害逐次递减25%。闪电链伤害的40%会转化为自身护盾，上限300点。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "雷鼓伤害提升至50+100%法术攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "轰击后化身雷霆之王，持续8秒"
+            },
+            {
+              "level": 100,
+              "desc": "战斗开始时，变身雷霆之王并轰击全场造成法术伤害，持续到回合结束"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 240,
+        "phyAttack": 24,
+        "magAttack": 40,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 5,
+        "initEnergy": 50,
+        "energy": 75,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "临时等级",
+          "desc": "战斗结束时，临时等级将会被清除。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/司空震.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/3253a45c5ea2c83ec00c6565c3b19714.png",
+      "source": "web"
+    },
+    "姜子牙": {
+      "id": 1481,
+      "name": "姜子牙",
+      "category": "英雄牌",
+      "faction": "无阵营",
+      "cost": 3,
+      "quality": 5,
+      "tags": [
+        "后排"
+      ],
+      "skill": "你每次使用不在场的阵营以及无阵营的英雄牌时，姜子牙和随机3名其他不同阵营的英雄等级+1。",
+      "awaken": "你每次使用不在场的阵营以及无阵营的英雄牌时，姜子牙和随机3名其他不同阵营的英雄等级+2。",
+      "skills": [
+        {
+          "name": "天人法则",
+          "desc": "姜子牙变为天人形态，获得免控并朝最远的敌方汇聚天地能量2秒，发射1道冲击波对路径上的敌人造成80+80%法术攻击力的法术伤害。同一单位被多道冲击波命中时，伤害每次衰减15%，至多60%。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "冲击波伤害增加至140+140%法术攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "额外发射2道冲击波，并降低敌人50%生命恢复效果，持续5秒（不可叠加）"
+            },
+            {
+              "level": 100,
+              "desc": "冲击波改为向周围8个方向散射"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 240,
+        "phyAttack": 24,
+        "magAttack": 40,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 6,
+        "initEnergy": 60,
+        "energy": 70,
+        "initLevel": 0
+      },
+      "keywords": [],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/姜子牙.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/3c2ea8dba87075476a3c717e40b1414d.png",
+      "source": "web"
+    },
+    "武则天": {
+      "id": 1361,
+      "name": "武则天",
+      "category": "英雄牌",
+      "faction": "河洛",
+      "cost": 3,
+      "quality": 5,
+      "tags": [
+        "后排",
+        "法师"
+      ],
+      "skill": "古币牌提升的等级+1。\n登场：获得1张精致古币。",
+      "awaken": "古币牌提升的等级+2。\n登场：获得2张精致古币。",
+      "skills": [
+        {
+          "name": "君命无二",
+          "desc": "武则天以女帝权威施行制裁，持续吟唱8秒，每隔0.75秒随机选择1名敌人，在其脚下召唤法阵并引爆，命中时造成100+75%法术攻击力的法术伤害，并使其生命恢复效果降低50%，持续6秒（不可叠加）。法阵在3秒内连续命中相同敌人时，伤害将衰减15%，最多45%。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "法阵伤害提升至100+100%法术攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "吟唱结束时还会生成1个额外巨型法阵对所有敌人造成100+125%法术攻击力的法术伤害"
+            },
+            {
+              "level": 100,
+              "desc": "持续吟唱到回合结束，并且每造成5次伤害后生成巨型法阵，对所有敌人造成100+125%法术攻击力的法术伤害"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 240,
+        "phyAttack": 24,
+        "magAttack": 40,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 4,
+        "initEnergy": 30,
+        "energy": 50,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "登场",
+          "desc": "使用此卡牌后，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/武则天.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/8315dc5b0815e812564c2b816221eee4.png",
+      "source": "web"
+    },
+    "吕布": {
+      "id": 1231,
+      "name": "吕布",
+      "category": "英雄牌",
+      "faction": "三分之地",
+      "cost": 3,
+      "quality": 5,
+      "tags": [
+        "前排"
+      ],
+      "skill": "开团：等级最高的3名【三分】英雄获得20%物理和法术吸血，若目标为吕布，效果翻倍。",
+      "awaken": "开团：等级最高的6名【三分】英雄获得20%物理和法术吸血，若目标为吕布，效果翻倍。",
+      "skills": [
+        {
+          "name": "魔神降世",
+          "desc": "被动：吕布的普通攻击能对身前敌人造成范围伤害。\n主动：吕布跃入敌人密集区域，将2格内敌人击飞1秒并造成120+120%物理攻击力的物理伤害，降低其70%生命恢复效果，持续5秒。每命中1名敌人恢复5%最大生命值并在接下来的5秒内提升20%物理吸血。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "技能伤害提升至120+200%物理攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "5秒内还会提高自身100%攻击速度"
+            },
+            {
+              "level": 100,
+              "desc": "技能范围扩大至整个战场"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 300,
+        "phyAttack": 40,
+        "magAttack": 0,
+        "phyDefense": 18,
+        "magDefense": 18,
+        "moveSpeed": 4600,
+        "attackSpeed": 8000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 60,
+        "energy": 100,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "开团",
+          "desc": "战斗开始时，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/吕布.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/b4fb96da87cf5f63e317dafd7485d35b.png",
+      "source": "web"
+    },
+    "海月": {
+      "id": 5211,
+      "name": "海月",
+      "category": "英雄牌",
+      "faction": "无阵营",
+      "cost": 3,
+      "quality": 5,
+      "tags": [
+        "后排",
+        "坦克"
+      ],
+      "skill": "牺牲：将敌方等级最高的英雄困入水月幻境控制4秒，并造成等同于海月生命值的真实伤害。",
+      "awaken": "牺牲：将敌方等级最高的英雄困入水月幻境控制4秒，并造成等同于海月生命值150%的真实伤害。",
+      "skills": [
+        {
+          "name": "流光",
+          "desc": "被动：海月的生命恢复效果大幅降低，但获得护盾时会转化25%护盾值为最大生命值。\n主动：海月发出3枚琉璃法球，第1枚对目标敌人造成100+150%法术攻击力的法术伤害。随后2枚对附近敌人造成的伤害减半。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "琉璃法球伤害提升至100+250%法术攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "施法获得可叠加的50+10%最大生命值的护盾，持续5秒"
+            },
+            {
+              "level": 100,
+              "desc": "首次施法时制造水月幻境，每5秒为友军提供100点护盾和10点法力值，并对敌人造成0.5秒眩晕和5%最大生命值的法术伤害"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 330,
+        "phyAttack": 24,
+        "magAttack": 20,
+        "phyDefense": 20,
+        "magDefense": 20,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 2,
+        "initEnergy": 20,
+        "energy": 50,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "牺牲",
+          "desc": "英雄阵亡时，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/海月.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/83d453b16fe389a84fee2ddf0771c0af.png",
+      "source": "web"
+    },
+    "鲁班七号": {
+      "id": 1121,
+      "name": "鲁班七号",
+      "category": "英雄牌",
+      "faction": "逐鹿",
+      "cost": 3,
+      "quality": 5,
+      "tags": [
+        "后排",
+        "射手"
+      ],
+      "skill": "你的英雄每合成3次，随机获得1张战术牌。",
+      "awaken": "你的英雄每合成3次，随机获得1张高阶战术牌。",
+      "skills": [
+        {
+          "name": "空中支援",
+          "desc": "鲁班七号呼唤河豚飞艇朝战场投掷4枚炸弹。炸弹对命中敌人造成50+80%物理攻击力的物理伤害并留下弹坑。弹坑中的敌人每秒受到80%物理攻击力的物理伤害，并降低70%生命恢复效果，持续4秒，效果不可叠加。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "炸弹伤害提升至50+100%物理攻击力，弹坑伤害提升至100%物理攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "投掷炸弹数量提升至8个"
+            },
+            {
+              "level": 100,
+              "desc": "飞艇会在投掷完炸弹后坠毁，对所有敌人造成200+300%物理攻击力的物理伤害"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 210,
+        "phyAttack": 40,
+        "magAttack": 0,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 10000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 5,
+        "initEnergy": 30,
+        "energy": 45,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "合成",
+          "desc": "使用场上已存在的英雄牌，与场上英雄结合，使其强化。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/鲁班七号.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/1ddd6a323443fd6bc9fe5dc92246a6c7.png",
+      "source": "web"
+    },
+    "海诺": {
+      "id": 5631,
+      "name": "海诺",
+      "category": "英雄牌",
+      "faction": "日落海",
+      "cost": 3,
+      "quality": 5,
+      "tags": [
+        "后排"
+      ],
+      "skill": "每当阿科米亚核心等级提升时，核心等级额外+1。",
+      "awaken": "每当阿科米亚核心等级提升时，核心等级额外+2。",
+      "skills": [
+        {
+          "name": "追芒",
+          "desc": "海诺朝目标方向掷出能量化的命运神杖，对命中的敌人造成100+200%法术攻击力的法术伤害并朝目标敌人附近2名敌人掷出子杖，造成100+150%法术攻击力的法术伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "神杖伤害提升至100+300%法术攻击力；子杖伤害提升至100+200%法术攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "会连续施放2次技能"
+            },
+            {
+              "level": 100,
+              "desc": "对场上至多14名敌人投掷子杖"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 240,
+        "phyAttack": 24,
+        "magAttack": 40,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 5,
+        "initEnergy": 40,
+        "energy": 60,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "阿科米亚核心",
+          "desc": "战斗开始时，核心的等级会以临时等级的形式，平均分配给己方【日落海】英雄（单英雄分配上限50%）。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/海诺.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/24e7ee4edd16d7d1bced9c9faf4a9d28.png",
+      "source": "web"
+    },
+    "露娜": {
+      "id": 1461,
+      "name": "露娜",
+      "category": "英雄牌",
+      "faction": "日落海",
+      "cost": 3,
+      "quality": 5,
+      "tags": [
+        "前排",
+        "刺客"
+      ],
+      "skill": "闪现\n登场：阿科米亚核心等级+2，并且随机触发2名英雄的整备效果。",
+      "awaken": "闪现\n登场：阿科米亚核心等级+4，并且随机触发4名英雄的整备效果。",
+      "skills": [
+        {
+          "name": "新月突击",
+          "desc": "露娜用月光标记最远端的敌人并向其突击（期间不可选中），对路径上所有敌人造成100+100%法术攻击力的法术伤害，同时消耗标记额外造成目标敌人15%最大生命值的法术伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "突击伤害系数提升至100+200%法术攻击力"
+            },
+            {
+              "level": 40,
+              "desc": "击败敌人时恢复15点法力值"
+            },
+            {
+              "level": 100,
+              "desc": "可连续进行2次突击"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 240,
+        "phyAttack": 28,
+        "magAttack": 36,
+        "phyDefense": 16,
+        "magDefense": 16,
+        "moveSpeed": 4600,
+        "attackSpeed": 8000,
+        "criticalRate": 2000,
+        "criticalEffect": 4000,
+        "attackDistance": 1,
+        "initEnergy": 40,
+        "energy": 70,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "闪现",
+          "desc": "战斗开始时，英雄会跳跃至敌方战场的镜像位置。"
+        },
+        {
+          "name": "登场",
+          "desc": "使用此卡牌后，触发效果。"
+        },
+        {
+          "name": "阿科米亚核心",
+          "desc": "战斗开始时，核心的等级会以临时等级的形式，平均分配给己方【日落海】英雄（单英雄分配上限50%）。"
+        },
+        {
+          "name": "整备",
+          "desc": "回合开始时，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/露娜.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/f9342e4ef544d6602d7ab0fda166926a.png",
+      "source": "web"
+    },
+    "杨玉环": {
+      "id": 1761,
+      "name": "杨玉环",
+      "category": "英雄牌",
+      "faction": "无阵营",
+      "cost": 3,
+      "quality": 5,
+      "tags": [
+        "后排",
+        "法师"
+      ],
+      "skill": "杨玉环在场时，每过3个回合获得1张弦音。\n退场：获得1张弦音。",
+      "awaken": "杨玉环在场时，每过3个回合获得1张妙音。\n退场：获得1张妙音。",
+      "skills": [
+        {
+          "name": "惊鸿调",
+          "desc": "杨玉环弹奏琵琶，循环激活以下乐曲效果之一：\n清平：为3名血量最低的友军恢复100+80%法术攻击力的生命值。\n破阵：对当前血量百分比最高的3名敌人造成100+80%法术攻击力的法术伤害。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "每第3次技能会同时激活清平和破阵两种效果，并作用于全场"
+            },
+            {
+              "level": 40,
+              "desc": "清平恢复提升至150+125%法术攻击力；破阵伤害提升至100+125%法术攻击力"
+            },
+            {
+              "level": 100,
+              "desc": "每次技能都会同时激活清平和破阵两种效果，并作用于全场"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 240,
+        "phyAttack": 24,
+        "magAttack": 40,
+        "phyDefense": 14,
+        "magDefense": 14,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 5,
+        "initEnergy": 0,
+        "energy": 20,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "退场",
+          "desc": "场上的此英雄被出售时，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/杨玉环.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/0ff6583da4264c6031d0987c48f755fc.png",
+      "source": "web"
+    },
+    "弦音": {
+      "id": 307001,
+      "name": "弦音",
+      "category": "效果牌",
+      "faction": "无阵营",
+      "cost": 0,
+      "quality": 2,
+      "tags": [],
+      "skill": "指定1名1-3阶英雄，使其觉醒进度+1。",
+      "awaken": "",
+      "skills": [],
+      "properties": {},
+      "keywords": [],
+      "get_desc": "该卡通过词条效果等渠道获得。",
+      "talent_group": "",
+      "portrait": "image/pieces/效果牌/弦音.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_squarehud_auto/19142e39746336385f19c3e0ae841311.png",
+      "source": "web"
+    },
+    "周瑜": {
+      "id": 1241,
+      "name": "周瑜",
+      "category": "英雄牌",
+      "faction": "三分之地",
+      "cost": 3,
+      "quality": 5,
+      "tags": [
+        "后排",
+        "坦克"
+      ],
+      "skill": "登场：全体英雄等级+1。",
+      "awaken": "登场：全体英雄等级+2。",
+      "skills": [
+        {
+          "name": "烽火赤壁",
+          "desc": "周瑜召唤火焰，对周围2格范围内敌人造成100+50%法术攻击力的法术伤害并恢复自身100+50%法术攻击力生命值，同时会留下焦土，持续至周瑜被击败。焦土内的敌人每秒受到其1%最大生命值的法术伤害，而周瑜每秒恢复10%法术攻击力+2%最大生命值的生命值。",
+          "enhance": [
+            {
+              "level": 10,
+              "desc": "火焰伤害提升至100+120%法术攻击力，火焰恢复提升至100+120%法术攻击力，焦土恢复提升至20%法术攻击力+2%最大生命值"
+            },
+            {
+              "level": 40,
+              "desc": "施放技能时会对焦土内的敌人唤出火焰风暴，造成100+150%法术攻击力的法术伤害和1.5秒眩晕"
+            },
+            {
+              "level": 100,
+              "desc": "战斗开始时，将整个战场化为焦土"
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "HP": 330,
+        "phyAttack": 24,
+        "magAttack": 20,
+        "phyDefense": 20,
+        "magDefense": 20,
+        "moveSpeed": 4600,
+        "attackSpeed": 6000,
+        "criticalRate": 0,
+        "criticalEffect": 4000,
+        "attackDistance": 2,
+        "initEnergy": 60,
+        "energy": 100,
+        "initLevel": 0
+      },
+      "keywords": [
+        {
+          "name": "登场",
+          "desc": "使用此卡牌后，触发效果。"
+        }
+      ],
+      "get_desc": "来源: 该卡牌通过商店购买、拍卖等渠道获得",
+      "talent_group": "",
+      "portrait": "image/pieces/英雄牌/周瑜.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_hero_touxiang_auto/02f3415fc1336207db094aeb27378205.png",
+      "source": "web"
+    }
+  }
+}

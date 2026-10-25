@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Laya 决策面板</title>
+<style>
+  :root {
+    --bg: #0b1020; --bg2: #111833; --panel: rgba(22, 31, 64, .72); --panel2: rgba(30, 42, 86, .6);
+    --line: rgba(140, 170, 255, .14); --text: #e8ecff; --muted: #8e9bc7; --dim: #5d6a98;
+    --accent: #5eead4; --accent2: #818cf8; --gold: #fbbf24; --danger: #fb7185;
+    --t1: #9aa4b2; --t2: #4ade80; --t3: #60a5fa; --t4: #c084fc; --t5: #fbbf24; --t6: #f472b6;
+    --radius: 16px;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; }
+  body {
+    font-family: "PingFang SC", "Microsoft YaHei UI", "Microsoft YaHei", "Noto Sans SC", system-ui, sans-serif;
+    color: var(--text); background: var(--bg);
+    background-image:
+      radial-gradient(1200px 600px at 85% -10%, rgba(129, 140, 248, .22), transparent 60%),
+      radial-gradient(900px 500px at -10% 110%, rgba(94, 234, 212, .14), transparent 60%),
+      linear-gradient(180deg, #0b1020, #0d1430 60%, #0b1020);
+    overflow-x: hidden;
+  }
+  .app { display: grid; grid-template-rows: auto 1fr; height: 100vh; }
+  header {
+    display: flex; align-items: center; gap: 16px; padding: 14px 22px; flex-wrap: wrap;
+    border-bottom: 1px solid var(--line); background: rgba(11, 16, 32, .55); backdrop-filter: blur(10px);
+  }
+  .brand { display: flex; align-items: center; gap: 12px; margin-right: auto; }
+  .logo {
+    width: 38px; height: 38px; border-radius: 12px; display: grid; place-items: center; font-weight: 800;
+    background: conic-gradient(from 200deg, var(--accent), var(--accent2), var(--gold), var(--accent));
+    color: #0b1020; box-shadow: 0 0 24px rgba(129, 140, 248, .45);
+  }
+  .brand h1 { font-size: 18px; margin: 0; letter-spacing: .5px; }
+  .brand small { display: block; color: var(--muted); font-size: 12px; margin-top: 2px; }
+  .stats { display: flex; gap: 10px; flex-wrap: wrap; }
+  .stat { background: var(--panel2); border: 1px solid var(--line); border-radius: 12px; padding: 6px 12px; min-width: 88px; }
+  .stat b { display: block; font-size: 16px; }
+  .stat span { font-size: 11px; color: var(--muted); }
+  .controls { display: flex; gap: 10px; align-items: center; }
+  select, button {
+    font: inherit; color: var(--text); background: var(--panel2); border: 1px solid var(--line);
+    border-radius: 10px; padding: 8px 12px; cursor: pointer;
+  }
+  select { max-width: 240px; }
+  .live { display: inline-flex; align-items: center; gap: 8px; }
+  .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--dim); }
+  .live.on .dot { background: var(--accent); box-shadow: 0 0 0 0 rgba(94, 234, 212, .6); animation: pulse 1.6s infinite; }
+  @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(94, 234, 212, .6); } 70% { box-shadow: 0 0 0 10px rgba(94, 234, 212, 0); } 100% { box-shadow: 0 0 0 0 rgba(94, 234, 212, 0); } }
+
+  .body { display: grid; grid-template-columns: 300px 1fr; min-height: 0; }
+  aside { border-right: 1px solid var(--line); overflow-y: auto; padding: 12px; background: rgba(11, 16, 32, .35); }
+  .round-h { font-size: 11px; letter-spacing: 1px; color: var(--dim); margin: 14px 6px 6px; text-transform: uppercase; }
+  .tl {
+    display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: center; width: 100%; text-align: left;
+    padding: 9px 10px; border-radius: 12px; border: 1px solid transparent; background: transparent; margin-bottom: 4px;
+  }
+  .tl:hover { background: var(--panel2); }
+  .tl.sel { background: var(--panel); border-color: rgba(94, 234, 212, .35); box-shadow: inset 3px 0 0 var(--accent); }
+  .kb { font-size: 11px; padding: 3px 7px; border-radius: 8px; font-weight: 700; white-space: nowrap; }
+  .k-shop { background: rgba(96, 165, 250, .16); color: #93c5fd; }
+  .k-talent { background: rgba(251, 191, 36, .16); color: #fcd34d; }
+  .k-card_pick { background: rgba(192, 132, 252, .16); color: #d8b4fe; }
+  .k-lord_boost { background: rgba(244, 114, 182, .16); color: #f9a8d4; }
+  .k-carry { background: rgba(52, 211, 153, .16); color: #6ee7b7; }
+  .k-swap { background: rgba(248, 113, 113, .16); color: #fca5a5; }
+  .tl .t { font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .tl .t small { display: block; color: var(--muted); font-size: 11px; margin-top: 2px; }
+  .mini { width: 44px; height: 5px; border-radius: 3px; background: rgba(255, 255, 255, .08); overflow: hidden; }
+  .mini i { display: block; height: 100%; background: linear-gradient(90deg, var(--accent2), var(--accent)); }
+
+  main { overflow-y: auto; padding: 22px 26px 40px; min-width: 0; }
+  .empty { color: var(--muted); display: grid; place-items: center; height: 60vh; text-align: center; line-height: 1.8; }
+  .top { display: flex; align-items: flex-end; gap: 14px; flex-wrap: wrap; margin-bottom: 14px; }
+  .top h2 { margin: 0; font-size: 26px; }
+  .top .sub { color: var(--muted); font-size: 13px; }
+  .chips { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+  .chip { font-size: 12px; background: var(--panel2); border: 1px solid var(--line); border-radius: 999px; padding: 5px 11px; color: #c7d0f5; }
+  .chip b { color: var(--text); }
+
+  .verdict {
+    display: flex; gap: 14px; align-items: center; flex-wrap: wrap; padding: 14px 16px; border-radius: var(--radius);
+    background: linear-gradient(135deg, rgba(94, 234, 212, .12), rgba(129, 140, 248, .10)); border: 1px solid rgba(94, 234, 212, .25);
+    margin-bottom: 18px;
+  }
+  .verdict.fallback { background: linear-gradient(135deg, rgba(251, 113, 133, .12), rgba(129, 140, 248, .08)); border-color: rgba(251, 113, 133, .3); }
+  .verdict .big { font-size: 15px; }
+  .verdict .why { color: var(--muted); font-size: 12px; }
+  .pill { font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 999px; }
+  .pill.laya { background: rgba(94, 234, 212, .18); color: var(--accent); }
+  .pill.rule { background: rgba(251, 113, 133, .18); color: #fda4af; }
+
+  .dist { display: flex; height: 12px; border-radius: 8px; overflow: hidden; margin: 2px 0 20px; background: rgba(255, 255, 255, .05); }
+  .dist span { height: 100%; transition: width .4s ease; }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 16px; }
+  .card {
+    position: relative; border-radius: var(--radius); padding: 14px; background: var(--panel); border: 1px solid var(--line);
+    backdrop-filter: blur(8px); transition: transform .2s ease, box-shadow .2s ease; min-width: 0;
+  }
+  .card:hover { transform: translateY(-3px); }
+  .card.pick { border-color: rgba(94, 234, 212, .7); box-shadow: 0 0 0 1px rgba(94, 234, 212, .4), 0 10px 40px -8px rgba(94, 234, 212, .45); }
+  .card .tags { position: absolute; top: 10px; right: 10px; display: flex; gap: 6px; }
+  .tag { font-size: 10px; font-weight: 800; letter-spacing: .5px; padding: 3px 7px; border-radius: 6px; }
+  .tag.l { background: var(--accent); color: #062a26; }
+  .tag.r { background: rgba(251, 113, 133, .9); color: #2a0610; }
+  .face { display: flex; gap: 12px; align-items: center; margin-bottom: 10px; padding-right: 64px; }
+  .art {
+    width: 64px; height: 64px; border-radius: 14px; flex: none; overflow: hidden; display: grid; place-items: center;
+    background: radial-gradient(circle at 30% 20%, rgba(255, 255, 255, .12), rgba(255, 255, 255, .02));
+    border: 2px solid var(--tc, var(--line)); box-shadow: 0 0 18px -4px var(--tc, transparent);
+  }
+  .art img { width: 100%; height: 100%; object-fit: cover; }
+  .art svg { width: 30px; height: 30px; opacity: .9; }
+  .name { font-weight: 700; font-size: 15px; line-height: 1.3; overflow: hidden; text-overflow: ellipsis; }
+  .meta { font-size: 11px; color: var(--muted); margin-top: 4px; display: flex; gap: 6px; flex-wrap: wrap; }
+  .stars { color: var(--tc, var(--muted)); letter-spacing: 1px; }
+  .meta .sep { color: var(--dim); }
+  .pct { display: flex; align-items: baseline; gap: 6px; margin: 6px 0 6px; }
+  .pct b { font-size: 30px; font-variant-numeric: tabular-nums; letter-spacing: -.5px; }
+  .pct span { color: var(--muted); font-size: 12px; }
+  .bar { height: 8px; border-radius: 6px; background: rgba(255, 255, 255, .06); overflow: hidden; }
+  .bar i { display: block; height: 100%; border-radius: 6px; background: linear-gradient(90deg, var(--accent2), var(--accent)); transition: width .5s ease; }
+  .card.pick .bar i { background: linear-gradient(90deg, var(--accent), #a7f3d0); }
+  .desc { font-size: 12px; color: #b9c3ea; line-height: 1.55; margin-top: 10px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card:hover .desc { -webkit-line-clamp: 12; }
+
+  .section { margin-top: 26px; }
+  .section h3 { font-size: 13px; color: var(--muted); font-weight: 600; letter-spacing: 1px; margin: 0 0 10px; }
+  .roster { display: flex; gap: 10px; flex-wrap: wrap; }
+  .unit .lv { font-style: normal; font-size: 11px; color: var(--muted, #9aa3c7); margin-left: 4px; }
+  .awk { display: inline-flex; gap: 2px; margin-left: 6px; vertical-align: middle; }
+  .awk i { width: 9px; height: 5px; border-radius: 2px; background: #3a4263; display: inline-block; }
+  .awk i.on { background: #4fa3ff; box-shadow: 0 0 4px #4fa3ff; }
+  .awk.done { font-size: 11px; color: #0b1020; background: #7cc4ff; border-radius: 999px; padding: 0 6px; font-weight: 600; }
+  .awk.unk { font-size: 11px; color: #6b7394; }
+  .unit .tag { font-style: normal; font-size: 10px; margin-left: 4px; padding: 0 5px; border-radius: 999px; border: 1px solid #4a5382; color: #c7d0f5; }
+  .unit .tag.late { border-color: #b08a3c; color: #f0c870; }
+  [data-card] { cursor: pointer; }
+  [data-card]:hover { filter: brightness(1.15); }
+  .pop { position: fixed; z-index: 60; width: 380px; max-width: calc(100vw - 24px); max-height: 72vh; overflow: auto;
+    background: #141c3a; border: 1px solid rgba(140,170,255,.35); border-radius: 14px; padding: 14px 16px;
+    box-shadow: 0 18px 48px rgba(0,0,0,.55); font-size: 12.5px; line-height: 1.55; color: var(--text); }
+  .pop h4 { margin: 0; font-size: 16px; display: flex; align-items: center; gap: 10px; }
+  .pop h4 img { width: 44px; height: 44px; border-radius: 10px; object-fit: cover; }
+  .pop .m { color: var(--muted); font-size: 12px; margin-top: 2px; }
+  .pop .sec { margin-top: 10px; border-top: 1px solid var(--line); padding-top: 8px; }
+  .pop .lbl { color: var(--accent); font-weight: 700; font-size: 11px; letter-spacing: .5px; margin-bottom: 3px; }
+  .pop .kv { display: grid; grid-template-columns: repeat(auto-fill, minmax(76px, 1fr)); gap: 4px 10px; }
+  .pop .kv span b { color: var(--text); } .pop .kv span { color: var(--muted); }
+  .pop ul { margin: 2px 0 0; padding-left: 16px; } .pop li { margin: 2px 0; }
+  .pop .x { position: sticky; top: 0; float: right; background: none; border: 0; color: var(--muted); font-size: 16px; cursor: pointer; }
+  .unit { display: flex; align-items: center; gap: 8px; background: var(--panel2); border: 1px solid var(--line); border-radius: 12px; padding: 5px 10px 5px 5px; font-size: 12px; }
+  .unit img, .unit .ph { width: 30px; height: 30px; border-radius: 8px; object-fit: cover; background: rgba(255, 255, 255, .06); border: 1.5px solid var(--tc, var(--line)); }
+  details { margin-top: 20px; }
+  summary { cursor: pointer; color: var(--muted); font-size: 12px; }
+  pre { white-space: pre-wrap; font-size: 11px; color: #aab4de; background: rgba(0, 0, 0, .25); border: 1px solid var(--line); border-radius: 12px; padding: 12px; }
+  .nav { display: flex; gap: 8px; margin-left: auto; }
+  kbd { font-size: 11px; border: 1px solid var(--line); border-radius: 6px; padding: 1px 6px; color: var(--muted); }
+
+  @media (max-width: 860px) {
+    .body { grid-template-columns: 1fr; }
+    aside { max-height: 34vh; border-right: 0; border-bottom: 1px solid var(--line); }
+    main { padding: 16px; }
+    header { padding: 12px 16px; }
+    .top h2 { font-size: 22px; }
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <div class="brand">
+      <div class="logo">L</div>
+      <div><h1>Laya 决策面板</h1><small>学生模型的每一次判断 · 选项概率 · 与规则引擎的分歧</small></div>
+    </div>
+    <div class="stats" id="stats"></div>
+    <div class="controls">
+      <select id="run" title="选择对局"></select>
+      <button id="live" class="live on" title="对局进行中自动跟随最新决策"><span class="dot"></span>实时</button>
+    </div>
+  </header>
+  <div class="body">
+    <aside id="timeline"></aside>
+    <main id="main"><div class="empty">正在读取决策记录…</div></main>
+  </div>
+</div>
+<script>
+const KIND = { carry: "谁当主C", swap: "卖谁换人", use_card: "用牌（影子题）",  shop: "商店", talent: "天赋三选一", card_pick: "卡牌 N 选 1", lord_boost: "棋手特性" };
+const TIER = { 1: "--t1", 2: "--t2", 3: "--t3", 4: "--t4", 5: "--t5", 6: "--t6" };
+const PALETTE = ["#5eead4", "#818cf8", "#fbbf24", "#f472b6", "#60a5fa", "#4ade80", "#c084fc", "#fb7185"];
+const ICON = {
+  refresh: '<svg viewBox="0 0 24 24" fill="none" stroke="#5eead4" stroke-width="2" stroke-linecap="round"><path d="M20 11a8 8 0 1 0-2.3 5.7M20 4v7h-7"/></svg>',
+  levelup: '<svg viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>',
+  stop: '<svg viewBox="0 0 24 24" fill="none" stroke="#fb7185" stroke-width="2" stroke-linecap="round"><rect x="6" y="6" width="12" height="12" rx="2"/></svg>',
+  none: '<svg viewBox="0 0 24 24" fill="none" stroke="#8e9bc7" stroke-width="1.8"><rect x="5" y="3" width="14" height="18" rx="3"/><path d="M9 8h6M9 12h6"/></svg>',
+};
+let points = [], sel = -1, follow = true, live = true, runSel = "latest";
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const pct = (p) => (p * 100).toFixed(p >= 0.1 ? 0 : 1);
+
+async function loadRuns() {
+  const runs = await (await fetch("/api/runs")).json();
+  const s = $("run");
+  const cur = s.value || "latest";
+  s.innerHTML = `<option value="latest">最新一局（自动）</option>` + runs.map((r) => {
+    const d = new Date(r.mtime * 1000);
+    const t = `${d.getMonth() + 1}-${d.getDate()} ${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
+    return `<option value="${r.run}">${t} · ${r.points} 个决策</option>`;
+  }).join("");
+  s.value = [...s.options].some((o) => o.value === cur) ? cur : "latest";
+}
+
+async function loadPoints() {
+  const data = await (await fetch(`/api/points?run=${encodeURIComponent(runSel)}`)).json();
+  const changed = data.length !== points.length || (data[0] && points[0] && data[0].id !== points[0].id);
+  points = data;
+  if (follow || sel < 0 || sel >= points.length) sel = points.length - 1;
+  if (changed || !document.querySelector(".card")) render();
+}
+
+function stats() {
+  const n = points.length;
+  if (!n) return "";
+  const real = points.filter((p) => p.used !== "shadow");             // 影子题不执行，不算进"采用 Laya"
+  const laya = real.filter((p) => String(p.used).startsWith("laya")).length;
+  const agree = points.filter((p) => p.rule_choice && p.laya_choice === p.rule_choice).length;
+  const withRule = points.filter((p) => p.rule_choice).length;
+  const conf = points.reduce((a, p) => a + p.conf, 0) / n;
+  const ms = points.reduce((a, p) => a + p.ms, 0) / n;
+  const s = (v, l) => `<div class="stat"><b>${v}</b><span>${l}</span></div>`;
+  return s(n, "决策点") + s(`${Math.round((laya / Math.max(1, real.length)) * 100)}%`, "采用 Laya") +
+    s(withRule ? `${Math.round((agree / withRule) * 100)}%` : "—", "与规则一致") +
+    s(`${Math.round(conf * 100)}%`, "平均置信度") + s(`${ms.toFixed(0)}ms`, "平均耗时");
+}
+
+function bestOpt(p) { return p.options.reduce((a, b) => (b.p > a.p ? b : a), p.options[0] || {}); }
+
+const TL_MAX = 150;              // 时间线只渲染最近 150 个决策点（整局几百个时 DOM 太大）
+const RELOAD_MS = 15 * 60 * 1000; // 实时模式每 15 分钟整页刷新一次，释放长时间运行积累的内存
+
+function timeline() {
+  let html = "", last = null;
+  const start = Math.max(0, points.length - TL_MAX, Math.min(sel, points.length) - TL_MAX + 20);
+  if (start > 0) html += `<div class="round-h">更早的 ${start} 个决策已折叠（用 ← 键或"上一个"可翻到）</div>`;
+  points.forEach((p, i) => {
+    if (i < start) return;
+    if (p.round !== last) { html += `<div class="round-h">第 ${esc(p.round)} 回合</div>`; last = p.round; }
+    const t = bestOpt(p);
+    html += `<button class="tl ${i === sel ? "sel" : ""}" data-i="${i}">
+      <span class="kb k-${p.kind}">${KIND[p.kind] || p.kind}</span>
+      <span class="t">${esc(t.title)}<small>${p.used === "shadow" ? "影子题（不执行）" : String(p.used).startsWith("laya") ? "采用 Laya" : "退回规则"} · ${pct(p.conf)}%</small></span>
+      <span class="mini"><i style="width:${Math.round(p.conf * 100)}%"></i></span></button>`;
+  });
+  return html || `<div class="empty" style="height:auto;padding:20px">暂无决策</div>`;
+}
+
+function optCard(o, p) {
+  const isPick = o.key === p.laya_choice, isRule = o.key === p.rule_choice;
+  const tc = o.quality ? `var(${TIER[o.quality] || "--line"})` : "var(--line)";
+  const art = o.img ? `<img src="${o.img}" alt="" onerror="this.replaceWith(document.createRange().createContextualFragment(ICON.none))">` : (ICON[o.special] || ICON.none);
+  const meta = [];
+  if (o.quality) meta.push(`<span class="stars">${"★".repeat(Math.min(o.quality, 6))}</span>`);
+  if (o.category) meta.push(esc(o.category));
+  if (o.faction && o.faction !== "无阵营") meta.push(esc(o.faction));
+  if (o.cost != null) meta.push(`${o.cost} 能量`);
+  const tip = o.note ? ` title="${esc(o.note)}"` : "";
+  const dc = o.card && !o.special ? ` data-card="${esc(o.card)}"` : "";
+  return `<div class="card ${isPick ? "pick" : ""}" style="--tc:${tc}"${tip}${dc}>
+    <div class="tags">${isPick ? '<span class="tag l">LAYA</span>' : ""}${isRule ? '<span class="tag r">规则</span>' : ""}</div>
+    <div class="face"><div class="art">${art}</div>
+      <div style="min-width:0"><div class="name">${esc(o.title)}</div><div class="meta">${meta.join('<span class="sep">·</span>') || "操作"}</div></div></div>
+    <div class="pct"><b>${pct(o.p)}%</b><span>Laya 概率</span></div>
+    <div class="bar"><i style="width:${Math.max(1, o.p * 100)}%"></i></div>
+    ${o.desc ? `<div class="desc">${esc(o.desc)}</div>` : ""}
+  </div>`;
+}
+
+function awakenBar(b) {
+  // 觉醒进度：等级徽章外圈的三段（左→上→右），整圈亮 = 已觉醒。awk_left = 还差几张同名
+  if (!b || b.awk_left === undefined || b.awk_left === null) return `<span class="awk unk" title="觉醒进度读不到">?</span>`;
+  if (b.awk_left === 0) return `<span class="awk done" title="已觉醒">觉醒</span>`;
+  const got = 3 - b.awk_left;
+  return `<span class="awk" title="觉醒进度 ${got}/3，还差 ${b.awk_left} 张">${[0, 1, 2].map((i) => `<i class="${i < got ? "on" : ""}"></i>`).join("")}</span>`;
+}
+
+function unitChip(name, b, id) {
+  const src = `/img/${encodeURIComponent(name)}`;
+  const lv = b && b.lv ? `<em class="lv">Lv${esc(b.lv)}</em>` : "";
+  // f6 身份（和 Laya 输入同源，tools/laya/facts.py）；原来的"留/后期"是规则引擎的判断，几乎人人都标，已不再显示
+  const tags = id && id.tags ? id.tags.map((t) => `<em class="tag ${/未来主C|主T/.test(t) ? "late" : "keep"}">${esc(t)}</em>`).join("")
+    + (id.fit != null ? `<em class="tag fit" title="主C 强度表评分">${id.fit}/9</em>` : "") : "";
+  return `<span class="unit" data-card="${esc(name)}"><img src="${src}" alt="" onerror="this.outerHTML='<span class=ph></span>'">${esc(name)}${lv}${b ? awakenBar(b) : ""}${tags}</span>`;
+}
+
+function detail(p) {
+  const c = p.ctx || {};
+  const opts = [...p.options].sort((a, b) => b.p - a.p);
+  const pick = p.options.find((o) => o.key === p.laya_choice) || {};
+  const rule = p.options.find((o) => o.key === p.rule_choice);
+  const usedLaya = String(p.used).startsWith("laya");
+  const chip = (l, v) => (v === undefined || v === null || v === "" || v === -1 ? "" : `<span class="chip">${l} <b>${esc(v)}</b></span>`);
+  const dist = p.options.map((o, i) => `<span title="${esc(o.title)} ${pct(o.p)}%" style="width:${o.p * 100}%;background:${PALETTE[i % PALETTE.length]}"></span>`).join("");
+  return `
+  <div class="top">
+    <h2>${KIND[p.kind] || esc(p.kind)}</h2>
+    <div class="sub">第 ${esc(p.round)} 回合 · ${new Date(p.ts * 1000).toLocaleTimeString()} · 推理 ${p.ms.toFixed(0)}ms</div>
+    <div class="nav"><button id="prev">‹ 上一个</button><button id="next">下一个 ›</button></div>
+  </div>
+  <div class="chips">
+    ${chip("血量", c.hp)}${chip("能量", c.gold)}${chip("棋手等级", c.level)}
+    ${c.xp_needed ? chip("经验", `${c.xp}/${c.xp_needed}`) : ""}${chip("人口", c.pop !== "?" ? `${c.pop}/${c.pop_cap}` : "")}
+    ${chip("主C", c.carry)}${chip("禁用阵营", c.banned)}
+  </div>
+  <div class="verdict ${usedLaya ? "" : "fallback"}">
+    <span class="pill ${usedLaya ? "laya" : "rule"}">${p.used === "shadow" ? "影子题：只记录学生的选择，不执行" : usedLaya ? (p.used === "laya(=rule)" ? "采用 Laya（与规则一致）" : p.used === "laya_next" ? "采用 Laya（首选做不了，执行它的下一个选择）" : "采用 Laya") : "退回规则"}</span>
+    <span class="big">Laya 选 <b>${esc(pick.title || p.laya_choice)}</b>（${pct(p.conf)}%）${rule ? ` · 规则会选 <b>${esc(rule.title)}</b>` : ""}</span>
+    ${p.why ? `<span class="why">${esc(p.why)}</span>` : ""}
+  </div>
+  <div class="dist">${dist}</div>
+  <div class="grid">${opts.map((o) => optCard(o, p)).join("")}</div>
+  ${p.field && p.field.length ? `<div class="section"><h3>场上阵容</h3><div class="roster">${p.field.map((n) => unitChip(n, (p.board || {})[n], (p.ident || {})[n])).join("")}</div></div>` : ""}
+  ${c.hand && c.hand.length ? `<div class="section"><h3>手牌</h3><div class="roster">${c.hand.map((n) => unitChip(n)).join("")}</div></div>` : ""}
+  <details><summary>Laya 看到的局面描述（模型输入）</summary><pre>${esc(p.state_text)}</pre></details>
+  <details><summary>模型</summary><pre>${esc(p.ckpt)}</pre></details>`;
+}
+
+// ---- 卡牌详情浮框（用户 2026-09-25：点击英雄/装备出小浮框，点旁边消失）----
+const cardCache = {};
+let pop = null;
+function closePop() { if (pop) { pop.remove(); pop = null; } }
+function popHtml(d) {
+  if (d.missing) return `<h4>${esc(d.name)}</h4><div class="m">卡牌库里没有这张牌（可能是 OCR 误读）</div>`;
+  const sec = (l, h) => (h ? `<div class="sec"><div class="lbl">${l}</div>${h}</div>` : "");
+  const li = (a) => (a && a.length ? `<ul>${a.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : "");
+  const meta = [d.category, d.quality ? `${d.quality} 阶` : "", d.faction && d.faction !== "无阵营" ? d.faction : "",
+    (d.tags || []).join("/"), d.dmg ? `${d.dmg}伤害` : ""].filter(Boolean).join(" · ");
+  let h = `<button class="x" title="关闭">✕</button><h4>${d.img ? `<img src="${d.img}" alt="">` : ""}${esc(d.name)}</h4><div class="m">${esc(meta)}</div>`;
+  h += sec("卡面", `${esc(d.skill || "—").replace(/\n/g, "<br>")}${d.awaken ? `<div class="m">觉醒后：${esc(d.awaken).replace(/\n/g, "<br>")}</div>` : ""}`);
+  if (d.carry) h += sec("主C 评分", `<b>${d.carry.score}/9</b> ${esc(d.carry.why || "")}`);
+  if (d.stats) h += sec("面板", `<div class="kv">${Object.entries(d.stats).filter(([, v]) => v != null).map(([k, v]) => `<span>${k} <b>${esc(v)}</b></span>`).join("")}</div>`);
+  if (d.skills && d.skills.length) h += sec("技能", d.skills.map((s) => `<b>${esc(s.name || "")}</b> ${esc(s.desc || "")}${li(s.enhance)}`).join("<br>"));
+  if (d.lineups) h += sec(`推荐阵容：当主C ${d.lineups.n} 套（阿离 ${d.lineups.ali}）`,
+    `<div class="m">常见队友</div>${esc(d.lineups.mates.join("、"))}${d.lineups.equips.length ? `<div class="m">常配装备</div>${esc(d.lineups.equips.join("、"))}` : ""}`);
+  if (d.equip) h += sec("装备分类", `<b>${esc(d.equip.class)}</b>${d.equip.limit ? `（${esc(d.equip.limit)}）` : ""} ${esc(d.equip.why || "")}`);
+  if (d.forge) h += sec("四选一可铸成", `<ul>${d.forge.map((f) => `<li><b data-card="${esc(f.name)}">${esc(f.name)}</b>（${esc(f.class)}）${esc(f.skill)}</li>`).join("")}</ul>`);
+  if (d.kb) h += sec("机制理解", `${d.kb.trig ? `<div class="m">触发：${esc(d.kb.trig)}</div>` : ""}${li(d.kb.gives)}${d.kb.note ? `<div class="m">${esc(d.kb.note)}</div>` : ""}`);
+  if (d.usage) h += sec("审定用法", `给：<b>${esc(d.usage.target)}</b> ${esc(d.usage.reason || "")}`);
+  return h;
+}
+async function openPop(name, el) {
+  closePop();
+  pop = document.createElement("div");
+  pop.className = "pop";
+  pop.innerHTML = `<div class="m">加载 ${esc(name)}…</div>`;
+  document.body.appendChild(pop);
+  const place = () => {
+    if (!pop) return;
+    const r = el.getBoundingClientRect(), w = pop.offsetWidth, hh = pop.offsetHeight;
+    let x = r.right + 10, y = r.top;
+    if (x + w > innerWidth - 12) x = Math.max(12, r.left - w - 10);
+    if (x < 12) x = Math.max(12, Math.min(innerWidth - w - 12, r.left));
+    if (y + hh > innerHeight - 12) y = Math.max(12, innerHeight - hh - 12);
+    pop.style.left = x + "px"; pop.style.top = y + "px";
+  };
+  place();
+  try {
+    const d = cardCache[name] || (cardCache[name] = await (await fetch(`/api/card?name=${encodeURIComponent(name)}`)).json());
+    if (!pop) return;
+    pop.innerHTML = popHtml(d);
+    place();
+  } catch (e) { if (pop) pop.innerHTML = `<div class="m">加载失败：${esc(e)}</div>`; }
+}
+document.addEventListener("click", (e) => {
+  const t = e.target.closest("[data-card]");
+  if (t && !(pop && pop.contains(t) && t.tagName === "BUTTON")) { e.stopPropagation(); openPop(t.dataset.card, t); return; }
+  if (pop && (e.target.closest(".pop .x") || !e.target.closest(".pop"))) closePop();
+});
+document.addEventListener("keydown", (e) => { if (e.key === "Escape") closePop(); });
+
+function render() {
+  $("stats").innerHTML = stats();
+  $("timeline").innerHTML = timeline();
+  const p = points[sel];
+  $("main").innerHTML = p ? detail(p) : `<div class="empty">这一局还没有 Laya 决策记录。<br>开局后会自动出现（实时模式每 2 秒刷新）。</div>`;
+  document.querySelectorAll(".tl").forEach((b) => b.onclick = () => { sel = +b.dataset.i; follow = sel === points.length - 1; render(); });
+  const pv = $("prev"), nx = $("next");
+  if (pv) pv.onclick = () => step(-1);
+  if (nx) nx.onclick = () => step(1);
+  const s = document.querySelector(".tl.sel");
+  if (s && follow) s.scrollIntoView({ block: "nearest" });
+}
+
+function step(d) {
+  if (!points.length) return;
+  sel = Math.max(0, Math.min(points.length - 1, sel + d));
+  follow = sel === points.length - 1;
+  render();
+}
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "ArrowLeft" || e.key === "ArrowUp") { step(-1); e.preventDefault(); }
+  if (e.key === "ArrowRight" || e.key === "ArrowDown") { step(1); e.preventDefault(); }
+});
+$("run").onchange = async (e) => {
+  runSel = e.target.value; follow = true; sel = -1; points = [];
+  history.replaceState(null, "", runSel === "latest" ? location.pathname : `#run=${runSel}`);
+  await loadPoints(); render();
+};
+$("live").onclick = () => { live = !live; $("live").classList.toggle("on", live); if (live) { follow = true; tick(); } };
+
+async function tick() {
+  try { await loadPoints(); } catch (e) { /* 服务暂时不可达，下次再试 */ }
+}
+// 服务刚启动时还在加载卡牌库/图片表，第一次请求可能失败 → 每 1.5 秒重试，直到拿到数据
+async function init() {
+  const m = location.hash.match(/run=([^&]+)/);
+  if (m) runSel = decodeURIComponent(m[1]);
+  try { await loadRuns(); $("run").value = runSel; await loadPoints(); render(); }
+  catch (e) { $("main").innerHTML = `<div class="empty">等待本地服务就绪…</div>`; return setTimeout(init, 1500); }
+  setInterval(() => { if (live) tick(); }, 2000);
+  setTimeout(() => { if (live) location.reload(); }, RELOAD_MS);
+  setInterval(() => loadRuns().catch(() => {}), 15000);
+}
+init();
+</script>
+</body>
+</html>

@@ -1,0 +1,211 @@
+"""把局面和候选项转成 Laya 的输入（英文语义描述）。**离线建数据集和在线影子推理共用这一个模块**，
+保证训练和推理看到的是同一种文本（train/serve 一致）。
+
+设计（docs/laya-report/README.md 第 2 节）：
+- 卡名对模型是专有名词噪声，每张卡用 data/card_features.json 的英文描述（品阶/派系/定位/触发/效果/成长性）；
+- 选项文本很短（Laya 所有选项共用 head_max_len=256 token），只放"动作 + 最关键的几个事实"；
+  详细描述放进局面文本（最多 max_len=1024 token）；
+- 给规则引擎算出的**事实**（已拥有几张、是不是主C、买不买得起…），**不给规则的最终打分**。
+"""
+from __future__ import annotations
+
+import json
+import re
+from functools import lru_cache
+from pathlib import Path
+
+PROJECT_DIR = Path(__file__).resolve().parents[2]
+FEATURE_VERSION = "f3"          # 文本格式一改就升版本号，数据集和 checkpoint 里都记着
+# f3（2026-09-24）：按老师（Claude 标注员）在 36 个批次里一致指出的"缺判断依据"补字段 ——
+#   名次/各家血量、棋手经验、免费刷新次数、本回合拍卖是否已进行、画面上看到的单位数与等级、手牌张数、
+#   读数可信度（血量>60/等级与商店品阶矛盾 → 标出来而不是当真）；商店里同名牌只保留一个选项（等价选项）。
+
+FACTION_EN = {"逐鹿": "zhulu", "河洛": "heluo", "三分": "sanfen", "大河": "dahe", "大河流域": "dahe",
+              "日落海": "riluohai", "无阵营": "neutral", "": "none"}
+
+
+@lru_cache(maxsize=1)
+def _feats() -> dict:
+    return json.loads((PROJECT_DIR / "data" / "card_features.json").read_text(encoding="utf-8"))
+
+
+@lru_cache(maxsize=1)
+def _cards() -> dict:
+    return json.loads((PROJECT_DIR / "data" / "cards.json").read_text(encoding="utf-8"))["cards"]
+
+
+def card_text_zh(name: str, fallback: str = "", limit: int = 90) -> str:
+    """卡面效果原文（中文，**不带卡名**，卡名里出现的自身名字换成"自身"）。
+    f2 起加入：只有英文标签时，N 选 1 的 "effect t3"、棋手特性的三个 "maple dance" 根本分不开（2026-09-23 抽样发现）。
+    多语言编码器读得懂中文效果描述；"中文是噪声"指的是卡名这种专有名词。"""
+    c = _cards().get(name) or {}
+    txt = (c.get("skill") or fallback or "").replace(name, "自身") if name else (fallback or "")
+    txt = re.sub(r"\s+", " ", txt).strip()
+    return txt[:limit]
+
+
+def card_en(name: str, fallback: str = "", short: bool = False) -> str:
+    """一张牌的英文描述。卡库里没有就用画面上的中文描述（多语言编码器读得懂中文）。"""
+    f = _feats().get(name)
+    if not f:
+        return ("unknown card: " + fallback[:40]) if fallback else "unknown card"
+    en = f.get("en", "")
+    if short:
+        # "hero t4 neutral frontline melee | grow 5 via ... | ..." -> 只留第一段 + 成长分
+        head = en.split("|")[0].strip()
+        if f.get("grow_score") is not None:
+            head += f" grow{f['grow_score']}"
+        return head
+    return en
+
+
+def card_tier(name: str) -> int:
+    return int((_feats().get(name) or {}).get("tier") or 0)
+
+
+def card_category(name: str) -> str:
+    return (_feats().get(name) or {}).get("category", "")
+
+
+def _faction(s: str) -> str:
+    return FACTION_EN.get(s or "", "other")
+
+
+def state_text(ctx: dict, extra_cards: list[str] | None = None) -> str:
+    """局面描述。ctx 字段（都可缺省）：
+    round, hp, gold, level, level_cost, pop, pop_cap, banned, hand[list], field{name: {"lv":..}},
+    carry, maple, unit_levels(list of int), auction_in
+    extra_cards：候选项里出现的牌，**详细描述**放在这里（选项本身只写短描述）。
+    """
+    lines = []
+    lines.append(f"round {ctx.get('round') or '?'}; hp {ctx.get('hp') or '?'}/60; energy {ctx.get('gold', '?')}; "
+                 f"lord level {ctx.get('level', '?')}"
+                 + (" (reading corrected by shop tiers)" if ctx.get("level_fixed") else "")
+                 + (f" (level-up cost {ctx['level_cost']})" if (ctx.get('level_cost') or -1) > 0 else "")
+                 + (f"; lord xp {ctx['xp']}/{ctx['xp_needed']}" if (ctx.get('xp_needed') or 0) > 0 else "")
+                 + f"; population {ctx.get('pop', '?')}/{ctx.get('pop_cap', '?')}"
+                 + (f"; banned faction {_faction(ctx.get('banned', ''))}" if ctx.get("banned") else ""))
+    extra = []
+    if ctx.get("rank"):
+        extra.append(f"standing {ctx['rank']}/{ctx.get('alive', 6)} by hp")
+    if ctx.get("free_refresh"):
+        extra.append(f"free refreshes {ctx['free_refresh']}")
+    if ctx.get("hand") is not None:
+        extra.append(f"hand size {len(ctx.get('hand') or [])}")
+    if ctx.get("units_seen") is not None:
+        extra.append(f"units seen on board {ctx['units_seen']}"
+                     + (f" (levels {', '.join(str(x) for x in ctx['unit_levels'])})" if ctx.get("unit_levels") else ""))
+    if extra:
+        lines.append("; ".join(extra))
+    if ctx.get("auction_in") is not None:
+        if ctx["auction_in"] == 0:
+            lines.append("auction round: " + ("auction already done this round" if ctx.get("auction_done")
+                                              else "auction not yet held this round"))
+        else:
+            lines.append(f"next auction in {ctx['auction_in']} rounds")
+    carry = ctx.get("carry")
+    if carry:
+        lv = (ctx.get("field") or {}).get(carry, {}).get("lv")
+        lines.append(f"main carry: {card_en(carry, short=True)}" + (f" level {lv}" if lv else ""))
+    else:
+        lines.append("main carry: not decided")
+    field = ctx.get("field") or {}
+    if field:
+        parts = []
+        for n, v in field.items():
+            parts.append(card_en(n, short=True) + (f" lv{v.get('lv')}" if v.get("lv") else ""))
+        lines.append("board: " + "; ".join(parts))
+
+    hand = ctx.get("hand") or []
+    if hand:
+        cnt: dict = {}
+        for n in hand:
+            cnt[n] = cnt.get(n, 0) + 1
+        lines.append("hand: " + "; ".join(card_en(n, short=True) + (f" x{c}" if c > 1 else "")
+                                          for n, c in cnt.items()))
+    if extra_cards:
+        lines.append("candidate details:")
+        for i, item in enumerate(extra_cards):
+            n, desc = (item if isinstance(item, tuple) else (item, ""))
+            zh = card_text_zh(n, fallback=desc)
+            lines.append(f"  [{i}] {card_en(n, fallback=desc)}" + (f" || {zh}" if zh else ""))
+    return "\n".join(lines)
+
+
+def owned_copies(name: str, ctx: dict) -> int:
+    return (ctx.get("hand") or []).count(name) + (1 if name in (ctx.get("field") or {}) else 0)
+
+
+def option_card(name: str, ctx: dict, prefix: str = "") -> str:
+    """一个"选这张牌"的选项：短描述 + 事实（已有几张 / 是否主C 同名）。"""
+    facts = []
+    c = owned_copies(name, ctx)
+    if c:
+        facts.append(f"owned {c}")
+    if name and name == ctx.get("carry"):
+        facts.append("same as carry")
+    return (prefix + card_en(name, short=True) + (" | " + ", ".join(facts) if facts else "")).strip()
+
+
+# ---------------- 各决策类型的"问题"（Laya typed question）----------------
+# 选项键是**稳定的英文标识**（opt0/opt1/...），选项描述放在 criteria 的值里 —— Laya 渲染成 "opt0: <描述>"。
+
+def q_card_pick(options: list[str], ctx: dict) -> dict:
+    return {"type": "choice",
+            "instructions": "Auto-chess: pick exactly one of the offered free cards. Prefer what makes the main carry "
+                            "stronger or grows levels; consider the board and hand.",
+            "criteria": {f"opt{i}": option_card(n, ctx) for i, n in enumerate(options)}}
+
+
+def q_talent(options: list[tuple[str, str]], ctx: dict, can_refresh: bool) -> dict:
+    crit = {f"opt{i}": (card_en(n, fallback=d, short=False)[:120]) for i, (n, d) in enumerate(options)}
+    if can_refresh:
+        crit["refresh"] = "refresh the three talents once"
+    return {"type": "choice",
+            "instructions": "Auto-chess: the lord levelled up; choose one talent (or refresh the offer).",
+            "criteria": crit}
+
+
+def q_lord_boost(options: list[tuple[str, str]], ctx: dict) -> dict:
+    return {"type": "choice",
+            "instructions": "Auto-chess: choose one upgrade for the lord skill (maple dance).",
+            "criteria": {f"opt{i}": (card_en(n, fallback=d)[:100]) for i, (n, d) in enumerate(options)}}
+
+
+def q_shop(shop: list[tuple[int, str, int]], ctx: dict, can_refresh: bool, can_level: bool) -> dict:
+    """商店行动：买某张 / 刷新 / 升级 / 不买了。shop = [(槽位, 卡名, 价格)]（只含买得起的未售出牌）。"""
+    crit = {}
+    for slot, name, cost in dedupe_shop(shop):
+        crit[f"buy{slot}"] = option_card(name, ctx, prefix=f"buy ({cost}e) ")
+    if can_refresh:
+        crit["refresh"] = "refresh the shop" + (" (free)" if ctx.get("free_refresh") else "")
+    if can_level:
+        lc = ctx.get("level_cost") or -1
+        crit["levelup"] = f"level up the lord ({lc}e)" if lc > 0 else "level up the lord (cost unread)"
+    crit["stop"] = "stop shopping (close shop, keep energy)"
+    return {"type": "choice",
+            "instructions": "Auto-chess shop turn: choose the next shop action.",
+            "criteria": crit}
+
+
+def dedupe_shop(shop):
+    """同名牌只留第一个槽位：买哪一张是同一个决策（f3 起；f2 数据里老师只能在等价项之间随手挑）。"""
+    seen, out = set(), []
+    for slot, name, cost in shop:
+        if name in seen:
+            continue
+        seen.add(name)
+        out.append((slot, name, cost))
+    return out
+
+
+def to_internal(qdef: dict) -> dict:
+    """Laya 公开 API 的问题格式 -> laya.common.build_sequence 用的内部格式（同 laya.agent.Agent._to_internal）。"""
+    crit = qdef.get("criteria")
+    if qdef["type"] == "choice" and isinstance(crit, list):
+        crit = {c: None for c in crit}
+    return {"t": qdef["type"], "ins": qdef["instructions"], "crit": crit}
+
+
+def clean_name(s: str) -> str:
+    return re.sub(r"\s+", "", s or "")

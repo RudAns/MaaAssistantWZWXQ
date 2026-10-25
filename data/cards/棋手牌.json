@@ -1,0 +1,967 @@
+{
+  "version": "2026-10-25",
+  "expected": 20,
+  "source_url": "https://game.gtimg.cn/images/amside/ide_timer/589094_oscard_new_16.js",
+  "cards": {
+    "小妲己": {
+      "id": 10,
+      "name": "小妲己",
+      "category": "棋手牌",
+      "faction": "",
+      "cost": 0,
+      "quality": 0,
+      "tags": [],
+      "skill": "",
+      "talents": [
+        {
+          "name": "技能",
+          "level": 1,
+          "cards": [
+            {
+              "id": 91099,
+              "name": "怦然心动",
+              "desc": "每购买4张牌，小妲己随机获得1张效果牌。"
+            }
+          ]
+        },
+        {
+          "name": "秘技",
+          "level": 1,
+          "cards": [
+            {
+              "id": 661001,
+              "name": "心动节拍",
+              "desc": "触发5/4/3次怦然心动，获得1张秘技牌心之引力。"
+            }
+          ]
+        },
+        {
+          "name": "专属",
+          "level": 6,
+          "cards": [
+            {
+              "id": 661009,
+              "name": "魅力无限",
+              "desc": "每回合打出的第1张效果牌会触发2次。"
+            }
+          ]
+        }
+      ],
+      "portrait": "image/pieces/棋手牌/小妲己.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_lord_haibao_auto/7e00b12adcc7c6a48bf625aa91e2454f.png",
+      "source": "web"
+    },
+    "瑶妹": {
+      "id": 11,
+      "name": "瑶妹",
+      "category": "棋手牌",
+      "faction": "",
+      "cost": 0,
+      "quality": 0,
+      "tags": [],
+      "skill": "",
+      "talents": [
+        {
+          "name": "技能",
+          "level": 1,
+          "cards": [
+            {
+              "id": 91199,
+              "name": "可爱小鹿",
+              "desc": "游戏开始时，瑶召唤自己心爱的小鹿前来助阵，小鹿每回合等级+2，如果上回合战斗胜利，等级额外+4。"
+            }
+          ]
+        },
+        {
+          "name": "秘技",
+          "level": 1,
+          "cards": [
+            {
+              "id": 661101,
+              "name": "超绝可爱小鹿",
+              "desc": "每3个回合，获得1张秘技牌神奇小鹿。"
+            }
+          ]
+        },
+        {
+          "name": "专属",
+          "level": 6,
+          "cards": [
+            {
+              "id": 661106,
+              "name": "巨型玩偶",
+              "desc": "小鹿等级+30，并获得1件小鹿的庇护。"
+            }
+          ]
+        }
+      ],
+      "portrait": "image/pieces/棋手牌/瑶妹.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_lord_haibao_auto/b70ff9e54e3a0d76fba729a5bbb1c792.png",
+      "source": "web"
+    },
+    "阿离": {
+      "id": 20,
+      "name": "阿离",
+      "category": "棋手牌",
+      "faction": "",
+      "cost": 0,
+      "quality": 0,
+      "tags": [],
+      "skill": "",
+      "talents": [
+        {
+          "name": "技能",
+          "level": 1,
+          "cards": [
+            {
+              "id": 92099,
+              "name": "枫叶舞",
+              "desc": "使用技能，指向1名英雄，其受到最大生命值20%的伤害时将获得护盾并转移至纸伞处。"
+            }
+          ]
+        },
+        {
+          "name": "秘技",
+          "level": 1,
+          "cards": [
+            {
+              "id": 662001,
+              "name": "惊鸿游龙",
+              "desc": "枫叶舞指定的英雄击败3/7/11/15名敌方英雄，获得1张秘技牌翩跹舞步并为枫叶舞解锁1项特性（共4项）。"
+            }
+          ]
+        },
+        {
+          "name": "专属",
+          "level": 6,
+          "cards": [
+            {
+              "id": 610010,
+              "name": "即刻起舞",
+              "desc": "从3个枫叶舞强化中选择1项。"
+            }
+          ]
+        }
+      ],
+      "portrait": "image/pieces/棋手牌/阿离.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_lord_haibao_auto/50ad0883c3bc185ffdd198263ab65466.png",
+      "source": "web"
+    },
+    "镜": {
+      "id": 21,
+      "name": "镜",
+      "category": "棋手牌",
+      "faction": "",
+      "cost": 0,
+      "quality": 0,
+      "tags": [],
+      "skill": "",
+      "talents": [
+        {
+          "name": "技能",
+          "level": 1,
+          "cards": [
+            {
+              "id": 92199,
+              "name": "无穷镜像",
+              "desc": "使用技能，获得1张镜像牌，每使用4次技能，该技能能量消耗+1。"
+            }
+          ]
+        },
+        {
+          "name": "秘技",
+          "level": 1,
+          "cards": [
+            {
+              "id": 662101,
+              "name": "镜像之力",
+              "desc": "使用4张镜像，获得1张秘技牌万镜。"
+            }
+          ]
+        },
+        {
+          "name": "专属",
+          "level": 6,
+          "cards": [
+            {
+              "id": 662107,
+              "name": "镜花影",
+              "desc": "商店里的英雄牌在购买后会留下1个镜像复制（不计入秘技任务）。"
+            }
+          ]
+        }
+      ],
+      "portrait": "image/pieces/棋手牌/镜.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_lord_haibao_auto/aa7d598f183346447345b42eecd99669.png",
+      "source": "web"
+    },
+    "乔汐": {
+      "id": 22,
+      "name": "乔汐",
+      "category": "棋手牌",
+      "faction": "",
+      "cost": 0,
+      "quality": 0,
+      "tags": [],
+      "skill": "",
+      "talents": [
+        {
+          "name": "技能",
+          "level": 1,
+          "cards": [
+            {
+              "id": 92299,
+              "name": "温柔呼唤",
+              "desc": "使用技能，随机获得1张2-5阶的转瞬英雄牌。"
+            }
+          ]
+        },
+        {
+          "name": "秘技",
+          "level": 1,
+          "cards": [
+            {
+              "id": 662201,
+              "name": "海的拥抱",
+              "desc": "每经过4个回合，获得1张秘技牌潮汐的交响。"
+            }
+          ]
+        },
+        {
+          "name": "专属",
+          "level": 6,
+          "cards": [
+            {
+              "id": 662206,
+              "name": "潮起潮落",
+              "desc": "战斗开始时，随机传送1个临时等级100级的英雄进入战场（不含卡牌效果），该等级每回合+40。"
+            }
+          ]
+        }
+      ],
+      "portrait": "image/pieces/棋手牌/乔汐.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_lord_haibao_auto/1b87c6a9b387b9a6bd48cefaf2967209.png",
+      "source": "web"
+    },
+    "常小娥": {
+      "id": 24,
+      "name": "常小娥",
+      "category": "棋手牌",
+      "faction": "",
+      "cost": 0,
+      "quality": 0,
+      "tags": [],
+      "skill": "",
+      "talents": [
+        {
+          "name": "技能",
+          "level": 1,
+          "cards": [
+            {
+              "id": 92499,
+              "name": "小菟助力",
+              "desc": "使用技能，小菟随机助力1名英雄，使其等级+2。本场比赛中，小菟每助力过1次，等级提升效果+1。"
+            }
+          ]
+        },
+        {
+          "name": "秘技",
+          "level": 1,
+          "cards": [
+            {
+              "id": 662401,
+              "name": "兔飞猛进",
+              "desc": "己方英雄等级总和达到50/150/375级，获得1张秘技牌小菟送福。"
+            }
+          ]
+        },
+        {
+          "name": "专属",
+          "level": 6,
+          "cards": [
+            {
+              "id": 662407,
+              "name": "月之特调",
+              "desc": "小菟提供等级时，每5级使其额外获得1项随机属性：15%攻速/2%物理和法术吸血/2点物理和法术防御力。且每通过小菟助力提供65级时，获得1张小菟送福。"
+            }
+          ]
+        }
+      ],
+      "portrait": "image/pieces/棋手牌/常小娥.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_lord_haibao_auto/585ca34d534d39608202e4be766a675c.png",
+      "source": "web"
+    },
+    "玉环": {
+      "id": 25,
+      "name": "玉环",
+      "category": "棋手牌",
+      "faction": "",
+      "cost": 0,
+      "quality": 0,
+      "tags": [],
+      "skill": "",
+      "talents": [
+        {
+          "name": "技能",
+          "level": 1,
+          "cards": [
+            {
+              "id": 92599,
+              "name": "霓裳曲",
+              "desc": "每打出3张非觉醒英雄牌时，玉环将根据出牌类型以不同的指法弹奏琵琶，并触发1次相应效果。"
+            }
+          ]
+        },
+        {
+          "name": "秘技",
+          "level": 1,
+          "cards": [
+            {
+              "id": 662501,
+              "name": "自成曲调",
+              "desc": "累积弹奏6次琵琶，获得1张秘技牌惊鸿调，限2张。"
+            }
+          ]
+        },
+        {
+          "name": "专属",
+          "level": 6,
+          "cards": [
+            {
+              "id": 662502,
+              "name": "余音绕梁",
+              "desc": "获得3次惊鸿调演奏次数。"
+            }
+          ]
+        }
+      ],
+      "portrait": "image/pieces/棋手牌/玉环.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_lord_haibao_auto/76faabc5c6c354f8221b789e17058253.png",
+      "source": "web"
+    },
+    "庄小鱼": {
+      "id": 31,
+      "name": "庄小鱼",
+      "category": "棋手牌",
+      "faction": "",
+      "cost": 0,
+      "quality": 0,
+      "tags": [],
+      "skill": "",
+      "talents": [
+        {
+          "name": "技能",
+          "level": 1,
+          "cards": [
+            {
+              "id": 93199,
+              "name": "梦境游戏",
+              "desc": "庄小鱼升级时，会随机获得1张效果牌。"
+            }
+          ]
+        },
+        {
+          "name": "秘技",
+          "level": 1,
+          "cards": [
+            {
+              "id": 663101,
+              "name": "美梦成真",
+              "desc": "升到5级和6级，获得1张秘技牌如梦似幻。"
+            }
+          ]
+        },
+        {
+          "name": "专属",
+          "level": 6,
+          "cards": [
+            {
+              "id": 663108,
+              "name": "引擎升级",
+              "desc": "获得1张梦幻引擎：将商店替换为梦幻商店。若在棋手生命值≤30时战斗失败，则重复获得。"
+            }
+          ]
+        }
+      ],
+      "portrait": "image/pieces/棋手牌/庄小鱼.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_lord_haibao_auto/93093539e579d83840f98dfb6e200adf.png",
+      "source": "web"
+    },
+    "马可": {
+      "id": 32,
+      "name": "马可",
+      "category": "棋手牌",
+      "faction": "",
+      "cost": 0,
+      "quality": 0,
+      "tags": [],
+      "skill": "",
+      "talents": [
+        {
+          "name": "技能",
+          "level": 1,
+          "cards": [
+            {
+              "id": 93299,
+              "name": "寻宝之旅",
+              "desc": "马可每打出4张3阶及以下的英雄牌，随机获得1张宝藏牌。"
+            }
+          ]
+        },
+        {
+          "name": "秘技",
+          "level": 1,
+          "cards": [
+            {
+              "id": 663201,
+              "name": "终极宝藏",
+              "desc": "使用7张宝藏牌，获得1张秘技牌终极宝藏。"
+            }
+          ]
+        },
+        {
+          "name": "专属",
+          "level": 6,
+          "cards": [
+            {
+              "id": 610013,
+              "name": "瓜分宝藏",
+              "desc": "从2种英雄强化效果中选择1个。"
+            }
+          ]
+        }
+      ],
+      "portrait": "image/pieces/棋手牌/马可.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_lord_haibao_auto/b3fd4e0aa4faaf1c23804e7a554e0ba3.png",
+      "source": "web"
+    },
+    "白歌": {
+      "id": 33,
+      "name": "白歌",
+      "category": "棋手牌",
+      "faction": "",
+      "cost": 0,
+      "quality": 0,
+      "tags": [],
+      "skill": "",
+      "talents": [
+        {
+          "name": "技能",
+          "level": 1,
+          "cards": [
+            {
+              "id": 93399,
+              "name": "神来之笔",
+              "desc": "每进行4次英雄合成，白歌获得1张即兴创作。"
+            }
+          ]
+        },
+        {
+          "name": "秘技",
+          "level": 1,
+          "cards": [
+            {
+              "id": 663301,
+              "name": "天生我才",
+              "desc": "使用6张即兴创作，获得1张秘技牌灵感爆发。"
+            }
+          ]
+        },
+        {
+          "name": "专属",
+          "level": 6,
+          "cards": [
+            {
+              "id": 663307,
+              "name": "惊才绝艳",
+              "desc": "获得1张奇才：指定1名英雄，获得4张该英雄牌。"
+            }
+          ]
+        }
+      ],
+      "portrait": "image/pieces/棋手牌/白歌.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_lord_haibao_auto/63b4742b5a23950a558afc07e5622296.png",
+      "source": "web"
+    },
+    "昭君": {
+      "id": 34,
+      "name": "昭君",
+      "category": "棋手牌",
+      "faction": "",
+      "cost": 0,
+      "quality": 0,
+      "tags": [],
+      "skill": "",
+      "talents": [
+        {
+          "name": "技能",
+          "level": 1,
+          "cards": [
+            {
+              "id": 93499,
+              "name": "冰之心",
+              "desc": "指定1名英雄，将其冻结。战斗结束后，该英雄随机变为高1阶的英雄，继承等级。"
+            }
+          ]
+        },
+        {
+          "name": "秘技",
+          "level": 1,
+          "cards": [
+            {
+              "id": 663401,
+              "name": "极寒冰冻",
+              "desc": "第5/8回合，获得1张秘技牌深度冻结。"
+            }
+          ]
+        },
+        {
+          "name": "专属",
+          "level": 6,
+          "cards": [
+            {
+              "id": 663405,
+              "name": "冰雪秘藏",
+              "desc": "从3个增益效果中选择1个。"
+            }
+          ]
+        }
+      ],
+      "portrait": "image/pieces/棋手牌/昭君.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_lord_haibao_auto/38353de545d3bc7eef4e286b4243faa8.png",
+      "source": "web"
+    },
+    "班叔": {
+      "id": 35,
+      "name": "班叔",
+      "category": "棋手牌",
+      "faction": "",
+      "cost": 0,
+      "quality": 0,
+      "tags": [],
+      "skill": "",
+      "talents": [
+        {
+          "name": "技能",
+          "level": 1,
+          "cards": [
+            {
+              "id": 93599,
+              "name": "神匠",
+              "desc": "开局及棋手5级时获得1张便携式机关。\n棋手升至2/3/4级时，从热能陷阱、电磁弹簧、等离子屏障3种机关卡中随机获得1张。"
+            }
+          ]
+        },
+        {
+          "name": "秘技",
+          "level": 1,
+          "cards": [
+            {
+              "id": 663501,
+              "name": "机关跃迁",
+              "desc": "收集螺丝，可获得秘技牌构筑升级（至多10张）。\n触发陷阱：螺丝+3\n触发弹簧：螺丝+2\n屏障被摧毁：螺丝+5"
+            }
+          ]
+        },
+        {
+          "name": "天赋",
+          "level": 6,
+          "cards": [
+            {
+              "id": 610004,
+              "name": "成品方案",
+              "desc": "从3种机关强化方案中选择1个。"
+            }
+          ]
+        }
+      ],
+      "portrait": "image/pieces/棋手牌/班叔.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_lord_haibao_auto/ad8947e7d30e55756a7d76896f46ea29.png",
+      "source": "web"
+    },
+    "弈星": {
+      "id": 36,
+      "name": "弈星",
+      "category": "棋手牌",
+      "faction": "",
+      "cost": 0,
+      "quality": 0,
+      "tags": [],
+      "skill": "",
+      "talents": [
+        {
+          "name": "技能",
+          "level": 1,
+          "cards": [
+            {
+              "id": 93699,
+              "name": "棋道万象",
+              "desc": "本回合战斗开始时，弈星随机复制1名敌方英雄。"
+            }
+          ]
+        },
+        {
+          "name": "秘技",
+          "level": 1,
+          "cards": [
+            {
+              "id": 663601,
+              "name": "谋而后定",
+              "desc": "第4/8/12回合，获得1张秘技牌驭势。"
+            }
+          ]
+        },
+        {
+          "name": "专属",
+          "level": 6,
+          "cards": [
+            {
+              "id": 663607,
+              "name": "神之一手",
+              "desc": "战斗开始时，将敌方等级最高的英雄复制，临时加入我方战场。"
+            }
+          ]
+        }
+      ],
+      "portrait": "image/pieces/棋手牌/弈星.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_lord_haibao_auto/d7b23b766a880df73d7d59f9c679cd40.png",
+      "source": "web"
+    },
+    "孙小宾": {
+      "id": 38,
+      "name": "孙小宾",
+      "category": "棋手牌",
+      "faction": "",
+      "cost": 0,
+      "quality": 0,
+      "tags": [],
+      "skill": "",
+      "talents": [
+        {
+          "name": "技能",
+          "level": 1,
+          "cards": [
+            {
+              "id": 93899,
+              "name": "时光倒流",
+              "desc": "使用技能，孙小宾回溯上回合使用过的英雄牌（非觉醒）和效果牌，随机触发其中1张。"
+            }
+          ]
+        },
+        {
+          "name": "秘技",
+          "level": 1,
+          "cards": [
+            {
+              "id": 663801,
+              "name": "时间魔法",
+              "desc": "首次单回合使用8张英雄或效果牌，获得1张秘技牌时之回环。"
+            }
+          ]
+        },
+        {
+          "name": "专属",
+          "level": 6,
+          "cards": [
+            {
+              "id": 663805,
+              "name": "时光宝藏",
+              "desc": "获得1张更强力的永恒时之回环，可以记录12张英雄牌或效果牌。"
+            }
+          ]
+        }
+      ],
+      "portrait": "image/pieces/棋手牌/孙小宾.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_lord_haibao_auto/b44fa31d1cefd1f812cef5901bb5db0c.png",
+      "source": "web"
+    },
+    "明先生": {
+      "id": 39,
+      "name": "明先生",
+      "category": "棋手牌",
+      "faction": "",
+      "cost": 0,
+      "quality": 0,
+      "tags": [],
+      "skill": "",
+      "talents": [
+        {
+          "name": "技能",
+          "level": 1,
+          "cards": [
+            {
+              "id": 93999,
+              "name": "先知卦象",
+              "desc": "使用技能，从2种卦象中选择1个，卦象效果持续3个回合。"
+            }
+          ]
+        },
+        {
+          "name": "秘技",
+          "level": 1,
+          "cards": [
+            {
+              "id": 663901,
+              "name": "天降鸿运",
+              "desc": "第6/11回合，获得1张秘技牌命运馈赠。"
+            }
+          ]
+        },
+        {
+          "name": "专属",
+          "level": 6,
+          "cards": [
+            {
+              "id": 663905,
+              "name": "飞龙在天",
+              "desc": "强化明先生的卦象。\n卦象·节：每回合额外获得4能量。\n卦象·丰：每回合获得8次临时刷新。"
+            }
+          ]
+        }
+      ],
+      "portrait": "image/pieces/棋手牌/明先生.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_lord_haibao_auto/6db784af711d4b968c0d407a70360b63.png",
+      "source": "web"
+    },
+    "闹闹": {
+      "id": 40,
+      "name": "闹闹",
+      "category": "棋手牌",
+      "faction": "",
+      "cost": 0,
+      "quality": 0,
+      "tags": [],
+      "skill": "",
+      "talents": [
+        {
+          "name": "技能",
+          "level": 1,
+          "cards": [
+            {
+              "id": 94099,
+              "name": "派对泡泡",
+              "desc": "使用技能，从随机2个阵营中选择1个，之后技能替换为：花费1能量，获得1张该阵营的英雄牌。"
+            }
+          ]
+        },
+        {
+          "name": "秘技",
+          "level": 1,
+          "cards": [
+            {
+              "id": 664001,
+              "name": "快乐集结",
+              "desc": "上阵6名技能所选阵营的英雄，获得1张秘技牌朋友多多。"
+            }
+          ]
+        },
+        {
+          "name": "专属",
+          "level": 6,
+          "cards": [
+            {
+              "id": 664005,
+              "name": "狂欢时刻",
+              "desc": "获得1张打成一片。"
+            }
+          ]
+        }
+      ],
+      "portrait": "image/pieces/棋手牌/闹闹.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_lord_haibao_auto/b64c5e798a8705e1d0bb4077dde7fc5f.png",
+      "source": "web"
+    },
+    "姜导": {
+      "id": 41,
+      "name": "姜导",
+      "category": "棋手牌",
+      "faction": "",
+      "cost": 0,
+      "quality": 0,
+      "tags": [],
+      "skill": "",
+      "talents": [
+        {
+          "name": "技能",
+          "level": 1,
+          "cards": [
+            {
+              "id": 94199,
+              "name": "钦定主角",
+              "desc": "使用技能，指定1名英雄成为主角，获得效果：每打出2张英雄或效果牌，等级+1（每回合最多+5）。"
+            }
+          ]
+        },
+        {
+          "name": "秘技",
+          "level": 1,
+          "cards": [
+            {
+              "id": 664101,
+              "name": "封神时刻",
+              "desc": "己方英雄首次升到25级，获得1张秘技牌封神一瞬。"
+            }
+          ]
+        },
+        {
+          "name": "专属",
+          "level": 6,
+          "cards": [
+            {
+              "id": 664108,
+              "name": "完美演出",
+              "desc": "封神一瞬指定的英雄在战斗开始时获得30%物理和法术吸血，并在15秒内免疫控制效果（压制除外）。"
+            }
+          ]
+        }
+      ],
+      "portrait": "image/pieces/棋手牌/姜导.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_lord_haibao_auto/434ca597839b623d436a73232fe0619d.png",
+      "source": "web"
+    },
+    "嬴律": {
+      "id": 43,
+      "name": "嬴律",
+      "category": "棋手牌",
+      "faction": "",
+      "cost": 0,
+      "quality": 0,
+      "tags": [],
+      "skill": "",
+      "talents": [
+        {
+          "name": "技能",
+          "level": 1,
+          "cards": [
+            {
+              "id": 94399,
+              "name": "最高决策者",
+              "desc": "比赛开始时，嬴律获得1张战略决策。使用后在第一次发布至高决策时，可以再获得1张。"
+            }
+          ]
+        },
+        {
+          "name": "秘技",
+          "level": 1,
+          "cards": [
+            {
+              "id": 664301,
+              "name": "至高之主",
+              "desc": "每经过4个回合，获得1张秘技牌至高决策。"
+            }
+          ]
+        },
+        {
+          "name": "专属",
+          "level": 6,
+          "cards": [
+            {
+              "id": 610006,
+              "name": "特权决策",
+              "desc": "选择1个特权决策颁布，对所有玩家生效，并且自己额外享受特权效果。"
+            }
+          ]
+        }
+      ],
+      "portrait": "image/pieces/棋手牌/嬴律.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_lord_haibao_auto/168aae5e0b3a8a4528ddd89bb14868e7.png",
+      "source": "web"
+    },
+    "香香": {
+      "id": 50,
+      "name": "香香",
+      "category": "棋手牌",
+      "faction": "",
+      "cost": 0,
+      "quality": 0,
+      "tags": [],
+      "skill": "",
+      "talents": [
+        {
+          "name": "技能",
+          "level": 1,
+          "cards": [
+            {
+              "id": 95099,
+              "name": "究极弩炮",
+              "desc": "开战时，香香会使用武器攻击敌人。\n香香初始攻击力为20，每拥有1名不低于10级的1-3阶英雄，香香的攻击力+20。"
+            }
+          ]
+        },
+        {
+          "name": "秘技",
+          "level": 1,
+          "cards": [
+            {
+              "id": 665001,
+              "name": "枪炮艺术",
+              "desc": "累积造成10/15/20/30点棋手伤害，获得1张秘技牌武器改造。"
+            }
+          ]
+        },
+        {
+          "name": "专属",
+          "level": 6,
+          "cards": [
+            {
+              "id": 665005,
+              "name": "火力全开",
+              "desc": "香香获得（己方英雄等级的总和×0.5）%的攻击力提升。"
+            }
+          ]
+        }
+      ],
+      "portrait": "image/pieces/棋手牌/香香.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_lord_haibao_auto/ee127a1c111ea90f739f985fb99b0040.png",
+      "source": "web"
+    },
+    "安琪拉": {
+      "id": 51,
+      "name": "安琪拉",
+      "category": "棋手牌",
+      "faction": "",
+      "cost": 0,
+      "quality": 0,
+      "tags": [],
+      "skill": "",
+      "talents": [
+        {
+          "name": "技能",
+          "level": 1,
+          "cards": [
+            {
+              "id": 95199,
+              "name": "特制灵异追踪器",
+              "desc": "获得飞行器，棋手等级达到3时获得1张顿悟时刻。"
+            }
+          ]
+        },
+        {
+          "name": "秘技",
+          "level": 1,
+          "cards": [
+            {
+              "id": 665101,
+              "name": "驱鬼!加大力度!",
+              "desc": "累积获得5/10/20/35点神秘力量，获得1张秘技牌灵异探测大改装。"
+            }
+          ]
+        },
+        {
+          "name": "专属",
+          "level": 6,
+          "cards": [
+            {
+              "id": 665105,
+              "name": "超级连接",
+              "desc": "获得一张灵异探测大改装。战斗开始时，飞行器连接的英雄会随机获得自身10%-30%等级数的临时等级。"
+            }
+          ]
+        }
+      ],
+      "portrait": "image/pieces/棋手牌/安琪拉.png",
+      "thumb_url": "https://game-os-cos.kohsocialapp.qq.com/manage/custom_os_lord_haibao_auto/c43f858a6825abf330ce927a5a000aac.png",
+      "source": "web"
+    }
+  }
+}

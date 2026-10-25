@@ -1,0 +1,3024 @@
+{
+ "version": "2026-09-30",
+ "note": "按卡面 skill/awaken 与技能 skills[].desc 逐个人工判定；_ref 为对照信息（cards.json tags 与官方阵容统计），不是判定依据",
+ "heroes": {
+  "苏烈": {
+   "combat_role": [
+    "tank"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "self_growth": "牺牲：苏烈的等级永久+2",
+    "debuff": "降低其4点物理防御",
+    "revive": "L40 战斗中首次被击败后复生",
+    "sacrifice": "自带牺牲，可喂李信/百里守约/大司命"
+   },
+   "functional_value": 5,
+   "carry_value": 2,
+   "is_second_carry_risk": false,
+   "why": "1 阶牺牲坦克，每回合阵亡自涨等级且喂牺牲体系，前期挡刀+后期牺牲燃料",
+   "_ref": {
+    "quality": 1,
+    "faction": "河洛",
+    "tags": [
+     "前排",
+     "坦克"
+    ],
+    "lineup_appear_pct": 13.1,
+    "lineup_carry_pct_when_present": 1
+   },
+   "engine_grants": [],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "曜": {
+   "combat_role": [
+    "bruiser"
+   ],
+   "damage_shape": {
+    "shape": "single",
+    "source": "skill"
+   },
+   "functions": {
+    "team_level": "你的英雄合成提升的等级+1（全队合成收益）",
+    "shield": "L10 施放技能额外获得…护盾（自保）"
+   },
+   "functional_value": 6,
+   "carry_value": 4,
+   "is_second_carry_risk": true,
+   "why": "卡面给全队合成+1 级是真功能；战斗是近战单体，养成主C 性价比低，放场上只吃卡面",
+   "_ref": {
+    "quality": 1,
+    "faction": "逐鹿",
+    "tags": [
+     "前排"
+    ],
+    "lineup_appear_pct": 0.4,
+    "lineup_carry_pct_when_present": 48
+   },
+   "engine_grants": [
+    {
+     "to": "all",
+     "what": "合成提升的等级+1——合成越多的吃得越多"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "孙膑": {
+   "combat_role": [
+    "carry_mag",
+    "utility"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "team_level": "你的英雄每释放3次技能，该英雄等级永久+1（全队）",
+    "cc": "L100 炸弹附着…沉默该目标"
+   },
+   "functional_value": 8,
+   "carry_value": 5,
+   "is_second_carry_risk": false,
+   "why": "全队永久涨级引擎，1 阶就能开；自身只是小范围法伤，放着就有收益、不需要资源",
+   "_ref": {
+    "quality": 1,
+    "faction": "逐鹿",
+    "tags": [
+     "后排"
+    ],
+    "lineup_appear_pct": 1.6,
+    "lineup_carry_pct_when_present": 14
+   },
+   "engine_grants": [
+    {
+     "to": "all",
+     "what": "每释放3次技能该英雄永久+1级——法力上限低/施法快的吃得最多"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "狂铁": {
+   "combat_role": [
+    "tank",
+    "bruiser"
+   ],
+   "damage_shape": {
+    "shape": "single",
+    "source": "skill"
+   },
+   "functions": {
+    "core_level": "整备：阿科米亚核心的等级+2",
+    "shield": "施法获得…护盾（自保）"
+   },
+   "functional_value": 5,
+   "carry_value": 3,
+   "is_second_carry_risk": false,
+   "why": "日落海核心引擎件，战斗是自保型近战",
+   "_ref": {
+    "quality": 1,
+    "faction": "日落海",
+    "tags": [
+     "前排",
+     "战士"
+    ],
+    "lineup_appear_pct": 9.6,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [
+    {
+     "to": "core",
+     "what": "整备：核心+2级"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "孙尚香": {
+   "combat_role": [
+    "carry_phys"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "economy": "登场：获得1次免费刷新",
+    "debuff": "降低命中敌人50%物理防御"
+   },
+   "functional_value": 4,
+   "carry_value": 6,
+   "is_second_carry_risk": true,
+   "why": "1 阶射手，卡面只有一次免费刷新；留场就是一个要装备的输出位",
+   "_ref": {
+    "quality": 1,
+    "faction": "三分之地",
+    "tags": [
+     "后排",
+     "射手"
+    ],
+    "lineup_appear_pct": 1.2,
+    "lineup_carry_pct_when_present": 6
+   },
+   "engine_grants": [],
+   "engine_needs_carry": false,
+   "second_output_ok_with": [
+    "吕布(仅吸血)"
+   ]
+  },
+  "弈星": {
+   "combat_role": [
+    "carry_mag",
+    "controller"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "economy": "棋手升级时，棋手经验+2",
+    "cc": "L40 棋盘持续期间…敌人无法进出"
+   },
+   "functional_value": 5,
+   "carry_value": 4,
+   "is_second_carry_risk": false,
+   "why": "棋手经验件，升级期放着即可；范围法伤+困人，后期被卖",
+   "_ref": {
+    "quality": 1,
+    "faction": "无阵营",
+    "tags": [
+     "后排",
+     "法师"
+    ],
+    "lineup_appear_pct": 0.0,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "干将莫邪": {
+   "combat_role": [
+    "carry_mag"
+   ],
+   "damage_shape": {
+    "shape": "single",
+    "source": "skill"
+   },
+   "functions": {
+    "equip": "在场时，获得普通装备双剑·雄（醒：雄+雌）"
+   },
+   "functional_value": 5,
+   "carry_value": 6,
+   "is_second_carry_risk": true,
+   "why": "送装备是功能，但本体是要吃等级的单体法师；用户自定义干将路线把它当主C",
+   "_ref": {
+    "quality": 1,
+    "faction": "大河流域",
+    "tags": [
+     "后排",
+     "法师"
+    ],
+    "lineup_appear_pct": 2.6,
+    "lineup_carry_pct_when_present": 2
+   },
+   "engine_grants": [
+    {
+     "to": "any",
+     "what": "在场送普通装备双剑"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "李元芳": {
+   "combat_role": [
+    "carry_phys"
+   ],
+   "damage_shape": {
+    "shape": "single",
+    "source": "mixed"
+   },
+   "functions": {
+    "carry_level": "整备：对距离最近的【河洛】英雄使用1张古币"
+   },
+   "functional_value": 6,
+   "carry_value": 5,
+   "is_second_carry_risk": true,
+   "why": "河洛古币喂最近的人（放主C 旁边），战斗是单体射手",
+   "_ref": {
+    "quality": 1,
+    "faction": "河洛",
+    "tags": [
+     "后排",
+     "射手"
+    ],
+    "lineup_appear_pct": 3.6,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [
+    {
+     "faction": "河洛",
+     "to": "nearest",
+     "what": "整备：对最近的河洛英雄用1张古币"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "牛魔": {
+   "combat_role": [
+    "tank",
+    "controller"
+   ],
+   "damage_shape": {
+    "shape": "single",
+    "source": "skill"
+   },
+   "functions": {
+    "economy": "凯旋：获得1能量",
+    "shield": "自身获得…80点护盾",
+    "cc": "L40 将目标击飞并眩晕1秒"
+   },
+   "functional_value": 4,
+   "carry_value": 1,
+   "is_second_carry_risk": false,
+   "why": "前排肉+眩晕，赢了给 1 能量，纯过渡",
+   "_ref": {
+    "quality": 1,
+    "faction": "无阵营",
+    "tags": [
+     "前排",
+     "坦克"
+    ],
+    "lineup_appear_pct": 0.3,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "亚连": {
+   "combat_role": [
+    "bruiser",
+    "carry_mag"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "carry_level": "整备：你穿戴装备最多的1名英雄等级+2（2026-10-08 版本改：不再限日落海）",
+    "core_level": "且阿科米亚核心等级+1"
+   },
+   "functional_value": 6,
+   "carry_value": 7,
+   "is_second_carry_risk": true,
+   "why": "混伤近战+100 级大范围，能当主C；卡面喂装备最多的日落海英雄（=主C），作非主C 时是功能件",
+   "_ref": {
+    "quality": 2,
+    "faction": "日落海",
+    "tags": [
+     "前排"
+    ],
+    "lineup_appear_pct": 3.8,
+    "lineup_carry_pct_when_present": 2
+   },
+   "engine_grants": [
+    {
+     "faction": "日落海",
+     "to": "most_equipped",
+     "what": "整备：穿戴装备最多的1名日落海英雄+2级，核心+1"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "米莱狄": {
+   "combat_role": [
+    "summoner",
+    "carry_mag"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "temp_level": "召唤单位获得 3临时等级",
+    "core_level": "整备：该临时等级及阿科米亚核心等级额外+3",
+    "summon": "召唤1个机械仆从，L100 上限4"
+   },
+   "functional_value": 6,
+   "carry_value": 5,
+   "is_second_carry_risk": false,
+   "why": "召唤流/日落海核心件，仆从吸火，不需要装备",
+   "_ref": {
+    "quality": 2,
+    "faction": "日落海",
+    "tags": [
+     "后排",
+     "法师"
+    ],
+    "lineup_appear_pct": 5.6,
+    "lineup_carry_pct_when_present": 1
+   },
+   "engine_grants": [
+    {
+     "to": "summons",
+     "what": "召唤单位+3临时等级；整备额外+3，核心+3"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "项羽": {
+   "combat_role": [
+    "tank",
+    "controller"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "mixed"
+   },
+   "functions": {
+    "sacrifice": "牺牲：所有图腾等级永久+3且…召唤物免疫控制",
+    "heal": "恢复自身150+5%最大生命值",
+    "cc": "开战冲撞…击飞前方敌人",
+    "debuff": "L40 降低周围1格敌人50%攻击速度"
+   },
+   "functional_value": 6,
+   "carry_value": 1,
+   "is_second_carry_risk": false,
+   "why": "图腾体系的牺牲坦克，开战冲撞打乱阵型",
+   "_ref": {
+    "quality": 2,
+    "faction": "大河流域",
+    "tags": [
+     "前排",
+     "坦克"
+    ],
+    "lineup_appear_pct": 0.1,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [
+    {
+     "to": "totem",
+     "what": "牺牲：所有图腾永久+3级"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "鬼谷子": {
+   "combat_role": [
+    "support",
+    "summoner"
+   ],
+   "damage_shape": {
+    "shape": "none",
+    "source": "skill"
+   },
+   "functions": {
+    "summon": "在场时，召唤先知图腾",
+    "temp_level": "使其临时等级+5（L10 +10，L40 目标+1）"
+   },
+   "functional_value": 6,
+   "carry_value": 1,
+   "is_second_carry_risk": false,
+   "why": "图腾+给随机友军临时等级（可被明世隐/司空震转化），零输出",
+   "_ref": {
+    "quality": 2,
+    "faction": "大河流域",
+    "tags": [
+     "后排",
+     "辅助"
+    ],
+    "lineup_appear_pct": 8.3,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [
+    {
+     "to": "random",
+     "what": "随机1名友军临时等级+5（L40 目标+1）"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "梦奇": {
+   "combat_role": [
+    "tank"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "card_gen": "退场：获得1张 1阶英雄兑换券",
+    "heal": "恢复8%最大生命值；L40 额外保护1名生命值最低的友军",
+    "debuff": "降低5点物理防御和法术防御"
+   },
+   "functional_value": 4,
+   "carry_value": 2,
+   "is_second_carry_risk": false,
+   "why": "卖掉/退场给兑换券的经济肉盾",
+   "_ref": {
+    "quality": 2,
+    "faction": "无阵营",
+    "tags": [
+     "前排"
+    ],
+    "lineup_appear_pct": 1.1,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "芈月": {
+   "combat_role": [
+    "support",
+    "summoner"
+   ],
+   "damage_shape": {
+    "shape": "single",
+    "source": "skill"
+   },
+   "functions": {
+    "carry_level": "每当你使用效果牌时，己方穿戴装备最多的1名【逐鹿】英雄等级+1",
+    "summon": "为等级最高的近战友军召唤1只暗影仆从",
+    "heal": "为友军恢复80%芈月法术攻击力的生命值",
+    "buff_def": "窃取目标…双防转移给友军"
+   },
+   "functional_value": 7,
+   "carry_value": 3,
+   "is_second_carry_risk": false,
+   "why": "效果牌→逐鹿主C 永久涨级，技能给近战主C 加仆从、奶和双防：典型功能件",
+   "_ref": {
+    "quality": 2,
+    "faction": "逐鹿",
+    "tags": [
+     "后排"
+    ],
+    "lineup_appear_pct": 11.7,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [
+    {
+     "faction": "逐鹿",
+     "to": "most_equipped",
+     "what": "每用1张效果牌，穿装备最多的逐鹿英雄+1级"
+    },
+    {
+     "to": "highest_level_melee",
+     "what": "暗影仆从给等级最高的近战友军"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "沈梦溪": {
+   "combat_role": [
+    "carry_mag"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "self_growth": "每对沈梦溪使用1张效果牌，本回合法力值上限-15"
+   },
+   "functional_value": 3,
+   "carry_value": 7,
+   "is_second_carry_risk": true,
+   "why": "纯输出法师，卡面只强化自己，非主C 就是第二主C",
+   "_ref": {
+    "quality": 2,
+    "faction": "河洛",
+    "tags": [
+     "后排",
+     "法师"
+    ],
+    "lineup_appear_pct": 0.2,
+    "lineup_carry_pct_when_present": 80
+   },
+   "engine_grants": [],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "盾山": {
+   "combat_role": [
+    "tank"
+   ],
+   "damage_shape": {
+    "shape": "none",
+    "source": "skill"
+   },
+   "functions": {
+    "economy": "牺牲：获得1张古币",
+    "sacrifice": "自带牺牲",
+    "buff_def": "L10 伤害减免35%持续8秒",
+    "debuff": "L40 降低接触敌人35%攻击速度"
+   },
+   "functional_value": 5,
+   "carry_value": 1,
+   "is_second_carry_risk": false,
+   "why": "河洛古币/牺牲体系的纯肉",
+   "_ref": {
+    "quality": 2,
+    "faction": "河洛",
+    "tags": [
+     "前排",
+     "坦克"
+    ],
+    "lineup_appear_pct": 11.9,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "曹操": {
+   "combat_role": [
+    "bruiser"
+   ],
+   "damage_shape": {
+    "shape": "single",
+    "source": "auto"
+   },
+   "functions": {
+    "card_gen": "整备：随机触发1名【三分】英雄的登场效果",
+    "heal": "恢复自身100+15%最大生命值"
+   },
+   "functional_value": 6,
+   "carry_value": 3,
+   "is_second_carry_risk": false,
+   "why": "三分登场复读机（配周瑜/小乔/貂蝉极强），自身是一般近战",
+   "_ref": {
+    "quality": 2,
+    "faction": "三分之地",
+    "tags": [
+     "前排"
+    ],
+    "lineup_appear_pct": 16.8,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [
+    {
+     "faction": "三分之地",
+     "what": "整备：随机触发1名三分英雄的登场效果（复读周瑜/貂蝉/小乔）"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "虞姬": {
+   "combat_role": [
+    "carry_phys"
+   ],
+   "damage_shape": {
+    "shape": "single",
+    "source": "mixed"
+   },
+   "functions": {
+    "team_level": "开团：场上每有1个图腾，自身及随机2名不同【大河流域】英雄等级+1",
+    "cc": "L100 眩晕1.5秒"
+   },
+   "functional_value": 6,
+   "carry_value": 5,
+   "is_second_carry_risk": true,
+   "why": "图腾体系的全队涨级件，但自身是要养的射手",
+   "_ref": {
+    "quality": 2,
+    "faction": "大河流域",
+    "tags": [
+     "后排",
+     "射手"
+    ],
+    "lineup_appear_pct": 7.4,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [
+    {
+     "faction": "大河流域",
+     "to": "random",
+     "what": "开团：每个图腾，自身及随机2名大河英雄+1级"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "马可波罗": {
+   "combat_role": [
+    "carry_phys"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "self_growth": "登场：自身及阿科米亚核心等级+2",
+    "core_level": "阿科米亚核心等级+2"
+   },
+   "functional_value": 4,
+   "carry_value": 7,
+   "is_second_carry_risk": true,
+   "why": "日落海射手，卡面主要喂自己，非主C 时是分资源",
+   "_ref": {
+    "quality": 2,
+    "faction": "日落海",
+    "tags": [
+     "后排",
+     "射手"
+    ],
+    "lineup_appear_pct": 0.1,
+    "lineup_carry_pct_when_present": 1
+   },
+   "engine_grants": [
+    {
+     "to": "core",
+     "what": "登场：自身及核心+2级"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "赵云": {
+   "combat_role": [
+    "bruiser"
+   ],
+   "damage_shape": {
+    "shape": "single",
+    "source": "skill"
+   },
+   "functions": {
+    "team_level": "登场：自身及随机2名其他英雄等级+1",
+    "heal": "每次…恢复自身40点生命值"
+   },
+   "functional_value": 4,
+   "carry_value": 4,
+   "is_second_carry_risk": true,
+   "why": "近战单体+吸血，卡面一次性小涨级，后期弱",
+   "_ref": {
+    "quality": 2,
+    "faction": "三分之地",
+    "tags": [
+     "前排"
+    ],
+    "lineup_appear_pct": 0.3,
+    "lineup_carry_pct_when_present": 2
+   },
+   "engine_grants": [
+    {
+     "to": "random",
+     "what": "登场：自身及随机2名其他英雄+1级（一次性）"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "大乔": {
+   "combat_role": [
+    "carry_mag",
+    "controller"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "self_growth": "每触发2次登场效果，大乔的法力值上限永久-5",
+    "cc": "击飞并眩晕沿途敌人1秒"
+   },
+   "functional_value": 4,
+   "carry_value": 7,
+   "is_second_carry_risk": true,
+   "why": "登场体系主C（阵容里 81% 当主C），自身成长，不给队友功能",
+   "_ref": {
+    "quality": 2,
+    "faction": "三分之地",
+    "tags": [
+     "后排",
+     "辅助"
+    ],
+    "lineup_appear_pct": 2.1,
+    "lineup_carry_pct_when_present": 81
+   },
+   "engine_grants": [
+    {
+     "to": "self_only",
+     "what": "每2次登场效果，自身法力上限-5（登场体系的接收方）"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": [
+    "吕布(仅吸血)"
+   ]
+  },
+  "公孙离": {
+   "combat_role": [
+    "carry_phys",
+    "controller"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "mixed"
+   },
+   "functions": {
+    "steal": "夺取",
+    "cc": "L10 击退并眩晕…1.5秒",
+    "debuff": "降低其40%移动速度"
+   },
+   "functional_value": 3,
+   "carry_value": 7,
+   "is_second_carry_risk": true,
+   "why": "夺取型射手，吃别人等级长自己，只能当主C",
+   "_ref": {
+    "quality": 2,
+    "faction": "无阵营",
+    "tags": [
+     "后排",
+     "射手"
+    ],
+    "lineup_appear_pct": 5.0,
+    "lineup_carry_pct_when_present": 38
+   },
+   "engine_grants": [
+    {
+     "to": "self_only",
+     "what": "夺取相邻友军最多10级；按已觉醒英雄数加攻速"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "百里守约": {
+   "combat_role": [
+    "carry_phys"
+   ],
+   "damage_shape": {
+    "shape": "execute",
+    "source": "skill"
+   },
+   "functions": {
+    "self_growth": "拥有牺牲效果的英雄阵亡时，本回合…法力值上限-20"
+   },
+   "functional_value": 2,
+   "carry_value": 8,
+   "is_second_carry_risk": true,
+   "why": "牺牲体系狙击主C，远程单点超高伤害，零功能",
+   "_ref": {
+    "quality": 2,
+    "faction": "河洛",
+    "tags": [
+     "后排",
+     "射手"
+    ],
+    "lineup_appear_pct": 4.3,
+    "lineup_carry_pct_when_present": 95
+   },
+   "engine_grants": [
+    {
+     "keyword": "牺牲",
+     "to": "self_only",
+     "what": "牺牲英雄阵亡时本回合法力上限-20",
+     "fed_by": [
+      "苏烈",
+      "项羽",
+      "盾山",
+      "蒙恬",
+      "铠",
+      "钟馗(及左右1格)",
+      "花木兰",
+      "海月"
+     ]
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "墨子": {
+   "combat_role": [
+    "tank",
+    "controller"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "buff_def": "友方单位护盾被击破时，该单位生命值上限永久+30",
+    "cc": "L40 屏障…0.5秒眩晕"
+   },
+   "functional_value": 5,
+   "carry_value": 2,
+   "is_second_carry_risk": false,
+   "why": "护盾体系给全队永久加血上限，本体屏障+眩晕",
+   "_ref": {
+    "quality": 2,
+    "faction": "逐鹿",
+    "tags": [
+     "前排"
+    ],
+    "lineup_appear_pct": 1.2,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [
+    {
+     "to": "all",
+     "what": "护盾被击破的单位永久+30血上限"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "百里玄策": {
+   "combat_role": [
+    "assassin"
+   ],
+   "damage_shape": {
+    "shape": "single",
+    "source": "skill"
+   },
+   "functions": {
+    "team_level": "整备：你的闪现英雄上回合每击败过1名敌方英雄，随机1名闪现英雄等级+1",
+    "blink": "闪现",
+    "cc": "眩晕1秒"
+   },
+   "functional_value": 4,
+   "carry_value": 6,
+   "is_second_carry_risk": true,
+   "why": "闪现刺客，卡面只喂闪现英雄，阵容里基本就是主C",
+   "_ref": {
+    "quality": 2,
+    "faction": "河洛",
+    "tags": [
+     "后排",
+     "刺客"
+    ],
+    "lineup_appear_pct": 2.6,
+    "lineup_carry_pct_when_present": 99
+   },
+   "engine_grants": [
+    {
+     "keyword": "闪现",
+     "what": "闪现英雄上回合每击败1名敌方英雄→随机1名闪现英雄等级+1（醒+2）",
+     "feeds": [
+      "百里玄策",
+      "云中君",
+      "阿轲",
+      "裴擒虎",
+      "镜",
+      "李白",
+      "孙悟空",
+      "韩信",
+      "露娜"
+     ]
+    }
+   ],
+   "engine_needs_carry": true,
+   "second_output_ok_with": [
+    "孙悟空"
+   ]
+  },
+  "廉颇": {
+   "combat_role": [
+    "tank"
+   ],
+   "damage_shape": {
+    "shape": "single",
+    "source": "skill"
+   },
+   "functions": {
+    "shield": "廉颇释放技能时，你的其他英雄获得 5点护盾值…使用战术牌会提升",
+    "buff_def": "L40 护盾叠层"
+   },
+   "functional_value": 6,
+   "carry_value": 1,
+   "is_second_carry_risk": false,
+   "why": "给全队护盾的坦克（护盾流/墨子/扁鹊联动）",
+   "_ref": {
+    "quality": 2,
+    "faction": "逐鹿",
+    "tags": [
+     "前排",
+     "坦克"
+    ],
+    "lineup_appear_pct": 1.1,
+    "lineup_carry_pct_when_present": 91
+   },
+   "engine_grants": [
+    {
+     "to": "all",
+     "what": "放技能时其他英雄获得护盾"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "蒙恬": {
+   "combat_role": [
+    "tank",
+    "summoner"
+   ],
+   "damage_shape": {
+    "shape": "none",
+    "source": "skill"
+   },
+   "functions": {
+    "summon": "召唤出1名玄雍士兵…L100 每次4名",
+    "sacrifice": "牺牲：召唤2名与自身等级相同的玄雍士兵"
+   },
+   "functional_value": 5,
+   "carry_value": 2,
+   "is_second_carry_risk": false,
+   "why": "召唤士兵分担伤害，死后再补兵，纯吸火",
+   "_ref": {
+    "quality": 2,
+    "faction": "逐鹿",
+    "tags": [
+     "前排"
+    ],
+    "lineup_appear_pct": 0.2,
+    "lineup_carry_pct_when_present": 9
+   },
+   "engine_grants": [],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "蔡文姬": {
+   "combat_role": [
+    "support"
+   ],
+   "damage_shape": {
+    "shape": "none",
+    "source": "skill"
+   },
+   "functions": {
+    "team_level": "每当你使用【三分】英雄牌时，等级最低的其他3名【三分】英雄等级+1",
+    "heal": "每秒为自身周围1格的友军恢复30点生命值",
+    "buff_def": "L10 增加6点物理防御力和法术防御力"
+   },
+   "functional_value": 6,
+   "carry_value": 1,
+   "is_second_carry_risk": false,
+   "why": "三分体系补等级+站主C 旁回血加双防",
+   "_ref": {
+    "quality": 2,
+    "faction": "三分之地",
+    "tags": [
+     "后排",
+     "辅助"
+    ],
+    "lineup_appear_pct": 3.4,
+    "lineup_carry_pct_when_present": 3
+   },
+   "engine_grants": [
+    {
+     "faction": "三分之地",
+     "to": "lowest_level",
+     "what": "每用1张三分英雄牌，等级最低的3名三分英雄+1级"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "云中君": {
+   "combat_role": [
+    "assassin"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "team_level": "开团：你的英雄每穿戴1件装备，该英雄等级永久+1",
+    "equip": "装备→等级",
+    "blink": "闪现",
+    "debuff": "撕裂：每秒…当前生命值2%"
+   },
+   "functional_value": 8,
+   "carry_value": 5,
+   "is_second_carry_risk": false,
+   "why": "装备流全队永久涨级引擎，本体是闪现小刺客，放场上就生效",
+   "_ref": {
+    "quality": 3,
+    "faction": "大河流域",
+    "tags": [
+     "前排",
+     "刺客"
+    ],
+    "lineup_appear_pct": 3.9,
+    "lineup_carry_pct_when_present": 1
+   },
+   "engine_grants": [
+    {
+     "to": "all",
+     "what": "开团：每穿戴1件装备该英雄永久+1级——装备越多越吃"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": [
+    "百里玄策",
+    "孙悟空"
+   ]
+  },
+  "姬小满": {
+   "combat_role": [
+    "bruiser",
+    "controller"
+   ],
+   "damage_shape": {
+    "shape": "single",
+    "source": "skill"
+   },
+   "functions": {
+    "economy": "每当你出售4名场上英雄后，获得1次临时刷新",
+    "debuff": "L40 …伤害提升40%",
+    "cc": "击退、L100 击飞"
+   },
+   "functional_value": 3,
+   "carry_value": 4,
+   "is_second_carry_risk": true,
+   "why": "近战单体，卖人给刷新，功能弱",
+   "_ref": {
+    "quality": 3,
+    "faction": "日落海",
+    "tags": [
+     "前排"
+    ],
+    "lineup_appear_pct": 2.4,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "苍": {
+   "combat_role": [
+    "carry_phys",
+    "summoner"
+   ],
+   "damage_shape": {
+    "shape": "single",
+    "source": "mixed"
+   },
+   "functions": {
+    "summon": "召唤1只狼魂（上限3只）",
+    "debuff": "召唤单位阵亡时，会对周围敌人造成 25点物理伤害"
+   },
+   "functional_value": 3,
+   "carry_value": 6,
+   "is_second_carry_risk": true,
+   "why": "召唤辅助射手，战斗靠自己攻击力叠加，要资源",
+   "_ref": {
+    "quality": 3,
+    "faction": "无阵营",
+    "tags": [
+     "后排",
+     "射手"
+    ],
+    "lineup_appear_pct": 0.5,
+    "lineup_carry_pct_when_present": 7
+   },
+   "engine_grants": [],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "铠": {
+   "combat_role": [
+    "bruiser",
+    "tank"
+   ],
+   "damage_shape": {
+    "shape": "single",
+    "source": "auto"
+   },
+   "functions": {
+    "revive": "复生（醒：完美复生）",
+    "temp_level": "牺牲：你的【河洛】英雄获得5临时等级",
+    "sacrifice": "牺牲"
+   },
+   "functional_value": 7,
+   "carry_value": 3,
+   "is_second_carry_risk": false,
+   "why": "自带复生的前排，死时给全体河洛临时等级（配李白/司空震/明世隐）",
+   "_ref": {
+    "quality": 3,
+    "faction": "河洛",
+    "tags": [
+     "前排",
+     "战士"
+    ],
+    "lineup_appear_pct": 16.4,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [
+    {
+     "faction": "河洛",
+     "what": "牺牲：河洛英雄获得5临时等级"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "白起": {
+   "combat_role": [
+    "tank",
+    "controller"
+   ],
+   "damage_shape": {
+    "shape": "none",
+    "source": "skill"
+   },
+   "functions": {
+    "card_gen": "每回合首次使用效果牌时，获得1张援护战术",
+    "taunt": "嘲讽周围1格敌人",
+    "shield": "L10 20%最大生命值的护盾"
+   },
+   "functional_value": 6,
+   "carry_value": 1,
+   "is_second_carry_risk": false,
+   "why": "嘲讽坦克+每回合白送一张援护战术",
+   "_ref": {
+    "quality": 3,
+    "faction": "逐鹿",
+    "tags": [
+     "前排",
+     "坦克"
+    ],
+    "lineup_appear_pct": 11.0,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "明世隐": {
+   "combat_role": [
+    "support"
+   ],
+   "damage_shape": {
+    "shape": "none",
+    "source": "skill"
+   },
+   "functions": {
+    "carry_level": "距离最近的英雄，临时等级中的 2级可转化为永久等级",
+    "heal": "为自身和连接的英雄恢复…生命值",
+    "buff_def": "L40 提高目标25物理和法术防御"
+   },
+   "functional_value": 9,
+   "carry_value": 1,
+   "is_second_carry_risk": false,
+   "why": "临时→永久等级转化 + 连线奶最近英雄，必须放主C 旁边；阵容出场率最高",
+   "_ref": {
+    "quality": 3,
+    "faction": "无阵营",
+    "tags": [
+     "后排",
+     "辅助"
+    ],
+    "lineup_appear_pct": 26.0,
+    "lineup_carry_pct_when_present": 4
+   },
+   "engine_grants": [
+    {
+     "to": "nearest",
+     "what": "最近英雄的临时等级转2级为永久（配刘禅/铠/鬼谷子/李白古币）"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "阿轲": {
+   "combat_role": [
+    "assassin",
+    "utility"
+   ],
+   "damage_shape": {
+    "shape": "single",
+    "source": "skill"
+   },
+   "functions": {
+    "team_level": "登场：自身及随机1名英雄等级+1，棋手生命值每降低10点，重复1次",
+    "blink": "闪现"
+   },
+   "functional_value": 5,
+   "carry_value": 6,
+   "is_second_carry_risk": true,
+   "why": "刺客：输出靠暴击单切，不被优先攻击；卡面在低血量时连涨；在阵容里多为非主C 登场件",
+   "_ref": {
+    "quality": 3,
+    "faction": "无阵营",
+    "tags": [
+     "前排",
+     "刺客"
+    ],
+    "lineup_appear_pct": 17.1,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [
+    {
+     "to": "random",
+     "what": "登场：自身及随机1名英雄+1级，棋手每掉10血重复1次"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": [
+    "百里玄策",
+    "孙悟空"
+   ]
+  },
+  "马超": {
+   "combat_role": [
+    "assassin",
+    "bruiser"
+   ],
+   "damage_shape": {
+    "shape": "single",
+    "source": "skill"
+   },
+   "functions": {
+    "self_growth": "己方施加控制效果时，马超获得15点法力值及5%暴击率",
+    "heal": "恢复自身…生命值"
+   },
+   "functional_value": 3,
+   "carry_value": 6,
+   "is_second_carry_risk": true,
+   "why": "突进切后排的物理输出，要控制队友喂它，本身是主C 候选",
+   "_ref": {
+    "quality": 3,
+    "faction": "三分之地",
+    "tags": [
+     "前排"
+    ],
+    "lineup_appear_pct": 4.4,
+    "lineup_carry_pct_when_present": 17
+   },
+   "engine_grants": [],
+   "engine_needs_carry": false,
+   "second_output_ok_with": [
+    "吕布(仅吸血)"
+   ]
+  },
+  "裴擒虎": {
+   "combat_role": [
+    "assassin",
+    "bruiser"
+   ],
+   "damage_shape": {
+    "shape": "single",
+    "source": "auto"
+   },
+   "functions": {
+    "temp_level": "整备：随机获得1名其他英雄等级数一半的临时等级",
+    "blink": "闪现"
+   },
+   "functional_value": 4,
+   "carry_value": 5,
+   "is_second_carry_risk": true,
+   "why": "复制别人等级的近战刺客，吃临时等级转化，功能只对自己",
+   "_ref": {
+    "quality": 3,
+    "faction": "无阵营",
+    "tags": [
+     "前排",
+     "刺客"
+    ],
+    "lineup_appear_pct": 13.7,
+    "lineup_carry_pct_when_present": 16
+   },
+   "engine_grants": [],
+   "engine_needs_carry": false,
+   "second_output_ok_with": [
+    "百里玄策",
+    "孙悟空"
+   ]
+  },
+  "老夫子": {
+   "combat_role": [
+    "tank"
+   ],
+   "damage_shape": {
+    "shape": "none",
+    "source": "skill"
+   },
+   "functions": {
+    "card_gen": "每回合首次合成时，获得1张招募战术",
+    "heal": "L40 受到伤害恢复生命值"
+   },
+   "functional_value": 5,
+   "carry_value": 2,
+   "is_second_carry_risk": false,
+   "why": "合成送招募战术的减伤前排",
+   "_ref": {
+    "quality": 3,
+    "faction": "逐鹿",
+    "tags": [
+     "前排"
+    ],
+    "lineup_appear_pct": 0.2,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "西施": {
+   "combat_role": [
+    "controller",
+    "carry_mag"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "card_gen": "整备：获得1张推演战术",
+    "cc": "L40 牵引…眩晕周围的敌方单位2秒"
+   },
+   "functional_value": 6,
+   "carry_value": 5,
+   "is_second_carry_risk": false,
+   "why": "每回合送推演战术+群控法师，出场 12% 从不当主C",
+   "_ref": {
+    "quality": 3,
+    "faction": "逐鹿",
+    "tags": [
+     "后排",
+     "法师"
+    ],
+    "lineup_appear_pct": 11.8,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "刘禅": {
+   "combat_role": [
+    "tank",
+    "controller"
+   ],
+   "damage_shape": {
+    "shape": "single",
+    "source": "skill"
+   },
+   "functions": {
+    "temp_level": "你的英雄释放技能时，该英雄获得2临时等级（全队）",
+    "cc": "眩晕1秒（L100 3秒）",
+    "shield": "自身获得100点护盾"
+   },
+   "functional_value": 8,
+   "carry_value": 1,
+   "is_second_carry_risk": false,
+   "why": "全队放技能就涨临时等级（配明世隐/司空震转化），本体眩晕坦克",
+   "_ref": {
+    "quality": 3,
+    "faction": "三分之地",
+    "tags": [
+     "前排",
+     "坦克"
+    ],
+    "lineup_appear_pct": 5.9,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [
+    {
+     "to": "all",
+     "what": "每个英雄释放技能时该英雄+2临时等级"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "猪八戒": {
+   "combat_role": [
+    "tank"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "steal": "夺取",
+    "team_level": "每当3阶及以下英雄合成时，与其同阶的英雄等级+1",
+    "self_growth": "每承受600点伤害将永久提升45点最大生命值"
+   },
+   "functional_value": 6,
+   "carry_value": 2,
+   "is_second_carry_risk": false,
+   "why": "越打越肉的坦克，合成时给同阶全员涨级；夺取会抢邻座等级，别挨主C",
+   "_ref": {
+    "quality": 3,
+    "faction": "无阵营",
+    "tags": [
+     "前排",
+     "坦克"
+    ],
+    "lineup_appear_pct": 4.1,
+    "lineup_carry_pct_when_present": 32
+   },
+   "engine_grants": [
+    {
+     "to": "same_tier",
+     "what": "3阶及以下英雄合成时，同阶英雄+1级"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "程咬金": {
+   "combat_role": [
+    "tank"
+   ],
+   "damage_shape": {
+    "shape": "none",
+    "source": "skill"
+   },
+   "functions": {
+    "carry_level": "整备：获得1张古币，对自身使用1张古币",
+    "economy": "每回合一张古币",
+    "heal": "恢复…最大生命值"
+   },
+   "functional_value": 6,
+   "carry_value": 1,
+   "is_second_carry_risk": false,
+   "why": "自回血坦克，每回合给古币（配李白/武则天）",
+   "_ref": {
+    "quality": 3,
+    "faction": "河洛",
+    "tags": [
+     "前排",
+     "坦克"
+    ],
+    "lineup_appear_pct": 18.5,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [
+    {
+     "to": "any",
+     "what": "整备：获得1张古币（可指定给主C）"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "狄仁杰": {
+   "combat_role": [
+    "carry_phys"
+   ],
+   "damage_shape": {
+    "shape": "single",
+    "source": "auto"
+   },
+   "functions": {
+    "self_growth": "对狄仁杰使用古币时，其攻击速度永久+5%"
+   },
+   "functional_value": 2,
+   "carry_value": 7,
+   "is_second_carry_risk": true,
+   "why": "攻速普攻射手，所有收益都在自己身上",
+   "_ref": {
+    "quality": 3,
+    "faction": "河洛",
+    "tags": [
+     "后排"
+    ],
+    "lineup_appear_pct": 0.1,
+    "lineup_carry_pct_when_present": 100
+   },
+   "engine_grants": [
+    {
+     "to": "self_only",
+     "what": "吃古币永久加攻速（古币体系的接收方）"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "张良": {
+   "combat_role": [
+    "controller",
+    "support"
+   ],
+   "damage_shape": {
+    "shape": "single",
+    "source": "skill"
+   },
+   "functions": {
+    "team_level": "每当你的单位触发开团效果时，场上随机3名己方英雄等级永久+1（醒：所有英雄）",
+    "cc": "抓住1名敌人…持续压制"
+   },
+   "functional_value": 8,
+   "carry_value": 3,
+   "is_second_carry_risk": false,
+   "why": "开团→全队永久涨级引擎+单体压制控制，不吃装备",
+   "_ref": {
+    "quality": 3,
+    "faction": "大河流域",
+    "tags": [
+     "后排",
+     "法师"
+    ],
+    "lineup_appear_pct": 7.4,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [
+    {
+     "to": "random",
+     "what": "每触发1次开团效果，随机3名英雄永久+1级（醒：所有英雄）"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "少司缘": {
+   "combat_role": [
+    "support",
+    "summoner"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "summon": "在场时，召唤因缘图腾",
+    "heal": "恢复沿途友军…生命值",
+    "buff_atk": "L40 提升沿途友军30%攻击速度",
+    "debuff": "L100 降低其15%伤害"
+   },
+   "functional_value": 7,
+   "carry_value": 2,
+   "is_second_carry_risk": false,
+   "why": "图腾+群奶+攻速，大河体系核心辅助",
+   "_ref": {
+    "quality": 3,
+    "faction": "大河流域",
+    "tags": [
+     "后排",
+     "辅助"
+    ],
+    "lineup_appear_pct": 8.9,
+    "lineup_carry_pct_when_present": 30
+   },
+   "engine_grants": [
+    {
+     "to": "allies_on_path",
+     "what": "治疗+L40 攻速30%"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "亚瑟": {
+   "combat_role": [
+    "tank"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "core_level": "每当你使用【日落海】英雄牌时，阿科米亚核心等级+3",
+    "buff_def": "伤害减免25%"
+   },
+   "functional_value": 5,
+   "carry_value": 1,
+   "is_second_carry_risk": false,
+   "why": "日落海核心件坦克",
+   "_ref": {
+    "quality": 3,
+    "faction": "日落海",
+    "tags": [
+     "前排",
+     "坦克"
+    ],
+    "lineup_appear_pct": 1.3,
+    "lineup_carry_pct_when_present": 2
+   },
+   "engine_grants": [
+    {
+     "to": "core",
+     "what": "每用1张日落海英雄牌核心+3级"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "钟馗": {
+   "combat_role": [
+    "controller",
+    "tank"
+   ],
+   "damage_shape": {
+    "shape": "single",
+    "source": "skill"
+   },
+   "functions": {
+    "debuff": "自身及左右1格的英雄获得牺牲：击败者等级临时降低10%",
+    "sacrifice": "给左右 1 格英雄牺牲",
+    "taunt": "拉到身边…使其成为友军的优先攻击目标",
+    "cc": "拉拽"
+   },
+   "functional_value": 7,
+   "carry_value": 2,
+   "is_second_carry_risk": false,
+   "why": "钩后排+给左右两格英雄牺牲（喂李信/百里/大司命），站前排正中",
+   "_ref": {
+    "quality": 3,
+    "faction": "河洛",
+    "tags": [
+     "前排"
+    ],
+    "lineup_appear_pct": 16.8,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [
+    {
+     "to": "neighbors",
+     "what": "给自身及左右1格英雄牺牲（击败者降级）"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "貂蝉": {
+   "combat_role": [
+    "carry_mag"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "team_level": "登场：【三分】英雄等级+1",
+    "debuff": "降低敌人70%生命恢复效果"
+   },
+   "functional_value": 6,
+   "carry_value": 6,
+   "is_second_carry_risk": true,
+   "why": "三分全体涨级登场件（配曹操/甄姬复读），本体是近身范围法师",
+   "_ref": {
+    "quality": 3,
+    "faction": "三分之地",
+    "tags": [
+     "后排",
+     "法师"
+    ],
+    "lineup_appear_pct": 0.4,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [
+    {
+     "faction": "三分之地",
+     "to": "all_faction",
+     "what": "登场：三分英雄+1级"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": [
+    "吕布(仅吸血)"
+   ]
+  },
+  "安琪拉": {
+   "combat_role": [
+    "carry_mag"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "self_growth": "整备：自身及阿科米亚核心等级+2",
+    "core_level": "阿科米亚核心等级+2"
+   },
+   "functional_value": 4,
+   "carry_value": 8,
+   "is_second_carry_risk": true,
+   "why": "持续引导的范围法师，每回合自涨，是主C 型",
+   "_ref": {
+    "quality": 3,
+    "faction": "日落海",
+    "tags": [
+     "后排",
+     "法师"
+    ],
+    "lineup_appear_pct": 3.4,
+    "lineup_carry_pct_when_present": 42
+   },
+   "engine_grants": [
+    {
+     "to": "core",
+     "what": "整备：自身及核心+2级"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "瑶": {
+   "combat_role": [
+    "support"
+   ],
+   "damage_shape": {
+    "shape": "single",
+    "source": "skill"
+   },
+   "functions": {
+    "shield": "附身提供200+20%瑶最大生命值的护盾",
+    "buff_atk": "附身提供…10点双攻",
+    "equip": "开团：自身的首件普通装备分享给随机3名友方英雄",
+    "cc": "L40 附身攻击…眩晕"
+   },
+   "functional_value": 8,
+   "carry_value": 1,
+   "is_second_carry_risk": false,
+   "why": "附身最近英雄（主C）给盾和双攻，装备分享 3 人，零资源需求",
+   "_ref": {
+    "quality": 3,
+    "faction": "大河流域",
+    "tags": [
+     "后排"
+    ],
+    "lineup_appear_pct": 14.9,
+    "lineup_carry_pct_when_present": 2
+   },
+   "engine_grants": [
+    {
+     "to": "nearest",
+     "what": "附身最近英雄：护盾+双攻双防；首件普通装备分享给随机3名友军"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "镜": {
+   "combat_role": [
+    "assassin"
+   ],
+   "damage_shape": {
+    "shape": "single",
+    "source": "skill"
+   },
+   "functions": {
+    "self_growth": "每使用2张效果牌，等级+1",
+    "blink": "闪现"
+   },
+   "functional_value": 2,
+   "carry_value": 6,
+   "is_second_carry_risk": true,
+   "why": "效果牌自涨的闪现刺客，只能当主C",
+   "_ref": {
+    "quality": 3,
+    "faction": "逐鹿",
+    "tags": [
+     "前排",
+     "刺客"
+    ],
+    "lineup_appear_pct": 0.5,
+    "lineup_carry_pct_when_present": 83
+   },
+   "engine_grants": [
+    {
+     "to": "self_only",
+     "what": "每用2张效果牌自身+1级"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": [
+    "百里玄策",
+    "孙悟空"
+   ]
+  },
+  "朵莉亚": {
+   "combat_role": [
+    "support"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "team_level": "每当你的英雄触发整备效果时，随机3名英雄及阿科米亚核心等级+1",
+    "core_level": "阿科米亚核心等级+1",
+    "heal": "恢复范围内友军…生命值",
+    "buff_atk": "法力值恢复…L100 恢复水域内友军100%最大法力值"
+   },
+   "functional_value": 8,
+   "carry_value": 1,
+   "is_second_carry_risk": false,
+   "why": "整备→全队涨级+奶+回蓝，日落海顶级辅助",
+   "_ref": {
+    "quality": 3,
+    "faction": "日落海",
+    "tags": [
+     "后排",
+     "辅助"
+    ],
+    "lineup_appear_pct": 8.9,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [
+    {
+     "to": "random",
+     "what": "每触发1次整备效果，随机3名英雄及核心+1级（醒：所有英雄）"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "莱西奥": {
+   "combat_role": [
+    "support",
+    "carry_phys"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "mixed"
+   },
+   "functions": {
+    "core_level": "每当你出售2名场上英雄后，阿科米亚核心等级+1",
+    "buff_atk": "烟雾…增加30%攻击速度",
+    "buff_def": "处于烟雾中的英雄不会被优先攻击"
+   },
+   "functional_value": 5,
+   "carry_value": 5,
+   "is_second_carry_risk": true,
+   "why": "烟雾给友军攻速+隐身，本体火鹰飞弹也要养",
+   "_ref": {
+    "quality": 4,
+    "faction": "日落海",
+    "tags": [
+     "后排",
+     "射手"
+    ],
+    "lineup_appear_pct": 1.2,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [
+    {
+     "to": "core",
+     "what": "每卖2名场上英雄核心+1"
+    },
+    {
+     "to": "allies_in_smoke",
+     "what": "烟雾内友军攻速+30%、不被优先攻击"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "上官婉儿": {
+   "combat_role": [
+    "carry_mag",
+    "utility"
+   ],
+   "damage_shape": {
+    "shape": "pierce",
+    "source": "skill"
+   },
+   "functions": {
+    "carry_level": "整备：随机对3名不同【河洛】英雄使用1张古币",
+    "economy": "每回合 3 张古币效果"
+   },
+   "functional_value": 7,
+   "carry_value": 6,
+   "is_second_carry_risk": true,
+   "why": "河洛古币喷泉，出场 10% 从不当主C；本体是穿透法师，别给装备",
+   "_ref": {
+    "quality": 4,
+    "faction": "河洛",
+    "tags": [
+     "后排",
+     "法师"
+    ],
+    "lineup_appear_pct": 9.6,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [
+    {
+     "faction": "河洛",
+     "to": "random",
+     "what": "整备：随机3名河洛英雄各用1张古币"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "艾琳": {
+   "combat_role": [
+    "carry_mag"
+   ],
+   "damage_shape": {
+    "shape": "single",
+    "source": "auto"
+   },
+   "functions": {
+    "self_growth": "开团：艾琳获得自身等级×1%的攻击速度"
+   },
+   "functional_value": 1,
+   "carry_value": 8,
+   "is_second_carry_risk": true,
+   "why": "纯普攻叠层主C，零功能",
+   "_ref": {
+    "quality": 4,
+    "faction": "日落海",
+    "tags": [
+     "后排",
+     "射手"
+    ],
+    "lineup_appear_pct": 11.5,
+    "lineup_carry_pct_when_present": 100
+   },
+   "engine_grants": [],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "扁鹊": {
+   "combat_role": [
+    "support"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "heal": "处于药液中的友军每秒恢复…生命值",
+    "debuff": "友方单位护盾被击破时，对周围敌人造成…10%的法术伤害；L100 降低敌人40%攻速",
+    "buff_atk": "L100 提升友军40%攻速"
+   },
+   "functional_value": 6,
+   "carry_value": 3,
+   "is_second_carry_risk": false,
+   "why": "护盾爆破+药液奶/毒，护盾流功能件",
+   "_ref": {
+    "quality": 4,
+    "faction": "逐鹿",
+    "tags": [
+     "后排"
+    ],
+    "lineup_appear_pct": 1.7,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "嬴政": {
+   "combat_role": [
+    "carry_mag"
+   ],
+   "damage_shape": {
+    "shape": "single",
+    "source": "skill"
+   },
+   "functions": {
+    "self_growth": "开团：法术攻击力+7。每次使用战术牌会提升该加成"
+   },
+   "functional_value": 1,
+   "carry_value": 8,
+   "is_second_carry_risk": true,
+   "why": "飞剑单体法术主C，零功能",
+   "_ref": {
+    "quality": 4,
+    "faction": "逐鹿",
+    "tags": [
+     "后排"
+    ],
+    "lineup_appear_pct": 9.9,
+    "lineup_carry_pct_when_present": 99
+   },
+   "engine_grants": [],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "李信": {
+   "combat_role": [
+    "carry_phys"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "temp_level": "拥有牺牲效果的英雄阵亡时，李信临时等级+7（只给自己）",
+    "revive": "L100 阵亡后以狂暴形态完美复生"
+   },
+   "functional_value": 1,
+   "carry_value": 8,
+   "is_second_carry_risk": true,
+   "why": "牺牲体系主C，零功能",
+   "_ref": {
+    "quality": 4,
+    "faction": "河洛",
+    "tags": [
+     "后排"
+    ],
+    "lineup_appear_pct": 11.5,
+    "lineup_carry_pct_when_present": 100
+   },
+   "engine_grants": [
+    {
+     "keyword": "牺牲",
+     "to": "self_only",
+     "what": "牺牲英雄阵亡时自身+7临时等级（牺牲体系的接收方）",
+     "fed_by": [
+      "苏烈",
+      "项羽",
+      "盾山",
+      "蒙恬",
+      "铠",
+      "钟馗(及左右1格)",
+      "花木兰",
+      "海月"
+     ]
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "李白": {
+   "combat_role": [
+    "assassin"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "temp_level": "古币牌会额外提供4临时等级（全体古币目标）",
+    "blink": "闪现"
+   },
+   "functional_value": 5,
+   "carry_value": 7,
+   "is_second_carry_risk": true,
+   "why": "古币给全队额外临时等级是真功能，但阵容里 91% 当主C",
+   "_ref": {
+    "quality": 4,
+    "faction": "河洛",
+    "tags": [
+     "前排",
+     "刺客"
+    ],
+    "lineup_appear_pct": 6.2,
+    "lineup_carry_pct_when_present": 91
+   },
+   "engine_grants": [
+    {
+     "to": "gubi_target",
+     "what": "古币牌额外+4临时等级，目标为李白再+3"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": [
+    "百里玄策",
+    "孙悟空"
+   ]
+  },
+  "雅典娜": {
+   "combat_role": [
+    "tank",
+    "controller"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "card_gen": "开团：随机触发2名【日落海】英雄的整备效果",
+    "shield": "持续6秒15%最大生命值的护盾",
+    "cc": "L40 眩晕1.5秒"
+   },
+   "functional_value": 7,
+   "carry_value": 1,
+   "is_second_carry_risk": false,
+   "why": "开团复读日落海整备（安琪拉/狂铁/朵莉亚），免控坦克",
+   "_ref": {
+    "quality": 4,
+    "faction": "日落海",
+    "tags": [
+     "前排",
+     "坦克"
+    ],
+    "lineup_appear_pct": 8.5,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [
+    {
+     "faction": "日落海",
+     "keyword": "整备",
+     "what": "开团：随机触发2名日落海英雄的整备效果"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "太乙真人": {
+   "combat_role": [
+    "support",
+    "tank"
+   ],
+   "damage_shape": {
+    "shape": "none",
+    "source": "skill"
+   },
+   "functions": {
+    "revive": "开团：使距离最近的1名英雄获得复生",
+    "taunt": "嘲讽周围1格的敌人",
+    "shield": "L10 400点护盾"
+   },
+   "functional_value": 9,
+   "carry_value": 1,
+   "is_second_carry_risk": false,
+   "why": "给最近的主C 复生+冲敌阵嘲讽，出场率第二，放主C 旁边",
+   "_ref": {
+    "quality": 4,
+    "faction": "无阵营",
+    "tags": [
+     "前排",
+     "坦克"
+    ],
+    "lineup_appear_pct": 25.0,
+    "lineup_carry_pct_when_present": 1
+   },
+   "engine_grants": [
+    {
+     "to": "nearest",
+     "what": "开团：最近的1名英雄获得复生"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "孙悟空": {
+   "combat_role": [
+    "carry_phys",
+    "bruiser"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "steal": "夺取",
+    "team_level": "整备：拥有闪现效果的英雄等级+2",
+    "blink": "闪现"
+   },
+   "functional_value": 4,
+   "carry_value": 8,
+   "is_second_carry_risk": true,
+   "why": "400%+ 物攻大棒主C，给闪现英雄涨级，61% 当主C",
+   "_ref": {
+    "quality": 4,
+    "faction": "无阵营",
+    "tags": [
+     "前排"
+    ],
+    "lineup_appear_pct": 15.6,
+    "lineup_carry_pct_when_present": 61
+   },
+   "engine_grants": [
+    {
+     "keyword": "闪现",
+     "what": "整备：闪现英雄等级+2（醒+4），与击杀无关",
+     "feeds": [
+      "百里玄策",
+      "云中君",
+      "阿轲",
+      "裴擒虎",
+      "镜",
+      "李白",
+      "孙悟空",
+      "韩信",
+      "露娜"
+     ]
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": [
+    "百里玄策"
+   ]
+  },
+  "甄姬": {
+   "combat_role": [
+    "controller",
+    "carry_mag"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "card_gen": "登场：获得1张其他的登场英雄牌",
+    "cc": "冻结1秒"
+   },
+   "functional_value": 7,
+   "carry_value": 5,
+   "is_second_carry_risk": false,
+   "why": "登场送牌+弹射冻结，三分体系出场 16% 从不当主C",
+   "_ref": {
+    "quality": 4,
+    "faction": "三分之地",
+    "tags": [
+     "后排",
+     "法师"
+    ],
+    "lineup_appear_pct": 16.5,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [
+    {
+     "keyword": "登场",
+     "what": "登场：获得1张其他登场英雄牌"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": [
+    "吕布(仅吸血)"
+   ]
+  },
+  "小乔": {
+   "combat_role": [
+    "controller",
+    "utility"
+   ],
+   "damage_shape": {
+    "shape": "single",
+    "source": "skill"
+   },
+   "functions": {
+    "team_level": "每当你的英雄触发登场效果时，随机3名英雄等级+1（醒：所有英雄）",
+    "cc": "使其浮空"
+   },
+   "functional_value": 9,
+   "carry_value": 3,
+   "is_second_carry_risk": false,
+   "why": "登场→全队永久涨级引擎，出场 19% 从不当主C",
+   "_ref": {
+    "quality": 4,
+    "faction": "三分之地",
+    "tags": [
+     "后排",
+     "法师"
+    ],
+    "lineup_appear_pct": 18.9,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [
+    {
+     "to": "random",
+     "what": "每触发1次登场效果，随机3名英雄+1级（醒：所有英雄）"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "大司命": {
+   "combat_role": [
+    "bruiser",
+    "summoner"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "mixed"
+   },
+   "functions": {
+    "summon": "在场时，召唤往生图腾；凝聚…灵体（视作召唤物）",
+    "sacrifice": "每当你触发牺牲效果时：往生图腾等级永久+2",
+    "heal": "普攻会恢复…生命值"
+   },
+   "functional_value": 6,
+   "carry_value": 6,
+   "is_second_carry_risk": true,
+   "why": "tags 写坦克，其实是 2 格物理范围输出+自奶+召唤，吃资源",
+   "_ref": {
+    "quality": 4,
+    "faction": "大河流域",
+    "tags": [
+     "后排",
+     "坦克"
+    ],
+    "lineup_appear_pct": 7.6,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [
+    {
+     "keyword": "牺牲",
+     "to": "totem",
+     "what": "触发牺牲：往生图腾永久+2级"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "庄周": {
+   "combat_role": [
+    "tank",
+    "support"
+   ],
+   "damage_shape": {
+    "shape": "none",
+    "source": "skill"
+   },
+   "functions": {
+    "shield": "驱散自身和左右两边2格内友军，并获得200点护盾",
+    "card_gen": "登场：…获得1张招募战术",
+    "self_growth": "登场：自身等级+2",
+    "cc": "L40 护盾持续时间内免控（驱散）"
+   },
+   "functional_value": 7,
+   "carry_value": 1,
+   "is_second_carry_risk": false,
+   "why": "解控+群盾坦克，放主C 旁边",
+   "_ref": {
+    "quality": 4,
+    "faction": "逐鹿",
+    "tags": [
+     "前排",
+     "坦克"
+    ],
+    "lineup_appear_pct": 10.1,
+    "lineup_carry_pct_when_present": 1
+   },
+   "engine_grants": [],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "刘邦": {
+   "combat_role": [
+    "tank"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "auto"
+   },
+   "functions": {
+    "self_growth": "开团：摧毁你所有的图腾，每摧毁1个，刘邦等级永久+5",
+    "shield": "L40 每秒为周围1格的友军提供80点护盾"
+   },
+   "functional_value": 4,
+   "carry_value": 2,
+   "is_second_carry_risk": false,
+   "why": "吃图腾自涨的坦克，会和图腾体系抢资源",
+   "_ref": {
+    "quality": 4,
+    "faction": "大河流域",
+    "tags": [
+     "前排",
+     "坦克"
+    ],
+    "lineup_appear_pct": 0.2,
+    "lineup_carry_pct_when_present": 100
+   },
+   "engine_grants": [
+    {
+     "to": "self_only",
+     "what": "开团：摧毁图腾，每个+5级（与图腾体系冲突）"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "诸葛亮": {
+   "combat_role": [
+    "carry_mag"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "temp_level": "其他英雄释放技能时，诸葛亮获得15点法力值以及4临时等级（只给自己）"
+   },
+   "functional_value": 1,
+   "carry_value": 8,
+   "is_second_carry_risk": true,
+   "why": "吃队友技能涨自己的法师主C",
+   "_ref": {
+    "quality": 4,
+    "faction": "三分之地",
+    "tags": [
+     "后排",
+     "法师"
+    ],
+    "lineup_appear_pct": 3.9,
+    "lineup_carry_pct_when_present": 35
+   },
+   "engine_grants": [
+    {
+     "to": "self_only",
+     "what": "其他英雄放技能时自身+4临时等级"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": [
+    "吕布(仅吸血)"
+   ]
+  },
+  "韩信": {
+   "combat_role": [
+    "assassin",
+    "carry_phys"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "mixed"
+   },
+   "functions": {
+    "self_growth": "每当你的英雄触发整备或开团效果时，韩信等级永久+2（2026-10-08 版本改：+1→+2，觉醒 +4）",
+    "blink": "闪现",
+    "cc": "击飞"
+   },
+   "functional_value": 2,
+   "carry_value": 7,
+   "is_second_carry_risk": true,
+   "why": "自涨级的突进刺客主C",
+   "_ref": {
+    "quality": 4,
+    "faction": "大河流域",
+    "tags": [
+     "前排",
+     "刺客"
+    ],
+    "lineup_appear_pct": 0.4,
+    "lineup_carry_pct_when_present": 83
+   },
+   "engine_grants": [
+    {
+     "to": "self_only",
+     "what": "每触发1次整备/开团，韩信永久+1级（整备/开团体系的接收方）"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": [
+    "百里玄策",
+    "孙悟空"
+   ]
+  },
+  "蒙犽": {
+   "combat_role": [
+    "carry_phys"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "card_gen": "登场：获得1张特训战术"
+   },
+   "functional_value": 3,
+   "carry_value": 7,
+   "is_second_carry_risk": true,
+   "why": "导弹射手，功能只有一次性送一张牌，留场就是第二输出",
+   "_ref": {
+    "quality": 4,
+    "faction": "逐鹿",
+    "tags": [
+     "后排"
+    ],
+    "lineup_appear_pct": 9.2,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "东皇太一": {
+   "combat_role": [
+    "tank",
+    "controller"
+   ],
+   "damage_shape": {
+    "shape": "single",
+    "source": "mixed"
+   },
+   "functions": {
+    "summon": "图腾不会被优先攻击",
+    "temp_level": "开团：获得每个图腾等级数15%的临时等级",
+    "cc": "压制目标敌人5秒"
+   },
+   "functional_value": 6,
+   "carry_value": 2,
+   "is_second_carry_risk": false,
+   "why": "保护图腾+压制控制的坦克",
+   "_ref": {
+    "quality": 5,
+    "faction": "大河流域",
+    "tags": [
+     "前排",
+     "坦克"
+    ],
+    "lineup_appear_pct": 3.9,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [
+    {
+     "to": "self_only",
+     "what": "开团：按图腾等级获得临时等级"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "敖隐": {
+   "combat_role": [
+    "carry_phys"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "mixed"
+   },
+   "functions": {
+    "temp_level": "每个图腾每4秒为敖隐提供16%攻击速度和4临时等级（只给自己）"
+   },
+   "functional_value": 1,
+   "carry_value": 8,
+   "is_second_carry_risk": true,
+   "why": "图腾体系射手主C",
+   "_ref": {
+    "quality": 5,
+    "faction": "大河流域",
+    "tags": [
+     "后排",
+     "射手"
+    ],
+    "lineup_appear_pct": 3.7,
+    "lineup_carry_pct_when_present": 100
+   },
+   "engine_grants": [
+    {
+     "to": "self_only",
+     "what": "每个图腾每4秒给自身攻速+4临时等级"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "鲁班大师": {
+   "combat_role": [
+    "controller",
+    "summoner"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "summon": "召唤1个等级与自身相同的机关傀儡",
+    "cc": "L40 控制目标增加至最多3名",
+    "shield": "L10 250点护盾"
+   },
+   "functional_value": 6,
+   "carry_value": 2,
+   "is_second_carry_risk": false,
+   "why": "群拉群控+同级傀儡，是开团控制件不是主C",
+   "_ref": {
+    "quality": 5,
+    "faction": "逐鹿",
+    "tags": [
+     "前排"
+    ],
+    "lineup_appear_pct": 1.5,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "花木兰": {
+   "combat_role": [
+    "bruiser",
+    "controller"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "revive": "本回合每使用5张古币牌，获得1次复生",
+    "temp_level": "牺牲：临时等级+10",
+    "cc": "重剑…击飞并眩晕1.5秒"
+   },
+   "functional_value": 5,
+   "carry_value": 6,
+   "is_second_carry_risk": true,
+   "why": "tags 只有前排，实际是轻剑 7 段物理输出/重剑群控的战士，吃古币",
+   "_ref": {
+    "quality": 5,
+    "faction": "河洛",
+    "tags": [
+     "前排"
+    ],
+    "lineup_appear_pct": 12.3,
+    "lineup_carry_pct_when_present": 4
+   },
+   "engine_grants": [
+    {
+     "to": "self_only",
+     "what": "本回合每用5张古币获得1次复生（古币体系的接收方）"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "司空震": {
+   "combat_role": [
+    "carry_mag"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "mixed"
+   },
+   "functions": {
+    "temp_level": "其他英雄获得临时等级时，司空震获得一半效果",
+    "shield": "闪电链…转化为自身护盾"
+   },
+   "functional_value": 1,
+   "carry_value": 9,
+   "is_second_carry_risk": true,
+   "why": "全场轰击的法师主C，零功能",
+   "_ref": {
+    "quality": 5,
+    "faction": "河洛",
+    "tags": [
+     "后排",
+     "法师"
+    ],
+    "lineup_appear_pct": 14.3,
+    "lineup_carry_pct_when_present": 86
+   },
+   "engine_grants": [
+    {
+     "to": "self_only",
+     "what": "其他英雄获得临时等级时，司空震获得一半（临时等级体系的接收方）"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "姜子牙": {
+   "combat_role": [
+    "carry_mag",
+    "utility"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "team_level": "使用不在场的阵营以及无阵营的英雄牌时，姜子牙和随机3名其他不同阵营的英雄等级+1",
+    "debuff": "L40 降低敌人50%生命恢复效果"
+   },
+   "functional_value": 7,
+   "carry_value": 7,
+   "is_second_carry_risk": true,
+   "why": "杂阵营涨级引擎，同时是强法师；非主C 时也值得上，但会吃资源",
+   "_ref": {
+    "quality": 5,
+    "faction": "无阵营",
+    "tags": [
+     "后排"
+    ],
+    "lineup_appear_pct": 3.0,
+    "lineup_carry_pct_when_present": 9
+   },
+   "engine_grants": [
+    {
+     "to": "random_diff_faction",
+     "what": "用不在场阵营/无阵营英雄牌：自身及随机3名不同阵营英雄+1级"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "武则天": {
+   "combat_role": [
+    "carry_mag",
+    "utility"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "carry_level": "古币牌提升的等级+1",
+    "economy": "登场：获得1张精致古币",
+    "debuff": "生命恢复效果降低50%"
+   },
+   "functional_value": 7,
+   "carry_value": 7,
+   "is_second_carry_risk": true,
+   "why": "古币放大器，阵容出场 8% 从不当主C；本体范围法师",
+   "_ref": {
+    "quality": 5,
+    "faction": "河洛",
+    "tags": [
+     "后排",
+     "法师"
+    ],
+    "lineup_appear_pct": 8.3,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [
+    {
+     "to": "gubi_target",
+     "what": "古币牌提升的等级+1；登场给精致古币"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "吕布": {
+   "combat_role": [
+    "bruiser",
+    "carry_phys"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "buff_atk": "开团：等级最高的3名【三分】英雄获得20%物理和法术吸血",
+    "cc": "击飞1秒",
+    "heal": "每命中1名敌人恢复5%最大生命值"
+   },
+   "functional_value": 5,
+   "carry_value": 8,
+   "is_second_carry_risk": true,
+   "why": "范围战士主C，吸血加成给三分高等级人",
+   "_ref": {
+    "quality": 5,
+    "faction": "三分之地",
+    "tags": [
+     "前排"
+    ],
+    "lineup_appear_pct": 3.2,
+    "lineup_carry_pct_when_present": 38
+   },
+   "engine_grants": [
+    {
+     "faction": "三分之地",
+     "to": "top3_level",
+     "what": "开团：等级最高的3名三分英雄获得20%吸血"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "海月": {
+   "combat_role": [
+    "carry_mag",
+    "controller"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "sacrifice": "牺牲：将敌方等级最高的英雄困入水月幻境控制4秒",
+    "cc": "水月幻境控制",
+    "shield": "L100 每5秒为友军提供100点护盾"
+   },
+   "functional_value": 5,
+   "carry_value": 7,
+   "is_second_carry_risk": true,
+   "why": "tags 写坦克，其实是法术爆发+牺牲控敌方主C；伞海月被用户排除",
+   "_ref": {
+    "quality": 5,
+    "faction": "无阵营",
+    "tags": [
+     "后排",
+     "坦克"
+    ],
+    "lineup_appear_pct": 17.6,
+    "lineup_carry_pct_when_present": 12
+   },
+   "engine_grants": [],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "鲁班七号": {
+   "combat_role": [
+    "carry_phys"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "card_gen": "你的英雄每合成3次，随机获得1张战术牌",
+    "debuff": "降低70%生命恢复效果"
+   },
+   "functional_value": 4,
+   "carry_value": 7,
+   "is_second_carry_risk": true,
+   "why": "轰炸射手，出场 10% 却从不当主C（副输出）；非主C 时仍分装备",
+   "_ref": {
+    "quality": 5,
+    "faction": "逐鹿",
+    "tags": [
+     "后排",
+     "射手"
+    ],
+    "lineup_appear_pct": 9.8,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "海诺": {
+   "combat_role": [
+    "carry_mag"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "core_level": "每当阿科米亚核心等级提升时，核心等级额外+1"
+   },
+   "functional_value": 5,
+   "carry_value": 8,
+   "is_second_carry_risk": true,
+   "why": "日落海核心放大器+强法师",
+   "_ref": {
+    "quality": 5,
+    "faction": "日落海",
+    "tags": [
+     "后排"
+    ],
+    "lineup_appear_pct": 2.8,
+    "lineup_carry_pct_when_present": 9
+   },
+   "engine_grants": [
+    {
+     "to": "core",
+     "what": "核心升级时额外+1"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "露娜": {
+   "combat_role": [
+    "assassin",
+    "carry_mag"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "core_level": "登场：阿科米亚核心等级+2",
+    "card_gen": "并且随机触发2名英雄的整备效果",
+    "blink": "闪现"
+   },
+   "functional_value": 7,
+   "carry_value": 8,
+   "is_second_carry_risk": true,
+   "why": "登场复读整备+核心，本体是突进法刺；主C/功能双用",
+   "_ref": {
+    "quality": 5,
+    "faction": "日落海",
+    "tags": [
+     "前排",
+     "刺客"
+    ],
+    "lineup_appear_pct": 23.5,
+    "lineup_carry_pct_when_present": 26
+   },
+   "engine_grants": [
+    {
+     "keyword": "整备",
+     "what": "登场：随机触发2名英雄的整备效果，核心+2"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": [
+    "百里玄策",
+    "孙悟空"
+   ]
+  },
+  "杨玉环": {
+   "combat_role": [
+    "support",
+    "carry_mag"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "card_gen": "每过3个回合获得1张弦音；退场：获得1张弦音（觉醒进度+1）",
+    "heal": "清平：为3名血量最低的友军恢复…生命值"
+   },
+   "functional_value": 6,
+   "carry_value": 5,
+   "is_second_carry_risk": false,
+   "why": "弦音送觉醒进度+群奶群伤",
+   "_ref": {
+    "quality": 5,
+    "faction": "无阵营",
+    "tags": [
+     "后排",
+     "法师"
+    ],
+    "lineup_appear_pct": 2.0,
+    "lineup_carry_pct_when_present": 32
+   },
+   "engine_grants": [
+    {
+     "to": "any",
+     "what": "弦音：觉醒进度+1"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": []
+  },
+  "周瑜": {
+   "combat_role": [
+    "carry_mag",
+    "tank"
+   ],
+   "damage_shape": {
+    "shape": "aoe",
+    "source": "skill"
+   },
+   "functions": {
+    "team_level": "登场：全体英雄等级+1（醒：+2）",
+    "heal": "恢复自身…生命值；焦土每秒恢复",
+    "cc": "L40 1.5秒眩晕"
+   },
+   "functional_value": 9,
+   "carry_value": 5,
+   "is_second_carry_risk": false,
+   "why": "tags 写坦克，实际是自奶范围法师；登场全体+1 级（配曹操/甄姬复读）是最强功能之一",
+   "_ref": {
+    "quality": 5,
+    "faction": "三分之地",
+    "tags": [
+     "后排",
+     "坦克"
+    ],
+    "lineup_appear_pct": 16.0,
+    "lineup_carry_pct_when_present": 0
+   },
+   "engine_grants": [
+    {
+     "to": "all",
+     "what": "登场：全体英雄+1级"
+    }
+   ],
+   "engine_needs_carry": false,
+   "second_output_ok_with": [
+    "吕布(仅吸血)"
+   ]
+  }
+ }
+}

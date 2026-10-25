@@ -1,0 +1,3586 @@
+{
+ "高级人才": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 6,
+  "reason": "白拿 1 张（棋手等级+1）阶英雄牌，比当前商店高一档，越早越好",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "照影": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1",
+   "field>=1"
+  ],
+  "priority": 5,
+  "reason": "随机复制 1 张场上英雄牌 = 合成材料",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "呼朋唤友": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 5,
+  "reason": "拿 1 张与目标同阵营的英雄牌：点主C，拿到的是主C 阵营的人",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "吸纳人才": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 6,
+  "reason": "英雄 4 选 1，弹出 N 选 1 界面",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "简易协作": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 7,
+  "reason": "主C 等级+3（另随机 1 人+2）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "遗志": {
+  "usable_from_hand": true,
+  "target": "prev_carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "移除一名英雄、真实等级**全部**转给随机一名己方英雄（主 agent 按卡面分析）。用法：①换主C 后移除老主C —— 只剩新老主C 两人时（等级只能给新主C），或老主C 绑着枫叶舞且有红叶染锋（50% 确定留给改绑的新主C + 100% 随机）；②本来要卖掉的高等级（≥10）过渡件，场上其余大多是要留的人时，用遗志代替卖（规则 _yizhi_instead_of_sell）。**绝不打给当前主C**（用户：「用了就直接输了」）。3 阶效果牌，主要从「3 阶效果锦囊」的 N 选 1 里拿到（用户确认）；中期准备换主C / 有练高的过渡件时，锦囊里才值得选它",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "1阶英雄兑换券": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 6,
+  "reason": "对应品阶英雄 3 选 1，白拿；高阶的越早越好",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "2阶英雄兑换券": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 6,
+  "reason": "对应品阶英雄 3 选 1，白拿；高阶的越早越好",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "3阶英雄兑换券": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 6,
+  "reason": "对应品阶英雄 3 选 1，白拿；高阶的越早越好",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "3阶英雄兑换券(效果牌)": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 6,
+  "reason": "对应品阶英雄 3 选 1，白拿；高阶的越早越好",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "4阶英雄兑换券": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 6,
+  "reason": "对应品阶英雄 3 选 1，白拿；高阶的越早越好",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "4阶英雄兑换券(效果牌)": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 6,
+  "reason": "对应品阶英雄 3 选 1，白拿；高阶的越早越好",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "5阶英雄兑换券": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 6,
+  "reason": "对应品阶英雄 3 选 1，白拿；高阶的越早越好",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "5阶英雄兑换券(效果牌)": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 6,
+  "reason": "对应品阶英雄 3 选 1，白拿；高阶的越早越好",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "研读会": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 9,
+  "reason": "白送棋手经验，越早越好（早升级 = 早开高品阶池）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "经典研读会": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 9,
+  "reason": "白送棋手经验，越早越好（早升级 = 早开高品阶池）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "精密协作": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 7,
+  "reason": "主C 等级+4（另随机 1 人+3）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "广纳良才": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:2"
+  ],
+  "priority": 6,
+  "reason": "英雄 5 选 2",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "求贤": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 5,
+  "reason": "点主C，发现 3 张主C 阵营的英雄选 1",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "扶倾济弱": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "field>=2"
+  ],
+  "priority": 5,
+  "reason": "自动给场上等级最低的人 +9 级（不点名）；场上至少两人才有意义",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "临阵磨枪": {
+  "usable_from_hand": true,
+  "target": "prep_hero",
+  "when": [
+   "tag_on_field:整备:1"
+  ],
+  "priority": 4,
+  "reason": "指定英雄再触发一次整备：点整备效果最值钱的那个；场上没有整备英雄就留着",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "唤醒": {
+  "usable_from_hand": true,
+  "target": "entry_hero",
+  "when": [
+   "tag_on_field:登场:1"
+  ],
+  "priority": 4,
+  "reason": "指定英雄再触发一次登场：点登场效果最值钱的那个（给牌/给等级的）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "能量大爆炸": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 8,
+  "reason": "白拿 5 能量",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "有福同享": {
+  "usable_from_hand": true,
+  "target": "tier_bulk",
+  "when": [
+   "field>=2"
+  ],
+  "priority": 5,
+  "reason": "场上与目标同品阶的英雄都 +3：点人数最多那一档里的人（有主C 就点主C 那档）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "有福同享(效果牌)": {
+  "usable_from_hand": true,
+  "target": "tier_bulk",
+  "when": [
+   "field>=2"
+  ],
+  "priority": 5,
+  "reason": "场上与目标同品阶的英雄都 +3：点人数最多那一档里的人（有主C 就点主C 那档）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "集体唤醒": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "tag_on_field:登场:2"
+  ],
+  "priority": 5,
+  "reason": "所有英雄再触发一次登场：至少 2 个登场英雄才划算",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "全军动员": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "tag_on_field:整备:2"
+  ],
+  "priority": 5,
+  "reason": "所有英雄再触发一次整备：至少 2 个整备英雄才划算",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "武装重构": {
+  "usable_from_hand": true,
+  "target": "equipped_noncarry",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "摧毁装备换回件数+1 的基础装备：给身上有装备的非主C（拿回来再穿给主C）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "精选武装": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 5,
+  "reason": "基础装备 4 选 1",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "传承": {
+  "usable_from_hand": true,
+  "target": "level_dump",
+  "when": [
+   "now"
+  ],
+  "priority": 1,
+  "reason": "把\"等级高但等级对它没用\"的功能件（辅助 / 被连带效果涨上来的坦克 / 马上要卖的老主C）的等级摊给 3 名队友；场上 ≥4 人、源 ≥10 级才用（用户 2026-10-09：\"传承可以用在那些等级毫无作用、但因为各种连带效果被升级的角色\"）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "展翅腾飞": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "gold>=4"
+  ],
+  "priority": 4,
+  "reason": "本回合刷新免费：手里有钱能买到刷出来的牌才用（不然白费）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "移花接木": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "下场战斗随机一人拿敌方最高等级英雄的一半等级，纯收益",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "惊喜补贴": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 7,
+  "reason": "免费刷新（可留到下回合），纯收益",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "超级补贴": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 7,
+  "reason": "免费刷新（可留到下回合），纯收益",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "武装分解": {
+  "usable_from_hand": true,
+  "target": "equipped_noncarry",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "摧毁装备换能量/妙音/珍品宝箱：给身上有装备的非主C，3 件最值",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "珍品宝箱": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 6,
+  "reason": "特殊/天赋装备 3 选 1",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "破境之证": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 10,
+  "reason": "主C 立即 +20 级、之后每回合 +10：越早给越值",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "超级复印机": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:3",
+   "field>=1"
+  ],
+  "priority": 5,
+  "reason": "3 张相同的场上英雄牌（随机哪个人）= 一次合成",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "四人同行": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:4"
+  ],
+  "priority": 6,
+  "reason": "5 选 1 后一分为四",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "狂飙三倍速": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:3"
+  ],
+  "priority": 4,
+  "reason": "拿 3 张开局狂飙（之后给主C 用）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "众星闪耀": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "round>=11"
+  ],
+  "priority": 3,
+  "reason": "全体 +10，每多持有一回合 +5：**攒着**，后期（第 11 回合起）或快输时再用",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "神兵天降": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:4"
+  ],
+  "priority": 7,
+  "reason": "4 张 5 阶兑换券",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "军械库": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:3"
+  ],
+  "priority": 5,
+  "reason": "3 张基础装备",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "呼风唤雨": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:4"
+  ],
+  "priority": 6,
+  "reason": "4 张随机 5 阶效果牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "绝处逢生": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hp<=16",
+   "hand_room:6"
+  ],
+  "priority": 2,
+  "reason": "游戏规定血量 16 以内才能用（用户 10-22）。10-22 第 928 局 26 血就用了是血量认行错误；第 929 局起改为按绿色数字认行，整局曲线核对单调、不可信 2 次（927 局 351 次）后重新开启",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "化铁为金": {
+  "usable_from_hand": true,
+  "target": "lowest_tier_high_level",
+  "when": [
+   "now"
+  ],
+  "priority": 8,
+  "reason": "1-3 阶英雄变成不在场的 5 阶觉醒英雄、等级保留：主C 是 1-3 阶就点主C，否则点 1-3 阶里等级最高的非消耗件",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "一线生机": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:2"
+  ],
+  "priority": 6,
+  "reason": "免死一次 + 2 张名刀·司命，纯收益",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "能量超新星": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 8,
+  "reason": "白拿 10~20 能量",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "扶摇直上": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 8,
+  "reason": "棋手 +1 级（满级给 10 能量），白拿",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "新生力量": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 9,
+  "reason": "可上阵人数 +1，白拿",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "沧海拾遗": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 6,
+  "reason": "随机 1 张 6 阶效果牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "天籁琴音": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:3"
+  ],
+  "priority": 5,
+  "reason": "3 张妙音（觉醒进度+1，之后给主C）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "助力核心": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "faction_on_field:日落海:1"
+  ],
+  "priority": 4,
+  "reason": "阿科米亚核心 +2、每个日落海英雄再 +2：场上有日落海才有用",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "古币多多": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:2"
+  ],
+  "priority": 4,
+  "reason": "2 张古币（给河洛英雄 +2 级）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "阵营祝福": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "field>=2"
+  ],
+  "priority": 5,
+  "reason": "每个阵营随机一人 +4",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "发号施令": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:2"
+  ],
+  "priority": 4,
+  "reason": "2 张战术牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "换帅": {
+  "usable_from_hand": true,
+  "target": "hold",
+  "when": [
+   "now"
+  ],
+  "priority": 1,
+  "reason": "两个三分英雄交换等级：方向错了会把主C 的等级换走，交给学生判",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "rule_use": "level_swap",
+  "category": "效果牌"
+ },
+ "河洛征召令": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:2"
+  ],
+  "priority": 5,
+  "reason": "白拿 2 张英雄牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "三分征召令": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:2"
+  ],
+  "priority": 5,
+  "reason": "白拿 2 张英雄牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "逐鹿征召令": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:2"
+  ],
+  "priority": 5,
+  "reason": "白拿 2 张英雄牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "日落海征召令": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:2"
+  ],
+  "priority": 5,
+  "reason": "白拿 2 张英雄牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "大河流域征召令": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:2"
+  ],
+  "priority": 5,
+  "reason": "白拿 2 张英雄牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "无阵营征召令": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:2"
+  ],
+  "priority": 5,
+  "reason": "白拿 2 张英雄牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "登场人物": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:2"
+  ],
+  "priority": 5,
+  "reason": "白拿 2 张英雄牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "整备高手": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:2"
+  ],
+  "priority": 5,
+  "reason": "白拿 2 张英雄牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "牺牲品": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:2"
+  ],
+  "priority": 5,
+  "reason": "白拿 2 张英雄牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "闪现突击者": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:2"
+  ],
+  "priority": 5,
+  "reason": "白拿 2 张英雄牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "开团号令": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:2"
+  ],
+  "priority": 5,
+  "reason": "白拿 2 张英雄牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "2阶英雄": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:2"
+  ],
+  "priority": 5,
+  "reason": "白拿 2 张英雄牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "4阶英雄": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:2"
+  ],
+  "priority": 5,
+  "reason": "白拿 2 张英雄牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "5阶英雄": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:2"
+  ],
+  "priority": 5,
+  "reason": "白拿 2 张英雄牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "图腾仪式": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 4,
+  "reason": "1 张图腾相关的大河英雄牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "度命之护": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 4,
+  "reason": "拿 1 件阵营专属装备（再给对应阵营的人穿）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "远洋宝藏": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 4,
+  "reason": "拿 1 件阵营专属装备（再给对应阵营的人穿）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "机关秘典": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 4,
+  "reason": "拿 1 件阵营专属装备（再给对应阵营的人穿）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "久经沙场": {
+  "usable_from_hand": true,
+  "target": "awakened_faction:逐鹿",
+  "when": [
+   "now"
+  ],
+  "priority": 5,
+  "reason": "已觉醒的逐鹿英雄再拿一张同名：没有已觉醒的逐鹿就留着",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "图腾祝福": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "faction_on_field:大河流域:1"
+  ],
+  "priority": 4,
+  "reason": "随机大河英雄 +5（每个图腾再来一次）：场上有大河才用",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "武装之力": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "equips_on_field:4"
+  ],
+  "priority": 4,
+  "reason": "所有英雄 +（自身装备件数）级：装备攒到 4 件以上再用",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "因材施教": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 4,
+  "reason": "1 张主要阵营相关的效果牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "逍遥自在": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "faction_on_field:无阵营:2"
+  ],
+  "priority": 4,
+  "reason": "无阵营英雄各 +2×无阵营人数：至少 2 个无阵营才用",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "夺取之术": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "carry_nearest_lv>=10"
+  ],
+  "priority": 7,
+  "reason": "主C 夺取最近一名己方英雄最多 10 级：最近的人 ≥10 级才用（用户 2026-10-21：否则没意义）；换主C 时先把老主C 挪到旁边（规则已实现）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "八方来援": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 7,
+  "reason": "主C +2，每多一个阵营再 +2",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "战前宣誓": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 5,
+  "reason": "主C 获得品阶×3 的临时等级（下场战斗）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "奇谋": {
+  "usable_from_hand": true,
+  "target": "carry_faction",
+  "when": [
+   "faction_on_field:三分之地:1"
+  ],
+  "priority": 4,
+  "reason": "三分英雄开战立即放技能：点三分里的主要输出",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "乱世": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 5,
+  "reason": "登场英雄 3 选 1",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "跳级": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "core_level"
+  ],
+  "priority": 4,
+  "reason": "主C 夺取阿科米亚核心最多 5 级：核心有等级就直接给主C，不看主C 派系（用户 2026-10-17）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "开局狂飙": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "once_per_round"
+  ],
+  "priority": 5,
+  "reason": "主C 开战后 15 秒无限放技能（本回合）；游戏限制每回合只能用一张（用户 2026-10-20：\"开局狂飙这张卡每回合只能使用一个\"；第 837 局同回合第二张拖拽失败 2 次）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "众星拱月": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "field>=3"
+  ],
+  "priority": 9,
+  "reason": "主C 夺取其他每人 10 级：人越多越值，主C 定了就用",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "心之引力": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "gold>=3"
+  ],
+  "priority": 5,
+  "reason": "4 次**临时**刷新（当回合作废）且购买 -1：有钱买才用",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "神奇小鹿·嘲讽": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 5,
+  "reason": "小鹿（棋手召唤物）的强化选项：在手里就直接用",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "神奇小鹿·重装": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 5,
+  "reason": "小鹿（棋手召唤物）的强化选项：在手里就直接用",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "神奇小鹿·双生": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 5,
+  "reason": "小鹿（棋手召唤物）的强化选项：在手里就直接用",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "神奇小鹿·共鸣": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 5,
+  "reason": "小鹿（棋手召唤物）的强化选项：在手里就直接用",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "神奇小鹿·奉献": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 5,
+  "reason": "小鹿（棋手召唤物）的强化选项：在手里就直接用",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "翩跹舞步·新生": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 8,
+  "reason": "为枫叶舞挑强化牌：拿到就打（弹出强化三选一）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "翩跹舞步·蓄势": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 8,
+  "reason": "为枫叶舞挑强化牌：拿到就打（弹出强化三选一）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "翩跹舞步·流动": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 8,
+  "reason": "为枫叶舞挑强化牌：拿到就打（弹出强化三选一）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "翩跹舞步·进化": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 8,
+  "reason": "为枫叶舞挑强化牌：拿到就打（弹出强化三选一）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "翩跹舞步·余韵": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 8,
+  "reason": "为枫叶舞挑强化牌：拿到就打（弹出强化三选一）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "镜像": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "after_carry_played"
+  ],
+  "priority": 3,
+  "reason": "变成上一张打出的英雄牌：刚打出主C/核心的同名后再用 = 多一张合成材料",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "万镜": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:4",
+   "field>=2"
+  ],
+  "priority": 5,
+  "reason": "复制场上 4 张不同英雄牌 = 一批合成材料",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "潮汐的交响": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "field>=2"
+  ],
+  "priority": 6,
+  "reason": "随机 5 人各 +8",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "小菟送福": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "field>=2"
+  ],
+  "priority": 5,
+  "reason": "随机 4 人各 +2",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "惊鸿调": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 5,
+  "reason": "琵琶指法重奏（棋手机制），在手里就用",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "如梦似幻": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:5"
+  ],
+  "priority": 6,
+  "reason": "按场上阵容拿一套梦幻手牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "红笺锦鲤符": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 7,
+  "reason": "主C +4",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "狼牙部落的图腾雕像": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 4,
+  "reason": "1 张 3 阶及以下英雄牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "沙海甘泉": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 5,
+  "reason": "白拿 1 能量",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "人鱼之泪": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 4,
+  "reason": "随机 1 张效果牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "神树彩陶": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "field>=2"
+  ],
+  "priority": 5,
+  "reason": "随机 4 人各 +2",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "冰曜宝石镜": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1",
+   "hand_hero>=1"
+  ],
+  "priority": 4,
+  "reason": "复制手里 1 张非觉醒英雄牌：手里要有英雄牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "终极宝藏正是在下": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "3 个终极宝藏选 1",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "马可的招牌微笑": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 5,
+  "reason": "强化并拿 1 张宝藏牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "马可的吸睛自拍": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:3",
+   "field>=2"
+  ],
+  "priority": 5,
+  "reason": "3 张不同的场上英雄牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "马可的限量亲签": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 6,
+  "reason": "4 能量 + 1 张装备",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "马可的魅力飞吻": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "field>=2"
+  ],
+  "priority": 7,
+  "reason": "全体 +10",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "马可的时差信笺": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:2"
+  ],
+  "priority": 5,
+  "reason": "2 张宝藏牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "马可的随身信物": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:4"
+  ],
+  "priority": 5,
+  "reason": "4 张效果牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "即兴创作": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1",
+   "field>=1"
+  ],
+  "priority": 5,
+  "reason": "随机复制场上 1 名英雄 = 合成材料",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "灵感爆发": {
+  "usable_from_hand": true,
+  "target": "hold",
+  "when": [
+   "now"
+  ],
+  "priority": 2,
+  "reason": "手里 3 张非觉醒英雄牌各斩成 2 张**转瞬**复制（当回合不用就没）：要人口/合成位接得住才值，交给学生判",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "深度冻结": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 5,
+  "reason": "3 个强化效果选 1",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "热能陷阱": {
+  "usable_from_hand": true,
+  "target": "hold",
+  "when": [
+   "now"
+  ],
+  "priority": 1,
+  "reason": "放置机关：要拖到**指定格子**，放哪儿看阵型，现在不认识机关，交给学生判",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "电磁弹簧": {
+  "usable_from_hand": true,
+  "target": "hold",
+  "when": [
+   "now"
+  ],
+  "priority": 1,
+  "reason": "放置机关：要拖到**指定格子**，放哪儿看阵型，现在不认识机关，交给学生判",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "等离子屏障": {
+  "usable_from_hand": true,
+  "target": "hold",
+  "when": [
+   "now"
+  ],
+  "priority": 1,
+  "reason": "放置机关：要拖到**指定格子**，放哪儿看阵型，现在不认识机关，交给学生判",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "构筑升级": {
+  "usable_from_hand": true,
+  "target": "hold",
+  "when": [
+   "now"
+  ],
+  "priority": 1,
+  "reason": "指定场上 1 个机关：感知层还认不出机关",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "驭势": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:6"
+  ],
+  "priority": 4,
+  "reason": "开战时把敌方所有英雄复制进手牌：手牌要空出很多位置",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "时之回环": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 9,
+  "reason": "记录之后打出的牌、下回合再触发一遍：**回合一开始先用**，之后打的牌越多越值",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "永恒时之回环": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 9,
+  "reason": "记录之后打出的牌、下回合再触发一遍：**回合一开始先用**，之后打的牌越多越值",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "命运馈赠": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "2 个馈赠选 1，每用一次更强",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "朋友多多": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:4"
+  ],
+  "priority": 5,
+  "reason": "4 张所选阵营的英雄牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "封神一瞬": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 9,
+  "reason": "主C 之后每次永久升级都额外 +1：主C 定了就早给",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "战略决策": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "棋手专属机制的选择牌，在手里就用",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "至高决策": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "棋手专属机制的选择牌，在手里就用",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "武器改造": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "棋手专属机制的选择牌，在手里就用",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "弦音": {
+  "usable_from_hand": true,
+  "target": "lowest_tier_high_level",
+  "when": [
+   "now"
+  ],
+  "priority": 5,
+  "reason": "1-3 阶英雄觉醒进度 +1，**只能给还没觉醒的**（已觉醒的游戏拒收）：未觉醒的主C > 留到最后的 > 离觉醒最近的；没有就先留着",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "弦音(效果牌)": {
+  "usable_from_hand": true,
+  "target": "lowest_tier_high_level",
+  "when": [
+   "now"
+  ],
+  "priority": 5,
+  "reason": "1-3 阶英雄觉醒进度 +1，**只能给还没觉醒的**（已觉醒的游戏拒收）：未觉醒的主C > 留到最后的 > 离觉醒最近的；没有就先留着",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "妙音": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "觉醒进度 +1，**只能给还没觉醒的**：主C 没觉醒就给主C，否则给离觉醒最近的留场英雄",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "古币": {
+  "usable_from_hand": true,
+  "target": "carry_faction:河洛",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "**转瞬**：当回合给一名河洛英雄 +2/+4（优先主C），没有河洛英雄也得打掉（回合末作废）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "古币(效果牌)": {
+  "usable_from_hand": true,
+  "target": "carry_faction:河洛",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "**转瞬**：当回合给一名河洛英雄 +2/+4（优先主C），没有河洛英雄也得打掉（回合末作废）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "精致古币": {
+  "usable_from_hand": true,
+  "target": "carry_faction:河洛",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "**转瞬**：当回合给一名河洛英雄 +2/+4（优先主C），没有河洛英雄也得打掉（回合末作废）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "精致古币(效果牌)": {
+  "usable_from_hand": true,
+  "target": "carry_faction:河洛",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "**转瞬**：当回合给一名河洛英雄 +2/+4（优先主C），没有河洛英雄也得打掉（回合末作废）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "援护战术": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 7,
+  "reason": "**转瞬**：全体逐鹿护盾，拿到就打",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "援护战术(效果牌)": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 7,
+  "reason": "**转瞬**：全体逐鹿护盾，拿到就打",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "高阶援护战术": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 7,
+  "reason": "**转瞬**：全体逐鹿护盾，拿到就打",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "招募战术": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 7,
+  "reason": "**转瞬**：随机 1 张逐鹿英雄牌，拿到就打",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "招募战术(效果牌)": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 7,
+  "reason": "**转瞬**：随机 1 张逐鹿英雄牌，拿到就打",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "特训战术": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 8,
+  "reason": "**转瞬**：主C +4，拿到就打",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "特训战术(效果牌)": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 8,
+  "reason": "**转瞬**：主C +4，拿到就打",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "高阶特训战术": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 9,
+  "reason": "**转瞬**：主C +8，拿到就打",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "高阶招募战术": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 7,
+  "reason": "**转瞬**：逐鹿英雄 3 选 1，拿到就打",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "推演战术": {
+  "usable_from_hand": true,
+  "target": "carry_faction:逐鹿",
+  "when": [
+   "now"
+  ],
+  "priority": 7,
+  "reason": "**转瞬**：逐鹿英雄法力上限降低（越用越强）：给主C（若是逐鹿），否则给逐鹿里的主要输出；可以同回合给同一人重复用",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "推演战术(效果牌)": {
+  "usable_from_hand": true,
+  "target": "carry_faction:逐鹿",
+  "when": [
+   "now"
+  ],
+  "priority": 7,
+  "reason": "**转瞬**：逐鹿英雄法力上限降低（越用越强）：给主C（若是逐鹿），否则给逐鹿里的主要输出；可以同回合给同一人重复用",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "高阶推演战术": {
+  "usable_from_hand": true,
+  "target": "carry_faction:逐鹿",
+  "when": [
+   "now"
+  ],
+  "priority": 7,
+  "reason": "**转瞬**：逐鹿英雄法力上限降低（越用越强）：给主C（若是逐鹿），否则给逐鹿里的主要输出；可以同回合给同一人重复用",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "高阶推演战术(效果牌)": {
+  "usable_from_hand": true,
+  "target": "carry_faction:逐鹿",
+  "when": [
+   "now"
+  ],
+  "priority": 7,
+  "reason": "**转瞬**：逐鹿英雄法力上限降低（越用越强）：给主C（若是逐鹿），否则给逐鹿里的主要输出；可以同回合给同一人重复用",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "演练战术": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 7,
+  "reason": "**转瞬**：全体 +1/+2，拿到就打",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "演练战术(效果牌)": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 7,
+  "reason": "**转瞬**：全体 +1/+2，拿到就打",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "高阶演练战术": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 7,
+  "reason": "**转瞬**：全体 +1/+2，拿到就打",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "梦幻引擎": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "gold>=3"
+  ],
+  "priority": 5,
+  "reason": "把商店换成梦幻商店：有钱买才用",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "奇才": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "hand_room:4"
+  ],
+  "priority": 9,
+  "reason": "拿 4 张目标英雄牌：给主C = 一口气合成",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "打成一片": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "阵营天赋 3 选 1",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "1阶效果锦囊": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 7,
+  "reason": "对应品阶效果牌 N 选 1，白拿",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "2阶效果锦囊": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 7,
+  "reason": "对应品阶效果牌 N 选 1，白拿",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "3阶效果锦囊": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 7,
+  "reason": "对应品阶效果牌 N 选 1，白拿",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "4阶效果锦囊": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 7,
+  "reason": "对应品阶效果牌 N 选 1，白拿",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "5阶效果锦囊": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 7,
+  "reason": "对应品阶效果牌 N 选 1，白拿",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "破损古币": {
+  "usable_from_hand": true,
+  "target": "carry_faction:河洛",
+  "when": [
+   "now"
+  ],
+  "priority": 2,
+  "reason": "**转瞬**、不给等级：只为触发'使用古币时'类天赋，有河洛英雄就顺手打掉",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "双人同行·2阶": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:2"
+  ],
+  "priority": 5,
+  "reason": "2 张相同英雄牌 = 合成材料",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "双人同行·3阶": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:2"
+  ],
+  "priority": 5,
+  "reason": "2 张相同英雄牌 = 合成材料",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "资深猎头": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:4"
+  ],
+  "priority": 7,
+  "reason": "4 阶卡 2 选 1 再一分为四",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "大明星": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "board_room:1"
+  ],
+  "priority": 9,
+  "reason": "直接上阵一名 棋手等级×7 级的 5 阶英雄（带觉醒进度）：有空人口就用",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "复印机": {
+  "usable_from_hand": true,
+  "target": "lowest_tier_high_level",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 6,
+  "reason": "复制一名 1-3 阶英雄：主C 是 1-3 阶就复制主C（合成），否则复制 1-3 阶里等级最高的",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "终极复印机": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 8,
+  "reason": "复制主C 的英雄牌 = 主C 合成材料",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "五福临门": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:5"
+  ],
+  "priority": 5,
+  "reason": "随机 5 张英雄牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "加速成长": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 8,
+  "reason": "主C +5",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "限制性进化": {
+  "usable_from_hand": true,
+  "target": "low_tier_noncarry",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 5,
+  "reason": "移除一名 1-2 阶英雄、换一张高 2 阶的随机英雄牌（上阵时原等级+10）：选 1-2 阶里等级最高的非主C；主C 是 1-2 阶时别点主C",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "援军": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "hand_room:4"
+  ],
+  "priority": 6,
+  "reason": "拿 4 张主C 同阵营英雄牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "延迟满足": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 9,
+  "reason": "主C +10，3 回合后再 +25：越早越值",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "自适应武装": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "hand_room:2"
+  ],
+  "priority": 6,
+  "reason": "2 张适配目标的普通装备：点主C，拿到的装备适配主C",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "超速成长": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 9,
+  "reason": "主C +15",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "前浪的荣光": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 6,
+  "reason": "拿 1 张主C 同阵营、高 1~2 阶的英雄牌",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "全军列阵": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "board_room:2"
+  ],
+  "priority": 7,
+  "reason": "召唤主C 同阵营英雄补满人口：空位至少 2 个才值",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "点兵点将": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "laya_timing"
+  ],
+  "priority": 6,
+  "reason": "场上每名英雄各复制 1 张：核心阵容牌越多越值（用户 2026-10-16），什么时候用交给 Laya 的 use_timing 题",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "盗火": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 8,
+  "reason": "**转瞬**：主C 偷取阿科米亚核心至多 20 级，拿到就打",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "望梅止渴": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "用户 2026-10-13：可以直接用给主C，不要卖（赠送牌效果卡牌库里没有，按用户说明）",
+  "reviewed": true,
+  "reviewer": "user",
+  "category": "天赋牌"
+ },
+ "胜之不武": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "once_per_round"
+  ],
+  "priority": 3,
+  "reason": "下场英雄 +20 临时等级、对敌方棋手伤害 -10：用户 2026-10-12「可以每回合用一张，性价比其实很高」—— +20 临时等级让这一场更容易赢（少掉血），伤害 -10 只影响别人掉多少血；每回合用一张（3 张用 3 回合）",
+  "reviewed": true,
+  "reviewer": "claude-main（用户 2026-10-12 更正）",
+  "category": "天赋牌"
+ },
+ "人才搜寻": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 7,
+  "reason": "商店可购最高品阶英雄 3 选 1",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "混沌裂隙": {
+  "usable_from_hand": true,
+  "target": "disposable",
+  "when": [
+   "now"
+  ],
+  "priority": 5,
+  "reason": "裂隙吞掉那一格的英雄、翻倍其等级给新召唤的英雄：点等级高的消耗件；没有消耗件就留着，绝不点主C",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "2级电磁弹簧": {
+  "usable_from_hand": true,
+  "target": "hold",
+  "when": [
+   "now"
+  ],
+  "priority": 1,
+  "reason": "放置机关到指定位置，放哪儿看阵型，交给学生判",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "锦囊": {
+  "usable_from_hand": true,
+  "target": "hold",
+  "when": [
+   "now"
+  ],
+  "priority": 3,
+  "reason": "本回合打出的登场英雄牌多触发一次登场：要**先于**登场英雄上场用，时机交给学生判",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "rule_use": "entry_boost",
+  "category": "天赋牌"
+ },
+ "等价交换": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "gold>=2",
+   "gold<5",
+   "hand_room:1"
+  ],
+  "priority": 4,
+  "reason": "能量 2~4 时用换 1 张基础装备（用户 2026-10-20）；≥5 扣光换 5 阶券不值",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "一刀穷一刀富": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:2"
+  ],
+  "priority": 5,
+  "reason": "1 件基础装备 + 1 张险中求富",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "险中求富": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "round>=9"
+  ],
+  "priority": 3,
+  "reason": "赢一场攒一件基础装备、输了销毁换 2 能量：攒到后期（第 9 回合起）再兑现",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "二象坍缩": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "hand_room:3"
+  ],
+  "priority": 6,
+  "reason": "拿 3 张同阶或 2 张同阵营最高阶英雄牌：点主C",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "霜寒进化": {
+  "usable_from_hand": true,
+  "target": "hold",
+  "when": [
+   "now"
+  ],
+  "priority": 2,
+  "reason": "昭君专属（随机 N 选 1 可能拿到）：解冻后把目标英雄**变成另一个英雄**（同阵营高 1 阶/高 2 阶/5 阶随机）——觉醒、枫叶舞绑定、身份都会丢；只该用在过渡件/消耗件上，绝不用在已觉醒的主C。用在谁交给学生判（use_card）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "破冰裂变": {
+  "usable_from_hand": true,
+  "target": "hold",
+  "when": [
+   "now"
+  ],
+  "priority": 2,
+  "reason": "昭君专属（随机 N 选 1 可能拿到）：解冻后把目标英雄**变成另一个英雄**（同阵营高 1 阶/高 2 阶/5 阶随机）——觉醒、枫叶舞绑定、身份都会丢；只该用在过渡件/消耗件上，绝不用在已觉醒的主C。用在谁交给学生判（use_card）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "寒冰王座": {
+  "usable_from_hand": true,
+  "target": "hold",
+  "when": [
+   "now"
+  ],
+  "priority": 2,
+  "reason": "昭君专属（随机 N 选 1 可能拿到）：解冻后把目标英雄**变成另一个英雄**（同阵营高 1 阶/高 2 阶/5 阶随机）——觉醒、枫叶舞绑定、身份都会丢；只该用在过渡件/消耗件上，绝不用在已觉醒的主C。用在谁交给学生判（use_card）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "升华": {
+  "usable_from_hand": true,
+  "target": "hold",
+  "when": [
+   "now"
+  ],
+  "priority": 2,
+  "reason": "昭君专属（随机 N 选 1 可能拿到）：解冻后把目标英雄**变成另一个英雄**（同阵营高 1 阶/高 2 阶/5 阶随机）——觉醒、枫叶舞绑定、身份都会丢；只该用在过渡件/消耗件上，绝不用在已觉醒的主C。用在谁交给学生判（use_card）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "碰碰运气": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "gold>=5"
+  ],
+  "priority": 8,
+  "reason": "主C 随机 +5~20 级；**费用随机 1~5、印在卡面上**（实测一张写消耗 5 能量），按最坏情况留够 5 能量再用，能量不够游戏直接拒收",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "胜利预言": {
+  "usable_from_hand": true,
+  "target": "hold",
+  "when": [
+   "now"
+  ],
+  "priority": 2,
+  "reason": "押注下一场输赢：要判断局势强弱，交给学生判",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "rule_use": "predict",
+  "category": "天赋牌"
+ },
+ "失败预言": {
+  "usable_from_hand": true,
+  "target": "hold",
+  "when": [
+   "now"
+  ],
+  "priority": 2,
+  "reason": "押注下一场输赢：要判断局势强弱，交给学生判",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "rule_use": "predict",
+  "category": "天赋牌"
+ },
+ "拍卖重现：一": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 5,
+  "reason": "从拍卖没拿到的牌里挑 1 张",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "拍卖重现：二": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 5,
+  "reason": "从拍卖没拿到的牌里挑 1 张",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "拍卖重现：三": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1",
+   "gold>=4"
+  ],
+  "priority": 4,
+  "reason": "花 4 能量从第三轮拍卖没拿到的牌里挑 1 张",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "听天由命": {
+  "usable_from_hand": true,
+  "target": "hold",
+  "when": [
+   "now"
+  ],
+  "priority": 1,
+  "reason": "**消除场上 4 名等级最低的英雄**（换能量/兑换券/简易协作）：只有那 4 人都是可弃的才用，交给学生判",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "站这别动": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 8,
+  "reason": "指定一个阵位，每 2 回合拿一张站在那格的英雄牌：点主C 所在的格 = 源源不断的主C 合成材料",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "契约瓶": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "round>=9"
+  ],
+  "priority": 3,
+  "reason": "赢了攒 3 张英雄牌、输了损失一半：攒到后期（第 9 回合起）再兑现",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "体面离场": {
+  "usable_from_hand": true,
+  "target": "disposable",
+  "when": [
+   "now"
+  ],
+  "priority": 5,
+  "reason": "移除一名英雄换 3~9 能量：只点用完就卖的消耗件，绝不点主C/核心",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "天赋牌"
+ },
+ "风暴巨剑": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "基础输出装：穿给主C，四选一按游戏👍/偏好选",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "大棒": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "基础输出装：穿给主C，四选一按游戏👍/偏好选",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "速击之枪": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "基础输出装：穿给主C，四选一按游戏👍/偏好选",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "雷鸣刃": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "基础输出装：穿给主C，四选一按游戏👍/偏好选",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "圣者法典": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "基础输出装：穿给主C，四选一按游戏👍/偏好选",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "力量腰带": {
+  "usable_from_hand": true,
+  "target": "tank",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "基础防御装：穿给前排坦克（没有坦克再给主C）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "守护者之铠": {
+  "usable_from_hand": true,
+  "target": "tank",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "基础防御装：穿给前排坦克（没有坦克再给主C）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "破碎圣杯": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 5,
+  "reason": "基础功能装：四选一里多是法力/控制类，给主C",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "无尽巨剑": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "制裁之剑": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "纯净苍穹": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "虚无法杖": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "寒霜侵袭": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "梦魇之牙": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "金色圣剑": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "自然法杖": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "影牙": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "破晓": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "末世": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "铸梦·逐风": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "痛苦面具": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "法源之杯": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "魔律之刃": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "噬神之书": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "贤者之书": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "灵泉法杖": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "破妄之刃": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "断念": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "法潮灵杖": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "魂祭绝刃": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "怒神项链": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "机器头": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "攻速固定 0.4、伤害 +60%、免疫负面：给主C（用户 2026-10-13：'可以给主C，问题不大，一般主C 都有自己的方法回蓝'）",
+  "reviewed": true,
+  "reviewer": "user",
+  "category": "装备牌"
+ },
+ "征服之剑": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "凝渊": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "学识宝石": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "静谧之铃": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "破茧之衣": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "名刀·司命": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "名刀·司命(装备牌)": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "捕能手套": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "分身镜": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 6,
+  "reason": "输出/增益装：穿给主C（同名一人只能穿一件）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "百锻刀": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 5,
+  "reason": "**无法拆卸**的成长装：只穿给**最终主C**（换主C 就白费），主C 未定时先留着",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "聚灵法杖": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 5,
+  "reason": "**无法拆卸**的成长装：只穿给**最终主C**（换主C 就白费），主C 未定时先留着",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "红魔": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 5,
+  "reason": "周围没友军时加伤：给站在角落的主C",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "霸者重铠": {
+  "usable_from_hand": true,
+  "target": "tank",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "防御装：穿给前排坦克（没有坦克再给主C）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "不死鸟之眼": {
+  "usable_from_hand": true,
+  "target": "tank",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "防御装：穿给前排坦克（没有坦克再给主C）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "魔女斗篷": {
+  "usable_from_hand": true,
+  "target": "tank",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "防御装：穿给前排坦克（没有坦克再给主C）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "红莲炎甲": {
+  "usable_from_hand": true,
+  "target": "tank",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "防御装：穿给前排坦克（没有坦克再给主C）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "不祥征兆": {
+  "usable_from_hand": true,
+  "target": "tank",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "防御装：穿给前排坦克（没有坦克再给主C）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "极寒风暴": {
+  "usable_from_hand": true,
+  "target": "tank",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "防御装：穿给前排坦克（没有坦克再给主C）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "近卫荣耀": {
+  "usable_from_hand": true,
+  "target": "tank",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "防御装：穿给前排坦克（没有坦克再给主C）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "反伤重甲": {
+  "usable_from_hand": true,
+  "target": "tank",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "防御装：穿给前排坦克（没有坦克再给主C）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "冥王": {
+  "usable_from_hand": true,
+  "target": "tank",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "防御装：穿给前排坦克（没有坦克再给主C）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "光辉圣铠": {
+  "usable_from_hand": true,
+  "target": "tank",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "防御装：穿给前排坦克（没有坦克再给主C）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "磐石之心": {
+  "usable_from_hand": true,
+  "target": "tank",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "防御装：穿给前排坦克（没有坦克再给主C）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "护命灵珠": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "每 4 秒基础生命 25% 护盾、有护盾时伤害 +25% —— 输出位装备，给主C（2026-10-10 第 515 局用户手动挪给主C）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "生命魔典": {
+  "usable_from_hand": true,
+  "target": "tank",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "防御装：穿给前排坦克（没有坦克再给主C）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "御灵之纱": {
+  "usable_from_hand": true,
+  "target": "tank",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "防御装：穿给前排坦克（没有坦克再给主C）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "炽热支配者": {
+  "usable_from_hand": true,
+  "target": "tank",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "防御装：穿给前排坦克（没有坦克再给主C）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "rule_target": "carry",
+  "category": "装备牌"
+ },
+ "魂灭灵冠": {
+  "usable_from_hand": true,
+  "target": "tank",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "防御装：穿给前排坦克（没有坦克再给主C）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "聚灵水晶": {
+  "usable_from_hand": true,
+  "target": "tank",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "防御装：穿给前排坦克（没有坦克再给主C）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "盛华": {
+  "usable_from_hand": true,
+  "target": "tank",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "**无法拆卸**、每场战斗后永久加生命：给会一直留在场上的前排坦克",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "灵泉项链": {
+  "usable_from_hand": true,
+  "target": "support",
+  "when": [
+   "now"
+  ],
+  "priority": 3,
+  "reason": "辅助/团队装：给站在主C 旁边的辅助（没有辅助给坦克）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "玄微之种": {
+  "usable_from_hand": true,
+  "target": "support",
+  "when": [
+   "now"
+  ],
+  "priority": 3,
+  "reason": "辅助/团队装：给站在主C 旁边的辅助（没有辅助给坦克）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "鼓舞之戒": {
+  "usable_from_hand": true,
+  "target": "support_carry_faction",
+  "when": [
+   "now"
+  ],
+  "priority": 3,
+  "reason": "与穿戴者同阵营的英雄 +30% 生命 → 穿戴者要和主C 同阵营（2026-10-13）",
+  "reviewed": true,
+  "reviewer": "claude-main 2026-10-13",
+  "category": "装备牌"
+ },
+ "不屈意志": {
+  "usable_from_hand": true,
+  "target": "support",
+  "when": [
+   "now"
+  ],
+  "priority": 3,
+  "reason": "辅助/团队装：给站在主C 旁边的辅助（没有辅助给坦克）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "驱雷": {
+  "usable_from_hand": true,
+  "target": "hold",
+  "when": [
+   "now"
+  ],
+  "priority": 1,
+  "reason": "雷电随机轰击**敌我双方**任意两人：会打到自己人，除非有司空震，交给学生判",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "日渊": {
+  "usable_from_hand": true,
+  "target": "ranged",
+  "when": [
+   "now"
+  ],
+  "priority": 5,
+  "reason": "限定远程：给远程主C（主C 是近战就给远程输出）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "青莲剑谱": {
+  "usable_from_hand": true,
+  "target": "melee",
+  "when": [
+   "now"
+  ],
+  "priority": 5,
+  "reason": "限定近战：给近战主C（主C 是远程就给近战输出）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "破阵战芒": {
+  "usable_from_hand": true,
+  "target": "low_tier",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "仅 1-3 阶可穿：主C 是 1-3 阶就给主C，否则给 1-3 阶里最强的输出",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "双剑·雄": {
+  "usable_from_hand": true,
+  "target": "hero:干将莫邪",
+  "when": [
+   "now"
+  ],
+  "priority": 5,
+  "reason": "干将莫邪穿戴时法力上限降到 10：只给干将莫邪；没有就给主C 当攻速装",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "月影之力": {
+  "usable_from_hand": true,
+  "target": "hero:露娜",
+  "when": [
+   "now"
+  ],
+  "priority": 3,
+  "reason": "只对露娜有特效：给露娜，没有露娜就留着",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "星源装甲": {
+  "usable_from_hand": true,
+  "target": "faction:日落海",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "日落海专属：给日落海英雄（狩枪给输出、合金盾/装甲给前排）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "星源装甲(装备牌)": {
+  "usable_from_hand": true,
+  "target": "faction:日落海",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "日落海专属：给日落海英雄（狩枪给输出、合金盾/装甲给前排）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "星源狩枪": {
+  "usable_from_hand": true,
+  "target": "faction:日落海",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "日落海专属：给日落海英雄（狩枪给输出、合金盾/装甲给前排）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "星源狩枪(装备牌)": {
+  "usable_from_hand": true,
+  "target": "faction:日落海",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "日落海专属：给日落海英雄（狩枪给输出、合金盾/装甲给前排）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "星源合金盾": {
+  "usable_from_hand": true,
+  "target": "faction_tank:日落海",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "防御装（防御 +20、受伤 -20%）：给日落海坦克，不给主C（2026-10-13 特殊装备逐件核对）",
+  "reviewed": true,
+  "reviewer": "claude-main 2026-10-13",
+  "category": "装备牌"
+ },
+ "星源合金盾(装备牌)": {
+  "usable_from_hand": true,
+  "target": "faction:日落海",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "日落海专属：给日落海英雄（狩枪给输出、合金盾/装甲给前排）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "阿科米亚之子": {
+  "usable_from_hand": true,
+  "target": "faction_near_carry:日落海",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "穿戴者参与核心分配（给非日落海会摊薄主C 的核心等级）+ 周围 1 格回蓝回血 → 给贴着主C 的日落海英雄（2026-10-13）",
+  "reviewed": true,
+  "reviewer": "claude-main 2026-10-13",
+  "rule_target": "carry",
+  "category": "装备牌"
+ },
+ "星源星徽": {
+  "usable_from_hand": true,
+  "target": "faction_weakest:日落海",
+  "when": [
+   "now"
+  ],
+  "priority": 3,
+  "reason": "用户 2026-10-13：穿戴者不吃阿科米亚核心分配的等级 → 给场上最没用的低等级日落海英雄（核心等级集中到主C 等其他日落海英雄）",
+  "reviewed": true,
+  "reviewer": "user",
+  "category": "装备牌"
+ },
+ "贤者的庇护": {
+  "usable_from_hand": true,
+  "target": "faction:河洛",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "河洛英雄复生：给河洛里的主力",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "机关匣": {
+  "usable_from_hand": true,
+  "target": "faction:逐鹿",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "逐鹿专属，召唤两个故障机器人：给逐鹿英雄",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "三分旗帜": {
+  "usable_from_hand": true,
+  "target": "faction:三分之地",
+  "when": [
+   "now"
+  ],
+  "priority": 3,
+  "reason": "仅三分可穿：给三分英雄",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "怒莲之刺": {
+  "usable_from_hand": true,
+  "target": "hold",
+  "when": [
+   "now"
+  ],
+  "priority": 2,
+  "reason": "成对装备（伤害转移）：要同时有两件、分给两个人，交给学生判",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "银莲庇佑": {
+  "usable_from_hand": true,
+  "target": "hold",
+  "when": [
+   "now"
+  ],
+  "priority": 2,
+  "reason": "成对装备（伤害转移）：要同时有两件、分给两个人，交给学生判",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "装备牌"
+ },
+ "小鹿的庇护": {
+  "usable_from_hand": true,
+  "target": "carry",
+  "when": [
+   "now"
+  ],
+  "priority": 4,
+  "reason": "伤害 30% 转给小鹿：给主C",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "rule_target": "hold",
+  "category": "装备牌"
+ },
+ "能量转换": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "gold>=3",
+   "hand_room:1"
+  ],
+  "priority": 5,
+  "reason": "消耗 3 能量换一张与棋手等级相对应的效果锦囊（打出后弹 N 选 1）：钱够、手牌有空就用",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ },
+ "挂帅": {
+  "usable_from_hand": true,
+  "target": "hold",
+  "when": [
+   "now"
+  ],
+  "priority": 3,
+  "reason": "指定 1 名【三分】英雄，等级等同于最近的【三分】英雄：只升不降，规则按 level_copy 用（rule_use）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "rule_use": "level_copy",
+  "category": "天赋牌"
+ },
+ "神秘英雄牌": {
+  "usable_from_hand": true,
+  "target": "hold",
+  "when": [
+   "now"
+  ],
+  "priority": 1,
+  "reason": "手动刷新时随机变为英雄牌，本身打不出去：留在手里等刷新，不卖",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "rule_use": "keep",
+  "category": "天赋牌"
+ },
+ "常规武器": {
+  "usable_from_hand": true,
+  "target": "none",
+  "when": [
+   "hand_room:1"
+  ],
+  "priority": 5,
+  "reason": "1 张随机基础装备（用户口述，同军械库）",
+  "reviewed": true,
+  "reviewer": "claude-main",
+  "category": "效果牌"
+ }
+}

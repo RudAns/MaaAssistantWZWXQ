@@ -1,0 +1,6 @@
+maafw>=5.0.0
+laya
+numpy
+opencv-python
+# OCR 推理（CPU 版，任何机器都能跑）。N 卡想提速 4 倍：再装 requirements-nvidia.txt
+onnxruntime>=1.20

@@ -1,0 +1,52 @@
+{
+    "name": "MaaWzwxq",
+    "version": "0.1.0",
+    "title": "王者万象棋小助手",
+    "description": "基于 MaaFramework + Laya 的王者万象棋自动化工具（图像识别 + 模拟控制 + 决策引擎）",
+    "language": "zh_cn",
+    "controller": [
+        {
+            "name": "MuMu 模拟器 (ADB，推荐)",
+            "type": "Adb",
+            "adb": {
+                "adb_path": "C:/Program Files/Netease/MuMu/nx_main/adb.exe",
+                "address": "127.0.0.1:16416",
+                "screencap": "Default",
+                "input": "AdbShell",
+                "config": {}
+            }
+        },
+        {
+            "name": "PC 客户端 (Win32，已弃用)",
+            "type": "Win32",
+            "win32": {
+                "class_regex": "^UnityWndClass$",
+                "window_regex": "王者万象棋",
+                "screencap": "FramePool",
+                "mouse": "Seize",
+                "keyboard": "Seize"
+            }
+        }
+    ],
+    "resource": [
+        {
+            "name": "默认资源",
+            "path": "{PROJECT_DIR}/assets"
+        }
+    ],
+    "task": [
+        {
+            "name": "自动下棋",
+            "entry": "WzwxqMain",
+            "doc": "从大厅开始：开始游戏、自动对局、结算后再来一局"
+        },
+        {
+            "name": "仅对局内辅助",
+            "entry": "WzwxqInGame",
+            "doc": "已进入对局后使用：自动执行准备阶段的购买/升级/布阵决策"
+        }
+    ],
+    "agent": {
+        "child_exec": "{PYTHON}/agent/main.py"
+    }
+}

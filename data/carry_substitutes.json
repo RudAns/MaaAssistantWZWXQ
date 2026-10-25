@@ -1,0 +1,463 @@
+{
+ "_comment": "阿离 3~5 阶替补主C 表（2026-10-08，说明见 docs/ali-carry-substitutes-2026-10-08.md）。role：substitute = 第 4~8 回合首选和备选主C 都没到手时，在商店见到就可以买来当主C 并切路线；late_upgrade = 5 阶或后期才刷得到，只当同体系路线的后期接班；none = 不当主C。route_source：ali = lineups.json 里阿离能用的官方阵容；custom = data/custom_lineups.json；other_lord = 别的棋手的官方阵容（routes.by_key 找不到，要另建自定义路线）。banned_by 和 routes.viable 用同一个判据：主C 属于被禁派系，或被禁派系占最终阵容 1/3 以上。这只是调研结论，规则层还没有接入。",
+ "艾琳": {
+  "quality": 4,
+  "faction": "日落海",
+  "route_key": "74364612829797406",
+  "route_name": "日落海瞬移艾琳",
+  "route_source": "ali",
+  "role": "substitute",
+  "supports": [
+   "朵莉亚",
+   "米莱狄",
+   "雅典娜",
+   "狂铁",
+   "瑶",
+   "安琪拉"
+  ],
+  "banned_by": [
+   "日落海"
+  ],
+  "recommend": "strong",
+  "our_record": "我方最终主C 0 局（hero_strength 旧统计 2 局均名 1.5，样本极小）",
+  "opponent_or_web": "钻石 I~II 对手日落海 29 行前三 0.62（docs/diamond-winners-2026-10-05.md）",
+  "shop_seen_r4_10": "第 4~10 回合 80 局里 11 局见过",
+  "reason": "4 阶日落海群体射手（强度 5.51 B、审定 8）。阿离有官方阵容「日落海瞬移艾琳」，第 5 回合上场，前期用狂铁过渡。配套和安琪拉路线几乎一样（朵莉亚/米莱狄/雅典娜/狂铁），切过去不浪费已经买的人。"
+ },
+ "嬴政": {
+  "quality": 4,
+  "faction": "逐鹿",
+  "route_key": "10011",
+  "route_name": "逐鹿雷霆战机",
+  "route_source": "other_lord",
+  "role": "substitute",
+  "supports": [
+   "西施",
+   "芈月",
+   "白起",
+   "庄周",
+   "蒙犽",
+   "鲁班七号"
+  ],
+  "banned_by": [
+   "逐鹿"
+  ],
+  "recommend": "strong",
+  "our_record": "我方最终主C 0 局（旧统计 1 局第 2）",
+  "opponent_or_web": "钻石 I~II 对手「逐鹿雷霆战机」10 行前三 0.60；万象棋谱 v1.5.1 列 T1；wxqwiki 阵容库评分 9.7",
+  "shop_seen_r4_10": "80 局里 10 局见过",
+  "reason": "4 阶逐鹿法师（强度 10.0 S、审定 8），是全游戏最热的阵容之一（141 万人），不靠棋手专属牌。阿离没有官方版，要新建自定义路线：阿离单C，资源全给嬴政，蒙犽和鲁班七号当副输出。"
+ },
+ "李信": {
+  "quality": 4,
+  "faction": "河洛",
+  "route_key": "79993358704523312",
+  "route_name": "牺牲流李信",
+  "route_source": "other_lord",
+  "role": "substitute",
+  "supports": [
+   "铠",
+   "明世隐",
+   "太乙真人",
+   "钟馗",
+   "花木兰",
+   "程咬金"
+  ],
+  "banned_by": [
+   "河洛"
+  ],
+  "recommend": "ok",
+  "our_record": "我方 0 局",
+  "opponent_or_web": "钻石 I~II 对手「河洛牺牲李信」12 行前三 0.50（低于对手基准 0.56）；万象棋谱 T0 是「瑶妹李信」，瑶妹专属",
+  "shop_seen_r4_10": "80 局里 8 局见过",
+  "reason": "4 阶河洛（强度 6.45 B、审定 8）。配套和守约/沈梦溪的河洛班底（程咬金/钟馗/太乙/明世隐/铠/盾山）几乎一样，河洛没禁、守约和沈梦溪都没来时切过去成本最低。卡面要靠「牺牲」触发（需要 2 个牺牲源），钟馗和铠要在场。最强的版本是瑶妹专属，阿离版要打折扣。"
+ },
+ "敖隐": {
+  "quality": 5,
+  "faction": "大河流域",
+  "route_key": "105889810704947324",
+  "route_name": "阿离神龙",
+  "route_source": "ali",
+  "role": "late_upgrade",
+  "supports": [
+   "张良",
+   "虞姬",
+   "少司缘",
+   "鬼谷子",
+   "大司命",
+   "东皇太一"
+  ],
+  "banned_by": [
+   "大河流域"
+  ],
+  "recommend": "strong",
+  "our_record": "我方 0 局",
+  "opponent_or_web": "钻石 I~II 对手「大河龙蛇」14 行前三 0.79，是全段位最高；万象棋谱 T1",
+  "shop_seen_r4_10": "第 4~10 回合 80 局里只有 2 局见过（5 阶要 5 级才进池）",
+  "reason": "5 阶大河射手（强度 8.4 A、审定 8）。阿离官方的「阿离神龙」就是虞姬路线在第 12 回合后换敖隐，配套和 user_compound_river_totem 重合 5/6。solo_carry_ok=false，场上要有 2 个以上图腾（少司缘/鬼谷子/大司命）。只适合当虞姬路线的后期接班，不能当前期替补。"
+ },
+ "韩信": {
+  "quality": 4,
+  "faction": "大河流域",
+  "route_key": "user_hanxin_open",
+  "route_name": "大河开团韩信（用户推荐）",
+  "route_source": "custom",
+  "role": "substitute",
+  "supports": [
+   "张良",
+   "云中君",
+   "瑶",
+   "太乙真人",
+   "虞姬",
+   "鬼谷子"
+  ],
+  "banned_by": [
+   "大河流域"
+  ],
+  "recommend": "ok",
+  "our_record": "我方最终主C 0 局（作为备选从没真正切进去过）",
+  "opponent_or_web": "第 415 局疑似有对手的韩信 R15 353 级（人工看图，只是外形像）；wxqwiki 上阿离「国士无双韩信」有 22.7 万人用",
+  "shop_seen_r4_10": "80 局里 9 局见过",
+  "reason": "4 阶大河，「每触发一次整备/开团，等级永久 +1」，自己涨级，不抢主C 资源。阿离有官方版（wxqwiki 写「速四级开始寻韩信」）。需要至少 1 个整备源。强度模型只给 2.24 D（模型不计自涨），实战没验证过。"
+ },
+ "安琪拉": {
+  "quality": 3,
+  "faction": "日落海",
+  "route_key": "user_angela",
+  "route_name": "阿离日落海安琪拉（改自日落海挂机流）",
+  "route_source": "custom",
+  "role": "substitute",
+  "supports": [
+   "朵莉亚",
+   "米莱狄",
+   "雅典娜",
+   "海诺",
+   "亚连",
+   "狂铁"
+  ],
+  "banned_by": [
+   "日落海"
+  ],
+  "recommend": "ok",
+  "our_record": "我方最终主C 26 局，共 10 次前三（38%）；但钻石 II 以上 13 局只有 1 次前三（8%）",
+  "opponent_or_web": "万象棋谱 T1「日落海整备流」（香香/常小娥）",
+  "shop_seen_r4_10": "80 局里 28 局见过（3 阶，最常见）",
+  "reason": "3 阶日落海法师（强度 7.3 A），是我们唯一有一定样本的 3 阶主C。高段位战绩差，建议出现艾琳时让位给艾琳（同一套配套）。"
+ },
+ "诸葛亮": {
+  "quality": 4,
+  "faction": "三分之地",
+  "route_key": "112082260192654362",
+  "route_name": "无限火力诸葛亮",
+  "route_source": "other_lord",
+  "role": "substitute",
+  "supports": [
+   "刘禅",
+   "太乙真人",
+   "周瑜",
+   "蔡文姬",
+   "大乔",
+   "马超"
+  ],
+  "banned_by": [
+   "三分之地"
+  ],
+  "recommend": "ok",
+  "our_record": "我方 0 局（有 1 局当过临时主C，那局最终第 3）",
+  "opponent_or_web": "钻石 I~II 对手三分控/登场 15 行前三 0.53",
+  "shop_seen_r4_10": "80 局里 15 局见过（4 阶里最常见）",
+  "reason": "4 阶三分法师（强度 8.75 S、审定 8）。但几个热门版本都是常小娥/瑶妹/班叔专属，而且常用遗志/传承；阿离没有官方阵容。它是商店里最常见的 4 阶，可以当「任何路线主C 都拿不到」时的兜底。"
+ },
+ "孙悟空": {
+  "quality": 4,
+  "faction": "无阵营",
+  "route_key": "10005",
+  "route_name": "白歌三分倒转刺",
+  "route_source": "other_lord",
+  "role": "substitute",
+  "supports": [
+   "阿轲",
+   "露娜",
+   "甄姬",
+   "小乔",
+   "周瑜",
+   "曹操"
+  ],
+  "banned_by": [
+   "三分之地"
+  ],
+  "recommend": "ok",
+  "our_record": "早期 1 局第 5（hero_strength 旧统计 3 局 2 次前三）",
+  "opponent_or_web": "万象棋谱 T0「三分倒转流」（白歌/孙小宾专属）",
+  "shop_seen_r4_10": "80 局里 11 局见过",
+  "reason": "4 阶无阵营（强度 6.57 B、审定 8），禁哪个单一派系都不影响它本人。但它带「夺取」（上场时抢相邻友军的等级），站位要处理。三分倒转的永动机靠白歌/孙小宾，阿离只能借孙悟空本身的强度。"
+ },
+ "司空震": {
+  "quality": 5,
+  "faction": "河洛",
+  "route_key": "103637256748212262",
+  "route_name": "乔汐速6司空震",
+  "route_source": "other_lord",
+  "role": "late_upgrade",
+  "supports": [
+   "明世隐",
+   "太乙真人",
+   "钟馗",
+   "程咬金",
+   "姜子牙",
+   "武则天"
+  ],
+  "banned_by": [
+   "河洛"
+  ],
+  "recommend": "ok",
+  "our_record": "我方最终主C 1 局，第 5（第 343 局，N 选 1 拿到）",
+  "opponent_or_web": "钻石 I~II「海陆空」5 行前三 0.80，但那是常小娥专属",
+  "shop_seen_r4_10": "80 局里 1 局见过",
+  "reason": "5 阶河洛法师，技能打全场（强度 7.97 A、审定 9）。「乔汐速6司空震」的古币班底和守约/沈梦溪重合，适合河洛路线的后期接班。需要 1 个临时等级源。"
+ },
+ "鲁班七号": {
+  "quality": 5,
+  "faction": "逐鹿",
+  "route_key": "10011",
+  "route_name": "逐鹿雷霆战机",
+  "route_source": "other_lord",
+  "role": "late_upgrade",
+  "supports": [
+   "嬴政",
+   "蒙犽",
+   "西施",
+   "芈月",
+   "白起",
+   "庄周"
+  ],
+  "banned_by": [
+   "逐鹿"
+  ],
+  "recommend": "ok",
+  "our_record": "我方最终主C 1 局，第 3（第 109 局）",
+  "opponent_or_web": "雷霆战机的副输出",
+  "shop_seen_r4_10": "80 局里 4 局见过",
+  "reason": "5 阶逐鹿射手（强度 10.0 S、审定 9），官方阵容里从来不是第一主C。逐鹿没禁、后期刷到时，可以作为嬴政路线的第二选择。"
+ },
+ "海诺": {
+  "quality": 5,
+  "faction": "日落海",
+  "route_key": "46779311452662894",
+  "route_name": "昭闹日落海",
+  "route_source": "other_lord",
+  "role": "late_upgrade",
+  "supports": [
+   "朵莉亚",
+   "米莱狄",
+   "雅典娜",
+   "亚连",
+   "狂铁",
+   "露娜"
+  ],
+  "banned_by": [
+   "日落海"
+  ],
+  "recommend": "ok",
+  "our_record": "我方 0 局",
+  "opponent_or_web": "日落海核心件",
+  "shop_seen_r4_10": "80 局里 3 局见过",
+  "reason": "5 阶日落海法师（强度 8.08 A、审定 9），本来就是 user_angela 的成员，日落海路线后期升级用。"
+ },
+ "蒙犽": {
+  "quality": 4,
+  "faction": "逐鹿",
+  "route_key": "10011",
+  "route_name": "逐鹿雷霆战机",
+  "route_source": "other_lord",
+  "role": "substitute",
+  "supports": [
+   "嬴政",
+   "西施",
+   "芈月",
+   "白起",
+   "庄周"
+  ],
+  "banned_by": [
+   "逐鹿"
+  ],
+  "recommend": "ok",
+  "our_record": "第十局当过主C（见 CLAUDE.md），没有名次统计",
+  "opponent_or_web": "雷霆战机的副输出",
+  "shop_seen_r4_10": "80 局里 14 局见过",
+  "reason": "4 阶逐鹿射手（强度 10.0 S、审定 8），官方阵容里从来不是第一主C，所以 _carry_eligible 按「阵容主C 频率」的判据可能会拦它。可以在嬴政路线的主C 没来时顶上。"
+ },
+ "吕布": {
+  "quality": 5,
+  "faction": "三分之地",
+  "route_key": "86185808192145500",
+  "route_name": "三分登场流",
+  "route_source": "other_lord",
+  "role": "late_upgrade",
+  "supports": [
+   "小乔",
+   "貂蝉",
+   "蔡文姬",
+   "周瑜",
+   "曹操",
+   "赵云"
+  ],
+  "banned_by": [
+   "三分之地"
+  ],
+  "recommend": "ok",
+  "our_record": "我方 0 局",
+  "opponent_or_web": "网上的「吕布 999」攻略（三分登场链）",
+  "shop_seen_r4_10": "80 局里 3 局见过",
+  "reason": "5 阶三分（强度 8.81 S、审定 8）。马瑶版本是常小娥专属，阿离没有官方阵容。"
+ },
+ "花木兰": {
+  "quality": 5,
+  "faction": "河洛",
+  "route_key": "10003",
+  "route_name": "无限复活木兰",
+  "route_source": "other_lord",
+  "role": "late_upgrade",
+  "supports": [
+   "武则天",
+   "上官婉儿",
+   "李白",
+   "露娜",
+   "程咬金",
+   "钟馗"
+  ],
+  "banned_by": [
+   "河洛"
+  ],
+  "recommend": "ok",
+  "our_record": "我方 0 局",
+  "opponent_or_web": "钻石 I~II 河洛复活 4 行前三 0.75（样本小）；万象棋谱 T0「复活花木兰」（盈绿庄/庄小鱼）",
+  "shop_seen_r4_10": "80 局里 2 局见过",
+  "reason": "5 阶河洛（强度 7.04 A）。最强的版本是棋手专属，阿离只能借它的班底。"
+ },
+ "狄仁杰": {
+  "quality": 3,
+  "faction": "河洛",
+  "route_key": "32706315349545018",
+  "route_name": "阿离狄仁杰速秒流",
+  "route_source": "ali",
+  "role": "substitute",
+  "supports": [
+   "李元芳",
+   "明世隐",
+   "太乙真人",
+   "钟馗",
+   "程咬金",
+   "盾山"
+  ],
+  "banned_by": [
+   "河洛"
+  ],
+  "recommend": "no",
+  "our_record": "我方最终主C 8 局，0 次前三（平均约第 4.9 名）",
+  "opponent_or_web": "wxqwiki「瞬步4.0狄仁杰」66.2 万人、评分 6.0；微博称 T0（年份没核实）",
+  "shop_seen_r4_10": "80 局里 21 局见过",
+  "reason": "3 阶河洛射手，网上评价高（古币堆攻速 + 阿离瞬移），但我们打了 8 局一次前三都没有。按我们现在的执行水平，它不如守约和沈梦溪，只在河洛没禁、而这三个人都不在时才用。"
+ },
+ "貂蝉": {
+  "quality": 3,
+  "faction": "三分之地",
+  "route_key": null,
+  "route_name": null,
+  "route_source": "none",
+  "role": "none",
+  "supports": [],
+  "banned_by": [
+   "三分之地"
+  ],
+  "recommend": "no",
+  "our_record": "我方 0 局",
+  "opponent_or_web": "只在三分阵容里当配角",
+  "shop_seen_r4_10": "80 局里 25 局见过（很常见）",
+  "reason": "3 阶三分法师，强度 6.83 B，但 448 套官方阵容里没有一套让她当主C，没有现成的配套可以切。"
+ },
+ "苍": {
+  "quality": 3,
+  "faction": "无阵营",
+  "route_key": null,
+  "route_name": null,
+  "route_source": "none",
+  "role": "none",
+  "supports": [
+   "米莱狄",
+   "少司缘"
+  ],
+  "banned_by": [],
+  "recommend": "no",
+  "our_record": "我方 0 局",
+  "opponent_or_web": "召唤流（明先生/常小娥）",
+  "shop_seen_r4_10": "80 局里 27 局见过",
+  "reason": "强度模型给 9.26 S，但它要靠召唤物阵亡来触发（需要 summon_death）。官方只有两套召唤流，都不是阿离的，不适合当阿离的单C。"
+ },
+ "李白": {
+  "quality": 4,
+  "faction": "河洛",
+  "route_key": "10003",
+  "route_name": "无限复活木兰",
+  "route_source": "other_lord",
+  "role": "none",
+  "supports": [],
+  "banned_by": [
+   "河洛"
+  ],
+  "recommend": "no",
+  "our_record": "我方 0 局",
+  "opponent_or_web": "复活木兰里的配角",
+  "shop_seen_r4_10": "80 局里 10 局见过",
+  "reason": "强度 3.79 D。lineups 里把它标成主C 只是因为它排在列表第一位，复活木兰真正的核心是花木兰/武则天。"
+ },
+ "海月": {
+  "quality": 5,
+  "faction": "无阵营",
+  "route_key": null,
+  "route_name": null,
+  "route_source": "none",
+  "role": "none",
+  "supports": [],
+  "banned_by": [],
+  "recommend": "no",
+  "our_record": "我方 1 局，第 5",
+  "opponent_or_web": "网上称前三率 92.6%（腾讯新闻 09-19，伞干将海月）",
+  "shop_seen_r4_10": "80 局里 2 局见过",
+  "reason": "伞海月要凑遗志/红叶染锋，再卖光全场搬等级，用户点名说难操作，routes.excluded 已经把它排除了。"
+ },
+ "镜": {
+  "quality": 3,
+  "faction": "逐鹿",
+  "route_key": null,
+  "route_name": null,
+  "route_source": "none",
+  "role": "none",
+  "supports": [],
+  "banned_by": [
+   "逐鹿"
+  ],
+  "recommend": "no",
+  "our_record": "我方 1 局，第 6",
+  "opponent_or_web": "",
+  "shop_seen_r4_10": "80 局里 20 局见过",
+  "reason": "用户判定输出太弱（审定 3）。"
+ },
+ "马超": {
+  "quality": 3,
+  "faction": "三分之地",
+  "route_key": null,
+  "route_name": null,
+  "route_source": "none",
+  "role": "none",
+  "supports": [],
+  "banned_by": [
+   "三分之地"
+  ],
+  "recommend": "no",
+  "our_record": "我方 1 局，第 5",
+  "opponent_or_web": "马瑶基本都是常小娥/瑶妹专属",
+  "shop_seen_r4_10": "80 局里 24 局见过",
+  "reason": "成长要靠队友施加控制，阿离是单C，喂不饱它（审定 3，用户判定）。"
+ }
+}

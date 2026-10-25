@@ -1,0 +1,75 @@
+{
+  "_comment": "策略覆盖层。基础卡牌数据（85 英雄牌，含 cost/faction/skill）由 data/cards.json 提供；本文件只放人工策略：pieces=单卡优先级覆盖，strategy=运营策略。",
+  "pieces": {},
+  "synergy_bonus_threshold": {},
+  "strategy": {
+    "_comment": "main_factions: 主打派系（商店优先买这些派系的牌，空=不按派系过滤）；auction_max_bid: 拍卖单件出价硬上限；auction_snipe_sec: 非核心拍品倒计时≤N秒才出价；gold_reserve: 任何花费后保留的金币底线",
+    "main_factions": [],
+    "auction_max_bid": 5,
+    "auction_snipe_sec": 8,
+    "gold_reserve": 10,
+    "refresh_cost": 1,
+    "comps": [
+      {
+        "faction": "大河流域",
+        "carry": "干将莫邪",
+        "core": [
+          "干将莫邪",
+          "东皇太一",
+          "刘邦",
+          "韩信",
+          "敖隐",
+          "大司命"
+        ]
+      },
+      {
+        "faction": "河洛",
+        "carry": "百里玄策",
+        "core": [
+          "百里玄策",
+          "花木兰",
+          "李白",
+          "铠",
+          "司空震",
+          "武则天"
+        ]
+      },
+      {
+        "faction": "逐鹿",
+        "carry": "孙膑",
+        "core": [
+          "孙膑",
+          "鲁班大师",
+          "庄周",
+          "白起",
+          "鲁班七号",
+          "扁鹊"
+        ]
+      },
+      {
+        "faction": "日落海",
+        "carry": "莱西奥",
+        "core": [
+          "莱西奥",
+          "露娜",
+          "雅典娜",
+          "姬小满",
+          "海诺",
+          "艾琳"
+        ]
+      },
+      {
+        "faction": "三分之地",
+        "carry": "周瑜",
+        "core": [
+          "周瑜",
+          "吕布",
+          "马超",
+          "刘禅",
+          "甄姬",
+          "小乔"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "_doc": "召唤单位的通用属性（2026-10-14，拿始祖熊灵 / 机关傀儡核对卡牌效果抽取时发现缺这一层）。effects_v1 只记'效果'，不记'这个单位能干什么'。推演器用它判断：占不占人口、算不算某派系英雄、能不能穿装备、能不能合成、卖了能不能腾位、备战期是否在场。来源：卡面 + 用户说明（标 source）。",
+  "_rules": {
+    "pop": "召唤物 / 图腾不占人口（game-rules 第 6 节实测）",
+    "can_equip": "备战期就站在棋盘上的召唤单位可以穿装备，和英雄一样最多 3 件（用户 2026-10-14：'这些召唤单位，如果直接在场上其实也能拿装备的'）。只在战斗中出现的单位（阵亡召唤、开战召唤）备战期拿不到装备。",
+    "faction": "召唤单位带派系；卡面写'视为【X】英雄'的按英雄计入派系计数",
+    "unit_count": "'我方单位数'（如始祖熊灵的战斗开始比较）算上召唤物和图腾，所以不占人口的单位越多越值钱",
+    "verify": "can_equip 对图腾 / 机关傀儡第一次实战拖装备时核对证据帧；值为 'unknown' 的先不往上拖",
+    "carry": "主C 不限于英雄牌：能穿装备、能被枫叶舞等'指定英雄'的牌选中的召唤单位（如始祖熊灵）也是主C 候选，推演器按同样的价值计算比较"
+  },
+  "units": {
+    "始祖熊灵": {
+      "from": "天赋 始祖熊灵",
+      "presence": "prep",
+      "pop": 0,
+      "counts_as": "大河流域英雄",
+      "can_equip": true,
+      "mergeable": true,
+      "sell_frees_slot": false,
+      "level": "永久；战斗开始时我方每比敌方多 1 个单位 +2（图腾、召唤物都算），可合成同名升级",
+      "source": "卡面 + 用户 2026-10-14（'你甚至可以把枫叶舞给这个熊灵，配合多个图腾各种召唤阵容，把他的攻速叠非常高'）+ 网上攻略（阿离伞熊组合）",
+      "can_carry": true,
+      "maple_target": true,
+      "synergy": "能当主C：枫叶舞可以绑它（被视为大河英雄）；鬼谷子/少司缘/大司命的图腾和机关傀儡等召唤物拉开单位数差→每回合叠级；每次己方单位触发开团 +20% 攻速→开团件越多攻速越高；装备给输出/攻速/暴击",
+      "loop_shaosiyuan": "与少司缘因缘图腾成环（用户 2026-10-14）：开团次数→熊灵攻速↑→普攻次数↑→每合计 25 次普攻 全体己方英雄永久+1（熊灵视为大河英雄，自己也吃）；因缘图腾本身又是 1 个单位→熊灵每场 +2；少司缘技能再给沿途友军 +30% 攻速。攻速是随开团次数变化的动态量，不能查静态攻速表",
+      "talent_value": "开局天赋选到它 = 第 1 回合就拿到最终主C（用户 2026-10-14）：不用等商店概率、不占人口、枫叶舞/装备/加等级牌从第 1 回合起全投在它身上，后面永远不用换主C（没有换主C 的代价）"
+    },
+    "机关傀儡": {
+      "from": "鲁班大师在场",
+      "presence": "prep",
+      "pop": 0,
+      "counts_as": "逐鹿召唤单位",
+      "can_equip": true,
+      "mergeable": false,
+      "sell_frees_slot": false,
+      "level": "= 鲁班大师等级 + 临时等级(场上逐鹿英雄/召唤单位最高等级一半)",
+      "notes": "鲁班大师在场就有；随鲁班大师离场消失（推测）。装备给它 = 多一个能带装的单位",
+      "source": "卡面 + 用户（'鲁班大师也会召一个单位在场上'）"
+    },
+    "机关傀儡·改": {
+      "from": "觉醒鲁班大师在场",
+      "presence": "prep",
+      "pop": 0,
+      "counts_as": "逐鹿召唤单位",
+      "can_equip": true,
+      "mergeable": false,
+      "sell_frees_slot": false,
+      "source": "卡面 + 用户"
+    },
+    "先知图腾": {
+      "from": "鬼谷子在场 / 图腾天赋",
+      "presence": "prep",
+      "pop": 0,
+      "counts_as": "大河流域召唤单位",
+      "can_equip": "unknown",
+      "mergeable": false,
+      "sell_frees_slot": false,
+      "source": "卡面"
+    },
+    "因缘图腾": {
+      "from": "少司缘在场 / 因缘际会",
+      "presence": "prep",
+      "pop": 0,
+      "counts_as": "大河流域召唤单位",
+      "can_equip": "unknown",
+      "mergeable": false,
+      "sell_frees_slot": false,
+      "source": "卡面"
+    },
+    "往生图腾": {
+      "from": "大司命在场",
+      "presence": "prep",
+      "pop": 0,
+      "counts_as": "大河流域召唤单位",
+      "can_equip": "unknown",
+      "mergeable": false,
+      "sell_frees_slot": false,
+      "source": "卡面"
+    },
+    "蔚蓝神兽": {
+      "from": "天赋 巨像（米莱狄+蒙恬在场）",
+      "presence": "prep",
+      "pop": 0,
+      "can_equip": "unknown",
+      "mergeable": false,
+      "sell_frees_slot": false,
+      "source": "卡面"
+    },
+    "猩红神兽": {
+      "from": "天赋 巨像（二人等级和≥100）",
+      "presence": "prep",
+      "pop": 0,
+      "can_equip": "unknown",
+      "mergeable": false,
+      "sell_frees_slot": false,
+      "source": "卡面"
+    },
+    "小鹿": {
+      "from": "棋手技能 可爱小鹿（瑶）",
+      "presence": "prep",
+      "pop": 0,
+      "can_equip": "unknown",
+      "mergeable": false,
+      "sell_frees_slot": false,
+      "level": "每回合 +2，上回合胜 +4",
+      "source": "卡面"
+    },
+    "猛虎擂台": {
+      "from": "天赋（三分）",
+      "presence": "prep",
+      "pop": 0,
+      "can_equip": false,
+      "notes": "场地物件不是战斗单位",
+      "source": "卡面"
+    },
+    "古币机": {
+      "from": "天赋 古币机",
+      "presence": "prep",
+      "pop": 0,
+      "can_equip": false,
+      "notes": "占格物件，只吃古币（CLAUDE.md 古币机条目）",
+      "source": "实测"
+    },
+    "玄雍士兵": {
+      "from": "蒙恬牺牲 / 穷兵黩武",
+      "presence": "battle",
+      "pop": 0,
+      "can_equip": false,
+      "source": "卡面"
+    },
+    "熊灵": {
+      "from": "化为熊灵 / 熊魂附甲 / 荆棘牢笼",
+      "presence": "battle",
+      "pop": 0,
+      "can_equip": false,
+      "source": "卡面"
+    },
+    "故障机器人": {
+      "from": "机关匣 / 机关秘典",
+      "presence": "battle",
+      "pop": 0,
+      "can_equip": false,
+      "source": "卡面"
+    },
+    "复制体": {
+      "from": "分身镜",
+      "presence": "battle",
+      "pop": 0,
+      "can_equip": false,
+      "source": "卡面"
+    }
+  },
+  "bear_route_draft": {
+    "_doc": "按卡面推的熊灵阵容草案（未实战，给推演器 / 考题用，不接规则层）",
+    "carry": "始祖熊灵（天赋）",
+    "unit_count": [
+      "鬼谷子(2 先知图腾)",
+      "少司缘(3 因缘图腾，普攻计数全队涨级)",
+      "大司命(4 往生图腾)",
+      "鲁班大师(5 机关傀儡，逐鹿)"
+    ],
+    "open_pieces": [
+      "虞姬(2 开团：每个图腾 自身+2名大河 +1，和图腾同向)",
+      "云中君(3 开团：每件装备永久+1)",
+      "瑶(3)",
+      "太乙真人(4)",
+      "东皇太一(5)"
+    ],
+    "anti": [
+      "刘邦(4 开团：摧毁你所有图腾) —— 和熊灵单位数 / 因缘图腾直接冲突，不要"
+    ],
+    "faction": "几乎全大河：禁大河时只剩鲁班大师 / 太乙 等无阵营件，草案失效"
+  }
+}

@@ -1,0 +1,2355 @@
+{
+  "version": "2026-09-21",
+  "cards": {
+    "项羽": {
+      "name": "项羽",
+      "category": "英雄牌",
+      "label_text": "项羽",
+      "faction": "大河流域",
+      "tags": [
+        "三前排",
+        "坦克",
+        "出装"
+      ],
+      "skill": "牺牲：所有图腾等级永久+3目\n本回合你的召唤物免疫控制。",
+      "portrait": "image/pieces/英雄牌/项羽.png"
+    },
+    "干将莫邪": {
+      "name": "干将莫邪",
+      "category": "英雄牌",
+      "label_text": "干将莫邪",
+      "faction": "大河流域",
+      "tags": [
+        "三后排",
+        "出装",
+        "法师"
+      ],
+      "skill": "干将莫邪在场时，获得普通装备\n双剑·雄。",
+      "portrait": "image/pieces/英雄牌/干将莫邪.png"
+    },
+    "韩信": {
+      "name": "韩信",
+      "category": "英雄牌",
+      "label_text": "韩信",
+      "faction": "大河流域",
+      "tags": [
+        "三后排",
+        "刺客",
+        "出装"
+      ],
+      "skill": "闪现\n每当你的英雄触发整备或开团\n效果时，韩信等级永久+1。",
+      "portrait": "image/pieces/英雄牌/韩信.png"
+    },
+    "苏烈": {
+      "name": "苏烈",
+      "category": "英雄牌",
+      "label_text": "苏烈",
+      "faction": "NO 4",
+      "tags": [
+        "三前排",
+        "坦克",
+        "出装"
+      ],
+      "skill": "牺牲：苏烈的等级永久+2。",
+      "portrait": "image/pieces/英雄牌/苏烈.png"
+    },
+    "李元芳": {
+      "name": "李元芳",
+      "category": "英雄牌",
+      "label_text": "李元芳",
+      "faction": "点",
+      "tags": [
+        "三后排",
+        "出装",
+        "射手"
+      ],
+      "skill": "整备：对距离最近的【河洛】\n英雄使用1张古币",
+      "portrait": "image/pieces/英雄牌/李元芳.png"
+    },
+    "鬼谷子": {
+      "name": "鬼谷子",
+      "category": "英雄牌",
+      "label_text": "鬼谷子",
+      "faction": "大河流域",
+      "tags": [
+        "出装",
+        "前排",
+        "辅助"
+      ],
+      "skill": "在场时，召唤先知图腾",
+      "portrait": "image/pieces/英雄牌/鬼谷子.png"
+    },
+    "刘邦": {
+      "name": "刘邦",
+      "category": "英雄牌",
+      "label_text": "刘邦",
+      "faction": "大河流域",
+      "tags": [
+        "三前排",
+        "坦克",
+        "出装"
+      ],
+      "skill": "开团：摧毁你所有的图膜\n每摧毁1个，刘邦等级永久+5。",
+      "portrait": "image/pieces/英雄牌/刘邦.png"
+    },
+    "敖隐": {
+      "name": "敖隐",
+      "category": "英雄牌",
+      "label_text": "敖隐",
+      "faction": "大河流域",
+      "tags": [
+        "三后排",
+        "射手",
+        "出装"
+      ],
+      "skill": "战斗中，每个国腾每4秒为敖隐\n提供16%攻击速度和4\n临时等级。",
+      "portrait": "image/pieces/英雄牌/敖隐.png"
+    },
+    "盾山": {
+      "name": "盾山",
+      "category": "英雄牌",
+      "label_text": "盾山",
+      "faction": "0",
+      "tags": [
+        "坦克",
+        "出装",
+        "前排"
+      ],
+      "skill": "牺牲：获得1张古币",
+      "portrait": "image/pieces/英雄牌/盾山.png"
+    },
+    "虞姬": {
+      "name": "虞姬",
+      "category": "英雄牌",
+      "label_text": "虞姬",
+      "faction": "大河流域",
+      "tags": [
+        "三后排",
+        "射手",
+        "出装"
+      ],
+      "skill": "开团：场上每有1个图腾\n自\n英\n身及随机2名不同【大河流域】\n雄等级+1。",
+      "portrait": "image/pieces/英雄牌/虞姬.png"
+    },
+    "东皇太一": {
+      "name": "东皇太一",
+      "category": "英雄牌",
+      "label_text": "东皇太",
+      "faction": "大河流域",
+      "tags": [
+        "三前排",
+        "坦克",
+        "出装"
+      ],
+      "skill": "￥图腾不会被优先攻击。\n开团：获得每个图腾等级数\n15%的临时等级。",
+      "portrait": "image/pieces/英雄牌/东皇太一.png"
+    },
+    "沈梦溪": {
+      "name": "沈梦溪",
+      "category": "英雄牌",
+      "label_text": "沈梦溪",
+      "faction": "河洛",
+      "tags": [
+        "三后排",
+        "法师",
+        "出装"
+      ],
+      "skill": "本回\n每对沈梦溪使用1张效果牌\n合法力值上限-15。",
+      "portrait": "image/pieces/英雄牌/沈梦溪.png"
+    },
+    "百里守约": {
+      "name": "百里守约",
+      "category": "英雄牌",
+      "label_text": "百里守约",
+      "faction": "0",
+      "tags": [
+        "三后排",
+        "射手",
+        "出装"
+      ],
+      "skill": "每当你拥有牺牲效果的英雄阵\n亡时，本回合百里守约的法力值\n上限-20。",
+      "portrait": "image/pieces/英雄牌/百里守约.png"
+    },
+    "少司缘": {
+      "name": "少司缘",
+      "category": "英雄牌",
+      "label_text": "少司缘",
+      "faction": "大河流域",
+      "tags": [
+        "后排",
+        "出装",
+        "辅助"
+      ],
+      "skill": "在场时，召唤因缘图腾",
+      "portrait": "image/pieces/英雄牌/少司缘.png"
+    },
+    "百里玄策": {
+      "name": "百里玄策",
+      "category": "英雄牌",
+      "label_text": "百里玄策",
+      "faction": "河洛",
+      "tags": [
+        "三后排",
+        "刺客",
+        "出装"
+      ],
+      "skill": "闪现\n整备：你的闪现英雄上回合每击\n败过1名敌方英雄，随机1名闪现英\n雄等级+1（击败次数：0）",
+      "portrait": "image/pieces/英雄牌/百里玄策.png"
+    },
+    "云中君": {
+      "name": "云中君",
+      "category": "英雄牌",
+      "label_text": "云中君",
+      "faction": "大河流域",
+      "tags": [
+        "三后排",
+        "刺客",
+        "出装"
+      ],
+      "skill": "闪现\n开团：你的英雄每穿戴1件装\n该英雄等级永久+1。\n备，",
+      "portrait": "image/pieces/英雄牌/云中君.png"
+    },
+    "瑶": {
+      "name": "瑶",
+      "category": "英雄牌",
+      "label_text": "瑶",
+      "faction": "大河流域",
+      "tags": [
+        "三后排",
+        "辅助",
+        "出装"
+      ],
+      "skill": "开团：自身的首件普通装备分\n享给随机3名友方英雄（持续15\n秒）。",
+      "portrait": "image/pieces/英雄牌/瑶.png"
+    },
+    "铠": {
+      "name": "铠",
+      "category": "英雄牌",
+      "label_text": "铠",
+      "faction": "河洛",
+      "tags": [
+        "战士",
+        "三前排",
+        "出装"
+      ],
+      "skill": "V复生\n牺牲：你的【河洛】英雄获得\n5临时等级。",
+      "portrait": "image/pieces/英雄牌/铠.png"
+    },
+    "张良": {
+      "name": "张良",
+      "category": "英雄牌",
+      "label_text": "张良",
+      "faction": "大河流域",
+      "tags": [
+        "三后排",
+        "法师",
+        "出装"
+      ],
+      "skill": "每当你的单位触发开团效果\n时，场上随机3名己方英雄等级永\n久+1。",
+      "portrait": "image/pieces/英雄牌/张良.png"
+    },
+    "大司命": {
+      "name": "大司命",
+      "category": "英雄牌",
+      "label_text": "大司命",
+      "faction": "大河流域",
+      "tags": [
+        "坦克",
+        "出装",
+        "前排"
+      ],
+      "skill": "在场时，召唤往生圆腾\n每当你触发牺牲效果时：\n在生圆腾等级永久+2并获得50点\n注力值",
+      "portrait": "image/pieces/英雄牌/大司命.png"
+    },
+    "程咬金": {
+      "name": "程咬金",
+      "category": "英雄牌",
+      "label_text": "程咬金",
+      "faction": "河洛",
+      "tags": [
+        "坦克",
+        "出装",
+        "前排"
+      ],
+      "skill": "整备：获得1张古币，对自身使\n用1张古币。",
+      "portrait": "image/pieces/英雄牌/程咬金.png"
+    },
+    "孙尚香": {
+      "name": "孙尚香",
+      "category": "英雄牌",
+      "label_text": "孙尚香",
+      "faction": "分之地",
+      "tags": [
+        "三后排",
+        "射手",
+        "出装"
+      ],
+      "skill": "登场：获得1次免费刷新",
+      "portrait": "image/pieces/英雄牌/孙尚香.png"
+    },
+    "艾琳": {
+      "name": "艾琳",
+      "category": "英雄牌",
+      "label_text": "艾琳",
+      "faction": "日落海",
+      "tags": [
+        "三后排",
+        "出装",
+        "射手"
+      ],
+      "skill": "开团：艾琳获得自身等级×1%\n的攻击速度。",
+      "portrait": "image/pieces/英雄牌/艾琳.png"
+    },
+    "狂铁": {
+      "name": "狂铁",
+      "category": "英雄牌",
+      "label_text": "狂铁",
+      "faction": "日落海",
+      "tags": [
+        "①战士",
+        "出装",
+        "三前排"
+      ],
+      "skill": "2整备：\n阿科米亚核心的等级+\n2.",
+      "portrait": "image/pieces/英雄牌/狂铁.png"
+    },
+    "雅典娜": {
+      "name": "雅典娜",
+      "category": "英雄牌",
+      "label_text": "雅典娜",
+      "faction": "日落海",
+      "tags": [
+        "出装",
+        "三前排",
+        "坦克"
+      ],
+      "skill": "开团：随机触发2名【日落海】\n英雄的整备效果。",
+      "portrait": "image/pieces/英雄牌/雅典娜.png"
+    },
+    "亚连": {
+      "name": "亚连",
+      "category": "英雄牌",
+      "label_text": "亚连",
+      "faction": "日落海",
+      "tags": [
+        "①战士",
+        "出装",
+        "三前排"
+      ],
+      "skill": "整备：你穿戴装备最多的1名【\n日落海】英雄等级+2，且\n阿科米亚核心等级+1。",
+      "portrait": "image/pieces/英雄牌/亚连.png"
+    },
+    "大乔": {
+      "name": "大乔",
+      "category": "英雄牌",
+      "label_text": "大乔",
+      "faction": "分之地",
+      "tags": [
+        "三后排",
+        "辅助",
+        "出装"
+      ],
+      "skill": "你的英雄每触发2次登场效果\n大乔的法力值上限永久-5。",
+      "portrait": "image/pieces/英雄牌/大乔.png"
+    },
+    "蔡文姬": {
+      "name": "蔡文姬",
+      "category": "英雄牌",
+      "label_text": "蔡文姬",
+      "faction": "分之地",
+      "tags": [
+        "三前排",
+        "辅助",
+        "出装"
+      ],
+      "skill": "每当你使用【三分】英雄牌时\n等级最低的其他3名【三分】英雄\n等级+1。",
+      "portrait": "image/pieces/英雄牌/蔡文姬.png"
+    },
+    "海诺": {
+      "name": "海诺",
+      "category": "英雄牌",
+      "label_text": "海诺",
+      "faction": "日落海",
+      "tags": [
+        "后排",
+        "出装",
+        "法师"
+      ],
+      "skill": "每当阿科米亚核心等级提升\n时，核心等级额外+1。",
+      "portrait": "image/pieces/英雄牌/海诺.png"
+    },
+    "马可波罗": {
+      "name": "马可波罗",
+      "category": "英雄牌",
+      "label_text": "马可波罗",
+      "faction": "日落海",
+      "tags": [
+        "三后排",
+        "出装",
+        "射手"
+      ],
+      "skill": "自身及阿科米亚核心\n登场：\n等级+2。",
+      "portrait": "image/pieces/英雄牌/马可波罗.png"
+    },
+    "露娜": {
+      "name": "露娜",
+      "category": "英雄牌",
+      "label_text": "露娜",
+      "faction": "日落海",
+      "tags": [
+        "后排",
+        "刺客",
+        "出装"
+      ],
+      "skill": "闪现\n登场：阿科米亚核心等级+2\n并且随机触发2名英雄的整备效\n甲",
+      "portrait": "image/pieces/英雄牌/露娜.png"
+    },
+    "曹操": {
+      "name": "曹操",
+      "category": "英雄牌",
+      "label_text": "曹操",
+      "faction": "三分之地",
+      "tags": [
+        "战士",
+        "三前排",
+        "出装"
+      ],
+      "skill": "整备：随机触发1名【三分】英\n雄的登场效果。",
+      "portrait": "image/pieces/英雄牌/曹操.png"
+    },
+    "姬小满": {
+      "name": "姬小满",
+      "category": "英雄牌",
+      "label_text": "姬小满",
+      "faction": "日落海",
+      "tags": [
+        "①战士",
+        "出装",
+        "三前排"
+      ],
+      "skill": "获得\n每当你出售4名场上英雄后，\n1次临时刷新。",
+      "portrait": "image/pieces/英雄牌/姬小满.png"
+    },
+    "赵云": {
+      "name": "赵云",
+      "category": "英雄牌",
+      "label_text": "赵云",
+      "faction": "分之地",
+      "tags": [
+        "战士",
+        "三前排",
+        "出装"
+      ],
+      "skill": "自身及随机2名其他英雄\n登场：\n等级+1。",
+      "portrait": "image/pieces/英雄牌/赵云.png"
+    },
+    "亚瑟": {
+      "name": "亚瑟",
+      "category": "英雄牌",
+      "label_text": "亚瑟",
+      "faction": "日落海",
+      "tags": [
+        "出装",
+        "三前排",
+        "坦克"
+      ],
+      "skill": "每当你使用【日落海】英雄牌\n时，阿科米亚核心等级+3。",
+      "portrait": "image/pieces/英雄牌/亚瑟.png"
+    },
+    "马超": {
+      "name": "马超",
+      "category": "英雄牌",
+      "label_text": "马超",
+      "faction": "分之地",
+      "tags": [
+        "战士",
+        "三前排",
+        "出装"
+      ],
+      "skill": "己方施加控制效果时，马超获得\n15点法力值及5%暴击率。",
+      "portrait": "image/pieces/英雄牌/马超.png"
+    },
+    "朵莉亚": {
+      "name": "朵莉亚",
+      "category": "英雄牌",
+      "label_text": "朵莉亚",
+      "faction": "日落海",
+      "tags": [
+        "后排",
+        "辅助",
+        "出装"
+      ],
+      "skill": "每当你的英雄触发整备效果\n时，随机3名英雄及\n阿科米亚核心等级+1。",
+      "portrait": "image/pieces/英雄牌/朵莉亚.png"
+    },
+    "貂蝉": {
+      "name": "貂蝉",
+      "category": "英雄牌",
+      "label_text": "貂蝉",
+      "faction": "三分之地",
+      "tags": [
+        "三前排",
+        "法师",
+        "出装"
+      ],
+      "skill": "【三分】英雄等级+1。\n登场：",
+      "portrait": "image/pieces/英雄牌/貂蝉.png"
+    },
+    "安琪拉": {
+      "name": "安琪拉",
+      "category": "英雄牌",
+      "label_text": "安琪拉",
+      "faction": "日落海",
+      "tags": [
+        "后排",
+        "出装",
+        "法师"
+      ],
+      "skill": "2整备：\n自身及阿科米亚核心\n等级+2。",
+      "portrait": "image/pieces/英雄牌/安琪拉.png"
+    },
+    "刘禅": {
+      "name": "刘禅",
+      "category": "英雄牌",
+      "label_text": "刘禅",
+      "faction": "分之地",
+      "tags": [
+        "三前排",
+        "坦克",
+        "出装"
+      ],
+      "skill": "你的英雄释放技能时，该英雄获\n得2临时等级。",
+      "portrait": "image/pieces/英雄牌/刘禅.png"
+    },
+    "莱西奥": {
+      "name": "莱西奥",
+      "category": "英雄牌",
+      "label_text": "莱西奥",
+      "faction": "日落海",
+      "tags": [
+        "三后排",
+        "出装",
+        "射手"
+      ],
+      "skill": "每当你出售2名场上英雄后\n阿科米亚核心等级+1。",
+      "portrait": "image/pieces/英雄牌/莱西奥.png"
+    },
+    "诸葛亮": {
+      "name": "诸葛亮",
+      "category": "英雄牌",
+      "label_text": "诸葛亮",
+      "faction": "分之地",
+      "tags": [
+        "三后排",
+        "法师",
+        "出装"
+      ],
+      "skill": "你的其他英雄释放技能时，诸葛\n亮获得15点法力值以及\n4临时等级。",
+      "portrait": "image/pieces/英雄牌/诸葛亮.png"
+    },
+    "太乙真人": {
+      "name": "太乙真人",
+      "category": "英雄牌",
+      "label_text": "太乙真人",
+      "faction": "",
+      "tags": [
+        "出装",
+        "三前排",
+        "坦克"
+      ],
+      "skill": "开团：使距离最近的1名英雄获\n得复生。",
+      "portrait": "image/pieces/英雄牌/太乙真人.png"
+    },
+    "白起": {
+      "name": "白起",
+      "category": "英雄牌",
+      "label_text": "白起",
+      "faction": "还牌",
+      "tags": [
+        "坦克",
+        "出装",
+        "前排"
+      ],
+      "skill": "每回合首次使用效果牌时，获得1\n张援护战术。",
+      "portrait": "image/pieces/英雄牌/白起.png"
+    },
+    "弈星": {
+      "name": "弈星",
+      "category": "英雄牌",
+      "label_text": "弈星",
+      "faction": "",
+      "tags": [
+        "后排",
+        "出装",
+        "法师"
+      ],
+      "skill": "棋手升级时，棋手经验+2。",
+      "portrait": "image/pieces/英雄牌/弈星.png"
+    },
+    "孙悟空": {
+      "name": "孙悟空",
+      "category": "英雄牌",
+      "label_text": "孙悟空",
+      "faction": "心",
+      "tags": [
+        "后排",
+        "刺客",
+        "出装"
+      ],
+      "skill": "闪现，夺取\n整备：拥有闪现效果的英雄\n等级+2。",
+      "portrait": "image/pieces/英雄牌/孙悟空.png"
+    },
+    "蒙狂": {
+      "name": "蒙狂",
+      "category": "英雄牌",
+      "label_text": "蒙",
+      "faction": "逐鹿",
+      "tags": [
+        "后排",
+        "出装",
+        "射手"
+      ],
+      "skill": "登场：获得1张特训战术。",
+      "portrait": "image/pieces/英雄牌/蒙狂.png"
+    },
+    "牛魔": {
+      "name": "牛魔",
+      "category": "英雄牌",
+      "label_text": "牛魔",
+      "faction": "",
+      "tags": [
+        "出装",
+        "三前排",
+        "坦克"
+      ],
+      "skill": "凯旋：获得1能量。",
+      "portrait": "image/pieces/英雄牌/牛魔.png"
+    },
+    "公孙离": {
+      "name": "公孙离",
+      "category": "英雄牌",
+      "label_text": "公孙离",
+      "faction": "",
+      "tags": [
+        "三后排",
+        "出装",
+        "射手"
+      ],
+      "skill": "夺取\n开团：场上每有1名已觉醒英\n攻击速度+15%。\n雄，",
+      "portrait": "image/pieces/英雄牌/公孙离.png"
+    },
+    "蒙恬": {
+      "name": "蒙恬",
+      "category": "英雄牌",
+      "label_text": "蒙恬",
+      "faction": "逐牌",
+      "tags": [
+        "坦克",
+        "出装",
+        "前排"
+      ],
+      "skill": "牺牲：召唤2名与自身等级相同\n的玄雍士兵。",
+      "portrait": "image/pieces/英雄牌/蒙恬.png"
+    },
+    "海月": {
+      "name": "海月",
+      "category": "英雄牌",
+      "label_text": "海月",
+      "faction": "心",
+      "tags": [
+        "出装",
+        "三前排",
+        "坦克"
+      ],
+      "skill": "牺牲：将敌方等级最高的英雄\n困入水月幻境控制4秒，并造成等\n同于海月生命值的真实伤害。",
+      "portrait": "image/pieces/英雄牌/海月.png"
+    },
+    "扁鹊": {
+      "name": "扁鹊",
+      "category": "英雄牌",
+      "label_text": "扁鹊",
+      "faction": "还牌",
+      "tags": [
+        "三后排",
+        "辅助",
+        "出装"
+      ],
+      "skill": "友方单位护盾被击破时，对周围\n敌人造成该英雄最大生命值10%\n的法术伤害（冷却1秒）。",
+      "portrait": "image/pieces/英雄牌/扁鹊.png"
+    },
+    "杨玉环": {
+      "name": "杨玉环",
+      "category": "英雄牌",
+      "label_text": "杨玉环",
+      "faction": "",
+      "tags": [
+        "三后排",
+        "出装",
+        "法师"
+      ],
+      "skill": "杨玉环在场时，每过3个回合获得\n1张弦音。\n退场：获得1张弦音",
+      "portrait": "image/pieces/英雄牌/杨玉环.png"
+    },
+    "庄周": {
+      "name": "庄周",
+      "category": "英雄牌",
+      "label_text": "庄周",
+      "faction": "还鹿",
+      "tags": [
+        "坦克",
+        "出装",
+        "前排"
+      ],
+      "skill": "登场：\n自身等级+2并获得1张招\n募战术。",
+      "portrait": "image/pieces/英雄牌/庄周.png"
+    },
+    "梦奇": {
+      "name": "梦奇",
+      "category": "英雄牌",
+      "label_text": "梦奇",
+      "faction": "",
+      "tags": [
+        "出装",
+        "三前排",
+        "坦克"
+      ],
+      "skill": "退场：获得1张1阶英雄兑换券。\nX败阵：提升英雄兑换券的品\n阶。",
+      "portrait": "image/pieces/英雄牌/梦奇.png"
+    },
+    "猪八戒": {
+      "name": "猪八戒",
+      "category": "英雄牌",
+      "label_text": "猪八戒",
+      "faction": "",
+      "tags": [
+        "出装",
+        "三前排",
+        "坦克"
+      ],
+      "skill": "退场：获得1张1阶英雄兑换券。\nX败阵：提升英雄兑换券的品\n阶。",
+      "portrait": "image/pieces/英雄牌/猪八戒.png"
+    },
+    "姜子牙": {
+      "name": "姜子牙",
+      "category": "英雄牌",
+      "label_text": "姜子牙",
+      "faction": "",
+      "tags": [
+        "后排",
+        "出装",
+        "法师"
+      ],
+      "skill": "你每次使用不在场的阵营以及无\n阵营的英雄牌时，姜子牙和随机3\n名其他不同阵营的英雄等级+1。",
+      "portrait": "image/pieces/英雄牌/姜子牙.png"
+    },
+    "米莱狄": {
+      "name": "米莱狄",
+      "category": "英雄牌",
+      "label_text": "米莱狄",
+      "faction": "日落海",
+      "tags": [
+        "后排",
+        "出装",
+        "法师"
+      ],
+      "skill": "召唤单位获得3临时等级。\n2整备：该临时等级及\n阿科米亚核心等级额外+3。",
+      "portrait": "image/pieces/英雄牌/米莱狄.png"
+    },
+    "嬴政": {
+      "name": "嬴政",
+      "category": "英雄牌",
+      "label_text": "赢政",
+      "faction": "逐牌",
+      "tags": [
+        "后排",
+        "出装",
+        "法师"
+      ],
+      "skill": "开团：法术攻击力+7。每次使\n用战术牌会提升该加成。",
+      "portrait": "image/pieces/英雄牌/嬴政.png"
+    },
+    "鲁班大师": {
+      "name": "鲁班大师",
+      "category": "英雄牌",
+      "label_text": "鲁班大师",
+      "faction": "还牌",
+      "tags": [
+        "出装",
+        "前排",
+        "辅助"
+      ],
+      "skill": "鲁班大师在场时，召唤1个等级与\n自身相同的机关傀。",
+      "portrait": "image/pieces/英雄牌/鲁班大师.png"
+    },
+    "廉颇": {
+      "name": "廉颇",
+      "category": "英雄牌",
+      "label_text": "廉颇",
+      "faction": "还牌",
+      "tags": [
+        "坦克",
+        "出装",
+        "前排"
+      ],
+      "skill": "廉颇释放技能时，你的其他英雄\n获得5点护盾值。每次使用战术牌\n会提升该护盾值。",
+      "portrait": "image/pieces/英雄牌/廉颇.png"
+    },
+    "鲁班七号": {
+      "name": "鲁班七号",
+      "category": "英雄牌",
+      "label_text": "鲁班七号",
+      "faction": "还牌",
+      "tags": [
+        "后排",
+        "出装",
+        "射手"
+      ],
+      "skill": "你的英雄每合成3次，随机获得\n1张战术牌。",
+      "portrait": "image/pieces/英雄牌/鲁班七号.png"
+    },
+    "明世隐": {
+      "name": "明世隐",
+      "category": "英雄牌",
+      "label_text": "明世隐",
+      "faction": "",
+      "tags": [
+        "三后排",
+        "出装",
+        "辅助"
+      ],
+      "skill": "距离最近的英雄，临时等级中\n的2级可转化为永久等级。\n登场：可转化的等级+2。",
+      "portrait": "image/pieces/英雄牌/明世隐.png"
+    },
+    "镜": {
+      "name": "镜",
+      "category": "英雄牌",
+      "label_text": "镜",
+      "faction": "还牌",
+      "tags": [
+        "三后排",
+        "刺客",
+        "出装"
+      ],
+      "skill": "闪现\n等级+1。\n每使用2张效果牌，",
+      "portrait": "image/pieces/英雄牌/镜.png"
+    },
+    "西施": {
+      "name": "西施",
+      "category": "英雄牌",
+      "label_text": "西施",
+      "faction": "还牌",
+      "tags": [
+        "三后排",
+        "出装",
+        "法师"
+      ],
+      "skill": "整备：获得1张推演战术。",
+      "portrait": "image/pieces/英雄牌/西施.png"
+    },
+    "苍": {
+      "name": "苍",
+      "category": "英雄牌",
+      "label_text": "苍",
+      "faction": "",
+      "tags": [
+        "三后排",
+        "出装",
+        "射手"
+      ],
+      "skill": "你的召唤单位阵亡时，会对周围\n敌人造成25点物理伤害。每次召\n唤还会额外提升该伤害。",
+      "portrait": "image/pieces/英雄牌/苍.png"
+    },
+    "老夫子": {
+      "name": "老夫子",
+      "category": "英雄牌",
+      "label_text": "老夫子",
+      "faction": "还牌",
+      "tags": [
+        "出装",
+        "①战士",
+        "前排"
+      ],
+      "skill": "每回合首次合成时，获得1张招\n募战术。",
+      "portrait": "image/pieces/英雄牌/老夫子.png"
+    },
+    "阿轲": {
+      "name": "阿轲",
+      "category": "英雄牌",
+      "label_text": "阿轲",
+      "faction": "",
+      "tags": [
+        "后排",
+        "刺客",
+        "出装"
+      ],
+      "skill": "闪现\n登场：自身及随机1名英雄等级+\n1.\n棋手生命值每降低10点，重复1",
+      "portrait": "image/pieces/英雄牌/阿轲.png"
+    },
+    "援护战术": {
+      "name": "援护战术",
+      "category": "效果牌",
+      "label_text": "援护战术",
+      "faction": "逐鹿",
+      "tags": [
+        "相关"
+      ],
+      "skill": "S转瞬\n全体【逐鹿】英雄本回合获得50（\n+25×战术牌打出次数，当前：\n75）点护质",
+      "portrait": "image/pieces/效果牌/援护战术.png"
+    },
+    "演练战术": {
+      "name": "演练战术",
+      "category": "效果牌",
+      "label_text": "演练战术",
+      "faction": "逐鹿",
+      "tags": [
+        "相关"
+      ],
+      "skill": "S转瞬\n所有英雄等级+1。",
+      "portrait": "image/pieces/效果牌/演练战术.png"
+    },
+    "精致古币": {
+      "name": "精致古币",
+      "category": "效果牌",
+      "label_text": "精致古币",
+      "faction": "河洛",
+      "tags": [
+        "相关"
+      ],
+      "skill": "S转腰\n指定1名【河洛】英雄等级+4。",
+      "portrait": "image/pieces/效果牌/精致古币.png"
+    },
+    "河洛征召令": {
+      "name": "河洛征召令",
+      "category": "效果牌",
+      "label_text": "河洛征召令",
+      "faction": "河洛",
+      "tags": [
+        "相关",
+        "该卡通过效果锦囊等渠道获得。"
+      ],
+      "skill": "获得2张【河洛】英雄牌。",
+      "portrait": "image/pieces/效果牌/河洛征召令.png"
+    },
+    "推演战术": {
+      "name": "推演战术",
+      "category": "效果牌",
+      "label_text": "推演战术",
+      "faction": "逐鹿",
+      "tags": [
+        "相关"
+      ],
+      "skill": "S转膜\n指定1名【逐鹿】英雄，\n使其本回合\n法力值上限-5（每次使用此牌都会\n提升效果\n上限20点",
+      "portrait": "image/pieces/效果牌/推演战术.png"
+    },
+    "古币": {
+      "name": "古币",
+      "category": "效果牌",
+      "label_text": "古币",
+      "faction": "河洛",
+      "tags": [
+        "相关"
+      ],
+      "skill": "S转腰\n指定1名【河洛】英雄等级+2。",
+      "portrait": "image/pieces/效果牌/古币.png"
+    },
+    "高级人才": {
+      "name": "高级人才",
+      "category": "效果牌",
+      "label_text": "高级人才",
+      "faction": "效果",
+      "tags": [
+        "相关",
+        "该卡通过效果锦囊等渠道获得。"
+      ],
+      "skill": "随机获得1张特定品阶（棋手等级\n+1）的英雄牌。",
+      "portrait": "image/pieces/效果牌/高级人才.png"
+    },
+    "特训战术": {
+      "name": "特训战术",
+      "category": "效果牌",
+      "label_text": "特训战术",
+      "faction": "逐鹿",
+      "tags": [
+        "相关"
+      ],
+      "skill": "S转瞬\n指定1名英雄等级+4。",
+      "portrait": "image/pieces/效果牌/特训战术.png"
+    },
+    "广纳良才": {
+      "name": "广纳良才",
+      "category": "效果牌",
+      "label_text": "广纳良才",
+      "faction": "效果",
+      "tags": [
+        "相关",
+        "该卡通过商店购买、效果锦囊等渠"
+      ],
+      "skill": "卡牌5选2（英雄牌）",
+      "portrait": "image/pieces/效果牌/广纳良才.png"
+    },
+    "跳级": {
+      "name": "跳级",
+      "category": "效果牌",
+      "label_text": "跳级",
+      "faction": "日落海",
+      "tags": [
+        "相关",
+        "该卡通过商店购买等渠道获得。"
+      ],
+      "skill": "使1名英雄夺取阿科米亚核心至\n多5级。",
+      "portrait": "image/pieces/效果牌/跳级.png"
+    },
+    "惊喜补贴": {
+      "name": "惊喜补贴",
+      "category": "效果牌",
+      "label_text": "惊喜补贴",
+      "faction": "效果",
+      "tags": [
+        "相关",
+        "该卡通过效果锦囊等渠道获得。"
+      ],
+      "skill": "获得3次免费刷新。",
+      "portrait": "image/pieces/效果牌/惊喜补贴.png"
+    },
+    "经典研读会": {
+      "name": "经典研读会",
+      "category": "效果牌",
+      "label_text": "经典研读会",
+      "faction": "效果",
+      "tags": [
+        "相关",
+        "该卡通过效果锦囊等渠道获得。"
+      ],
+      "skill": "获得4棋手经验。",
+      "portrait": "image/pieces/效果牌/经典研读会.png"
+    },
+    "招募战术": {
+      "name": "招募战术",
+      "category": "效果牌",
+      "label_text": "招募战术",
+      "faction": "逐鹿",
+      "tags": [
+        "相关"
+      ],
+      "skill": "S转腰\n随机获得1张【逐鹿】英雄牌。",
+      "portrait": "image/pieces/效果牌/招募战术.png"
+    },
+    "研读会": {
+      "name": "研读会",
+      "category": "效果牌",
+      "label_text": "研读会",
+      "faction": "效果",
+      "tags": [
+        "相关",
+        "该卡通过效果锦囊等渠道获得。"
+      ],
+      "skill": "获得3棋手经验。",
+      "portrait": "image/pieces/效果牌/研读会.png"
+    },
+    "图腾仪式": {
+      "name": "图腾仪式",
+      "category": "效果牌",
+      "label_text": "图腾仪式",
+      "faction": "大河流域",
+      "tags": [
+        "相关",
+        "该卡通过商店购买等渠道获得。"
+      ],
+      "skill": "随机获得1张与图腾相关的【大\n河流域】英雄牌。",
+      "portrait": "image/pieces/效果牌/图腾仪式.png"
+    },
+    "呼朋唤友": {
+      "name": "呼朋唤友",
+      "category": "效果牌",
+      "label_text": "呼朋唤友",
+      "faction": "效果",
+      "tags": [
+        "相关",
+        "该卡通过商店购买、效果锦囊等渠"
+      ],
+      "skill": "指定1名英雄，随机获得1张与其同\n阵营的英雄牌。",
+      "portrait": "image/pieces/效果牌/呼朋唤友.png"
+    },
+    "唤醒": {
+      "name": "唤醒",
+      "category": "效果牌",
+      "label_text": "唤醒",
+      "faction": "效果",
+      "tags": [
+        "相关",
+        "该卡通过商店购买、效果锦囊等渠"
+      ],
+      "skill": "指定1名英雄，触发其登场效\n果。",
+      "portrait": "image/pieces/效果牌/唤醒.png"
+    },
+    "照影": {
+      "name": "照影",
+      "category": "效果牌",
+      "label_text": "照影",
+      "faction": "效果",
+      "tags": [
+        "相关",
+        "该卡通过商店购买、效果锦囊等渠"
+      ],
+      "skill": "随机获得1张场上英雄牌。",
+      "portrait": "image/pieces/效果牌/照影.png"
+    },
+    "吸纳人才": {
+      "name": "吸纳人才",
+      "category": "效果牌",
+      "label_text": "吸纳人才",
+      "faction": "效果",
+      "tags": [
+        "相关",
+        "该卡通过效果锦囊等渠道获得。"
+      ],
+      "skill": "卡牌4选1（英雄牌）",
+      "portrait": "image/pieces/效果牌/吸纳人才.png"
+    },
+    "武装之力": {
+      "name": "武装之力",
+      "category": "效果牌",
+      "label_text": "武装之力",
+      "faction": "大河流域",
+      "tags": [
+        "相关",
+        "该卡通过商店购买等渠道获得。"
+      ],
+      "skill": "所有英雄获得等同于自身装备数\n量的等级。",
+      "portrait": "image/pieces/效果牌/武装之力.png"
+    },
+    "临阵磨枪": {
+      "name": "临阵磨枪",
+      "category": "效果牌",
+      "label_text": "临阵磨枪",
+      "faction": "效果",
+      "tags": [
+        "相关",
+        "该卡通过商店购买、效果锦囊等渠"
+      ],
+      "skill": "指定1名英雄，触发其整备效\n果。",
+      "portrait": "image/pieces/效果牌/临阵磨枪.png"
+    },
+    "古币多多": {
+      "name": "古币多多",
+      "category": "效果牌",
+      "label_text": "古币多多",
+      "faction": "河洛",
+      "tags": [
+        "相关",
+        "该卡通过商店购买等渠道获得。"
+      ],
+      "skill": "获得2张古币。",
+      "portrait": "image/pieces/效果牌/古币多多.png"
+    },
+    "整备高手": {
+      "name": "整备高手",
+      "category": "效果牌",
+      "label_text": "整备高手",
+      "faction": "效果",
+      "tags": [
+        "相关",
+        "该卡通过效果锦囊等渠道获得。"
+      ],
+      "skill": "获得2张具有整备效果的英雄\n牌。",
+      "portrait": "image/pieces/效果牌/整备高手.png"
+    },
+    "登场人物": {
+      "name": "登场人物",
+      "category": "效果牌",
+      "label_text": "登场人物",
+      "faction": "效果",
+      "tags": [
+        "相关",
+        "该卡通过效果锦囊等渠道获得。"
+      ],
+      "skill": "获得2张具有登场效果的英雄\n牌。",
+      "portrait": "image/pieces/效果牌/登场人物.png"
+    },
+    "弦音": {
+      "name": "弦音",
+      "category": "效果牌",
+      "label_text": "弦音",
+      "faction": "效果",
+      "tags": [
+        "相关"
+      ],
+      "skill": "指定1名1-3阶英雄，\n使其觉醒进\n度+1。",
+      "portrait": "image/pieces/效果牌/弦音.png"
+    },
+    "开团号令": {
+      "name": "开团号令",
+      "category": "效果牌",
+      "label_text": "开团号令",
+      "faction": "大河流域",
+      "tags": [
+        "相关",
+        "该卡通过效果锦囊等渠道获得。"
+      ],
+      "skill": "获得2张具有V开团效果的英雄\n牌。",
+      "portrait": "image/pieces/效果牌/开团号令.png"
+    },
+    "遗志": {
+      "name": "遗志",
+      "category": "效果牌",
+      "label_text": "遗志",
+      "faction": "效果",
+      "tags": [
+        "相关",
+        "该卡通过效果锦囊等渠道获得。"
+      ],
+      "skill": "指定场上1名英雄将其移除，并转\n移其等级（临时等级除外）给1\n名随机英雄。",
+      "portrait": "image/pieces/效果牌/遗志.png"
+    },
+    "高阶特训战术": {
+      "name": "高阶特训战术",
+      "category": "效果牌",
+      "label_text": "高阶特训",
+      "faction": "逐鹿",
+      "tags": [
+        "相关"
+      ],
+      "skill": "S转瞬\n指定1名英雄等级+8。",
+      "portrait": "image/pieces/效果牌/高阶特训战术.png"
+    },
+    "闪现突击者": {
+      "name": "闪现突击者",
+      "category": "效果牌",
+      "label_text": "闪现突击者",
+      "faction": "效果",
+      "tags": [
+        "相关",
+        "该卡通过效果锦囊等渠道获得。"
+      ],
+      "skill": "获得2张具有闪现效果的英雄\n牌。",
+      "portrait": "image/pieces/效果牌/闪现突击者.png"
+    },
+    "八方来援": {
+      "name": "八方来援",
+      "category": "效果牌",
+      "label_text": "八方来援",
+      "faction": "效果",
+      "tags": [
+        "相关",
+        "该卡通过商店购买等渠道获得。"
+      ],
+      "skill": "指定1名英雄等级+2。场上每有1\n种阵营，额外触发1次此效果。",
+      "portrait": "image/pieces/效果牌/八方来援.png"
+    },
+    "高阶援护战术": {
+      "name": "高阶援护战术",
+      "category": "效果牌",
+      "label_text": "高阶援护",
+      "faction": "逐鹿",
+      "tags": [
+        "相关"
+      ],
+      "skill": "S转膜\n全体【逐鹿】英雄本回合获得100\n（+50×战术牌打出次数，当前：\n150）点护厦",
+      "portrait": "image/pieces/效果牌/高阶援护战术.png"
+    },
+    "逐鹿征召令": {
+      "name": "逐鹿征召令",
+      "category": "效果牌",
+      "label_text": "逐鹿征召令",
+      "faction": "逐鹿",
+      "tags": [
+        "相关",
+        "该卡通过效果锦囊等渠道获得。"
+      ],
+      "skill": "获得2张【逐鹿】英雄牌。",
+      "portrait": "image/pieces/效果牌/逐鹿征召令.png"
+    },
+    "牺牲品": {
+      "name": "牺牲品",
+      "category": "效果牌",
+      "label_text": "牺牲品",
+      "faction": "河洛",
+      "tags": [
+        "相关",
+        "该卡通过效果锦囊等渠道获得。"
+      ],
+      "skill": "获得2张具有牺牲效果的英雄\n牌。",
+      "portrait": "image/pieces/效果牌/牺牲品.png"
+    },
+    "扶倾济弱": {
+      "name": "扶倾济弱",
+      "category": "效果牌",
+      "label_text": "扶倾济弱",
+      "faction": "效果",
+      "tags": [
+        "相关",
+        "该卡通过商店购买、效果锦囊等渠"
+      ],
+      "skill": "使场上等级最低（临时等级除\n外）的英雄提升9级。",
+      "portrait": "image/pieces/效果牌/扶倾济弱.png"
+    },
+    "战前宣誓": {
+      "name": "战前宣誓",
+      "category": "效果牌",
+      "label_text": "战前宣誓",
+      "faction": "河洛",
+      "tags": [
+        "相关",
+        "该卡通过商店购买等渠道获得。"
+      ],
+      "skill": "指定1名英雄，获得自身品阶×3的\n临时等级。",
+      "portrait": "image/pieces/效果牌/战前宣誓.png"
+    },
+    "发号施令": {
+      "name": "发号施令",
+      "category": "效果牌",
+      "label_text": "发号施令",
+      "faction": "逐鹿",
+      "tags": [
+        "相关",
+        "该卡通过商店购买等渠道获得。"
+      ],
+      "skill": "随机获得2张战术牌。",
+      "portrait": "image/pieces/效果牌/发号施令.png"
+    },
+    "逍遥自在": {
+      "name": "逍遥自在",
+      "category": "效果牌",
+      "label_text": "逍遥自在",
+      "faction": "效果",
+      "tags": [
+        "相关",
+        "该卡通过商店购买等渠道获得。"
+      ],
+      "skill": "所有无阵营英雄获得2×场上无阵\n营英雄数量的等级。",
+      "portrait": "image/pieces/效果牌/逍遥自在.png"
+    },
+    "远洋宝藏": {
+      "name": "远洋宝藏",
+      "category": "效果牌",
+      "label_text": "远洋宝藏",
+      "faction": "日落海",
+      "tags": [
+        "相关",
+        "该卡通过商店购买等渠道获得"
+      ],
+      "skill": "从5件【日落海】专属装备中随机\n获得1件（不会重复获得）",
+      "portrait": "image/pieces/效果牌/远洋宝藏.png"
+    },
+    "乱世": {
+      "name": "乱世",
+      "category": "效果牌",
+      "label_text": "乱世",
+      "faction": "分之地",
+      "tags": [
+        "相关",
+        "该卡通过商店购买等渠道获得。"
+      ],
+      "skill": "卡牌3选1（\n（登场英雄牌）",
+      "portrait": "image/pieces/效果牌/乱世.png"
+    },
+    "武装重构": {
+      "name": "武装重构",
+      "category": "效果牌",
+      "label_text": "武装重构",
+      "faction": "效果",
+      "tags": [
+        "相关",
+        "该卡通过商店购买、效果锦囊等渠"
+      ],
+      "skill": "指定1名英雄，摧毁其所有装备\n随机获得对应数量+1的基础装\n备。",
+      "portrait": "image/pieces/效果牌/武装重构.png"
+    },
+    "阵营祝福": {
+      "name": "阵营祝福",
+      "category": "效果牌",
+      "label_text": "阵营祝福",
+      "faction": "效果",
+      "tags": [
+        "相关",
+        "该卡通过商店购买、效果锦囊等渠"
+      ],
+      "skill": "各阵营中随机1名英雄等级+4。",
+      "portrait": "image/pieces/效果牌/阵营祝福.png"
+    },
+    "妙音": {
+      "name": "妙音",
+      "category": "效果牌",
+      "label_text": "妙音",
+      "faction": "效果",
+      "tags": [
+        "相关"
+      ],
+      "skill": "指定1名英雄，使其觉醒进度+1。",
+      "portrait": "image/pieces/效果牌/妙音.png"
+    },
+    "夺取之术": {
+      "name": "夺取之术",
+      "category": "效果牌",
+      "label_text": "夺取之术",
+      "faction": "效果",
+      "tags": [
+        "相关",
+        "该卡通过商店购买等渠道获得。"
+      ],
+      "skill": "指定1名英雄，夺取最近1名己方英\n雄的等级（最多10级，不包含\n临时等级）",
+      "portrait": "image/pieces/效果牌/夺取之术.png"
+    },
+    "天籁琴音": {
+      "name": "天籁琴音",
+      "category": "效果牌",
+      "label_text": "天籁琴音",
+      "faction": "鼓果",
+      "tags": [
+        "相关",
+        "该卡通过拍卖等渠道获得"
+      ],
+      "skill": "获得3张妙音（妙音：指定1名英\n使其觉醒进度+1）。\n雄，",
+      "portrait": "image/pieces/效果牌/天籁琴音.png"
+    },
+    "神兵天降": {
+      "name": "神兵天降",
+      "category": "效果牌",
+      "label_text": "神兵天降",
+      "faction": "鼓果",
+      "tags": [
+        "相关",
+        "该卡通过拍卖等渠道获得"
+      ],
+      "skill": "获得4张5阶英雄兑换券",
+      "portrait": "image/pieces/效果牌/神兵天降.png"
+    },
+    "开局狂飙": {
+      "name": "开局狂飙",
+      "category": "效果牌",
+      "label_text": "开局狂飙",
+      "faction": "效果",
+      "tags": [
+        "相关"
+      ],
+      "skill": "指定1名英雄，本回合开战后前15\n秒内，可以无限释放技能。",
+      "portrait": "image/pieces/效果牌/开局狂飙.png"
+    },
+    "传承": {
+      "name": "传承",
+      "category": "效果牌",
+      "label_text": "传承",
+      "faction": "效果",
+      "tags": [
+        "相关",
+        "该卡通过效果锦囊等渠道获得。"
+      ],
+      "skill": "指定场上1名10级以上的英雄，将\n其等级随机分配给3名其他英雄（\n不会分配给同一英雄）\n0",
+      "portrait": "image/pieces/效果牌/传承.png"
+    },
+    "能量大爆炸": {
+      "name": "能量大爆炸",
+      "category": "效果牌",
+      "label_text": "能量大爆炸",
+      "faction": "效果",
+      "tags": [
+        "相关",
+        "该卡通过效果锦囊等渠道获得。"
+      ],
+      "skill": "获得5能量。",
+      "portrait": "image/pieces/效果牌/能量大爆炸.png"
+    },
+    "珍品宝箱": {
+      "name": "珍品宝箱",
+      "category": "效果牌",
+      "label_text": "珍品宝箱",
+      "faction": "效果",
+      "tags": [
+        "相关"
+      ],
+      "skill": "卡牌3选1（特殊装备或天赋装\n备）。",
+      "portrait": "image/pieces/效果牌/珍品宝箱.png"
+    },
+    "沧海拾遗": {
+      "name": "沧海拾遗",
+      "category": "效果牌",
+      "label_text": "沧海拾遗",
+      "faction": "鼓果",
+      "tags": [
+        "相关",
+        "该卡通过拍卖等渠道获得。"
+      ],
+      "skill": "随机获得1张其他6阶效果牌。",
+      "portrait": "image/pieces/效果牌/沧海拾遗.png"
+    },
+    "众星闪耀": {
+      "name": "众星闪耀",
+      "category": "效果牌",
+      "label_text": "众星闪耀",
+      "faction": "鼓果",
+      "tags": [
+        "相关",
+        "该卡通过拍卖等渠道获得。"
+      ],
+      "skill": "全体己方英雄等级+10。每持有一\n回合，此效果增强5级。",
+      "portrait": "image/pieces/效果牌/众星闪耀.png"
+    },
+    "破境之证": {
+      "name": "破境之证",
+      "category": "效果牌",
+      "label_text": "破境之证",
+      "faction": "鼓果",
+      "tags": [
+        "相关",
+        "该卡通过拍卖等渠道获得。"
+      ],
+      "skill": "指定1名英雄立即提升20级，之后\n每回合提升10级。",
+      "portrait": "image/pieces/效果牌/破境之证.png"
+    },
+    "求贤": {
+      "name": "求贤",
+      "category": "效果牌",
+      "label_text": "求贤",
+      "faction": "效果",
+      "tags": [
+        "相关",
+        "该卡通过商店购买、效果锦囊等渠"
+      ],
+      "skill": "指定1名英雄，发现与其同阵营的\n3张英雄牌，从中选择1张。",
+      "portrait": "image/pieces/效果牌/求贤.png"
+    },
+    "呼风唤雨": {
+      "name": "呼风唤雨",
+      "category": "效果牌",
+      "label_text": "呼风唤雨",
+      "faction": "鼓果",
+      "tags": [
+        "相关",
+        "该卡通过拍卖等渠道获得。"
+      ],
+      "skill": "随机获得4张5阶效果牌。",
+      "portrait": "image/pieces/效果牌/呼风唤雨.png"
+    },
+    "化铁为金": {
+      "name": "化铁为金",
+      "category": "效果牌",
+      "label_text": "化铁为金",
+      "faction": "鼓果",
+      "tags": [
+        "相关",
+        "该卡通过拍卖等渠道获得。"
+      ],
+      "skill": "指定1名1-3阶的英雄随机变为不\n在场的5阶英雄，觉醒并保留其当\n前等级（包括临时等级）。",
+      "portrait": "image/pieces/效果牌/化铁为金.png"
+    },
+    "众星拱月": {
+      "name": "众星拱月",
+      "category": "效果牌",
+      "label_text": "众星拱月",
+      "faction": "鼓果",
+      "tags": [
+        "相关",
+        "该卡通过拍卖等渠道获得。"
+      ],
+      "skill": "指定1名英雄\n夺取其他英雄各10\n级。",
+      "portrait": "image/pieces/效果牌/众星拱月.png"
+    },
+    "绝处逢生": {
+      "name": "绝处逢生",
+      "category": "效果牌",
+      "label_text": "绝处逢生",
+      "faction": "鼓果",
+      "tags": [
+        "相关",
+        "该卡通过拍卖等渠道获得。"
+      ],
+      "skill": "棋手生命值变为1，随机获得10张\n效果牌。",
+      "portrait": "image/pieces/效果牌/绝处逢生.png"
+    },
+    "奇谋": {
+      "name": "奇谋",
+      "category": "效果牌",
+      "label_text": "奇谋",
+      "faction": "分之地",
+      "tags": [
+        "相关",
+        "该卡通过商店购买等渠道获得。"
+      ],
+      "skill": "指定1名【三分】英雄，下场战斗\n开始时会立即释放技能。",
+      "portrait": "image/pieces/效果牌/奇谋.png"
+    },
+    "狂飙三倍速": {
+      "name": "狂飙三倍速",
+      "category": "效果牌",
+      "label_text": "狂飙三倍速",
+      "faction": "鼓果",
+      "tags": [
+        "相关",
+        "该卡通过拍卖等渠道获得"
+      ],
+      "skill": "获得3张开局狂飘（开局狂飙：指\n定英雄开局15秒内无限释放技\n能）。",
+      "portrait": "image/pieces/效果牌/狂飙三倍速.png"
+    },
+    "因材施教": {
+      "name": "因材施教",
+      "category": "效果牌",
+      "label_text": "因材施教",
+      "faction": "效果",
+      "tags": [
+        "相关",
+        "该卡通过商店购买等渠道获得。"
+      ],
+      "skill": "随机获得1张你场上主要阵营相关\n的效果牌。",
+      "portrait": "image/pieces/效果牌/因材施教.png"
+    },
+    "新生力量": {
+      "name": "新生力量",
+      "category": "效果牌",
+      "label_text": "新生力量",
+      "faction": "鼓果",
+      "tags": [
+        "相关",
+        "该卡通过拍卖等渠道获得。"
+      ],
+      "skill": "可上阵人数+1。",
+      "portrait": "image/pieces/效果牌/新生力量.png"
+    },
+    "机关秘典": {
+      "name": "机关秘典",
+      "category": "效果牌",
+      "label_text": "机关秘典",
+      "faction": "逐鹿",
+      "tags": [
+        "相关",
+        "该卡通过商店购买等渠道获得"
+      ],
+      "skill": "获得1件特殊装备机关匣：可穿戴给\n【逐鹿】英雄，使其获得效果：战\n斗开始时，召唤2个“故障机器",
+      "portrait": "image/pieces/效果牌/机关秘典.png"
+    },
+    "扶摇直上": {
+      "name": "扶摇直上",
+      "category": "效果牌",
+      "label_text": "扶摇直上",
+      "faction": "鼓果",
+      "tags": [
+        "相关",
+        "该卡通过拍卖等渠道获得。"
+      ],
+      "skill": "棋手等级提升1。如果已满级，改\n为获得10能量。",
+      "portrait": "image/pieces/效果牌/扶摇直上.png"
+    },
+    "展翅腾飞": {
+      "name": "展翅腾飞",
+      "category": "效果牌",
+      "label_text": "展翅腾飞",
+      "faction": "鼓果",
+      "tags": [
+        "相关",
+        "该卡通过拍卖等渠道获得。"
+      ],
+      "skill": "本回合刷新商店不消耗能量。",
+      "portrait": "image/pieces/效果牌/展翅腾飞.png"
+    },
+    "能量超新星": {
+      "name": "能量超新星",
+      "category": "效果牌",
+      "label_text": "能量超新星",
+      "faction": "鼓果",
+      "tags": [
+        "相关",
+        "该卡通过拍卖等渠道获得。"
+      ],
+      "skill": "随机获得10-20能量。",
+      "portrait": "image/pieces/效果牌/能量超新星.png"
+    },
+    "度命之护": {
+      "name": "度命之护",
+      "category": "效果牌",
+      "label_text": "度命之护",
+      "faction": "河洛",
+      "tags": [
+        "相关",
+        "该卡通过商店购买等渠道获得"
+      ],
+      "skill": "获得1张特殊装备贤者的底护\n可穿\n戴给【河洛】英雄，穿戴者会在首\n次被击败的2秒后复生\n，仅恢复\n20%生金信",
+      "portrait": "image/pieces/效果牌/度命之护.png"
+    },
+    "四人同行": {
+      "name": "四人同行",
+      "category": "效果牌",
+      "label_text": "四人同行",
+      "faction": "鼓果",
+      "tags": [
+        "相关",
+        "该卡通过拍卖等渠道获得。"
+      ],
+      "skill": "卡牌5选1，并将选中的卡牌一分\n为四。",
+      "portrait": "image/pieces/效果牌/四人同行.png"
+    },
+    "超级复印机": {
+      "name": "超级复印机",
+      "category": "效果牌",
+      "label_text": "超级复印机",
+      "faction": "鼓果",
+      "tags": [
+        "相关",
+        "该卡通过拍卖等渠道获得。"
+      ],
+      "skill": "随机获得3张相同的场上英雄牌。",
+      "portrait": "image/pieces/效果牌/超级复印机.png"
+    },
+    "久经沙场": {
+      "name": "久经沙场",
+      "category": "效果牌",
+      "label_text": "久经沙场",
+      "faction": "逐鹿",
+      "tags": [
+        "相关",
+        "该卡通过商店购买等渠道获得。"
+      ],
+      "skill": "指定1名已觉醒的【逐鹿】英雄，\n获得1张该英雄牌。",
+      "portrait": "image/pieces/效果牌/久经沙场.png"
+    },
+    "军械库": {
+      "name": "军械库",
+      "category": "效果牌",
+      "label_text": "军械库",
+      "faction": "鼓果",
+      "tags": [
+        "相关",
+        "该卡通过拍卖等渠道获得。"
+      ],
+      "skill": "随机获得3张基础装备牌。",
+      "portrait": "image/pieces/效果牌/军械库.png"
+    },
+    "武装分解": {
+      "name": "武装分解",
+      "category": "效果牌",
+      "label_text": "武装分解",
+      "faction": "",
+      "tags": [
+        "类型"
+      ],
+      "skill": "",
+      "portrait": "image/pieces/效果牌/武装分解.png"
+    },
+    "守护者之铠": {
+      "name": "守护者之铠",
+      "category": "装备牌",
+      "label_text": "守护者之铠",
+      "faction": "装备",
+      "tags": [
+        "…-"
+      ],
+      "skill": "穿戴给英雄，可以铸造成1件防御\n型普通装备。",
+      "portrait": "image/pieces/装备牌/守护者之铠.png"
+    },
+    "力量腰带": {
+      "name": "力量腰带",
+      "category": "装备牌",
+      "label_text": "力量腰带",
+      "faction": "装备",
+      "tags": [
+        "…-"
+      ],
+      "skill": "穿戴给英雄，可以铸造成1件防御\n型普通装备。",
+      "portrait": "image/pieces/装备牌/力量腰带.png"
+    },
+    "破碎圣杯": {
+      "name": "破碎圣杯",
+      "category": "装备牌",
+      "label_text": "破碎圣杯",
+      "faction": "装备",
+      "tags": [
+        "…-"
+      ],
+      "skill": "穿戴给英雄，可以铸造成1件功能\n型普通装备。",
+      "portrait": "image/pieces/装备牌/破碎圣杯.png"
+    },
+    "圣者法典": {
+      "name": "圣者法典",
+      "category": "装备牌",
+      "label_text": "圣者法典",
+      "faction": "装备",
+      "tags": [
+        "…-"
+      ],
+      "skill": "穿戴给英雄，可以铸造成1件法术\n型普通装备。",
+      "portrait": "image/pieces/装备牌/圣者法典.png"
+    },
+    "痛苦面具": {
+      "name": "痛苦面具",
+      "category": "装备牌",
+      "label_text": "痛苦面具",
+      "faction": "装备",
+      "tags": [
+        "相关"
+      ],
+      "skill": "唯\n单次魔法伤害超过目标最大\n生命值的8%时会使目标点燃：每秒\n造成75%法术攻击力的真实伤害",
+      "portrait": "image/pieces/装备牌/痛苦面具.png"
+    },
+    "不祥征兆": {
+      "name": "不祥征兆",
+      "category": "装备牌",
+      "label_text": "不样征兆",
+      "faction": "装备",
+      "tags": [
+        "相关"
+      ],
+      "skill": "唯一。战斗前15秒，格挡50%普通\n攻击伤害，若攻击者攻速不低于\n1.5，则格挡70%普通攻击伤害",
+      "portrait": "image/pieces/装备牌/不祥征兆.png"
+    },
+    "贤者之书": {
+      "name": "贤者之书",
+      "category": "装备牌",
+      "label_text": "贤者之书",
+      "faction": "装备",
+      "tags": [
+        "相关"
+      ],
+      "skill": "唯一。法力值上限-10。释放技能\n后获得20%基础法术攻击力，最\n多叠加6层。",
+      "portrait": "image/pieces/装备牌/贤者之书.png"
+    },
+    "炽热支配者": {
+      "name": "炽热支配者",
+      "category": "装备牌",
+      "label_text": "炽热支配者",
+      "faction": "装备",
+      "tags": [
+        "相关"
+      ],
+      "skill": "唯一。首次受到控制效果时，获\n得300点护盾并在接下来的15秒\n内免疫控制效果（压制除外）。",
+      "portrait": "image/pieces/装备牌/炽热支配者.png"
+    },
+    "不死鸟之眼": {
+      "name": "不死鸟之眼",
+      "category": "装备牌",
+      "label_text": "不死鸟之眼",
+      "faction": "装备",
+      "tags": [
+        "相关"
+      ],
+      "skill": "唯一。增加15%基础生命值，生\n命恢复和护盾效果提升30%。",
+      "portrait": "image/pieces/装备牌/不死鸟之眼.png"
+    },
+    "极寒风暴": {
+      "name": "极寒风暴",
+      "category": "装备牌",
+      "label_text": "极寒风暴",
+      "faction": "装备",
+      "tags": [
+        "相关"
+      ],
+      "skill": "受到普攻时，降低目标20%\n唯一\n。\n攻击速度，持续2秒。被单一目标普\n攻5次后，远程目标将被冻结1秒\n近战目标减半",
+      "portrait": "image/pieces/装备牌/极寒风暴.png"
+    },
+    "法源之杯": {
+      "name": "法源之杯",
+      "category": "装备牌",
+      "label_text": "法源之杯",
+      "faction": "装备",
+      "tags": [
+        "相关"
+      ],
+      "skill": "唯一。每秒回复5点法力值。",
+      "portrait": "image/pieces/装备牌/法源之杯.png"
+    },
+    "生命魔典": {
+      "name": "生命魔典",
+      "category": "装备牌",
+      "label_text": "生命魔典",
+      "faction": "装备",
+      "tags": [
+        "相关"
+      ],
+      "skill": "唯一。受到伤害时会为自身和周\n围1格的己方单位恢复5%最大生\n命值，冷却2秒。",
+      "portrait": "image/pieces/装备牌/生命魔典.png"
+    },
+    "魔女斗篷": {
+      "name": "魔女斗篷",
+      "category": "装备牌",
+      "label_text": "魔女斗篷",
+      "faction": "装备",
+      "tags": [
+        "相关"
+      ],
+      "skill": "法术防御力+30。战斗开始时，获\n得等级x5点法术护盾。",
+      "portrait": "image/pieces/装备牌/魔女斗篷.png"
+    },
+    "反伤重甲": {
+      "name": "反伤重甲",
+      "category": "装备牌",
+      "label_text": "反伤重甲",
+      "faction": "装备",
+      "tags": [
+        "相关"
+      ],
+      "skill": "唯\n一。将受到伤害的30%以真实\n伤害回敬给目标。",
+      "portrait": "image/pieces/装备牌/反伤重甲.png"
+    },
+    "红莲炎甲": {
+      "name": "红莲炎甲",
+      "category": "装备牌",
+      "label_text": "红莲炎甲",
+      "faction": "装备",
+      "tags": [
+        "相关"
+      ],
+      "skill": "唯\n每2秒对周围1格敌人造成20\n（+5%穿戴者最大生命值）点法术\n伤害，并降低目标50%生命恢复和\n吸血效里",
+      "portrait": "image/pieces/装备牌/红莲炎甲.png"
+    },
+    "御灵之纱": {
+      "name": "御灵之纱",
+      "category": "装备牌",
+      "label_text": "御灵之纱",
+      "faction": "装备",
+      "tags": [
+        "相关"
+      ],
+      "skill": "唯一。战斗开始时，获得等级×15\n点护盾。护盾被击破时对周围1格\n敌人造成1秒眩晕，击破者翻倍。",
+      "portrait": "image/pieces/装备牌/御灵之纱.png"
+    },
+    "速击之枪": {
+      "name": "速击之枪",
+      "category": "装备牌",
+      "label_text": "速击之枪",
+      "faction": "装备",
+      "tags": [
+        "…-"
+      ],
+      "skill": "穿戴给英雄，可以铸造成1件输出\n型普通装备。",
+      "portrait": "image/pieces/装备牌/速击之枪.png"
+    },
+    "风暴巨剑": {
+      "name": "风暴巨剑",
+      "category": "装备牌",
+      "label_text": "风暴巨剑",
+      "faction": "装备",
+      "tags": [
+        "…-"
+      ],
+      "skill": "穿戴给英雄，可以铸造成1件输出\n型普通装备。",
+      "portrait": "image/pieces/装备牌/风暴巨剑.png"
+    },
+    "雷鸣刃": {
+      "name": "雷鸣刃",
+      "category": "装备牌",
+      "label_text": "雷鸣刃",
+      "faction": "装备",
+      "tags": [
+        "…-"
+      ],
+      "skill": "穿戴给英雄，可以铸造成1件输出\n型普通装备。",
+      "portrait": "image/pieces/装备牌/雷鸣刃.png"
+    },
+    "纯净苍穹": {
+      "name": "纯净苍穹",
+      "category": "装备牌",
+      "label_text": "纯净苍穹",
+      "faction": "装备",
+      "tags": [
+        "相关"
+      ],
+      "skill": "唯一。每2秒获得10点法术攻击\n力，同时清除自身负面状态。",
+      "portrait": "image/pieces/装备牌/纯净苍穹.png"
+    },
+    "冥王": {
+      "name": "冥王",
+      "category": "装备牌",
+      "label_text": "冥王",
+      "faction": "装备",
+      "tags": [
+        "相关"
+      ],
+      "skill": "唯一。穿戴者周围1格每有1个敌方\n单位，\n获得10点物理防御和15%\n基础物理攻击力。",
+      "portrait": "image/pieces/装备牌/冥王.png"
+    },
+    "凝渊": {
+      "name": "凝渊",
+      "category": "装备牌",
+      "label_text": "凝渊",
+      "faction": "装备",
+      "tags": [
+        "相关"
+      ],
+      "skill": "唯一。暴击率+20%。每次受击时\n提升1%暴击率，暴击率达到\n100%时提升100%移动速度。",
+      "portrait": "image/pieces/装备牌/凝渊.png"
+    },
+    "影牙": {
+      "name": "影牙",
+      "category": "装备牌",
+      "label_text": "影牙",
+      "faction": "装备",
+      "tags": [
+        "相关"
+      ],
+      "skill": "攻击速度+50%。",
+      "portrait": "image/pieces/装备牌/影牙.png"
+    },
+    "无尽巨剑": {
+      "name": "无尽巨剑",
+      "category": "装备牌",
+      "label_text": "无尽巨剑",
+      "faction": "装备",
+      "tags": [
+        "相关"
+      ],
+      "skill": "暴击率+30%，暴击效果+60%。\n暴击效果不可叠加。",
+      "portrait": "image/pieces/装备牌/无尽巨剑.png"
+    },
+    "红魔": {
+      "name": "红魔",
+      "category": "装备牌",
+      "label_text": "红魔",
+      "faction": "装备",
+      "tags": [
+        "相关"
+      ],
+      "skill": "唯\n周围1格没有友军时，获得\n25%伤害加成。每承受3%最大生\n命值的伤害，获得1%伤害加成，上\n限100%",
+      "portrait": "image/pieces/装备牌/红魔.png"
+    },
+    "破晓": {
+      "name": "破晓",
+      "category": "装备牌",
+      "label_text": "破晓",
+      "faction": "装备",
+      "tags": [
+        "相关"
+      ],
+      "skill": "每次普通攻击降低目标3点物防，持\n续5秒。目标物防首次降为0时，附\n加1次目标15%最大生命值的物理伤",
+      "portrait": "image/pieces/装备牌/破晓.png"
+    },
+    "魔律之刃": {
+      "name": "魔律之刃",
+      "category": "装备牌",
+      "label_text": "魔律之刃",
+      "faction": "装备",
+      "tags": [
+        "相关"
+      ],
+      "skill": "唯一。释放技能时，35%概率重\n复释放一次。每有7级，额外提升\n1%概率。",
+      "portrait": "image/pieces/装备牌/魔律之刃.png"
+    },
+    "制裁之剑": {
+      "name": "制裁之剑",
+      "category": "装备牌",
+      "label_text": "制裁之剑",
+      "faction": "装备",
+      "tags": [
+        "相关"
+      ],
+      "skill": "唯\n造成伤害时降低目标30%生\n。\n命恢复及护盾效果，持续10秒，不\n可叠加。若为普通攻击，效果提升\n至70%",
+      "portrait": "image/pieces/装备牌/制裁之剑.png"
+    },
+    "日渊": {
+      "name": "日渊",
+      "category": "装备牌",
+      "label_text": "日渊",
+      "faction": "装备",
+      "tags": [
+        "相关"
+      ],
+      "skill": "唯一\n限定远程英雄。普通攻击会\n释放飞箭，对生命值最低的2名敌人\n造成45%物理攻击力的物理伤害。",
+      "portrait": "image/pieces/装备牌/日渊.png"
+    },
+    "复印机": {
+      "name": "复印机",
+      "category": "天赋牌",
+      "label_text": "复印机",
+      "faction": "天赋",
+      "tags": [
+        "相关",
+        "棋手升级时概率选择获取天际"
+      ],
+      "skill": "获得2张天赋牌复印机：指定1名\n1-3阶英雄，获得该英雄牌。",
+      "portrait": "image/pieces/天赋牌/复印机.png"
+    },
+    "里程碑": {
+      "name": "里程碑",
+      "category": "天赋牌",
+      "label_text": "里程碑",
+      "faction": "天赋",
+      "tags": [
+        "相关",
+        "棋手升级时概率选择获取天际"
+      ],
+      "skill": "棋手到达5级时，获得6能量、\n张装备箱。",
+      "portrait": "image/pieces/天赋牌/里程碑.png"
+    },
+    "先苦后甜": {
+      "name": "先苦后甜",
+      "category": "天赋牌",
+      "label_text": "先苦后甜",
+      "faction": "天赋",
+      "tags": [
+        "相关",
+        "棋手升级时概率选择获取天赋。"
+      ],
+      "skill": "选取天赋后，当你输掉2场战斗\n时，获得6棋手经验。",
+      "portrait": "image/pieces/天赋牌/先苦后甜.png"
+    },
+    "日落海来客": {
+      "name": "日落海来客",
+      "category": "天赋牌",
+      "label_text": "日落海来客",
+      "faction": "天赋",
+      "tags": [
+        "相关",
+        "棋手升级时概率选择获取天际"
+      ],
+      "skill": "获得3能量以及1张雅典娜。",
+      "portrait": "image/pieces/天赋牌/日落海来客.png"
+    },
+    "三十而达": {
+      "name": "三十而达",
+      "category": "天赋牌",
+      "label_text": "三十而达",
+      "faction": "天赋",
+      "tags": [
+        "相关",
+        "棋手升级时概率选择获取天赋。"
+      ],
+      "skill": "备战阶段中，英雄总等级到达30\n级时，获得9棋手经验。",
+      "portrait": "image/pieces/天赋牌/三十而达.png"
+    },
+    "神秘英雄": {
+      "name": "神秘英雄",
+      "category": "天赋牌",
+      "label_text": "神秘英雄",
+      "faction": "天赋",
+      "tags": [
+        "相关",
+        "棋手升级时概率选择获取天赋"
+      ],
+      "skill": "获得2张神秘英雄牌。手动刷新\n时，随机变为不低于当前棋手对应\n品阶的英雄牌。每回合有15%概",
+      "portrait": "image/pieces/天赋牌/神秘英雄.png"
+    },
+    "大河精兵": {
+      "name": "大河精兵",
+      "category": "天赋牌",
+      "label_text": "大河精兵",
+      "faction": "天赋",
+      "tags": [
+        "相关",
+        "棋手升级时概率选择获取天赋。"
+      ],
+      "skill": "卡牌3选1（4阶或5阶的【大河\n流域】英雄）",
+      "portrait": "image/pieces/天赋牌/大河精兵.png"
+    },
+    "重大里程碑": {
+      "name": "重大里程碑",
+      "category": "天赋牌",
+      "label_text": "重大里程碑",
+      "faction": "天赋",
+      "tags": [
+        "相关",
+        "棋手升级时概率选择获取天赋"
+      ],
+      "skill": "棋手到达5级时，获得8能量、\n张装备箱和1张高阶效果牌。",
+      "portrait": "image/pieces/天赋牌/重大里程碑.png"
+    },
+    "超速成长": {
+      "name": "超速成长",
+      "category": "天赋牌",
+      "label_text": "超速成长",
+      "faction": "天赋",
+      "tags": [
+        "相关",
+        "棋手升级时概率选择获取天际"
+      ],
+      "skill": "获得1张天赋牌超速成长：指定1\n名英雄等级+15。",
+      "portrait": "image/pieces/天赋牌/超速成长.png"
+    },
+    "自适应武装": {
+      "name": "自适应武装",
+      "category": "天赋牌",
+      "label_text": "自适应武装",
+      "faction": "天赋",
+      "tags": [
+        "相关",
+        "棋手升级时概率选择获取天赋"
+      ],
+      "skill": "获得1张天赋牌自适应武装：指\n定1名英雄，随机获得2张与其适\n配的普通装备牌",
+      "portrait": "image/pieces/天赋牌/自适应武装.png"
+    },
+    "凯旋征召": {
+      "name": "凯旋征召",
+      "category": "天赋牌",
+      "label_text": "凯旋征召",
+      "faction": "天赋",
+      "tags": [
+        "相关",
+        "棋手升级时概率选择获取天赋。"
+      ],
+      "skill": "战斗胜利时，获得1张你等级最\n高的英雄牌。",
+      "portrait": "image/pieces/天赋牌/凯旋征召.png"
+    },
+    "破妄之刃": {
+      "name": "破妄之刃",
+      "category": "天赋牌",
+      "label_text": "破妄之刃",
+      "faction": "天赋",
+      "tags": [
+        "相关",
+        "棋手升级时概率选择获取天赋"
+      ],
+      "skill": "获得破妄之刃：获得真实伤害能\n力并提升移速且免疫减速效果。",
+      "portrait": "image/pieces/天赋牌/破妄之刃.png"
+    },
+    "大电池包": {
+      "name": "大电池包",
+      "category": "天赋牌",
+      "label_text": "大电池包",
+      "faction": "天赋",
+      "tags": [
+        "相关",
+        "棋手升级时概率选择获取天赋。"
+      ],
+      "skill": "获得10能量。",
+      "portrait": "image/pieces/天赋牌/大电池包.png"
+    },
+    "胜之不武": {
+      "name": "胜之不武",
+      "category": "天赋牌",
+      "label_text": "胜之不武",
+      "faction": "天赋",
+      "tags": [
+        "相关",
+        "棋手升级时概率选择获取天际"
+      ],
+      "skill": "获得3张天赋牌胜之不武：下场\n战斗你的英雄+20临时等级，\n但对敌方棋手造成的伤害-10",
+      "portrait": "image/pieces/天赋牌/胜之不武.png"
+    },
+    "电池包": {
+      "name": "电池包",
+      "category": "天赋牌",
+      "label_text": "电池包",
+      "faction": "天赋",
+      "tags": [
+        "相关",
+        "棋手升级时概率选择获取天赋。"
+      ],
+      "skill": "获得8能量。",
+      "portrait": "image/pieces/天赋牌/电池包.png"
+    },
+    "超专注射击": {
+      "name": "超专注射击",
+      "category": "天赋牌",
+      "label_text": "超专注射击",
+      "faction": "天赋",
+      "tags": [
+        "相关",
+        "棋手升级时概率选择获取天赋。"
+      ],
+      "skill": "战斗开始时，你后两排英雄每次\n普攻获得5%攻速和5点物理攻击\n上限10层\n力，",
+      "portrait": "image/pieces/天赋牌/超专注射击.png"
+    },
+    "怦然心动": {
+      "name": "怦然心动",
+      "category": "棋手牌",
+      "label_text": "瑶妹",
+      "faction": "棋手",
+      "tags": [
+        "类别|棋手技能回",
+        "开局选择对应棋手后拥有初始技"
+      ],
+      "skill": "每购买4张牌，小妲己随机获得1\n张效果牌。",
+      "portrait": "image/pieces/棋手牌/怦然心动.png"
+    },
+    "可爱小鹿": {
+      "name": "可爱小鹿",
+      "category": "棋手牌",
+      "label_text": "可爱小鹿",
+      "faction": "棋手",
+      "tags": [
+        "类别|棋手技能回",
+        "开局选择对应棋手后拥有初始技"
+      ],
+      "skill": "游戏开始时，瑶召唤自己心爱的小\n鹿前来助阵，小鹿每回合等级+2，\n如果上回合战斗胜利，等级额外+",
+      "portrait": "image/pieces/棋手牌/可爱小鹿.png"
+    },
+    "枫叶舞": {
+      "name": "枫叶舞",
+      "category": "棋手牌",
+      "label_text": "枫叶舞",
+      "faction": "棋手",
+      "tags": [
+        "类别|棋手技能回",
+        "开局选择对应棋手后拥有初始技"
+      ],
+      "skill": "使用技能，指向1名英雄，其受到\n最大生命值20%的伤害时将获得\n护盾并转移至纸伞处。",
+      "portrait": "image/pieces/棋手牌/枫叶舞.png"
+    },
+    "技能": {
+      "name": "技能",
+      "category": "棋手牌",
+      "label_text": "技能",
+      "faction": "",
+      "tags": [],
+      "skill": "",
+      "portrait": "image/pieces/棋手牌/技能.png"
+    },
+    "心动节拍": {
+      "name": "心动节拍",
+      "category": "棋手牌",
+      "label_text": "心动节拍",
+      "faction": "",
+      "tags": [],
+      "skill": "",
+      "portrait": "image/pieces/棋手牌/心动节拍.png"
+    },
+    "惊鸿游龙": {
+      "name": "惊鸿游龙",
+      "category": "棋手牌",
+      "label_text": "惊鸿游龙",
+      "faction": "",
+      "tags": [],
+      "skill": "",
+      "portrait": "image/pieces/棋手牌/惊鸿游龙.png"
+    },
+    "镜像之力": {
+      "name": "镜像之力",
+      "category": "棋手牌",
+      "label_text": "镜像之力",
+      "faction": "",
+      "tags": [],
+      "skill": "",
+      "portrait": "image/pieces/棋手牌/镜像之力.png"
+    },
+    "秘技": {
+      "name": "秘技",
+      "category": "棋手牌",
+      "label_text": "秘技",
+      "faction": "",
+      "tags": [],
+      "skill": "",
+      "portrait": "image/pieces/棋手牌/秘技.png"
+    },
+    "魅力无限": {
+      "name": "魅力无限",
+      "category": "棋手牌",
+      "label_text": "魅力无限",
+      "faction": "",
+      "tags": [],
+      "skill": "",
+      "portrait": "image/pieces/棋手牌/魅力无限.png"
+    },
+    "即刻起舞": {
+      "name": "即刻起舞",
+      "category": "棋手牌",
+      "label_text": "即刻起舞",
+      "faction": "",
+      "tags": [],
+      "skill": "",
+      "portrait": "image/pieces/棋手牌/即刻起舞.png"
+    },
+    "镜花影": {
+      "name": "镜花影",
+      "category": "棋手牌",
+      "label_text": "镜花影",
+      "faction": "",
+      "tags": [],
+      "skill": "",
+      "portrait": "image/pieces/棋手牌/镜花影.png"
+    },
+    "专属": {
+      "name": "专属",
+      "category": "棋手牌",
+      "label_text": "专属",
+      "faction": "",
+      "tags": [],
+      "skill": "",
+      "portrait": "image/pieces/棋手牌/专属.png"
+    }
+  }
+}

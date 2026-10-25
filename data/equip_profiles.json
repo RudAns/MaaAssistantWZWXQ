@@ -1,0 +1,3828 @@
+{
+ "version": "2026-09-30",
+ "_comment": "装备画像（只读研究产出，尚未接进规则）。type 枚举见 docs/equip-profiles.md；carry_priority 给主C 时 0~10（按主C 类型），tank_priority 给坦克时 0~10；official_* 来自 data/lineups.json 官方推荐阵容 heroes[].equips 统计。",
+ "type_enum": [
+  "基础",
+  "输出-物理",
+  "输出-法术",
+  "输出-通用",
+  "暴击",
+  "攻速",
+  "施法",
+  "保命",
+  "坦克",
+  "功能",
+  "成长",
+  "专属"
+ ],
+ "hero_kind_enum": [
+  "phys_marksman",
+  "mage",
+  "assassin",
+  "fighter",
+  "tank",
+  "support"
+ ],
+ "items": {
+  "无尽巨剑": {
+   "type": "暴击",
+   "roles_good": [
+    "射手",
+    "刺客",
+    "战士"
+   ],
+   "roles_bad": [
+    "法师",
+    "坦克",
+    "辅助"
+   ],
+   "conditions": [
+    "物理普攻/可暴击的伤害",
+    "暴击效果不可叠加（一人一把即可）"
+   ],
+   "heroes_best": [
+    "百里守约",
+    "孙悟空",
+    "吕布",
+    "花木兰",
+    "裴擒虎",
+    "李信",
+    "阿轲",
+    "镜",
+    "李白",
+    "亚连",
+    "韩信"
+   ],
+   "heroes_avoid": [
+    "安琪拉",
+    "沈梦溪",
+    "米莱狄",
+    "诸葛亮",
+    "猪八戒",
+    "程咬金"
+   ],
+   "carry_priority": {
+    "phys_marksman": 10,
+    "mage": 1,
+    "assassin": 9,
+    "fighter": 9
+   },
+   "tank_priority": 1,
+   "why": "暴击率+30%/暴击效果+60%，物理输出的第一件；官方阵容 184 次、112 次在主C 身上。法术伤害默认不能暴击（除非怒神项链/亚连被动），法师穿等于白板。",
+   "official_top_heroes": [
+    "吕布×19",
+    "花木兰×17",
+    "裴擒虎×17",
+    "阿轲×16",
+    "百里守约×15"
+   ],
+   "official_count": 184
+  },
+  "铸梦·逐风": {
+   "type": "攻速",
+   "roles_good": [
+    "射手",
+    "刺客",
+    "战士"
+   ],
+   "roles_bad": [
+    "法师",
+    "坦克",
+    "辅助"
+   ],
+   "conditions": [
+    "普攻型",
+    "每 8 秒 4 连普攻（顺带攒法力）"
+   ],
+   "heroes_best": [
+    "裴擒虎",
+    "大司命",
+    "韩信",
+    "百里玄策",
+    "虞姬",
+    "亚连"
+   ],
+   "heroes_avoid": [
+    "安琪拉",
+    "诸葛亮",
+    "嬴政"
+   ],
+   "carry_priority": {
+    "phys_marksman": 6,
+    "mage": 2,
+    "assassin": 7,
+    "fighter": 7
+   },
+   "tank_priority": 1,
+   "why": "定时额外 4 次普攻，普攻越强越赚；法师普攻弱。",
+   "official_top_heroes": [
+    "大司命×11",
+    "裴擒虎×11",
+    "韩信×7",
+    "百里玄策×5",
+    "虞姬×5"
+   ],
+   "official_count": 73
+  },
+  "制裁之剑": {
+   "type": "功能",
+   "roles_good": [
+    "射手",
+    "辅助"
+   ],
+   "roles_bad": [
+    "坦克"
+   ],
+   "conditions": [
+    "对面有回复/护盾阵容时价值最高",
+    "普攻命中时重伤 70%"
+   ],
+   "heroes_best": [
+    "瑶",
+    "虞姬",
+    "公孙离"
+   ],
+   "heroes_avoid": [
+    "猪八戒",
+    "程咬金"
+   ],
+   "carry_priority": {
+    "phys_marksman": 4,
+    "mage": 3,
+    "assassin": 4,
+    "fighter": 4
+   },
+   "tank_priority": 2,
+   "why": "重伤是功能不是伤害。瑶的首件普通装备会分享给 3 名友军 → 官方瑶 17 次；其余主C 只在克制回复阵容时拿。",
+   "official_top_heroes": [
+    "瑶×17",
+    "虞姬×2",
+    "公孙离×1",
+    "扁鹊×1",
+    "大乔×1"
+   ],
+   "official_count": 28
+  },
+  "纯净苍穹": {
+   "type": "输出-法术",
+   "roles_good": [
+    "法师",
+    "刺客"
+   ],
+   "roles_bad": [
+    "射手",
+    "坦克"
+   ],
+   "conditions": [
+    "每 2 秒 +10 法攻、清除自身负面（软免控）"
+   ],
+   "heroes_best": [
+    "露娜",
+    "刘邦",
+    "司空震",
+    "海月",
+    "沈梦溪",
+    "嬴政"
+   ],
+   "heroes_avoid": [
+    "百里守约",
+    "公孙离",
+    "狄仁杰"
+   ],
+   "carry_priority": {
+    "phys_marksman": 1,
+    "mage": 7,
+    "assassin": 4,
+    "fighter": 3
+   },
+   "tank_priority": 3,
+   "why": "法系叠法攻 + 周期解控；物理主C 只吃到解控。",
+   "official_top_heroes": [
+    "露娜×7",
+    "刘邦×6",
+    "海月×6",
+    "司空震×5",
+    "海诺×3"
+   ],
+   "official_count": 65
+  },
+  "冥王": {
+   "type": "输出-物理",
+   "roles_good": [
+    "战士",
+    "刺客"
+   ],
+   "roles_bad": [
+    "射手",
+    "法师",
+    "辅助"
+   ],
+   "conditions": [
+    "近战：周围 1 格每个敌人 +10 物防 +15% 基础物攻",
+    "要贴脸"
+   ],
+   "heroes_best": [
+    "花木兰",
+    "吕布",
+    "裴擒虎",
+    "阿轲",
+    "狂铁"
+   ],
+   "heroes_avoid": [
+    "百里守约",
+    "公孙离",
+    "狄仁杰",
+    "安琪拉",
+    "沈梦溪"
+   ],
+   "carry_priority": {
+    "phys_marksman": 0,
+    "mage": 0,
+    "assassin": 6,
+    "fighter": 8
+   },
+   "tank_priority": 4,
+   "why": "只有被敌人围着才有收益：近战战士/刺客；后排远程一个敌人都不贴，0 收益。",
+   "official_top_heroes": [
+    "花木兰×6",
+    "吕布×5",
+    "裴擒虎×4",
+    "阿轲×2",
+    "狂铁×1"
+   ],
+   "official_count": 24
+  },
+  "名刀·司命": {
+   "type": "保命",
+   "roles_good": [
+    "射手",
+    "法师",
+    "刺客",
+    "战士"
+   ],
+   "roles_bad": [
+    "坦克"
+   ],
+   "conditions": [
+    "首次致命伤害无敌 1.5 秒"
+   ],
+   "heroes_best": [
+    "嬴政",
+    "孙悟空",
+    "阿轲",
+    "百里守约",
+    "东皇太一",
+    "诸葛亮",
+    "吕布"
+   ],
+   "heroes_avoid": [
+    "猪八戒",
+    "程咬金"
+   ],
+   "carry_priority": {
+    "phys_marksman": 8,
+    "mage": 8,
+    "assassin": 8,
+    "fighter": 7
+   },
+   "tank_priority": 2,
+   "why": "所有主C 的通用保命装（攻略：保命装优先级高于输出装）；坦克多扛 1.5 秒意义小。",
+   "official_top_heroes": [
+    "嬴政×15",
+    "东皇太一×12",
+    "瑶×10",
+    "阿轲×8",
+    "孙悟空×7"
+   ],
+   "official_count": 162
+  },
+  "红魔": {
+   "type": "输出-通用",
+   "roles_good": [
+    "刺客",
+    "战士"
+   ],
+   "roles_bad": [
+    "射手",
+    "法师",
+    "辅助",
+    "坦克"
+   ],
+   "conditions": [
+    "周围 1 格没有友军才有 +25%",
+    "每承受 3% 最大生命伤害 +1%（上限 100%）→ 要挨打",
+    "主C 旁边站辅助（瑶/太乙/明世隐贴主C）时第一段必失效"
+   ],
+   "heroes_best": [
+    "曜",
+    "亚连",
+    "花木兰",
+    "百里玄策",
+    "阿轲",
+    "镜",
+    "裴擒虎",
+    "韩信",
+    "李白"
+   ],
+   "heroes_avoid": [
+    "百里守约",
+    "公孙离",
+    "狄仁杰",
+    "艾琳",
+    "安琪拉",
+    "沈梦溪",
+    "米莱狄",
+    "干将莫邪",
+    "诸葛亮",
+    "嬴政",
+    "瑶",
+    "太乙真人"
+   ],
+   "carry_priority": {
+    "phys_marksman": 1,
+    "mage": 1,
+    "assassin": 8,
+    "fighter": 7
+   },
+   "tank_priority": 1,
+   "why": "两段增伤都要'离群 + 挨打'：切进敌阵的刺客/独自顶前的战士两段都吃；后排射手法师身边贴着辅助、又不挨打，两段都吃不到（2026-09-30 用户指出）。官方 25 次：曜 6、亚连 3，没有一次在后排射手上。",
+   "official_top_heroes": [
+    "曜×6",
+    "亚连×3",
+    "廉颇×2",
+    "程咬金×2",
+    "花木兰×2"
+   ],
+   "official_count": 25
+  },
+  "魔律之刃": {
+   "type": "施法",
+   "roles_good": [
+    "法师",
+    "射手",
+    "刺客",
+    "战士"
+   ],
+   "roles_bad": [
+    "坦克",
+    "辅助"
+   ],
+   "conditions": [
+    "放技能 35% 重复释放，每 7 级 +1%",
+    "技能伤害占比越高越赚"
+   ],
+   "heroes_best": [
+    "姜子牙",
+    "露娜",
+    "米莱狄",
+    "朵莉亚",
+    "马超",
+    "杨玉环",
+    "百里守约",
+    "孙悟空"
+   ],
+   "heroes_avoid": [
+    "公孙离",
+    "狄仁杰"
+   ],
+   "carry_priority": {
+    "phys_marksman": 7,
+    "mage": 9,
+    "assassin": 6,
+    "fighter": 6
+   },
+   "tank_priority": 2,
+   "why": "技能主导的主C 通吃（守约 700% 狙、悟空 400% 砸也算）；普攻流射手（公孙离/狄仁杰）收益低。等级越高越强。",
+   "official_top_heroes": [
+    "姜子牙×20",
+    "露娜×14",
+    "朵莉亚×13",
+    "米莱狄×13",
+    "马超×10"
+   ],
+   "official_count": 168
+  },
+  "凝渊": {
+   "type": "暴击",
+   "roles_good": [
+    "战士",
+    "刺客",
+    "射手"
+   ],
+   "roles_bad": [
+    "法师",
+    "坦克",
+    "辅助"
+   ],
+   "conditions": [
+    "受击叠暴击 → 站前排挨打的更快满"
+   ],
+   "heroes_best": [
+    "花木兰",
+    "李信",
+    "裴擒虎",
+    "吕布",
+    "马超",
+    "亚连",
+    "孙悟空"
+   ],
+   "heroes_avoid": [
+    "安琪拉",
+    "沈梦溪",
+    "米莱狄"
+   ],
+   "carry_priority": {
+    "phys_marksman": 6,
+    "mage": 0,
+    "assassin": 8,
+    "fighter": 9
+   },
+   "tank_priority": 1,
+   "why": "与无尽巨剑组成暴击两件套；受击叠暴击所以前排近战最好，后排射手只拿到基础 20%。",
+   "official_top_heroes": [
+    "花木兰×15",
+    "李信×11",
+    "裴擒虎×8",
+    "吕布×8",
+    "马超×6"
+   ],
+   "official_count": 80
+  },
+  "日渊": {
+   "type": "输出-物理",
+   "roles_good": [
+    "射手"
+   ],
+   "roles_bad": [
+    "战士",
+    "刺客",
+    "坦克",
+    "法师"
+   ],
+   "conditions": [
+    "限定远程英雄（attackDistance>1）",
+    "普攻飞箭打最低血 2 人"
+   ],
+   "heroes_best": [
+    "公孙离",
+    "狄仁杰",
+    "敖隐",
+    "艾琳",
+    "马可波罗",
+    "虞姬"
+   ],
+   "heroes_avoid": [
+    "孙悟空",
+    "镜",
+    "李白",
+    "马超",
+    "亚连",
+    "花木兰",
+    "吕布"
+   ],
+   "carry_priority": {
+    "phys_marksman": 9,
+    "mage": 0,
+    "assassin": 2,
+    "fighter": 0
+   },
+   "tank_priority": 0,
+   "why": "远程普攻射手核心装（公孙离 20 次、狄仁杰必备）。近战穿不上；守约靠技能不靠普攻，排后。",
+   "official_top_heroes": [
+    "公孙离×20",
+    "狄仁杰×8",
+    "艾琳×3",
+    "敖隐×3",
+    "马可波罗×2"
+   ],
+   "official_count": 43
+  },
+  "影牙": {
+   "type": "攻速",
+   "roles_good": [
+    "射手",
+    "刺客",
+    "战士"
+   ],
+   "roles_bad": [
+    "坦克",
+    "辅助"
+   ],
+   "conditions": [
+    "纯攻速 +50%",
+    "普攻型/靠普攻攒法力"
+   ],
+   "heroes_best": [
+    "百里玄策",
+    "阿轲",
+    "敖隐",
+    "李信",
+    "韩信",
+    "狄仁杰"
+   ],
+   "heroes_avoid": [
+    "海月",
+    "猪八戒"
+   ],
+   "carry_priority": {
+    "phys_marksman": 7,
+    "mage": 3,
+    "assassin": 7,
+    "fighter": 6
+   },
+   "tank_priority": 1,
+   "why": "无条件攻速；金色圣剑类法系普攻也能吃一些。",
+   "official_top_heroes": [
+    "百里玄策×9",
+    "阿轲×5",
+    "敖隐×5",
+    "李信×4",
+    "韩信×4"
+   ],
+   "official_count": 50
+  },
+  "破晓": {
+   "type": "输出-物理",
+   "roles_good": [
+    "射手"
+   ],
+   "roles_bad": [
+    "法师",
+    "坦克"
+   ],
+   "conditions": [
+    "普攻降物防；物防首次归零时额外 15% 最大生命物理伤害",
+    "高攻速越快触发"
+   ],
+   "heroes_best": [
+    "公孙离",
+    "敖隐",
+    "艾琳",
+    "苍",
+    "虞姬",
+    "狄仁杰",
+    "李元芳"
+   ],
+   "heroes_avoid": [
+    "安琪拉",
+    "沈梦溪",
+    "米莱狄"
+   ],
+   "carry_priority": {
+    "phys_marksman": 8,
+    "mage": 1,
+    "assassin": 6,
+    "fighter": 6
+   },
+   "tank_priority": 2,
+   "why": "普攻射手破甲装（公孙离官方 21 次第一）。",
+   "official_top_heroes": [
+    "公孙离×21",
+    "敖隐×11",
+    "艾琳×5",
+    "苍×5",
+    "虞姬×4"
+   ],
+   "official_count": 61
+  },
+  "虚无法杖": {
+   "type": "输出-法术",
+   "roles_good": [
+    "法师"
+   ],
+   "roles_bad": [
+    "射手",
+    "战士",
+    "坦克"
+   ],
+   "conditions": [
+    "法术穿透 +15"
+   ],
+   "heroes_best": [
+    "嬴政",
+    "安琪拉",
+    "诸葛亮",
+    "露娜",
+    "干将莫邪"
+   ],
+   "heroes_avoid": [
+    "百里守约",
+    "公孙离",
+    "孙悟空"
+   ],
+   "carry_priority": {
+    "phys_marksman": 0,
+    "mage": 7,
+    "assassin": 2,
+    "fighter": 0
+   },
+   "tank_priority": 0,
+   "why": "纯法穿，法师专用。",
+   "official_top_heroes": [
+    "嬴政×18",
+    "安琪拉×13",
+    "诸葛亮×12",
+    "露娜×7",
+    "干将莫邪×4"
+   ],
+   "official_count": 66
+  },
+  "寒霜侵袭": {
+   "type": "输出-通用",
+   "roles_good": [
+    "射手"
+   ],
+   "roles_bad": [
+    "坦克",
+    "辅助"
+   ],
+   "conditions": [
+    "普攻叠减速，满 5 层目标受伤 +20%（全队受益）",
+    "要高攻速普攻"
+   ],
+   "heroes_best": [
+    "公孙离",
+    "艾琳",
+    "敖隐",
+    "狄仁杰"
+   ],
+   "heroes_avoid": [
+    "猪八戒",
+    "海月"
+   ],
+   "carry_priority": {
+    "phys_marksman": 8,
+    "mage": 2,
+    "assassin": 5,
+    "fighter": 5
+   },
+   "tank_priority": 2,
+   "why": "普攻射手叠易伤；艾琳（法系普攻射手）官方第一装。",
+   "official_top_heroes": [
+    "公孙离×19",
+    "艾琳×18",
+    "敖隐×8",
+    "狄仁杰×5",
+    "大司命×2"
+   ],
+   "official_count": 60
+  },
+  "金色圣剑": {
+   "type": "输出-法术",
+   "roles_good": [
+    "法师",
+    "射手"
+   ],
+   "roles_bad": [
+    "坦克"
+   ],
+   "conditions": [
+    "攻速 + 每次普攻附带法术伤害（吃法攻）",
+    "普攻型法系"
+   ],
+   "heroes_best": [
+    "司空震",
+    "艾琳",
+    "刘邦",
+    "米莱狄",
+    "亚连"
+   ],
+   "heroes_avoid": [
+    "百里守约",
+    "诸葛亮"
+   ],
+   "carry_priority": {
+    "phys_marksman": 3,
+    "mage": 6,
+    "assassin": 3,
+    "fighter": 3
+   },
+   "tank_priority": 1,
+   "why": "法系普攻手的核心（司空震官方 26 次必备）；纯技能法师收益一般。",
+   "official_top_heroes": [
+    "司空震×26",
+    "艾琳×11",
+    "刘邦×5",
+    "米莱狄×3",
+    "露娜×2"
+   ],
+   "official_count": 57
+  },
+  "自然法杖": {
+   "type": "输出-法术",
+   "roles_good": [
+    "法师"
+   ],
+   "roles_bad": [
+    "坦克"
+   ],
+   "conditions": [
+    "法攻 +20%",
+    "每耗 40 法力（近战 80）把随机敌人变猪 2 秒 = 施加控制"
+   ],
+   "heroes_best": [
+    "诸葛亮",
+    "明世隐",
+    "朵莉亚",
+    "杨玉环",
+    "敖隐",
+    "李信"
+   ],
+   "heroes_avoid": [
+    "公孙离",
+    "狄仁杰",
+    "马超"
+   ],
+   "carry_priority": {
+    "phys_marksman": 3,
+    "mage": 8,
+    "assassin": 2,
+    "fighter": 4
+   },
+   "tank_priority": 2,
+   "why": "法师输出装；**例外**：马超卡面'己方施加控制时 +15 法力 +5% 暴击'，变猪就是控制 → 马超官方第一装（19 次），不能按伤害类型拦掉。（2026-10-01 用户更正：马超是物理近战，法攻 +20% 对他无用，近战变猪频率减半 —— 不给马超。）",
+   "official_top_heroes": [
+    "马超×19",
+    "诸葛亮×19",
+    "敖隐×10",
+    "明世隐×9",
+    "朵莉亚×9"
+   ],
+   "official_count": 156
+  },
+  "贤者之书": {
+   "type": "施法",
+   "roles_good": [
+    "法师"
+   ],
+   "roles_bad": [
+    "射手",
+    "坦克"
+   ],
+   "conditions": [
+    "法力上限 -10；放技能叠 20% 基础法攻，最多 6 层"
+   ],
+   "heroes_best": [
+    "诸葛亮",
+    "姜子牙",
+    "杨玉环",
+    "露娜",
+    "海诺",
+    "安琪拉",
+    "沈梦溪"
+   ],
+   "heroes_avoid": [
+    "百里守约",
+    "公孙离"
+   ],
+   "carry_priority": {
+    "phys_marksman": 1,
+    "mage": 9,
+    "assassin": 3,
+    "fighter": 1
+   },
+   "tank_priority": 0,
+   "why": "法师核心（诸葛亮官方 28 次）。",
+   "official_top_heroes": [
+    "诸葛亮×28",
+    "姜子牙×18",
+    "杨玉环×17",
+    "露娜×10",
+    "海诺×10"
+   ],
+   "official_count": 145
+  },
+  "炽热支配者": {
+   "type": "保命",
+   "roles_good": [
+    "射手",
+    "法师",
+    "刺客",
+    "战士"
+   ],
+   "roles_bad": [
+    "辅助"
+   ],
+   "conditions": [
+    "首次被控：300 护盾 + 15 秒免控（压制除外）"
+   ],
+   "heroes_best": [
+    "嬴政",
+    "马超",
+    "司空震",
+    "花木兰",
+    "百里守约",
+    "公孙离",
+    "安琪拉",
+    "裴擒虎"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 9,
+    "mage": 9,
+    "assassin": 9,
+    "fighter": 9
+   },
+   "tank_priority": 3,
+   "why": "官方全阵容最常见装备（250 次，182 次在主C），所有主C 的第一件保命装。",
+   "official_top_heroes": [
+    "嬴政×19",
+    "马超×17",
+    "司空震×15",
+    "花木兰×15",
+    "裴擒虎×13"
+   ],
+   "official_count": 250
+  },
+  "生命魔典": {
+   "type": "坦克",
+   "roles_good": [
+    "坦克"
+   ],
+   "roles_bad": [
+    "射手",
+    "法师",
+    "刺客"
+   ],
+   "conditions": [
+    "受伤时给自己和周围 1 格回 5% 最大生命（CD 2 秒）"
+   ],
+   "heroes_best": [
+    "猪八戒",
+    "东皇太一",
+    "狂铁",
+    "雅典娜",
+    "程咬金"
+   ],
+   "heroes_avoid": [
+    "百里守约",
+    "公孙离",
+    "安琪拉"
+   ],
+   "carry_priority": {
+    "phys_marksman": 1,
+    "mage": 1,
+    "assassin": 1,
+    "fighter": 2
+   },
+   "tank_priority": 7,
+   "why": "越挨打越值，前排坦克装；给主C 浪费格子。",
+   "official_top_heroes": [
+    "猪八戒×24",
+    "东皇太一×6",
+    "狂铁×4",
+    "雅典娜×4",
+    "程咬金×4"
+   ],
+   "official_count": 69
+  },
+  "御灵之纱": {
+   "type": "坦克",
+   "roles_good": [
+    "坦克",
+    "辅助"
+   ],
+   "roles_bad": [
+    "射手",
+    "法师"
+   ],
+   "conditions": [
+    "开战获得 等级×15 护盾；破盾眩晕周围 1 格敌人"
+   ],
+   "heroes_best": [
+    "海月",
+    "太乙真人",
+    "苏烈",
+    "明世隐"
+   ],
+   "heroes_avoid": [
+    "百里守约",
+    "公孙离"
+   ],
+   "carry_priority": {
+    "phys_marksman": 1,
+    "mage": 2,
+    "assassin": 2,
+    "fighter": 3
+   },
+   "tank_priority": 6,
+   "why": "高等级前排的护盾 + 反打控制。",
+   "official_top_heroes": [
+    "海月×10",
+    "太乙真人×6",
+    "苏烈×5",
+    "明世隐×4",
+    "瑶×4"
+   ],
+   "official_count": 45
+  },
+  "痛苦面具": {
+   "type": "输出-法术",
+   "roles_good": [
+    "法师"
+   ],
+   "roles_bad": [
+    "射手",
+    "坦克"
+   ],
+   "conditions": [
+    "单次法伤 > 目标最大生命 8% 才点燃 → 要高爆发单发"
+   ],
+   "heroes_best": [
+    "司空震",
+    "海诺",
+    "诸葛亮",
+    "武则天"
+   ],
+   "heroes_avoid": [
+    "百里守约",
+    "公孙离",
+    "孙悟空"
+   ],
+   "carry_priority": {
+    "phys_marksman": 0,
+    "mage": 6,
+    "assassin": 1,
+    "fighter": 0
+   },
+   "tank_priority": 0,
+   "why": "爆发型法师；多段小伤害（安琪拉光束每 0.1 秒）难触发。",
+   "official_top_heroes": [
+    "司空震×12",
+    "海诺×3",
+    "露娜×2",
+    "诸葛亮×2",
+    "武则天×2"
+   ],
+   "official_count": 29
+  },
+  "法源之杯": {
+   "type": "施法",
+   "roles_good": [
+    "法师",
+    "辅助"
+   ],
+   "roles_bad": [
+    "坦克"
+   ],
+   "conditions": [
+    "每秒回 5 法力"
+   ],
+   "heroes_best": [
+    "杨玉环",
+    "米莱狄",
+    "朵莉亚",
+    "姜子牙",
+    "大乔",
+    "安琪拉",
+    "沈梦溪",
+    "干将莫邪"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 5,
+    "mage": 8,
+    "assassin": 4,
+    "fighter": 4
+   },
+   "tank_priority": 3,
+   "why": "技能循环加速，法师通吃；物理技能主C（守约）也能用。",
+   "official_top_heroes": [
+    "杨玉环×23",
+    "米莱狄×18",
+    "朵莉亚×16",
+    "姜子牙×14",
+    "大乔×11"
+   ],
+   "official_count": 191
+  },
+  "破茧之衣": {
+   "type": "功能",
+   "roles_good": [
+    "辅助",
+    "法师"
+   ],
+   "roles_bad": [
+    "射手"
+   ],
+   "conditions": [
+    "开战 +15 法力并眩晕敌方最高级 3 人之一（每 10 级 +0.5 秒）",
+    "瑶首件分享给 3 友军"
+   ],
+   "heroes_best": [
+    "瑶",
+    "太乙真人",
+    "蔡文姬",
+    "西施",
+    "明世隐",
+    "钟馗"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 3,
+    "mage": 5,
+    "assassin": 3,
+    "fighter": 4
+   },
+   "tank_priority": 5,
+   "why": "开团控制装，瑶的首选（官方 53 次）。马超吃控制也可考虑。",
+   "official_top_heroes": [
+    "瑶×53",
+    "太乙真人×8",
+    "蔡文姬×6",
+    "西施×6",
+    "明世隐×5"
+   ],
+   "official_count": 111
+  },
+  "聚灵水晶": {
+   "type": "坦克",
+   "roles_good": [
+    "坦克",
+    "战士"
+   ],
+   "roles_bad": [
+    "射手",
+    "法师"
+   ],
+   "conditions": [
+    "受击 +10 法力，满 100 回 20% 最大生命"
+   ],
+   "heroes_best": [
+    "海月",
+    "蒙恬",
+    "程咬金",
+    "孙悟空",
+    "雅典娜",
+    "东皇太一"
+   ],
+   "heroes_avoid": [
+    "百里守约",
+    "公孙离",
+    "安琪拉"
+   ],
+   "carry_priority": {
+    "phys_marksman": 0,
+    "mage": 1,
+    "assassin": 3,
+    "fighter": 5
+   },
+   "tank_priority": 7,
+   "why": "挨打回蓝回血：技能型前排/近战战士。",
+   "official_top_heroes": [
+    "海月×12",
+    "蒙恬×8",
+    "程咬金×7",
+    "孙悟空×5",
+    "雅典娜×5"
+   ],
+   "official_count": 76
+  },
+  "不祥征兆": {
+   "type": "坦克",
+   "roles_good": [
+    "坦克"
+   ],
+   "roles_bad": [
+    "射手",
+    "法师",
+    "刺客"
+   ],
+   "conditions": [
+    "战斗前 15 秒格挡 50%/70% 普攻伤害",
+    "对面普攻阵容时好"
+   ],
+   "heroes_best": [
+    "苏烈",
+    "铠",
+    "雅典娜",
+    "刘禅",
+    "亚瑟"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 1,
+    "mage": 1,
+    "assassin": 2,
+    "fighter": 3
+   },
+   "tank_priority": 5,
+   "why": "前期抗普攻。",
+   "official_top_heroes": [
+    "苏烈×5",
+    "铠×5",
+    "雅典娜×4",
+    "刘禅×3",
+    "亚瑟×3"
+   ],
+   "official_count": 43
+  },
+  "极寒风暴": {
+   "type": "坦克",
+   "roles_good": [
+    "坦克"
+   ],
+   "roles_bad": [
+    "射手",
+    "法师",
+    "刺客"
+   ],
+   "conditions": [
+    "受普攻降攻击者攻速；被同一目标普攻 5 次冻结远程 1 秒"
+   ],
+   "heroes_best": [
+    "雅典娜",
+    "刘禅",
+    "铠",
+    "程咬金",
+    "猪八戒",
+    "盾山"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 1,
+    "mage": 1,
+    "assassin": 2,
+    "fighter": 3
+   },
+   "tank_priority": 7,
+   "why": "克普攻射手的前排装。",
+   "official_top_heroes": [
+    "雅典娜×18",
+    "刘禅×15",
+    "铠×10",
+    "程咬金×9",
+    "猪八戒×9"
+   ],
+   "official_count": 119
+  },
+  "近卫荣耀": {
+   "type": "坦克",
+   "roles_good": [
+    "辅助",
+    "坦克"
+   ],
+   "roles_bad": [
+    "射手",
+    "法师",
+    "刺客"
+   ],
+   "conditions": [
+    "开战给周围 1 格友军 +10 双抗，自己双倍",
+    "穿在贴着主C 的人身上"
+   ],
+   "heroes_best": [
+    "瑶",
+    "太乙真人",
+    "蔡文姬",
+    "芈月",
+    "明世隐",
+    "钟馗"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 1,
+    "mage": 1,
+    "assassin": 1,
+    "fighter": 2
+   },
+   "tank_priority": 6,
+   "why": "光环装：给站在主C 旁边的辅助（官方瑶 31、太乙 16）。",
+   "official_top_heroes": [
+    "瑶×31",
+    "太乙真人×16",
+    "蔡文姬×15",
+    "芈月×11",
+    "朵莉亚×11"
+   ],
+   "official_count": 150
+  },
+  "反伤重甲": {
+   "type": "坦克",
+   "roles_good": [
+    "坦克",
+    "战士"
+   ],
+   "roles_bad": [
+    "射手",
+    "法师"
+   ],
+   "conditions": [
+    "30% 受到伤害以真实伤害反弹"
+   ],
+   "heroes_best": [
+    "猪八戒",
+    "苏烈",
+    "海月",
+    "铠",
+    "花木兰",
+    "程咬金"
+   ],
+   "heroes_avoid": [
+    "百里守约",
+    "安琪拉"
+   ],
+   "carry_priority": {
+    "phys_marksman": 1,
+    "mage": 1,
+    "assassin": 2,
+    "fighter": 4
+   },
+   "tank_priority": 8,
+   "why": "挨打越多越值，前排通用。",
+   "official_top_heroes": [
+    "猪八戒×30",
+    "苏烈×15",
+    "海月×11",
+    "铠×9",
+    "花木兰×9"
+   ],
+   "official_count": 138
+  },
+  "霸者重铠": {
+   "type": "坦克",
+   "roles_good": [
+    "坦克"
+   ],
+   "roles_bad": [
+    "射手",
+    "法师",
+    "刺客"
+   ],
+   "conditions": [
+    "生命 > 70% 时 40% 减伤",
+    "与魂祭绝刃（开局扣 50% 血）互斥"
+   ],
+   "heroes_best": [
+    "雅典娜",
+    "程咬金",
+    "东皇太一",
+    "刘禅",
+    "猪八戒",
+    "盾山"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 1,
+    "mage": 1,
+    "assassin": 2,
+    "fighter": 4
+   },
+   "tank_priority": 8,
+   "why": "前排开局抗伤。",
+   "official_top_heroes": [
+    "雅典娜×21",
+    "程咬金×15",
+    "东皇太一×10",
+    "刘禅×9",
+    "猪八戒×8"
+   ],
+   "official_count": 129
+  },
+  "不死鸟之眼": {
+   "type": "坦克",
+   "roles_good": [
+    "坦克",
+    "战士"
+   ],
+   "roles_bad": [
+    "射手",
+    "法师"
+   ],
+   "conditions": [
+    "+15% 基础生命，回复与护盾 +30%",
+    "自带回复/护盾的前排翻倍"
+   ],
+   "heroes_best": [
+    "海月",
+    "猪八戒",
+    "程咬金",
+    "雅典娜",
+    "东皇太一",
+    "周瑜",
+    "曜",
+    "廉颇"
+   ],
+   "heroes_avoid": [
+    "百里守约",
+    "公孙离"
+   ],
+   "carry_priority": {
+    "phys_marksman": 1,
+    "mage": 1,
+    "assassin": 2,
+    "fighter": 4
+   },
+   "tank_priority": 9,
+   "why": "官方第二常见（249 次），坦克第一件；程咬金/猪八戒自回复更吃。",
+   "official_top_heroes": [
+    "海月×42",
+    "猪八戒×36",
+    "程咬金×27",
+    "雅典娜×19",
+    "东皇太一×17"
+   ],
+   "official_count": 249
+  },
+  "魔女斗篷": {
+   "type": "坦克",
+   "roles_good": [
+    "坦克"
+   ],
+   "roles_bad": [
+    "射手",
+    "刺客"
+   ],
+   "conditions": [
+    "法抗 +30、等级×5 法术护盾",
+    "对面法系多时"
+   ],
+   "heroes_best": [
+    "猪八戒",
+    "瑶",
+    "芈月",
+    "亚瑟"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 2,
+    "mage": 2,
+    "assassin": 2,
+    "fighter": 3
+   },
+   "tank_priority": 4,
+   "why": "针对性法抗。",
+   "official_top_heroes": [
+    "猪八戒×4",
+    "瑶×3",
+    "芈月×2",
+    "海月×2",
+    "亚瑟×2"
+   ],
+   "official_count": 19
+  },
+  "红莲炎甲": {
+   "type": "坦克",
+   "roles_good": [
+    "坦克"
+   ],
+   "roles_bad": [
+    "射手",
+    "法师"
+   ],
+   "conditions": [
+    "每 2 秒灼烧周围 1 格敌人 + 降回复 → 要被围"
+   ],
+   "heroes_best": [
+    "猪八戒",
+    "苏烈",
+    "雅典娜",
+    "刘禅",
+    "白起",
+    "程咬金"
+   ],
+   "heroes_avoid": [
+    "百里守约",
+    "公孙离",
+    "安琪拉"
+   ],
+   "carry_priority": {
+    "phys_marksman": 0,
+    "mage": 0,
+    "assassin": 1,
+    "fighter": 3
+   },
+   "tank_priority": 7,
+   "why": "前排 AOE 坦克装，后排周围没有敌人 = 白板。",
+   "official_top_heroes": [
+    "猪八戒×12",
+    "苏烈×8",
+    "雅典娜×8",
+    "刘禅×6",
+    "亚瑟×5"
+   ],
+   "official_count": 70
+  },
+  "双剑·雄": {
+   "type": "专属",
+   "roles_good": [
+    "法师"
+   ],
+   "roles_bad": [
+    "坦克"
+   ],
+   "conditions": [
+    "干将莫邪在场时自动获得",
+    "干将穿戴：法力上限降为 10"
+   ],
+   "heroes_best": [
+    "干将莫邪"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 4,
+    "mage": 6,
+    "assassin": 4,
+    "fighter": 4
+   },
+   "tank_priority": 0,
+   "why": "干将专属：攻速 +30% 且法力上限 10 → 几乎每次普攻都放技能。只给干将。",
+   "official_top_heroes": [],
+   "official_count": 0
+  },
+  "玄微之种": {
+   "type": "功能",
+   "roles_good": [
+    "坦克"
+   ],
+   "roles_bad": [
+    "射手",
+    "法师",
+    "刺客"
+   ],
+   "conditions": [
+    "赋予牺牲：阵亡时给最低血友军回血",
+    "河洛牺牲体系：牺牲件阵亡会触发守约/李信/铠的卡面"
+   ],
+   "heroes_best": [
+    "苏烈",
+    "牛魔",
+    "盾山",
+    "钟馗"
+   ],
+   "heroes_avoid": [
+    "百里守约",
+    "公孙离"
+   ],
+   "carry_priority": {
+    "phys_marksman": 0,
+    "mage": 0,
+    "assassin": 0,
+    "fighter": 1
+   },
+   "tank_priority": 5,
+   "why": "给会先死的前排/牺牲件，别给主C。",
+   "official_top_heroes": [],
+   "official_count": 0
+  },
+  "星源装甲": {
+   "type": "专属",
+   "roles_good": [
+    "射手",
+    "法师",
+    "刺客",
+    "战士"
+   ],
+   "roles_bad": [
+    "辅助"
+   ],
+   "conditions": [
+    "【日落海】专属",
+    "吸血 20%，放技能后 2 秒免控"
+   ],
+   "heroes_best": [
+    "亚连",
+    "露娜",
+    "艾琳",
+    "安琪拉",
+    "米莱狄"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 7,
+    "mage": 7,
+    "assassin": 7,
+    "fighter": 7
+   },
+   "tank_priority": 3,
+   "why": "日落海主C 通用保命输出装。",
+   "official_top_heroes": [],
+   "official_count": 0
+  },
+  "星源狩枪": {
+   "type": "专属",
+   "roles_good": [
+    "射手",
+    "法师",
+    "刺客",
+    "战士"
+   ],
+   "roles_bad": [
+    "坦克",
+    "辅助"
+   ],
+   "conditions": [
+    "【日落海】专属",
+    "双攻 +20%，法力上限 -20，技能斩杀 10% 以下"
+   ],
+   "heroes_best": [
+    "亚连",
+    "艾琳",
+    "安琪拉",
+    "露娜",
+    "海诺"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 8,
+    "mage": 8,
+    "assassin": 8,
+    "fighter": 8
+   },
+   "tank_priority": 1,
+   "why": "日落海主C 输出装。",
+   "official_top_heroes": [],
+   "official_count": 0
+  },
+  "星源星徽": {
+   "type": "功能",
+   "roles_good": [
+    "坦克",
+    "辅助"
+   ],
+   "roles_bad": [
+    "射手",
+    "法师",
+    "刺客",
+    "战士"
+   ],
+   "conditions": [
+    "【日落海】专属",
+    "穿戴者不参与阿科米亚核心分等级"
+   ],
+   "heroes_best": [
+    "狂铁",
+    "雅典娜",
+    "朵莉亚"
+   ],
+   "heroes_avoid": [
+    "亚连",
+    "艾琳",
+    "安琪拉",
+    "露娜",
+    "海诺"
+   ],
+   "carry_priority": {
+    "phys_marksman": 0,
+    "mage": 0,
+    "assassin": 0,
+    "fighter": 0
+   },
+   "tank_priority": 3,
+   "why": "**不能给主C**：它让核心等级绕开穿戴者 → 应穿在不需要等级的日落海挂件上，让核心等级集中给主C。",
+   "official_top_heroes": [],
+   "official_count": 0
+  },
+  "星源合金盾": {
+   "type": "专属",
+   "roles_good": [
+    "坦克"
+   ],
+   "roles_bad": [
+    "射手",
+    "法师"
+   ],
+   "conditions": [
+    "【日落海】专属",
+    "双抗 +20，受伤 -20%"
+   ],
+   "heroes_best": [
+    "雅典娜",
+    "狂铁",
+    "亚瑟"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 2,
+    "mage": 2,
+    "assassin": 3,
+    "fighter": 4
+   },
+   "tank_priority": 8,
+   "why": "日落海坦克。",
+   "official_top_heroes": [],
+   "official_count": 0
+  },
+  "月影之力": {
+   "type": "专属",
+   "roles_good": [
+    "刺客"
+   ],
+   "roles_bad": [
+    "射手",
+    "法师",
+    "战士",
+    "坦克"
+   ],
+   "conditions": [
+    "仅露娜穿戴时生效",
+    "+15% 生命"
+   ],
+   "heroes_best": [
+    "露娜"
+   ],
+   "heroes_avoid": [
+    "百里守约"
+   ],
+   "carry_priority": {
+    "phys_marksman": 0,
+    "mage": 0,
+    "assassin": 10,
+    "fighter": 0
+   },
+   "tank_priority": 1,
+   "why": "露娜专属（每场一次月下无限连）；其他人只拿 15% 生命。",
+   "official_top_heroes": [],
+   "official_count": 0
+  },
+  "贤者的庇护": {
+   "type": "保命",
+   "roles_good": [
+    "射手",
+    "法师",
+    "刺客",
+    "战士",
+    "坦克"
+   ],
+   "roles_bad": [],
+   "conditions": [
+    "仅【河洛】英雄可穿",
+    "首次阵亡 2 秒后复生（30% 血）",
+    "牺牲英雄复生 = 牺牲触发两次"
+   ],
+   "heroes_best": [
+    "百里守约",
+    "狄仁杰",
+    "李信",
+    "李白",
+    "花木兰",
+    "铠",
+    "钟馗",
+    "盾山"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 7,
+    "mage": 7,
+    "assassin": 7,
+    "fighter": 7
+   },
+   "tank_priority": 6,
+   "why": "河洛主C 的保命，或河洛牺牲件的二次牺牲。",
+   "official_top_heroes": [],
+   "official_count": 0
+  },
+  "机关匣": {
+   "type": "功能",
+   "roles_good": [
+    "坦克",
+    "辅助",
+    "战士"
+   ],
+   "roles_bad": [],
+   "conditions": [
+    "仅【逐鹿】英雄可穿",
+    "开战召唤 2 个故障机器人（我方最高级英雄一半等级）"
+   ],
+   "heroes_best": [
+    "廉颇",
+    "白起",
+    "蒙恬",
+    "孙膑"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 3,
+    "mage": 3,
+    "assassin": 3,
+    "fighter": 3
+   },
+   "tank_priority": 6,
+   "why": "召唤与穿戴者无关 → 穿在最不值钱的逐鹿英雄身上，别占主C 格子。",
+   "official_top_heroes": [],
+   "official_count": 0
+  },
+  "断念": {
+   "type": "输出-通用",
+   "roles_good": [
+    "法师",
+    "射手",
+    "战士",
+    "刺客",
+    "坦克"
+   ],
+   "roles_bad": [],
+   "conditions": [
+    "造成伤害时本场战斗降低目标 20% 最大生命（不可叠加）",
+    "AOE 越多人越赚"
+   ],
+   "heroes_best": [
+    "张良",
+    "安琪拉",
+    "公孙离",
+    "沈梦溪",
+    "武则天",
+    "吕布"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 6,
+    "mage": 7,
+    "assassin": 5,
+    "fighter": 5
+   },
+   "tank_priority": 4,
+   "why": "全队收益的削血装，给 AOE 最广的人。",
+   "official_top_heroes": [
+    "张良×3",
+    "吕布×1"
+   ],
+   "official_count": 4
+  },
+  "鼓舞之戒": {
+   "type": "功能",
+   "roles_good": [
+    "坦克",
+    "辅助"
+   ],
+   "roles_bad": [],
+   "conditions": [
+    "开战：与穿戴者同阵营的英雄 +30% 最大生命"
+   ],
+   "heroes_best": [
+    "蔡文姬",
+    "程咬金",
+    "钟馗",
+    "芈月",
+    "张良"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 3,
+    "mage": 3,
+    "assassin": 3,
+    "fighter": 3
+   },
+   "tank_priority": 6,
+   "why": "阵营光环，穿在主阵营的非主C 身上。",
+   "official_top_heroes": [
+    "蔡文姬×2",
+    "程咬金×1",
+    "少司缘×1",
+    "芈月×1",
+    "张良×1"
+   ],
+   "official_count": 11
+  },
+  "梦魇之牙": {
+   "type": "输出-法术",
+   "roles_good": [
+    "法师"
+   ],
+   "roles_bad": [
+    "射手",
+    "坦克"
+   ],
+   "conditions": [
+    "法攻 +35%；印记目标阵亡爆炸"
+   ],
+   "heroes_best": [
+    "海诺",
+    "嬴政",
+    "诸葛亮",
+    "安琪拉",
+    "刘邦"
+   ],
+   "heroes_avoid": [
+    "公孙离"
+   ],
+   "carry_priority": {
+    "phys_marksman": 0,
+    "mage": 8,
+    "assassin": 2,
+    "fighter": 0
+   },
+   "tank_priority": 0,
+   "why": "法师 AOE 输出。",
+   "official_top_heroes": [
+    "海诺×2",
+    "明世隐×1",
+    "刘邦×1",
+    "嬴政×1"
+   ],
+   "official_count": 5
+  },
+  "三分旗帜": {
+   "type": "功能",
+   "roles_good": [
+    "射手",
+    "法师",
+    "刺客",
+    "战士",
+    "坦克"
+   ],
+   "roles_bad": [],
+   "conditions": [
+    "仅【三分】英雄可穿",
+    "伤害 30% 转治疗平摊给所有三分英雄"
+   ],
+   "heroes_best": [
+    "马超",
+    "诸葛亮",
+    "吕布",
+    "周瑜"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 5,
+    "mage": 5,
+    "assassin": 5,
+    "fighter": 5
+   },
+   "tank_priority": 3,
+   "why": "三分阵容里给伤害最高的三分英雄。",
+   "official_top_heroes": [
+    "大乔×1"
+   ],
+   "official_count": 1
+  },
+  "怒神项链": {
+   "type": "暴击",
+   "roles_good": [
+    "法师",
+    "射手",
+    "刺客",
+    "战士"
+   ],
+   "roles_bad": [
+    "坦克",
+    "辅助"
+   ],
+   "conditions": [
+    "暴击率 +50%，法术伤害可暴击",
+    "配无尽巨剑（暴击效果）更强"
+   ],
+   "heroes_best": [
+    "干将莫邪",
+    "沈梦溪",
+    "亚连",
+    "庄周",
+    "诸葛亮"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 8,
+    "mage": 8,
+    "assassin": 8,
+    "fighter": 8
+   },
+   "tank_priority": 0,
+   "why": "唯一能让法师暴击的装备。",
+   "official_top_heroes": [
+    "干将莫邪×1",
+    "庄周×1",
+    "沈梦溪×1"
+   ],
+   "official_count": 3
+  },
+  "魂灭灵冠": {
+   "type": "坦克",
+   "roles_good": [
+    "坦克"
+   ],
+   "roles_bad": [
+    "射手",
+    "法师"
+   ],
+   "conditions": [
+    "阵亡时对周围 1 格敌人造成其 35% 最大生命真伤 → 要先死在敌堆里"
+   ],
+   "heroes_best": [
+    "钟馗",
+    "盾山",
+    "苏烈",
+    "花木兰",
+    "上官婉儿"
+   ],
+   "heroes_avoid": [
+    "百里守约",
+    "公孙离",
+    "安琪拉"
+   ],
+   "carry_priority": {
+    "phys_marksman": 0,
+    "mage": 0,
+    "assassin": 2,
+    "fighter": 2
+   },
+   "tank_priority": 7,
+   "why": "牺牲件/前排的遗言装。",
+   "official_top_heroes": [
+    "花木兰×3",
+    "上官婉儿×2",
+    "太乙真人×1",
+    "钟馗×1",
+    "盾山×1"
+   ],
+   "official_count": 8
+  },
+  "灵泉项链": {
+   "type": "功能",
+   "roles_good": [
+    "辅助"
+   ],
+   "roles_bad": [
+    "射手",
+    "法师",
+    "刺客",
+    "战士"
+   ],
+   "conditions": [
+    "开战后周围 1 格单位每秒 +4 法力",
+    "穿戴者法力上限 -10"
+   ],
+   "heroes_best": [
+    "蔡文姬",
+    "瑶",
+    "明世隐",
+    "太乙真人"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 3,
+    "mage": 3,
+    "assassin": 3,
+    "fighter": 3
+   },
+   "tank_priority": 4,
+   "why": "给贴主C 站的辅助。",
+   "official_top_heroes": [
+    "蔡文姬×1"
+   ],
+   "official_count": 1
+  },
+  "魂祭绝刃": {
+   "type": "攻速",
+   "roles_good": [
+    "射手",
+    "刺客",
+    "战士"
+   ],
+   "roles_bad": [
+    "坦克",
+    "辅助"
+   ],
+   "conditions": [
+    "攻速 +50%，吸血 +30%，开战扣 50% 最大生命",
+    "与霸者重铠冲突"
+   ],
+   "heroes_best": [
+    "裴擒虎",
+    "百里玄策",
+    "狄仁杰",
+    "李白",
+    "阿轲"
+   ],
+   "heroes_avoid": [
+    "猪八戒",
+    "程咬金",
+    "海月"
+   ],
+   "carry_priority": {
+    "phys_marksman": 6,
+    "mage": 3,
+    "assassin": 7,
+    "fighter": 6
+   },
+   "tank_priority": 0,
+   "why": "普攻吸血型输出；坦克穿就是自扣半血。",
+   "official_top_heroes": [
+    "裴擒虎×2",
+    "百里玄策×2",
+    "少司缘×1",
+    "狄仁杰×1",
+    "牛魔×1"
+   ],
+   "official_count": 11
+  },
+  "破阵战芒": {
+   "type": "攻速",
+   "roles_good": [
+    "射手",
+    "法师",
+    "刺客",
+    "战士"
+   ],
+   "roles_bad": [],
+   "conditions": [
+    "仅 1~3 阶英雄可穿",
+    "伤害加成与攻速 = 等级×1%，上限 50%（50 级满）"
+   ],
+   "heroes_best": [
+    "百里守约",
+    "公孙离",
+    "百里玄策",
+    "沈梦溪",
+    "狄仁杰",
+    "镜",
+    "马超",
+    "安琪拉",
+    "米莱狄"
+   ],
+   "heroes_avoid": [
+    "孙悟空",
+    "李白",
+    "武则天"
+   ],
+   "carry_priority": {
+    "phys_marksman": 8,
+    "mage": 7,
+    "assassin": 8,
+    "fighter": 8
+   },
+   "tank_priority": 2,
+   "why": "高等级 1~3 阶主C 的强装；4~5 阶穿不上。",
+   "official_top_heroes": [
+    "赵云×1",
+    "梦奇×1"
+   ],
+   "official_count": 2
+  },
+  "法潮灵杖": {
+   "type": "输出-法术",
+   "roles_good": [
+    "法师"
+   ],
+   "roles_bad": [
+    "射手",
+    "战士",
+    "坦克"
+   ],
+   "conditions": [
+    "法攻 +25%；开战吸取左右 1 格英雄 100% 法攻"
+   ],
+   "heroes_best": [
+    "司空震",
+    "诸葛亮",
+    "嬴政"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 0,
+    "mage": 7,
+    "assassin": 1,
+    "fighter": 0
+   },
+   "tank_priority": 0,
+   "why": "法师，左右站法系英雄时更强。",
+   "official_top_heroes": [
+    "司空震×1"
+   ],
+   "official_count": 1
+  },
+  "末世": {
+   "type": "输出-物理",
+   "roles_good": [
+    "战士",
+    "刺客"
+   ],
+   "roles_bad": [
+    "法师",
+    "坦克"
+   ],
+   "conditions": [
+    "普攻偷取目标 2% 最大生命，近战翻倍"
+   ],
+   "heroes_best": [
+    "孙悟空",
+    "镜",
+    "阿轲",
+    "裴擒虎",
+    "艾琳"
+   ],
+   "heroes_avoid": [
+    "安琪拉",
+    "沈梦溪"
+   ],
+   "carry_priority": {
+    "phys_marksman": 5,
+    "mage": 1,
+    "assassin": 8,
+    "fighter": 8
+   },
+   "tank_priority": 3,
+   "why": "近战普攻主C（镜攻略首选）。",
+   "official_top_heroes": [
+    "艾琳×2",
+    "孙悟空×2",
+    "少司缘×1",
+    "太乙真人×1",
+    "镜×1"
+   ],
+   "official_count": 12
+  },
+  "光辉圣铠": {
+   "type": "坦克",
+   "roles_good": [
+    "坦克"
+   ],
+   "roles_bad": [
+    "射手",
+    "法师",
+    "刺客"
+   ],
+   "conditions": [
+    "每秒回 50 + 4% 最大生命"
+   ],
+   "heroes_best": [
+    "程咬金",
+    "鬼谷子",
+    "猪八戒",
+    "项羽"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 1,
+    "mage": 1,
+    "assassin": 2,
+    "fighter": 3
+   },
+   "tank_priority": 8,
+   "why": "持续回复坦克装。",
+   "official_top_heroes": [
+    "鬼谷子×1",
+    "太乙真人×1",
+    "梦奇×1"
+   ],
+   "official_count": 3
+  },
+  "护命灵珠": {
+   "type": "保命",
+   "roles_good": [
+    "坦克",
+    "战士"
+   ],
+   "roles_bad": [
+    "射手"
+   ],
+   "conditions": [
+    "每 4 秒获得 25% 基础生命护盾；有盾时伤害 +25%"
+   ],
+   "heroes_best": [
+    "海月",
+    "牛魔",
+    "猪八戒",
+    "少司缘"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 4,
+    "mage": 4,
+    "assassin": 5,
+    "fighter": 6
+   },
+   "tank_priority": 6,
+   "why": "海月（伤害 = 生命的牺牲技）官方 11 次；前排输出也可。",
+   "official_top_heroes": [
+    "海月×11",
+    "少司缘×2",
+    "猪八戒×2",
+    "小乔×1",
+    "苏烈×1"
+   ],
+   "official_count": 23
+  },
+  "灵泉法杖": {
+   "type": "输出-通用",
+   "roles_good": [
+    "刺客",
+    "战士"
+   ],
+   "roles_bad": [
+    "坦克"
+   ],
+   "conditions": [
+    "获得闪现；闪现后普攻重击 300% + 眩晕 1 秒；击杀刷新闪现"
+   ],
+   "heroes_best": [
+    "镜",
+    "李白",
+    "阿轲",
+    "韩信",
+    "沈梦溪"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 4,
+    "mage": 3,
+    "assassin": 7,
+    "fighter": 6
+   },
+   "tank_priority": 2,
+   "why": "近战切入型最吃（官方数据很少，推断）。",
+   "official_top_heroes": [
+    "太乙真人×1",
+    "沈梦溪×1"
+   ],
+   "official_count": 2
+  },
+  "破妄之刃": {
+   "type": "输出-通用",
+   "roles_good": [
+    "射手",
+    "法师",
+    "刺客",
+    "战士"
+   ],
+   "roles_bad": [
+    "坦克"
+   ],
+   "conditions": [
+    "移速 +60%；伤害 50% 转真实伤害；免疫减速",
+    "对面坦克硬时价值最高"
+   ],
+   "heroes_best": [
+    "廉颇",
+    "花木兰",
+    "孙悟空"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 7,
+    "mage": 7,
+    "assassin": 7,
+    "fighter": 7
+   },
+   "tank_priority": 1,
+   "why": "高伤害主C 破坦（官方仅 1 次）。",
+   "official_top_heroes": [
+    "廉颇×1"
+   ],
+   "official_count": 1
+  },
+  "不屈意志": {
+   "type": "成长",
+   "roles_good": [
+    "射手",
+    "法师",
+    "刺客",
+    "战士",
+    "坦克"
+   ],
+   "roles_bad": [],
+   "conditions": [
+    "每 3 秒获得 场上友军穿戴数×2 临时等级",
+    "阵亡时 30% 等级分给同装备友军",
+    "要多件同时穿才值"
+   ],
+   "heroes_best": [],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 4,
+    "mage": 4,
+    "assassin": 4,
+    "fighter": 4
+   },
+   "tank_priority": 4,
+   "why": "多人叠加的团队装；只有 1 件时收益存疑（官方阵容 0 次）。",
+   "official_top_heroes": [],
+   "official_count": 0
+  },
+  "学识宝石": {
+   "type": "成长",
+   "roles_good": [
+    "射手",
+    "法师",
+    "刺客",
+    "战士"
+   ],
+   "roles_bad": [],
+   "conditions": [
+    "每回合开始等级 +8%（至少 +3）、法力上限 -2",
+    "越早穿越赚、要留到最后"
+   ],
+   "heroes_best": [
+    "瑶",
+    "东皇太一",
+    "杨玉环",
+    "镜",
+    "干将莫邪"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 8,
+    "mage": 8,
+    "assassin": 8,
+    "fighter": 8
+   },
+   "tank_priority": 3,
+   "why": "永久等级成长，给留到最后的主C。",
+   "official_top_heroes": [
+    "瑶×2",
+    "东皇太一×2",
+    "杨玉环×1",
+    "张良×1",
+    "李元芳×1"
+   ],
+   "official_count": 12
+  },
+  "怒莲之刺": {
+   "type": "攻速",
+   "roles_good": [
+    "射手",
+    "刺客",
+    "战士"
+   ],
+   "roles_bad": [
+    "坦克"
+   ],
+   "conditions": [
+    "攻速 +100%",
+    "受到的伤害全部转移给穿银莲庇佑的单位（成对）"
+   ],
+   "heroes_best": [
+    "百里玄策",
+    "大乔",
+    "李信",
+    "干将莫邪",
+    "公孙离",
+    "狄仁杰"
+   ],
+   "heroes_avoid": [
+    "猪八戒"
+   ],
+   "carry_priority": {
+    "phys_marksman": 9,
+    "mage": 5,
+    "assassin": 9,
+    "fighter": 8
+   },
+   "tank_priority": 0,
+   "why": "主C 用；配银莲庇佑的坦克。",
+   "official_top_heroes": [
+    "百里玄策×2",
+    "大乔×2",
+    "干将莫邪×1",
+    "李信×1"
+   ],
+   "official_count": 6
+  },
+  "银莲庇佑": {
+   "type": "坦克",
+   "roles_good": [
+    "坦克"
+   ],
+   "roles_bad": [
+    "射手",
+    "法师",
+    "刺客",
+    "战士"
+   ],
+   "conditions": [
+    "双抗 +10；替穿怒莲之刺的英雄承担伤害（成对）"
+   ],
+   "heroes_best": [
+    "苏烈",
+    "曹操",
+    "大司命",
+    "猪八戒"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 0,
+    "mage": 0,
+    "assassin": 0,
+    "fighter": 0
+   },
+   "tank_priority": 8,
+   "why": "只给坦克；没有怒莲之刺时只剩 +10 双抗（降到约 4）。",
+   "official_top_heroes": [
+    "苏烈×2",
+    "曹操×2",
+    "大司命×1"
+   ],
+   "official_count": 5
+  },
+  "噬神之书": {
+   "type": "输出-法术",
+   "roles_good": [
+    "法师"
+   ],
+   "roles_bad": [
+    "射手",
+    "战士",
+    "坦克"
+   ],
+   "conditions": [
+    "法攻 +100、法术吸血 +60%"
+   ],
+   "heroes_best": [
+    "嬴政",
+    "露娜",
+    "诸葛亮",
+    "安琪拉",
+    "米莱狄"
+   ],
+   "heroes_avoid": [
+    "百里守约",
+    "公孙离",
+    "孙悟空",
+    "马超"
+   ],
+   "carry_priority": {
+    "phys_marksman": 0,
+    "mage": 9,
+    "assassin": 3,
+    "fighter": 1
+   },
+   "tank_priority": 1,
+   "why": "法师大件；物理主C 不能拿（用户 2026-09-26 已定）。",
+   "official_top_heroes": [
+    "嬴政×3",
+    "露娜×3",
+    "诸葛亮×2",
+    "明世隐×1",
+    "太乙真人×1"
+   ],
+   "official_count": 16
+  },
+  "征服之剑": {
+   "type": "输出-物理",
+   "roles_good": [
+    "战士",
+    "刺客",
+    "射手"
+   ],
+   "roles_bad": [
+    "法师",
+    "坦克"
+   ],
+   "conditions": [
+    "物理吸血 +30%，低于 50% 血翻倍"
+   ],
+   "heroes_best": [
+    "韩信",
+    "李白",
+    "吕布",
+    "百里守约",
+    "狄仁杰"
+   ],
+   "heroes_avoid": [
+    "安琪拉"
+   ],
+   "carry_priority": {
+    "phys_marksman": 5,
+    "mage": 0,
+    "assassin": 6,
+    "fighter": 7
+   },
+   "tank_priority": 2,
+   "why": "物理吸血，近战更需要。",
+   "official_top_heroes": [
+    "韩信×3",
+    "百里守约×2",
+    "李白×2",
+    "狄仁杰×2",
+    "李元芳×1"
+   ],
+   "official_count": 14
+  },
+  "盛华": {
+   "type": "成长",
+   "roles_good": [
+    "坦克",
+    "战士"
+   ],
+   "roles_bad": [],
+   "conditions": [
+    "无法拆卸",
+    "每场战斗后永久 +200 生命（赢翻倍）",
+    "只给留到最后的人"
+   ],
+   "heroes_best": [
+    "庄周",
+    "曹操",
+    "猪八戒",
+    "程咬金",
+    "太乙真人"
+   ],
+   "heroes_avoid": [
+    "曜",
+    "牛魔",
+    "苏烈",
+    "孙膑",
+    "弈星"
+   ],
+   "carry_priority": {
+    "phys_marksman": 2,
+    "mage": 2,
+    "assassin": 3,
+    "fighter": 4
+   },
+   "tank_priority": 8,
+   "why": "穿上卸不掉 → 过渡件穿了就浪费。",
+   "official_top_heroes": [
+    "庄周×2",
+    "曹操×2",
+    "太乙真人×1",
+    "明世隐×1",
+    "猪八戒×1"
+   ],
+   "official_count": 8
+  },
+  "静谧之铃": {
+   "type": "功能",
+   "roles_good": [
+    "法师",
+    "坦克",
+    "辅助"
+   ],
+   "roles_bad": [],
+   "conditions": [
+    "敌方最高级 2 名英雄放技能后 5 秒不回法力 + 持续法伤"
+   ],
+   "heroes_best": [
+    "嬴政",
+    "米莱狄",
+    "太乙真人"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 5,
+    "mage": 6,
+    "assassin": 5,
+    "fighter": 5
+   },
+   "tank_priority": 6,
+   "why": "锁对面主C 的法力；穿在活得久的人身上即可。",
+   "official_top_heroes": [
+    "米莱狄×1",
+    "太乙真人×1",
+    "嬴政×1"
+   ],
+   "official_count": 3
+  },
+  "捕能手套": {
+   "type": "功能",
+   "roles_good": [
+    "射手",
+    "法师",
+    "刺客",
+    "战士"
+   ],
+   "roles_bad": [
+    "坦克"
+   ],
+   "conditions": [
+    "每击杀 1 名英雄 +1 能量；单回合 5 杀给能量转换"
+   ],
+   "heroes_best": [
+    "猪八戒",
+    "老夫子",
+    "公孙离",
+    "安琪拉"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 5,
+    "mage": 5,
+    "assassin": 5,
+    "fighter": 5
+   },
+   "tank_priority": 1,
+   "why": "经济装，给收割最多的人。",
+   "official_top_heroes": [
+    "猪八戒×2",
+    "老夫子×1"
+   ],
+   "official_count": 3
+  },
+  "分身镜": {
+   "type": "功能",
+   "roles_good": [
+    "射手",
+    "法师",
+    "刺客",
+    "战士"
+   ],
+   "roles_bad": [
+    "坦克"
+   ],
+   "conditions": [
+    "开战召唤 1 个复制体（承受 350% 伤害、无卡牌效果）"
+   ],
+   "heroes_best": [
+    "明世隐",
+    "镜",
+    "庄周",
+    "裴擒虎"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 6,
+    "mage": 6,
+    "assassin": 6,
+    "fighter": 6
+   },
+   "tank_priority": 4,
+   "why": "复制主C = 多一份输出；复制体很脆。",
+   "official_top_heroes": [
+    "明世隐×2",
+    "镜×1",
+    "庄周×1",
+    "裴擒虎×1"
+   ],
+   "official_count": 5
+  },
+  "驱雷": {
+   "type": "功能",
+   "roles_good": [],
+   "roles_bad": [
+    "射手",
+    "法师",
+    "刺客",
+    "战士",
+    "坦克"
+   ],
+   "conditions": [
+    "每 2 秒随机雷击敌我任意 2 名单位（30% 最大生命法伤）",
+    "命中司空震改为让他快速攻击 4 次"
+   ],
+   "heroes_best": [
+    "司空震"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 1,
+    "mage": 2,
+    "assassin": 1,
+    "fighter": 1
+   },
+   "tank_priority": 2,
+   "why": "会打自己人：只在司空震阵容里由别人穿；否则不要穿。",
+   "official_top_heroes": [
+    "上官婉儿×2",
+    "姬小满×2",
+    "虞姬×1",
+    "苏烈×1",
+    "明世隐×1"
+   ],
+   "official_count": 10
+  },
+  "青莲剑谱": {
+   "type": "暴击",
+   "roles_good": [
+    "战士",
+    "刺客",
+    "坦克"
+   ],
+   "roles_bad": [
+    "射手",
+    "法师"
+   ],
+   "conditions": [
+    "限定近战",
+    "暴击率 +40%；技能替换为青莲剑歌（6 次物理斩击）"
+   ],
+   "heroes_best": [
+    "猪八戒",
+    "程咬金",
+    "李白",
+    "铠",
+    "太乙真人"
+   ],
+   "heroes_avoid": [
+    "露娜",
+    "马超"
+   ],
+   "carry_priority": {
+    "phys_marksman": 0,
+    "mage": 0,
+    "assassin": 7,
+    "fighter": 8
+   },
+   "tank_priority": 5,
+   "why": "把近战坦克/战士的技能换成输出技；自身技能很强的（露娜、马超）不要换。",
+   "official_top_heroes": [
+    "猪八戒×2",
+    "太乙真人×1",
+    "程咬金×1",
+    "李白×1"
+   ],
+   "official_count": 5
+  },
+  "机器头": {
+   "type": "输出-通用",
+   "roles_good": [
+    "法师",
+    "刺客",
+    "战士"
+   ],
+   "roles_bad": [
+    "射手"
+   ],
+   "conditions": [
+    "攻速固定 0.4、+60% 伤害、免疫负面",
+    "靠攻速/普攻攒法力的人会大幅变慢"
+   ],
+   "heroes_best": [
+    "嬴政",
+    "上官婉儿",
+    "花木兰",
+    "镜",
+    "明世隐"
+   ],
+   "heroes_avoid": [
+    "公孙离",
+    "狄仁杰",
+    "百里玄策",
+    "艾琳",
+    "敖隐"
+   ],
+   "carry_priority": {
+    "phys_marksman": 2,
+    "mage": 8,
+    "assassin": 6,
+    "fighter": 6
+   },
+   "tank_priority": 3,
+   "why": "技能主导、本来攻速慢的主C 用；普攻/攻速射手是灾难。",
+   "official_top_heroes": [
+    "嬴政×4",
+    "上官婉儿×2",
+    "花木兰×2",
+    "小乔×1",
+    "马超×1"
+   ],
+   "official_count": 19
+  },
+  "阿科米亚之子": {
+   "type": "功能",
+   "roles_good": [
+    "辅助",
+    "坦克"
+   ],
+   "roles_bad": [],
+   "conditions": [
+    "参与核心等级分配；周围 1 格每秒 +4 法力 +2% 生命"
+   ],
+   "heroes_best": [
+    "朵莉亚",
+    "雅典娜"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 3,
+    "mage": 3,
+    "assassin": 3,
+    "fighter": 3
+   },
+   "tank_priority": 6,
+   "why": "日落海辅助光环。",
+   "official_top_heroes": [
+    "朵莉亚×1"
+   ],
+   "official_count": 1
+  },
+  "磐石之心": {
+   "type": "保命",
+   "roles_good": [
+    "坦克",
+    "射手",
+    "法师"
+   ],
+   "roles_bad": [],
+   "conditions": [
+    "单次伤害不超过 15% 最大生命（防秒杀/斩杀）"
+   ],
+   "heroes_best": [
+    "程咬金",
+    "鬼谷子",
+    "庄周",
+    "太乙真人",
+    "蔡文姬"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 5,
+    "mage": 5,
+    "assassin": 4,
+    "fighter": 4
+   },
+   "tank_priority": 7,
+   "why": "对面爆发/刺客多时；坦克通用。",
+   "official_top_heroes": [
+    "程咬金×1",
+    "鬼谷子×1",
+    "庄周×1",
+    "太乙真人×1",
+    "蔡文姬×1"
+   ],
+   "official_count": 6
+  },
+  "百锻刀": {
+   "type": "成长",
+   "roles_good": [
+    "射手",
+    "刺客",
+    "战士"
+   ],
+   "roles_bad": [
+    "法师",
+    "坦克"
+   ],
+   "conditions": [
+    "无法拆卸",
+    "物攻 +30，每击杀 +5 物攻（赢翻倍），永久"
+   ],
+   "heroes_best": [
+    "狄仁杰",
+    "李元芳",
+    "百里玄策",
+    "百里守约"
+   ],
+   "heroes_avoid": [
+    "安琪拉",
+    "沈梦溪",
+    "曜",
+    "牛魔"
+   ],
+   "carry_priority": {
+    "phys_marksman": 8,
+    "mage": 0,
+    "assassin": 8,
+    "fighter": 8
+   },
+   "tank_priority": 0,
+   "why": "最终物理主C；卸不掉，过渡件别穿。",
+   "official_top_heroes": [
+    "李元芳×1",
+    "太乙真人×1",
+    "百里玄策×1",
+    "明世隐×1",
+    "瑶×1"
+   ],
+   "official_count": 6
+  },
+  "小鹿的庇护": {
+   "type": "保命",
+   "roles_good": [
+    "射手",
+    "法师",
+    "刺客",
+    "战士"
+   ],
+   "roles_bad": [
+    "坦克"
+   ],
+   "conditions": [
+    "穿戴者所受 30% 伤害转移给小鹿（小鹿是谁未核实，疑为瑶）"
+   ],
+   "heroes_best": [
+    "诸葛亮",
+    "米莱狄",
+    "马超",
+    "刘邦"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 5,
+    "mage": 5,
+    "assassin": 5,
+    "fighter": 5
+   },
+   "tank_priority": 2,
+   "why": "主C 分担伤害；前提条件未核实。",
+   "official_top_heroes": [
+    "诸葛亮×2",
+    "米莱狄×1",
+    "海月×1",
+    "刘邦×1",
+    "马超×1"
+   ],
+   "official_count": 6
+  },
+  "聚灵法杖": {
+   "type": "成长",
+   "roles_good": [
+    "法师"
+   ],
+   "roles_bad": [
+    "射手",
+    "坦克"
+   ],
+   "conditions": [
+    "无法拆卸",
+    "法攻 +30、普攻附带 70% 法攻；每击杀 +5 法攻（永久）"
+   ],
+   "heroes_best": [
+    "司空震",
+    "艾琳",
+    "嬴政",
+    "刘邦"
+   ],
+   "heroes_avoid": [
+    "百里守约",
+    "公孙离",
+    "孙悟空"
+   ],
+   "carry_priority": {
+    "phys_marksman": 1,
+    "mage": 8,
+    "assassin": 2,
+    "fighter": 1
+   },
+   "tank_priority": 0,
+   "why": "最终法系主C（普攻型法师最好）；卸不掉。",
+   "official_top_heroes": [
+    "司空震×2",
+    "明世隐×1",
+    "嬴政×1",
+    "太乙真人×1",
+    "艾琳×1"
+   ],
+   "official_count": 10
+  },
+  "风暴巨剑": {
+   "type": "基础",
+   "roles_good": [
+    "射手",
+    "法师",
+    "刺客",
+    "战士",
+    "辅助"
+   ],
+   "roles_bad": [],
+   "conditions": [
+    "拖到英雄身上弹四选一，铸成：无尽巨剑/制裁之剑/纯净苍穹/铸梦·逐风",
+    "优先级 = 四个成品里对该职业最好的那件"
+   ],
+   "heroes_best": [
+    "百里守约",
+    "孙悟空",
+    "吕布",
+    "瑶",
+    "虞姬",
+    "公孙离",
+    "露娜",
+    "刘邦",
+    "司空震",
+    "裴擒虎",
+    "大司命",
+    "韩信"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 10,
+    "mage": 7,
+    "assassin": 9,
+    "fighter": 9
+   },
+   "tank_priority": 3,
+   "why": "输出型：无尽巨剑/制裁之剑/纯净苍穹/铸梦·逐风。基础装备本身不看职业，关键是四选一时按下表挑成品。",
+   "forges": [
+    "无尽巨剑",
+    "制裁之剑",
+    "纯净苍穹",
+    "铸梦·逐风"
+   ],
+   "official_top_heroes": [],
+   "official_count": 0
+  },
+  "雷鸣刃": {
+   "type": "基础",
+   "roles_good": [
+    "射手",
+    "法师",
+    "刺客",
+    "战士"
+   ],
+   "roles_bad": [],
+   "conditions": [
+    "拖到英雄身上弹四选一，铸成：冥王/名刀·司命/红魔/魔律之刃",
+    "优先级 = 四个成品里对该职业最好的那件"
+   ],
+   "heroes_best": [
+    "花木兰",
+    "吕布",
+    "裴擒虎",
+    "嬴政",
+    "孙悟空",
+    "阿轲",
+    "曜",
+    "亚连",
+    "姜子牙",
+    "露娜",
+    "米莱狄"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 8,
+    "mage": 9,
+    "assassin": 8,
+    "fighter": 8
+   },
+   "tank_priority": 4,
+   "why": "输出型：冥王/名刀·司命/红魔/魔律之刃。基础装备本身不看职业，关键是四选一时按下表挑成品。",
+   "forges": [
+    "冥王",
+    "名刀·司命",
+    "红魔",
+    "魔律之刃"
+   ],
+   "official_top_heroes": [
+    "嬴政×1",
+    "马超×1"
+   ],
+   "official_count": 2
+  },
+  "速击之枪": {
+   "type": "基础",
+   "roles_good": [
+    "射手",
+    "刺客",
+    "战士"
+   ],
+   "roles_bad": [],
+   "conditions": [
+    "拖到英雄身上弹四选一，铸成：凝渊/日渊/影牙/破晓",
+    "优先级 = 四个成品里对该职业最好的那件"
+   ],
+   "heroes_best": [
+    "花木兰",
+    "李信",
+    "裴擒虎",
+    "公孙离",
+    "狄仁杰",
+    "敖隐",
+    "百里玄策",
+    "阿轲",
+    "艾琳"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 9,
+    "mage": 3,
+    "assassin": 8,
+    "fighter": 9
+   },
+   "tank_priority": 2,
+   "why": "输出型：凝渊/日渊/影牙/破晓（偏普攻射手）。基础装备本身不看职业，关键是四选一时按下表挑成品。",
+   "forges": [
+    "凝渊",
+    "日渊",
+    "影牙",
+    "破晓"
+   ],
+   "official_top_heroes": [
+    "镜×1",
+    "公孙离×1"
+   ],
+   "official_count": 2
+  },
+  "大棒": {
+   "type": "基础",
+   "roles_good": [
+    "射手",
+    "法师"
+   ],
+   "roles_bad": [],
+   "conditions": [
+    "拖到英雄身上弹四选一，铸成：虚无法杖/寒霜侵袭/金色圣剑/自然法杖",
+    "优先级 = 四个成品里对该职业最好的那件"
+   ],
+   "heroes_best": [
+    "嬴政",
+    "安琪拉",
+    "诸葛亮",
+    "公孙离",
+    "艾琳",
+    "敖隐",
+    "司空震",
+    "刘邦",
+    "马超",
+    "明世隐"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 8,
+    "mage": 8,
+    "assassin": 5,
+    "fighter": 5
+   },
+   "tank_priority": 2,
+   "why": "输出型：虚无法杖/寒霜侵袭/金色圣剑/自然法杖（偏法系）。基础装备本身不看职业，关键是四选一时按下表挑成品。",
+   "forges": [
+    "虚无法杖",
+    "寒霜侵袭",
+    "金色圣剑",
+    "自然法杖"
+   ],
+   "official_top_heroes": [
+    "诸葛亮×1",
+    "马超×1"
+   ],
+   "official_count": 2
+  },
+  "圣者法典": {
+   "type": "基础",
+   "roles_good": [
+    "射手",
+    "法师",
+    "刺客",
+    "战士",
+    "坦克",
+    "辅助"
+   ],
+   "roles_bad": [],
+   "conditions": [
+    "拖到英雄身上弹四选一，铸成：贤者之书/炽热支配者/生命魔典/御灵之纱",
+    "优先级 = 四个成品里对该职业最好的那件"
+   ],
+   "heroes_best": [
+    "诸葛亮",
+    "姜子牙",
+    "杨玉环",
+    "嬴政",
+    "马超",
+    "司空震",
+    "猪八戒",
+    "东皇太一",
+    "狂铁",
+    "海月",
+    "太乙真人",
+    "苏烈"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 9,
+    "mage": 9,
+    "assassin": 9,
+    "fighter": 9
+   },
+   "tank_priority": 7,
+   "why": "法术型：贤者之书/炽热支配者 + 两件坦克装。基础装备本身不看职业，关键是四选一时按下表挑成品。",
+   "forges": [
+    "贤者之书",
+    "炽热支配者",
+    "生命魔典",
+    "御灵之纱"
+   ],
+   "official_top_heroes": [
+    "镜×1",
+    "马超×1",
+    "杨玉环×1"
+   ],
+   "official_count": 3
+  },
+  "破碎圣杯": {
+   "type": "基础",
+   "roles_good": [
+    "法师",
+    "战士",
+    "坦克",
+    "辅助"
+   ],
+   "roles_bad": [],
+   "conditions": [
+    "拖到英雄身上弹四选一，铸成：痛苦面具/法源之杯/破茧之衣/聚灵水晶",
+    "优先级 = 四个成品里对该职业最好的那件"
+   ],
+   "heroes_best": [
+    "司空震",
+    "海诺",
+    "诸葛亮",
+    "杨玉环",
+    "米莱狄",
+    "朵莉亚",
+    "瑶",
+    "太乙真人",
+    "蔡文姬",
+    "海月",
+    "蒙恬",
+    "程咬金"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 5,
+    "mage": 8,
+    "assassin": 4,
+    "fighter": 5
+   },
+   "tank_priority": 7,
+   "why": "功能型：痛苦面具/法源之杯/破茧之衣/聚灵水晶。基础装备本身不看职业，关键是四选一时按下表挑成品。",
+   "forges": [
+    "痛苦面具",
+    "法源之杯",
+    "破茧之衣",
+    "聚灵水晶"
+   ],
+   "official_top_heroes": [
+    "米莱狄×1",
+    "嬴政×1",
+    "瑶×1"
+   ],
+   "official_count": 3
+  },
+  "守护者之铠": {
+   "type": "基础",
+   "roles_good": [
+    "战士",
+    "坦克",
+    "辅助"
+   ],
+   "roles_bad": [],
+   "conditions": [
+    "拖到英雄身上弹四选一，铸成：不祥征兆/极寒风暴/近卫荣耀/反伤重甲",
+    "优先级 = 四个成品里对该职业最好的那件"
+   ],
+   "heroes_best": [
+    "苏烈",
+    "铠",
+    "雅典娜",
+    "刘禅",
+    "瑶",
+    "太乙真人",
+    "蔡文姬",
+    "猪八戒",
+    "海月"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 1,
+    "mage": 1,
+    "assassin": 2,
+    "fighter": 4
+   },
+   "tank_priority": 8,
+   "why": "防御型：四件全是坦克装。基础装备本身不看职业，关键是四选一时按下表挑成品。",
+   "forges": [
+    "不祥征兆",
+    "极寒风暴",
+    "近卫荣耀",
+    "反伤重甲"
+   ],
+   "official_top_heroes": [
+    "曹操×1",
+    "太乙真人×1"
+   ],
+   "official_count": 2
+  },
+  "力量腰带": {
+   "type": "基础",
+   "roles_good": [
+    "战士",
+    "坦克"
+   ],
+   "roles_bad": [],
+   "conditions": [
+    "拖到英雄身上弹四选一，铸成：霸者重铠/不死鸟之眼/魔女斗篷/红莲炎甲",
+    "优先级 = 四个成品里对该职业最好的那件"
+   ],
+   "heroes_best": [
+    "雅典娜",
+    "程咬金",
+    "东皇太一",
+    "海月",
+    "猪八戒",
+    "瑶",
+    "芈月",
+    "苏烈"
+   ],
+   "heroes_avoid": [],
+   "carry_priority": {
+    "phys_marksman": 2,
+    "mage": 2,
+    "assassin": 2,
+    "fighter": 4
+   },
+   "tank_priority": 9,
+   "why": "防御型：四件全是坦克装。基础装备本身不看职业，关键是四选一时按下表挑成品。",
+   "forges": [
+    "霸者重铠",
+    "不死鸟之眼",
+    "魔女斗篷",
+    "红莲炎甲"
+   ],
+   "official_top_heroes": [],
+   "official_count": 0
+  }
+ },
+ "heroes": {
+  "百里守约": {
+   "kind": "phys_marksman",
+   "top_items": [
+    "无尽巨剑",
+    "炽热支配者",
+    "名刀·司命",
+    "魔律之刃",
+    "法源之杯",
+    "破阵战芒"
+   ],
+   "why": "官方：无尽巨剑 15 / 名刀 5 / 炽热 4 / 魔律 4；攻略'无尽+炽热+名刀'。技能 700% 狙击为主 → 魔律/法源；2 阶可穿破阵战芒。日渊/红魔不要。"
+  },
+  "沈梦溪": {
+   "kind": "mage",
+   "top_items": [
+    "法源之杯",
+    "贤者之书",
+    "魔律之刃",
+    "炽热支配者",
+    "纯净苍穹",
+    "怒神项链"
+   ],
+   "why": "官方：法源 7 / 贤者 5 / 魔律 4；技能炸弹 AOE，靠放技能。"
+  },
+  "狄仁杰": {
+   "kind": "phys_marksman",
+   "top_items": [
+    "日渊",
+    "寒霜侵袭",
+    "破晓",
+    "无尽巨剑",
+    "炽热支配者",
+    "名刀·司命"
+   ],
+   "why": "官方：日渊 8 / 寒霜 5 / 破晓 4 / 无尽 4；普攻攻速射手，攻略'日渊必备'。机器头会把攻速锁死，别穿。"
+  },
+  "安琪拉": {
+   "kind": "mage",
+   "top_items": [
+    "虚无法杖",
+    "炽热支配者",
+    "贤者之书",
+    "法源之杯",
+    "噬神之书",
+    "梦魇之牙"
+   ],
+   "why": "官方：虚无 13 / 炽热 12 / 法源 11 / 贤者 9；持续光束多段伤害，痛苦面具难触发。"
+  },
+  "亚连": {
+   "kind": "fighter",
+   "top_items": [
+    "无尽巨剑",
+    "凝渊",
+    "怒神项链",
+    "铸梦·逐风",
+    "红魔",
+    "炽热支配者"
+   ],
+   "why": "官方：凝渊 5 / 逐风 4 / 无尽 4 / 红魔 3；被动'普攻和技能都能暴击'→ 暴击两件套；近战前排挨打，红魔两段都吃得到。日落海专属（星源狩枪/装甲）有就优先。"
+  },
+  "百里玄策": {
+   "kind": "assassin",
+   "top_items": [
+    "影牙",
+    "无尽巨剑",
+    "炽热支配者",
+    "铸梦·逐风",
+    "凝渊",
+    "怒莲之刺"
+   ],
+   "why": "官方：影牙 9 / 无尽 9 / 炽热 7 / 逐风 5；钩锁切入的刺客，红魔也合适（第 7 选）。"
+  },
+  "马超": {
+   "kind": "fighter",
+   "top_items": [
+    "炽热支配者",
+    "魔律之刃",
+    "无尽巨剑",
+    "凝渊",
+    "名刀·司命"
+   ],
+   "why": "官方：自然法杖 19 / 炽热 17 / 魔律 10；卡面'己方施加控制时 +15 法力 +5% 暴击'，变猪 = 控制 → 物理英雄却首选法杖，是伤害类型过滤的例外。（2026-10-01 用户更正：自然法杖不给马超。）"
+  },
+  "镜": {
+   "kind": "assassin",
+   "top_items": [
+    "无尽巨剑",
+    "炽热支配者",
+    "末世",
+    "机器头",
+    "名刀·司命",
+    "魔律之刃"
+   ],
+   "why": "官方：无尽 9 / 炽热 5 / 魔律 4 / 名刀 4；攻略'末世刷不到就上炽热，最好是机器头'。"
+  },
+  "孙悟空": {
+   "kind": "fighter",
+   "top_items": [
+    "无尽巨剑",
+    "名刀·司命",
+    "末世",
+    "炽热支配者",
+    "聚灵水晶",
+    "凝渊"
+   ],
+   "why": "官方：无尽 13 / 名刀 7 / 聚灵 5；技能 400% 砸地，近战普攻吃末世。"
+  },
+  "李白": {
+   "kind": "assassin",
+   "top_items": [
+    "无尽巨剑",
+    "炽热支配者",
+    "名刀·司命",
+    "魔律之刃",
+    "征服之剑",
+    "聚灵水晶"
+   ],
+   "why": "官方：无尽 7 / 炽热 6 / 名刀 5 / 魔律 5；技能 6 段斩击，吸血续航。"
+  },
+  "干将莫邪": {
+   "kind": "mage",
+   "top_items": [
+    "双剑·雄",
+    "法源之杯",
+    "虚无法杖",
+    "贤者之书",
+    "怒神项链",
+    "纯净苍穹"
+   ],
+   "why": "官方：法源 8 / 虚无 4 / 贤者 4；在场自动拿双剑·雄（法力上限 10）。法力上限已极低，贤者之书的 -10 是否叠到 0 未核实。"
+  },
+  "公孙离": {
+   "kind": "phys_marksman",
+   "top_items": [
+    "破晓",
+    "日渊",
+    "寒霜侵袭",
+    "炽热支配者",
+    "无尽巨剑",
+    "破阵战芒"
+   ],
+   "why": "官方：破晓 21 / 日渊 20 / 寒霜 19 / 炽热 12；普攻攻速射手。机器头、红魔不要。"
+  },
+  "米莱狄": {
+   "kind": "mage",
+   "top_items": [
+    "法源之杯",
+    "魔律之刃",
+    "贤者之书",
+    "自然法杖",
+    "炽热支配者",
+    "金色圣剑"
+   ],
+   "why": "官方：法源 18 / 魔律 13 / 贤者 6；召唤仆从靠放技能次数。"
+  },
+  "武则天": {
+   "kind": "mage",
+   "top_items": [
+    "痛苦面具",
+    "贤者之书",
+    "名刀·司命",
+    "自然法杖",
+    "炽热支配者",
+    "虚无法杖"
+   ],
+   "why": "官方只 11 条记录（她很少当主C）：痛苦面具 2 / 名刀 2 / 自然 2；吟唱 8 秒随机法阵，按一般法师补全。"
+  },
+  "钟馗": {
+   "kind": "tank",
+   "top_items": [
+    "近卫荣耀",
+    "破茧之衣",
+    "极寒风暴",
+    "魂灭灵冠",
+    "御灵之纱",
+    "不死鸟之眼"
+   ],
+   "why": "官方：近卫 7 / 自然法杖 4 / 破茧 3；钩人 + 牺牲光环站前排正中，给周围加抗与开团控制。"
+  },
+  "铠": {
+   "kind": "tank",
+   "top_items": [
+    "极寒风暴",
+    "反伤重甲",
+    "不祥征兆",
+    "红莲炎甲",
+    "霸者重铠",
+    "贤者的庇护"
+   ],
+   "why": "官方：极寒 10 / 反伤 9 / 不祥 5；河洛牺牲件，贤者的庇护复生 = 牺牲两次。"
+  },
+  "盾山": {
+   "kind": "tank",
+   "top_items": [
+    "极寒风暴",
+    "霸者重铠",
+    "不死鸟之眼",
+    "御灵之纱",
+    "魂灭灵冠",
+    "反伤重甲"
+   ],
+   "why": "官方：极寒 3 / 霸者 3 / 不死鸟 2；牺牲件，死亡装魂灭灵冠合适。"
+  },
+  "程咬金": {
+   "kind": "tank",
+   "top_items": [
+    "不死鸟之眼",
+    "霸者重铠",
+    "极寒风暴",
+    "反伤重甲",
+    "聚灵水晶",
+    "光辉圣铠"
+   ],
+   "why": "官方：不死鸟 27 / 霸者 15 / 极寒 9；技能自回血，不死鸟 +30% 回复翻倍。"
+  },
+  "廉颇": {
+   "kind": "tank",
+   "top_items": [
+    "不死鸟之眼",
+    "霸者重铠",
+    "反伤重甲",
+    "聚灵水晶",
+    "御灵之纱",
+    "极寒风暴"
+   ],
+   "why": "官方：不死鸟 5 / 霸者 4 / 反伤 3；技能给自己护盾，吃不死鸟。"
+  },
+  "牛魔": {
+   "kind": "tank",
+   "top_items": [
+    "反伤重甲",
+    "霸者重铠",
+    "不死鸟之眼",
+    "红莲炎甲",
+    "极寒风暴",
+    "护命灵珠"
+   ],
+   "why": "官方只 2 条记录，按通用前排补全；通常是前期过渡件，不给盛华这类卸不掉的。"
+  },
+  "苏烈": {
+   "kind": "tank",
+   "top_items": [
+    "反伤重甲",
+    "红莲炎甲",
+    "不祥征兆",
+    "御灵之纱",
+    "极寒风暴",
+    "银莲庇佑"
+   ],
+   "why": "官方：反伤 15 / 红莲 8 / 不祥 5 / 御灵 5；旋转 AOE 减防，被围收益高；有怒莲之刺主C 时穿银莲。"
+  },
+  "刘禅": {
+   "kind": "tank",
+   "top_items": [
+    "极寒风暴",
+    "霸者重铠",
+    "不死鸟之眼",
+    "红莲炎甲",
+    "反伤重甲",
+    "不祥征兆"
+   ],
+   "why": "官方：极寒 15 / 霸者 9 / 不死鸟 9。"
+  },
+  "项羽": {
+   "kind": "tank",
+   "top_items": [
+    "反伤重甲",
+    "霸者重铠",
+    "不死鸟之眼",
+    "红莲炎甲",
+    "光辉圣铠",
+    "极寒风暴"
+   ],
+   "why": "官方只 2 条记录；技能按最大生命伤害/回血 → 堆生命类。"
+  },
+  "白起": {
+   "kind": "tank",
+   "top_items": [
+    "红莲炎甲",
+    "反伤重甲",
+    "极寒风暴",
+    "霸者重铠",
+    "御灵之纱",
+    "不死鸟之眼"
+   ],
+   "why": "官方：红莲 2 / 反伤 2；嘲讽周围 1 格 → 被围装（红莲、反伤）最值。"
+  },
+  "猪八戒": {
+   "kind": "tank",
+   "top_items": [
+    "不死鸟之眼",
+    "反伤重甲",
+    "生命魔典",
+    "红莲炎甲",
+    "极寒风暴",
+    "霸者重铠"
+   ],
+   "why": "官方：不死鸟 36 / 反伤 30 / 生命魔典 24 / 红莲 12；每承受 600 伤害涨生命，越挨打越肥。"
+  },
+  "嬴政": {
+   "kind": "mage",
+   "top_items": [
+    "炽热支配者",
+    "虚无法杖",
+    "名刀·司命",
+    "贤者之书",
+    "机器头",
+    "噬神之书"
+   ],
+   "why": "官方：炽热 19 / 虚无 18 / 名刀 15 / 贤者 6 / 机器头 4。"
+  },
+  "艾琳": {
+   "kind": "phys_marksman",
+   "top_items": [
+    "寒霜侵袭",
+    "炽热支配者",
+    "金色圣剑",
+    "名刀·司命",
+    "破晓",
+    "日渊"
+   ],
+   "why": "官方：寒霜 18 / 炽热 11 / 金色圣剑 11；伤害是法术但靠普攻攻速（射手），按普攻射手配，金色圣剑因法系普攻而好。"
+  },
+  "诸葛亮": {
+   "kind": "mage",
+   "top_items": [
+    "贤者之书",
+    "自然法杖",
+    "虚无法杖",
+    "炽热支配者",
+    "名刀·司命",
+    "魔律之刃"
+   ],
+   "why": "官方：贤者 28 / 自然 19 / 虚无 12 / 炽热 12。"
+  },
+  "司空震": {
+   "kind": "mage",
+   "top_items": [
+    "金色圣剑",
+    "炽热支配者",
+    "痛苦面具",
+    "纯净苍穹",
+    "聚灵法杖",
+    "名刀·司命"
+   ],
+   "why": "官方：金色圣剑 26 / 炽热 15 / 痛苦面具 12；阵容里有他时驱雷可以由别人穿。"
+  },
+  "敖隐": {
+   "kind": "phys_marksman",
+   "top_items": [
+    "破晓",
+    "炽热支配者",
+    "自然法杖",
+    "寒霜侵袭",
+    "影牙",
+    "日渊"
+   ],
+   "why": "官方：破晓 11 / 炽热 11 / 自然法杖 10 / 寒霜 8。"
+  },
+  "李信": {
+   "kind": "phys_marksman",
+   "top_items": [
+    "无尽巨剑",
+    "炽热支配者",
+    "凝渊",
+    "自然法杖",
+    "影牙",
+    "魔律之刃"
+   ],
+   "why": "官方：无尽 12 / 炽热 11 / 凝渊 11 / 自然 7。"
+  },
+  "花木兰": {
+   "kind": "fighter",
+   "top_items": [
+    "无尽巨剑",
+    "凝渊",
+    "炽热支配者",
+    "反伤重甲",
+    "冥王",
+    "红魔"
+   ],
+   "why": "官方：无尽 17 / 凝渊 15 / 炽热 15 / 反伤 9 / 冥王 6；近战顶前、牺牲临时等级。"
+  },
+  "裴擒虎": {
+   "kind": "assassin",
+   "top_items": [
+    "无尽巨剑",
+    "炽热支配者",
+    "铸梦·逐风",
+    "凝渊",
+    "名刀·司命",
+    "冥王"
+   ],
+   "why": "官方：无尽 17 / 炽热 13 / 逐风 11 / 凝渊 8。"
+  },
+  "韩信": {
+   "kind": "assassin",
+   "top_items": [
+    "无尽巨剑",
+    "铸梦·逐风",
+    "名刀·司命",
+    "影牙",
+    "征服之剑",
+    "炽热支配者"
+   ],
+   "why": "官方：无尽 8 / 逐风 7 / 名刀 4 / 影牙 4。"
+  },
+  "吕布": {
+   "kind": "fighter",
+   "top_items": [
+    "无尽巨剑",
+    "凝渊",
+    "名刀·司命",
+    "冥王",
+    "不死鸟之眼",
+    "炽热支配者"
+   ],
+   "why": "官方：无尽 19 / 凝渊 8 / 不死鸟 8 / 名刀 6 / 冥王 5；自带吸血，不死鸟加成回复。"
+  },
+  "曜": {
+   "kind": "fighter",
+   "top_items": [
+    "不死鸟之眼",
+    "红魔",
+    "聚灵水晶",
+    "炽热支配者",
+    "凝渊",
+    "征服之剑"
+   ],
+   "why": "官方：不死鸟 10 / 红魔 6 / 聚灵 4；前期过渡近战主C，红魔官方用得最多的就是他。"
+  },
+  "露娜": {
+   "kind": "assassin",
+   "top_items": [
+    "月影之力",
+    "魔律之刃",
+    "贤者之书",
+    "纯净苍穹",
+    "虚无法杖",
+    "法源之杯"
+   ],
+   "why": "官方：魔律 14 / 贤者 10 / 纯净 7；法系刺客（技能主导），不要青莲剑谱（会替换掉她的技能）。"
+  },
+  "姜子牙": {
+   "kind": "mage",
+   "top_items": [
+    "魔律之刃",
+    "贤者之书",
+    "法源之杯",
+    "炽热支配者",
+    "虚无法杖",
+    "名刀·司命"
+   ],
+   "why": "官方：魔律 20 / 贤者 18 / 法源 14。"
+  },
+  "杨玉环": {
+   "kind": "mage",
+   "top_items": [
+    "法源之杯",
+    "贤者之书",
+    "自然法杖",
+    "魔律之刃",
+    "炽热支配者",
+    "不死鸟之眼"
+   ],
+   "why": "官方：法源 23 / 贤者 17 / 自然 9 / 魔律 9。"
+  },
+  "海月": {
+   "kind": "tank",
+   "top_items": [
+    "不死鸟之眼",
+    "聚灵水晶",
+    "反伤重甲",
+    "护命灵珠",
+    "御灵之纱",
+    "魔律之刃"
+   ],
+   "why": "官方：不死鸟 42 / 聚灵 12 / 反伤 11 / 护命 11；牺牲伤害 = 自身生命 → 堆生命。"
+  },
+  "瑶": {
+   "kind": "support",
+   "top_items": [
+    "破茧之衣",
+    "近卫荣耀",
+    "制裁之剑",
+    "名刀·司命",
+    "自然法杖",
+    "法源之杯"
+   ],
+   "why": "官方：破茧 53 / 近卫 31 / 制裁 17；首件普通装备开团分享给 3 名友军 → 第一件必须是破茧之衣。"
+  },
+  "太乙真人": {
+   "kind": "support",
+   "top_items": [
+    "近卫荣耀",
+    "破茧之衣",
+    "御灵之纱",
+    "灵泉项链",
+    "不死鸟之眼",
+    "霸者重铠"
+   ],
+   "why": "官方：近卫 16 / 破茧 8 / 御灵 6。注意项目规则（2026-09-24）太乙不给装备，本排序只在装备溢出时参考。"
+  },
+  "明世隐": {
+   "kind": "support",
+   "top_items": [
+    "近卫荣耀",
+    "自然法杖",
+    "法源之杯",
+    "名刀·司命",
+    "破茧之衣",
+    "灵泉项链"
+   ],
+   "why": "官方：近卫 10 / 自然 9 / 法源 8；贴主C 站，给光环。"
+  }
+ }
+}

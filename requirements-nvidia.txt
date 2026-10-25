@@ -1,0 +1,6 @@
+# N 卡加速 OCR（TensorRT）。实测整帧识别 377ms -> 91ms，见 docs/ocr-acceleration.md
+# **和 CPU 版 onnxruntime 互斥**，先卸：  pip uninstall -y onnxruntime
+# 然后：                                  pip install -r requirements-nvidia.txt
+# 版本是配套的：onnxruntime-gpu 1.30 只认 TensorRT 10（装成 11 会悄悄退回 CUDA，慢 10 倍）
+onnxruntime-gpu[cuda,cudnn]==1.30.0
+tensorrt-cu12>=10.16,<11

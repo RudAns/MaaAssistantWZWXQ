@@ -1,0 +1,4 @@
+{
+  "nickname": "RudAns",
+  "_comment": "账号通用配置（与棋手无关）。nickname：游戏内昵称，感知用它核对六人血量列表里哪一行是自己（只在绿色数字认不出、只能靠绿昵称时用；见 agent/perception/extractors.py own_hp_row）。换账号改这里；留空 = 不做昵称核对、那种帧不更新血量。"
+}

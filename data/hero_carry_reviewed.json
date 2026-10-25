@@ -1,0 +1,512 @@
+{
+ "苏烈": {
+  "carry_score": 2,
+  "why": "坦克：旋转减防，40 级复生，没有输出成长",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "曜": {
+  "carry_score": 4,
+  "why": "近战单体，护盾/击飞，卡面合成 +1 级：推荐阵容里常当**前期过渡主C**（刚过门槛，会被更好的输出位换掉）",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "孙膑": {
+  "carry_score": 5,
+  "why": "后排法师小范围炸弹，40 级每 3 次炸 3 人；过渡件（卡面是升级引擎）",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "狂铁": {
+  "carry_score": 3,
+  "why": "战士两次挥击+护盾，偏自保",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "孙尚香": {
+  "carry_score": 6,
+  "why": "后排射手，40 级弩炮命中爆炸（群体），100 级双发；1 阶里最像主C",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "弈星": {
+  "carry_score": 5,
+  "why": "后排法师整排棋盘 AOE；但卡面是升级引擎，通常升完级就卖",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "干将莫邪": {
+  "carry_score": 6,
+  "why": "后排法师飞剑，40 级每 2 次多一对、100 级伤害大涨；单体偏多",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "李元芳": {
+  "carry_score": 5,
+  "why": "后排射手，印记引爆，100 级叠攻速；单体",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "牛魔": {
+  "carry_score": 1,
+  "why": "坦克：击飞眩晕，没有输出",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "亚连": {
+  "carry_score": 7,
+  "why": "近战多段+真实伤害可暴击，100 级技能变大范围圆形；前排战士型主C",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "米莱狄": {
+  "carry_score": 3,
+  "why": "召唤仆从的法师，输出靠仆从；用户 2026-10-13 判定当主C 是'垃圾'（第 622 局 1 阶占位让位时成了唯一接班人）",
+  "reviewed": true,
+  "reviewer": "user"
+ },
+ "项羽": {
+  "carry_score": 1,
+  "why": "坦克",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "鬼谷子": {
+  "carry_score": 1,
+  "why": "辅助：给友军临时等级",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "梦奇": {
+  "carry_score": 2,
+  "why": "前排自保+小范围",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "芈月": {
+  "carry_score": 3,
+  "why": "给近战友军召唤仆从，偏辅助",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "沈梦溪": {
+  "carry_score": 7,
+  "why": "后排法师，向敌人密集处扔炸弹，40 级半径 +1：群体法师",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "盾山": {
+  "carry_score": 1,
+  "why": "坦克",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "曹操": {
+  "carry_score": 5,
+  "why": "战士自我增益，40 级普攻出穿透剑气",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "虞姬": {
+  "carry_score": 5,
+  "why": "后排射手爆发单体，100 级眩晕",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "马可波罗": {
+  "carry_score": 7,
+  "why": "后排射手，8→16 发子弹朝一个方向连射，击杀叠弹：群体射手",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "赵云": {
+  "carry_score": 4,
+  "why": "战士单体多段，低血量加成",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "大乔": {
+  "carry_score": 5,
+  "why": "波浪击飞眩晕沿途，100 级每次巨浪；偏控制",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "公孙离": {
+  "carry_score": 6,
+  "why": "后排射手纸伞群伤+控制，攻速成长；带夺取（放离主C 远处）",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "百里守约": {
+  "carry_score": 8,
+  "why": "后排狙击，伤害极高，40 级击杀后穿透、100 级不衰减：直线群体；**阿离第一主C**（官网阿离阵容热度约 177 万，2 阶 2 级就能刷到）",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "墨子": {
+  "carry_score": 3,
+  "why": "前排屏障法伤，偏坦",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "百里玄策": {
+  "carry_score": 5,
+  "why": "刺客钩锁，40 级突进沿途伤害，100 级狂暴",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "廉颇": {
+  "carry_score": 1,
+  "why": "坦克",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "蒙恬": {
+  "carry_score": 2,
+  "why": "召唤士兵分担伤害，偏坦",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "蔡文姬": {
+  "carry_score": 1,
+  "why": "辅助：回血加双防",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "云中君": {
+  "carry_score": 6,
+  "why": "近战周围 1 格羽箭+撕裂叠层，100 级范围 +1",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "姬小满": {
+  "carry_score": 4,
+  "why": "战士飞踢击退，40 级标记全队增伤：更像给全队增伤的功能战士，不是首选主C",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "苍": {
+  "carry_score": 6,
+  "why": "后排射手召唤狼魂冲锋，100 级 3 道",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "铠": {
+  "carry_score": 3,
+  "why": "战士减伤护盾，偏坦",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "白起": {
+  "carry_score": 1,
+  "why": "坦克：嘲讽护盾",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "明世隐": {
+  "carry_score": 1,
+  "why": "辅助：连接回血",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "阿轲": {
+  "carry_score": 5,
+  "why": "刺客单体，100 级必暴击且不被优先攻击",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "马超": {
+  "carry_score": 3,
+  "why": "用户 2026-10-01：\"马超太菜了\"\"不是单C阵容能用的\"。卡面：被动『己方施加控制 → 法力/暴击』靠队友喂；40 级强化只在暴击时触发而基础暴击 0%；物理近战。强度模型 3.95（D）。",
+  "reviewed": true,
+  "reviewer": "user"
+ },
+ "裴擒虎": {
+  "carry_score": 5,
+  "why": "刺客单体猛击，100 级属性翻倍",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "老夫子": {
+  "carry_score": 2,
+  "why": "减伤回血，偏坦",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "西施": {
+  "carry_score": 6,
+  "why": "后排法师能量球爆炸+眩晕，范围",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "刘禅": {
+  "carry_score": 1,
+  "why": "坦克",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "猪八戒": {
+  "carry_score": 1,
+  "why": "坦克（带夺取）",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "程咬金": {
+  "carry_score": 1,
+  "why": "坦克",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "狄仁杰": {
+  "carry_score": 7,
+  "why": "后排射手攻速流，40/100 级普攻换蓝牌/黄牌：普攻型核心输出",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "张良": {
+  "carry_score": 3,
+  "why": "单体压制控制",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "少司缘": {
+  "carry_score": 1,
+  "why": "辅助：回血加攻速",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "亚瑟": {
+  "carry_score": 1,
+  "why": "坦克",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "钟馗": {
+  "carry_score": 2,
+  "why": "钩人控制",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "貂蝉": {
+  "carry_score": 7,
+  "why": "法师周围 2 格随机 5→9 朵花球：群体法师",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "安琪拉": {
+  "carry_score": 8,
+  "why": "后排法师朝敌人最多方向施放光辉，40 级 3 道、100 级击杀延长：群体法师",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "瑶": {
+  "carry_score": 1,
+  "why": "辅助：附身护盾",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "镜": {
+  "carry_score": 3,
+  "why": "用户 2026-10-01：\"镜不能成为主C，输出太弱了\"。卡面：裂空单体 60+80% 物攻（10 级 80+120%、40 级 80+150% + 1 镜像），系数低、单体、近战、HP 240；被动『每使用 2 张效果牌等级+1』让他很会涨级，但伤害只在 10/40/100 门槛变化 —— 阿离喂的等级换不成输出，他是等级产出方而不是主C。",
+  "reviewed": true,
+  "reviewer": "user"
+ },
+ "朵莉亚": {
+  "carry_score": 1,
+  "why": "辅助：水域回血回蓝",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "莱西奥": {
+  "carry_score": 7,
+  "why": "后排射手强化飞弹带溅射，100 级快速发射 5 枚",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "上官婉儿": {
+  "carry_score": 7,
+  "why": "后排法师笔墨穿线到最远，每命中 1 人伤害 +50%：直线群体",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "艾琳": {
+  "carry_score": 8,
+  "why": "后排射手叠层进化 5 片飞叶，100 级无限射程+穿透：成长型群体射手",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "扁鹊": {
+  "carry_score": 5,
+  "why": "药液持续伤害/回复，40 级 5 瓶",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "嬴政": {
+  "carry_score": 8,
+  "why": "后排法师 80→120 把飞剑，击杀延长、100 级范围扩大：持续群体输出",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "李信": {
+  "carry_score": 8,
+  "why": "剑气 50+180%→100+220%，40 级 3 道剑气，100 级阵亡后以狂暴形态完美复生：用户点名的主C 型战士",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "李白": {
+  "carry_score": 7,
+  "why": "近战剑阵 6 斩分摊范围伤害，100 级斩击期间不可选中",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "雅典娜": {
+  "carry_score": 1,
+  "why": "坦克",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "太乙真人": {
+  "carry_score": 1,
+  "why": "坦克：嘲讽+给复生",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "孙悟空": {
+  "carry_score": 8,
+  "why": "单体 100+400%→700%，40 级范围 2 格、100 级 4 格：高等级变群体（带夺取）",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "甄姬": {
+  "carry_score": 7,
+  "why": "法师弹射冻结，100 级弹射 8 次",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "小乔": {
+  "carry_score": 5,
+  "why": "旋风浮空控制 1~3 人",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "大司命": {
+  "carry_score": 6,
+  "why": "2 格范围伤害+灵体，40 级同时打 3 人；偏坦的输出",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "庄周": {
+  "carry_score": 1,
+  "why": "坦克/辅助：解控护盾",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "刘邦": {
+  "carry_score": 1,
+  "why": "坦克",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "诸葛亮": {
+  "carry_score": 8,
+  "why": "后排法师（射程 6）元气弹带溅射，40 级击杀回蓝、100 级额外 4 发",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "韩信": {
+  "carry_score": 7,
+  "why": "刺客挑飞，40 级击杀连续冲锋，100 级 3 段范围",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "蒙犽": {
+  "carry_score": 8,
+  "why": "后排射手 8→11+ 枚导弹随机轰炸、40 级衰减降低：群体射手",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "东皇太一": {
+  "carry_score": 1,
+  "why": "坦克：压制换伤",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "敖隐": {
+  "carry_score": 8,
+  "why": "后排射手白龙冲向敌人密集处，10/100 级解锁范围武器：群体射手",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "鲁班大师": {
+  "carry_score": 2,
+  "why": "前排控制拉人",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "花木兰": {
+  "carry_score": 7,
+  "why": "战士轻剑 7 段/重剑击飞，100 级重剑范围全场",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "司空震": {
+  "carry_score": 9,
+  "why": "法师雷鼓轰击**全场**，40/100 级化身雷霆之王闪电链",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "姜子牙": {
+  "carry_score": 8,
+  "why": "法师冲击波，40 级 3 道、100 级 8 方向散射",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "武则天": {
+  "carry_score": 9,
+  "why": "法师持续法阵，40 级全体巨型法阵、100 级吟唱到回合结束反复全屏",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "吕布": {
+  "carry_score": 8,
+  "why": "近战跃入密集区 2 格击飞，100 级范围全场",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "海月": {
+  "carry_score": 7,
+  "why": "阿离海月套路里海月依旧是**输出最高的主C**（用户 2026-10-14 纠正：不是靠牺牲，牺牲基本只触发一次，有太乙时是可接受的代价）：技能琉璃法球 + 阿离枫之洪流转移后无限施法；40 级起施法叠护盾、护盾 25% 转最大生命、护命灵珠有盾增伤。等级靠遗志 / 红叶染锋从干将整摞转来（docs/haiyue-tactic-notes.md）",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "鲁班七号": {
+  "carry_score": 9,
+  "why": "后排射手 4→8 枚炸弹+弹坑，100 级飞艇坠毁伤害所有敌人",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "海诺": {
+  "carry_score": 9,
+  "why": "法师神杖+子杖，40 级连放 2 次、100 级对至多 14 名敌人：全屏",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "露娜": {
+  "carry_score": 8,
+  "why": "突击路径全体伤害+百分比伤害，100 级连续 2 次",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "杨玉环": {
+  "carry_score": 6,
+  "why": "治疗/伤害交替，10/100 级作用于全场：半辅助",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ },
+ "周瑜": {
+  "carry_score": 6,
+  "why": "2 格火焰+焦土，100 级全场焦土：偏坦的持续群体",
+  "reviewed": true,
+  "reviewer": "claude-main"
+ }
+}

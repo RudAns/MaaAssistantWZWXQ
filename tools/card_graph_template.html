@@ -1,0 +1,649 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>万象棋卡牌关系图谱</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<style>
+/* 色彩取自棋盘：青石底 + 枫叶红（阿离）+ 玉色连接；每类节点/边一种颜色，两套主题同名 token */
+:root{
+  --bg:#edf0ee; --panel:#f8faf8; --panel2:#f1f4f2; --ink:#1c2523; --muted:#5b6865; --line:#cfd8d4; --faint:#a3afab;
+  --maple:#c2412d; --jade:#1f7a6b; --gold:#a8741a; --violet:#6c4fa3; --blue:#2c6aa0; --moss:#4f7d2a; --slate:#6a6f8a; --rose:#b0507a; --grey:#8d9894;
+  --canvas:#f4f6f5; --hl:#ffffff;
+  --f-display:"Noto Serif SC","Songti SC","SimSun",serif;
+  --f-body:"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#121817; --panel:#19211f; --panel2:#1e2725; --ink:#e2eae7; --muted:#93a29e; --line:#2c3836; --faint:#4a5754;
+  --maple:#e3674f; --jade:#44b8a3; --gold:#dba74a; --violet:#a58ae0; --blue:#6aa7de; --moss:#8fc15c; --slate:#a1a6c8; --rose:#e083ad; --grey:#7f8b88;
+  --canvas:#151c1b; --hl:#0f1413; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121817; --panel:#19211f; --panel2:#1e2725; --ink:#e2eae7; --muted:#93a29e; --line:#2c3836; --faint:#4a5754;
+  --maple:#e3674f; --jade:#44b8a3; --gold:#dba74a; --violet:#a58ae0; --blue:#6aa7de; --moss:#8fc15c; --slate:#a1a6c8; --rose:#e083ad; --grey:#7f8b88;
+  --canvas:#151c1b; --hl:#0f1413; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{height:100%;margin:0}
+body{background:var(--bg);color:var(--ink);font:14px/1.55 var(--f-body)}
+header{display:flex;flex-wrap:wrap;align-items:flex-end;gap:12px 28px;padding-block:14px 10px;padding-inline:16px;border-bottom:1px solid var(--line)}
+h1{font:700 22px/1.2 var(--f-display);margin:0;letter-spacing:.02em}
+h1 small{display:block;font:400 12px var(--f-body);color:var(--muted);letter-spacing:.04em;margin-top:4px}
+.stats{display:flex;flex-wrap:wrap;gap:14px;color:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}
+.stats b{color:var(--ink);font-weight:600}
+nav{display:flex;gap:4px;margin-left:auto}
+nav button{border:0;background:none;color:var(--muted);font:500 14px var(--f-body);padding:6px 12px;border-radius:6px;cursor:pointer}
+nav button[aria-selected="true"]{color:var(--maple);background:var(--panel2)}
+.theme{border:1px solid var(--line);background:var(--panel);color:var(--muted);border-radius:6px;padding:4px 8px;cursor:pointer;font-size:12px}
+main{height:calc(100% - 78px)}
+section[hidden]{display:none!important}
+/* 关系网 */
+#pane-graph{display:grid;grid-template-columns:250px minmax(0,1fr) 380px;height:100%}
+aside{background:var(--panel);overflow:auto;padding-block:14px;padding-inline:14px;min-width:0}
+aside.left{border-right:1px solid var(--line)}
+aside.right{border-left:1px solid var(--line)}
+.lbl{font:600 11px var(--f-body);letter-spacing:.08em;color:var(--muted);text-transform:uppercase;margin:16px 0 6px}
+.lbl:first-child{margin-top:0}
+input[type=search]{width:100%;padding:7px 10px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:inherit}
+.chk{display:flex;align-items:center;gap:7px;font-size:13px;padding:2px 0;cursor:pointer;user-select:none}
+.chk input{margin:0;accent-color:var(--maple)}
+.chk .n{margin-left:auto;color:var(--faint);font-size:11px;font-variant-numeric:tabular-nums}
+.sw{width:10px;height:10px;border-radius:50%;flex:none}
+.sw.ln{height:3px;width:14px;border-radius:2px}
+.grp{font-size:12px;color:var(--muted);margin:8px 0 2px;font-weight:600}
+.hint{font-size:12px;color:var(--muted);margin-top:14px;line-height:1.6}
+.row{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.btn{border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:6px;padding:4px 9px;font:12px var(--f-body);cursor:pointer}
+.btn.on{border-color:var(--maple);color:var(--maple)}
+.sel{margin-left:auto;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:6px;padding:2px 4px;font:12px var(--f-body)}
+#ntypes .chk,#etypes .chk{border-radius:4px;padding-inline:4px;margin-inline:-4px}
+#ntypes .chk:hover,#etypes .chk:hover{background:var(--panel2)}
+.stage{position:relative;background:var(--canvas);min-width:0}
+canvas{display:block;width:100%;height:100%;cursor:grab}
+.tip{position:absolute;pointer-events:none;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:4px 8px;font-size:12px;box-shadow:0 4px 14px rgba(0,0,0,.12)}
+.mode{position:absolute;left:12px;top:12px;font-size:12px;color:var(--muted);background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:4px 10px}
+.nod3{position:absolute;inset:0;display:grid;place-items:center;color:var(--muted);padding:24px;text-align:center}
+/* 详情 */
+.dt h2{font:700 20px/1.3 var(--f-display);margin:0 0 4px}
+.badge{display:inline-block;font-size:11px;padding:1px 7px;border-radius:10px;color:#fff;margin-right:4px;vertical-align:2px}
+.meta{font-size:12px;color:var(--muted)}
+.tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}
+.tag{font-size:11px;padding:1px 6px;border-radius:4px;background:var(--panel2);color:var(--muted);border:1px solid var(--line)}
+.txt{white-space:pre-wrap;background:var(--panel2);border-left:3px solid var(--line);padding:8px 10px;border-radius:0 6px 6px 0;font-size:13px;margin-top:6px}
+dl.u{display:grid;grid-template-columns:72px minmax(0,1fr);gap:4px 10px;margin:6px 0 0;font-size:13px}
+dl.u dt{color:var(--muted);font-size:12px}
+dl.u dd{margin:0}
+.formula{font-family:ui-monospace,Consolas,monospace;font-size:12px;background:var(--panel2);padding:1px 5px;border-radius:4px}
+.unc{color:var(--gold)}
+.egrp{margin-top:10px}
+.egrp>div:first-child{font-size:12px;font-weight:600;display:flex;align-items:center;gap:6px}
+.eitem{font-size:12px;padding:4px 0 4px 20px;border-bottom:1px dashed var(--line)}
+.eitem a{color:var(--ink);font-weight:600;text-decoration:none;border-bottom:1px solid var(--faint);cursor:pointer}
+.eitem q{color:var(--muted);display:block;quotes:"「" "」"}
+.eitem .at{color:var(--faint);font-size:11px}
+/* 手法 / 理解 / 边类型 */
+.page{height:100%;overflow:auto;padding-block:18px 40px;padding-inline:16px}
+.inner{max-width:1180px;margin:0 auto}
+.lead{color:var(--muted);max-width:72ch;margin:0 0 16px}
+.tgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:14px}
+.tcard{background:var(--panel);border:1px solid var(--line);border-top:3px solid var(--maple);border-radius:8px;padding:14px 16px;min-width:0}
+.tcard h3{font:700 16px/1.35 var(--f-display);margin:0 0 6px;text-wrap:balance}
+.tcard .st{font-size:11px;padding:1px 7px;border-radius:10px;border:1px solid currentColor;margin-left:6px;vertical-align:2px}
+.tcard ol{margin:6px 0 0;padding-left:20px;font-family:ui-monospace,Consolas,monospace;font-size:12px}
+.tcard .k{font-size:12px;color:var(--muted);margin-top:10px;font-weight:600}
+.role{font-size:12px;margin-top:4px}
+.role b{color:var(--maple)}
+.role code{font-size:11px;background:var(--panel2);padding:0 4px;border-radius:3px;margin-right:3px;display:inline-block;margin-top:2px}
+.chips{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}
+.chip{font-size:12px;padding:1px 8px;border-radius:12px;border:1px solid var(--line);cursor:pointer;background:var(--bg)}
+.chip:hover{border-color:var(--maple);color:var(--maple)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:12px}
+.toolbar input{max-width:320px}
+.tbl-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:8px;background:var(--panel)}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;color:var(--muted);font-weight:600;background:var(--panel2);position:sticky;top:0}
+td.nm{font-weight:600;white-space:nowrap;cursor:pointer}
+td.nm:hover{color:var(--maple)}
+td .sub{color:var(--muted);font-size:12px}
+.num{font-variant-numeric:tabular-nums;text-align:right}
+@media (max-width:1000px){
+  main{height:auto}
+  #pane-graph{grid-template-columns:1fr;height:auto}
+  .stage{height:70vh}
+  aside.left,aside.right{border:0;border-bottom:1px solid var(--line)}
+  nav{margin-left:0}
+  .tgrid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>万象棋卡牌关系图谱<small>阿离 · 英雄 / 效果牌 / 装备 / 天赋 / 手法 —— 每条边都有卡面原文依据</small></h1>
+  <div class="stats" id="stats"></div>
+  <nav role="tablist">
+    <button role="tab" data-tab="graph" aria-selected="true">关系网</button>
+    <button role="tab" data-tab="tech" aria-selected="false">手法</button>
+    <button role="tab" data-tab="und" aria-selected="false">卡牌理解</button>
+    <button role="tab" data-tab="etypes" aria-selected="false">边类型</button>
+  </nav>
+  <button class="theme" id="theme" title="切换明暗">明 / 暗</button>
+</header>
+<main>
+  <section id="pane-graph">
+    <aside class="left">
+      <div class="lbl">搜索</div>
+      <input type="search" id="q" list="names" placeholder="卡名 / 英雄 / 手法，回车定位">
+      <datalist id="names"></datalist>
+      <div class="meta" id="qinfo" style="margin-top:4px;min-height:18px"></div>
+      <div class="lbl">视图</div>
+      <div class="row">
+        <button class="btn on" id="m-all">全图</button>
+        <button class="btn" id="m-ego">只看所选及邻居</button>
+        <button class="btn" id="m-fit" title="把当前可见节点收进画面（也可双击空白处）">适应画面</button>
+      </div>
+      <label class="chk" style="margin-top:8px"><input type="checkbox" id="hideIso" checked>隐藏没有可见边的节点</label>
+      <label class="chk"><input type="checkbox" id="breath" checked>节点轻微浮动（呼吸）</label>
+      <label class="chk">边上流光<select id="flow" class="sel"><option value="focus">只在高亮的边</option><option value="all">全部可见边</option><option value="off">关闭</option></select></label>
+      <div class="lbl">节点类型</div>
+      <div id="ntypes"></div>
+      <div class="lbl">边类型</div>
+      <div id="etypes"></div>
+      <p class="hint">悬停节点：它和邻居高亮、其余变暗，边上的流光指出方向（从谁到谁）。单击固定选中、右侧看详情；双击节点镜头飞过去，双击空白处回到全图；按住节点可以拖拽整张网。悬停左侧图例只看那一类。合法性与装备适配边很多，默认关闭，需要时再打开。</p>
+    </aside>
+    <div class="stage" id="stage">
+      <canvas id="cv"></canvas>
+      <div class="mode" id="modeTag">全图</div>
+      <div class="tip" id="tip" hidden></div>
+      <div class="nod3" id="nod3" hidden>关系网需要联网加载 d3（cdnjs）。「手法」「卡牌理解」「边类型」三页不受影响。</div>
+    </div>
+    <aside class="right" id="detail"><div class="dt"><p class="meta">点左侧关系网里的任意节点，这里显示卡面原文、理解、以及它连着谁（附原文依据）。</p></div></aside>
+  </section>
+  <section id="pane-tech" class="page" hidden><div class="inner">
+    <p class="lead">手法不连某个固定英雄，而是一组<b>角色槽</b>：每个槽写的是"什么样的单位能填"（状态谓词），对局中按当时的局面算出谁能填。启用它的牌、步骤、代价、收益和时机都在卡片里。</p>
+    <div class="tgrid" id="tgrid"></div>
+  </div></section>
+  <section id="pane-und" class="page" hidden><div class="inner">
+    <p class="lead">每张效果牌 / 天赋 / 装备的"理解"：实际效果、目标是定向还是随机、价值取决于哪些局面变量、什么时候几乎没用、常见误用、收益公式。黄色是卡面没写清、标了不确定的部分。</p>
+    <div class="toolbar">
+      <input type="search" id="uq" placeholder="筛选：卡名 / 效果 / 关键词">
+      <span id="utypes"></span>
+      <span class="meta" id="ucount"></span>
+    </div>
+    <div class="tbl-wrap"><table><thead><tr><th>卡</th><th>实际效果</th><th>目标</th><th>价值取决于</th><th>几乎没用 / 常见误用</th><th>收益公式</th></tr></thead><tbody id="utb"></tbody></table></div>
+  </div></section>
+  <section id="pane-etypes" class="page" hidden><div class="inner">
+    <p class="lead">边的类型控制在 21 种，每种都有固定含义，训练局面判断网络时直接作为注意力里的关系类型。</p>
+    <div class="tbl-wrap"><table><thead><tr><th>类别</th><th>边类型</th><th class="num">数量</th><th>定义</th></tr></thead><tbody id="etb"></tbody></table></div>
+  </div></section>
+</main>
+
+<script>const G = /*__DATA__*/null;</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+(function(){
+const $ = s => document.querySelector(s);
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+const NTYPE = {
+  hero:{zh:"英雄",c:"--jade"}, effect:{zh:"效果牌",c:"--gold"}, equip:{zh:"装备",c:"--blue"},
+  talent:{zh:"天赋",c:"--moss"}, technique:{zh:"手法",c:"--maple"}, lord_skill:{zh:"枫叶舞",c:"--rose"},
+  summon:{zh:"召唤物",c:"--slate"}, scope:{zh:"集合",c:"--grey"}
+};
+const ECAT = [
+  ["合法性", "--grey", ["can_target","cannot_target"]],
+  ["供给", "--gold", ["gives_level","gives_mana","gives_buff","gives_resource","gives_equip","gives_awaken","grants_keyword"]],
+  ["触发 / 产出", "--violet", ["triggers","produces"]],
+  ["叠加", "--rose", ["feeds","amplifies","steals_level","reacts_to"]],
+  ["装备", "--blue", ["equip_fits","equip_avoid","exclusive_for","pairs_with"]],
+  ["天赋", "--moss", ["talent_boosts"]],
+  ["手法", "--maple", ["enables","fits_role"]],
+];
+const ETZH = {can_target:"可以用于",cannot_target:"不能用于",gives_level:"给等级",gives_mana:"给法力",gives_buff:"给增益",
+  gives_resource:"给资源",gives_equip:"给装备",gives_awaken:"给觉醒进度",grants_keyword:"赋予关键词",triggers:"触发",
+  produces:"产出",feeds:"喂养（叠加）",reacts_to:"反应",amplifies:"放大",steals_level:"夺取等级",equip_fits:"适合穿",equip_avoid:"不适合穿",
+  exclusive_for:"专属",pairs_with:"成对",talent_boosts:"天赋加成",enables:"启用手法",fits_role:"可填角色槽"};
+const OFF = new Set(["can_target","cannot_target","equip_fits","equip_avoid"]);
+const ecat = {}; ECAT.forEach(([n,c,ts]) => ts.forEach(t => ecat[t] = {cat:n,c}));
+
+// ---------- 数据 ----------
+const nodes = G.nodes.map(n => ({...n, label: n.type==="technique" ? n.name.split("：")[0] : n.id}));
+const byId = new Map(nodes.map(n => [n.id, n]));
+const edges = G.edges.filter(e => byId.has(e.from) && byId.has(e.to));
+const out = new Map(), inn = new Map();
+nodes.forEach(n => {out.set(n.id, []); inn.set(n.id, []);});
+edges.forEach(e => {out.get(e.from).push(e); inn.get(e.to).push(e);});
+const deg = new Map(nodes.map(n => [n.id, out.get(n.id).length + inn.get(n.id).length]));
+
+$("#stats").innerHTML = [["节点", nodes.length], ["边", edges.length], ["边类型", Object.keys(G.edge_types).length],
+  ["手法", nodes.filter(n => n.type==="technique").length], ["有理解说明", nodes.filter(n => n.understanding).length]]
+  .map(([k,v]) => `<span>${k} <b>${v}</b></span>`).join("");
+$("#names").innerHTML = nodes.filter(n => n.type!=="scope").map(n => `<option value="${esc(n.label)}">`).join("");
+
+// ---------- 页签 / 主题 ----------
+document.querySelectorAll("nav button").forEach(b => b.onclick = () => {
+  document.querySelectorAll("nav button").forEach(x => x.setAttribute("aria-selected", x===b));
+  ["graph","tech","und","etypes"].forEach(t => $("#pane-"+t).hidden = t!==b.dataset.tab);
+  if (b.dataset.tab==="graph") resize();
+});
+$("#theme").onclick = () => {
+  const r = document.documentElement, dark = matchMedia("(prefers-color-scheme: dark)").matches;
+  const cur = r.dataset.theme || (dark ? "dark" : "light");
+  r.dataset.theme = cur==="dark" ? "light" : "dark"; refreshPal();
+};
+
+// ---------- 筛选 ----------
+const typeOn = new Set(Object.keys(NTYPE)), edgeOn = new Set(Object.keys(G.edge_types).filter(t => !OFF.has(t)));
+const tcount = {}; nodes.forEach(n => tcount[n.type] = (tcount[n.type]||0)+1);
+$("#ntypes").innerHTML = Object.entries(NTYPE).map(([k,v]) =>
+  `<label class="chk"><input type="checkbox" data-nt="${k}" checked><span class="sw" style="background:var(${v.c})"></span>${v.zh}<span class="n">${tcount[k]||0}</span></label>`).join("");
+const ecount = {}; edges.forEach(e => ecount[e.type] = (ecount[e.type]||0)+1);
+$("#etypes").innerHTML = ECAT.map(([n,c,ts]) => `<div class="grp">${n}</div>` + ts.map(t =>
+  `<label class="chk" title="${esc(G.edge_types[t])}"><input type="checkbox" data-et="${t}" ${OFF.has(t)?"":"checked"}><span class="sw ln" style="background:var(${c})"></span>${ETZH[t]}<span class="n">${ecount[t]||0}</span></label>`).join("")).join("");
+document.querySelectorAll("[data-nt]").forEach(i => i.onchange = () => {i.checked ? typeOn.add(i.dataset.nt) : typeOn.delete(i.dataset.nt); rebuild();});
+document.querySelectorAll("[data-et]").forEach(i => i.onchange = () => {i.checked ? edgeOn.add(i.dataset.et) : edgeOn.delete(i.dataset.et); rebuild();});
+$("#hideIso").onchange = () => rebuild();
+
+// ---------- 详情 ----------
+let selected = null, mode = "all";
+const colorOf = n => css(NTYPE[n.type]?.c || "--grey");
+function nodeLink(id){ const n = byId.get(id); return `<a data-go="${esc(id)}">${esc(n ? n.label : id)}</a>`; }
+function attrsStr(e){
+  const a = e.attrs || {}; const skip = new Set(["pick"]);
+  const parts = Object.entries(a).filter(([k,v]) => !skip.has(k) && v!==null && v!=="" && typeof v!=="object").map(([k,v]) => `${k}=${v}`);
+  if (e.condition) parts.unshift(e.condition);
+  return parts.join(" · ");
+}
+function understandingHTML(u){
+  if (!u) return "";
+  const row = (k,v,cls="") => v ? `<dt>${k}</dt><dd class="${cls}">${Array.isArray(v) ? v.map(esc).join("、") : esc(v)}</dd>` : "";
+  return `<div class="lbl">理解</div><dl class="u">${row("实际效果",u.effect)}${row("目标",u.targeting)}${row("价值取决于",u.depends_on)}${row("几乎没用",u.useless_when)}${row("常见误用",u.misuse)}${u.value_formula?`<dt>收益公式</dt><dd><span class="formula">${esc(u.value_formula)}</span></dd>`:""}${row("不确定",u.uncertain,"unc")}</dl>`;
+}
+function techHTML(n){
+  const roles = Object.entries(n.roles||{}).map(([r,ps]) => `<div class="role"><b>${esc(r)}</b> ${(Array.isArray(ps)?ps:[ps]).map(p => `<code>${esc(p)}</code>`).join("")}</div>`).join("");
+  const list = (k,v) => v ? `<div class="k">${k}</div><div style="font-size:13px">${Array.isArray(v)? v.map(esc).join("；") : esc(v)}</div>` : "";
+  return `<div class="k">步骤</div><ol>${(n.steps||[]).map(s => `<li>${esc(s)}</li>`).join("")}</ol>
+    <div class="k">角色槽（填槽条件）</div>${roles}
+    ${list("前置条件", n.precondition)}${list("代价", n.cost)}${list("收益", n.benefit)}${list("成功率", n.success_prob)}${list("时机", n.timing)}${list("价值", n.value)}
+    ${list("变体", n.variants && (Array.isArray(n.variants) ? n.variants.map(v => typeof v==="object" ? Object.values(v).join(" / ") : v) : Object.entries(n.variants).map(([k,v]) => k+"："+v)))}
+    ${list("可重复", n.repeatable ? "可以" : (n.once_note || "一次性"))}${list("依据", n.evidence)}${n.uncertain ? `<div class="k unc">不确定</div><div class="unc" style="font-size:13px">${esc(typeof n.uncertain==="string"?n.uncertain:JSON.stringify(n.uncertain))}</div>` : ""}`;
+}
+function showDetail(n){
+  if (!n) return;
+  const T = NTYPE[n.type] || {zh:n.type,c:"--grey"};
+  let h = `<div class="dt"><h2>${esc(n.type==="technique" ? n.name : n.id)}</h2>
+    <div><span class="badge" style="background:var(${T.c})">${T.zh}</span><span class="meta">${[n.category, n.faction, n.quality ? n.quality+" 阶" : "", n.talent_group, n.equip_class, n.combat_role && n.combat_role.join("/"), n.carry_value!=null ? "主C 值 "+n.carry_value : "", n.functional_value!=null ? "功能值 "+n.functional_value : "", n.status ? "状态 "+n.status : ""].filter(Boolean).map(esc).join(" · ")}</span></div>`;
+  if (n.func_tags && n.func_tags.length) h += `<div class="tags">${n.func_tags.map(t => `<span class="tag">${esc(t)}</span>`).join("")}</div>`;
+  if (n.target_limit) h += `<div class="meta" style="margin-top:6px">使用对象：${esc(n.target_limit)}（${esc(n.target_rule||"")}）</div>`;
+  if (n.def) h += `<div class="txt">${esc(n.def)}</div>`;
+  if (n.text) h += `<div class="lbl">卡面原文</div><div class="txt">${esc(n.text)}</div>`;
+  h += understandingHTML(n.understanding);
+  if (n.type==="technique") h += techHTML(n);
+  const grp = (list, dir) => {
+    const m = new Map(); list.forEach(e => {if(!m.has(e.type)) m.set(e.type, []); m.get(e.type).push(e);});
+    return [...m.entries()].map(([t,es]) => `<div class="egrp"><div><span class="sw ln" style="background:var(${ecat[t]?.c||"--grey"})"></span>${dir==="out"?"":"被 "}${ETZH[t]||t} · ${es.length}</div>` +
+      es.slice(0,60).map(e => `<div class="eitem">${nodeLink(dir==="out"?e.to:e.from)}${attrsStr(e)?` <span class="at">${esc(attrsStr(e))}</span>`:""}${e.quote?`<q>${esc(e.quote)}</q>`:""}</div>`).join("") +
+      (es.length>60 ? `<div class="eitem at">…还有 ${es.length-60} 条</div>` : "") + `</div>`).join("");
+  };
+  const o = out.get(n.id), i = inn.get(n.id);
+  if (o.length) h += `<div class="lbl">它连向（${o.length}）</div>` + grp(o, "out");
+  if (i.length) h += `<div class="lbl">连向它（${i.length}）</div>` + grp(i, "in");
+  $("#detail").innerHTML = h + "</div>";
+  $("#detail").scrollTop = 0;
+}
+document.addEventListener("click", ev => {
+  const a = ev.target.closest("[data-go]"); if (!a) return;
+  ev.preventDefault(); goTo(a.dataset.go);
+});
+// ---------- 定位 / 搜索 ----------
+let graphHas = () => true;
+function goTo(id){
+  const n = byId.get(id); if (!n) return;
+  const tab = document.querySelector('nav button[data-tab="graph"]');
+  if (tab.getAttribute("aria-selected")!=="true") tab.click();
+  let need = false;
+  if (!typeOn.has(n.type)) { typeOn.add(n.type); document.querySelector(`[data-nt="${n.type}"]`).checked = true; need = true; }
+  selected = n; showDetail(n);
+  if (need || mode==="ego" || !graphHas(n)) rebuild(0.25);
+  focusOn(n);
+}
+let qHits = [], qIdx = -1;
+const norm = s => String(s||"").toLowerCase();
+$("#q").addEventListener("input", ev => {
+  const v = norm(ev.target.value.trim()); qIdx = -1;
+  qHits = !v ? [] : nodes.filter(x => x.type!=="scope" && (norm(x.label).includes(v) || norm(x.id).includes(v)))
+    .sort((a,b) => (norm(b.label)===v) - (norm(a.label)===v) || deg.get(b.id) - deg.get(a.id));
+  $("#qinfo").textContent = !v ? "" : qHits.length ? `匹配 ${qHits.length} 个（图上金色圈），回车逐个飞过去` : "没有匹配";
+  setMatches(new Set(qHits));
+});
+$("#q").addEventListener("keydown", ev => {
+  if (ev.key!=="Enter" || !qHits.length) return;
+  qIdx = (qIdx + 1) % qHits.length;
+  $("#qinfo").textContent = `第 ${qIdx+1} / ${qHits.length} 个：${qHits[qIdx].label}`;
+  goTo(qHits[qIdx].id);
+});
+
+// ---------- 关系网（canvas + d3-force，持续运行的模拟） ----------
+// 参考 Obsidian 图谱 / d3 力导向示例：模拟不彻底冷却（低 alphaTarget + 每个节点一个缓慢的正弦漂移），
+// 悬停 / 拖拽时重新加热；所有显隐都用透明度插值淡入淡出；镜头每帧向 d3.zoom 的目标平滑追随。
+// 性能：一条 requestAnimationFrame 循环里 tick 一次 + 画一帧；边按（类型, 透明度档）合批成一条 path 画，
+// 视口外的节点和边跳过；页签不在关系网时整条循环空转。
+let resize = () => {}, rebuild = () => {}, focusOn = () => {}, fitView = () => {}, refreshPal = () => {}, setMatches = () => {};
+if (!window.d3) { $("#nod3").hidden = false; }
+else {
+  const cv = $("#cv"), ctx = cv.getContext("2d"), stage = $("#stage"), pane = $("#pane-graph");
+  let W = 0, H = 0, dpr = window.devicePixelRatio || 1;
+  let tr = d3.zoomIdentity, trT = d3.zoomIdentity;          // tr：画面上的镜头；trT：d3.zoom 给的目标
+  let vn = [], ve = [], presentN = new Set(), presentE = new Set(), adj = new Map();
+  const drawN = new Set(), drawE = new Set(), linkOf = new Map();   // drawN/drawE 含正在淡出的
+  let hover = null, dragging = null, legend = null, matches = new Set(), now = 0;
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let breath = !reduce, flowMode = reduce ? "off" : "focus";
+  $("#breath").checked = breath; $("#flow").value = flowMode;
+  graphHas = n => presentN.has(n);
+  setMatches = s => { matches = s; };
+
+  let PAL = {};
+  refreshPal = () => {
+    PAL = {ink:css("--ink"), hl:css("--hl"), maple:css("--maple"), gold:css("--gold"), grey:css("--grey"), font:css("--f-body")};
+    for (const k of Object.keys(NTYPE)) PAL["n_"+k] = css(NTYPE[k].c);
+    for (const t in ecat) PAL["e_"+t] = css(ecat[t].c);
+  };
+  refreshPal();
+
+  nodes.forEach(n => { n._p1 = Math.random()*6.283; n._p2 = Math.random()*6.283; n._w = 0.6 + Math.random()*0.8; n._a = 0; n._s = 1; });
+  // 呼吸：每个节点一个相位不同的慢正弦推力，均值为 0，不会把布局推散
+  function drift(){
+    let ns = [];
+    const f = () => { if (!breath) return; const t = now*0.001;
+      for (const n of ns) { if (n.fx!=null) continue; n.vx += 0.022*Math.sin(t*0.55*n._w + n._p1); n.vy += 0.022*Math.cos(t*0.47*n._w + n._p2); } };
+    f.initialize = x => ns = x; return f;
+  }
+  const BASE_AT = 0.012;
+  const sim = d3.forceSimulation().alphaDecay(0.022).alphaTarget(BASE_AT).velocityDecay(0.36)
+    .force("charge", d3.forceManyBody().strength(-38).distanceMax(420).theta(0.95))
+    .force("link", d3.forceLink().id(d => d.id).distance(l => l.type==="produces" ? 30 : 55).strength(0.25))
+    .force("x", d3.forceX().strength(0.04)).force("y", d3.forceY().strength(0.04))
+    .force("collide", d3.forceCollide(d => rad(d) + 2))
+    .force("drift", drift())
+    .stop();                                                 // 不用 d3 自带的计时器，由下面的 rAF 循环驱动
+  const kick = a => sim.alpha(Math.max(sim.alpha(), a));
+  function rad(n){ return n.type==="technique" ? 9 : 3 + Math.sqrt(deg.get(n.id)) * 0.9; }
+
+  resize = () => { const r = stage.getBoundingClientRect(); W = r.width; H = r.height; dpr = window.devicePixelRatio || 1; cv.width = W*dpr; cv.height = H*dpr; };
+
+  rebuild = (heat = 0.5) => {
+    let es = edges.filter(e => edgeOn.has(e.type) && typeOn.has(byId.get(e.from).type) && typeOn.has(byId.get(e.to).type));
+    let keep;
+    if (mode==="ego" && selected) {
+      es = es.filter(e => e.from===selected.id || e.to===selected.id);
+      keep = new Set([selected.id]); es.forEach(e => {keep.add(e.from); keep.add(e.to);});
+    } else if ($("#hideIso").checked) {
+      keep = new Set(); es.forEach(e => {keep.add(e.from); keep.add(e.to);});
+      if (selected) keep.add(selected.id);
+    } else keep = new Set(nodes.filter(n => typeOn.has(n.type)).map(n => n.id));
+    vn = nodes.filter(n => keep.has(n.id));
+    // 新出现的节点从已在场的邻居身边"长出来"，而不是从原点飞过来
+    for (const n of vn) if (!drawN.has(n)) {
+      const nb = out.get(n.id).map(e => byId.get(e.to)).concat(inn.get(n.id).map(e => byId.get(e.from)))
+        .find(m => keep.has(m.id) && drawN.has(m) && m.x!=null);
+      if (nb) { n.x = nb.x + (Math.random()-.5)*24; n.y = nb.y + (Math.random()-.5)*24; n.vx = n.vy = 0; }
+    }
+    ve = es.map(e => { let l = linkOf.get(e); if (!l) { l = {source:e.from, target:e.to, type:e.type, e, _a:0, _ph:Math.random()}; linkOf.set(e, l); } return l; });
+    presentN = new Set(vn); presentE = new Set(ve);
+    vn.forEach(n => drawN.add(n)); ve.forEach(l => drawE.add(l));
+    sim.nodes(vn); sim.force("link").links(ve);
+    adj = new Map(vn.map(n => [n.id, new Set()]));
+    ve.forEach(l => { adj.get(l.source.id).add(l.target.id); adj.get(l.target.id).add(l.source.id); });
+    $("#modeTag").textContent = (mode==="ego" && selected ? `只看「${selected.label}」及邻居` : "全图") + ` · ${vn.length} 节点 / ${ve.length} 边`;
+    kick(heat);
+  };
+
+  // ---------- 每帧 ----------
+  function focusNode(){
+    if (dragging && presentN.has(dragging)) return dragging;
+    if (hover && presentN.has(hover)) return hover;
+    if (selected && presentN.has(selected)) return selected;
+    return null;
+  }
+  function frame(t){
+    requestAnimationFrame(frame);
+    now = t;
+    if (pane.hidden || !W) return;
+    // 镜头平滑追随：线性插值 (x, y, k) 能保持鼠标下那一点不动，所以滚轮缩放仍以鼠标为中心
+    const s = 0.3;
+    tr = (Math.abs(tr.k-trT.k) < 1e-4 && Math.abs(tr.x-trT.x) < 0.05 && Math.abs(tr.y-trT.y) < 0.05) ? trT
+       : new d3.ZoomTransform(tr.k + (trT.k-tr.k)*s, tr.x + (trT.x-tr.x)*s, tr.y + (trT.y-tr.y)*s);
+    if (vn.length) sim.tick();
+    render(t);
+  }
+
+  function render(t){
+    ctx.setTransform(dpr,0,0,dpr,0,0); ctx.clearRect(0,0,W,H);
+    ctx.translate(W/2 + tr.x, H/2 + tr.y); ctx.scale(tr.k, tr.k);
+    const sk = Math.sqrt(tr.k), pad = 30/tr.k;
+    const x0 = (-W/2 - tr.x)/tr.k - pad, x1 = (W/2 - tr.x)/tr.k + pad, y0 = (-H/2 - tr.y)/tr.k - pad, y1 = (H/2 - tr.y)/tr.k + pad;
+    const inView = n => n.x > x0 && n.x < x1 && n.y > y0 && n.y < y1;
+    const f = focusNode(), nb = f ? adj.get(f.id) : null;
+    const lg = !f && legend ? legend : null;                 // 悬停图例：只看那一类
+    const nodeImp = n => f ? (n===f || nb.has(n.id)) : lg ? lg.node(n) : true;
+    const dimming = !!(f || lg);
+
+    // 边：普通边按（类型, 透明度档）合批；高亮边单独画、带箭头
+    const buckets = new Map(), hot = [];
+    for (const l of drawE) {
+      const pres = presentE.has(l);
+      const on = pres && (f ? (l.source===f || l.target===f) : lg ? lg.edge(l) : false);
+      const tgt = !pres ? 0 : on ? 0.9 : dimming ? 0.04 : 0.22;
+      l._a += (tgt - l._a) * 0.12;
+      if (!pres && l._a < 0.008) { drawE.delete(l); continue; }
+      const a = l.source, b = l.target;
+      if ((a.x<x0&&b.x<x0) || (a.x>x1&&b.x>x1) || (a.y<y0&&b.y<y0) || (a.y>y1&&b.y>y1)) { if (on) hot.push(l); continue; }
+      if (on) { hot.push(l); continue; }
+      if (l._a < 0.008) continue;
+      const key = l.type + "|" + Math.round(l._a*40);
+      let bk = buckets.get(key); if (!bk) buckets.set(key, bk = []); bk.push(l);
+    }
+    ctx.lineWidth = 0.8/sk;
+    for (const [key, arr] of buckets) {
+      const i = key.indexOf("|");
+      ctx.globalAlpha = +key.slice(i+1)/40; ctx.strokeStyle = PAL["e_"+key.slice(0,i)] || PAL.grey;
+      ctx.beginPath(); for (const l of arr) { ctx.moveTo(l.source.x, l.source.y); ctx.lineTo(l.target.x, l.target.y); } ctx.stroke();
+    }
+    for (const l of hot) {
+      const c = PAL["e_"+l.type] || PAL.grey, a = l.source, b = l.target;
+      ctx.globalAlpha = l._a; ctx.strokeStyle = c; ctx.fillStyle = c; ctx.lineWidth = 1.6/sk;
+      ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke();
+      const dx = b.x-a.x, dy = b.y-a.y, d = Math.hypot(dx,dy)||1, r = rad(b)*b._s + 2, ex = b.x - dx/d*r, ey = b.y - dy/d*r, z = 5/sk;
+      ctx.beginPath(); ctx.moveTo(ex,ey);
+      ctx.lineTo(ex - dx/d*z - dy/d*z*0.6, ey - dy/d*z + dx/d*z*0.6); ctx.lineTo(ex - dx/d*z + dy/d*z*0.6, ey - dy/d*z - dx/d*z*0.6); ctx.fill();
+    }
+
+    // 流光：沿边方向（from → to）移动的小光点
+    if (flowMode!=="off") {
+      const list = flowMode==="all" ? [...presentE].filter(l => l._a > 0.03) : hot;
+      const byC = new Map(), pr = 2.1/sk, sec = t/1000;
+      for (const l of list) {
+        const a = l.source, b = l.target, d = Math.hypot(b.x-a.x, b.y-a.y); if (d < 4) continue;
+        if ((a.x<x0&&b.x<x0) || (a.x>x1&&b.x>x1) || (a.y<y0&&b.y<y0) || (a.y>y1&&b.y>y1)) continue;
+        const k = flowMode==="all" && !hot.includes(l) ? 1 : Math.min(4, 1 + (d/70|0));
+        const c = PAL["e_"+l.type] || PAL.grey; let arr = byC.get(c); if (!arr) byC.set(c, arr = []);
+        for (let i = 0; i < k; i++) { const p = (sec*55/d + l._ph + i/k) % 1; arr.push(a.x + (b.x-a.x)*p, a.y + (b.y-a.y)*p); }
+      }
+      const strong = flowMode!=="all" || dimming;
+      for (const [c, arr] of byC) {
+        ctx.fillStyle = c;
+        ctx.globalAlpha = strong ? 0.25 : 0.12; ctx.beginPath();
+        for (let i = 0; i < arr.length; i += 2) { ctx.moveTo(arr[i] + pr*2.4, arr[i+1]); ctx.arc(arr[i], arr[i+1], pr*2.4, 0, 6.283); } ctx.fill();
+        ctx.globalAlpha = strong ? 1 : 0.6; ctx.beginPath();
+        for (let i = 0; i < arr.length; i += 2) { ctx.moveTo(arr[i] + pr, arr[i+1]); ctx.arc(arr[i], arr[i+1], pr, 0, 6.283); } ctx.fill();
+      }
+    }
+
+    // 节点：透明度与大小都插值（悬停的节点放大一点）
+    for (const n of drawN) {
+      const pres = presentN.has(n);
+      const tgt = !pres ? 0 : (dimming && !nodeImp(n)) ? 0.15 : 1;
+      n._a += (tgt - n._a) * 0.12;
+      n._s += (((n===hover || n===dragging) ? 1.55 : 1) - n._s) * 0.2;
+      if (!pres && n._a < 0.01) { drawN.delete(n); continue; }
+      if (!inView(n)) continue;
+      const r = rad(n) * n._s;
+      ctx.globalAlpha = n._a; ctx.fillStyle = PAL["n_"+n.type] || PAL.grey; ctx.beginPath();
+      if (n.type==="technique") { ctx.moveTo(n.x, n.y-r); ctx.lineTo(n.x+r, n.y); ctx.lineTo(n.x, n.y+r); ctx.lineTo(n.x-r, n.y); ctx.closePath(); }
+      else ctx.arc(n.x, n.y, r, 0, 6.283);
+      ctx.fill();
+      if (n===selected || n===hover) { ctx.lineWidth = 2/tr.k; ctx.strokeStyle = PAL.ink; ctx.stroke(); }
+    }
+    // 选中节点的脉冲圈 + 搜索命中的金色圈
+    const ring = (n, col, period, grow, alpha) => {
+      if (!presentN.has(n) || !inView(n)) return;
+      const ph = (t % period) / period, r = rad(n)*n._s + 3/sk + ph*grow/sk;
+      ctx.globalAlpha = (1-ph) * alpha; ctx.strokeStyle = col; ctx.lineWidth = 1.8/sk;
+      ctx.beginPath(); ctx.arc(n.x, n.y, r, 0, 6.283); ctx.stroke();
+    };
+    if (selected) ring(selected, PAL.maple, 1700, 18, 0.9);
+    for (const n of matches) { ring(n, PAL.gold, 2200, 12, 0.9); if (presentN.has(n) && inView(n)) { ctx.globalAlpha = 0.9; ctx.strokeStyle = PAL.gold; ctx.lineWidth = 1.5/sk; ctx.beginPath(); ctx.arc(n.x, n.y, rad(n)*n._s + 3/sk, 0, 6.283); ctx.stroke(); } }
+
+    // 标签：英雄 / 手法 / 焦点及邻居常显，放大后全部显示
+    ctx.font = `${12/sk}px ${PAL.font}`; ctx.textBaseline = "middle"; ctx.lineJoin = "round";
+    for (const n of drawN) {
+      if (n._a < 0.3 || !inView(n)) continue;
+      const imp = (f && (n===f || nb.has(n.id))) || n===selected || matches.has(n) || (lg && lg.node(n) && tr.k > 0.9);
+      const show = imp || (!dimming && (n.type==="technique" || (n.type==="hero" && tr.k>0.7) || tr.k>1.8 || deg.get(n.id)>25));
+      if (!show) continue;
+      const x = n.x + rad(n)*n._s + 3/tr.k;
+      ctx.globalAlpha = n._a; ctx.lineWidth = 3/tr.k; ctx.strokeStyle = PAL.hl; ctx.strokeText(n.label, x, n.y);
+      ctx.fillStyle = PAL.ink; ctx.fillText(n.label, x, n.y);
+    }
+    ctx.globalAlpha = 1;
+  }
+
+  // ---------- 交互 ----------
+  const toWorld = (mx, my) => [(mx - W/2 - tr.x)/tr.k, (my - H/2 - tr.y)/tr.k];
+  function pickXY(mx, my){
+    const [x, y] = toWorld(mx, my);
+    let best = null, bd = 1e9;
+    for (const n of vn) { const d = Math.hypot(n.x-x, n.y-y); if (d < rad(n)*n._s + 6/tr.k && d < bd) { bd = d; best = n; } }
+    return best;
+  }
+  const pick = ev => { const [mx, my] = d3.pointer(ev, cv); return pickXY(mx, my); };
+  const zoom = d3.zoom().scaleExtent([0.12, 8]).on("zoom", ev => { trT = ev.transform; });
+  // 拖拽节点：拖动时加热（alphaTarget 0.25），松手回到低温，节点放回模拟
+  const drag = d3.drag().container(cv)
+    .subject(ev => { const n = pickXY(ev.x, ev.y); return n ? {n, x: ev.x, y: ev.y} : null; })
+    .on("start", ev => { const n = ev.subject.n; dragging = n; n.fx = n.x; n.fy = n.y; sim.alphaTarget(0.25); kick(0.3); $("#tip").hidden = true; })
+    .on("drag", ev => { const n = ev.subject.n, [x, y] = toWorld(ev.x, ev.y); n.fx = x; n.fy = y; })
+    .on("end", ev => { const n = ev.subject.n; n.fx = n.fy = null; dragging = null; sim.alphaTarget(BASE_AT); });
+  d3.select(cv).call(drag).call(zoom).on("dblclick.zoom", null);
+
+  cv.addEventListener("mousemove", ev => {
+    if (dragging) return;
+    const n = pick(ev);
+    if (n!==hover) { hover = n; if (n) kick(0.045); }       // 悬停时轻微加热，网络跟着"动一下"
+    const tip = $("#tip");
+    if (n) { const r = stage.getBoundingClientRect(); tip.hidden = false; tip.style.left = (ev.clientX-r.left+14)+"px"; tip.style.top = (ev.clientY-r.top+14)+"px";
+      tip.textContent = `${n.label} · ${NTYPE[n.type]?.zh||n.type} · ${deg.get(n.id)} 条边`; }
+    else tip.hidden = true;
+    cv.style.cursor = n ? "pointer" : "grab";
+  });
+  cv.addEventListener("mouseleave", () => { $("#tip").hidden = true; hover = null; });
+  cv.addEventListener("click", ev => { const n = pick(ev); selected = n; if (n) showDetail(n); if (mode==="ego") rebuild(0.3); });
+  cv.addEventListener("dblclick", ev => {
+    const n = pick(ev);
+    if (!n) { fitView(); return; }
+    selected = n; showDetail(n); focusOn(n, 2.2);
+  });
+
+  // 镜头飞行：d3 zoom 过渡默认用 interpolateZoom（先拉远再推近的"飞过去"）
+  focusOn = (n, kMin = 1.6) => requestAnimationFrame(() => {
+    if (n.x==null) return;
+    const k = Math.max(trT.k, kMin);
+    d3.select(cv).transition().duration(950).ease(d3.easeCubicInOut).call(zoom.transform, d3.zoomIdentity.translate(-n.x*k, -n.y*k).scale(k));
+  });
+  fitView = (dur = 800) => {
+    if (!vn.length || !W) return;
+    const xs = vn.map(n => n.x), ys = vn.map(n => n.y);
+    const bx0 = Math.min(...xs), bx1 = Math.max(...xs), by0 = Math.min(...ys), by1 = Math.max(...ys);
+    const k = Math.max(0.12, Math.min(2.5, Math.min(W/(bx1-bx0+120), H/(by1-by0+120))));
+    d3.select(cv).transition().duration(dur).ease(d3.easeCubicInOut).call(zoom.transform, d3.zoomIdentity.translate(-(bx0+bx1)/2*k, -(by0+by1)/2*k).scale(k));
+  };
+  $("#m-fit").onclick = () => fitView();
+  $("#breath").onchange = ev => { breath = ev.target.checked; kick(0.05); };
+  $("#flow").onchange = ev => { flowMode = ev.target.value; };
+
+  // 悬停图例：只看那一类节点 / 边（带流光）
+  document.querySelectorAll("[data-nt]").forEach(i => {
+    const lab = i.closest("label"), t = i.dataset.nt;
+    lab.addEventListener("mouseenter", () => { legend = {node: n => n.type===t, edge: l => l.source.type===t || l.target.type===t}; });
+    lab.addEventListener("mouseleave", () => { legend = null; });
+  });
+  document.querySelectorAll("[data-et]").forEach(i => {
+    const lab = i.closest("label"), t = i.dataset.et;
+    lab.addEventListener("mouseenter", () => {
+      const ids = new Set(); for (const l of presentE) if (l.type===t) { ids.add(l.source.id); ids.add(l.target.id); }
+      legend = {node: n => ids.has(n.id), edge: l => l.type===t};
+    });
+    lab.addEventListener("mouseleave", () => { legend = null; });
+  });
+
+  window.addEventListener("resize", resize);
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => refreshPal());
+  resize(); rebuild(1);
+  const ali = byId.get("枫叶舞"); if (ali) { selected = ali; showDetail(ali); }
+  requestAnimationFrame(frame);
+  setTimeout(() => fitView(1100), 1600);                    // 先看一段"展开"，再把整张网收进画面
+}
+function setMode(m){ mode = m; $("#m-all").classList.toggle("on", m==="all"); $("#m-ego").classList.toggle("on", m==="ego"); rebuild(0.6); if (m==="ego") setTimeout(() => fitView(), 500); }
+$("#m-all").onclick = () => setMode("all");
+$("#m-ego").onclick = () => setMode("ego");
+
+// ---------- 手法页 ----------
+const techs = nodes.filter(n => n.type==="technique");
+$("#tgrid").innerHTML = techs.map(n => {
+  const en = inn.get(n.id).filter(e => e.type==="enables").map(e => e.from);
+  const fr = inn.get(n.id).filter(e => e.type==="fits_role");
+  const stc = n.status==="confirmed" ? "var(--jade)" : (n.excluded_by_user ? "var(--grey)" : "var(--gold)");
+  const stz = n.excluded_by_user ? "用户已排除" : ({confirmed:"已确认",uncertain:"不确定",confirmed_with_uncertain_parts:"部分不确定"}[n.status] || n.status || "");
+  return `<article class="tcard"><h3>${esc(n.name)}<span class="st" style="color:${stc}">${esc(stz)}</span></h3>
+    ${en.length ? `<div class="k">启用它的牌</div><div class="chips">${en.map(id => `<span class="chip" data-go="${esc(id)}">${esc(id)}</span>`).join("")}</div>` : ""}
+    ${fr.length ? `<div class="k">卡面点名能填槽的英雄</div><div class="chips">${fr.map(e => `<span class="chip" data-go="${esc(e.from)}">${esc(e.from)}${e.attrs&&e.attrs.role?" → "+esc(e.attrs.role):""}</span>`).join("")}</div>` : ""}
+    ${n.static_candidates ? (() => { const sc = n.static_candidates, hs = Array.isArray(sc) ? sc : (sc.heroes || []);
+      return `<div class="k">静态候选（${hs.length}）</div>${sc.rule ? `<div class="meta">${esc(sc.rule)}</div>` : ""}<div class="chips">${hs.map(id => `<span class="chip" data-go="${esc(id)}">${esc(id)}</span>`).join("")}</div>`; })() : ""}
+    ${techHTML(n)}</article>`;
+}).join("");
+
+// ---------- 理解页 ----------
+const uNodes = nodes.filter(n => n.understanding);
+const uOn = new Set(["effect","talent","equip","lord_skill"]);
+const ut = {}; uNodes.forEach(n => ut[n.type] = (ut[n.type]||0)+1);
+$("#utypes").innerHTML = Object.keys(ut).map(t => `<label class="chk" style="display:inline-flex;margin-right:10px"><input type="checkbox" data-ut="${t}" checked><span class="sw" style="background:var(${NTYPE[t].c})"></span>${NTYPE[t].zh} ${ut[t]}</label>`).join("");
+document.querySelectorAll("[data-ut]").forEach(i => i.onchange = () => {i.checked ? uOn.add(i.dataset.ut) : uOn.delete(i.dataset.ut); renderU();});
+function renderU(){
+  const q = $("#uq").value.trim();
+  const rows = uNodes.filter(n => uOn.has(n.type) && (!q || JSON.stringify([n.id, n.text, n.understanding]).includes(q)));
+  $("#ucount").textContent = `${rows.length} 张`;
+  const arr = v => Array.isArray(v) ? v.map(esc).join("、") : esc(v||"");
+  $("#utb").innerHTML = rows.map(n => { const u = n.understanding;
+    return `<tr><td class="nm" data-go="${esc(n.id)}">${esc(n.id)}<div class="sub">${NTYPE[n.type].zh}${n.quality?" · "+n.quality+" 阶":""}</div></td>
+      <td>${esc(u.effect)}${u.uncertain?`<div class="sub unc">不确定：${esc(u.uncertain)}</div>`:""}</td><td>${esc(u.targeting)}</td><td>${arr(u.depends_on)}</td>
+      <td>${u.useless_when?`<div>${esc(u.useless_when)}</div>`:""}${u.misuse?`<div class="sub">误用：${esc(u.misuse)}</div>`:""}</td>
+      <td>${u.value_formula?`<span class="formula">${esc(u.value_formula)}</span>`:""}</td></tr>`; }).join("");
+}
+$("#uq").oninput = renderU; renderU();
+
+// ---------- 边类型页 ----------
+$("#etb").innerHTML = ECAT.map(([n,c,ts]) => ts.map((t,i) => `<tr>${i===0?`<td rowspan="${ts.length}" style="font-weight:600">${n}</td>`:""}
+  <td><span class="sw ln" style="background:var(${c});display:inline-block;margin-right:6px;vertical-align:3px"></span>${ETZH[t]}<div class="sub"><code>${t}</code></div></td>
+  <td class="num">${ecount[t]||0}</td><td>${esc(G.edge_types[t])}</td></tr>`).join("")).join("");
+
+// ---------- 链接直达：card_graph.html#卡名 打开时直接选中这张卡（2026-10-26） ----------
+const goHash = () => { const id = decodeURIComponent(location.hash.slice(1)); if (id && byId.has(id)) setTimeout(() => goTo(id), 400); };
+window.addEventListener("hashchange", goHash); goHash();
+})();
+</script>
+</body>
+</html>
