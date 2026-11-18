@@ -163,7 +163,10 @@ class CGNetModel:
         man = json.loads((deploy_dir / "manifest.json").read_text(encoding="utf-8"))
         self.manifest = man
         self.kinds = frozenset(man.get("kinds") or ["carry", "swap"])
-        gpath = PROJECT_DIR / man["graph"]
+        # 优先用部署包自带的冻结图谱；没有时才回到清单里记录的训练目录路径（发布版只带部署包，不带训练目录）
+        gpath = deploy_dir / "card_graph_frozen.json"
+        if not gpath.exists():
+            gpath = PROJECT_DIR / man["graph"].replace("\\", "/")
         # **图谱必须是训练时那一版**（第 42 局：图谱子代理往 data/card_graph.json 加新边类型，关系通道 90→91+，
         # 每题 IndexError 退回 Laya）。部署包里放冻结副本，md5 对不上就拒绝加载。
         import hashlib
